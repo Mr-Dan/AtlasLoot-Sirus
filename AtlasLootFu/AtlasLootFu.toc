@@ -1,0 +1,24 @@
+﻿## Interface: 30300
+## Title: AtlasLootFu
+## Notes: Minimap button for AtlasLoot
+## Title-zhTW: |r|cFF0099FF[地圖]|rAL 小地圖按鍵
+## Notes-zhTW: AtlasLoot 小地圖按鍵
+## Author: Днюша
+## Version: v.25.02.20 AtlasLoot Sirus
+## X-eMail: https://forum.sirus.su/threads/atlasloot-sirus.86804/
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: https://forum.sirus.su/threads/atlasloot-sirus.86804/
+## X-Embeds: Ace2, FuBarPlugin-2.0, TabletLib
+## SavedVariables: AtlasLootFuDB
+## Dependencies: AtlasLoot
+## OptionalDeps: Ace2, FuBarPlugin-2.0, TabletLib, FuBar
+## X-Curse-Packaged-Version: 02.1.20 by Copperfield, Sanguinius, Mysterium,Днюша
+## X-Curse-Project-Name: Atlasloot Enhanced
+## X-Curse-Project-ID: atlasloot-enhanced
+## X-Curse-Repository-ID: wow/atlasloot-enhanced/mainline
+
+embeds.xml
+
+Locales.lua
+AtlasLootFu.lua
