@@ -8,6 +8,7 @@ AtlasLootVersionsList[5] = "20.03.20"
 AtlasLootVersionsList[6] = "24.03.20"
 AtlasLootVersionsList[7] = "26.05.20"
 AtlasLootVersionsList[8] = "16.11.20"
+AtlasLootVersionsList[9] = "24.12.20"
 
 
 local GREY = "|cff999999";
@@ -117,12 +118,20 @@ text:SetText(WHITE..
 "- Обновлен список маунтов .".."\n\n"
 )
 
+elseif x == 9 then
+text:SetText(WHITE..
+"- Обновлен лут с ЗС Хм.".."\n\n"..
+"- Добавлены новые маунты в ЗС гер.".."\n\n"..
+"- Добавлен новый маунт за достижение На волне! .".."\n\n"..
+"- Добавлена интеграция с аддоном Auctionator .".."\n\n"
+)
+
 end
 end
 
-AtlasLootChangelogText(8)
+AtlasLootChangelogText(9)
 
-local chooseversion = "16.11.20"
+local chooseversion = "24.12.20"
 
 local dropDown = CreateFrame("FRAME", "ChangelogDropDown", AtlasLoot_ChangelogFrame, "UIDropDownMenuTemplate")
 dropDown:SetPoint("TOP", 10, -10)

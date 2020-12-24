@@ -479,7 +479,9 @@ end
 	AtlasLoot_TableNames["CFRSerpentKarathressHEROIC"] = { BabbleBoss["Fathom-Lord Karathress"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["CFRSerpentMorogrimHEROIC"] = { BabbleBoss["Morogrim Tidewalker"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["CFRSerpentLeotherasHEROIC"] = { BabbleBoss["Leotheras the Blind"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["CFRSerpentLurkerHEROIC"] = { BabbleBoss["The Lurker Below"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["CFRSerpentLurkerHEROIC"] = { BabbleBoss["Gore'lats"], "AtlasLootBurningCrusade" };
+	--AtlasLoot_TableNames["CFRSerpentLurkerHEROIC"] = { BabbleBoss["The Lurker Below"], "AtlasLootBurningCrusade" };
+	--AtlasLoot_TableNames["CFRSerpentGorelatsHEROIC"] = { BabbleBoss["Gore'lats"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["CFRSerpentVashjHEROIC"] = { BabbleBoss["Lady Vashj"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["CFRSerpentTrashHEROIC"] = { AL["Trash Mobs"].." ("..BabbleZone["Serpentshrine Cavern"]..")", "AtlasLootBurningCrusade" };
 -- CFR: Serpentshrine Cavern Normal

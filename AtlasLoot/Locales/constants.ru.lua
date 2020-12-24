@@ -22,6 +22,12 @@ if AL then
     AL["Select Loot Table"] = "Таблица добычи";
     AL["Select Sub-Table"] = "Выбор Под-Таблицы";
     AL["Drop Rate: "] = "Шанс выпада: ";
+	AL["Auction"] = "Аукцион: ";
+	AL["Vendor2"] = "Торговец "
+	AL["BOPVendor2"] = "Торговец: ПпП"
+	AL["BOPAuction"] = "Аукцион: ПпП"
+	AL["Disenchant"] = "Распыление "
+	AL["BOPDisenchant"] = "Распыление: Неизвестно"
     AL["DKP"] = "ДКП";
     AL["Priority:"] = "Приоритет:";
     AL["Click boss name to view loot."] = "Кликните по имени босса для просмотра трофеев.модификации";
@@ -86,7 +92,7 @@ if AL then
 	AL["Boss7"] = "F-Reaper 8000 TX";
 	AL["LordKrimor"] = "Лорд Кримор";
 	AL["MillenniumRoulette"] = "Рулетка Тысячелетия";
-	AL["MillenniumRoulettex2"] = "Рулетка Тысячелетия x2/x1 сервер";
+	AL["MillenniumRoulettex2"] = "Рулетка Тысячелетия x2 сервер";
 	AL["MillenniumRoulettex1"] = "Рулетка Тысячелетия x3 сервер";
 	AL["MillenniumRouletteStat"] = "Рулетка Тысячелетия - Статистика";
 	AL["MillenniumRouletteStatSession"] = "Рулетка Тысячелетия - Статистика(Сессия)";
@@ -638,12 +644,12 @@ if AL then
 	AL["A Tribute to Immortality"] = "Дань бессмертию";
 	AL["Low Level"] = "Низкого уровня";
 	AL["High Level"] = "Высокого уровня";
-	AL["Weapons a10"] = "Оружие 10 сезона арены x2 мир";
-	AL["Weapons a9"] = "Оружие 9 сезона арены x2 мир";
-	AL["Weapons a8"] = "Оружие 8 сезона арены x1/x2 мир";
-	AL["Weapons a7"] = "Оружие 7 сезона арены x1/x2 мир";
-	AL["Weapons a6"] = "Оружие 6 сезона арены x1 мир";
-	AL["Weapons a5"] = "Оружие 5 сезона ареныx x1 мир";
+	AL["Weapons a10"] = "Оружие 10 сезона арены ";
+	AL["Weapons a9"] = "Оружие 9 сезона арены ";
+	AL["Weapons a8"] = "Оружие 8 сезона арены ";
+	AL["Weapons a7"] = "Оружие 7 сезона арены ";
+	AL["Weapons a6"] = "Оружие 6 сезона арены ";
+	AL["Weapons a5"] = "Оружие 5 сезона ареныx ";
 	
 	-- Loot Table Names
     AL["Scholomance Sets"] = "Комплекты Некроситета";
@@ -1363,15 +1369,15 @@ if AL then
 	
 	-- Arena Tier
 
-	AL["arenaset5"] = "Экипировка 5 сезона арены x1мир";
-	AL["arenaset6"] = "Экипировка 6 сезона арены x1мир";
-	AL["arenaset7"] = "Экипировка 7 сезона арены x1/x2 миры";
-	AL["arenaset8x1"] = "Экипировка 8 сезона арены x1 мир";
-	AL["arenaset8x2"] = "Экипировка 8 сезона арены x2 мир";
-	AL["arenaset8"] = "Экипировка 8 сезона арены x1/x2 миры";
+	AL["arenaset5"] = "Экипировка 5 сезона арены ";
+	AL["arenaset6"] = "Экипировка 6 сезона арены ";
+	AL["arenaset7"] = "Экипировка 7 сезона арены ";
+	AL["arenaset8x1"] = "Экипировка 8 сезона арены ";
+	AL["arenaset8x2"] = "Экипировка 8 сезона арены ";
+	AL["arenaset8"] = "Экипировка 8 сезона арены ";
 	
-	AL["arenaset9"] = "Экипировка 9 сезона арены x2 мир";
-	AL["arenaset10"] = "Экипировка 10 сезона арены x2 мир";
+	AL["arenaset9"] = "Экипировка 9 сезона арены ";
+	AL["arenaset10"] = "Экипировка 10 сезона арены ";
 	
 	AL["arenaset05"] = "5 сезона арены";
 	AL["arenaset06"] = "6 сезона арены";
