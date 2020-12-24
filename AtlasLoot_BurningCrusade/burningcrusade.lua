@@ -1303,7 +1303,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 2, 65056, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", "", "18%"};
 		{ 3, 65069, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", "", "17%"};
 		{ 4, 65083, "", "=q4=Poison Protocol Pauldrons", "=ds=#s3#, #a2#", "", "16%"};
-		{ 5, 65068, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", "", "19%"};
+		{ 5, 71113, "", "=q4=Наручи укротителя стихий", "=ds=#s8#, #a3#", "", "19%"};
 		{ 6, 65084, "", "=q4=Voltage Source Chestguard", "=ds=#s5#, #a3#", "", "18%"};
 		{ 7, 65115, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", "", "21%"};
 		{ 8, 65027, "", "=q4=Pauldrons of the Apocalypse", "=ds=#s3#, #a4#", "", "16%"};
