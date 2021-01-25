@@ -7898,7 +7898,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		------------------
 		--- Armor Sets ---
 		------------------
-AtlasLoot_Data["PvP80DeathKnight"] = {
+AtlasLoot_Data["PvP80DeathKnight_x2"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset5#", ""};
 		{ 2, 40817, "", "=q3=Savage Gladiator's Dreadplate Helm", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 40857, "", "=q3=Savage Gladiator's Dreadplate Shoulders", "=ds=", "150 #pvevalorpoints#"};
@@ -7906,11 +7906,11 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 40799, "", "=q3=Savage Gladiator's Dreadplate Gauntlets", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 40837, "", "=q3=Savage Gladiator's Dreadplate Legguards", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset5#", ""};
-		{ 9, 40824, "", "=q4=Deadly Gladiator's Dreadplate Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 40863, "", "=q4=Deadly Gladiator's Dreadplate Shoulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 40784, "", "=q4=Deadly Gladiator's Dreadplate Chestpiece", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 40806, "", "=q4=Deadly Gladiator's Dreadplate Gauntlets", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 40845, "", "=q4=Deadly Gladiator's Dreadplate Legguards", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 40824, "", "=q4=Deadly Gladiator's Dreadplate Helm", "=ds=", "#s1#"};
+		{ 10, 40863, "", "=q4=Deadly Gladiator's Dreadplate Shoulders", "=ds=#s3#", ""};
+		{ 11, 40784, "", "=q4=Deadly Gladiator's Dreadplate Chestpiece", "=ds=#s5#", ""};
+		{ 12, 40806, "", "=q4=Deadly Gladiator's Dreadplate Gauntlets", "=ds=#s9#", ""};
+		{ 13, 40845, "", "=q4=Deadly Gladiator's Dreadplate Legguards", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset5#", ""};
 		{ 17, 40820, "", "=q4=Hateful Gladiator's Dreadplate Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 40860, "", "=q4=Hateful Gladiator's Dreadplate Shoulders", "=ds=", "450 #pvevalorpoints#"};
@@ -7927,13 +7927,70 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 	
-	AtlasLoot_Data["PvP80DeathKnight2"] = {
+	AtlasLoot_Data["PvP80DeathKnight_x4"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset5#", ""};
+		{ 2, 40817, "", "=q3=Savage Gladiator's Dreadplate Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 40857, "", "=q3=Savage Gladiator's Dreadplate Shoulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 40779, "", "=q3=Savage Gladiator's Dreadplate Chestpiece", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 40799, "", "=q3=Savage Gladiator's Dreadplate Gauntlets", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 40837, "", "=q3=Savage Gladiator's Dreadplate Legguards", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset5#", ""};
+		{ 9, 40824, "", "=q4=Deadly Gladiator's Dreadplate Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints#"};
+		{ 10, 40863, "", "=q4=Deadly Gladiator's Dreadplate Shoulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints#"};
+		{ 11, 40784, "", "=q4=Deadly Gladiator's Dreadplate Chestpiece", "=ds=", "6400 #bgpoints# или 1600 #arenapoints#"};
+		{ 12, 40806, "", "=q4=Deadly Gladiator's Dreadplate Gauntlets", "=ds=", "6400 #bgpoints# или 1600 #arenapoints#"};
+		{ 13, 40845, "", "=q4=Deadly Gladiator's Dreadplate Legguards", "=ds=", "6400 #bgpoints# или 1600 #arenapoints#"};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset5#", ""};
+		{ 17, 40820, "", "=q4=Hateful Gladiator's Dreadplate Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 40860, "", "=q4=Hateful Gladiator's Dreadplate Shoulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 40781, "", "=q4=Hateful Gladiator's Dreadplate Chestpiece", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 40803, "", "=q4=Hateful Gladiator's Dreadplate Gauntlets", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 40841, "", "=q4=Hateful Gladiator's Dreadplate Legguards", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset6#", ""};
+		{ 24, 40827, "", "=q4=Furious Gladiator's Dreadplate Helm", "=ds=", "#s1#"};
+		{ 25, 40868, "", "=q4=Furious Gladiator's Dreadplate Shoulders", "=ds=", "#s3#"};
+		{ 26, 40787, "", "=q4=Furious Gladiator's Dreadplate Chestpiece", "=ds=", "#s5#"};
+		{ 27, 40809, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds=", "#s9#"};
+		{ 28, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds=", "#s11#"};
+		Next = "PvP80DeathKnight2";
+		Back = "LEVEL80PVPSETS";
+	};
+	
+	AtlasLoot_Data["PvP80DeathKnight2_x2"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset7#", ""};
-		{ 2, 40830, "", "=q4=Relentless Gladiator's Dreadplate Helm", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 40871, "", "=q4=Relentless Gladiator's Dreadplate Shoulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 40791, "", "=q4=Relentless Gladiator's Dreadplate Chestpiece", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 40830, "", "=q4=Relentless Gladiator's Dreadplate Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 40871, "", "=q4=Relentless Gladiator's Dreadplate Shoulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 40791, "", "=q4=Relentless Gladiator's Dreadplate Chestpiece", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset9#", ""};
+		{ 9, 103069, "", "=q4=Brutal Gladiator's Plate Helm", "=ds=#s1#", ""};
+		{ 10, 103072, "", "=q4=Brutal Gladiator's Plate Shoulders", "=ds=#s3#", ""};
+		{ 11, 103067, "", "=q4=Brutal Gladiator's Plate Chestpiece", "=ds=#s5#", ""};
+		{ 12, 103068, "", "=q4=Brutal Gladiator's Plate Gauntlets", "=ds=#s9#", ""};
+		{ 13, 103070, "", "=q4=Brutal Gladiator's Plate Legguards", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset8#", ""};
+		{ 17, 51415, "", "=q4=Wrathful Gladiator's Dreadplate Helm", "=ds=#s1#", ""};
+		{ 18, 51418, "", "=q4=Wrathful Gladiator's Dreadplate Shoulders", "=ds=#s3#", ""};
+		{ 19, 51413, "", "=q4=Wrathful Gladiator's Dreadplate Chestpiece", "=ds=#s5#", ""};
+		{ 20, 51414, "", "=q4=Wrathful Gladiator's Dreadplate Gauntlets", "=ds=#s9#", ""};
+		{ 21, 51416, "", "=q4=Wrathful Gladiator's Dreadplate Legguards", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset10#", ""};
+		{ 24, 103269, "", "=q4=Merciless Gladiator's Dreadplate Helm", "=ds=#s1#", ""};
+		{ 25, 103272, "", "=q4=Merciless Gladiator's Dreadplate Shoulders", "=ds=#s3#", ""};
+		{ 26, 103267, "", "=q4=Merciless Gladiator's Dreadplate Chestpiece", "=ds=#s5#", ""};
+		{ 27, 103268, "", "=q4=Merciless Gladiator's Dreadplate Gauntlets", "=ds=#s9#", ""};
+		{ 28, 103270, "", "=q4=Merciless Gladiator's Dreadplate Legguards", "=ds=#s11#", ""};
+		Prev = "PvP80DeathKnight";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80DeathKnight2_x4"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset7#", ""};
+		{ 2, 40830, "", "=q4=Relentless Gladiator's Dreadplate Helm", "=ds=#s1#", ""};
+		{ 3, 40871, "", "=q4=Relentless Gladiator's Dreadplate Shoulders", "=ds=#s3#", ""};
+		{ 4, 40791, "", "=q4=Relentless Gladiator's Dreadplate Chestpiece", "=ds=#s5#", ""};
+		{ 5, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=#s9#", ""};
+		{ 6, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenaset9#", ""};
 		{ 9, 103069, "", "=q4=Brutal Gladiator's Plate Helm", "=ds=#s1#", ""};
 		{ 10, 103072, "", "=q4=Brutal Gladiator's Plate Shoulders", "=ds=#s3#", ""};
@@ -7956,7 +8013,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80DruidBalance"] = {
+	AtlasLoot_Data["PvP80DruidBalance_x2"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset5#", ""};
 		{ 2, 41324, "", "=q3=Savage Gladiator's Wyrmhide Helm", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 41278, "", "=q3=Savage Gladiator's Wyrmhide Spaulders", "=ds=", "150 #pvevalorpoints#"};
@@ -7964,17 +8021,46 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 41290, "", "=q3=Savage Gladiator's Wyrmhide Gloves", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 41301, "", "=q3=Savage Gladiator's Wyrmhide Legguards", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset5#", ""};
-		{ 9, 41326, "", "=q4=Deadly Gladiator's Wyrmhide Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41280, "", "=q4=Deadly Gladiator's Wyrmhide Spaulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 41315, "", "=q4=Deadly Gladiator's Wyrmhide Robes", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41292, "", "=q4=Deadly Gladiator's Wyrmhide Gloves", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41303, "", "=q4=Deadly Gladiator's Wyrmhide Legguards", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41326, "", "=q4=Deadly Gladiator's Wyrmhide Helm", "=ds=#s1#", ""};
+		{ 10, 41280, "", "=q4=Deadly Gladiator's Wyrmhide Spaulders", "=ds=#s3#", ""};
+		{ 11, 41315, "", "=q4=Deadly Gladiator's Wyrmhide Robes", "=ds=#s5#", ""};
+		{ 12, 41292, "", "=q4=Deadly Gladiator's Wyrmhide Gloves", "=ds=#s9#", ""};
+		{ 13, 41303, "", "=q4=Deadly Gladiator's Wyrmhide Legguards", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset5#", ""};
 		{ 17, 41325, "", "=q4=Hateful Gladiator's Wyrmhide Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41279, "", "=q4=Hateful Gladiator's Wyrmhide Spaulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 41314, "", "=q4=Hateful Gladiator's Wyrmhide Robes", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 41291, "", "=q4=Hateful Gladiator's Wyrmhide Gloves", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41302, "", "=q4=Hateful Gladiator's Wyrmhide Legguards", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset6#", ""};
+		{ 24, 41327, "", "=q4=Furious Gladiator's Wyrmhide Helm", "=ds=#s1#", ""};
+		{ 25, 41281, "", "=q4=Furious Gladiator's Wyrmhide Spaulders", "=ds=#s3#", ""};
+		{ 26, 41316, "", "=q4=Furious Gladiator's Wyrmhide Robes", "=ds=#s5#", ""};
+		{ 27, 41293, "", "=q4=Furious Gladiator's Wyrmhide Gloves", "=ds=#s9#", ""};
+		{ 28, 41304, "", "=q4=Furious Gladiator's Wyrmhide Legguards", "=ds=#s11#", ""};
+		Next = "PvP80DruidBalance2";
+		Back = "LEVEL80PVPSETS";
+	};
+
+		AtlasLoot_Data["PvP80DruidBalance_x4"] = {
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset5#", ""};
+		{ 2, 41324, "", "=q3=Savage Gladiator's Wyrmhide Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41278, "", "=q3=Savage Gladiator's Wyrmhide Spaulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 41313, "", "=q3=Savage Gladiator's Wyrmhide Robes", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 41290, "", "=q3=Savage Gladiator's Wyrmhide Gloves", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41301, "", "=q3=Savage Gladiator's Wyrmhide Legguards", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset5#", ""};
+		{ 9, 41326, "", "=q4=Deadly Gladiator's Wyrmhide Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41280, "", "=q4=Deadly Gladiator's Wyrmhide Spaulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 41315, "", "=q4=Deadly Gladiator's Wyrmhide Robes", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41292, "", "=q4=Deadly Gladiator's Wyrmhide Gloves", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41303, "", "=q4=Deadly Gladiator's Wyrmhide Legguards", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset5#", ""};
+		{ 17, 41325, "", "=q4=Hateful Gladiator's Wyrmhide Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41279, "", "=q4=Hateful Gladiator's Wyrmhide Spaulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 41314, "", "=q4=Hateful Gladiator's Wyrmhide Robes", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 41291, "", "=q4=Hateful Gladiator's Wyrmhide Gloves", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41302, "", "=q4=Hateful Gladiator's Wyrmhide Legguards", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset6#", ""};
 		{ 24, 41327, "", "=q4=Furious Gladiator's Wyrmhide Helm", "=ds=", "#s1#"};
 		{ 25, 41281, "", "=q4=Furious Gladiator's Wyrmhide Spaulders", "=ds=", "#s3#"};
@@ -7984,14 +8070,43 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Next = "PvP80DruidBalance2";
 		Back = "LEVEL80PVPSETS";
 	};
-
-	AtlasLoot_Data["PvP80DruidBalance2"] = {
+	
+	AtlasLoot_Data["PvP80DruidBalance2_x2"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset7#", ""};
-		{ 2, 41328, "", "=q4=Relentless Gladiator's Wyrmhide Helm", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41282, "", "=q4=Relentless Gladiator's Wyrmhide Spaulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 41317, "", "=q4=Relentless Gladiator's Wyrmhide Robes", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41294, "", "=q4=Relentless Gladiator's Wyrmhide Gloves", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41305, "", "=q4=Relentless Gladiator's Wyrmhide Legguards", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41328, "", "=q4=Relentless Gladiator's Wyrmhide Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41282, "", "=q4=Relentless Gladiator's Wyrmhide Spaulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 41317, "", "=q4=Relentless Gladiator's Wyrmhide Robes", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41294, "", "=q4=Relentless Gladiator's Wyrmhide Gloves", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41305, "", "=q4=Relentless Gladiator's Wyrmhide Legguards", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset9#", ""};
+		{ 9, 103088, "", "=q4=Vengeful Gladiator's Wyrmhide Helm", "=ds=#s1#", ""};
+		{ 10, 103091, "", "=q4=Vengeful Gladiator's Wyrmhide Spaulders", "=ds=#s3#", ""};
+		{ 11, 103086, "", "=q4=Vengeful Gladiator's Wyrmhide Tunic", "=ds=#s5#", ""};
+		{ 12, 103087, "", "=q4=Vengeful Gladiator's Wyrmhide Gloves", "=ds=#s9#", ""};
+		{ 13, 103089, "", "=q4=Vengeful Gladiator's Wyrmhide Legguards", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset8#", ""};
+		{ 17, 51435, "", "=q4=Wrathful Gladiator's Wyrmhide Helm", "=ds=#s1#", ""};
+		{ 18, 51438, "", "=q4=Wrathful Gladiator's Wyrmhide Spaulders", "=ds=#s3#", ""};
+		{ 19, 51433, "", "=q4=Wrathful Gladiator's Wyrmhide Robes", "=ds=#s5#", ""};
+		{ 20, 51434, "", "=q4=Wrathful Gladiator's Wyrmhide Gloves", "=ds=#s9#", ""};
+		{ 21, 51436, "", "=q4=Wrathful Gladiator's Wyrmhide Legguards", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset10#", ""};
+		{ 24, 103288, "", "=q4=Merciless Gladiator's Wyrmhide Helm", "=ds=#s1#", ""};
+		{ 25, 103291, "", "=q4=Merciless Gladiator's Wyrmhide Spaulders", "=ds=#s3#", ""};
+		{ 26, 103286, "", "=q4=Merciless Gladiator's Wyrmhide Robes", "=ds=#s5#", ""};
+		{ 27, 103287, "", "=q4=Merciless Gladiator's Wyrmhide Gloves", "=ds=#s9#", ""};
+		{ 28, 103289, "", "=q4=Merciless Gladiator's Wyrmhide Legguards", "=ds=#s11#", ""};
+		Prev = "PvP80DruidBalance";
+		Back = "LEVEL80PVPSETS";
+	};
+	
+	AtlasLoot_Data["PvP80DruidBalance2_x4"] = {
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset7#", ""};
+		{ 2, 41328, "", "=q4=Relentless Gladiator's Wyrmhide Helm", "=ds=#s1#", ""};
+		{ 3, 41282, "", "=q4=Relentless Gladiator's Wyrmhide Spaulders", "=ds=#s3#", ""};
+		{ 4, 41317, "", "=q4=Relentless Gladiator's Wyrmhide Robes", "=ds=#s5#", ""};
+		{ 5, 41294, "", "=q4=Relentless Gladiator's Wyrmhide Gloves", "=ds=#s9#", ""};
+		{ 6, 41305, "", "=q4=Relentless Gladiator's Wyrmhide Legguards", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#arenaset9#", ""};
 		{ 9, 103088, "", "=q4=Vengeful Gladiator's Wyrmhide Helm", "=ds=#s1#", ""};
 		{ 10, 103091, "", "=q4=Vengeful Gladiator's Wyrmhide Spaulders", "=ds=#s3#", ""};
@@ -8014,25 +8129,54 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80DruidFeral"] = {
+	AtlasLoot_Data["PvP80DruidFeral_x2"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#arenaset5#", ""};
-		{ 2, 41675, "", "=q3=Savage Gladiator's Dragonhide Helm", "=ds=", "225 #pvevalorpoints#"};
+		{ 2, 41675, "", "=q3=Savage Gladiator's Dragonhide Helm", "=ds=", "225 #pvevalorpoints# "};
 		{ 3, 41712, "", "=q3=Savage Gladiator's Dragonhide Spaulders", "=ds=", "150 #pvevalorpoints#"};
-		{ 4, 41658, "", "=q3=Savage Gladiator's Dragonhide Robes", "=ds=", "225 #pvevalorpoints#"};
+		{ 4, 41658, "", "=q3=Savage Gladiator's Dragonhide Robes", "=ds=", "225 #pvevalorpoints# "};
 		{ 5, 41770, "", "=q3=Savage Gladiator's Dragonhide Gloves", "=ds=", "150 #pvevalorpoints#"};
-		{ 6, 41664, "", "=q3=Savage Gladiator's Dragonhide Legguards", "=ds=", "225 #pvevalorpoints#"};
+		{ 6, 41664, "", "=q3=Savage Gladiator's Dragonhide Legguards", "=ds=", "225 #pvevalorpoints# "};
 		{ 8, 0, "Ability_Druid_Maul", "=q6=#arenaset5#", ""};
-		{ 9, 41677, "", "=q4=Deadly Gladiator's Dragonhide Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41714, "", "=q4=Deadly Gladiator's Dragonhide Spaulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 41660, "", "=q4=Deadly Gladiator's Dragonhide Robes", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41772, "", "=q4=Deadly Gladiator's Dragonhide Gloves", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41666, "", "=q4=Deadly Gladiator's Dragonhide Legguards", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41677, "", "=q4=Deadly Gladiator's Dragonhide Helm", "=ds=#s1#", ""};
+		{ 10, 41714, "", "=q4=Deadly Gladiator's Dragonhide Spaulders", "=ds=#s3#", ""};
+		{ 11, 41660, "", "=q4=Deadly Gladiator's Dragonhide Robes", "=ds=#s5#", ""};
+		{ 12, 41772, "", "=q4=Deadly Gladiator's Dragonhide Gloves", "=ds=#s9#", ""};
+		{ 13, 41666, "", "=q4=Deadly Gladiator's Dragonhide Legguards", "=ds=#s11#", ""};
 		{ 16, 0, "Ability_Druid_Maul", "=q6=#arenaset5#", ""};
 		{ 17, 41676, "", "=q4=Hateful Gladiator's Dragonhide Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41713, "", "=q4=Hateful Gladiator's Dragonhide Spaulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 41659, "", "=q4=Hateful Gladiator's Dragonhide Robes", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 41771, "", "=q4=Hateful Gladiator's Dragonhide Gloves", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41665, "", "=q4=Hateful Gladiator's Dragonhide Legguards", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Ability_Druid_Maul", "=q6=#arenaset6#", ""};
+		{ 24, 41678, "", "=q4=Furious Gladiator's Dragonhide Helm", "=ds=#s1#", ""};
+		{ 25, 41715, "", "=q4=Furious Gladiator's Dragonhide Spaulders", "=ds=#s3#", ""};
+		{ 26, 41661, "", "=q4=Furious Gladiator's Dragonhide Robes", "=ds=#s5#", ""};
+		{ 27, 41773, "", "=q4=Furious Gladiator's Dragonhide Gloves", "=ds=#s9#", ""};
+		{ 28, 41667, "", "=q4=Furious Gladiator's Dragonhide Legguards", "=ds=#s11#", ""};
+		Next = "PvP80DruidFeral2";
+		Back = "LEVEL80PVPSETS";
+	};
+	
+		AtlasLoot_Data["PvP80DruidFeral_x4"] = {
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#arenaset5#", ""};
+		{ 2, 41675, "", "=q3=Savage Gladiator's Dragonhide Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41712, "", "=q3=Savage Gladiator's Dragonhide Spaulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 41658, "", "=q3=Savage Gladiator's Dragonhide Robes", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 41770, "", "=q3=Savage Gladiator's Dragonhide Gloves", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41664, "", "=q3=Savage Gladiator's Dragonhide Legguards", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Ability_Druid_Maul", "=q6=#arenaset5#", ""};
+		{ 9, 41677, "", "=q4=Deadly Gladiator's Dragonhide Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41714, "", "=q4=Deadly Gladiator's Dragonhide Spaulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 41660, "", "=q4=Deadly Gladiator's Dragonhide Robes", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41772, "", "=q4=Deadly Gladiator's Dragonhide Gloves", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41666, "", "=q4=Deadly Gladiator's Dragonhide Legguards", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Ability_Druid_Maul", "=q6=#arenaset5#", ""};
+		{ 17, 41676, "", "=q4=Hateful Gladiator's Dragonhide Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41713, "", "=q4=Hateful Gladiator's Dragonhide Spaulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 41659, "", "=q4=Hateful Gladiator's Dragonhide Robes", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 41771, "", "=q4=Hateful Gladiator's Dragonhide Gloves", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41665, "", "=q4=Hateful Gladiator's Dragonhide Legguards", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Ability_Druid_Maul", "=q6=#arenaset6#", ""};
 		{ 24, 41678, "", "=q4=Furious Gladiator's Dragonhide Helm", "=ds=", "#s1#"};
 		{ 25, 41715, "", "=q4=Furious Gladiator's Dragonhide Spaulders", "=ds=", "#s3#"};
@@ -8043,13 +8187,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80DruidFeral2"] = {
+	AtlasLoot_Data["PvP80DruidFeral2_x2"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#arenaset7#", ""};
-		{ 2, 41679, "", "=q4=Relentless Gladiator's Dragonhide Helm", "=ds= x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41716, "", "=q4=Relentless Gladiator's Dragonhide Spaulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 41662, "", "=q4=Relentless Gladiator's Dragonhide Robes", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41774, "", "=q4=Relentless Gladiator's Dragonhide Gloves", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41668, "", "=q4=Relentless Gladiator's Dragonhide Legguards", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41679, "", "=q4=Relentless Gladiator's Dragonhide Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41716, "", "=q4=Relentless Gladiator's Dragonhide Spaulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 41662, "", "=q4=Relentless Gladiator's Dragonhide Robes", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41774, "", "=q4=Relentless Gladiator's Dragonhide Gloves", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41668, "", "=q4=Relentless Gladiator's Dragonhide Legguards", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Ability_Druid_Maul", "=q6=#arenaset9#", ""};
+		{ 9, 103081, "", "=q4=Vengeful Gladiator's Dragonhide Helm", "=ds=#s1#", ""};
+		{ 10, 103084, "", "=q4=Vengeful Gladiator's Dragonhide Spaulders", "=ds=#s3#", ""};
+		{ 11, 103079, "", "=q4=Vengeful Gladiator's Dragonhide Tunic", "=ds=#s5#", ""};
+		{ 12, 103080, "", "=q4=Vengeful Gladiator's Dragonhide Gloves", "=ds=#s9#", ""};
+		{ 13, 103082, "", "=q4=Vengeful Gladiator's Dragonhide Legguards", "=ds=#s11#", ""};
+		{ 16, 0, "Ability_Druid_Maul", "=q6=#arenaset8#", ""};
+		{ 17, 51427, "", "=q4=Wrathful Gladiator's Dragonhide Helm", "=ds=#s1#", ""};
+		{ 18, 51430, "", "=q4=Wrathful Gladiator's Dragonhide Spaulders", "=ds=#s3#", ""};
+		{ 19, 51425, "", "=q4=Wrathful Gladiator's Dragonhide Robes", "=ds=#s5#", ""};
+		{ 20, 51426, "", "=q4=Wrathful Gladiator's Dragonhide Gloves", "=ds=#s9#", ""};
+		{ 21, 51428, "", "=q4=Wrathful Gladiator's Dragonhide Legguards", "=ds=#s11#", ""};
+		{ 23, 0, "Ability_Druid_Maul", "=q6=#arenaset10#", ""};
+		{ 24, 103281, "", "=q4=Merciless Gladiator's Dragonhide Helm", "=ds=#s1#", ""};
+		{ 25, 103284, "", "=q4=Merciless Gladiator's Dragonhide Spaulders", "=ds=#s3#", ""};
+		{ 26, 103279, "", "=q4=Merciless Gladiator's Dragonhide Tunic", "=ds=#s5#", ""};
+		{ 27, 103280, "", "=q4=Merciless Gladiator's Dragonhide Gloves", "=ds=#s9#", ""};
+		{ 28, 103282, "", "=q4=Merciless Gladiator's Dragonhide Legguards", "=ds=#s11#", ""};
+		Prev = "PvP80DruidFeral";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80DruidFeral2_x4"] = {
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#arenaset7#", ""};
+		{ 2, 41679, "", "=q4=Relentless Gladiator's Dragonhide Helm", "=ds=#s1#", ""};
+		{ 3, 41716, "", "=q4=Relentless Gladiator's Dragonhide Spaulders", "=ds=#s3#", ""};
+		{ 4, 41662, "", "=q4=Relentless Gladiator's Dragonhide Robes", "=ds=#s5#", ""};
+		{ 5, 41774, "", "=q4=Relentless Gladiator's Dragonhide Gloves", "=ds=#s9#", ""};
+		{ 6, 41668, "", "=q4=Relentless Gladiator's Dragonhide Legguards", "=ds=#s11#", ""};
 		{ 8, 0, "Ability_Druid_Maul", "=q6=#arenaset9#", ""};
 		{ 9, 103081, "", "=q4=Vengeful Gladiator's Dragonhide Helm", "=ds=#s1#", ""};
 		{ 10, 103084, "", "=q4=Vengeful Gladiator's Dragonhide Spaulders", "=ds=#s3#", ""};
@@ -8072,7 +8244,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80DruidRestoration"] = {
+	AtlasLoot_Data["PvP80DruidRestoration_x2"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#arenaset5#", ""};
 		{ 2, 41269, "", "=q3=Savage Gladiator's Kodohide Helm", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 41271, "", "=q3=Savage Gladiator's Kodohide Spaulders", "=ds=", "150 #pvevalorpoints#"};
@@ -8080,17 +8252,46 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 41268, "", "=q3=Savage Gladiator's Kodohide Gloves", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 41270, "", "=q3=Savage Gladiator's Kodohide Legguards", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#arenaset5#", ""};
-		{ 9, 41320, "", "=q4=Deadly Gladiator's Kodohide Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41274, "", "=q4=Deadly Gladiator's Kodohide Spaulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 41309, "", "=q4=Deadly Gladiator's Kodohide Robes", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41286, "", "=q4=Deadly Gladiator's Kodohide Gloves", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41297, "", "=q4=Deadly Gladiator's Kodohide Legguards", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41320, "", "=q4=Deadly Gladiator's Kodohide Helm", "=ds=#s1#", ""};
+		{ 10, 41274, "", "=q4=Deadly Gladiator's Kodohide Spaulders", "=ds=#s3#", ""};
+		{ 11, 41309, "", "=q4=Deadly Gladiator's Kodohide Robes", "=ds=#s5#", ""};
+		{ 12, 41286, "", "=q4=Deadly Gladiator's Kodohide Gloves", "=ds=#s9#", ""};
+		{ 13, 41297, "", "=q4=Deadly Gladiator's Kodohide Legguards", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#arenaset5#", ""};
 		{ 17, 41319, "", "=q4=Hateful Gladiator's Kodohide Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41273, "", "=q4=Hateful Gladiator's Kodohide Spaulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 41308, "", "=q4=Hateful Gladiator's Kodohide Robes", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 41284, "", "=q4=Hateful Gladiator's Kodohide Gloves", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41296, "", "=q4=Hateful Gladiator's Kodohide Legguards", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_Nature_Regeneration", "=q6=#arenaset6#", ""};
+		{ 24, 41321, "", "=q4=Furious Gladiator's Kodohide Helm", "=ds=#s1#", ""};
+		{ 25, 41275, "", "=q4=Furious Gladiator's Kodohide Spaulders", "=ds=#s3#", ""};
+		{ 26, 41310, "", "=q4=Furious Gladiator's Kodohide Robes", "=ds=#s5#", ""};
+		{ 27, 41287, "", "=q4=Furious Gladiator's Kodohide Gloves", "=ds=#s9#", ""};
+		{ 28, 41298, "", "=q4=Furious Gladiator's Kodohide Legguards", "=ds=#s11#", ""};
+		Next = "PvP80DruidRestoration2";
+		Back = "LEVEL80PVPSETS";
+	};
+
+	AtlasLoot_Data["PvP80DruidRestoration_x4"] = {
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#arenaset5#", ""};
+		{ 2, 41269, "", "=q3=Savage Gladiator's Kodohide Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41271, "", "=q3=Savage Gladiator's Kodohide Spaulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 41272, "", "=q3=Savage Gladiator's Kodohide Robes", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 41268, "", "=q3=Savage Gladiator's Kodohide Gloves", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41270, "", "=q3=Savage Gladiator's Kodohide Legguards", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#arenaset5#", ""};
+		{ 9, 41320, "", "=q4=Deadly Gladiator's Kodohide Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41274, "", "=q4=Deadly Gladiator's Kodohide Spaulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 41309, "", "=q4=Deadly Gladiator's Kodohide Robes", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41286, "", "=q4=Deadly Gladiator's Kodohide Gloves", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41297, "", "=q4=Deadly Gladiator's Kodohide Legguards", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#arenaset5#", ""};
+		{ 17, 41319, "", "=q4=Hateful Gladiator's Kodohide Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41273, "", "=q4=Hateful Gladiator's Kodohide Spaulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 41308, "", "=q4=Hateful Gladiator's Kodohide Robes", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 41284, "", "=q4=Hateful Gladiator's Kodohide Gloves", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41296, "", "=q4=Hateful Gladiator's Kodohide Legguards", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_Nature_Regeneration", "=q6=#arenaset6#", ""};
 		{ 24, 41321, "", "=q4=Furious Gladiator's Kodohide Helm", "=ds=", "#s1#"};
 		{ 25, 41275, "", "=q4=Furious Gladiator's Kodohide Spaulders", "=ds=", "#s3#"};
@@ -8099,18 +8300,44 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 28, 41298, "", "=q4=Furious Gladiator's Kodohide Legguards", "=ds=", "#s11#"};
 		Next = "PvP80DruidRestoration2";
 		Back = "LEVEL80PVPSETS";
-	};
-
-	
+	}
 			
 
-	AtlasLoot_Data["PvP80DruidRestoration2"] = {
+	AtlasLoot_Data["PvP80DruidRestoration2_x2"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#arenaset7#", ""};
-		{ 2, 41322, "", "=q4=Relentless Gladiator's Kodohide Helm", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41276, "", "=q4=Relentless Gladiator's Kodohide Spaulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 41311, "", "=q4=Relentless Gladiator's Kodohide Robes", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41288, "", "=q4=Relentless Gladiator's Kodohide Gloves", "=ds= x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41299, "", "=q4=Relentless Gladiator's Kodohide Legguards", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41322, "", "=q4=Relentless Gladiator's Kodohide Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41276, "", "=q4=Relentless Gladiator's Kodohide Spaulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 41311, "", "=q4=Relentless Gladiator's Kodohide Robes", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41288, "", "=q4=Relentless Gladiator's Kodohide Gloves", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41299, "", "=q4=Relentless Gladiator's Kodohide Legguards", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#arenaset9#", ""};
+		{ 9, 103075, "", "=q4=Vengeful Gladiator's Kodohide Helm", "=ds=#s1#", ""};
+		{ 10, 103078, "", "=q4=Vengeful Gladiator's Kodohide Spaulders", "=ds=#s3#", ""};
+		{ 11, 103073, "", "=q4=Vengeful Gladiator's Kodohide Tunic", "=ds=#s5#", ""};
+		{ 12, 103074, "", "=q4=Vengeful Gladiator's Kodohide Gloves", "=ds=#s9#", ""};
+		{ 13, 103076, "", "=q4=Vengeful Gladiator's Kodohide Legguards", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#arenaset8#", ""};
+		{ 17, 51421, "", "=q4=Wrathful Gladiator's Kodohide Helm", "=ds=#s1#", ""};
+		{ 18, 51424, "", "=q4=Wrathful Gladiator's Kodohide Spaulders", "=ds=#s3#", ""};
+		{ 19, 51419, "", "=q4=Wrathful Gladiator's Kodohide Robes", "=ds=#s5#", ""};
+		{ 20, 51420, "", "=q4=Wrathful Gladiator's Kodohide Gloves", "=ds=#s9#", ""};
+		{ 21, 51422, "", "=q4=Wrathful Gladiator's Kodohide Legguards", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Nature_Regeneration", "=q6=#arenaset10#", ""};
+		{ 24, 103275, "", "=q4=Merciless Gladiator's Kodohide Helm", "=ds=#s1#", ""};
+		{ 25, 103278, "", "=q4=Merciless Gladiator's Kodohide Spaulders", "=ds=#s3#", ""};
+		{ 26, 103273, "", "=q4=Merciless Gladiator's Kodohide Tunic", "=ds=#s5#", ""};
+		{ 27, 103274, "", "=q4=Merciless Gladiator's Kodohide Gloves", "=ds=#s9#", ""};
+		{ 28, 103276, "", "=q4=Merciless Gladiator's Kodohide Legguards", "=ds=#s11#", ""};
+		Prev = "PvP80DruidRestoration";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80DruidRestoration2_x4"] = {
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#arenaset7#", ""};
+		{ 2, 41322, "", "=q4=Relentless Gladiator's Kodohide Helm", "=ds=#s1#", ""};
+		{ 3, 41276, "", "=q4=Relentless Gladiator's Kodohide Spaulders", "=ds=#s3#", ""};
+		{ 4, 41311, "", "=q4=Relentless Gladiator's Kodohide Robes", "=ds=#s5#", ""};
+		{ 5, 41288, "", "=q4=Relentless Gladiator's Kodohide Gloves", "=ds=#s9#", ""};
+		{ 6, 41299, "", "=q4=Relentless Gladiator's Kodohide Legguards", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#arenaset9#", ""};
 		{ 9, 103075, "", "=q4=Vengeful Gladiator's Kodohide Helm", "=ds=#s1#", ""};
 		{ 10, 103078, "", "=q4=Vengeful Gladiator's Kodohide Spaulders", "=ds=#s3#", ""};
@@ -8133,7 +8360,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80Hunter"] = {
+	AtlasLoot_Data["PvP80Hunter_x2"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset5#", ""};
 		{ 2, 41154, "", "=q3=Savage Gladiator's Chain Helm", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 41214, "", "=q3=Savage Gladiator's Chain Spaulders", "=ds=", "150 #pvevalorpoints#"};
@@ -8141,17 +8368,46 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 41140, "", "=q3=Savage Gladiator's Chain Gauntlets", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 41202, "", "=q3=Savage Gladiator's Chain Leggings", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset5#", ""};
-		{ 9, 41156, "", "=q4=Deadly Gladiator's Chain Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41216, "", "=q4=Deadly Gladiator's Chain Spaulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 41086, "", "=q4=Deadly Gladiator's Chain Armor", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41142, "", "=q4=Deadly Gladiator's Chain Gauntlets", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41204, "", "=q4=Deadly Gladiator's Chain Leggings", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41156, "", "=q4=Deadly Gladiator's Chain Helm", "=ds=#s1#", ""};
+		{ 10, 41216, "", "=q4=Deadly Gladiator's Chain Spaulders", "=ds=#s3#", ""};
+		{ 11, 41086, "", "=q4=Deadly Gladiator's Chain Armor", "=ds=#s5#", ""};
+		{ 12, 41142, "", "=q4=Deadly Gladiator's Chain Gauntlets", "=ds=#s9#", ""};
+		{ 13, 41204, "", "=q4=Deadly Gladiator's Chain Leggings", "=ds=#s11#", ""};
 		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset5#", ""};
 		{ 17, 41155, "", "=q4=Hateful Gladiator's Chain Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41215, "", "=q4=Hateful Gladiator's Chain Spaulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 41085, "", "=q4=Hateful Gladiator's Chain Armor", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 41141, "", "=q4=Hateful Gladiator's Chain Gauntlets", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41203, "", "=q4=Hateful Gladiator's Chain Leggings", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset6#", ""};
+		{ 24, 41157, "", "=q4=Furious Gladiator's Chain Helm", "=ds=#s1#", ""};
+		{ 25, 41217, "", "=q4=Furious Gladiator's Chain Spaulders", "=ds=#s3#", ""};
+		{ 26, 41087, "", "=q4=Furious Gladiator's Chain Armor", "=ds=#s5#", ""};
+		{ 27, 41143, "", "=q4=Furious Gladiator's Chain Gauntlets", "=ds=#s9#", ""};
+		{ 28, 41205, "", "=q4=Furious Gladiator's Chain Leggings", "=ds=#s11#", ""};
+		Next = "PvP80Hunter2";
+		Back = "LEVEL80PVPSETS";
+	};
+	
+		AtlasLoot_Data["PvP80Hunter_x4"] = {
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset5#", ""};
+		{ 2, 41154, "", "=q3=Savage Gladiator's Chain Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41214, "", "=q3=Savage Gladiator's Chain Spaulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 41084, "", "=q3=Savage Gladiator's Chain Armor", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 41140, "", "=q3=Savage Gladiator's Chain Gauntlets", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41202, "", "=q3=Savage Gladiator's Chain Leggings", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset5#", ""};
+		{ 9, 41156, "", "=q4=Deadly Gladiator's Chain Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41216, "", "=q4=Deadly Gladiator's Chain Spaulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 41086, "", "=q4=Deadly Gladiator's Chain Armor", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41142, "", "=q4=Deadly Gladiator's Chain Gauntlets", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41204, "", "=q4=Deadly Gladiator's Chain Leggings", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset5#", ""};
+		{ 17, 41155, "", "=q4=Hateful Gladiator's Chain Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41215, "", "=q4=Hateful Gladiator's Chain Spaulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 41085, "", "=q4=Hateful Gladiator's Chain Armor", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 41141, "", "=q4=Hateful Gladiator's Chain Gauntlets", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41203, "", "=q4=Hateful Gladiator's Chain Leggings", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset6#", ""};
 		{ 24, 41157, "", "=q4=Furious Gladiator's Chain Helm", "=ds=", "#s1#"};
 		{ 25, 41217, "", "=q4=Furious Gladiator's Chain Spaulders", "=ds=", "#s3#"};
@@ -8162,13 +8418,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80Hunter2"] = {
+	AtlasLoot_Data["PvP80Hunter2_x2"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset7#", ""};
-		{ 2, 41158, "", "=q4=Relentless Gladiator's Chain Helm", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41218, "", "=q4=Relentless Gladiator's Chain Spaulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 41088, "", "=q4=Relentless Gladiator's Chain Armor", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41144, "", "=q4=Relentless Gladiator's Chain Gauntlets", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41206, "", "=q4=Relentless Gladiator's Chain Leggings", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41158, "", "=q4=Relentless Gladiator's Chain Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41218, "", "=q4=Relentless Gladiator's Chain Spaulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 41088, "", "=q4=Relentless Gladiator's Chain Armor", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41144, "", "=q4=Relentless Gladiator's Chain Gauntlets", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41206, "", "=q4=Relentless Gladiator's Chain Leggings", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset9#", ""};
+		{ 9, 103105, "", "=q4=Vengeful Gladiator's Chain Helm", "=ds=#s1#", ""};
+		{ 10, 103107, "", "=q4=Vengeful Gladiator's Chain Spaulders", "=ds=#s3#", ""};
+		{ 11, 103103, "", "=q4=Vengeful Gladiator's Chain Armor", "=ds=#s5#", ""};
+		{ 12, 103104, "", "=q4=Vengeful Gladiator's Chain Gauntlets", "=ds=#s9#", ""};
+		{ 13, 103106, "", "=q4=Vengeful Gladiator's Chain Leggings", "=ds=#s11#", ""};
+		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset8#", ""};
+		{ 17, 51460, "", "=q4=Wrathful Gladiator's Chain Helm", "=ds=#s1#", ""};
+		{ 18, 51462, "", "=q4=Wrathful Gladiator's Chain Spaulders", "=ds=#s3#", ""};
+		{ 19, 51458, "", "=q4=Wrathful Gladiator's Chain Armor", "=ds=#s5#", ""};
+		{ 20, 51459, "", "=q4=Wrathful Gladiator's Chain Gauntlets", "=ds=#s9#", ""};
+		{ 21, 51461, "", "=q4=Wrathful Gladiator's Chain Leggings", "=ds=#s11#", ""};
+		{ 23, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset10#", ""};
+		{ 24, 103305, "", "=q4=Merciless Gladiator's Chain Helm", "=ds=#s1#", ""};
+		{ 25, 103307, "", "=q4=Merciless Gladiator's Chain Spaulders", "=ds=#s3#", ""};
+		{ 26, 103303, "", "=q4=Merciless Gladiator's Chain Armor", "=ds=#s5#", ""};
+		{ 27, 103304, "", "=q4=Merciless Gladiator's Chain Gauntlets", "=ds=#s9#", ""};
+		{ 28, 103306, "", "=q4=Merciless Gladiator's Chain Leggings", "=ds=#s11#", ""};
+		Prev = "PvP80Hunter";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80Hunter2_x4"] = {
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset7#", ""};
+		{ 2, 41158, "", "=q4=Relentless Gladiator's Chain Helm", "=ds=#s1#", ""};
+		{ 3, 41218, "", "=q4=Relentless Gladiator's Chain Spaulders", "=ds=#s3#", ""};
+		{ 4, 41088, "", "=q4=Relentless Gladiator's Chain Armor", "=ds=#s5#", ""};
+		{ 5, 41144, "", "=q4=Relentless Gladiator's Chain Gauntlets", "=ds=#s9#", ""};
+		{ 6, 41206, "", "=q4=Relentless Gladiator's Chain Leggings", "=ds=#s11#", ""};
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#arenaset9#", ""};
 		{ 9, 103105, "", "=q4=Vengeful Gladiator's Chain Helm", "=ds=#s1#", ""};
 		{ 10, 103107, "", "=q4=Vengeful Gladiator's Chain Spaulders", "=ds=#s3#", ""};
@@ -8191,7 +8475,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80Mage"] = {
+	AtlasLoot_Data["PvP80Mage_x2"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#arenaset5#", ""};
 		{ 2, 41943, "", "=q3=Savage Gladiator's Silk Cowl", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 41962, "", "=q3=Savage Gladiator's Silk Amice", "=ds=", "150 #pvevalorpoints#"};
@@ -8199,17 +8483,46 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 41968, "", "=q3=Savage Gladiator's Silk Handguards", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 41956, "", "=q3=Savage Gladiator's Silk", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#arenaset5#", ""};
-		{ 9, 41945, "", "=q4=Deadly Gladiator's Silk Cowl", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41964, "", "=q4=Deadly Gladiator's Silk Amice", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 41951, "", "=q4=Deadly Gladiator's Silk Raiment", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41970, "", "=q4=Deadly Gladiator's Silk Handguards", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41958, "", "=q4=Deadly Gladiator's Silk Trousers", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41945, "", "=q4=Deadly Gladiator's Silk Cowl", "=ds=#s1#", ""};
+		{ 10, 41964, "", "=q4=Deadly Gladiator's Silk Amice", "=ds=#s3#", ""};
+		{ 11, 41951, "", "=q4=Deadly Gladiator's Silk Raiment", "=ds=#s5#", ""};
+		{ 12, 41970, "", "=q4=Deadly Gladiator's Silk Handguards", "=ds=#s9#", ""};
+		{ 13, 41958, "", "=q4=Deadly Gladiator's Silk Trousers", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#arenaset5#", ""};
 		{ 17, 41944, "", "=q4=Hateful Gladiator's Silk Cowl", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41963, "", "=q4=Hateful Gladiator's Silk Amice", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 41950, "", "=q4=Hateful Gladiator's Silk Raiment", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 41969, "", "=q4=Hateful Gladiator's Silk Handguards", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41957, "", "=q4=Hateful Gladiator's Silk Trousers", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_Frost_IceStorm", "=q6=#arenaset6#", ""};
+		{ 24, 41946, "", "=q4=Furious Gladiator's Silk Cowl", "=ds=#s1#", ""};
+		{ 25, 41965, "", "=q4=Furious Gladiator's Silk Amice", "=ds=#s3#", ""};
+		{ 26, 41953, "", "=q4=Furious Gladiator's Silk Raiment", "=ds=#s5#", ""};
+		{ 27, 41971, "", "=q4=Furious Gladiator's Silk Handguards", "=ds=#s9#", ""};
+		{ 28, 41959, "", "=q4=Furious Gladiator's Silk Trousers", "=ds=#s11#", ""};
+		Next = "PvP80Mage2";
+		Back = "LEVEL80PVPSETS";
+	};
+	
+	AtlasLoot_Data["PvP80Mage_x4"] = {
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#arenaset5#", ""};
+		{ 2, 41943, "", "=q3=Savage Gladiator's Silk Cowl", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41962, "", "=q3=Savage Gladiator's Silk Amice", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 41949, "", "=q3=Savage Gladiator's Silk Raiment", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 41968, "", "=q3=Savage Gladiator's Silk Handguards", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41956, "", "=q3=Savage Gladiator's Silk", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#arenaset5#", ""};
+		{ 9, 41945, "", "=q4=Deadly Gladiator's Silk Cowl", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41964, "", "=q4=Deadly Gladiator's Silk Amice", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 41951, "", "=q4=Deadly Gladiator's Silk Raiment", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41970, "", "=q4=Deadly Gladiator's Silk Handguards", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41958, "", "=q4=Deadly Gladiator's Silk Trousers", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#arenaset5#", ""};
+		{ 17, 41944, "", "=q4=Hateful Gladiator's Silk Cowl", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41963, "", "=q4=Hateful Gladiator's Silk Amice", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 41950, "", "=q4=Hateful Gladiator's Silk Raiment", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 41969, "", "=q4=Hateful Gladiator's Silk Handguards", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41957, "", "=q4=Hateful Gladiator's Silk Trousers", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_Frost_IceStorm", "=q6=#arenaset6#", ""};
 		{ 24, 41946, "", "=q4=Furious Gladiator's Silk Cowl", "=ds=", "#s1#"};
 		{ 25, 41965, "", "=q4=Furious Gladiator's Silk Amice", "=ds=", "#s3#"};
@@ -8220,13 +8533,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80Mage2"] = {
+	AtlasLoot_Data["PvP80Mage2_x2"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#arenaset7#", ""};
-		{ 2, 41947, "", "=q4=Relentless Gladiator's Silk Cowl", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41966, "", "=q4=Relentless Gladiator's Silk Amice", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 41954, "", "=q4=Relentless Gladiator's Silk Raiment", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41972, "", "=q4=Relentless Gladiator's Silk Handguards", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41960, "", "=q4=Relentless Gladiator's Silk Trousers", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41947, "", "=q4=Relentless Gladiator's Silk Cowl", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41966, "", "=q4=Relentless Gladiator's Silk Amice", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 41954, "", "=q4=Relentless Gladiator's Silk Raiment", "=ds= 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41972, "", "=q4=Relentless Gladiator's Silk Handguards", "=ds= 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41960, "", "=q4=Relentless Gladiator's Silk Trousers", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#arenaset9#", ""};
+		{ 9, 103110, "", "=q4=Vengeful Gladiator's Silk Cowl", "=ds=#s1#", ""};
+		{ 10, 103112, "", "=q4=Vengeful Gladiator's Silk Amice", "=ds=#s3#", ""};
+		{ 11, 103108, "", "=q4=Vengeful Gladiator's Silk Raiment", "=ds=#s5#", ""};
+		{ 12, 103109, "", "=q4=Vengeful Gladiator's Silk Handguards", "=ds=#s9#", ""};
+		{ 13, 103111, "", "=q4=Vengeful Gladiator's Silk Trousers", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#arenaset8#", ""};
+		{ 17, 51465, "", "=q4=Wrathful Gladiator's Silk Cowl", "=ds=#s1#", ""};
+		{ 18, 51467, "", "=q4=Wrathful Gladiator's Silk Amice", "=ds=#s3#", ""};
+		{ 19, 51463, "", "=q4=Wrathful Gladiator's Silk Raiment", "=ds=#s5#", ""};
+		{ 20, 51464, "", "=q4=Wrathful Gladiator's Silk Handguards", "=ds=#s9#", ""};
+		{ 21, 51466, "", "=q4=Wrathful Gladiator's Silk Trousers", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Frost_IceStorm", "=q6=#arenaset10#", ""};
+		{ 24, 103310, "", "=q4=Merciless Gladiator's Silk Cowl", "=ds=#s1#", ""};
+		{ 25, 103312, "", "=q4=Merciless Gladiator's Silk Amice", "=ds=#s3#", ""};
+		{ 26, 103308, "", "=q4=Merciless Gladiator's Silk Raiment", "=ds=#s5#", ""};
+		{ 27, 103309, "", "=q4=Merciless Gladiator's Silk Handguards", "=ds=#s9#", ""};
+		{ 28, 103311, "", "=q4=Merciless Gladiator's Silk Trousers", "=ds=#s11#", ""};
+		Prev = "PvP80Mage";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80Mage2_x4"] = {
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#arenaset7#", ""};
+		{ 2, 41947, "", "=q4=Relentless Gladiator's Silk Cowl", "=ds=#s1#", ""};
+		{ 3, 41966, "", "=q4=Relentless Gladiator's Silk Amice", "=ds=#s3#", ""};
+		{ 4, 41954, "", "=q4=Relentless Gladiator's Silk Raiment", "=ds=#s5#", ""};
+		{ 5, 41972, "", "=q4=Relentless Gladiator's Silk Handguards", "=ds=#s9#", ""};
+		{ 6, 41960, "", "=q4=Relentless Gladiator's Silk Trousers", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#arenaset9#", ""};
 		{ 9, 103110, "", "=q4=Vengeful Gladiator's Silk Cowl", "=ds=#s1#", ""};
 		{ 10, 103112, "", "=q4=Vengeful Gladiator's Silk Amice", "=ds=#s3#", ""};
@@ -8249,7 +8590,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80PaladinRetribution"] = {
+	AtlasLoot_Data["PvP80PaladinRetribution_x2"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset5#", ""};
 		{ 2, 40818, "", "=q3=Savage Gladiator's Scaled Helm", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 40858, "", "=q3=Savage Gladiator's Scaled Shoulders", "=ds=", "150 #pvevalorpoints#"};
@@ -8257,17 +8598,45 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 40798, "", "=q3=Savage Gladiator's Scaled Gauntlets", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 40838, "", "=q3=Savage Gladiator's Scaled Legguards", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset5#", ""};
-		{ 9, 40825, "", "=q4=Deadly Gladiator's Scaled Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 40864, "", "=q4=Deadly Gladiator's Scaled Shoulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 40785, "", "=q4=Deadly Gladiator's Scaled Chestpiece", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 40825, "", "=q4=Deadly Gladiator's Scaled Helm", "=ds=#s1#", ""};
+		{ 10, 40864, "", "=q4=Deadly Gladiator's Scaled Shoulders", "=ds=#s3#", ""};
+		{ 11, 40785, "", "=q4=Deadly Gladiator's Scaled Chestpiece", "=ds=#s5#", ""};
+		{ 12, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds=#s9#", ""};
+		{ 13, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset5#", ""};
 		{ 17, 40821, "", "=q4=Hateful Gladiator's Scaled Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 40861, "", "=q4=Hateful Gladiator's Scaled Shoulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 40782, "", "=q4=Hateful Gladiator's Scaled Chestpiece", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 40802, "", "=q4=Hateful Gladiator's Scaled Gauntlets", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 40842, "", "=q4=Hateful Gladiator's Scaled Legguards", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset6#", ""};
+		{ 24, 40828, "", "=q4=Furious Gladiator's Scaled Helm", "=ds=#s1#", ""};
+		{ 25, 40869, "", "=q4=Furious Gladiator's Scaled Shoulders", "=ds=#s3#", ""};
+		{ 26, 40788, "", "=q4=Furious Gladiator's Scaled Chestpiece", "=ds=#s5#", ""};
+		{ 27, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=#s9#", ""};
+		{ 28, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=#s11#", ""};
+		Next = "PvP80PaladinRetribution2";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80PaladinRetribution_x4"] = {
+		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset5#", ""};
+		{ 2, 40818, "", "=q3=Savage Gladiator's Scaled Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 40858, "", "=q3=Savage Gladiator's Scaled Shoulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 40780, "", "=q3=Savage Gladiator's Scaled Chestpiece", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 40798, "", "=q3=Savage Gladiator's Scaled Gauntlets", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 40838, "", "=q3=Savage Gladiator's Scaled Legguards", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset5#", ""};
+		{ 9, 40825, "", "=q4=Deadly Gladiator's Scaled Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 40864, "", "=q4=Deadly Gladiator's Scaled Shoulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 40785, "", "=q4=Deadly Gladiator's Scaled Chestpiece", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset5#", ""};
+		{ 17, 40821, "", "=q4=Hateful Gladiator's Scaled Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 40861, "", "=q4=Hateful Gladiator's Scaled Shoulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 40782, "", "=q4=Hateful Gladiator's Scaled Chestpiece", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 40802, "", "=q4=Hateful Gladiator's Scaled Gauntlets", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 40842, "", "=q4=Hateful Gladiator's Scaled Legguards", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset6#", ""};
 		{ 24, 40828, "", "=q4=Furious Gladiator's Scaled Helm", "=ds=", "#s1#"};
 		{ 25, 40869, "", "=q4=Furious Gladiator's Scaled Shoulders", "=ds=", "#s3#"};
@@ -8277,14 +8646,42 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Next = "PvP80PaladinRetribution2";
 		Back = "LEVEL80PVPSETS";
 	};
-
-	AtlasLoot_Data["PvP80PaladinRetribution2"] = {
+	
+	AtlasLoot_Data["PvP80PaladinRetribution2_x2"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset7#", ""};
-		{ 2, 40831, "", "=q4=Relentless Gladiator's Scaled Helm", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 40872, "", "=q4=Relentless Gladiator's Scaled Shoulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 40792, "", "=q4=Relentless Gladiator's Scaled Chestpiece", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 40831, "", "=q4=Relentless Gladiator's Scaled Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 40872, "", "=q4=Relentless Gladiator's Scaled Shoulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 40792, "", "=q4=Relentless Gladiator's Scaled Chestpiece", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset9#", ""};
+		{ 9, 103121, "", "=q4=Vengeful Gladiator's Scaled Helm", "=ds=#s1#", ""};
+		{ 10, 103124, "", "=q4=Vengeful Gladiator's Scaled Shoulders", "=ds=#s3#", ""};
+		{ 11, 103119, "", "=q4=Vengeful Gladiator's Scaled Chestpiece", "=ds=#s5#", ""};
+		{ 12, 103120, "", "=q4=Vengeful Gladiator's Scaled Gauntlets", "=ds=#s9#", ""};
+		{ 13, 103122, "", "=q4=Vengeful Gladiator's Scaled Legguards", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset8#", ""};
+		{ 17, 51476, "", "=q4=Wrathful Gladiator's Scaled Helm", "=ds=#s1#", ""};
+		{ 18, 51479, "", "=q4=Wrathful Gladiator's Scaled Shoulders", "=ds=#s3#", ""};
+		{ 19, 51474, "", "=q4=Wrathful Gladiator's Scaled Chestpiece", "=ds=#s5#", ""};
+		{ 20, 51475, "", "=q4=Wrathful Gladiator's Scaled Gauntlets", "=ds=#s9#", ""};
+		{ 21, 51477, "", "=q4=Wrathful Gladiator's Scaled Legguards", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset10#", ""};
+		{ 24, 103321, "", "=q4=Merciless Gladiator's Scaled Helm", "=ds=#s1#", ""};
+		{ 25, 103324, "", "=q4=Merciless Gladiator's Scaled Shoulders", "=ds=#s3#", ""};
+		{ 26, 103319, "", "=q4=Merciless Gladiator's Scaled Chestpiece", "=ds=#s5#", ""};
+		{ 27, 103320, "", "=q4=Merciless Gladiator's Scaled Gauntlets", "=ds=#s9#", ""};
+		{ 28, 103322, "", "=q4=Merciless Gladiator's Scaled Legguards", "=ds=#s11#", ""};
+		Prev = "PvP80PaladinRetribution";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80PaladinRetribution2_x4"] = {
+		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset7#", ""};
+		{ 2, 40831, "", "=q4=Relentless Gladiator's Scaled Helm", "=ds=#s1#", ""};
+		{ 3, 40872, "", "=q4=Relentless Gladiator's Scaled Shoulders", "=ds=#s3#", ""};
+		{ 4, 40792, "", "=q4=Relentless Gladiator's Scaled Chestpiece", "=ds=#s5#", ""};
+		{ 5, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#", ""};
+		{ 6, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenaset9#", ""};
 		{ 9, 103121, "", "=q4=Vengeful Gladiator's Scaled Helm", "=ds=#s1#", ""};
 		{ 10, 103124, "", "=q4=Vengeful Gladiator's Scaled Shoulders", "=ds=#s3#", ""};
@@ -8307,7 +8704,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80PaladinHoly"] = {
+	AtlasLoot_Data["PvP80PaladinHoly_x2"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset5#", ""};
 		{ 2, 40930, "", "=q3=Savage Gladiator's Ornamented Headcover", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 40960, "", "=q3=Savage Gladiator's Ornamented Spaulders", "=ds=", "150 #pvevalorpoints#"};
@@ -8315,17 +8712,45 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 40918, "", "=q3=Savage Gladiator's Ornamented Gloves", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 40936, "", "=q3=Savage Gladiator's Ornamented Legplates", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset5#", ""};
-		{ 9, 40932, "", "=q4=Deadly Gladiator's Ornamented Headcover", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 40962, "", "=q4=Deadly Gladiator's Ornamented Spaulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 40905, "", "=q4=Deadly Gladiator's Ornamented Chestguard", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 40932, "", "=q4=Deadly Gladiator's Ornamented Headcover", "=ds=#s1#", ""};
+		{ 10, 40962, "", "=q4=Deadly Gladiator's Ornamented Spaulders", "=ds=#s3#", ""};
+		{ 11, 40905, "", "=q4=Deadly Gladiator's Ornamented Chestguard", "=ds=#s5#", ""};
+		{ 12, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds=#s9#", ""};
+		{ 13, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset5#", ""};
 		{ 17, 40931, "", "=q4=Hateful Gladiator's Ornamented Headcover", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 40961, "", "=q4=Hateful Gladiator's Ornamented Spaulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 40904, "", "=q4=Hateful Gladiator's Ornamented Gloves", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 40925, "", "=q4=Hateful Gladiator's Ornamented Chestguard", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 40937, "", "=q4=Hateful Gladiator's Ornamented Legplates", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset6#", ""};
+		{ 24, 40933, "", "=q4=Furious Gladiator's Ornamented Headcover", "=ds=#s1#", ""};
+		{ 25, 40963, "", "=q4=Furious Gladiator's Ornamented Spaulders", "=ds=#s3#", ""};
+		{ 26, 40907, "", "=q4=Furious Gladiator's Ornamented Chestguard", "=ds=#s5#", ""};
+		{ 27, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=#s9#", ""};
+		{ 28, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=#s11#", ""};
+		Next = "PvP80PaladinHoly2";
+		Back = "LEVEL80PVPSETS";
+	};
+		AtlasLoot_Data["PvP80PaladinHoly_x4"] = {
+		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset5#", ""};
+		{ 2, 40930, "", "=q3=Savage Gladiator's Ornamented Headcover", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 40960, "", "=q3=Savage Gladiator's Ornamented Spaulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 40898, "", "=q3=Savage Gladiator's Ornamented Chestguard", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 40918, "", "=q3=Savage Gladiator's Ornamented Gloves", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 40936, "", "=q3=Savage Gladiator's Ornamented Legplates", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset5#", ""};
+		{ 9, 40932, "", "=q4=Deadly Gladiator's Ornamented Headcover", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 40962, "", "=q4=Deadly Gladiator's Ornamented Spaulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 40905, "", "=q4=Deadly Gladiator's Ornamented Chestguard", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset5#", ""};
+		{ 17, 40931, "", "=q4=Hateful Gladiator's Ornamented Headcover", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 40961, "", "=q4=Hateful Gladiator's Ornamented Spaulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 40904, "", "=q4=Hateful Gladiator's Ornamented Gloves", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 40925, "", "=q4=Hateful Gladiator's Ornamented Chestguard", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 40937, "", "=q4=Hateful Gladiator's Ornamented Legplates", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset6#", ""};
 		{ 24, 40933, "", "=q4=Furious Gladiator's Ornamented Headcover", "=ds=", "#s1#"};
 		{ 25, 40963, "", "=q4=Furious Gladiator's Ornamented Spaulders", "=ds=", "#s3#"};
@@ -8336,13 +8761,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80PaladinHoly2"] = {
+	AtlasLoot_Data["PvP80PaladinHoly2_x2"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset7#", ""};
-		{ 2, 40934, "", "=q4=Relentless Gladiator's Ornamented Headcover", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 40964, "", "=q4=Relentless Gladiator's Ornamented Spaulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 40910, "", "=q4=Relentless Gladiator's Ornamented Chestguard", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 40934, "", "=q4=Relentless Gladiator's Ornamented Headcover", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 40964, "", "=q4=Relentless Gladiator's Ornamented Spaulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 40910, "", "=q4=Relentless Gladiator's Ornamented Chestguard", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset9#", ""};
+		{ 9, 103115, "", "=q4=Vengeful Gladiator's Ornamented Headcover", "=ds=#s1#", ""};
+		{ 10, 103118, "", "=q4=Vengeful Gladiator's Ornamented Spaulders", "=ds=#s3#", ""};
+		{ 11, 103113, "", "=q4=Vengeful Gladiator's Ornamented Chestguard", "=ds=#s5#", ""};
+		{ 12, 103114, "", "=q4=Vengeful Gladiator's Ornamented Gloves", "=ds=#s9#", ""};
+		{ 13, 103116, "", "=q4=Vengeful Gladiator's Ornamented Legplates", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset8#", ""};
+		{ 17, 51470, "", "=q4=Wrathful Gladiator's Ornamented Headcover", "=ds=#s1#", ""};
+		{ 18, 51473, "", "=q4=Wrathful Gladiator's Ornamented Spaulders", "=ds=#s3#", ""};
+		{ 19, 51468, "", "=q4=Wrathful Gladiator's Ornamented Chestguard", "=ds=#s5#", ""};
+		{ 20, 51469, "", "=q4=Wrathful Gladiator's Ornamented Gloves", "=ds=#s9#", ""};
+		{ 21, 51471, "", "=q4=Wrathful Gladiator's Ornamented Legplates", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset10#", ""};
+		{ 24, 103315, "", "=q4=Merciless Gladiator's Ornamented Headcover", "=ds=#s1#", ""};
+		{ 25, 103318, "", "=q4=Merciless Gladiator's Ornamented Spaulders", "=ds=#s3#", ""};
+		{ 26, 103313, "", "=q4=Merciless Gladiator's Ornamented Chestguard", "=ds=#s5#", ""};
+		{ 27, 103314, "", "=q4=Merciless Gladiator's Ornamented Gloves", "=ds=#s9#", ""};
+		{ 28, 103316, "", "=q4=Merciless Gladiator's Ornamented Legplates", "=ds=#s11#", ""};
+		Prev = "PvP80PaladinHoly";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80PaladinHoly2_x4"] = {
+		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset7#", ""};
+		{ 2, 40934, "", "=q4=Relentless Gladiator's Ornamented Headcover", "=ds=#s1#", ""};
+		{ 3, 40964, "", "=q4=Relentless Gladiator's Ornamented Spaulders", "=ds=#s3#", ""};
+		{ 4, 40910, "", "=q4=Relentless Gladiator's Ornamented Chestguard", "=ds=#s5#", ""};
+		{ 5, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=#s9#", ""};
+		{ 6, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenaset9#", ""};
 		{ 9, 103115, "", "=q4=Vengeful Gladiator's Ornamented Headcover", "=ds=#s1#", ""};
 		{ 10, 103118, "", "=q4=Vengeful Gladiator's Ornamented Spaulders", "=ds=#s3#", ""};
@@ -8365,7 +8818,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80PriestShadow"] = {
+	AtlasLoot_Data["PvP80PriestShadow_x2"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset5#", ""};
 		{ 2, 41912, "", "=q3=Savage Gladiator's Satin Hood", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 41930, "", "=q3=Savage Gladiator's Satin Mantle", "=ds=", "150 #pvevalorpoints#"};
@@ -8373,17 +8826,45 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 41937, "", "=q3=Savage Gladiator's Satin Gloves", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 41924, "", "=q3=Savage Gladiator's Satin Leggings", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset5#", ""};
-		{ 9, 41914, "", "=q4=Deadly Gladiator's Satin Hood", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41933, "", "=q4=Deadly Gladiator's Satin Mantle", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 41920, "", "=q4=Deadly Gladiator's Satin Robe", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41939, "", "=q4=Deadly Gladiator's Satin Gloves", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41926, "", "=q4=Deadly Gladiator's Satin Leggings", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41914, "", "=q4=Deadly Gladiator's Satin Hood", "=ds=#s1#", ""};
+		{ 10, 41933, "", "=q4=Deadly Gladiator's Satin Mantle", "=ds=#s3#", ""};
+		{ 11, 41920, "", "=q4=Deadly Gladiator's Satin Robe", "=ds=#s5#", ""};
+		{ 12, 41939, "", "=q4=Deadly Gladiator's Satin Gloves", "=ds=#s9#", ""};
+		{ 13, 41926, "", "=q4=Deadly Gladiator's Satin Leggings", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset5#", ""};
 		{ 17, 41913, "", "=q4=Hateful Gladiator's Satin Hood", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41931, "", "=q4=Hateful Gladiator's Satin Mantle", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 41919, "", "=q4=Hateful Gladiator's Satin Robe", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 41938, "", "=q4=Hateful Gladiator's Satin Gloves", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41925, "", "=q4=Hateful Gladiator's Satin Leggings", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset6#", ""};
+		{ 24, 41915, "", "=q4=Furious Gladiator's Satin Hood", "=ds=#s1#", ""};
+		{ 25, 41934, "", "=q4=Furious Gladiator's Satin Mantle", "=ds=#s3#", ""};
+		{ 26, 41921, "", "=q4=Furious Gladiator's Satin Robe", "=ds=#s5#", ""};
+		{ 27, 41940, "", "=q4=Furious Gladiator's Satin Gloves", "=ds=#s9#", ""};
+		{ 28, 41927, "", "=q4=Furious Gladiator's Satin Leggings", "=ds=#s11#", ""};
+		Next = "PvP80PriestShadow2";
+		Back = "LEVEL80PVPSETS";
+	};
+		AtlasLoot_Data["PvP80PriestShadow_x4"] = {
+		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset5#", ""};
+		{ 2, 41912, "", "=q3=Savage Gladiator's Satin Hood", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41930, "", "=q3=Savage Gladiator's Satin Mantle", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 41918, "", "=q3=Savage Gladiator's Satin Robe", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 41937, "", "=q3=Savage Gladiator's Satin Gloves", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41924, "", "=q3=Savage Gladiator's Satin Leggings", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset5#", ""};
+		{ 9, 41914, "", "=q4=Deadly Gladiator's Satin Hood", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41933, "", "=q4=Deadly Gladiator's Satin Mantle", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 41920, "", "=q4=Deadly Gladiator's Satin Robe", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41939, "", "=q4=Deadly Gladiator's Satin Gloves", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41926, "", "=q4=Deadly Gladiator's Satin Leggings", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset5#", ""};
+		{ 17, 41913, "", "=q4=Hateful Gladiator's Satin Hood", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41931, "", "=q4=Hateful Gladiator's Satin Mantle", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 41919, "", "=q4=Hateful Gladiator's Satin Robe", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 41938, "", "=q4=Hateful Gladiator's Satin Gloves", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41925, "", "=q4=Hateful Gladiator's Satin Leggings", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset6#", ""};
 		{ 24, 41915, "", "=q4=Furious Gladiator's Satin Hood", "=ds=", "#s1#"};
 		{ 25, 41934, "", "=q4=Furious Gladiator's Satin Mantle", "=ds=", "#s3#"};
@@ -8394,13 +8875,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80PriestShadow2"] = {
+	AtlasLoot_Data["PvP80PriestShadow2_x2"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset7#", ""};
-		{ 2, 41916, "", "=q4=Relentless Gladiator's Satin Hood", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41935, "", "=q4=Relentless Gladiator's Satin Mantle", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 41922, "", "=q4=Relentless Gladiator's Satin Robe", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41941, "", "=q4=Relentless Gladiator's Satin Gloves", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41928, "", "=q4=Relentless Gladiator's Satin Leggings", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41916, "", "=q4=Relentless Gladiator's Satin Hood", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41935, "", "=q4=Relentless Gladiator's Satin Mantle", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 41922, "", "=q4=Relentless Gladiator's Satin Robe", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41941, "", "=q4=Relentless Gladiator's Satin Gloves", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41928, "", "=q4=Relentless Gladiator's Satin Leggings", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset9#", ""};
+		{ 9, 103133, "", "=q4=Vengeful Gladiator's Satin Hood", "=ds=#s1#", ""};
+		{ 10, 103135, "", "=q4=Vengeful Gladiator's Satin Mantle", "=ds=#s3#", ""};
+		{ 11, 103131, "", "=q4=Vengeful Gladiator's Satin Robe", "=ds=#s5#", ""};
+		{ 12, 103132, "", "=q4=Vengeful Gladiator's Satin Gloves", "=ds=#s9#", ""};
+		{ 13, 103134, "", "=q4=Vengeful Gladiator's Satin Leggings", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset8#", ""};
+		{ 17, 51489, "", "=q4=Wrathful Gladiator's Satin Hood", "=ds=#s1#", ""};
+		{ 18, 51491, "", "=q4=Wrathful Gladiator's Satin Mantle", "=ds=#s3#", ""};
+		{ 19, 51487, "", "=q4=Wrathful Gladiator's Satin Robe", "=ds=#s5#", ""};
+		{ 20, 51488, "", "=q4=Wrathful Gladiator's Satin Gloves", "=ds=#s9#", ""};
+		{ 21, 51490, "", "=q4=Wrathful Gladiator's Satin Leggings", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset10#", ""};
+		{ 24, 103333, "", "=q4=Merciless Gladiator's Satin Hood", "=ds=#s1#", ""};
+		{ 25, 103335, "", "=q4=Merciless Gladiator's Satin Mantle", "=ds=#s3#", ""};
+		{ 26, 103331, "", "=q4=Merciless Gladiator's Satin Robe", "=ds=#s5#", ""};
+		{ 27, 103332, "", "=q4=Merciless Gladiator's Satin Gloves", "=ds=#s9#", ""};
+		{ 28, 103334, "", "=q4=Merciless Gladiator's Satin Leggings", "=ds=#s11#", ""};
+		Prev = "PvP80PriestShadow";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80PriestShadow2_x4"] = {
+		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset7#", ""};
+		{ 2, 41916, "", "=q4=Relentless Gladiator's Satin Hood", "=ds=#s1#", ""};
+		{ 3, 41935, "", "=q4=Relentless Gladiator's Satin Mantle", "=ds=#s3#", ""};
+		{ 4, 41922, "", "=q4=Relentless Gladiator's Satin Robe", "=ds=#s5#", ""};
+		{ 5, 41941, "", "=q4=Relentless Gladiator's Satin Gloves", "=ds=#s9#", ""};
+		{ 6, 41928, "", "=q4=Relentless Gladiator's Satin Leggings", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#arenaset9#", ""};
 		{ 9, 103133, "", "=q4=Vengeful Gladiator's Satin Hood", "=ds=#s1#", ""};
 		{ 10, 103135, "", "=q4=Vengeful Gladiator's Satin Mantle", "=ds=#s3#", ""};
@@ -8423,7 +8932,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80PriestHoly"] = {
+	AtlasLoot_Data["PvP80PriestHoly_x2"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset5#", ""};
 		{ 2, 41848, "", "=q3=Savage Gladiator's Mooncloth Hood", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 41850, "", "=q3=Savage Gladiator's Mooncloth Mantle", "=ds=", "150 #pvevalorpoints#"};
@@ -8431,17 +8940,45 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 41847, "", "=q3=Savage Gladiator's Mooncloth Gloves", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 41849, "", "=q3=Savage Gladiator's Mooncloth Leggings", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset5#", ""};
-		{ 9, 41853, "", "=q4=Deadly Gladiator's Mooncloth Hood", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41868, "", "=q4=Deadly Gladiator's Mooncloth Mantle", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 41858, "", "=q4=Deadly Gladiator's Mooncloth Robe", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41873, "", "=q4=Deadly Gladiator's Mooncloth Gloves", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41863, "", "=q4=Deadly Gladiator's Mooncloth Leggings", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41853, "", "=q4=Deadly Gladiator's Mooncloth Hood", "=ds=#s1#", ""};
+		{ 10, 41868, "", "=q4=Deadly Gladiator's Mooncloth Mantle", "=ds=#s3#", ""};
+		{ 11, 41858, "", "=q4=Deadly Gladiator's Mooncloth Robe", "=ds=#s5#", ""};
+		{ 12, 41873, "", "=q4=Deadly Gladiator's Mooncloth Gloves", "=ds=#s9#", ""};
+		{ 13, 41863, "", "=q4=Deadly Gladiator's Mooncloth Leggings", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset5#", ""};
 		{ 17, 41852, "", "=q4=Hateful Gladiator's Mooncloth Hood", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41867, "", "=q4=Hateful Gladiator's Mooncloth Mantle", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 41857, "", "=q4=Hateful Gladiator's Mooncloth Robe", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 41872, "", "=q4=Hateful Gladiator's Mooncloth Gloves", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41862, "", "=q4=Hateful Gladiator's Mooncloth Leggings", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset6#", ""};
+		{ 24, 41854, "", "=q4=Furious Gladiator's Mooncloth Hood", "=ds=#s1#", ""};
+		{ 25, 41869, "", "=q4=Furious Gladiator's Mooncloth Mantle", "=ds=#s3#", ""};
+		{ 26, 41859, "", "=q4=Furious Gladiator's Mooncloth Robe", "=ds=#s5#", ""};
+		{ 27, 41874, "", "=q4=Furious Gladiator's Mooncloth Gloves", "=ds=#s9#", ""};
+		{ 28, 41864, "", "=q4=Furious Gladiator's Mooncloth Leggings", "=ds=#s11#", ""};
+		Next = "PvP80PriestHoly2";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80PriestHoly_x4"] = {
+		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset5#", ""};
+		{ 2, 41848, "", "=q3=Savage Gladiator's Mooncloth Hood", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41850, "", "=q3=Savage Gladiator's Mooncloth Mantle", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 41851, "", "=q3=Savage Gladiator's Mooncloth Robe", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 41847, "", "=q3=Savage Gladiator's Mooncloth Gloves", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41849, "", "=q3=Savage Gladiator's Mooncloth Leggings", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset5#", ""};
+		{ 9, 41853, "", "=q4=Deadly Gladiator's Mooncloth Hood", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41868, "", "=q4=Deadly Gladiator's Mooncloth Mantle", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 41858, "", "=q4=Deadly Gladiator's Mooncloth Robe", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41873, "", "=q4=Deadly Gladiator's Mooncloth Gloves", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41863, "", "=q4=Deadly Gladiator's Mooncloth Leggings", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset5#", ""};
+		{ 17, 41852, "", "=q4=Hateful Gladiator's Mooncloth Hood", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41867, "", "=q4=Hateful Gladiator's Mooncloth Mantle", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 41857, "", "=q4=Hateful Gladiator's Mooncloth Robe", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 41872, "", "=q4=Hateful Gladiator's Mooncloth Gloves", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41862, "", "=q4=Hateful Gladiator's Mooncloth Leggings", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset6#", ""};
 		{ 24, 41854, "", "=q4=Furious Gladiator's Mooncloth Hood", "=ds=", "#s1#"};
 		{ 25, 41869, "", "=q4=Furious Gladiator's Mooncloth Mantle", "=ds=", "#s3#"};
@@ -8452,13 +8989,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80PriestHoly2"] = {
+	AtlasLoot_Data["PvP80PriestHoly2_x2"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset7#", ""};
-		{ 2, 41855, "", "=q4=Relentless Gladiator's Mooncloth Hood", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41870, "", "=q4=Relentless Gladiator's Mooncloth Mantle", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 41860, "", "=q4=Relentless Gladiator's Mooncloth Robe", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41875, "", "=q4=Relentless Gladiator's Mooncloth Gloves", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41865, "", "=q4=Relentless Gladiator's Mooncloth Leggings", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41855, "", "=q4=Relentless Gladiator's Mooncloth Hood", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41870, "", "=q4=Relentless Gladiator's Mooncloth Mantle", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 41860, "", "=q4=Relentless Gladiator's Mooncloth Robe", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41875, "", "=q4=Relentless Gladiator's Mooncloth Gloves", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41865, "", "=q4=Relentless Gladiator's Mooncloth Leggings", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset9#", ""};
+		{ 9, 103128, "", "=q4=Vengeful Gladiator's Mooncloth Hood", "=ds=#s1#", ""};
+		{ 10, 103130, "", "=q4=Vengeful Gladiator's Mooncloth Mantle", "=ds=#s3#", ""};
+		{ 11, 103126, "", "=q4=Vengeful Gladiator's Mooncloth Robe", "=ds=#s5#", ""};
+		{ 12, 103127, "", "=q4=Vengeful Gladiator's Mooncloth Gloves", "=ds=#s9#", ""};
+		{ 13, 103129, "", "=q4=Vengeful Gladiator's Mooncloth Leggings", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset8#", ""};
+		{ 17, 51484, "", "=q4=Wrathful Gladiator's Mooncloth Hood", "=ds=#s1#", ""};
+		{ 18, 51486, "", "=q4=Wrathful Gladiator's Mooncloth Mantle", "=ds=#s3#", ""};
+		{ 19, 51482, "", "=q4=Wrathful Gladiator's Mooncloth Robe", "=ds=#s5#", ""};
+		{ 20, 51483, "", "=q4=Wrathful Gladiator's Mooncloth Gloves", "=ds=#s9#", ""};
+		{ 21, 51485, "", "=q4=Wrathful Gladiator's Mooncloth Leggings", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset10#", ""};
+		{ 24, 103328, "", "=q4=Merciless Gladiator's Mooncloth Hood", "=ds=#s1#", ""};
+		{ 25, 103330, "", "=q4=Merciless Gladiator's Mooncloth Mantle", "=ds=#s3#", ""};
+		{ 26, 103326, "", "=q4=Merciless Gladiator's Mooncloth Robe", "=ds=#s5#", ""};
+		{ 27, 103327, "", "=q4=Merciless Gladiator's Mooncloth Gloves", "=ds=#s9#", ""};
+		{ 28, 103329, "", "=q4=Merciless Gladiator's Mooncloth Leggings", "=ds=#s11#", ""};
+		Prev = "PvP80PriestHoly";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80PriestHoly2_x4"] = {
+		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset7#", ""};
+		{ 2, 41855, "", "=q4=Relentless Gladiator's Mooncloth Hood", "=ds=#s1#", ""};
+		{ 3, 41870, "", "=q4=Relentless Gladiator's Mooncloth Mantle", "=ds=#s3#", ""};
+		{ 4, 41860, "", "=q4=Relentless Gladiator's Mooncloth Robe", "=ds=#s5#", ""};
+		{ 5, 41875, "", "=q4=Relentless Gladiator's Mooncloth Gloves", "=ds=#s9#", ""};
+		{ 6, 41865, "", "=q4=Relentless Gladiator's Mooncloth Leggings", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#arenaset9#", ""};
 		{ 9, 103128, "", "=q4=Vengeful Gladiator's Mooncloth Hood", "=ds=#s1#", ""};
 		{ 10, 103130, "", "=q4=Vengeful Gladiator's Mooncloth Mantle", "=ds=#s3#", ""};
@@ -8481,7 +9046,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 	
-	AtlasLoot_Data["PvP80Rogue"] = {
+	AtlasLoot_Data["PvP80Rogue_x2"] = {
 		{ 1, 0, "Ability_BackStab", "=q6=#arenaset5#", ""};
 		{ 2, 41644, "", "=q3=Savage Gladiator's Leather Helm", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 41646, "", "=q3=Savage Gladiator's Leather Spaulders", "=ds=", "150 #pvevalorpoints#"};
@@ -8489,17 +9054,45 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 41643, "", "=q3=Savage Gladiator's Leather Gloves", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 41645, "", "=q3=Savage Gladiator's Leather Legguards", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Ability_BackStab", "=q6=#arenaset5#", ""};
-		{ 9, 41671, "", "=q4=Deadly Gladiator's Leather Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41682, "", "=q4=Deadly Gladiator's Leather Spaulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 41649, "", "=q4=Deadly Gladiator's Leather Tunic", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41766, "", "=q4=Deadly Gladiator's Leather Gloves", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41654, "", "=q4=Deadly Gladiator's Leather Legguards", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41671, "", "=q4=Deadly Gladiator's Leather Helm", "=ds=#s1#", ""};
+		{ 10, 41682, "", "=q4=Deadly Gladiator's Leather Spaulders", "=ds=#s3#", ""};
+		{ 11, 41649, "", "=q4=Deadly Gladiator's Leather Tunic", "=ds=#s5#", ""};
+		{ 12, 41766, "", "=q4=Deadly Gladiator's Leather Gloves", "=ds=#s9#", ""};
+		{ 13, 41654, "", "=q4=Deadly Gladiator's Leather Legguards", "=ds=#s11#", ""};
 		{ 16, 0, "Ability_BackStab", "=q6=#arenaset5#", ""};
 		{ 17, 41670, "", "=q4=Hateful Gladiator's Leather Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41681, "", "=q4=Hateful Gladiator's Leather Spaulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 41648, "", "=q4=Hateful Gladiator's Leather Tunic", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 41765, "", "=q4=Hateful Gladiator's Leather Gloves", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41653, "", "=q4=Hateful Gladiator's Leather Legguards", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Ability_BackStab", "=q6=#arenaset6#", ""};
+		{ 24, 41672, "", "=q4=Furious Gladiator's Leather Helm", "=ds=#s1#", ""};
+		{ 25, 41683, "", "=q4=Furious Gladiator's Leather Spaulders", "=ds=#s3#", ""};
+		{ 26, 41650, "", "=q4=Furious Gladiator's Leather Tunic", "=ds=#s5#", ""};
+		{ 27, 41767, "", "=q4=Furious Gladiator's Leather Gloves", "=ds=#s9#", ""};
+		{ 28, 41655, "", "=q4=Furious Gladiator's Leather Legguards", "=ds=#s11#", ""};
+		Next = "PvP80Rogue2";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80Rogue_x4"] = {
+		{ 1, 0, "Ability_BackStab", "=q6=#arenaset5#", ""};
+		{ 2, 41644, "", "=q3=Savage Gladiator's Leather Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41646, "", "=q3=Savage Gladiator's Leather Spaulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 41647, "", "=q3=Savage Gladiator's Leather Tunic", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 41643, "", "=q3=Savage Gladiator's Leather Gloves", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41645, "", "=q3=Savage Gladiator's Leather Legguards", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Ability_BackStab", "=q6=#arenaset5#", ""};
+		{ 9, 41671, "", "=q4=Deadly Gladiator's Leather Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41682, "", "=q4=Deadly Gladiator's Leather Spaulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 41649, "", "=q4=Deadly Gladiator's Leather Tunic", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41766, "", "=q4=Deadly Gladiator's Leather Gloves", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41654, "", "=q4=Deadly Gladiator's Leather Legguards", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Ability_BackStab", "=q6=#arenaset5#", ""};
+		{ 17, 41670, "", "=q4=Hateful Gladiator's Leather Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41681, "", "=q4=Hateful Gladiator's Leather Spaulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 41648, "", "=q4=Hateful Gladiator's Leather Tunic", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 41765, "", "=q4=Hateful Gladiator's Leather Gloves", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41653, "", "=q4=Hateful Gladiator's Leather Legguards", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Ability_BackStab", "=q6=#arenaset6#", ""};
 		{ 24, 41672, "", "=q4=Furious Gladiator's Leather Helm", "=ds=", "#s1#"};
 		{ 25, 41683, "", "=q4=Furious Gladiator's Leather Spaulders", "=ds=", "#s3#"};
@@ -8510,13 +9103,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80Rogue2"] = {
+	AtlasLoot_Data["PvP80Rogue2_x2"] = {
 		{ 1, 0, "Ability_BackStab", "=q6=#arenaset7#", ""};
-		{ 2, 41673, "", "=q4=Relentless Gladiator's Leather Helm", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41684, "", "=q4=Relentless Gladiator's Leather Spaulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 41651, "", "=q4=Relentless Gladiator's Leather Tunic", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41768, "", "=q4=Relentless Gladiator's Leather Gloves", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41656, "", "=q4=Relentless Gladiator's Leather Legguards", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41673, "", "=q4=Relentless Gladiator's Leather Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41684, "", "=q4=Relentless Gladiator's Leather Spaulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 41651, "", "=q4=Relentless Gladiator's Leather Tunic", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41768, "", "=q4=Relentless Gladiator's Leather Gloves", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41656, "", "=q4=Relentless Gladiator's Leather Legguards", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Ability_BackStab", "=q6=#arenaset9#", ""};
+		{ 9, 103138, "", "=q4=Vengeful Gladiator's Leather Helm", "=ds=#s1#", ""};
+		{ 10, 103140, "", "=q4=Vengeful Gladiator's Leather Spaulders", "=ds=#s3#", ""};
+		{ 11, 103136, "", "=q4=Vengeful Gladiator's Leather Tunic", "=ds=#s5#", ""};
+		{ 12, 103137, "", "=q4=Vengeful Gladiator's Leather Gloves", "=ds=#s9#", ""};
+		{ 13, 103139, "", "=q4=Vengeful Gladiator's Leather Legguards", "=ds=#s11#", ""};
+		{ 16, 0, "Ability_BackStab", "=q6=#arenaset8#", ""};
+		{ 17, 51494, "", "=q4=Wrathful Gladiator's Leather Helm", "=ds=#s1#", ""};
+		{ 18, 51496, "", "=q4=Wrathful Gladiator's Leather Spaulders", "=ds=#s3#", ""};
+		{ 19, 51492, "", "=q4=Wrathful Gladiator's Leather Tunic", "=ds=#s5#", ""};
+		{ 20, 51493, "", "=q4=Wrathful Gladiator's Leather Gloves", "=ds=#s9#", ""};
+		{ 21, 51495, "", "=q4=Wrathful Gladiator's Leather Legguards", "=ds=#s11#", ""};
+		{ 23, 0, "Ability_BackStab", "=q6=#arenaset10#", ""};
+		{ 24, 103338, "", "=q4=Merciless Gladiator's Leather Helm", "=ds=#s1#", ""};
+		{ 25, 103340, "", "=q4=Merciless Gladiator's Leather Spaulders", "=ds=#s3#", ""};
+		{ 26, 103336, "", "=q4=Merciless Gladiator's Leather Tunic", "=ds=#s5#", ""};
+		{ 27, 103337, "", "=q4=Merciless Gladiator's Leather Gloves", "=ds=#s9#", ""};
+		{ 28, 103339, "", "=q4=Merciless Gladiator's Leather Legguards", "=ds=#s11#", ""};
+		Prev = "PvP80Rogue";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80Rogue2_x4"] = {
+		{ 1, 0, "Ability_BackStab", "=q6=#arenaset7#", ""};
+		{ 2, 41673, "", "=q4=Relentless Gladiator's Leather Helm", "=ds=#s1#", ""};
+		{ 3, 41684, "", "=q4=Relentless Gladiator's Leather Spaulders", "=ds=#s3#", ""};
+		{ 4, 41651, "", "=q4=Relentless Gladiator's Leather Tunic", "=ds=#s5#", ""};
+		{ 5, 41768, "", "=q4=Relentless Gladiator's Leather Gloves", "=ds=#s9#", ""};
+		{ 6, 41656, "", "=q4=Relentless Gladiator's Leather Legguards", "=ds=#s11#", ""};
 		{ 8, 0, "Ability_BackStab", "=q6=#arenaset9#", ""};
 		{ 9, 103138, "", "=q4=Vengeful Gladiator's Leather Helm", "=ds=#s1#", ""};
 		{ 10, 103140, "", "=q4=Vengeful Gladiator's Leather Spaulders", "=ds=#s3#", ""};
@@ -8539,7 +9160,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80ShamanElemental"] = {
+	AtlasLoot_Data["PvP80ShamanElemental_x2"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenaset5#", ""};
 		{ 2, 41016, "", "=q3=Savage Gladiator's Mail Helm", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 41041, "", "=q3=Savage Gladiator's Mail Spaulders", "=ds=", "150 #pvevalorpoints#"};
@@ -8547,17 +9168,45 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 41004, "", "=q3=Savage Gladiator's Mail Gauntlets", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 41030, "", "=q3=Savage Gladiator's Mail Leggings", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenaset5#", ""};
-		{ 9, 41018, "", "=q4=Deadly Gladiator's Mail Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41043, "", "=q4=Deadly Gladiator's Mail Spaulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 40991, "", "=q4=Deadly Gladiator's Mail Armor", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41006, "", "=q4=Deadly Gladiator's Mail Gauntlets", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41032, "", "=q4=Deadly Gladiator's Mail Leggings", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41018, "", "=q4=Deadly Gladiator's Mail Helm", "=ds=#s1#", ""};
+		{ 10, 41043, "", "=q4=Deadly Gladiator's Mail Spaulders", "=ds=#s3#", ""};
+		{ 11, 40991, "", "=q4=Deadly Gladiator's Mail Armor", "=ds=#s5#", ""};
+		{ 12, 41006, "", "=q4=Deadly Gladiator's Mail Gauntlets", "=ds=#s9#", ""};
+		{ 13, 41032, "", "=q4=Deadly Gladiator's Mail Leggings", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenaset5#", ""};
 		{ 17, 41017, "", "=q4=Hateful Gladiator's Mail Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41042, "", "=q4=Hateful Gladiator's Mail Spaulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 40989, "", "=q4=Hateful Gladiator's Mail Armor", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 41005, "", "=q4=Hateful Gladiator's Mail Gauntlets", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41031, "", "=q4=Hateful Gladiator's Mail Leggings", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_Nature_Lightning", "=q6=#arenaset6#", ""};
+		{ 24, 41019, "", "=q4=Furious Gladiator's Mail Helm", "=ds=#s1#", ""};
+		{ 25, 41044, "", "=q4=Furious Gladiator's Mail Spaulders", "=ds=#s3#", ""};
+		{ 26, 40993, "", "=q4=Furious Gladiator's Mail Armor", "=ds=#s5#", ""};
+		{ 27, 41007, "", "=q4=Furious Gladiator's Mail Gauntlets", "=ds=#s9#", ""};
+		{ 28, 41033, "", "=q4=Furious Gladiator's Mail Leggings", "=ds=#s11#", ""};
+		Next = "PvP80ShamanElemental2";
+		Back = "LEVEL80PVPSETS";
+	};
+		AtlasLoot_Data["PvP80ShamanElemental_x4"] = {
+		{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenaset5#", ""};
+		{ 2, 41016, "", "=q3=Savage Gladiator's Mail Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41041, "", "=q3=Savage Gladiator's Mail Spaulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 40987, "", "=q3=Savage Gladiator's Mail Armor", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 41004, "", "=q3=Savage Gladiator's Mail Gauntlets", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41030, "", "=q3=Savage Gladiator's Mail Leggings", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenaset5#", ""};
+		{ 9, 41018, "", "=q4=Deadly Gladiator's Mail Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41043, "", "=q4=Deadly Gladiator's Mail Spaulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 40991, "", "=q4=Deadly Gladiator's Mail Armor", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41006, "", "=q4=Deadly Gladiator's Mail Gauntlets", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41032, "", "=q4=Deadly Gladiator's Mail Leggings", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenaset5#", ""};
+		{ 17, 41017, "", "=q4=Hateful Gladiator's Mail Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41042, "", "=q4=Hateful Gladiator's Mail Spaulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 40989, "", "=q4=Hateful Gladiator's Mail Armor", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 41005, "", "=q4=Hateful Gladiator's Mail Gauntlets", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41031, "", "=q4=Hateful Gladiator's Mail Leggings", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_Nature_Lightning", "=q6=#arenaset6#", ""};
 		{ 24, 41019, "", "=q4=Furious Gladiator's Mail Helm", "=ds=", "#s1#"};
 		{ 25, 41044, "", "=q4=Furious Gladiator's Mail Spaulders", "=ds=", "#s3#"};
@@ -8568,13 +9217,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80ShamanElemental2"] = {
+	AtlasLoot_Data["PvP80ShamanElemental2_x2"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenaset7#", ""};
-		{ 2, 41020, "", "=q4=Relentless Gladiator's Mail Helm", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41045, "", "=q4=Relentless Gladiator's Mail Spaulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 40995, "", "=q4=Relentless Gladiator's Mail Armor", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41008, "", "=q4=Relentless Gladiator's Mail Gauntlets", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41034, "", "=q4=Relentless Gladiator's Mail Leggings", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41020, "", "=q4=Relentless Gladiator's Mail Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41045, "", "=q4=Relentless Gladiator's Mail Spaulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 40995, "", "=q4=Relentless Gladiator's Mail Armor", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41008, "", "=q4=Relentless Gladiator's Mail Gauntlets", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41034, "", "=q4=Relentless Gladiator's Mail Leggings", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenaset9#", ""};
+		{ 9, 103155, "", "=q4=Vengeful Gladiator's Mail Helm", "=ds=#s1#", ""};
+		{ 10, 103158, "", "=q4=Vengeful Gladiator's Mail Spaulders", "=ds=#s3#", ""};
+		{ 11, 103153, "", "=q4=Vengeful Gladiator's Mail Armor", "=ds=#s5#", ""};
+		{ 12, 103154, "", "=q4=Vengeful Gladiator's Mail Gauntlets", "=ds=#s9#", ""};
+		{ 13, 103156, "", "=q4=Vengeful Gladiator's Mail Leggings", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenaset8#", ""};
+		{ 17, 51511, "", "=q4=Wrathful Gladiator's Mail Helm", "=ds=#s1#", ""};
+		{ 18, 51514, "", "=q4=Wrathful Gladiator's Mail Spaulders", "=ds=#s3#", ""};
+		{ 19, 51509, "", "=q4=Wrathful Gladiator's Mail Armor", "=ds=#s5#", ""};
+		{ 20, 51510, "", "=q4=Wrathful Gladiator's Mail Gauntlets", "=ds=#s9#", ""};
+		{ 21, 51512, "", "=q4=Wrathful Gladiator's Mail Leggings", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Nature_Lightning", "=q6=#arenaset10#", ""};
+		{ 24, 103355, "", "=q4=Merciless Gladiator's Mail Helm", "=ds=#s1#", ""};
+		{ 25, 103358, "", "=q4=Merciless Gladiator's Mail Spaulders", "=ds=#s3#", ""};
+		{ 26, 103353, "", "=q4=Merciless Gladiator's Mail Armor", "=ds=#s5#", ""};
+		{ 27, 103354, "", "=q4=Merciless Gladiator's Mail Gauntlets", "=ds=#s9#", ""};
+		{ 28, 103356, "", "=q4=Merciless Gladiator's Mail Leggings", "=ds=#s11#", ""};
+		Prev = "PvP80ShamanElemental";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80ShamanElemental2_x4"] = {
+		{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenaset7#", ""};
+		{ 2, 41020, "", "=q4=Relentless Gladiator's Mail Helm", "=ds=#s1#", ""};
+		{ 3, 41045, "", "=q4=Relentless Gladiator's Mail Spaulders", "=ds=#s3#", ""};
+		{ 4, 40995, "", "=q4=Relentless Gladiator's Mail Armor", "=ds=#s5#", ""};
+		{ 5, 41008, "", "=q4=Relentless Gladiator's Mail Gauntlets", "=ds=#s9#", ""};
+		{ 6, 41034, "", "=q4=Relentless Gladiator's Mail Leggings", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenaset9#", ""};
 		{ 9, 103155, "", "=q4=Vengeful Gladiator's Mail Helm", "=ds=#s1#", ""};
 		{ 10, 103158, "", "=q4=Vengeful Gladiator's Mail Spaulders", "=ds=#s3#", ""};
@@ -8597,7 +9274,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80ShamanEnhancement"] = {
+	AtlasLoot_Data["PvP80ShamanEnhancement_x2"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset5#", ""};
 		{ 2, 41148, "", "=q3=Savage Gladiator's Linked Helm", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 41208, "", "=q3=Savage Gladiator's Linked Spaulders", "=ds=", "150 #pvevalorpoints#"};
@@ -8605,17 +9282,45 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 41134, "", "=q3=Savage Gladiator's Linked Gauntlets", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 41160, "", "=q3=Savage Gladiator's Linked Leggings", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset5#", ""};
-		{ 9, 41150, "", "=q4=Deadly Gladiator's Linked Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41210, "", "=q4=Deadly Gladiator's Linked Spaulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 41080, "", "=q4=Deadly Gladiator's Linked Armor", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41136, "", "=q4=Deadly Gladiator's Linked Gauntlets", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41198, "", "=q4=Deadly Gladiator's Linked Leggings", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41150, "", "=q4=Deadly Gladiator's Linked Helm", "=ds=#s1#", ""};
+		{ 10, 41210, "", "=q4=Deadly Gladiator's Linked Spaulders", "=ds=#s3#", ""};
+		{ 11, 41080, "", "=q4=Deadly Gladiator's Linked Armor", "=ds=#s5#", ""};
+		{ 12, 41136, "", "=q4=Deadly Gladiator's Linked Gauntlets", "=ds=#s9#", ""};
+		{ 13, 41198, "", "=q4=Deadly Gladiator's Linked Leggings", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset5#", ""};
 		{ 17, 41149, "", "=q4=Hateful Gladiator's Linked Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41209, "", "=q4=Hateful Gladiator's Linked Spaulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 41079, "", "=q4=Hateful Gladiator's Linked Armor", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 41135, "", "=q4=Hateful Gladiator's Linked Gauntlets", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41162, "", "=q4=Hateful Gladiator's Linked Leggings", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset6#", ""};
+		{ 24, 41151, "", "=q4=Furious Gladiator's Linked Helm", "=ds=#s1#", ""};
+		{ 25, 41211, "", "=q4=Furious Gladiator's Linked Spaulders", "=ds=#s3#", ""};
+		{ 26, 41081, "", "=q4=Furious Gladiator's Linked Armor", "=ds=#s5#", ""};
+		{ 27, 41137, "", "=q4=Furious Gladiator's Linked Gauntlets", "=ds=#s9#", ""};
+		{ 28, 41199, "", "=q4=Furious Gladiator's Linked Leggings", "=ds=#s11#", ""};
+		Next = "PvP80ShamanEnhancement2";
+		Back = "LEVEL80PVPSETS";
+	};
+		AtlasLoot_Data["PvP80ShamanEnhancement_x4"] = {
+		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset5#", ""};
+		{ 2, 41148, "", "=q3=Savage Gladiator's Linked Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41208, "", "=q3=Savage Gladiator's Linked Spaulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 41078, "", "=q3=Savage Gladiator's Linked Armor", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 41134, "", "=q3=Savage Gladiator's Linked Gauntlets", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41160, "", "=q3=Savage Gladiator's Linked Leggings", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset5#", ""};
+		{ 9, 41150, "", "=q4=Deadly Gladiator's Linked Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41210, "", "=q4=Deadly Gladiator's Linked Spaulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 41080, "", "=q4=Deadly Gladiator's Linked Armor", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41136, "", "=q4=Deadly Gladiator's Linked Gauntlets", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41198, "", "=q4=Deadly Gladiator's Linked Leggings", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset5#", ""};
+		{ 17, 41149, "", "=q4=Hateful Gladiator's Linked Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41209, "", "=q4=Hateful Gladiator's Linked Spaulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 41079, "", "=q4=Hateful Gladiator's Linked Armor", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 41135, "", "=q4=Hateful Gladiator's Linked Gauntlets", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41162, "", "=q4=Hateful Gladiator's Linked Leggings", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset6#", ""};
 		{ 24, 41151, "", "=q4=Furious Gladiator's Linked Helm", "=ds=", "#s1#"};
 		{ 25, 41211, "", "=q4=Furious Gladiator's Linked Spaulders", "=ds=", "#s3#"};
@@ -8626,13 +9331,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80ShamanEnhancement2"] = {
+	AtlasLoot_Data["PvP80ShamanEnhancement2_x2"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset7#", ""};
-		{ 2, 41152, "", "=q4=Relentless Gladiator's Linked Helm", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41212, "", "=q4=Relentless Gladiator's Linked Spaulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 41082, "", "=q4=Relentless Gladiator's Linked Armor", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41138, "", "=q4=Relentless Gladiator's Linked Gauntlets", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41200, "", "=q4=Relentless Gladiator's Linked Leggings", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41152, "", "=q4=Relentless Gladiator's Linked Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41212, "", "=q4=Relentless Gladiator's Linked Spaulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 41082, "", "=q4=Relentless Gladiator's Linked Armor", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41138, "", "=q4=Relentless Gladiator's Linked Gauntlets", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41200, "", "=q4=Relentless Gladiator's Linked Leggings", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset9#", ""};
+		{ 9, 103149, "", "=q4=Vengeful Gladiator's Linked Helm", "=ds=#s1#", ""};
+		{ 10, 103152, "", "=q4=Vengeful Gladiator's Linked Spaulders", "=ds=#s3#", ""};
+		{ 11, 103147, "", "=q4=Vengeful Gladiator's Linked Armor", "=ds=#s5#", ""};
+		{ 12, 103148, "", "=q4=Vengeful Gladiator's Linked Gauntlets", "=ds=#s9#", ""};
+		{ 13, 103150, "", "=q4=Vengeful Gladiator's Linked Leggings", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset8#", ""};
+		{ 17, 51505, "", "=q4=Wrathful Gladiator's Linked Helm", "=ds=#s1#", ""};
+		{ 18, 51508, "", "=q4=Wrathful Gladiator's Linked Spaulders", "=ds=#s3#", ""};
+		{ 19, 51503, "", "=q4=Wrathful Gladiator's Linked Armor", "=ds=#s5#", ""};
+		{ 20, 51504, "", "=q4=Wrathful Gladiator's Linked Gauntlets", "=ds=#s9#", ""};
+		{ 21, 51506, "", "=q4=Wrathful Gladiator's Linked Leggings", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset10#", ""};
+		{ 24, 103349, "", "=q4=Merciless Gladiator's Linked Helm", "=ds=#s1#", ""};
+		{ 25, 103352, "", "=q4=Merciless Gladiator's Linked Spaulders", "=ds=#s3#", ""};
+		{ 26, 103347, "", "=q4=Merciless Gladiator's Linked Armor", "=ds=#s5#", ""};
+		{ 27, 103348, "", "=q4=Merciless Gladiator's Linked Gauntlets", "=ds=#s9#", ""};
+		{ 28, 103350, "", "=q4=Merciless Gladiator's Linked Leggings", "=ds=#s11#", ""};
+		Prev = "PvP80ShamanEnhancement";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80ShamanEnhancement2_x4"] = {
+		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset7#", ""};
+		{ 2, 41152, "", "=q4=Relentless Gladiator's Linked Helm", "=ds=#s1#", ""};
+		{ 3, 41212, "", "=q4=Relentless Gladiator's Linked Spaulders", "=ds=#s3#", ""};
+		{ 4, 41082, "", "=q4=Relentless Gladiator's Linked Armor", "=ds=#s5#", ""};
+		{ 5, 41138, "", "=q4=Relentless Gladiator's Linked Gauntlets", "=ds=#s9#", ""};
+		{ 6, 41200, "", "=q4=Relentless Gladiator's Linked Leggings", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#arenaset9#", ""};
 		{ 9, 103149, "", "=q4=Vengeful Gladiator's Linked Helm", "=ds=#s1#", ""};
 		{ 10, 103152, "", "=q4=Vengeful Gladiator's Linked Spaulders", "=ds=#s3#", ""};
@@ -8655,7 +9388,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80ShamanRestoration"] = {
+	AtlasLoot_Data["PvP80ShamanRestoration_x2"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset5#", ""};
 		{ 2, 41010, "", "=q3=Savage Gladiator's Ringmail Helm", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 41024, "", "=q3=Savage Gladiator's Ringmail Spaulders", "=ds=", "150 #pvevalorpoints#"};
@@ -8663,17 +9396,45 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 40998, "", "=q3=Savage Gladiator's Ringmail Gauntlets", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 41023, "", "=q3=Savage Gladiator's Ringmail Leggings", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset5#", ""};
-		{ 9, 41012, "", "=q4=Deadly Gladiator's Ringmail Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 41037, "", "=q4=Deadly Gladiator's Ringmail Spaulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 40990, "", "=q4=Deadly Gladiator's Ringmail Armor", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 41000, "", "=q4=Deadly Gladiator's Ringmail Gauntlets", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 41026, "", "=q4=Deadly Gladiator's Ringmail Leggings", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41012, "", "=q4=Deadly Gladiator's Ringmail Helm", "=ds=#s1#", ""};
+		{ 10, 41037, "", "=q4=Deadly Gladiator's Ringmail Spaulders", "=ds=#s3#", ""};
+		{ 11, 40990, "", "=q4=Deadly Gladiator's Ringmail Armor", "=ds=#s5#", ""};
+		{ 12, 41000, "", "=q4=Deadly Gladiator's Ringmail Gauntlets", "=ds=#s9#", ""};
+		{ 13, 41026, "", "=q4=Deadly Gladiator's Ringmail Leggings", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset5#", ""};
 		{ 17, 41011, "", "=q4=Hateful Gladiator's Ringmail Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 41036, "", "=q4=Hateful Gladiator's Ringmail Spaulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 40988, "", "=q4=Hateful Gladiator's Ringmail Armor", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 40999, "", "=q4=Hateful Gladiator's Ringmail Gauntlets", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 41025, "", "=q4=Hateful Gladiator's Ringmail Leggings", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset6#", ""};
+		{ 24, 41013, "", "=q4=Furious Gladiator's Ringmail Helm", "=ds=#s1#", ""};
+		{ 25, 41038, "", "=q4=Furious Gladiator's Ringmail Spaulders", "=ds=#s3#", ""};
+		{ 26, 40992, "", "=q4=Furious Gladiator's Ringmail Armor", "=ds=#s5#", ""};
+		{ 27, 41001, "", "=q4=Furious Gladiator's Ringmail Gauntlets", "=ds=#s9#", ""};
+		{ 28, 41027, "", "=q4=Furious Gladiator's Ringmail Leggings", "=ds=#s11#", ""};
+		Next = "PvP80ShamanRestoration2";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80ShamanRestoration_x4"] = {
+		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset5#", ""};
+		{ 2, 41010, "", "=q3=Savage Gladiator's Ringmail Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 41024, "", "=q3=Savage Gladiator's Ringmail Spaulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 40986, "", "=q3=Savage Gladiator's Ringmail Armor", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 40998, "", "=q3=Savage Gladiator's Ringmail Gauntlets", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 41023, "", "=q3=Savage Gladiator's Ringmail Leggings", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset5#", ""};
+		{ 9, 41012, "", "=q4=Deadly Gladiator's Ringmail Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 41037, "", "=q4=Deadly Gladiator's Ringmail Spaulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 40990, "", "=q4=Deadly Gladiator's Ringmail Armor", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 41000, "", "=q4=Deadly Gladiator's Ringmail Gauntlets", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 41026, "", "=q4=Deadly Gladiator's Ringmail Leggings", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset5#", ""};
+		{ 17, 41011, "", "=q4=Hateful Gladiator's Ringmail Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 41036, "", "=q4=Hateful Gladiator's Ringmail Spaulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 40988, "", "=q4=Hateful Gladiator's Ringmail Armor", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 40999, "", "=q4=Hateful Gladiator's Ringmail Gauntlets", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 41025, "", "=q4=Hateful Gladiator's Ringmail Leggings", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset6#", ""};
 		{ 24, 41013, "", "=q4=Furious Gladiator's Ringmail Helm", "=ds=", "#s1#"};
 		{ 25, 41038, "", "=q4=Furious Gladiator's Ringmail Spaulders", "=ds=", "#s3#"};
@@ -8684,13 +9445,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80ShamanRestoration2"] = {
+	AtlasLoot_Data["PvP80ShamanRestoration2_x2"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset7#", ""};
-		{ 2, 41014, "", "=q4=Relentless Gladiator's Ringmail Helm", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 41039, "", "=q4=Relentless Gladiator's Ringmail Spaulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 40994, "", "=q4=Relentless Gladiator's Ringmail Armor", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 41002, "", "=q4=Relentless Gladiator's Ringmail Gauntlets", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41014, "", "=q4=Relentless Gladiator's Ringmail Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 41039, "", "=q4=Relentless Gladiator's Ringmail Spaulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 40994, "", "=q4=Relentless Gladiator's Ringmail Armor", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 41002, "", "=q4=Relentless Gladiator's Ringmail Gauntlets", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset9#", ""};
+		{ 9, 103143, "", "=q4=Vengeful Gladiator's Ringmail Helm", "=ds=#s1#", ""};
+		{ 10, 103146, "", "=q4=Vengeful Gladiator's Ringmail Spaulders", "=ds=#s3#", ""};
+		{ 11, 103141, "", "=q4=Vengeful Gladiator's Ringmail Armor", "=ds=#s5#", ""};
+		{ 12, 103142, "", "=q4=Vengeful Gladiator's Ringmail Gauntlets", "=ds=#s9#", ""};
+		{ 13, 103144, "", "=q4=Vengeful Gladiator's Ringmail Leggings", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset8#", ""};
+		{ 17, 51499, "", "=q4=Wrathful Gladiator's Ringmail Helm", "=ds=#s1#", ""};
+		{ 18, 51502, "", "=q4=Wrathful Gladiator's Ringmail Spaulders", "=ds=#s3#", ""};
+		{ 19, 51497, "", "=q4=Wrathful Gladiator's Ringmail Armor", "=ds=#s5#", ""};
+		{ 20, 51498, "", "=q4=Wrathful Gladiator's Ringmail Gauntlets", "=ds=#s9#", ""};
+		{ 21, 51500, "", "=q4=Wrathful Gladiator's Ringmail Leggings", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset10#", ""};
+		{ 24, 103343, "", "=q4=Merciless Gladiator's Ringmail Helm", "=ds=#s1#", ""};
+		{ 25, 103346, "", "=q4=Merciless Gladiator's Ringmail Spaulders", "=ds=#s3#", ""};
+		{ 26, 103341, "", "=q4=Merciless Gladiator's Ringmail Armor", "=ds=#s5#", ""};
+		{ 27, 103342, "", "=q4=Merciless Gladiator's Ringmail Gauntlets", "=ds=#s9#", ""};
+		{ 28, 103344, "", "=q4=Merciless Gladiator's Ringmail Leggings", "=ds=#s11#", ""};
+		Prev = "PvP80ShamanRestoration";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80ShamanRestoration2_x4"] = {
+		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset7#", ""};
+		{ 2, 41014, "", "=q4=Relentless Gladiator's Ringmail Helm", "=ds=#s1#", ""};
+		{ 3, 41039, "", "=q4=Relentless Gladiator's Ringmail Spaulders", "=ds=#s3#", ""};
+		{ 4, 40994, "", "=q4=Relentless Gladiator's Ringmail Armor", "=ds=#s5#", ""};
+		{ 5, 41002, "", "=q4=Relentless Gladiator's Ringmail Gauntlets", "=ds=#s9#", ""};
+		{ 6, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenaset9#", ""};
 		{ 9, 103143, "", "=q4=Vengeful Gladiator's Ringmail Helm", "=ds=#s1#", ""};
 		{ 10, 103146, "", "=q4=Vengeful Gladiator's Ringmail Spaulders", "=ds=#s3#", ""};
@@ -8713,7 +9502,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80Warlock"] = {
+	AtlasLoot_Data["PvP80Warlock_x2"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset5#", ""};
 		{ 2, 41990, "", "=q3=Savage Gladiator's Felweave Cowl", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 42008, "", "=q3=Savage Gladiator's Felweave Amice", "=ds=", "150 #pvevalorpoints#"};
@@ -8721,17 +9510,45 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 42014, "", "=q3=Savage Gladiator's Felweave Handguards", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 42002, "", "=q3=Savage Gladiator's Felweave Trousers", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset5#", ""};
-		{ 9, 41992, "", "=q4=Deadly Gladiator's Felweave Cowl", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 42010, "", "=q4=Deadly Gladiator's Felweave Amice", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 41997, "", "=q4=Deadly Gladiator's Felweave Raiment", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 42016, "", "=q4=Deadly Gladiator's Felweave Handguards", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 42004, "", "=q4=Deadly Gladiator's Felweave Trousers", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 41992, "", "=q4=Deadly Gladiator's Felweave Cowl", "=ds=#s1#", ""};
+		{ 10, 42010, "", "=q4=Deadly Gladiator's Felweave Amice", "=ds=#s3#", ""};
+		{ 11, 41997, "", "=q4=Deadly Gladiator's Felweave Raiment", "=ds=#s5#", ""};
+		{ 12, 42016, "", "=q4=Deadly Gladiator's Felweave Handguards", "=ds=#s9#", ""};
+		{ 13, 42004, "", "=q4=Deadly Gladiator's Felweave Trousers", "=ds=#s11#", ""};
 		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset5#", ""};
 		{ 17, 41991, "", "=q4=Hateful Gladiator's Felweave Cowl", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 42009, "", "=q4=Hateful Gladiator's Felweave Amice", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 42001, "", "=q4=Hateful Gladiator's Felweave Raiment", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 42015, "", "=q4=Hateful Gladiator's Felweave Handguards", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 42003, "", "=q4=Hateful Gladiator's Felweave Trousers", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset6#", ""};
+		{ 24, 41993, "", "=q4=Furious Gladiator's Felweave Cowl", "=ds=#s1#", ""};
+		{ 25, 42011, "", "=q4=Furious Gladiator's Felweave Amice", "=ds=#s3#", ""};
+		{ 26, 41998, "", "=q4=Furious Gladiator's Felweave Raiment", "=ds=#s5#", ""};
+		{ 27, 42017, "", "=q4=Furious Gladiator's Felweave Handguards", "=ds=#s9#", ""};
+		{ 28, 42005, "", "=q4=Furious Gladiator's Felweave Trousers", "=ds=#s11#", ""};
+		Next = "PvP80Warlock2";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80Warlock_x4"] = {
+		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset5#", ""};
+		{ 2, 41990, "", "=q3=Savage Gladiator's Felweave Cowl", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 42008, "", "=q3=Savage Gladiator's Felweave Amice", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 41996, "", "=q3=Savage Gladiator's Felweave Raiment", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 42014, "", "=q3=Savage Gladiator's Felweave Handguards", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 42002, "", "=q3=Savage Gladiator's Felweave Trousers", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset5#", ""};
+		{ 9, 41992, "", "=q4=Deadly Gladiator's Felweave Cowl", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 42010, "", "=q4=Deadly Gladiator's Felweave Amice", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 41997, "", "=q4=Deadly Gladiator's Felweave Raiment", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 42016, "", "=q4=Deadly Gladiator's Felweave Handguards", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 42004, "", "=q4=Deadly Gladiator's Felweave Trousers", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset5#", ""};
+		{ 17, 41991, "", "=q4=Hateful Gladiator's Felweave Cowl", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 42009, "", "=q4=Hateful Gladiator's Felweave Amice", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 42001, "", "=q4=Hateful Gladiator's Felweave Raiment", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 42015, "", "=q4=Hateful Gladiator's Felweave Handguards", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 42003, "", "=q4=Hateful Gladiator's Felweave Trousers", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset6#", ""};
 		{ 24, 41993, "", "=q4=Furious Gladiator's Felweave Cowl", "=ds=", "#s1#"};
 		{ 25, 42011, "", "=q4=Furious Gladiator's Felweave Amice", "=ds=", "#s3#"};
@@ -8742,13 +9559,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80Warlock2"] = {
+	AtlasLoot_Data["PvP80Warlock2_x2"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset7#", ""};
-		{ 2, 41994, "", "=q4=Relentless Gladiator's Felweave Cowl", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 42012, "", "=q4=Relentless Gladiator's Felweave Amice", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 41999, "", "=q4=Relentless Gladiator's Felweave Raiment", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 42018, "", "=q4=Relentless Gladiator's Felweave Handguards", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 42006, "", "=q4=Relentless Gladiator's Felweave Trousers", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 41994, "", "=q4=Relentless Gladiator's Felweave Cowl", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 42012, "", "=q4=Relentless Gladiator's Felweave Amice", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 41999, "", "=q4=Relentless Gladiator's Felweave Raiment", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 42018, "", "=q4=Relentless Gladiator's Felweave Handguards", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 42006, "", "=q4=Relentless Gladiator's Felweave Trousers", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset9#", ""};
+		{ 9, 103173, "", "=q4=Vengeful Gladiator's Dreadweave Hood", "=ds=#s1#", ""};
+		{ 10, 103175, "", "=q4=Vengeful Gladiator's Dreadweave Mantle", "=ds=#s3#", ""};
+		{ 11, 103171, "", "=q4=Vengeful Gladiator's Dreadweave Robe", "=ds=#s5#", ""};
+		{ 12, 103172, "", "=q4=Vengeful Gladiator's Dreadweave Gloves", "=ds=#s9#", ""};
+		{ 13, 103174, "", "=q4=Vengeful Gladiator's Dreadweave Leggings", "=ds=#s11#", ""};
+		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset8#", ""};
+		{ 17, 51538, "", "=q4=Wrathful Gladiator's Felweave Cowl", "=ds=#s1#", ""};
+		{ 18, 51540, "", "=q4=Wrathful Gladiator's Felweave Amice", "=ds=#s3#", ""};
+		{ 19, 51536, "", "=q4=Wrathful Gladiator's Felweave Raiment", "=ds=#s5#", ""};
+		{ 20, 51537, "", "=q4=Wrathful Gladiator's Felweave Handguards", "=ds=#s9#", ""};
+		{ 21, 51539, "", "=q4=Wrathful Gladiator's Felweave Trousers", "=ds=#s11#", ""};
+		{ 23, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset10#", ""};
+		{ 24, 103373, "", "=q4=Merciless Gladiator's Dreadweave Hood", "=ds=#s1#", ""};
+		{ 25, 103375, "", "=q4=Merciless Gladiator's Dreadweave Mantle", "=ds=#s3#", ""};
+		{ 26, 103371, "", "=q4=Merciless Gladiator's Dreadweave Robe", "=ds=#s5#", ""};
+		{ 27, 103372, "", "=q4=Merciless Gladiator's Dreadweave Gloves", "=ds=#s9#", ""};
+		{ 28, 103374, "", "=q4=Merciless Gladiator's Dreadweave Leggings", "=ds=#s11#", ""};
+		Prev = "PvP80Warlock";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80Warlock2_x4"] = {
+		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset7#", ""};
+		{ 2, 41994, "", "=q4=Relentless Gladiator's Felweave Cowl", "=ds=#s1#", ""};
+		{ 3, 42012, "", "=q4=Relentless Gladiator's Felweave Amice", "=ds=#s3#", ""};
+		{ 4, 41999, "", "=q4=Relentless Gladiator's Felweave Raiment", "=ds=#s5#", ""};
+		{ 5, 42018, "", "=q4=Relentless Gladiator's Felweave Handguards", "=ds=#s9#", ""};
+		{ 6, 42006, "", "=q4=Relentless Gladiator's Felweave Trousers", "=ds=#s11#", ""};
 		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenaset9#", ""};
 		{ 9, 103173, "", "=q4=Vengeful Gladiator's Dreadweave Hood", "=ds=#s1#", ""};
 		{ 10, 103175, "", "=q4=Vengeful Gladiator's Dreadweave Mantle", "=ds=#s3#", ""};
@@ -8771,7 +9616,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80Warrior"] = {
+	AtlasLoot_Data["PvP80Warrior_x2"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset5#", ""};
 		{ 2, 40816, "", "=q3=Savage Gladiator's Plate Helm", "=ds=", "225 #pvevalorpoints#"};
 		{ 3, 40856, "", "=q3=Savage Gladiator's Plate Shoulders", "=ds=", "150 #pvevalorpoints#"};
@@ -8779,17 +9624,45 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 5, 40797, "", "=q3=Savage Gladiator's Plate Gauntlets", "=ds=", "150 #pvevalorpoints#"};
 		{ 6, 40836, "", "=q3=Savage Gladiator's Plate Legguards", "=ds=", "225 #pvevalorpoints#"};
 		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset5#", ""};
-		{ 9, 40823, "", "=q4=Deadly Gladiator's Plate Helm", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 10, 40862, "", "=q4=Deadly Gladiator's Plate Shoulders", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 11, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 12, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
-		{ 13, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=", "560 #bgpoints# или 140 #arenapoints#"};
+		{ 9, 40823, "", "=q4=Deadly Gladiator's Plate Helm", "=ds=#s1#", ""};
+		{ 10, 40862, "", "=q4=Deadly Gladiator's Plate Shoulders", "=ds=#s3#", ""};
+		{ 11, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds=#s5#", ""};
+		{ 12, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=#s9#", ""};
+		{ 13, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=#s11#", ""};
 		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset5#", ""};
 		{ 17, 40819, "", "=q4=Hateful Gladiator's Plate Helm", "=ds=", "675 #pvevalorpoints#"};
 		{ 18, 40859, "", "=q4=Hateful Gladiator's Plate Shoulders", "=ds=", "450 #pvevalorpoints#"};
 		{ 19, 40783, "", "=q4=Hateful Gladiator's Plate Chestpiece", "=ds=", "675 #pvevalorpoints#"};
 		{ 20, 40801, "", "=q4=Hateful Gladiator's Plate Gauntlets", "=ds=", "450 #pvevalorpoints#"};
 		{ 21, 40840, "", "=q4=Hateful Gladiator's Plate Legguards", "=ds=", "675 #pvevalorpoints#"};
+		{ 23, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset6#", ""};
+		{ 24, 40826, "", "=q4=Furious Gladiator's Plate Helm", "=ds=#s1#", ""};
+		{ 25, 40866, "", "=q4=Furious Gladiator's Plate Shoulders", "=ds=#s3#", ""};
+		{ 26, 40789, "", "=q4=Furious Gladiator's Plate Chestpiece", "=ds=#s5#", ""};
+		{ 27, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=#s9#", ""};
+		{ 28, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=#s11#", ""};
+		Next = "PvP80Warrior2";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80Warrior_x4"] = {
+		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset5#", ""};
+		{ 2, 40816, "", "=q3=Savage Gladiator's Plate Helm", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 3, 40856, "", "=q3=Savage Gladiator's Plate Shoulders", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 4, 40778, "", "=q3=Savage Gladiator's Plate Chestpiece", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 5, 40797, "", "=q3=Savage Gladiator's Plate Gauntlets", "=ds=", "150 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 6, 40836, "", "=q3=Savage Gladiator's Plate Legguards", "=ds=", "225 #pvevalorpoints# или 1600 #bgpoints#"};
+		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset5#", ""};
+		{ 9, 40823, "", "=q4=Deadly Gladiator's Plate Helm", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 10, 40862, "", "=q4=Deadly Gladiator's Plate Shoulders", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 11, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 12, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 13, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=", "6400 #bgpoints# или 1600 #arenapoints# Служба:8.5 Арена:2.1"};
+		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset5#", ""};
+		{ 17, 40819, "", "=q4=Hateful Gladiator's Plate Helm", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 18, 40859, "", "=q4=Hateful Gladiator's Plate Shoulders", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 19, 40783, "", "=q4=Hateful Gladiator's Plate Chestpiece", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 20, 40801, "", "=q4=Hateful Gladiator's Plate Gauntlets", "=ds=", "450 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
+		{ 21, 40840, "", "=q4=Hateful Gladiator's Plate Legguards", "=ds=", "675 #pvevalorpoints# или 3200 #bgpoints# Служба:1000"};
 		{ 23, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset6#", ""};
 		{ 24, 40826, "", "=q4=Furious Gladiator's Plate Helm", "=ds=", "#s1#"};
 		{ 25, 40866, "", "=q4=Furious Gladiator's Plate Shoulders", "=ds=", "#s3#"};
@@ -8800,13 +9673,41 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "LEVEL80PVPSETS";
 	};
 
-	AtlasLoot_Data["PvP80Warrior2"] = {
+	AtlasLoot_Data["PvP80Warrior2_x2"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset7#", ""};
-		{ 2, 40829, "", "=q4=Relentless Gladiator's Plate Helm", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 3, 40870, "", "=q4=Relentless Gladiator's Plate Shoulders", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 4, 40790, "", "=q4=Relentless Gladiator's Plate Chestpiece", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 5, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=x2 9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
-		{ 6, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=x2 14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 2, 40829, "", "=q4=Relentless Gladiator's Plate Helm", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 3, 40870, "", "=q4=Relentless Gladiator's Plate Shoulders", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 4, 40790, "", "=q4=Relentless Gladiator's Plate Chestpiece", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 5, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=9000 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 6, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=14250 #pvevalorpoints# или 560 #bgpoints# или 140 #arenapoints#", ""};
+		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset9#", ""};
+		{ 9, 103178, "", "=q4=Vengeful Gladiator's Plate Helm", "=ds=#s1#", ""};
+		{ 10, 103180, "", "=q4=Vengeful Gladiator's Plate Shoulders", "=ds=#s3#", ""};
+		{ 11, 103176, "", "=q4=Vengeful Gladiator's Plate Chestpiece", "=ds=#s5#", ""};
+		{ 12, 103177, "", "=q4=Vengeful Gladiator's Plate Gauntlets", "=ds=#s9#", ""};
+		{ 13, 103179, "", "=q4=Vengeful Gladiator's Plate Legguards", "=ds=#s11#", ""};
+		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset8#", ""};
+		{ 17, 51543, "", "=q4=Wrathful Gladiator's Plate Helm", "=ds=#s1#", ""};
+		{ 18, 51545, "", "=q4=Wrathful Gladiator's Plate Shoulders", "=ds=#s3#", ""};
+		{ 19, 51541, "", "=q4=Wrathful Gladiator's Plate Chestpiece", "=ds=#s5#", ""};
+		{ 20, 51542, "", "=q4=Wrathful Gladiator's Plate Gauntlets", "=ds=#s9#", ""};
+		{ 21, 51544, "", "=q4=Wrathful Gladiator's Plate Legguards", "=ds=#s11#", ""};
+		{ 23, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset10#", ""};
+		{ 24, 103378, "", "=q4=Merciless Gladiator's Plate Helm", "=ds=#s1#", ""};
+		{ 25, 103380, "", "=q4=Merciless Gladiator's Plate Shoulders", "=ds=#s3#", ""};
+		{ 26, 103376, "", "=q4=Merciless Gladiator's Plate Chestpiece", "=ds=#s5#", ""};
+		{ 27, 103377, "", "=q4=Merciless Gladiator's Plate Gauntlets", "=ds=#s9#", ""};
+		{ 28, 103379, "", "=q4=Merciless Gladiator's Plate Legguards", "=ds=#s11#", ""};
+		Prev = "PvP80Warrior";
+		Back = "LEVEL80PVPSETS";
+	};
+	AtlasLoot_Data["PvP80Warrior2_x4"] = {
+		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset7#", ""};
+		{ 2, 40829, "", "=q4=Relentless Gladiator's Plate Helm", "=ds=#s1#", ""};
+		{ 3, 40870, "", "=q4=Relentless Gladiator's Plate Shoulders", "=ds=#s3#", ""};
+		{ 4, 40790, "", "=q4=Relentless Gladiator's Plate Chestpiece", "=ds=#s5#", ""};
+		{ 5, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#", ""};
+		{ 6, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#", ""};
 		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#arenaset9#", ""};
 		{ 9, 103178, "", "=q4=Vengeful Gladiator's Plate Helm", "=ds=#s1#", ""};
 		{ 10, 103180, "", "=q4=Vengeful Gladiator's Plate Shoulders", "=ds=#s3#", ""};
@@ -8831,40 +9732,122 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		------------------------------
 		--- Level 80 Epic Non-Sets ---
 		------------------------------
-
-	 AtlasLoot_Data["PvP80UnSet1"] = {
+		
+	AtlasLoot_Data["PvP80UnSet1_x2"] = {
 		{ 1, 0, "Inv_jewelry_necklace_22", "=q6=#arenaset5#", ""};
-		{ 2, 42064, "", "=q4=Плащ влияния смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 42066, "", "=q4=Плащ избавления смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 42062, "", "=q4=Плащ господства смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 5, 42065, "", "=q4=Плащ спасения смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 6, 42063, "", "=q4=Плащ порабощения смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 7, 42067, "", "=q4=Плащ триумфа смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 8, 42068, "", "=q4=Плащ победы смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 10, 42114, "", "=q4=Кольцо влияния смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 11, 100142, "", "=q4=Кольцо господства смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 12, 42115, "", "=q4=Кольцо победы смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 13, 100143, "", "=q4=Кольцо победы смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 14, 42123, "", "=q4=Медальон Альянса", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 15, 42122, "", "=q4=Медальон Орды", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 17, 42030, "", "=q4=Подвеска влияния смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 18, 42032, "", "=q4=Подвеска избавления смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 19, 42029, "", "=q4=Подвеска господства смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 20, 42033, "", "=q4=Подвеска спасения смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 21, 42031, "", "=q4=Подвеска порабощения смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 22, 42027, "", "=q4=Подвеска триумфа смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 23, 42028, "", "=q4=Подвеска победы смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints##"};
-		{ 24, 100138, "", "=q4=Подвеска сокрушения смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 25, 100101, "", "=q4=Сила Военачальника смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 26, 100117, "", "=q4=Могущество Военачальника смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 27, 100109, "", "=q4=Выносливость Военачальника смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 28, 100105, "", "=q4=Чародейство Военачальника смертоносного гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 29, 103394, "", "=q4=Некротическое касание неумолимого гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 30, 103400, "", "=q4=Касание А'дала неумолимого гладиатора", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		 Next = "PvP80UnSet2";
-		 Back = "PVPMENU";
+		{ 2, 42057, "", "=q4=Hateful Gladiator's Cloak of Ascendancy", "=ds=#s4#", ""};
+		{ 3, 42059, "", "=q4=Hateful Gladiator's Cloak of Deliverance", "=ds=#s4#", ""};
+		{ 4, 42055, "", "=q4=Hateful Gladiator's Cloak of Dominance", "=ds=#s4#", ""};
+		{ 5, 42058, "", "=q4=Hateful Gladiator's Cloak of Salvation", "=ds=#s4#", ""};
+		{ 6, 42056, "", "=q4=Hateful Gladiator's Cloak of Subjugation", "=ds=#s4#", ""};
+		{ 7, 42060, "", "=q4=Hateful Gladiator's Cloak of Triumph", "=ds=#s4#", ""};
+		{ 8, 42061, "", "=q4=Hateful Gladiator's Cloak of Victory", "=ds=#s4#", ""};
+		{ 10, 42112, "", "=q4=Vindicator's Band of Dominance", "=ds=#s13#", ""};
+		{ 11, 42110, "", "=q4=Vindicator's Band of Triumph", "=ds=#s13#", ""};
+		--{ 12, 37864, "", "=q4=Medallion of the Alliance", "=ds=", "50000 #faction# 500 #arena# #reqrating# 1250"};
+		--{ 13, 37865, "", "=q4=Medallion of the Horde", "=ds=", "50000 #faction# 500 #arena# #reqrating# 1250"};
+		{ 17, 42024, "", "=q4=Hateful Gladiator's Pendant of Ascendancy", "=ds=#s2#", ""};
+		{ 18, 42025, "", "=q4=Hateful Gladiator's Pendant of Deliverance", "=ds=#s2#", ""};
+		{ 19, 42022, "", "=q4=Hateful Gladiator's Pendant of Dominance", "=ds=#s2#", ""};
+		{ 20, 42026, "", "=q4=Hateful Gladiator's Pendant of Salvation", "=ds=#s2#", ""};
+		{ 21, 42023, "", "=q4=Hateful Gladiator's Pendant of Subjugation", "=ds=#s2#", ""};
+		{ 22, 42020, "", "=q4=Hateful Gladiator's Pendant of Triumph", "=ds=#s2#", ""};
+		{ 23, 42021, "", "=q4=Hateful Gladiator's Pendant of Victory", "=ds=#s2#", ""};
+		Next = "PvP80UnSet2";
+		Back = "PVPMENU";
+	};
+	AtlasLoot_Data["PvP80UnSet1_x4"] = {
+		{ 1, 0, "Inv_jewelry_necklace_22", "=q6=#arenaset5#", ""};
+		{ 2, 42057, "", "=q4=Hateful Gladiator's Cloak of Ascendancy", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 3, 42059, "", "=q4=Hateful Gladiator's Cloak of Deliverance", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 4, 42055, "", "=q4=Hateful Gladiator's Cloak of Dominance", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 5, 42058, "", "=q4=Hateful Gladiator's Cloak of Salvation", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 6, 42056, "", "=q4=Hateful Gladiator's Cloak of Subjugation", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 7, 42060, "", "=q4=Hateful Gladiator's Cloak of Triumph", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 8, 42061, "", "=q4=Hateful Gladiator's Cloak of Victory", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 10, 42112, "", "=q4=Vindicator's Band of Dominance", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 11, 42110, "", "=q4=Vindicator's Band of Triumph", "=ds=", "1600 #bgpoints# Служба:600"};
+		--{ 12, 37864, "", "=q4=Medallion of the Alliance", "=ds=", "50000 #faction# 500 #arena# #reqrating# 1250"};
+		--{ 13, 37865, "", "=q4=Medallion of the Horde", "=ds=", "50000 #faction# 500 #arena# #reqrating# 1250"};
+		{ 17, 42024, "", "=q4=Hateful Gladiator's Pendant of Ascendancy", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 18, 42025, "", "=q4=Hateful Gladiator's Pendant of Deliverance", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 19, 42022, "", "=q4=Hateful Gladiator's Pendant of Dominance", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 20, 42026, "", "=q4=Hateful Gladiator's Pendant of Salvation", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 21, 42023, "", "=q4=Hateful Gladiator's Pendant of Subjugation", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 22, 42020, "", "=q4=Hateful Gladiator's Pendant of Triumph", "=ds=", "1600 #bgpoints# Служба:600"};
+		{ 23, 42021, "", "=q4=Hateful Gladiator's Pendant of Victory", "=ds=", "1600 #bgpoints# Служба:600"};
+		Next = "PvP80UnSet2";
+		Back = "PVPMENU";
+	};
+
+	 AtlasLoot_Data["PvP80UnSet2_x2"] = {
+		{ 1, 0, "Inv_jewelry_necklace_22", "=q6=#arenaset5#", ""};
+		{ 2, 42064, "", "=q4=Плащ влияния смертоносного гладиатора", "=ds=#s4#", ""};
+		{ 3, 42066, "", "=q4=Плащ избавления смертоносного гладиатора", "=ds=#s4#", ""};
+		{ 4, 42062, "", "=q4=Плащ господства смертоносного гладиатора", "=ds=#s4#", ""};
+		{ 5, 42065, "", "=q4=Плащ спасения смертоносного гладиатора", "=ds=#s4#", ""};
+		{ 6, 42063, "", "=q4=Плащ порабощения смертоносного гладиатора", "=ds=#s4#", ""};
+		{ 7, 42067, "", "=q4=Плащ триумфа смертоносного гладиатора", "=ds=#s4#", ""};
+		{ 8, 42068, "", "=q4=Плащ победы смертоносного гладиатора", "=ds=#s4#", ""};
+		{ 10, 42114, "", "=q4=Кольцо влияния смертоносного гладиатора", "=ds=#s13#", ""};
+		{ 11, 100142, "", "=q4=Кольцо господства смертоносного гладиатора", "=ds=#s13#", ""};
+		{ 12, 42115, "", "=q4=Кольцо победы смертоносного гладиатора", "=ds=#s13#", ""};
+		{ 13, 100143, "", "=q4=Кольцо победы смертоносного гладиатора", "=ds=#s13#", ""};
+		{ 14, 42123, "", "=q4=Медальон Альянса", "=ds=#s14#", ""};
+		{ 15, 42122, "", "=q4=Медальон Орды", "=ds=#s14#", ""};
+		{ 17, 42030, "", "=q4=Подвеска влияния смертоносного гладиатора", "=ds=#s2#", ""};
+		{ 18, 42032, "", "=q4=Подвеска избавления смертоносного гладиатора", "=ds=#s2#", ""};
+		{ 19, 42029, "", "=q4=Подвеска господства смертоносного гладиатора", "=ds=#s2#", ""};
+		{ 20, 42033, "", "=q4=Подвеска спасения смертоносного гладиатора", "=ds=#s2#", ""};
+		{ 21, 42031, "", "=q4=Подвеска порабощения смертоносного гладиатора", "=ds=#s2#", ""};
+		{ 22, 42027, "", "=q4=Подвеска триумфа смертоносного гладиатора", "=ds=#s2#", ""};
+		{ 23, 42028, "", "=q4=Подвеска победы смертоносного гладиатора", "=ds=#s2#", ""};
+		{ 24, 100138, "", "=q4=Подвеска сокрушения смертоносного гладиатора", "=ds=#s2#", ""};
+		{ 25, 100101, "", "=q4=Сила Военачальника смертоносного гладиатора", "=ds=#s14#", ""};
+		{ 26, 100117, "", "=q4=Могущество Военачальника смертоносного гладиатора", "=ds=#s14#", ""};
+		{ 27, 100109, "", "=q4=Выносливость Военачальника смертоносного гладиатора", "=ds=#s14#", ""};
+		{ 28, 100105, "", "=q4=Чародейство Военачальника смертоносного гладиатора", "=ds=#s14#", ""};
+		{ 29, 103394, "", "=q4=Некротическое касание неумолимого гладиатора", "=ds=#s14#", ""};
+		{ 30, 103400, "", "=q4=Касание А'дала неумолимого гладиатора", "=ds=#s14#", ""};
+		Prev = "PvP80UnSet1";
+		Next = "PvP80UnSet3";
+		Back = "PVPMENU";
 	 };
-	 AtlasLoot_Data["PvP80UnSet2"] = {
+	  AtlasLoot_Data["PvP80UnSet2_x4"] = {
+		{ 1, 0, "Inv_jewelry_necklace_22", "=q6=#arenaset5#", ""};
+		{ 2, 42064, "", "=q4=Плащ влияния смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 3, 42066, "", "=q4=Плащ избавления смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 4, 42062, "", "=q4=Плащ господства смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 5, 42065, "", "=q4=Плащ спасения смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 6, 42063, "", "=q4=Плащ порабощения смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 7, 42067, "", "=q4=Плащ триумфа смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 8, 42068, "", "=q4=Плащ победы смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 10, 42114, "", "=q4=Кольцо влияния смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 11, 100142, "", "=q4=Кольцо господства смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 12, 42115, "", "=q4=Кольцо победы смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 13, 100143, "", "=q4=Кольцо победы смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 14, 42123, "", "=q4=Медальон Альянса", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 15, 42122, "", "=q4=Медальон Орды", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 17, 42030, "", "=q4=Подвеска влияния смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 18, 42032, "", "=q4=Подвеска избавления смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 19, 42029, "", "=q4=Подвеска господства смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 20, 42033, "", "=q4=Подвеска спасения смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 21, 42031, "", "=q4=Подвеска порабощения смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 22, 42027, "", "=q4=Подвеска триумфа смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 23, 42028, "", "=q4=Подвеска победы смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 24, 100138, "", "=q4=Подвеска сокрушения смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 25, 100101, "", "=q4=Сила Военачальника смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 26, 100117, "", "=q4=Могущество Военачальника смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 27, 100109, "", "=q4=Выносливость Военачальника смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 28, 100105, "", "=q4=Чародейство Военачальника смертоносного гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 29, 103394, "", "=q4=Некротическое касание неумолимого гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		{ 30, 103400, "", "=q4=Касание А'дала неумолимого гладиатора", "=ds=", "3200 #bgpoints# или 800 #arenapoints#"};
+		Prev = "PvP80UnSet1";
+		Next = "PvP80UnSet3";
+		Back = "PVPMENU";
+	 };
+	 
+	 AtlasLoot_Data["PvP80UnSet3"] = {
 		{ 1, 0, "Inv_jewelry_necklace_22", "=q6=#arenaset6#", ""};
 		{ 2, 42071, "", "=q4=Плащ влияния гневного гладиатора", "=ds=#s4#", ""};
 		{ 3, 42073, "", "=q4=Плащ избавления гневного гладиатора", "=ds=#s4#", ""};
@@ -8893,45 +9876,78 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 28, 100104, "", "=q4=Чародейство Военачальника гневного гладиатора", "=ds=#s14#", ""};
 		{ 29, 103395, "", "=q4=Некротическое касание неумолимого гладиатора", "=ds=#s14#", ""};
 		{ 30, 103401, "", "=q4=Касание А'дала неумолимого гладиатора", "=ds=#s14#", ""};
-				Prev = "PvP80UnSet1";
-		Next = "PvP80UnSet3";
+				Prev = "PvP80UnSet2";
+		Next = "PvP80UnSet4";
 		Back = "PVPMENU";
 	};
-	 AtlasLoot_Data["PvP80UnSet3"] = {
+	 AtlasLoot_Data["PvP80UnSet4_x4"] = {
 		{ 1, 0, "Inv_jewelry_necklace_22", "=q6=#arenaset7#", ""};
-		{ 2, 42078, "", "=q4=Relentless Gladiator's Cloak of Ascendancy", "=ds=#s4#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 42080, "", "=q4=Relentless Gladiator's Cloak of Deliverance", "=ds=#s4#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 42076, "", "=q4=Relentless Gladiator's Cloak of Dominance", "=ds=#s4#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 5, 42079, "", "=q4=Relentless Gladiator's Cloak of Salvation", "=ds=#s4#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 6, 42077, "", "=q4=Relentless Gladiator's Cloak of Subjugation", "=ds=#s4#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 7, 42081, "", "=q4=Relentless Gladiator's Cloak of Triumph", "=ds=#s4#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 8, 42082, "", "=q4=Relentless Gladiator's Cloak of Victory", "=ds=#s4#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 10, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 11, 100156, "", "=q4=Relentless Gladiator's Band of Dominance", "=ds=#s13#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 12, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 13, 100155, "", "=q4=Relentless Gladiator's Band of Triumph", "=ds=#s13#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 14, 100159, "", "=q4=Медальон Альянса", "=ds=#s14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 15, 100160, "", "=q4=Медальон Орды", "=ds=#s14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 17, 42044, "", "=q4=Relentless Gladiator's Pendant of Ascendancy", "=ds=#s2#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 18, 42046, "", "=q4=Relentless Gladiator's Pendant of Deliverance", "=ds=#s2#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 19, 42043, "", "=q4=Relentless Gladiator's Pendant of Dominance", "=ds=#s2#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 20, 42047, "", "=q4=Relentless Gladiator's Pendant of Salvation", "=ds=#s2#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 21, 42045, "", "=q4=Relentless Gladiator's Pendant of Subjugation", "=ds=#s2#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 22, 46374, "", "=q4=Relentless Gladiator's Pendant of Sundering", "=ds=#s2#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 23, 42041, "", "=q4=Relentless Gladiator's Pendant of Triumph", "=ds=#s2#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 24, 42042, "", "=q4=Relentless Gladiator's Pendant of Victory", "=ds=#s2#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 25, 100102, "", "=q4=Сила Военачальника неумолимого гладиатора", "=ds=#s14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 26, 100118, "", "=q4=Могущество Военачальника неумолимого гладиатора", "=ds=#s14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 27, 100110, "", "=q4=Выносливость Военачальника неумолимого гладиатора", "=ds=#s14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 28, 100106, "", "=q4=Чародейство Военачальника неумолимого гладиатора", "=ds=#s14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 29, 103396, "", "=q4=Некротическое касание неумолимого гладиатора", "=ds=#s14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 30, 103402, "", "=q4=Касание А'дала неумолимого гладиатора", "=ds=#s14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-			Prev = "PvP80UnSet2";
-		 Next = "PvP80UnSet4";
+		{ 2, 42078, "", "=q4=Relentless Gladiator's Cloak of Ascendancy", "=ds=#s4#", ""};
+		{ 3, 42080, "", "=q4=Relentless Gladiator's Cloak of Deliverance", "=ds=#s4#", ""};
+		{ 4, 42076, "", "=q4=Relentless Gladiator's Cloak of Dominance", "=ds=#s4#", ""};
+		{ 5, 42079, "", "=q4=Relentless Gladiator's Cloak of Salvation", "=ds=#s4#", ""};
+		{ 6, 42077, "", "=q4=Relentless Gladiator's Cloak of Subjugation", "=ds=#s4#", ""};
+		{ 7, 42081, "", "=q4=Relentless Gladiator's Cloak of Triumph", "=ds=#s4#", ""};
+		{ 8, 42082, "", "=q4=Relentless Gladiator's Cloak of Victory", "=ds=#s4#", ""};
+		{ 10, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#", ""};
+		{ 11, 100156, "", "=q4=Relentless Gladiator's Band of Dominance", "=ds=#s13#", ""};
+		{ 12, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#", ""};
+		{ 13, 100155, "", "=q4=Relentless Gladiator's Band of Triumph", "=ds=#s13#", ""};
+		{ 14, 100159, "", "=q4=Медальон Альянса", "=ds=#s14#", ""};
+		{ 15, 100160, "", "=q4=Медальон Орды", "=ds=#s14#", ""};
+		{ 17, 42044, "", "=q4=Relentless Gladiator's Pendant of Ascendancy", "=ds=#s2#", ""};
+		{ 18, 42046, "", "=q4=Relentless Gladiator's Pendant of Deliverance", "=ds=#s2#", ""};
+		{ 19, 42043, "", "=q4=Relentless Gladiator's Pendant of Dominance", "=ds=#s2#", ""};
+		{ 20, 42047, "", "=q4=Relentless Gladiator's Pendant of Salvation", "=ds=#s2#", ""};
+		{ 21, 42045, "", "=q4=Relentless Gladiator's Pendant of Subjugation", "=ds=#s2#", ""};
+		{ 22, 46374, "", "=q4=Relentless Gladiator's Pendant of Sundering", "=ds=#s2#", ""};
+		{ 23, 42041, "", "=q4=Relentless Gladiator's Pendant of Triumph", "=ds=#s2#", ""};
+		{ 24, 42042, "", "=q4=Relentless Gladiator's Pendant of Victory", "=ds=#s2#", ""};
+		{ 25, 100102, "", "=q4=Сила Военачальника неумолимого гладиатора", "=ds=#s14#", ""};
+		{ 26, 100118, "", "=q4=Могущество Военачальника неумолимого гладиатора", "=ds=#s14#", ""};
+		{ 27, 100110, "", "=q4=Выносливость Военачальника неумолимого гладиатора", "=ds=#s14#", ""};
+		{ 28, 100106, "", "=q4=Чародейство Военачальника неумолимого гладиатора", "=ds=#s14#", ""};
+		{ 29, 103396, "", "=q4=Некротическое касание неумолимого гладиатора", "=ds=#s14#", ""};
+		{ 30, 103402, "", "=q4=Касание А'дала неумолимого гладиатора", "=ds=#s14#", ""};
+			Prev = "PvP80UnSet3";
+		 Next = "PvP80UnSet5";
+		 Back = "PVPMENU";
+	 };
+	 AtlasLoot_Data["PvP80UnSet4_x2"] = {
+		{ 1, 0, "Inv_jewelry_necklace_22", "=q6=#arenaset7#", ""};
+		{ 2, 42078, "", "=q4=Relentless Gladiator's Cloak of Ascendancy", "=ds=#s4#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 3, 42080, "", "=q4=Relentless Gladiator's Cloak of Deliverance", "=ds=#s4#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 4, 42076, "", "=q4=Relentless Gladiator's Cloak of Dominance", "=ds=#s4#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 5, 42079, "", "=q4=Relentless Gladiator's Cloak of Salvation", "=ds=#s4#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 6, 42077, "", "=q4=Relentless Gladiator's Cloak of Subjugation", "=ds=#s4#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 7, 42081, "", "=q4=Relentless Gladiator's Cloak of Triumph", "=ds=#s4#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 8, 42082, "", "=q4=Relentless Gladiator's Cloak of Victory", "=ds=#s4#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 10, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 11, 100156, "", "=q4=Relentless Gladiator's Band of Dominance", "=ds=#s13#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 12, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 13, 100155, "", "=q4=Relentless Gladiator's Band of Triumph", "=ds=#s13#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 14, 100159, "", "=q4=Медальон Альянса", "=ds=#s14#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 15, 100160, "", "=q4=Медальон Орды", "=ds=#s14#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 17, 42044, "", "=q4=Relentless Gladiator's Pendant of Ascendancy", "=ds=#s2#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 18, 42046, "", "=q4=Relentless Gladiator's Pendant of Deliverance", "=ds=#s2#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 19, 42043, "", "=q4=Relentless Gladiator's Pendant of Dominance", "=ds=#s2#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 20, 42047, "", "=q4=Relentless Gladiator's Pendant of Salvation", "=ds=#s2#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 21, 42045, "", "=q4=Relentless Gladiator's Pendant of Subjugation", "=ds=#s2#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 22, 46374, "", "=q4=Relentless Gladiator's Pendant of Sundering", "=ds=#s2#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 23, 42041, "", "=q4=Relentless Gladiator's Pendant of Triumph", "=ds=#s2#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 24, 42042, "", "=q4=Relentless Gladiator's Pendant of Victory", "=ds=#s2#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 25, 100102, "", "=q4=Сила Военачальника неумолимого гладиатора", "=ds=#s14#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 26, 100118, "", "=q4=Могущество Военачальника неумолимого гладиатора", "=ds=#s14#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 27, 100110, "", "=q4=Выносливость Военачальника неумолимого гладиатора", "=ds=#s14#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 28, 100106, "", "=q4=Чародейство Военачальника неумолимого гладиатора", "=ds=#s14#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 29, 103396, "", "=q4=Некротическое касание неумолимого гладиатора", "=ds=#s14#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 30, 103402, "", "=q4=Касание А'дала неумолимого гладиатора", "=ds=#s14#", "280 #bgpoints# или 70 #arenapoints#"};
+			Prev = "PvP80UnSet3";
+		 Next = "PvP80UnSet5";
 		 Back = "PVPMENU";
 	 };
 	
-	AtlasLoot_Data["PvP80UnSet4"] = {
+	AtlasLoot_Data["PvP80UnSet5"] = {
 	{ 1, 0, "Inv_jewelry_necklace_22", "=q6=#arenaset8#", ""};
 		{ 2, 51334, "", "=q4=Wrathful Gladiator's Cloak of Ascendancy", "=ds=#s4#", ""};
 		{ 3, 51348, "", "=q4=Wrathful Gladiator's Cloak of Deliverance", "=ds=#s4#", ""};
@@ -8960,12 +9976,12 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 28, 100107, "", "=q4=Чародейство Военачальника разгневанного гладиатора", "=ds=#s14#", ""};
 		{ 29, 103397, "", "=q4=Некротическое касание неумолимого гладиатора", "=ds=#s14#", ""};
 		{ 30, 103403, "", "=q4=Касание А'дала неумолимого гладиатора", "=ds=#s14#", ""};
-				Prev = "PvP80UnSet3";
-		Next = "PvP80UnSet5";
+				Prev = "PvP80UnSet4";
+		Next = "PvP80UnSet6";
 		Back = "PVPMENU";
 	};
 
-	AtlasLoot_Data["PvP80UnSet5"] = {
+	AtlasLoot_Data["PvP80UnSet6"] = {
 		{ 1, 0, "Inv_jewelry_necklace_22", "=q6=#arenaset9#", ""};
 		{ 2, 103007, "", "=q4=Vicious Cloak of Salvation", "=ds=#s4#", ""};
 		{ 3, 103019, "", "=q4=Vicious Cloak of Deliverance", "=ds=#s4#", ""};
@@ -8994,7 +10010,7 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 28, 103182, "", "=q4=Могущество Военачальника разгневанного гладиатора", "=ds=#s14#", ""};
 		{ 29, 103398, "", "=q4=Некротическое касание неумолимого гладиатора", "=ds=#s14#", ""};
 		{ 30, 103404, "", "=q4=Касание А'дала неумолимого гладиатора", "=ds=#s14#", ""};
-		Prev = "PvP80UnSet4";
+		Prev = "PvP80UnSet5";
 		Next = "PvP80UnSet7";
 		Back = "PVPMENU";
 	};
@@ -9028,13 +10044,13 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 28, 103382, "", "=q4=Могущество Военачальника беспощадного гладиатора", "=ds=#s14#", ""};
 		{ 29, 103399, "", "=q4=Некротическое касание неумолимого гладиатора", "=ds=#s14#", ""};
 		{ 30, 103405, "", "=q4=Касание А'дала неумолимого гладиатора", "=ds=#s14#", ""};
-		Prev = "PvP80UnSet5";
+		Prev = "PvP80UnSet6";
 		Back = "PVPMENU";
 	};
 	
 	
 	
-	AtlasLoot_Data["PvP80UnSet6_A"] = {
+--[[	AtlasLoot_Data["PvP80UnSet6_A"] = {
 		{ 1, 0, "Inv_jewelry_necklace_22", "=q6=#arenaset9#", ""};
 		{ 2, 60794, "", "=q4=Medallion of the Alliance", "=ds=", ""};
 		{ 3, 60799, "", "=q4=Medallion of the Alliance2", "=ds=", ""};
@@ -9082,235 +10098,424 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 27, 69783, "", "=q4=A9Trinket16", "=ds=", ""};
 		Prev = "PvP80UnSet5";
 		Back = "PVPMENU";
-	};
+	};]]--
 
 --Cloth
-	 AtlasLoot_Data["PvP80ClothNonSet1"] = {
+	AtlasLoot_Data["PvP80ClothNonSet0_x2"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
-		{ 2, 41892, "", "=q4=Deadly Gladiator's Cuffs of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 41880, "", "=q4=Deadly Gladiator's Cord of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 41884, "", "=q4=Deadly Gladiator's Treads of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 6, 41908, "", "=q4=Deadly Gladiator's Cuffs of Dominance", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 7, 41897, "", "=q4=Deadly Gladiator's Cord of Dominance", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 8, 41902, "", "=q4=Deadly Gladiator's Treads of Dominance", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
-		{ 17, 41893, "", "=q4=Furious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
-		{ 18, 41881, "", "=q4=Furious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
-		{ 19, 41885, "", "=q4=Furious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
-		{ 21, 41909, "", "=q4=Furious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 22, 41898, "", "=q4=Furious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
-		{ 23, 41903, "", "=q4=Furious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
-		{ 25, 100149, "", "=q4=Furious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 26, 100147, "", "=q4=Furious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
-		{ 27, 100148, "", "=q4=Furious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 2, 41878, "", "=q4=Манжеты спасения злобного гладиатора", "=ds=#s8#", ""};
+		{ 3, 41877, "", "=q4= Шнурованный ремень спасения злобного гладиатора", "=ds=#s10#", ""};
+		{ 4, 41879, "", "=q4=Туфли спасения злобного гладиатора", "=ds=#s12#", ""};
+		{ 6, 41907, "", "=q4= Манжеты господства злобного гладиатора	", "=ds=#s8#", ""};
+		{ 7, 41896, "", "=q4= Шнурованный ремень господства злобного гладиатора	", "=ds=#s10#", ""};
+		{ 8, 41901, "", "=q4= Туфли господства злобного гладиатора", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 17, 41892, "", "=q4=Deadly Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 18, 41880, "", "=q4=Deadly Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 19, 41884, "", "=q4=Deadly Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 21, 41908, "", "=q4=Deadly Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 22, 41897, "", "=q4=Deadly Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 23, 41902, "", "=q4=Deadly Gladiator's Treads of Dominance", "=ds=#s12#", ""};
 		
+		Next = "PvP80ClothNonSet1";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80ClothNonSet0_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 2, 41878, "", "=q4=Манжеты спасения злобного гладиатора", "=ds=#s8#", "1600 #bgpoints# Служба:600"};
+		{ 3, 41877, "", "=q4= Шнурованный ремень спасения злобного гладиатора", "=ds=#s10#", "1600 #bgpoints# Служба:600"};
+		{ 4, 41879, "", "=q4=Туфли спасения злобного гладиатора", "=ds=#s12#", "1600 #bgpoints# Служба:600"};
+		{ 6, 41907, "", "=q4= Манжеты господства злобного гладиатора	", "=ds=#s8#", "1600 #bgpoints# Служба:600"};
+		{ 7, 41896, "", "=q4= Шнурованный ремень господства злобного гладиатора	", "=ds=#s10#", "1600 #bgpoints# Служба:600"};
+		{ 8, 41901, "", "=q4= Туфли господства злобного гладиатора", "=ds=#s12#", "1600 #bgpoints# Служба:600"};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 17, 41892, "", "=q4=Deadly Gladiator's Cuffs of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 18, 41880, "", "=q4=Deadly Gladiator's Cord of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 19, 41884, "", "=q4=Deadly Gladiator's Treads of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 21, 41908, "", "=q4=Deadly Gladiator's Cuffs of Dominance", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 22, 41897, "", "=q4=Deadly Gladiator's Cord of Dominance", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 23, 41902, "", "=q4=Deadly Gladiator's Treads of Dominance", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+	
+		Next = "PvP80ClothNonSet1";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80ClothNonSet1_x2"] = {
+		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
+		{ 2, 41893, "", "=q4=Furious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 3, 41881, "", "=q4=Furious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 4, 41885, "", "=q4=Furious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 6, 41909, "", "=q4=Furious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 7, 41898, "", "=q4=Furious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 8, 41903, "", "=q4=Furious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 10, 100149, "", "=q4=Furious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 11, 100147, "", "=q4=Furious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 12, 100148, "", "=q4=Furious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
+		{ 17, 41894, "", "=q4=Relentless Gladiator's Cuffs of Salvation", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 18, 41882, "", "=q4=Relentless Gladiator's Cord of Salvation", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 19, 41886, "", "=q4=Relentless Gladiator's Treads of Salvation", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 21, 41910, "", "=q4=Relentless Gladiator's Cuffs of Dominance", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 22, 41899, "", "=q4=Relentless Gladiator's Cord of Dominance", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 23, 41904, "", "=q4=Relentless Gladiator's Treads of Dominance", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 25, 49181, "", "=q4=Relentless Gladiator's Cuffs of Alacrity", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 26, 49179, "", "=q4=Relentless Gladiator's Cord of Alacrity", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 27, 49183, "", "=q4=Relentless Gladiator's Treads of Alacrity", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		
+		Prev = "PvP80ClothNonSet0";
+		Next = "PvP80ClothNonSet2";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80ClothNonSet1_x4"] = {
+		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
+		{ 2, 41893, "", "=q4=Furious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 3, 41881, "", "=q4=Furious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 4, 41885, "", "=q4=Furious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 6, 41909, "", "=q4=Furious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 7, 41898, "", "=q4=Furious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 8, 41903, "", "=q4=Furious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 10, 100149, "", "=q4=Furious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 11, 100147, "", "=q4=Furious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 12, 100148, "", "=q4=Furious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
+		{ 17, 41894, "", "=q4=Relentless Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 18, 41882, "", "=q4=Relentless Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 19, 41886, "", "=q4=Relentless Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 21, 41910, "", "=q4=Relentless Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 22, 41899, "", "=q4=Relentless Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 23, 41904, "", "=q4=Relentless Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 25, 49181, "", "=q4=Relentless Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
+		{ 26, 49179, "", "=q4=Relentless Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
+		{ 27, 49183, "", "=q4=Relentless Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
+		
+		Prev = "PvP80ClothNonSet0";
 		Next = "PvP80ClothNonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
 	
 	AtlasLoot_Data["PvP80ClothNonSet2"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
-		{ 2, 41894, "", "=q4=Relentless Gladiator's Cuffs of Salvation", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 41882, "", "=q4=Relentless Gladiator's Cord of Salvation", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 41886, "", "=q4=Relentless Gladiator's Treads of Salvation", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 6, 41910, "", "=q4=Relentless Gladiator's Cuffs of Dominance", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 7, 41899, "", "=q4=Relentless Gladiator's Cord of Dominance", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 8, 41904, "", "=q4=Relentless Gladiator's Treads of Dominance", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 10, 49181, "", "=q4=Relentless Gladiator's Cuffs of Alacrity", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 11, 49179, "", "=q4=Relentless Gladiator's Cord of Alacrity", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 12, 49183, "", "=q4=Relentless Gladiator's Treads of Alacrity", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset8#", ""};
-		{ 17, 51367, "", "=q4=Wrathful Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
-		{ 18, 51365, "", "=q4=Wrathful Gladiator's Cord of Salvation", "=ds=#s10#", ""};
-		{ 19, 51366, "", "=q4=Wrathful Gladiator's Treads of Salvation", "=ds=#s12#", ""};
-		{ 21, 51329, "", "=q4=Wrathful Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 22, 51327, "", "=q4=Wrathful Gladiator's Cord of Dominance", "=ds=#s10#", ""};
-		{ 23, 51328, "", "=q4=Wrathful Gladiator's Treads of Dominance", "=ds=#s12#", ""};
-		{ 25, 51339, "", "=q4=Wrathful Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
-		{ 26, 51337, "", "=q4=Wrathful Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
-		{ 27, 51338, "", "=q4=Wrathful Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
 		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset8#", ""};
+		{ 2, 51367, "", "=q4=Wrathful Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 3, 51365, "", "=q4=Wrathful Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 4, 51366, "", "=q4=Wrathful Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 6, 51329, "", "=q4=Wrathful Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 7, 51327, "", "=q4=Wrathful Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 8, 51328, "", "=q4=Wrathful Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 10, 51339, "", "=q4=Wrathful Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
+		{ 11, 51337, "", "=q4=Wrathful Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
+		{ 12, 51338, "", "=q4=Wrathful Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset9#", ""};
+		{ 17, 103040, "", "=q4=Vicious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 18, 103038, "", "=q4=Vicious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 19, 103039, "", "=q4=Vicious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 21, 103002, "", "=q4=Vicious Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
+		{ 22, 103000, "", "=q4=Vicious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 23, 103001, "", "=q4=Vicious Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
+		{ 25, 103012, "", "=q4=Vicious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 26, 103010, "", "=q4=Vicious Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
+		{ 27, 103011, "", "=q4=Vicious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
 		Prev = "PvP80ClothNonSet1";
 		Next = "PvP80ClothNonSet3";
 		Back = "PVP80NONSETEPICS";
 	};
-		AtlasLoot_Data["PvP80ClothNonSet3"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#arenaset9#", ""};
-		{ 2, 103040, "", "=q4=Vicious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
-		{ 3, 103038, "", "=q4=Vicious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
-		{ 4, 103039, "", "=q4=Vicious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
-		{ 6, 103002, "", "=q4=Vicious Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
-		{ 7, 103000, "", "=q4=Vicious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
-		{ 8, 103001, "", "=q4=Vicious Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
-		{ 10, 103012, "", "=q4=Vicious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 11, 103010, "", "=q4=Vicious Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
-		{ 12, 103011, "", "=q4=Vicious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset10#", ""};
-		{ 17, 103240, "", "=q4=Merciless Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
-		{ 18, 103238, "", "=q4=Merciless Gladiator's Cord of Salvation", "=ds=#s10#", ""};
-		{ 19, 103239, "", "=q4=Merciless Gladiator's Treads of Salvation", "=ds=#s12#", ""};
-		{ 21, 103202, "", "=q4=Merciless Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
-		{ 22, 103200, "", "=q4=Merciless Gladiator's Cord of Dominance", "=ds=#s10#", ""};
-		{ 23, 103201, "", "=q4=Merciless Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
-		{ 25, 103212, "", "=q4=Merciless Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 26, 103210, "", "=q4=Merciless Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
-		{ 27, 103211, "", "=q4=Merciless Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		AtlasLoot_Data["PvP80ClothNonSet3"] = {	
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset10#", ""};
+		{ 2, 103240, "", "=q4=Merciless Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 3, 103238, "", "=q4=Merciless Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 4, 103239, "", "=q4=Merciless Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 6, 103202, "", "=q4=Merciless Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
+		{ 7, 103200, "", "=q4=Merciless Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 8, 103201, "", "=q4=Merciless Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
+		{ 10, 103212, "", "=q4=Merciless Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 11, 103210, "", "=q4=Merciless Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
+		{ 12, 103211, "", "=q4=Merciless Gladiator's Treads of Dominance", "=ds=#s12#", ""};
 		Prev = "PvP80ClothNonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
 
 --Leather
-	AtlasLoot_Data["PvP80LeatherNonSet1"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
-		{ 2, 41624, "", "=q4=Deadly Gladiator's Armwraps of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 41616, "", "=q4=Deadly Gladiator's Belt of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 41620, "", "=q4=Deadly Gladiator's Boots of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 6, 41839, "", "=q4=Deadly Gladiator's Armwraps of Triumph", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 7, 41831, "", "=q4=Deadly Gladiator's Belt of Triumph", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 8, 41835, "", "=q4=Deadly Gladiator's Boots of Triumph", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 10, 41639, "", "=q4=Deadly Gladiator's Armwraps of Dominance", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 11, 41629, "", "=q4=Deadly Gladiator's Belt of Dominance", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 12, 41634, "", "=q4=Deadly Gladiator's Boots of Dominance", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
-		{ 17, 41625, "", "=q4=Furious Gladiator's Armwraps of Salvation", "=ds=#s8#", ""};
-		{ 18, 41617, "", "=q4=Furious Gladiator's Belt of Salvation", "=ds=#s10#", ""};
-		{ 19, 41621, "", "=q4=Furious Gladiator's Boots of Salvation", "=ds=#s12#", ""};
-		{ 21, 41840, "", "=q4=Furious Gladiator's Armwraps of Triumph", "=ds=#s8#", ""};
-		{ 22, 41832, "", "=q4=Furious Gladiator's Belt of Triumph", "=ds=#s10#", ""};
-		{ 23, 41836, "", "=q4=Furious Gladiator's Boots of Triumph", "=ds=#s12#", ""};
-		{ 25, 41640, "", "=q4=Furious Gladiator's Armwraps of Dominance", "=ds=#s8#", ""};
-		{ 26, 41630, "", "=q4=Furious Gladiator's Belt of Dominance", "=ds=#s10#", ""};
-		{ 27, 41635, "", "=q4=Furious Gladiator's Boots of Dominance", "=ds=#s12#", ""};
+	AtlasLoot_Data["PvP80LeatherNonSet0_x2"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset5#", ""};	
+		{ 2, 41332, "", "=q4=Наручные обмотки спасения злобного гладиатора", "=ds=#s8#", ""};
+		{ 3, 41330, "", "=q4=Пояс спасения злобного гладиатора", "=ds=#s10#", ""};
+		{ 4, 41331, "", "=q4=Сапоги спасения злобного гладиатора", "=ds=#s12#", ""};
+		{ 6, 41830, "", "=q4=Наручные обмотки триумфа злобного гладиатора", "=ds=#s8#", ""};
+		{ 7, 41827, "", "=q4=Пояс триумфа злобного гладиатора", "=ds=#s10#", ""};
+		{ 8, 41828, "", "=q4= Сапоги триумфа злобного гладиатора", "=ds=#s12#", ""};
+		{ 10, 41640, "", "=q4=Наручные обмотки господства гневного гладиатора", "=ds=#s8#", ""};
+		{ 11, 41630, "", "=q4=Пояс господства гневного гладиатора", "=ds=#s10#", ""};
+		{ 12, 41635, "", "=q4=Сапоги господства гневного гладиатора", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 17, 41624, "", "=q4=Deadly Gladiator's Armwraps of Salvation", "=ds=#s8#", ""};
+		{ 18, 41616, "", "=q4=Deadly Gladiator's Belt of Salvation", "=ds=#s10#", ""};
+		{ 19, 41620, "", "=q4=Deadly Gladiator's Boots of Salvation", "=ds=#s12#", ""};
+		{ 21, 41839, "", "=q4=Deadly Gladiator's Armwraps of Triumph", "=ds=#s8#", ""};
+		{ 22, 41831, "", "=q4=Deadly Gladiator's Belt of Triumph", "=ds=#s10#", ""};
+		{ 23, 41835, "", "=q4=Deadly Gladiator's Boots of Triumph", "=ds=#s12#", ""};
+		{ 25, 41639, "", "=q4=Deadly Gladiator's Armwraps of Dominance", "=ds=#s8#", ""};
+		{ 26, 41629, "", "=q4=Deadly Gladiator's Belt of Dominance", "=ds=#s10#", ""};
+		{ 27, 41634, "", "=q4=Deadly Gladiator's Boots of Dominance", "=ds=#s12#", ""};
 		
+		Next = "PvP80LeatherNonSet1";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80LeatherNonSet0_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset5#", ""};	
+		{ 2, 41332, "", "=q4=Наручные обмотки спасения злобного гладиатора", "=ds=#s8#", "1600 #bgpoints# Служба:600"};
+		{ 3, 41330, "", "=q4=Пояс спасения злобного гладиатора", "=ds=#s10#", "1600 #bgpoints# Служба:600"};
+		{ 4, 41331, "", "=q4=Сапоги спасения злобного гладиатора", "=ds=#s12#", ""};
+		{ 6, 41830, "", "=q4=Наручные обмотки триумфа злобного гладиатора", "=ds=#s8#", "1600 #bgpoints# Служба:600"};
+		{ 7, 41827, "", "=q4=Пояс триумфа злобного гладиатора", "=ds=#s10#", "1600 #bgpoints# Служба:600"};
+		{ 8, 41828, "", "=q4= Сапоги триумфа злобного гладиатора", "=ds=#s12#", "1600 #bgpoints# Служба:600"};
+		{ 10, 41640, "", "=q4=Наручные обмотки господства гневного гладиатора", "=ds=#s8#", "1600 #bgpoints# Служба:600"};
+		{ 11, 41630, "", "=q4=Пояс господства гневного гладиатора", "=ds=#s10#", "1600 #bgpoints# Служба:600"};
+		{ 12, 41635, "", "=q4=Сапоги господства гневного гладиатора", "=ds=#s12#", "1600 #bgpoints# Служба:600"};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 17, 41624, "", "=q4=Deadly Gladiator's Armwraps of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 18, 41616, "", "=q4=Deadly Gladiator's Belt of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 19, 41620, "", "=q4=Deadly Gladiator's Boots of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 21, 41839, "", "=q4=Deadly Gladiator's Armwraps of Triumph", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 22, 41831, "", "=q4=Deadly Gladiator's Belt of Triumph", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 23, 41835, "", "=q4=Deadly Gladiator's Boots of Triumph", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 25, 41639, "", "=q4=Deadly Gladiator's Armwraps of Dominance", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 26, 41629, "", "=q4=Deadly Gladiator's Belt of Dominance", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 27, 41634, "", "=q4=Deadly Gladiator's Boots of Dominance", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		Next = "PvP80LeatherNonSet1";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80LeatherNonSet1_x2"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
+		{ 2, 41625, "", "=q4=Furious Gladiator's Armwraps of Salvation", "=ds=#s8#", ""};
+		{ 3, 41617, "", "=q4=Furious Gladiator's Belt of Salvation", "=ds=#s10#", ""};
+		{ 4, 41621, "", "=q4=Furious Gladiator's Boots of Salvation", "=ds=#s12#", ""};
+		{ 6, 41840, "", "=q4=Furious Gladiator's Armwraps of Triumph", "=ds=#s8#", ""};
+		{ 7, 41832, "", "=q4=Furious Gladiator's Belt of Triumph", "=ds=#s10#", ""};
+		{ 8, 41836, "", "=q4=Furious Gladiator's Boots of Triumph", "=ds=#s12#", ""};
+		{ 10, 41640, "", "=q4=Furious Gladiator's Armwraps of Dominance", "=ds=#s8#", ""};
+		{ 11, 41630, "", "=q4=Furious Gladiator's Belt of Dominance", "=ds=#s10#", ""};
+		{ 12, 41635, "", "=q4=Furious Gladiator's Boots of Dominance", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
+		{ 17, 41626, "", "=q4=Relentless Gladiator's Armwraps of Salvation", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 18, 41618, "", "=q4=Relentless Gladiator's Belt of Salvation", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 19, 41622, "", "=q4=Relentless Gladiator's Boots of Salvation", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 21, 41841, "", "=q4=Relentless Gladiator's Armwraps of Triumph", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 22, 41833, "", "=q4=Relentless Gladiator's Belt of Triumph", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 23, 41837, "", "=q4=Relentless Gladiator's Boots of Triumph", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 25, 41641, "", "=q4=Relentless Gladiator's Armwraps of Dominance", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 26, 41631, "", "=q4=Relentless Gladiator's Belt of Dominance", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 27, 41636, "", "=q4=Relentless Gladiator's Boots of Dominance", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		Prev = "PvP80LeatherNonSet0";
+		Next = "PvP80LeatherNonSet2";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80LeatherNonSet1_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
+		{ 2, 41625, "", "=q4=Furious Gladiator's Armwraps of Salvation", "=ds=#s8#", ""};
+		{ 3, 41617, "", "=q4=Furious Gladiator's Belt of Salvation", "=ds=#s10#", ""};
+		{ 4, 41621, "", "=q4=Furious Gladiator's Boots of Salvation", "=ds=#s12#", ""};
+		{ 6, 41840, "", "=q4=Furious Gladiator's Armwraps of Triumph", "=ds=#s8#", ""};
+		{ 7, 41832, "", "=q4=Furious Gladiator's Belt of Triumph", "=ds=#s10#", ""};
+		{ 8, 41836, "", "=q4=Furious Gladiator's Boots of Triumph", "=ds=#s12#", ""};
+		{ 10, 41640, "", "=q4=Furious Gladiator's Armwraps of Dominance", "=ds=#s8#", ""};
+		{ 11, 41630, "", "=q4=Furious Gladiator's Belt of Dominance", "=ds=#s10#", ""};
+		{ 12, 41635, "", "=q4=Furious Gladiator's Boots of Dominance", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
+		{ 17, 41626, "", "=q4=Relentless Gladiator's Armwraps of Salvation", "=ds=#s8#", ""};
+		{ 18, 41618, "", "=q4=Relentless Gladiator's Belt of Salvation", "=ds=#s10#", ""};
+		{ 19, 41622, "", "=q4=Relentless Gladiator's Boots of Salvation", "=ds=#s12#", ""};
+		{ 21, 41841, "", "=q4=Relentless Gladiator's Armwraps of Triumph", "=ds=#s8#", ""};
+		{ 22, 41833, "", "=q4=Relentless Gladiator's Belt of Triumph", "=ds=#s10#", ""};
+		{ 23, 41837, "", "=q4=Relentless Gladiator's Boots of Triumph", "=ds=#s12#", ""};
+		{ 25, 41641, "", "=q4=Relentless Gladiator's Armwraps of Dominance", "=ds=#s8#", ""};
+		{ 26, 41631, "", "=q4=Relentless Gladiator's Belt of Dominance", "=ds=#s10#", ""};
+		{ 27, 41636, "", "=q4=Relentless Gladiator's Boots of Dominance", "=ds=#s12#", ""};
+		Prev = "PvP80LeatherNonSet0";
 		Next = "PvP80LeatherNonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
 	
 	AtlasLoot_Data["PvP80LeatherNonSet2"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
-		{ 2, 41626, "", "=q4=Relentless Gladiator's Armwraps of Salvation", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 41618, "", "=q4=Relentless Gladiator's Belt of Salvation", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 41622, "", "=q4=Relentless Gladiator's Boots of Salvation", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 6, 41841, "", "=q4=Relentless Gladiator's Armwraps of Triumph", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 7, 41833, "", "=q4=Relentless Gladiator's Belt of Triumph", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 8, 41837, "", "=q4=Relentless Gladiator's Boots of Triumph", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 10, 41641, "", "=q4=Relentless Gladiator's Armwraps of Dominance", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 11, 41631, "", "=q4=Relentless Gladiator's Belt of Dominance", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 12, 41636, "", "=q4=Relentless Gladiator's Boots of Dominance", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset8#", ""};
-		{ 17, 51342, "", "=q4=Wrathful Gladiator's Armwraps of Salvation", "=ds=#s8#", ""};
-		{ 18, 51340, "", "=q4=Wrathful Gladiator's Belt of Salvation", "=ds=#s10#", ""};
-		{ 19, 51341, "", "=q4=Wrathful Gladiator's Boots of Salvation", "=ds=#s12#", ""};
-		{ 21, 51370, "", "=q4=Wrathful Gladiator's Armwraps of Triumph", "=ds=#s8#", ""};
-		{ 22, 51368, "", "=q4=Wrathful Gladiator's Belt of Triumph", "=ds=#s10#", ""};
-		{ 23, 51369, "", "=q4=Wrathful Gladiator's Boots of Triumph", "=ds=#s12#", ""};
-		{ 25, 51345, "", "=q4=Wrathful Gladiator's Armwraps of Dominance", "=ds=#s8#", ""};
-		{ 26, 51343, "", "=q4=Wrathful Gladiator's Belt of Dominance", "=ds=#s10#", ""};
-		{ 27, 51344, "", "=q4=Wrathful Gladiator's Boots of Dominance", "=ds=#s12#", ""};
-	
+		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset8#", ""};
+		{ 2, 51342, "", "=q4=Wrathful Gladiator's Armwraps of Salvation", "=ds=#s8#", ""};
+		{ 3, 51340, "", "=q4=Wrathful Gladiator's Belt of Salvation", "=ds=#s10#", ""};
+		{ 4, 51341, "", "=q4=Wrathful Gladiator's Boots of Salvation", "=ds=#s12#", ""};
+		{ 6, 51370, "", "=q4=Wrathful Gladiator's Armwraps of Triumph", "=ds=#s8#", ""};
+		{ 7, 51368, "", "=q4=Wrathful Gladiator's Belt of Triumph", "=ds=#s10#", ""};
+		{ 8, 51369, "", "=q4=Wrathful Gladiator's Boots of Triumph", "=ds=#s12#", ""};
+		{ 10, 51345, "", "=q4=Wrathful Gladiator's Armwraps of Dominance", "=ds=#s8#", ""};
+		{ 11, 51343, "", "=q4=Wrathful Gladiator's Belt of Dominance", "=ds=#s10#", ""};
+		{ 12, 51344, "", "=q4=Wrathful Gladiator's Boots of Dominance", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset9#", ""};
+		{ 17, 103015, "", "=q4=Vicious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 18, 103013, "", "=q4=Vicious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 19, 103014, "", "=q4=Vicious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 21, 103043, "", "=q4=Vicious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 22, 103041, "", "=q4=Vicious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 23, 103042, "", "=q4=Vicious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 25, 103018, "", "=q4=Vicious Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
+		{ 26, 103016, "", "=q4=Vicious Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
+		{ 27, 103017, "", "=q4=Vicious Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
 		Prev = "PvP80LeatherNonSet1";
 		Next = "PvP80LeatherNonSet3";
 		Back = "PVP80NONSETEPICS";
 	};
 	AtlasLoot_Data["PvP80LeatherNonSet3"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#arenaset9#", ""};
-		{ 2, 103015, "", "=q4=Vicious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
-		{ 3, 103013, "", "=q4=Vicious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
-		{ 4, 103014, "", "=q4=Vicious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
-		{ 6, 103043, "", "=q4=Vicious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 7, 103041, "", "=q4=Vicious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
-		{ 8, 103042, "", "=q4=Vicious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
-		{ 10, 103018, "", "=q4=Vicious Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
-		{ 11, 103016, "", "=q4=Vicious Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
-		{ 12, 103017, "", "=q4=Vicious Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset10#", ""};
-		{ 17, 103215, "", "=q4=Merciless Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
-		{ 18, 103213, "", "=q4=Merciless Gladiator's Cord of Salvation", "=ds=#s10#", ""};
-		{ 19, 103214, "", "=q4=Merciless Gladiator's Treads of Salvation", "=ds=#s12#", ""};
-		{ 21, 103243, "", "=q4=Merciless Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 22, 103241, "", "=q4=Merciless Gladiator's Cord of Dominance", "=ds=#s10#", ""};
-		{ 23, 103242, "", "=q4=Merciless Gladiator's Treads of Dominance", "=ds=#s12#", ""};
-		{ 25, 103218, "", "=q4=Merciless Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
-		{ 26, 103216, "", "=q4=Merciless Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
-		{ 27, 103217, "", "=q4=Merciless Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
+		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset10#", ""};
+		{ 2, 103215, "", "=q4=Merciless Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 3, 103213, "", "=q4=Merciless Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 4, 103214, "", "=q4=Merciless Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 6, 103243, "", "=q4=Merciless Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 7, 103241, "", "=q4=Merciless Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 8, 103242, "", "=q4=Merciless Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 10, 103218, "", "=q4=Merciless Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
+		{ 11, 103216, "", "=q4=Merciless Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
+		{ 12, 103217, "", "=q4=Merciless Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
 		Prev = "PvP80LeatherNonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
 
 --Mail
-	AtlasLoot_Data["PvP80MailNonSet1"] = {
+	AtlasLoot_Data["PvP80MailNonSet0_x2"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
-		{ 2, 41059, "", "=q4=Deadly Gladiator's Wristguards of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 41048, "", "=q4=Deadly Gladiator's Waistguard of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 41054, "", "=q4=Deadly Gladiator's Sabatons of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 6, 41224, "", "=q4=Deadly Gladiator's Wristguards of Triumph", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 7, 41234, "", "=q4=Deadly Gladiator's Waistguard of Triumph", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 8, 41229, "", "=q4=Deadly Gladiator's Sabatons of Triumph", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 10, 41064, "", "=q4=Deadly Gladiator's Wristguards of Dominance", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 11, 41069, "", "=q4=Deadly Gladiator's Waistguard of Dominance", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 12, 41074, "", "=q4=Deadly Gladiator's Sabatons of Dominance", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
-		{ 17, 41060, "", "=q4=Furious Gladiator's Wristguards of Salvation", "=ds=#s8#", ""};
-		{ 18, 41051, "", "=q4=Furious Gladiator's Waistguard of Salvation", "=ds=#s10#", ""};
-		{ 19, 41055, "", "=q4=Furious Gladiator's Sabatons of Salvation", "=ds=#s12#", ""};
-		{ 21, 41225, "", "=q4=Furious Gladiator's Wristguards of Triumph", "=ds=#s8#", ""};
-		{ 22, 41235, "", "=q4=Furious Gladiator's Waistguard of Triumph", "=ds=#s10#", ""};
-		{ 23, 41230, "", "=q4=Furious Gladiator's Sabatons of Triumph", "=ds=#s12#", ""};
-		{ 25, 41065, "", "=q4=Furious Gladiator's Wristguards of Dominance", "=ds=#s8#", ""};
-		{ 26, 41070, "", "=q4=Furious Gladiator's Waistguard of Dominance", "=ds=#s10#", ""};
-		{ 27, 41075, "", "=q4=Furious Gladiator's Sabatons of Dominance", "=ds=#s12#", ""};
+		{ 2, 41047, "", "=q4=Накулачники спасения злобного гладиатора", "=ds=#s8#", ""};
+		{ 3, 41050, "", "=q4=Воинский пояс спасения злобного гладиатора", "=ds=#s10#", ""};
+		{ 4, 41049, "", "=q4=Башмаки спасения злобного гладиатора", "=ds=#s12#", ""};
+		{ 6, 41223, "", "=q4=Накулачники триумфа злобного гладиатора", "=ds=#s8#", ""};
+		{ 7, 41233, "", "=q4=Воинский пояс триумфа злобного гладиатора", "=ds=#s10#", ""};
+		{ 8, 41228	, "", "=q4=Башмаки триумфа злобного гладиатора", "=ds=#s12#", ""};
+		{ 10, 41063, "", "=q4=Накулачники господства злобного гладиатора", "=ds=#s8#", ""};
+		{ 11, 41068, "", "=q4=Воинский пояс господства злобного гладиатора", "=ds=#s10#", ""};
+		{ 12, 41073, "", "=q4=Башмаки господства злобного гладиатора", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 17, 41059, "", "=q4=Deadly Gladiator's Wristguards of Salvation", "=ds=#s8#", ""};
+		{ 18, 41048, "", "=q4=Deadly Gladiator's Waistguard of Salvation", "=ds=#s10#", ""};
+		{ 19, 41054, "", "=q4=Deadly Gladiator's Sabatons of Salvation", "=ds=#s12#", ""};
+		{ 21, 41224, "", "=q4=Deadly Gladiator's Wristguards of Triumph", "=ds=#s8#", ""};
+		{ 22, 41234, "", "=q4=Deadly Gladiator's Waistguard of Triumph", "=ds=#s10#", ""};
+		{ 23, 41229, "", "=q4=Deadly Gladiator's Sabatons of Triumph", "=ds=#s12#", ""};
+		{ 25, 41064, "", "=q4=Deadly Gladiator's Wristguards of Dominance", "=ds=#s8#", ""};
+		{ 26, 41069, "", "=q4=Deadly Gladiator's Waistguard of Dominance", "=ds=#s10#", ""};
+		{ 27, 41074, "", "=q4=Deadly Gladiator's Sabatons of Dominance", "=ds=#s12#", ""};
 		
+		Next = "PvP80MailNonSet1";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80MailNonSet0_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 2, 41047, "", "=q4=Накулачники спасения злобного гладиатора", "=ds=#s8#", "1600 #bgpoints# Служба:600"};
+		{ 3, 41050, "", "=q4=Воинский пояс спасения злобного гладиатора", "=ds=#s10#", "1600 #bgpoints# Служба:600"};
+		{ 4, 41049, "", "=q4=Башмаки спасения злобного гладиатора", "=ds=#s12#", "1600 #bgpoints# Служба:600"};
+		{ 6, 41223, "", "=q4=Накулачники триумфа злобного гладиатора", "=ds=#s8#", "1600 #bgpoints# Служба:600"};
+		{ 7, 41233, "", "=q4=Воинский пояс триумфа злобного гладиатора", "=ds=#s10#", "1600 #bgpoints# Служба:600"};
+		{ 8, 41228	, "", "=q4=Башмаки триумфа злобного гладиатора", "=ds=#s12#", "1600 #bgpoints# Служба:600"};
+		{ 10, 41063, "", "=q4=Накулачники господства злобного гладиатора", "=ds=#s8#", "1600 #bgpoints# Служба:600"};
+		{ 11, 41068, "", "=q4=Воинский пояс господства злобного гладиатора", "=ds=#s10#", "1600 #bgpoints# Служба:600"};
+		{ 12, 41073, "", "=q4=Башмаки господства злобного гладиатора", "=ds=#s12#", "1600 #bgpoints# Служба:600"};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 17, 41059, "", "=q4=Deadly Gladiator's Wristguards of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 18, 41048, "", "=q4=Deadly Gladiator's Waistguard of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 19, 41054, "", "=q4=Deadly Gladiator's Sabatons of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 21, 41224, "", "=q4=Deadly Gladiator's Wristguards of Triumph", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 22, 41234, "", "=q4=Deadly Gladiator's Waistguard of Triumph", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 23, 41229, "", "=q4=Deadly Gladiator's Sabatons of Triumph", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 25, 41064, "", "=q4=Deadly Gladiator's Wristguards of Dominance", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 26, 41069, "", "=q4=Deadly Gladiator's Waistguard of Dominance", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 27, 41074, "", "=q4=Deadly Gladiator's Sabatons of Dominance", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		Next = "PvP80MailNonSet1";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80MailNonSet1_x2"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
+		{ 2, 41060, "", "=q4=Furious Gladiator's Wristguards of Salvation", "=ds=#s8#", ""};
+		{ 3, 41051, "", "=q4=Furious Gladiator's Waistguard of Salvation", "=ds=#s10#", ""};
+		{ 4, 41055, "", "=q4=Furious Gladiator's Sabatons of Salvation", "=ds=#s12#", ""};
+		{ 6, 41225, "", "=q4=Furious Gladiator's Wristguards of Triumph", "=ds=#s8#", ""};
+		{ 7, 41235, "", "=q4=Furious Gladiator's Waistguard of Triumph", "=ds=#s10#", ""};
+		{ 8, 41230, "", "=q4=Furious Gladiator's Sabatons of Triumph", "=ds=#s12#", ""};
+		{ 10, 41065, "", "=q4=Furious Gladiator's Wristguards of Dominance", "=ds=#s8#", ""};
+		{ 11, 41070, "", "=q4=Furious Gladiator's Waistguard of Dominance", "=ds=#s10#", ""};
+		{ 12, 41075, "", "=q4=Furious Gladiator's Sabatons of Dominance", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
+		{ 17, 41061, "", "=q4=Relentless Gladiator's Wristguards of Salvation", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 18, 41052, "", "=q4=Relentless Gladiator's Waistguard of Salvation", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 19, 41056, "", "=q4=Relentless Gladiator's Sabatons of Salvation", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 21, 41226, "", "=q4=Relentless Gladiator's Wristguards of Triumph", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 22, 41236, "", "=q4=Relentless Gladiator's Waistguard of Triumph", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 23, 41231, "", "=q4=Relentless Gladiator's Sabatons of Triumph", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 25, 41066, "", "=q4=Relentless Gladiator's Wristguards of Dominance", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 26, 41071, "", "=q4=Relentless Gladiator's Waistguard of Dominance", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 27, 41076, "", "=q4=Relentless Gladiator's Sabatons of Dominance", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		Prev = "PvP80MailNonSet0";
+		Next = "PvP80MailNonSet2";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80MailNonSet1_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
+		{ 2, 41060, "", "=q4=Furious Gladiator's Wristguards of Salvation", "=ds=#s8#", ""};
+		{ 3, 41051, "", "=q4=Furious Gladiator's Waistguard of Salvation", "=ds=#s10#", ""};
+		{ 4, 41055, "", "=q4=Furious Gladiator's Sabatons of Salvation", "=ds=#s12#", ""};
+		{ 6, 41225, "", "=q4=Furious Gladiator's Wristguards of Triumph", "=ds=#s8#", ""};
+		{ 7, 41235, "", "=q4=Furious Gladiator's Waistguard of Triumph", "=ds=#s10#", ""};
+		{ 8, 41230, "", "=q4=Furious Gladiator's Sabatons of Triumph", "=ds=#s12#", ""};
+		{ 10, 41065, "", "=q4=Furious Gladiator's Wristguards of Dominance", "=ds=#s8#", ""};
+		{ 11, 41070, "", "=q4=Furious Gladiator's Waistguard of Dominance", "=ds=#s10#", ""};
+		{ 12, 41075, "", "=q4=Furious Gladiator's Sabatons of Dominance", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
+		{ 17, 41061, "", "=q4=Relentless Gladiator's Wristguards of Salvation", "=ds=#s8#", ""};
+		{ 18, 41052, "", "=q4=Relentless Gladiator's Waistguard of Salvation", "=ds=#s10#", ""};
+		{ 19, 41056, "", "=q4=Relentless Gladiator's Sabatons of Salvation", "=ds=#s12#", ""};
+		{ 21, 41226, "", "=q4=Relentless Gladiator's Wristguards of Triumph", "=ds=#s8#", ""};
+		{ 22, 41236, "", "=q4=Relentless Gladiator's Waistguard of Triumph", "=ds=#s10#", ""};
+		{ 23, 41231, "", "=q4=Relentless Gladiator's Sabatons of Triumph", "=ds=#s12#", ""};
+		{ 25, 41066, "", "=q4=Relentless Gladiator's Wristguards of Dominance", "=ds=#s8#", ""};
+		{ 26, 41071, "", "=q4=Relentless Gladiator's Waistguard of Dominance", "=ds=#s10#", ""};
+		{ 27, 41076, "", "=q4=Relentless Gladiator's Sabatons of Dominance", "=ds=#s12#", ""};
+		Prev = "PvP80MailNonSet0";
 		Next = "PvP80MailNonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
 	
 	AtlasLoot_Data["PvP80MailNonSet2"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
-		{ 2, 41061, "", "=q4=Relentless Gladiator's Wristguards of Salvation", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 41052, "", "=q4=Relentless Gladiator's Waistguard of Salvation", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 41056, "", "=q4=Relentless Gladiator's Sabatons of Salvation", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 6, 41226, "", "=q4=Relentless Gladiator's Wristguards of Triumph", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 7, 41236, "", "=q4=Relentless Gladiator's Waistguard of Triumph", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 8, 41231, "", "=q4=Relentless Gladiator's Sabatons of Triumph", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 10, 41066, "", "=q4=Relentless Gladiator's Wristguards of Dominance", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 11, 41071, "", "=q4=Relentless Gladiator's Waistguard of Dominance", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 12, 41076, "", "=q4=Relentless Gladiator's Sabatons of Dominance", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset8#", ""};
-		{ 17, 51373, "", "=q4=Wrathful Gladiator's Wristguards of Salvation", "=ds=#s8#", ""};
-		{ 18, 51371, "", "=q4=Wrathful Gladiator's Waistguard of Salvation", "=ds=#s10#", ""};
-		{ 19, 51372, "", "=q4=Wrathful Gladiator's Sabatons of Salvation", "=ds=#s12#", ""};
-		{ 21, 51352, "", "=q4=Wrathful Gladiator's Wristguards of Triumph", "=ds=#s8#", ""};
-		{ 22, 51350, "", "=q4=Wrathful Gladiator's Waistguard of Triumph", "=ds=#s10#", ""};
-		{ 23, 51351, "", "=q4=Wrathful Gladiator's Sabatons of Triumph", "=ds=#s12#", ""};
-		{ 25, 51376, "", "=q4=Wrathful Gladiator's Wristguards of Dominance", "=ds=#s8#", ""};
-		{ 26, 51374, "", "=q4=Wrathful Gladiator's Waistguard of Dominance", "=ds=#s10#", ""};
-		{ 27, 51375, "", "=q4=Wrathful Gladiator's Sabatons of Dominance", "=ds=#s12#", ""};
 		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset8#", ""};
+		{ 2, 51373, "", "=q4=Wrathful Gladiator's Wristguards of Salvation", "=ds=#s8#", ""};
+		{ 3, 51371, "", "=q4=Wrathful Gladiator's Waistguard of Salvation", "=ds=#s10#", ""};
+		{ 4, 51372, "", "=q4=Wrathful Gladiator's Sabatons of Salvation", "=ds=#s12#", ""};
+		{ 6, 51352, "", "=q4=Wrathful Gladiator's Wristguards of Triumph", "=ds=#s8#", ""};
+		{ 7, 51350, "", "=q4=Wrathful Gladiator's Waistguard of Triumph", "=ds=#s10#", ""};
+		{ 8, 51351, "", "=q4=Wrathful Gladiator's Sabatons of Triumph", "=ds=#s12#", ""};
+		{ 10, 51376, "", "=q4=Wrathful Gladiator's Wristguards of Dominance", "=ds=#s8#", ""};
+		{ 11, 51374, "", "=q4=Wrathful Gladiator's Waistguard of Dominance", "=ds=#s10#", ""};
+		{ 12, 51375, "", "=q4=Wrathful Gladiator's Sabatons of Dominance", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset9#", ""};
+		{ 17, 103046, "", "=q4=Vicious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 18, 103044, "", "=q4=Vicious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 19, 103045, "", "=q4=Vicious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 21, 103025, "", "=q4=Vicious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 22, 103023, "", "=q4=Vicious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 23, 103024, "", "=q4=Vicious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 25, 103049, "", "=q4=Vicious Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
+		{ 26, 103047, "", "=q4=Vicious Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
+		{ 27, 103048, "", "=q4=Vicious Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
 		Prev = "PvP80MailNonSet1";
 		Next ="PvP80MailNonSet3";
 		Back = "PVP80NONSETEPICS";
 	};
 	AtlasLoot_Data["PvP80MailNonSet3"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#arenaset9#", ""};
-		{ 2, 103046, "", "=q4=Vicious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
-		{ 3, 103044, "", "=q4=Vicious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
-		{ 4, 103045, "", "=q4=Vicious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
-		{ 6, 103025, "", "=q4=Vicious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 7, 103023, "", "=q4=Vicious Gladiator's Cord of Dominance", "=ds=#s10#", ""};
-		{ 8, 103024, "", "=q4=Vicious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
-		{ 10, 103049, "", "=q4=Vicious Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
-		{ 11, 103047, "", "=q4=Vicious Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
-		{ 12, 103048, "", "=q4=Vicious Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset10#", ""};
-		{ 17, 103246, "", "=q4=Merciless Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
-		{ 18, 103244, "", "=q4=Merciless Gladiator's Cord of Salvation", "=ds=#s10#", ""};
-		{ 19, 103245, "", "=q4=Merciless Gladiator's Treads of Salvation", "=ds=#s12#", ""};
-		{ 21, 103225, "", "=q4=Merciless Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 22, 103223, "", "=q4=Merciless Gladiator's Cord of Dominance", "=ds=#s10#", ""};
-		{ 23, 103224, "", "=q4=Merciless Gladiator's Treads of Dominance", "=ds=#s12#", ""};
-		{ 25, 103249, "", "=q4=Merciless Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
-		{ 26, 103247, "", "=q4=Merciless Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
-		{ 27, 103248, "", "=q4=Merciless Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset10#", ""};
+		{ 2, 103246, "", "=q4=Merciless Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 3, 103244, "", "=q4=Merciless Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 4, 103245, "", "=q4=Merciless Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 6, 103225, "", "=q4=Merciless Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 7, 103223, "", "=q4=Merciless Gladiator's Cord of Dominance", "=ds=#s10#", ""};
+		{ 8, 103224, "", "=q4=Merciless Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 10, 103249, "", "=q4=Merciless Gladiator's Cuffs of Alacrity", "=ds=#s8#", ""};
+		{ 11, 103247, "", "=q4=Merciless Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
+		{ 12, 103248, "", "=q4=Merciless Gladiator's Treads of Alacrity", "=ds=#s12#", ""};
 		Prev = "PvP80MailNonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
@@ -9318,61 +10523,114 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 	
 
 --Plate
-	AtlasLoot_Data["PvP80PlateNonSet1"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
-		{ 2, 40982, "", "=q4=Deadly Gladiator's Bracers of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 40974, "", "=q4=Deadly Gladiator's Girdle of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 40975, "", "=q4=Deadly Gladiator's Greaves of Salvation", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 6, 40888, "", "=q4=Deadly Gladiator's Bracers of Triumph", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 7, 40879, "", "=q4=Deadly Gladiator's Girdle of Triumph", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 8, 40880, "", "=q4=Deadly Gladiator's Greaves of Triumph", "=ds=", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
-		{ 17, 40983, "", "=q4=Furious Gladiator's Bracers of Salvation", "=ds=#s8#", ""};
-		{ 18, 40976, "", "=q4=Furious Gladiator's Girdle of Salvation", "=ds=#s10#", ""};
-		{ 19, 40977, "", "=q4=Furious Gladiator's Greaves of Salvation", "=ds=#s12#", ""};
-		{ 21, 40889, "", "=q4=Furious Gladiator's Bracers of Triumph", "=ds=#s8#", ""};
-		{ 22, 40881, "", "=q4=Furious Gladiator's Girdle of Triumph", "=ds=#s10#", ""};
-		{ 23, 40882, "", "=q4=Furious Gladiator's Greaves of Triumph", "=ds=#s12#", ""};
+	AtlasLoot_Data["PvP80PlateNonSet0_x2"] = {
 		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 2, 40972, "", "=q4=Наручи спасения злобного гладиатора", "=ds=#s8#", ""};
+		{ 3, 40966, "", "=q4=Ремень спасения злобного гладиатора", "=ds=#s10#", ""};
+		{ 4, 40973, "", "=q4= Наголенники спасения злобного гладиатора", "=ds=#s12#", ""};
+		{ 6, 40887, "", "=q4=Наручи триумфа злобного гладиатора", "=ds=#s8#", ""};
+		{ 7, 40877, "", "=q4=Ремень триумфа злобного гладиатора", "=ds=#s10#", ""};
+		{ 8, 40878, "", "=q4=Наголенники триумфа злобного гладиатора", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 17, 40982, "", "=q4=Deadly Gladiator's Bracers of Salvation", "=ds=#s8#", ""};
+		{ 18, 40974, "", "=q4=Deadly Gladiator's Girdle of Salvation", "=ds=#s10#", ""};
+		{ 19, 40975, "", "=q4=Deadly Gladiator's Greaves of Salvation", "=ds=#s12#", ""};
+		{ 21, 40888, "", "=q4=Deadly Gladiator's Bracers of Triumph", "=ds=#s8#", ""};
+		{ 22, 40879, "", "=q4=Deadly Gladiator's Girdle of Triumph", "=ds=#s10#", ""};
+		{ 23, 40880, "", "=q4=Deadly Gladiator's Greaves of Triumph", "=ds=#s12#", ""};
+		Next = "PvP80PlateNonSet1";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80PlateNonSet0_x4"] = {
+		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 2, 40972, "", "=q4=Наручи спасения злобного гладиатора", "=ds=#s8#", "1600 #bgpoints# Служба:600"};
+		{ 3, 40966, "", "=q4=Ремень спасения злобного гладиатора", "=ds=#s10#", "1600 #bgpoints# Служба:600"};
+		{ 4, 40973, "", "=q4= Наголенники спасения злобного гладиатора", "=ds=#s12#", "1600 #bgpoints# Служба:600"};
+		{ 6, 40887, "", "=q4=Наручи триумфа злобного гладиатора", "=ds=#s8#", "1600 #bgpoints# Служба:600"};
+		{ 7, 40877, "", "=q4=Ремень триумфа злобного гладиатора", "=ds=#s10#", "1600 #bgpoints# Служба:600"};
+		{ 8, 40878, "", "=q4=Наголенники триумфа злобного гладиатора", "=ds=#s12#", "1600 #bgpoints# Служба:600"};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset5#", ""};
+		{ 17, 40982, "", "=q4=Deadly Gladiator's Bracers of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 18, 40974, "", "=q4=Deadly Gladiator's Girdle of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 19, 40975, "", "=q4=Deadly Gladiator's Greaves of Salvation", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 21, 40888, "", "=q4=Deadly Gladiator's Bracers of Triumph", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 22, 40879, "", "=q4=Deadly Gladiator's Girdle of Triumph", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 23, 40880, "", "=q4=Deadly Gladiator's Greaves of Triumph", "=ds=", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		Next = "PvP80PlateNonSet1";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80PlateNonSet1_x2"] = {
+		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
+		{ 2, 40983, "", "=q4=Furious Gladiator's Bracers of Salvation", "=ds=#s8#", ""};
+		{ 3, 40976, "", "=q4=Furious Gladiator's Girdle of Salvation", "=ds=#s10#", ""};
+		{ 4, 40977, "", "=q4=Furious Gladiator's Greaves of Salvation", "=ds=#s12#", ""};
+		{ 6, 40889, "", "=q4=Furious Gladiator's Bracers of Triumph", "=ds=#s8#", ""};
+		{ 7, 40881, "", "=q4=Furious Gladiator's Girdle of Triumph", "=ds=#s10#", ""};
+		{ 8, 40882, "", "=q4=Furious Gladiator's Greaves of Triumph", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
+		{ 17, 40984, "", "=q4=Relentless Gladiator's Bracers of Salvation", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 18, 40978, "", "=q4=Relentless Gladiator's Girdle of Salvation", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 19, 40979, "", "=q4=Relentless Gladiator's Greaves of Salvation", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 21, 40890, "", "=q4=Relentless Gladiator's Bracers of Triumph", "=ds=#s8#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 22, 40883, "", "=q4=Relentless Gladiator's Girdle of Triumph", "=ds=#s10#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 23, 40884, "", "=q4=Relentless Gladiator's Greaves of Triumph", "=ds=#s12#", "280 #bgpoints# или 70 #arenapoints#"};
+		Prev = "PvP80PlateNonSet0";
+		Next = "PvP80PlateNonSet2";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80PlateNonSet1_x4"] = {
+		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset6#", ""};
+		{ 2, 40983, "", "=q4=Furious Gladiator's Bracers of Salvation", "=ds=#s8#", ""};
+		{ 3, 40976, "", "=q4=Furious Gladiator's Girdle of Salvation", "=ds=#s10#", ""};
+		{ 4, 40977, "", "=q4=Furious Gladiator's Greaves of Salvation", "=ds=#s12#", ""};
+		{ 6, 40889, "", "=q4=Furious Gladiator's Bracers of Triumph", "=ds=#s8#", ""};
+		{ 7, 40881, "", "=q4=Furious Gladiator's Girdle of Triumph", "=ds=#s10#", ""};
+		{ 8, 40882, "", "=q4=Furious Gladiator's Greaves of Triumph", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
+		{ 17, 40984, "", "=q4=Relentless Gladiator's Bracers of Salvation", "=ds=#s8#", ""};
+		{ 18, 40978, "", "=q4=Relentless Gladiator's Girdle of Salvation", "=ds=#s10#", ""};
+		{ 19, 40979, "", "=q4=Relentless Gladiator's Greaves of Salvation", "=ds=#s12#", ""};
+		{ 21, 40890, "", "=q4=Relentless Gladiator's Bracers of Triumph", "=ds=#s8#", ""};
+		{ 22, 40883, "", "=q4=Relentless Gladiator's Girdle of Triumph", "=ds=#s10#", ""};
+		{ 23, 40884, "", "=q4=Relentless Gladiator's Greaves of Triumph", "=ds=#s12#", ""};
+		Prev = "PvP80PlateNonSet0";
 		Next = "PvP80PlateNonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
 	
+	
 	AtlasLoot_Data["PvP80PlateNonSet2"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#arenaset7#", ""};
-		{ 2, 40984, "", "=q4=Relentless Gladiator's Bracers of Salvation", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 40978, "", "=q4=Relentless Gladiator's Girdle of Salvation", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 40979, "", "=q4=Relentless Gladiator's Greaves of Salvation", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 6, 40890, "", "=q4=Relentless Gladiator's Bracers of Triumph", "=ds=#s8#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 7, 40883, "", "=q4=Relentless Gladiator's Girdle of Triumph", "=ds=#s10#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 8, 40884, "", "=q4=Relentless Gladiator's Greaves of Triumph", "=ds=#s12#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset8#", ""};
-		{ 17, 51361, "", "=q4=Wrathful Gladiator's Bracers of Salvation", "=ds=#s8#", ""};
-		{ 18, 51359, "", "=q4=Wrathful Gladiator's Girdle of Salvation", "=ds=#s10#", ""};
-		{ 19, 51360, "", "=q4=Wrathful Gladiator's Greaves of Salvation", "=ds=#s12#", ""};
-		{ 21, 51364, "", "=q4=Wrathful Gladiator's Bracers of Triumph", "=ds=#s8#", ""};
-		{ 22, 51362, "", "=q4=Wrathful Gladiator's Girdle of Triumph", "=ds=#s10#", ""};
-		{ 23, 51363, "", "=q4=Wrathful Gladiator's Greaves of Triumph", "=ds=#s12#", ""};
 		
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset8#", ""};
+		{ 2, 51361, "", "=q4=Wrathful Gladiator's Bracers of Salvation", "=ds=#s8#", ""};
+		{ 3, 51359, "", "=q4=Wrathful Gladiator's Girdle of Salvation", "=ds=#s10#", ""};
+		{ 4, 51360, "", "=q4=Wrathful Gladiator's Greaves of Salvation", "=ds=#s12#", ""};
+		{ 6, 51364, "", "=q4=Wrathful Gladiator's Bracers of Triumph", "=ds=#s8#", ""};
+		{ 7, 51362, "", "=q4=Wrathful Gladiator's Girdle of Triumph", "=ds=#s10#", ""};
+		{ 8, 51363, "", "=q4=Wrathful Gladiator's Greaves of Triumph", "=ds=#s12#", ""};
+		{ 16, 0, "INV_Box_01", "=q6=#arenaset9#", ""};
+		{ 17, 103034, "", "=q4=Vicious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 18, 103032, "", "=q4=Vicious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 19, 103033, "", "=q4=Vicious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 21, 103037, "", "=q4=Vicious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 22, 103035, "", "=q4=Vicious Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
+		{ 23, 103036, "", "=q4=Vicious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
 		Prev = "PvP80PlateNonSet1";
 		Next="PvP80PlateNonSet3";
 		Back = "PVP80NONSETEPICS";
 	};
 		AtlasLoot_Data["PvP80PlateNonSet3"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#arenaset9#", ""};
-		{ 2, 103034, "", "=q4=Vicious Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
-		{ 3, 103032, "", "=q4=Vicious Gladiator's Cord of Salvation", "=ds=#s10#", ""};
-		{ 4, 103033, "", "=q4=Vicious Gladiator's Treads of Salvation", "=ds=#s12#", ""};
-		{ 6, 103037, "", "=q4=Vicious Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 7, 103035, "", "=q4=Vicious Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
-		{ 8, 103036, "", "=q4=Vicious Gladiator's Treads of Dominance", "=ds=#s12#", ""};
-		{ 16, 0, "INV_Box_01", "=q6=#arenaset10#", ""};
-		{ 17, 103234, "", "=q4=Merciless Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
-		{ 18, 103232, "", "=q4=Merciless Gladiator's Cord of Salvation", "=ds=#s10#", ""};
-		{ 19, 103233, "", "=q4=Merciless Gladiator's Treads of Salvation", "=ds=#s12#", ""};
-		{ 21, 103237, "", "=q4=Merciless Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
-		{ 22, 103235, "", "=q4=Merciless Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
-		{ 23, 103236, "", "=q4=Merciless Gladiator's Treads of Dominance", "=ds=#s12#", ""};
+		{ 1, 0, "INV_Box_01", "=q6=#arenaset10#", ""};
+		{ 2, 103234, "", "=q4=Merciless Gladiator's Cuffs of Salvation", "=ds=#s8#", ""};
+		{ 3, 103232, "", "=q4=Merciless Gladiator's Cord of Salvation", "=ds=#s10#", ""};
+		{ 4, 103233, "", "=q4=Merciless Gladiator's Treads of Salvation", "=ds=#s12#", ""};
+		{ 6, 103237, "", "=q4=Merciless Gladiator's Cuffs of Dominance", "=ds=#s8#", ""};
+		{ 7, 103235, "", "=q4=Merciless Gladiator's Cord of Alacrity", "=ds=#s10#", ""};
+		{ 8, 103236, "", "=q4=Merciless Gladiator's Treads of Dominance", "=ds=#s12#", ""};
 		Prev = "PvP80PlateNonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
@@ -9380,52 +10638,119 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		--- Gladiator Weapons ---
 		------------------------------------
 
-	 AtlasLoot_Data["GladiatorWeapons1"] = {
+	 AtlasLoot_Data["GladiatorWeapons1_x2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Weapons a5"], ""};
-		{ 2, 42260, "", "=q4=Правый потрошитель смертоносного гладиатора", "=ds=#h3#, #w13#", "х1 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 3, 42265, "", "=q4=Леворежущий воздаятель смертоносного гладиатора", "=ds=#h4#, #w13#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 4, 42270, "", "=q4=Левый потрошитель смертоносного гладиатора", "=ds=#h4#, #w13#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 5, 42346, "", "=q4=Чародейский клинок смертоносного гладиатора", "=ds=#h3#, #w4#", "х1 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 6, 42242, "", "=q4=Заточка смертоносного гладиатора", "=ds=#h3#, #w4#", "х1 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 7, 42255, "", "=q4=Расчленитель смертоносного гладиатора", "=ds=#h1#, #w4#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 8, 42248, "", "=q4=Нож смертоносного гладиатора", "=ds=#h4#, #w4#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 9, 42285, "", "=q4=Тесак смертоносного гладиатора", "=ds=#h4#, #w4#", "х1 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 10, 42290, "", "=q4=Быстрый клинок смертоносного гладиатора", "=ds=#h1#, #w10#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 11, 42332, "", "=q4=Большой меч смертоносного гладиатора", "=ds=#h4#, #w10#", "х1 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 12, 42208, "", "=q4=Колун смертоносного гладиатора", "=ds=#h2#, #w10#", "х1 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 13, 42232, "", "=q4=Секач смертоносного гладиатора", "=ds=#h1#, #w1#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 14, 42227, "", "=q4=Крушитель смертоносного гладиатора", "=ds=#h4#, #w1#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 15, 42317, "", "=q4=Лабрисса смертоносного гладиатора", "=ds=#h4#, #w1#", "х1 2800 #bgpoints# или 700 #arenapoints#"};
+		{ 2, 42260, "", "=q4=Правый потрошитель смертоносного гладиатора", "=ds=#h3#, #w13#", ""};
+		{ 3, 42265, "", "=q4=Леворежущий воздаятель смертоносного гладиатора", "=ds=#h4#, #w13#", ""};
+		{ 4, 42270, "", "=q4=Левый потрошитель смертоносного гладиатора", "=ds=#h4#, #w13#", ""};
+		{ 5, 42346, "", "=q4=Чародейский клинок смертоносного гладиатора", "=ds=#h3#, #w4#", ""};
+		{ 6, 42242, "", "=q4=Заточка смертоносного гладиатора", "=ds=#h3#, #w4#", ""};
+		{ 7, 42255, "", "=q4=Расчленитель смертоносного гладиатора", "=ds=#h1#, #w4#", ""};
+		{ 8, 42248, "", "=q4=Нож смертоносного гладиатора", "=ds=#h4#, #w4#", ""};
+		{ 9, 42285, "", "=q4=Тесак смертоносного гладиатора", "=ds=#h4#, #w4#", ""};
+		{ 10, 42290, "", "=q4=Быстрый клинок смертоносного гладиатора", "=ds=#h1#, #w10#", ""};
+		{ 11, 42332, "", "=q4=Большой меч смертоносного гладиатора", "=ds=#h4#, #w10#", ""};
+		{ 12, 42208, "", "=q4=Колун смертоносного гладиатора", "=ds=#h2#, #w10#", ""};
+		{ 13, 42232, "", "=q4=Секач смертоносного гладиатора", "=ds=#h1#, #w1#", ""};
+		{ 14, 42227, "", "=q4=Крушитель смертоносного гладиатора", "=ds=#h4#, #w1#", ""};
+		{ 15, 42317, "", "=q4=Лабрисса смертоносного гладиатора", "=ds=#h4#, #w1#", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Weapons a5"], ""};
-		{ 17, 42352, "", "=q4=Молоток смертоносного гладиатора", "=ds=#h3#, #w13#", "х1 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 18, 42275, "", "=q4=Пробойник смертоносного гладиатора", "=ds=#h4#, #w13#", "х1 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 19, 42280, "", "=q4=Костолом смертоносного гладиатора", "=ds=#h4#, #w13#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 20, 42322, "", "=q4=Костомол смертоносного гладиатора", "=ds=#h3#, #w4#", "х1 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 21, 42327, "", "=q4=Пика смертоносного гладиатора", "=ds=#h3#, #w4#","х1 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 22, 42362, "", "=q4=Боевой посох смертоносного гладиатора", "=ds=#h1#, #w4#", "х1 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 23, 42384, "", "=q4=Энергетический посох смертоносного гладиатора", "=ds=#h4#, #w4#", "х1 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 24, 44420, "", "=q4=Фокусирующий посох смертоносного гладиатора", "=ds=#h4#, #w4#", "х1 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 25, 42390, "", "=q4=Посох смертоносного гладиатора", "=ds=#h1#, #w10#", "х1 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 26, 44419, "", "=q4=Воинский посох смертоносного гладиатора", "=ds=#h4#, #w10#", "х1 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 27, 42490, "", "=q4=Длинный лук смертоносного гладиатора", "=ds=#h2#, #w10#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 28, 42495, "", "=q4=Тяжелый арбалет смертоносного гладиатора", "=ds=#h1#, #w1#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 29, 42485, "", "=q4=Винтовка смертоносного гладиатора", "=ds=#h4#, #w1#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 30, 42564, "", "=q4=Барьер смертоносного гладиатора", "=ds=#h4#, #w1#", "х1 700 #bgpoints# или 175 #arenapoints#"};
+		{ 17, 42352, "", "=q4=Молоток смертоносного гладиатора", "=ds=#h3#, #w13#", ""};
+		{ 18, 42275, "", "=q4=Пробойник смертоносного гладиатора", "=ds=#h4#, #w13#", ""};
+		{ 19, 42280, "", "=q4=Костолом смертоносного гладиатора", "=ds=#h4#, #w13#", ""};
+		{ 20, 42322, "", "=q4=Костомол смертоносного гладиатора", "=ds=#h3#, #w4#", ""};
+		{ 21, 42327, "", "=q4=Пика смертоносного гладиатора", "=ds=#h3#, #w4#",""};
+		{ 22, 42362, "", "=q4=Боевой посох смертоносного гладиатора", "=ds=#h1#, #w4#", ""};
+		{ 23, 42384, "", "=q4=Энергетический посох смертоносного гладиатора", "=ds=#h4#, #w4#", ""};
+		{ 24, 44420, "", "=q4=Фокусирующий посох смертоносного гладиатора", "=ds=#h4#, #w4#", ""};
+		{ 25, 42390, "", "=q4=Посох смертоносного гладиатора", "=ds=#h1#, #w10#", ""};
+		{ 26, 44419, "", "=q4=Воинский посох смертоносного гладиатора", "=ds=#h4#, #w10#", ""};
+		{ 27, 42490, "", "=q4=Длинный лук смертоносного гладиатора", "=ds=#h2#, #w10#", ""};
+		{ 28, 42495, "", "=q4=Тяжелый арбалет смертоносного гладиатора", "=ds=#h1#, #w1#", ""};
+		{ 29, 42485, "", "=q4=Винтовка смертоносного гладиатора", "=ds=#h4#, #w1#", ""};
+		{ 30, 42564, "", "=q4=Барьер смертоносного гладиатора", "=ds=#h4#, #w1#", ""};
 		Next = "GladiatorWeapons2";
 		Back = "PVPMENU";
 	};
-
-	AtlasLoot_Data["GladiatorWeapons2"] = {
+	AtlasLoot_Data["GladiatorWeapons1_x4"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Weapons a5"], ""};
-		{ 2, 42570, "", "=q4=Оплот смертоносного гладиатора", "=ds=#h2#, #w1#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 3, 42559, "", "=q4=Осадный щит смертоносного гладиатора", "=ds=#h3#, #w6#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 4, 42450, "", "=q4=Боевое лезвие смертоносного гладиатора", "=ds=#h1#, #w6#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 5, 42513, "", "=q4=Светящийся жезл смертоносного гладиатора", "=ds=#h4#, #w6#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 6, 42519, "", "=q4=Пронзающее прикосновение смертоносного гладиатора", "=ds=#h2#, #w6#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 7, 42502, "", "=q4=Касание поражения смертоносного гладиатора", "=ds=#w7#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 8, 42525, "", "=q4=Эндшпиль смертоносного гладиатора", "=ds=#w9#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 9, 42537, "", "=q4=Гримуар смертоносного гладиатора", "=ds=#w9#", "х1 700 #bgpoints# или 175 #arenapoints#"};
-		{ 10, 42531, "", "=q4=Отсрочка смертоносного гладиатора", "=ds=#w9#", "х1 700 #bgpoints# или 175 #arenapoints#"};
+		{ 2, 42260, "", "=q4=Правый потрошитель смертоносного гладиатора", "=ds=#h3#, #w13#", "24000 #bgpoints# или 6000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 3, 42265, "", "=q4=Леворежущий воздаятель смертоносного гладиатора", "=ds=#h4#, #w13#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 4, 42270, "", "=q4=Левый потрошитель смертоносного гладиатора", "=ds=#h4#, #w13#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 5, 42346, "", "=q4=Чародейский клинок смертоносного гладиатора", "=ds=#h3#, #w4#", "24000 #bgpoints# или 6000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 6, 42242, "", "=q4=Заточка смертоносного гладиатора", "=ds=#h3#, #w4#", "24000 #bgpoints# или 6000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 7, 42255, "", "=q4=Расчленитель смертоносного гладиатора", "=ds=#h1#, #w4#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 8, 42248, "", "=q4=Нож смертоносного гладиатора", "=ds=#h4#, #w4#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 9, 42285, "", "=q4=Тесак смертоносного гладиатора", "=ds=#h4#, #w4#", "24000 #bgpoints# или 6000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 10, 42290, "", "=q4=Быстрый клинок смертоносного гладиатора", "=ds=#h1#, #w10#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 11, 42332, "", "=q4=Большой меч смертоносного гладиатора", "=ds=#h4#, #w10#", "32000 #bgpoints# или 8000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 12, 42208, "", "=q4=Колун смертоносного гладиатора", "=ds=#h2#, #w10#", "24000 #bgpoints# или 6000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 13, 42232, "", "=q4=Секач смертоносного гладиатора", "=ds=#h1#, #w1#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 14, 42227, "", "=q4=Крушитель смертоносного гладиатора", "=ds=#h4#, #w1#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 15, 42317, "", "=q4=Лабрисса смертоносного гладиатора", "=ds=#h4#, #w1#", "32000 #bgpoints# или 8000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Weapons a5"], ""};
+		{ 17, 42352, "", "=q4=Молоток смертоносного гладиатора", "=ds=#h3#, #w13#", "24000 #bgpoints# или 6000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 18, 42275, "", "=q4=Пробойник смертоносного гладиатора", "=ds=#h4#, #w13#", "24000 #bgpoints# или 6000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 19, 42280, "", "=q4=Костолом смертоносного гладиатора", "=ds=#h4#, #w13#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 20, 42322, "", "=q4=Костомол смертоносного гладиатора", "=ds=#h3#, #w4#", "32000 #bgpoints# или 8000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 21, 42327, "", "=q4=Пика смертоносного гладиатора", "=ds=#h3#, #w4#","32000 #bgpoints# или 8000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 22, 42362, "", "=q4=Боевой посох смертоносного гладиатора", "=ds=#h1#, #w4#", "32000 #bgpoints# или 8000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 23, 42384, "", "=q4=Энергетический посох смертоносного гладиатора", "=ds=#h4#, #w4#", "32000 #bgpoints# или 8000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 24, 44420, "", "=q4=Фокусирующий посох смертоносного гладиатора", "=ds=#h4#, #w4#", "32000 #bgpoints# или 8000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 25, 42390, "", "=q4=Посох смертоносного гладиатора", "=ds=#h1#, #w10#", "32000 #bgpoints# или 8000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 26, 44419, "", "=q4=Воинский посох смертоносного гладиатора", "=ds=#h4#, #w10#", "32000 #bgpoints# или 8000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 27, 42490, "", "=q4=Длинный лук смертоносного гладиатора", "=ds=#h2#, #w10#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 28, 42495, "", "=q4=Тяжелый арбалет смертоносного гладиатора", "=ds=#h1#, #w1#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 29, 42485, "", "=q4=Винтовка смертоносного гладиатора", "=ds=#h4#, #w1#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 30, 42564, "", "=q4=Барьер смертоносного гладиатора", "=ds=#h4#, #w1#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		Next = "GladiatorWeapons2";
+		Back = "PVPMENU";
+	};
+	AtlasLoot_Data["GladiatorWeapons2_x2"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Weapons a5"], ""};
+		{ 2, 42570, "", "=q4=Оплот смертоносного гладиатора", "=ds=#h2#, #w1#", ""};
+		{ 3, 42559, "", "=q4=Осадный щит смертоносного гладиатора", "=ds=#h3#, #w6#", ""};
+		{ 4, 42450, "", "=q4=Боевое лезвие смертоносного гладиатора", "=ds=#h1#, #w6#", ""};
+		{ 5, 42513, "", "=q4=Светящийся жезл смертоносного гладиатора", "=ds=#h4#, #w6#", ""};
+		{ 6, 42519, "", "=q4=Пронзающее прикосновение смертоносного гладиатора", "=ds=#h2#, #w6#", ""};
+		{ 7, 42502, "", "=q4=Касание поражения смертоносного гладиатора", "=ds=#w7#", ""};
+		{ 8, 42502, "", "=q4=Жезл рвения смертоносного гладиатора", "=ds=#w7#", ""};
+		{ 9, 42525, "", "=q4=Эндшпиль смертоносного гладиатора", "=ds=#w9#", ""};
+		{ 10, 42537, "", "=q4=Гримуар смертоносного гладиатора", "=ds=#w9#", ""};
+		{ 11, 42531, "", "=q4=Отсрочка смертоносного гладиатора", "=ds=#w9#", ""};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Weapons a6"], ""};
+		{ 17, 42261, "", "=q4=Правый потрошитель гневного гладиатора", "=ds=#h3#, #w13#", ""};
+		{ 18, 42266, "", "=q4=Леворежущий воздаятель гневного гладиатора", "=ds=#h4#, #w13#", ""};
+		{ 19, 42271, "", "=q4=Левый потрошитель гневного гладиатора", "=ds=#h4#, #w13#", ""};
+		{ 20, 100152, "", "=q4=Чародейский клинок рвения гневного гладиатора", "=ds=#h3#, #w4#", ""};
+		{ 21, 42347, "", "=q4=Чародейский клинок гневного гладиатора", "=ds=#h3#, #w4#", ""};
+		{ 22, 42243, "", "=q4=Заточка гневного гладиатора", "=ds=#h1#, #w4#", ""};
+		{ 23, 42256, "", "=q4=Расчленитель гневного гладиатора", "=ds=#h4#, #w4#", ""};
+		{ 24, 42249, "", "=q4=Нож гневного гладиатора", "=ds=#h4#, #w4#", ""};
+		{ 25, 42286, "", "=q4=Тесак гневного гладиатора", "=ds=#h1#, #w10#", ""};
+		{ 26, 42291, "", "=q4=Быстрый клинок гневного гладиатора", "=ds=#h4#, #w10#", ""};
+		{ 27, 42333, "", "=q4=Большой меч гневного гладиатора", "=ds=#h2#, #w10#", ""};
+		{ 28, 42209, "", "=q4=Колун гневного гладиатора", "=ds=#h1#, #w1#", ""};
+		{ 29, 42233, "", "=q4=Секач гневного гладиатора", "=ds=#h4#, #w1#", ""};
+		{ 30, 42228, "", "=q4=Крушитель гневного гладиатора", "=ds=#h4#, #w1#", ""};
+		
+		Prev = "GladiatorWeapons1";
+		Next = "GladiatorWeapons3";
+		Back = "PVPMENU";
+	};
+
+	AtlasLoot_Data["GladiatorWeapons2_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Weapons a5"], ""};
+		{ 2, 42570, "", "=q4=Оплот смертоносного гладиатора", "=ds=#h2#, #w1#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 3, 42559, "", "=q4=Осадный щит смертоносного гладиатора", "=ds=#h3#, #w6#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 4, 42450, "", "=q4=Боевое лезвие смертоносного гладиатора", "=ds=#h1#, #w6#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 5, 42513, "", "=q4=Светящийся жезл смертоносного гладиатора", "=ds=#h4#, #w6#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 6, 42519, "", "=q4=Пронзающее прикосновение смертоносного гладиатора", "=ds=#h2#, #w6#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 7, 42502, "", "=q4=Касание поражения смертоносного гладиатора", "=ds=#w7#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 8, 100145, "", "=q4=Жезл рвения смертоносного гладиатора", "=ds=#w7#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 9, 42525, "", "=q4=Эндшпиль смертоносного гладиатора", "=ds=#w9#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 10, 42537, "", "=q4=Гримуар смертоносного гладиатора", "=ds=#w9#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
+		{ 11, 42531, "", "=q4=Отсрочка смертоносного гладиатора", "=ds=#w9#", "8000 #bgpoints# или 2000 #arenapoints# Служба:9.0 Арена:2.2"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Weapons a6"], ""};
 		{ 17, 42261, "", "=q4=Правый потрошитель гневного гладиатора", "=ds=#h3#, #w13#", ""};
 		{ 18, 42266, "", "=q4=Леворежущий воздаятель гневного гладиатора", "=ds=#h4#, #w13#", ""};
@@ -9482,57 +10807,127 @@ AtlasLoot_Data["PvP80DeathKnight"] = {
 		Back = "PVPMENU";
 	};
 	
-		AtlasLoot_Data["GladiatorWeapons4"] = {
+		AtlasLoot_Data["GladiatorWeapons4_x2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Weapons a7"], ""};
-		{ 2, 42262, "", "=q4=Relentless Gladiator's Ripper", "=ds=#h3#, #w13#", "х2 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 3, 42267, "", "=q4=Relentless Gladiator's Slasher", "=ds=#h4#, #w13#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 4, 42272, "", "=q4=Relentless Gladiator's Fleshslicer", "=ds=#h4#, #w13#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 5, 49189, "", "=q4=Relentless Gladiator's Blade of Alacrity", "=ds=#h3#, #w4#", "х2 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 6, 42348, "", "=q4=Relentless Gladiator's Spellblade", "=ds=#h3#, #w4#","х2 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 7, 42244, "", "=q4=Relentless Gladiator's Shanker", "=ds=#h1#, #w4#", "х2 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 8, 42250, "", "=q4=Relentless Gladiator's Shiv", "=ds=#h4#, #w4#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 9, 42257, "", "=q4=Relentless Gladiator's Mutilator", "=ds=#h4#, #w4#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 10, 42287, "", "=q4=Relentless Gladiator's Slicer", "=ds=#h1#, #w10#", "х2 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 11, 42292, "", "=q4=Relentless Gladiator's Quickblade", "=ds=#h4#, #w10#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 12, 42334, "", "=q4=Relentless Gladiator's Greatsword", "=ds=#h2#, #w10#", "х2 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 13, 42210, "", "=q4=Relentless Gladiator's Cleaver", "=ds=#h1#, #w1#", "х2 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 14, 42229, "", "=q4=Relentless Gladiator's Hacker", "=ds=#h4#, #w1#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 15, 42234, "", "=q4=Relentless Gladiator's Chopper", "=ds=#h4#, #w1#", "х2 700 #bgpoints# или 175 #arenapoints#"};
+		{ 2, 42262, "", "=q4=Relentless Gladiator's Ripper", "=ds=#h3#, #w13#", "2100 #bgpoints# или 525 #arenapoints#"};
+		{ 3, 42267, "", "=q4=Relentless Gladiator's Slasher", "=ds=#h4#, #w13#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 4, 42272, "", "=q4=Relentless Gladiator's Fleshslicer", "=ds=#h4#, #w13#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 5, 49189, "", "=q4=Relentless Gladiator's Blade of Alacrity", "=ds=#h3#, #w4#", "2100 #bgpoints# или 525 #arenapoints#"};
+		{ 6, 42348, "", "=q4=Relentless Gladiator's Spellblade", "=ds=#h3#, #w4#","2100 #bgpoints# или 525 #arenapoints#"};
+		{ 7, 42244, "", "=q4=Relentless Gladiator's Shanker", "=ds=#h1#, #w4#", "2100 #bgpoints# или 525 #arenapoints#"};
+		{ 8, 42250, "", "=q4=Relentless Gladiator's Shiv", "=ds=#h4#, #w4#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 9, 42257, "", "=q4=Relentless Gladiator's Mutilator", "=ds=#h4#, #w4#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 10, 42287, "", "=q4=Relentless Gladiator's Slicer", "=ds=#h1#, #w10#", "2100 #bgpoints# или 525 #arenapoints#"};
+		{ 11, 42292, "", "=q4=Relentless Gladiator's Quickblade", "=ds=#h4#, #w10#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 12, 42334, "", "=q4=Relentless Gladiator's Greatsword", "=ds=#h2#, #w10#", "2800 #bgpoints# или 700 #arenapoints#"};
+		{ 13, 42210, "", "=q4=Relentless Gladiator's Cleaver", "=ds=#h1#, #w1#", "2100 #bgpoints# или 525 #arenapoints#"};
+		{ 14, 42229, "", "=q4=Relentless Gladiator's Hacker", "=ds=#h4#, #w1#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 15, 42234, "", "=q4=Relentless Gladiator's Chopper", "=ds=#h4#, #w1#", "700 #bgpoints# или 175 #arenapoints#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Weapons a7"], ""};
-		{ 17, 42319, "", "=q4=Relentless Gladiator's Decapitator", "=ds=#h2#, #w1#", "х2 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 18, 42354, "", "=q4=Relentless Gladiator's Gavel", "=ds=#h3#, #w6#", "х2 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 19, 42277, "", "=q4=Relentless Gladiator's Pummeler", "=ds=#h1#, #w6#", "х2 2100 #bgpoints# или 525 #arenapoints#"};
-		{ 20, 42282, "", "=q4=Relentless Gladiator's Bonecracker", "=ds=#h4#, #w6#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 21, 42324, "", "=q4=Relentless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "х2 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 22, 42329, "", "=q4=Relentless Gladiator's Pike", "=ds=#w7#", "х2 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 23, 42366, "", "=q4=Relentless Gladiator's Battle Staff", "=ds=#w9#", "х2 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 24, 42386, "", "=q4=Relentless Gladiator's Energy Staff", "=ds=#w9#", "х2 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 25, 42392, "", "=q4=Relentless Gladiator's Staff", "=ds=#w9#", "х2 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 26, 44423, "", "=q4=Relentless Gladiator's War Staff", "=ds=#w9#", "х2 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 27, 44424, "", "=q4=Relentless Gladiator's Focus Staff", "=ds=#w9#", "х2 2800 #bgpoints# или 700 #arenapoints#"};
-		{ 28, 42492, "", "=q4=Relentless Gladiator's Longbow", "=ds=#w2#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 29, 42498, "", "=q4=Relentless Gladiator's Heavy Crossbow", "=ds=#w3#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 30, 42487, "", "=q4=Relentless Gladiator's Rifle", "=ds=#w5#", "х2 700 #bgpoints# или 175 #arenapoints#"};
+		{ 17, 42319, "", "=q4=Relentless Gladiator's Decapitator", "=ds=#h2#, #w1#", "2800 #bgpoints# или 700 #arenapoints#"};
+		{ 18, 42354, "", "=q4=Relentless Gladiator's Gavel", "=ds=#h3#, #w6#", "2100 #bgpoints# или 525 #arenapoints#"};
+		{ 19, 42277, "", "=q4=Relentless Gladiator's Pummeler", "=ds=#h1#, #w6#", "2100 #bgpoints# или 525 #arenapoints#"};
+		{ 20, 42282, "", "=q4=Relentless Gladiator's Bonecracker", "=ds=#h4#, #w6#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 21, 42324, "", "=q4=Relentless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "2800 #bgpoints# или 700 #arenapoints#"};
+		{ 22, 42329, "", "=q4=Relentless Gladiator's Pike", "=ds=#w7#", "2800 #bgpoints# или 700 #arenapoints#"};
+		{ 23, 42366, "", "=q4=Relentless Gladiator's Battle Staff", "=ds=#w9#", "2800 #bgpoints# или 700 #arenapoints#"};
+		{ 24, 42386, "", "=q4=Relentless Gladiator's Energy Staff", "=ds=#w9#", "2800 #bgpoints# или 700 #arenapoints#"};
+		{ 25, 42392, "", "=q4=Relentless Gladiator's Staff", "=ds=#w9#", "2800 #bgpoints# или 700 #arenapoints#"};
+		{ 26, 44423, "", "=q4=Relentless Gladiator's War Staff", "=ds=#w9#", "2800 #bgpoints# или 700 #arenapoints#"};
+		{ 27, 44424, "", "=q4=Relentless Gladiator's Focus Staff", "=ds=#w9#", "2800 #bgpoints# или 700 #arenapoints#"};
+		{ 28, 42492, "", "=q4=Relentless Gladiator's Longbow", "=ds=#w2#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 29, 42498, "", "=q4=Relentless Gladiator's Heavy Crossbow", "=ds=#w3#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 30, 42487, "", "=q4=Relentless Gladiator's Rifle", "=ds=#w5#", "700 #bgpoints# или 175 #arenapoints#"};
+		
+		Prev = "GladiatorWeapons3";
+		Next = "GladiatorWeapons5";
+		Back = "PVPMENU";
+	};
+	AtlasLoot_Data["GladiatorWeapons4_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Weapons a7"], ""};
+		{ 2, 42262, "", "=q4=Relentless Gladiator's Ripper", "=ds=#h3#, #w13#", ""};
+		{ 3, 42267, "", "=q4=Relentless Gladiator's Slasher", "=ds=#h4#, #w13#", ""};
+		{ 4, 42272, "", "=q4=Relentless Gladiator's Fleshslicer", "=ds=#h4#, #w13#", ""};
+		{ 5, 49189, "", "=q4=Relentless Gladiator's Blade of Alacrity", "=ds=#h3#, #w4#", ""};
+		{ 6, 42348, "", "=q4=Relentless Gladiator's Spellblade", "=ds=#h3#, #w4#",""};
+		{ 7, 42244, "", "=q4=Relentless Gladiator's Shanker", "=ds=#h1#, #w4#", ""};
+		{ 8, 42250, "", "=q4=Relentless Gladiator's Shiv", "=ds=#h4#, #w4#", ""};
+		{ 9, 42257, "", "=q4=Relentless Gladiator's Mutilator", "=ds=#h4#, #w4#", ""};
+		{ 10, 42287, "", "=q4=Relentless Gladiator's Slicer", "=ds=#h1#, #w10#", ""};
+		{ 11, 42292, "", "=q4=Relentless Gladiator's Quickblade", "=ds=#h4#, #w10#", ""};
+		{ 12, 42334, "", "=q4=Relentless Gladiator's Greatsword", "=ds=#h2#, #w10#", ""};
+		{ 13, 42210, "", "=q4=Relentless Gladiator's Cleaver", "=ds=#h1#, #w1#", ""};
+		{ 14, 42229, "", "=q4=Relentless Gladiator's Hacker", "=ds=#h4#, #w1#", ""};
+		{ 15, 42234, "", "=q4=Relentless Gladiator's Chopper", "=ds=#h4#, #w1#", ""};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Weapons a7"], ""};
+		{ 17, 42319, "", "=q4=Relentless Gladiator's Decapitator", "=ds=#h2#, #w1#", ""};
+		{ 18, 42354, "", "=q4=Relentless Gladiator's Gavel", "=ds=#h3#, #w6#", ""};
+		{ 19, 42277, "", "=q4=Relentless Gladiator's Pummeler", "=ds=#h1#, #w6#", ""};
+		{ 20, 42282, "", "=q4=Relentless Gladiator's Bonecracker", "=ds=#h4#, #w6#", ""};
+		{ 21, 42324, "", "=q4=Relentless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", ""};
+		{ 22, 42329, "", "=q4=Relentless Gladiator's Pike", "=ds=#w7#", ""};
+		{ 23, 42366, "", "=q4=Relentless Gladiator's Battle Staff", "=ds=#w9#", ""};
+		{ 24, 42386, "", "=q4=Relentless Gladiator's Energy Staff", "=ds=#w9#", ""};
+		{ 25, 42392, "", "=q4=Relentless Gladiator's Staff", "=ds=#w9#", ""};
+		{ 26, 44423, "", "=q4=Relentless Gladiator's War Staff", "=ds=#w9#", ""};
+		{ 27, 44424, "", "=q4=Relentless Gladiator's Focus Staff", "=ds=#w9#", ""};
+		{ 28, 42492, "", "=q4=Relentless Gladiator's Longbow", "=ds=#w2#", ""};
+		{ 29, 42498, "", "=q4=Relentless Gladiator's Heavy Crossbow", "=ds=#w3#", ""};
+		{ 30, 42487, "", "=q4=Relentless Gladiator's Rifle", "=ds=#w5#", ""};
 		
 		Prev = "GladiatorWeapons3";
 		Next = "GladiatorWeapons5";
 		Back = "PVPMENU";
 	};
 	
-		AtlasLoot_Data["GladiatorWeapons5"] = {
+		AtlasLoot_Data["GladiatorWeapons5_x2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Weapons a7"], ""};
-		{ 2, 42566, "", "=q4=Relentless Gladiator's Barrier", "=ds=#w8#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 3, 42572, "", "=q4=Relentless Gladiator's Redoubt", "=ds=#w8#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 4, 42561, "", "=q4=Relentless Gladiator's Shield Wall", "=ds=#w8#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 5, 42483, "", "=q4=Relentless Gladiator's War Edge", "=ds=#w11#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 6, 42504, "", "=q4=Relentless Gladiator's Touch of Defeat", "=ds=#w12#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 7, 42515, "", "=q4=Relentless Gladiator's Baton of Light", "=ds=#w12#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 8, 42521, "", "=q4=Relentless Gladiator's Piercing Touch", "=ds=#w12#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 9, 49185, "", "=q4=Relentless Gladiator's Wand of Alacrity", "=ds=#w12#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 10, 49187, "", "=q4=Relentless Gladiator's Compendium", "=ds=#s15#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 11, 42527, "", "=q4=Relentless Gladiator's Endgame", "=ds=#s15#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 12, 42539, "", "=q4=Relentless Gladiator's Grimoire", "=ds=#s15#", "х2 700 #bgpoints# или 175 #arenapoints#"};
-		{ 13, 42533, "", "=q4=Relentless Gladiator's Reprieve", "=ds=#s15#", "х2 700 #bgpoints# или 175 #arenapoints#"};
+		{ 2, 42566, "", "=q4=Relentless Gladiator's Barrier", "=ds=#w8#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 3, 42572, "", "=q4=Relentless Gladiator's Redoubt", "=ds=#w8#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 4, 42561, "", "=q4=Relentless Gladiator's Shield Wall", "=ds=#w8#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 5, 42483, "", "=q4=Relentless Gladiator's War Edge", "=ds=#w11#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 6, 42504, "", "=q4=Relentless Gladiator's Touch of Defeat", "=ds=#w12#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 7, 42515, "", "=q4=Relentless Gladiator's Baton of Light", "=ds=#w12#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 8, 42521, "", "=q4=Relentless Gladiator's Piercing Touch", "=ds=#w12#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 9, 49185, "", "=q4=Relentless Gladiator's Wand of Alacrity", "=ds=#w12#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 10, 49187, "", "=q4=Relentless Gladiator's Compendium", "=ds=#s15#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 11, 42527, "", "=q4=Relentless Gladiator's Endgame", "=ds=#s15#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 12, 42539, "", "=q4=Relentless Gladiator's Grimoire", "=ds=#s15#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 13, 42533, "", "=q4=Relentless Gladiator's Reprieve", "=ds=#s15#", "700 #bgpoints# или 175 #arenapoints#"};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Weapons a8"], ""};
+		{ 17, 51523, "", "=q4=Wrathful Gladiator's Right Ripper", "=ds=#h3#, #w13#", ""};
+		{ 18, 51530, "", "=q4=Wrathful Gladiator's Left Render", "=ds=#h4#, #w13#", ""};
+		{ 19, 51443, "", "=q4=Wrathful Gladiator's Left Ripper", "=ds=#h4#, #w13#", ""};
+		{ 20, 51406, "", "=q4=Wrathful Gladiator's Blade of Alacrity", "=ds=#h3#, #w4#", ""};
+		{ 21, 51397, "", "=q4=Wrathful Gladiator's Spellblade", "=ds=#h3#, #w4#", ""};
+		{ 22, 51517, "", "=q4=Wrathful Gladiator's Shanker", "=ds=#h1#, #w4#", ""};
+		{ 23, 51527, "", "=q4=Wrathful Gladiator's Mutilator", "=ds=#h4#, #w4#", ""};
+		{ 24, 51441, "", "=q4=Wrathful Gladiator's Shiv", "=ds=#h4#, #w4#", ""};
+		{ 25, 51521, "", "=q4=Wrathful Gladiator's Slicer", "=ds=#h1#, #w10#", ""};
+		{ 26, 51447, "", "=q4=Wrathful Gladiator's Quickblade", "=ds=#h4#, #w10#", ""};
+		{ 27, 51392, "", "=q4=Wrathful Gladiator's Greatsword", "=ds=#h2#, #w10#", ""};
+		{ 28, 51515, "", "=q4=Wrathful Gladiator's Cleaver", "=ds=#h1#, #w1#", ""};
+		{ 29, 51525, "", "=q4=Wrathful Gladiator's Chopper", "=ds=#h4#, #w1#", ""};
+		{ 30, 51439, "", "=q4=Wrathful Gladiator's Hacker", "=ds=#h4#, #w1#", ""};
+		
+		Prev = "GladiatorWeapons4";
+		Next = "GladiatorWeapons6";
+		Back = "PVPMENU";
+	};
+	AtlasLoot_Data["GladiatorWeapons5_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Weapons a7"], ""};
+		{ 2, 42566, "", "=q4=Relentless Gladiator's Barrier", "=ds=#w8#", ""};
+		{ 3, 42572, "", "=q4=Relentless Gladiator's Redoubt", "=ds=#w8#", ""};
+		{ 4, 42561, "", "=q4=Relentless Gladiator's Shield Wall", "=ds=#w8#", ""};
+		{ 5, 42483, "", "=q4=Relentless Gladiator's War Edge", "=ds=#w11#", ""};
+		{ 6, 42504, "", "=q4=Relentless Gladiator's Touch of Defeat", "=ds=#w12#", ""};
+		{ 7, 42515, "", "=q4=Relentless Gladiator's Baton of Light", "=ds=#w12#", ""};
+		{ 8, 42521, "", "=q4=Relentless Gladiator's Piercing Touch", "=ds=#w12#", ""};
+		{ 9, 49185, "", "=q4=Relentless Gladiator's Wand of Alacrity", "=ds=#w12#", ""};
+		{ 10, 49187, "", "=q4=Relentless Gladiator's Compendium", "=ds=#s15#", ""};
+		{ 11, 42527, "", "=q4=Relentless Gladiator's Endgame", "=ds=#s15#", ""};
+		{ 12, 42539, "", "=q4=Relentless Gladiator's Grimoire", "=ds=#s15#", ""};
+		{ 13, 42533, "", "=q4=Relentless Gladiator's Reprieve", "=ds=#s15#", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Weapons a8"], ""};
 		{ 17, 51523, "", "=q4=Wrathful Gladiator's Right Ripper", "=ds=#h3#, #w13#", ""};
 		{ 18, 51530, "", "=q4=Wrathful Gladiator's Left Render", "=ds=#h4#, #w13#", ""};
@@ -9697,19 +11092,47 @@ AtlasLoot_Data["GladiatorWeapons8"] = {
 		--- PvP Class Items ---
 		-----------------------
 
-	AtlasLoot_Data["PvP80ClassItems1"] = {
+	AtlasLoot_Data["PvP80ClassItems1_x2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"].." "..AL["arenaset05"], ""};
-		{ 2, 42588, "", "=q4=Deadly Gladiator's Idol of Resolve", "=ds=#w14#", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 42583, "", "=q4=Deadly Gladiator's Idol of Steadfastness", "=ds=#w14#", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 42578, "", "=q4=Deadly Gladiator's Idol of Tenacity", "=ds=#w14#", "х1 280 #bgpoints# или 70 #arenapoints#"};
+		{ 2, 42588, "", "=q4=Deadly Gladiator's Idol of Resolve", "=ds=#w14#", ""};
+		{ 3, 42583, "", "=q4=Deadly Gladiator's Idol of Steadfastness", "=ds=#w14#", ""};
+		{ 4, 42578, "", "=q4=Deadly Gladiator's Idol of Tenacity", "=ds=#w14#", ""};
 		{ 6, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"].." "..AL["arenaset06"], ""};
 		{ 7, 42589, "", "=q4=Furious Gladiator's Idol of Resolve", "=ds=#w14#", ""};
 		{ 8, 42584, "", "=q4=Furious Gladiator's Idol of Steadfastness", "=ds=#w14#", ""};
 		{ 9, 42579, "", "=q4=Furious Gladiator's Idol of Tenacity", "=ds=#w14#", ""};
 		{ 11, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"].." "..AL["arenaset07"], ""};
-		{ 12, 42591, "", "=q4=Relentless Gladiator's Idol of Resolve", "=ds=#w14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 13, 42585, "", "=q4=Relentless Gladiator's Idol of Steadfastness", "=ds=#w14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 14, 42580, "", "=q4=Relentless Gladiator's Idol of Tenacity", "=ds=#w14#", "х2 280 #bgpoints# или 70 #arenapoints#"};
+		{ 12, 42591, "", "=q4=Relentless Gladiator's Idol of Resolve", "=ds=#w14#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 13, 42585, "", "=q4=Relentless Gladiator's Idol of Steadfastness", "=ds=#w14#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 14, 42580, "", "=q4=Relentless Gladiator's Idol of Tenacity", "=ds=#w14#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"].." "..AL["arenaset08"], ""};
+		{ 17, 51429, "", "=q4=Wrathful Gladiator's Idol of Resolve", "=ds=#w14#", ""};
+		{ 18, 51437, "", "=q4=Wrathful Gladiator's Idol of Steadfastness", "=ds=#w14#", ""};
+		{ 19, 51423, "", "=q4=Wrathful Gladiator's Idol of Tenacity", "=ds=#w14#", ""};
+		{ 21, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"].." "..AL["arenaset09"], ""};
+		{ 22, 103083, "", "=q4=Vengeful Gladiator's Idol of Tenacity", "=ds=#w14#", ""};
+		{ 23, 103090, "", "=q4=Vengeful Gladiator's Idol of Steadfastness", "=ds=#w14#", ""};
+		{ 24, 103077, "", "=q4=Vengeful Gladiator's Idol of Resolve", "=ds=#w14#", ""};
+		{ 21, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"].." "..AL["arenaset010"], ""};
+		{ 22, 103283, "", "=q4=Merciless Gladiator's Idol of Tenacity", "=ds=#w14#", ""};
+		{ 23, 103290, "", "=q4=Merciless Gladiator's Idol of Steadfastness", "=ds=#w14#", ""};
+		{ 24, 103277, "", "=q4=Merciless Gladiator's Idol of Resolve", "=ds=#w14#", ""};
+		Next = "PvP80ClassItems2";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80ClassItems1_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"].." "..AL["arenaset05"], ""};
+		{ 2, 42588, "", "=q4=Deadly Gladiator's Idol of Resolve", "=ds=#w14#", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 3, 42583, "", "=q4=Deadly Gladiator's Idol of Steadfastness", "=ds=#w14#", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 4, 42578, "", "=q4=Deadly Gladiator's Idol of Tenacity", "=ds=#w14#", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"].." "..AL["arenaset06"], ""};
+		{ 7, 42589, "", "=q4=Furious Gladiator's Idol of Resolve", "=ds=#w14#", ""};
+		{ 8, 42584, "", "=q4=Furious Gladiator's Idol of Steadfastness", "=ds=#w14#", ""};
+		{ 9, 42579, "", "=q4=Furious Gladiator's Idol of Tenacity", "=ds=#w14#", ""};
+		{ 11, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"].." "..AL["arenaset07"], ""};
+		{ 12, 42591, "", "=q4=Relentless Gladiator's Idol of Resolve", "=ds=#w14#", ""};
+		{ 13, 42585, "", "=q4=Relentless Gladiator's Idol of Steadfastness", "=ds=#w14#", ""};
+		{ 14, 42580, "", "=q4=Relentless Gladiator's Idol of Tenacity", "=ds=#w14#", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"].." "..AL["arenaset08"], ""};
 		{ 17, 51429, "", "=q4=Wrathful Gladiator's Idol of Resolve", "=ds=#w14#", ""};
 		{ 18, 51437, "", "=q4=Wrathful Gladiator's Idol of Steadfastness", "=ds=#w14#", ""};
@@ -9726,19 +11149,49 @@ AtlasLoot_Data["GladiatorWeapons8"] = {
 		Back = "PVP80NONSETEPICS";
 	};
 	
-		AtlasLoot_Data["PvP80ClassItems2"] = {
+	
+	AtlasLoot_Data["PvP80ClassItems2_x2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"].." "..AL["arenaset05"], ""};
-		{ 2, 42607, "", "=q4=Deadly Gladiator's Totem of Indomitability", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 42602, "", "=q4=Deadly Gladiator's Totem of Survival", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 4, 42597, "", "=q4=Deadly Gladiator's Totem of the Third Wind", "х1 280 #bgpoints# или 70 #arenapoints#"};
+		{ 2, 42607, "", "=q4=Deadly Gladiator's Totem of Indomitability", ""};
+		{ 3, 42602, "", "=q4=Deadly Gladiator's Totem of Survival", ""};
+		{ 4, 42597, "", "=q4=Deadly Gladiator's Totem of the Third Wind", ""};
 		{ 6, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"].." "..AL["arenaset06"], ""};
 		{ 7, 42608, "", "=q4=Furious Gladiator's Totem of Indomitability", "=ds=#w15#", ""};
 		{ 8, 42603, "", "=q4=Furious Gladiator's Totem of Survival", "=ds=#w15#", ""};
 		{ 9, 42598, "", "=q4=Furious Gladiator's Totem of the Third Wind", "=ds=#w15#", ""};
 		{ 11, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"].." "..AL["arenaset07"], ""};
-		{ 12, 42609, "", "=q4=Relentless Gladiator's Totem of Indomitability", "=ds=#w15#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 13, 42604, "", "=q4=Relentless Gladiator's Totem of Survival", "=ds=#w15#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 14, 42599, "", "=q4=Relentless Gladiator's Totem of the Third Wind", "=ds=#w15#", "х2 280 #bgpoints# или 70 #arenapoints#"};
+		{ 12, 42609, "", "=q4=Relentless Gladiator's Totem of Indomitability", "=ds=#w15#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 13, 42604, "", "=q4=Relentless Gladiator's Totem of Survival", "=ds=#w15#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 14, 42599, "", "=q4=Relentless Gladiator's Totem of the Third Wind", "=ds=#w15#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"].." "..AL["arenaset08"], ""};
+		{ 17, 51507, "", "=q4=Wrathful Gladiator's Totem of Indomitability", "=ds=#w15#", ""};
+		{ 18, 51513, "", "=q4=Wrathful Gladiator's Totem of Survival", "=ds=#w15#", ""};
+		{ 19, 51501, "", "=q4=Wrathful Gladiator's Totem of the Third Wind", "=ds=#w15#", ""};
+		{ 21, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"].." "..AL["arenaset09"], ""};
+		{ 22, 103151, "", "=q4=Vengeful Gladiator's Totem of the Third Wind", "=ds=#w15#", ""};
+		{ 23, 103157, "", "=q4=Vengeful Gladiator's Totem of Indomitability", "=ds=#w15#", ""};
+		{ 24, 103145, "", "=q4=Vengeful Gladiator's Totem of Survival", "=ds=#w15#", ""};
+		{ 21, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"].." "..AL["arenaset010"], ""};
+		{ 22, 103351, "", "=q4=Merciless Gladiator's Totem of the Third Wind", "=ds=#w15#", ""};
+		{ 23, 103357, "", "=q4=Merciless Gladiator's Totem of Indomitability", "=ds=#w15#", ""};
+		{ 24, 103345, "", "=q4=Merciless Gladiator's Totem of Survival", "=ds=#w15#", ""};
+		Prev = "PvP80ClassItems1";
+		Next = "PvP80ClassItems3";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80ClassItems2_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"].." "..AL["arenaset05"], ""};
+		{ 2, 42607, "", "=q4=Deadly Gladiator's Totem of Indomitability", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 3, 42602, "", "=q4=Deadly Gladiator's Totem of Survival", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 4, 42597, "", "=q4=Deadly Gladiator's Totem of the Third Wind", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"].." "..AL["arenaset06"], ""};
+		{ 7, 42608, "", "=q4=Furious Gladiator's Totem of Indomitability", "=ds=#w15#", ""};
+		{ 8, 42603, "", "=q4=Furious Gladiator's Totem of Survival", "=ds=#w15#", ""};
+		{ 9, 42598, "", "=q4=Furious Gladiator's Totem of the Third Wind", "=ds=#w15#", ""};
+		{ 11, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"].." "..AL["arenaset07"], ""};
+		{ 12, 42609, "", "=q4=Relentless Gladiator's Totem of Indomitability", "=ds=#w15#", ""};
+		{ 13, 42604, "", "=q4=Relentless Gladiator's Totem of Survival", "=ds=#w15#", ""};
+		{ 14, 42599, "", "=q4=Relentless Gladiator's Totem of the Third Wind", "=ds=#w15#", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"].." "..AL["arenaset08"], ""};
 		{ 17, 51507, "", "=q4=Wrathful Gladiator's Totem of Indomitability", "=ds=#w15#", ""};
 		{ 18, 51513, "", "=q4=Wrathful Gladiator's Totem of Survival", "=ds=#w15#", ""};
@@ -9756,16 +11209,39 @@ AtlasLoot_Data["GladiatorWeapons8"] = {
 		Back = "PVP80NONSETEPICS";
 	};
 	
-	AtlasLoot_Data["PvP80ClassItems3"] = {
+	AtlasLoot_Data["PvP80ClassItems3_x2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"].." "..AL["arenaset05"], ""};
-		{ 2, 42852, "", "=q4=Deadly Gladiator's Libram of Fortitude", "х1 280 #bgpoints# или 70 #arenapoints#"};
-		{ 3, 42614, "", "=q4=Deadly Gladiator's Libram of Justice", "х1 280 #bgpoints# или 70 #arenapoints#"};
+		{ 2, 42852, "", "=q4=Deadly Gladiator's Libram of Fortitude", ""};
+		{ 3, 42614, "", "=q4=Deadly Gladiator's Libram of Justice", ""};
 		{ 5, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"].." "..AL["arenaset06"], ""};
 		{ 6, 42853, "", "=q4=Furious Gladiator's Libram of Fortitude", "=ds=#w16#", ""};
 		{ 7, 42615, "", "=q4=Furious Gladiator's Libram of Justice", "=ds=#w16#", ""};
 		{ 9, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"].." "..AL["arenaset07"], ""};
-		{ 10, 42854, "", "=q4=Relentless Gladiator's Libram of Fortitude", "=ds=#w16#", "х2 280 #bgpoints# или 70 #arenapoints#"};
-		{ 11, 42616, "", "=q4=Relentless Gladiator's Libram of Justice", "=ds=#w16#", "х2 280 #bgpoints# или 70 #arenapoints#"};
+		{ 10, 42854, "", "=q4=Relentless Gladiator's Libram of Fortitude", "=ds=#w16#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 11, 42616, "", "=q4=Relentless Gladiator's Libram of Justice", "=ds=#w16#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 13, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"].." "..AL["arenaset08"], ""};
+		{ 14, 51478, "", "=q4=Wrathful Gladiator's Libram of Fortitude", "=ds=#w16#", ""};
+		{ 15, 51472, "", "=q4=Wrathful Gladiator's Libram of Justice", "=ds=#w16#", ""};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"].." "..AL["arenaset09"], ""};
+		{ 17, 103123, "", "=q4=Vengeful Gladiator's Libram of Justice", "=ds=#w16#", ""};
+		{ 18, 103117, "", "=q4=Vengeful Gladiator's Libram of Fortitude", "=ds=#w16#", ""};
+		{ 20, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"].." "..AL["arenaset010"], ""};
+		{ 21, 103323, "", "=q4=Merciless Gladiator's Libram of Justice", "=ds=#w16#", ""};
+		{ 22, 103317, "", "=q4=Merciless Gladiator's Libram of Fortitude", "=ds=#w16#", ""};
+		Prev = "PvP80ClassItems2";
+		Next = "PvP80ClassItems4";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80ClassItems3_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"].." "..AL["arenaset05"], ""};
+		{ 2, 42852, "", "=q4=Deadly Gladiator's Libram of Fortitude", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 3, 42614, "", "=q4=Deadly Gladiator's Libram of Justice", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 5, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"].." "..AL["arenaset06"], ""};
+		{ 6, 42853, "", "=q4=Furious Gladiator's Libram of Fortitude", "=ds=#w16#", ""};
+		{ 7, 42615, "", "=q4=Furious Gladiator's Libram of Justice", "=ds=#w16#", ""};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"].." "..AL["arenaset07"], ""};
+		{ 10, 42854, "", "=q4=Relentless Gladiator's Libram of Fortitude", "=ds=#w16#", ""};
+		{ 11, 42616, "", "=q4=Relentless Gladiator's Libram of Justice", "=ds=#w16#", ""};
 		{ 13, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"].." "..AL["arenaset08"], ""};
 		{ 14, 51478, "", "=q4=Wrathful Gladiator's Libram of Fortitude", "=ds=#w16#", ""};
 		{ 15, 51472, "", "=q4=Wrathful Gladiator's Libram of Justice", "=ds=#w16#", ""};
@@ -9780,13 +11256,29 @@ AtlasLoot_Data["GladiatorWeapons8"] = {
 		Back = "PVP80NONSETEPICS";
 	};
 	
-	AtlasLoot_Data["PvP80ClassItems4"] = {
+	AtlasLoot_Data["PvP80ClassItems4_x2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset05"], ""};
-		{ 2, 42620, "", "=q4=Deadly Gladiator's Sigil of Strife", "х1 280 #bgpoints# или 70 #arenapoints#"};
+		{ 2, 42620, "", "=q4=Deadly Gladiator's Sigil of Strife", ""};
 		{ 4, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset06"], ""};
 		{ 5, 42621, "", "=q4=Furious Gladiator's Sigil of Strife", "=ds=#w21#", ""};
 		{ 7, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset07"], ""};
-		{ 8, 42622, "", "=q4=Relentless Gladiator's Sigil of Strife", "=ds=#w21#", "х2 280 #bgpoints# или 70 #arenapoints#"};
+		{ 8, 42622, "", "=q4=Relentless Gladiator's Sigil of Strife", "=ds=#w21#", "280 #bgpoints# или 70 #arenapoints#"};
+		{ 10, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset08"], ""};
+		{ 11, 51417, "", "=q4=Wrathful Gladiator's Sigil of Strife", "=ds=#w21#", ""};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset09"], ""};
+		{ 17, 103071, "", "=q4=Hateful Gladiator's Sigil of Strife", "=ds=#w21#", ""};
+		{ 19, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset010"], ""};
+		{ 20, 103271, "", "=q4=Merciless Gladiator's Sigil of Strife", "=ds=#w21#", ""};
+		Prev = "PvP80ClassItems3";
+		Back = "PVP80NONSETEPICS";
+	};
+	AtlasLoot_Data["PvP80ClassItems4_x4"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset05"], ""};
+		{ 2, 42620, "", "=q4=Deadly Gladiator's Sigil of Strife", "3200 #bgpoints# или 800 #arenapoints# Служба:8.0 Арена 2.0"};
+		{ 4, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset06"], ""};
+		{ 5, 42621, "", "=q4=Furious Gladiator's Sigil of Strife", "=ds=#w21#", ""};
+		{ 7, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset07"], ""};
+		{ 8, 42622, "", "=q4=Relentless Gladiator's Sigil of Strife", "=ds=#w21#", ""};
 		{ 10, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset08"], ""};
 		{ 11, 51417, "", "=q4=Wrathful Gladiator's Sigil of Strife", "=ds=#w21#", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"].." "..AL["arenaset09"], ""};
