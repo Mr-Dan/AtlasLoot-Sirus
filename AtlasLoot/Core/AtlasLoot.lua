@@ -550,7 +550,7 @@ Set up checks to see if we have a heroic loot table or not.
 Returns: HeroicCheck, HeroicdataID, NonHeroicdataID, BigraidCheck, BigraiddataID, SmallraiddataID, heroname
 ]]
 function AtlasLoot_GetLoottableHeroic(dataID)
-	local NormalID, HeroicID, Normal25ID, Heroic25ID = nil,nil,nil,nil
+	local NormalID, HeroicID, Normal25ID, Heroic25ID,realmID = nil,nil,nil,nil,nil
 	local dataSource = AtlasLoot_Data
 	local englishFaction = UnitFactionGroup("player")
 	local realm = GetRealmName();
@@ -574,7 +574,7 @@ local x4 = "Algalon x4 - 3.3.5a"
 		realmID = dataID
 		if realm == x4 and dataSource[realmID.."_x4"] then
 			realmID = realmID.."_x4"
-		elseif englishFaction ~= x4 and dataSource[realmID.."_x2"] then
+		elseif realm ~= x4 and dataSource[realmID.."_x2"] then
 			realmID = realmID.."_x2"
 			
 		end
