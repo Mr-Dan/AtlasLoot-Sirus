@@ -242,11 +242,13 @@ if AL then
     AL["Load Modules"] = "Загр. модулей";
     AL["Options"] = "Опции";
 	AL["PvP Rewards"] = "PvP награды";
-	AL["a9"] = "9 сезон арены";
-	AL["a10"] = "10 сезон арены";
+	AL["a9"] = "9 PVP сезон ";
+	AL["a10"] = "10 PVP сезон ";
     AL["QuickLook"] = "Быстрый Осмотр";
 	AL["World Events"] = "Мировые события";
 	AL["Kategoria"] = "Sirus";
+	AL["Kategoria_x2"] = "Sirus x2";
+	AL["Kategoria_x4"] = "Sirus x4";
 	AL["SIRUSLEGENDARY"] = "Легендарные предметы";
 	AL["SIRUSCHEST"] = "Сундук с сокровищами";
 	AL["SIRUSCHEST2"] = "Сундук таинственных существ";
@@ -386,7 +388,7 @@ if AL then
 	AL["WotLK Factions"] = "Фракции в WotLK";
 
 	-- PvP Menu
-    AL["Arena PvP Sets"] = "PvP комплекты с арены";
+    AL["Arena PvP Sets"] = "PvP комплекты с PVP";
     AL["PvP Rewards (Level 60)"] = "PvP награды (Уровень 60)";
     AL["PvP Rewards (Level 70)"] = "PvP награды (Уровень 70)";
     AL["PvP Rewards (Level 80)"] = "PvP награды (Уровень 80)";
@@ -401,7 +403,7 @@ if AL then
     AL["PvP Non-Set Epics a9"] = "PvP 9-й сезон не из комплектов";
     AL["PvP Non-Set Epics a10"] = "PvP 10-й сезон не из комплектов";
     AL["PvP Reputation Sets"] = "PvP комплекты за репутацию";
-    AL["Arena PvP Weapons"] = "PvP Оружие с арены";
+    AL["Arena PvP Weapons"] = "PvP Оружие с PVP";
     AL["PvP Misc"] = "PvP ювелирные эскизы";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Самоцветы/Чары/Ювелирные эскизы";
 	AL["WGMounts"] = "Ездовые Животные";
@@ -625,7 +627,7 @@ if AL then
     AL["One Drake Left"] = "Превый дракон";
     AL["Two Drakes Left"] = "Второй дракон";
 	AL["Three Drakes Left"] = "Третий дракон";
-	AL["Arena Reward"] = "Награды с Арены";
+	AL["Arena Reward"] = "Награды с PVP";
     AL["Phase 1"] = "Фаза 1";
     AL["Phase 2"] = "Фаза 2";
     AL["Phase 3"] = "Фаза 3";
@@ -644,12 +646,12 @@ if AL then
 	AL["A Tribute to Immortality"] = "Дань бессмертию";
 	AL["Low Level"] = "Низкого уровня";
 	AL["High Level"] = "Высокого уровня";
-	AL["Weapons a10"] = "Оружие 10 сезона арены ";
-	AL["Weapons a9"] = "Оружие 9 сезона арены ";
-	AL["Weapons a8"] = "Оружие 8 сезона арены ";
-	AL["Weapons a7"] = "Оружие 7 сезона арены ";
-	AL["Weapons a6"] = "Оружие 6 сезона арены ";
-	AL["Weapons a5"] = "Оружие 5 сезона ареныx ";
+	AL["Weapons a10"] = "Оружие 10 PVP сезона";
+	AL["Weapons a9"] = "Оружие 9 PVP сезона";
+	AL["Weapons a8"] = "Оружие 8 PVP сезона";
+	AL["Weapons a7"] = "Оружие 7 PVP сезона";
+	AL["Weapons a6"] = "Оружие 6 PVP сезона";
+	AL["Weapons a5"] = "Оружие 5 PVP сезона";
 	
 	-- Loot Table Names
     AL["Scholomance Sets"] = "Комплекты Некроситета";
@@ -1369,22 +1371,19 @@ if AL then
 	
 	-- Arena Tier
 
-	AL["arenaset5"] = "Экипировка 5 сезона арены ";
-	AL["arenaset6"] = "Экипировка 6 сезона арены ";
-	AL["arenaset7"] = "Экипировка 7 сезона арены ";
-	AL["arenaset8x1"] = "Экипировка 8 сезона арены ";
-	AL["arenaset8x2"] = "Экипировка 8 сезона арены ";
-	AL["arenaset8"] = "Экипировка 8 сезона арены ";
+	AL["arenaset5"] = "Экипировка 5 PVP сезона  ";
+	AL["arenaset6"] = "Экипировка 6 PVP сезона  ";
+	AL["arenaset7"] = "Экипировка 7 PVP сезона  ";
+	AL["arenaset8"] = "Экипировка 8 PVPсезона  ";
+	AL["arenaset9"] = "Экипировка 9 PVP сезона  ";
+	AL["arenaset10"] = "Экипировка 10 PVP сезона  ";
 	
-	AL["arenaset9"] = "Экипировка 9 сезона арены ";
-	AL["arenaset10"] = "Экипировка 10 сезона арены ";
-	
-	AL["arenaset05"] = "5 сезона арены";
-	AL["arenaset06"] = "6 сезона арены";
-	AL["arenaset07"] = "7 сезона арены";
-	AL["arenaset08"] = "8 сезона арены";
-	AL["arenaset09"] = "9 сезона арены";
-	AL["arenaset010"] = "10 сезона арены";
+	AL["arenaset05"] = "5 PVP сезона ";
+	AL["arenaset06"] = "6 PVP сезона ";
+	AL["arenaset07"] = "7 PVP сезона ";
+	AL["arenaset08"] = "8 PVP сезона ";
+	AL["arenaset09"] = "9 PVP сезона ";
+	AL["arenaset010"] = "10 PVP сезона ";
 	
     -- Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "Оружие свирепого гладиатора";  --unused

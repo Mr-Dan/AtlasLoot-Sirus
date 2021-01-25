@@ -4,7 +4,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 
-	AtlasLoot_Data["KATEGORIAMENU"] = {
+	AtlasLoot_Data["KATEGORIAMENU_x2"] = {
 		{ 2, "7MENU", "seven", "=ds="..AL["7 kata"], ""};
 		{ 3, "6MENU", "six", "=ds="..AL["6 kata"], ""};
 		{ 4, "5MENU", "five", "=ds="..AL["5 kata"], ""};
@@ -16,11 +16,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		--{ 11, "SIRUSLEGENDARYMENU", "inv_misc_cape_deathwingraid_d_01", "=ds="..AL["SIRUSLEGENDARY"], ""};
 		--{ 12, "SIRUSCHESTMENU", "inv_misc_bag_34", "=ds="..AL["SIRUSCHEST"], ""};
 		--{ 13, "SIRUSCHEST2MENU", "inv_misc_lockbox_1", "=ds="..AL["SIRUSCHEST2"], ""};
-	
 		{ 13, "SIRUSCHESTMOUNTMENU", "INV_Box_04", "=ds="..AL["SIRUSCHESTMOUNTMENU"], ""};
 		{ 14, "SIRUSMOUNTMENU", "ability_mount_cranemountblue", "=ds="..AL["SIRUSMOUNT"], ""};
 		{ 15, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};
-	
 		--{ 24, "LordKrimor", "Ability_Ambush", "=ds="..AL["LordKrimor"], ""};
 		{ 17, "MillenniumRoulettex2", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};
 		{ 18, "BlackDiamonds", "inv_legendary_chimeraoffear", "=ds="..AL["BlackDiamonds"], ""};
@@ -32,11 +30,20 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};
 		{ 25, "blackpigment", "Sha_Spell_Fire_FelFireNova", "=ds="..AL["blackpigment"], ""};
 
-
-
 	};
 		
 
+	AtlasLoot_Data["KATEGORIAMENU_x4"] = {
+	
+		{ 17, "SIRUSMOUNTMENU", "ability_mount_cranemountblue", "=ds="..AL["SIRUSMOUNT"], ""};
+		{ 18, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};	
+		{ 2, "TrinketChests_H", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
+		{ 3, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
+		{ 4, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
+		{ 5, "Lili", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
+		{ 6, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};
+		
+	};
 
 
 	

@@ -141,12 +141,50 @@ function AtlasLootItem_OnEnter()
                         if ( AtlasLoot.db.profile.ItemIDs ) then
                             AtlasLootTooltip:AddLine(BLUE..AL["ItemID:"].." "..this.itemID, nil, nil, nil, 1);
                         end
-                        if( this.droprate ~= nil) then
+						
+                      --[[  if( this.droprate ~= nil) then
                             AtlasLootTooltip:AddLine(AL["Drop Rate: "]..this.droprate, 1, 1, 0);
-                        end
+                        end]]--
+						
                         if( DKP ~= nil and DKP ~= "" ) then
                             AtlasLootTooltip:AddLine(RED..DKP.." "..AL["DKP"], 1, 1, 0);
                         end
+						
+							local status, err;
+															
+						  if( AtlasLoot.db.profile.ItemIDs) then
+							local itemName = GetItemInfo (this.itemID);
+							local auctionPrice	= 0;
+							 status, err = pcall(function () auctionPrice	=  Atr_GetAuctionPrice (itemName) end ); 						  
+							if (auctionPrice ~= nil and err == nil) then
+							AtlasLootTooltip:AddLine (AL["Auction"]..WHITE..ALpriceToMoneyString(auctionPrice));
+							elseif( err == nil ) then
+							AtlasLootTooltip:AddLine (AL["BOPAuction"]);			
+							end                       
+                        end
+												
+						  if( AtlasLoot.db.profile.ItemIDs ) then
+							local _, _, _, _, _, _, _, _,_, _, itemSellPrice  = GetItemInfo(this.itemID);
+							local vendorPrice	= 0;						
+							vendorPrice	= itemSellPrice;						  
+							if (vendorPrice ~= 0 and err == nil) then
+							AtlasLootTooltip:AddLine (AL["Vendor2"]..WHITE..ALpriceToMoneyString(itemSellPrice));
+							elseif ( err == nil) then
+							AtlasLootTooltip:AddLine (AL["BOPVendor2"]);
+							end 							
+                        end
+						
+						  if( AtlasLoot.db.profile.ItemIDs ) then
+							local _, _, itemRarity, itemLevel, _, itemType, _, _,_, _, itemSellPrice  = GetItemInfo(this.itemID);
+							local dePrice= nil;					
+							status, err = pcall(function () dePrice	= Atr_CalcDisenchantPrice (itemType, itemRarity, itemLevel) end ); 
+							if (dePrice ~= 0 and err == nil and (itemType == 'Оружие' or itemType =='Доспехи')and (itemRarity >=2 and itemRarity<=4 )  ) then
+							AtlasLootTooltip:AddLine (AL["Disenchant"]..WHITE..ALpriceToMoneyString(dePrice));
+							elseif ( err == nil) then
+							AtlasLootTooltip:AddLine (AL["BOPDisenchant"]);
+							end 							
+                        end
+						
                         if( priority ~= nil and priority ~= "" ) then
                             AtlasLootTooltip:AddLine(GREEN..AL["Priority:"].." "..priority, 1, 1, 0);
                         end
@@ -357,4 +395,58 @@ function AtlasLootItem_ShowCompareItem()
     
 end
 
+   local goldicon		= "|TInterface\\MoneyFrame\\UI-GoldIcon:12:12:4:0|t"
+local silvericon	= "|TInterface\\MoneyFrame\\UI-SilverIcon:12:12:4:0|t"
+local coppericon	= "|TInterface\\MoneyFrame\\UI-CopperIcon:12:12:4:0|t"
+
+function ALround (v)
+	return math.floor (v + 0.5);
+end
+
+ function ALval2gsc (v)
+	local rv = ALround(v)
+
+	local g = math.floor (rv/10000);
+
+	rv = rv - g*10000;
+
+	local s = math.floor (rv/100);
+
+	rv = rv - s*100;
+
+	local c = rv;
+
+	return g, s, c
+end  
    
+   
+function ALpriceToMoneyString (val, noZeroCoppers)
+
+	local gold, silver, copper  = ALval2gsc(val);
+
+	local st = "";
+
+	if (gold ~= 0) then
+		st = gold..goldicon.."  ";
+	end
+
+
+	if (st ~= "") then
+		st = st..format("%02i%s  ", silver, silvericon);
+	elseif (silver ~= 0) then
+		st = st..silver..silvericon.."  ";
+	end
+
+	if (noZeroCoppers and copper == 0) then
+		return st;
+	end
+
+	if (st ~= "") then
+		st = st..format("%02i%s", copper, coppericon);
+	elseif (copper ~= 0) then
+		st = st..copper..coppericon;
+	end
+
+	return st;
+
+end

@@ -38,7 +38,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "11";
 local VERSION_BOSSES = "03";
-ATLASLOOT_VERSION = "|cffFFFFFF16.11.20 AtlasLoot Sirus|r";
+ATLASLOOT_VERSION = "|cffFFFFFF25.01.21 AtlasLoot Sirus|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_CURRENT_ATLAS = {"1.16.1", "1.16.0"};
 ATLASLOOT_PREVIEW_ATLAS = {"1.17.0", "1.16.2"};
@@ -553,15 +553,33 @@ function AtlasLoot_GetLoottableHeroic(dataID)
 	local NormalID, HeroicID, Normal25ID, Heroic25ID = nil,nil,nil,nil
 	local dataSource = AtlasLoot_Data
 	local englishFaction = UnitFactionGroup("player")
+	local realm = GetRealmName();
+	
+local x2 = "Scourge x2 - 3.3.5a"
+local x4 = "Algalon x4 - 3.3.5a"
+
 	-- remove all Heroic etc infos from the dataID**
 	dataID = gsub(dataID, "_H", "")				-- Horde
 	dataID = gsub(dataID, "_A", "")				-- Alliance
 	dataID = gsub(dataID, "HEROIC", "")			-- Hero Table (10)
 	dataID = gsub(dataID, "25Man", "")			-- 25 Man Table
 	dataID = gsub(dataID, "25ManHEROIC", "")	-- Heroic Table (25)
-	
+	dataID = gsub(dataID, "_x4", "")	-- realm _x4
+	dataID = gsub(dataID, "_x2", "")	-- realm _x2
+
 	-- dataID from normal <return>
 	-- Check tables if Heroic etc exists
+	
+	if dataSource[dataID] or dataSource[dataID.."_x4"] or dataSource[dataID.."_x2"] then
+		realmID = dataID
+		if realm == x4 and dataSource[realmID.."_x4"] then
+			realmID = realmID.."_x4"
+		elseif englishFaction ~= x4 and dataSource[realmID.."_x2"] then
+			realmID = realmID.."_x2"
+			
+		end
+	end
+	
 	if dataSource[dataID] or dataSource[dataID.."_H"] or dataSource[dataID.."_A"] then
 		NormalID = dataID
 		if englishFaction == "Horde" and dataSource[NormalID.."_H"] then
@@ -570,6 +588,7 @@ function AtlasLoot_GetLoottableHeroic(dataID)
 			NormalID = NormalID.."_A"
 		end
 	end
+	
 	if dataSource[dataID.."HEROIC"] or dataSource[dataID.."HEROIC".."_H"] or dataSource[dataID.."HEROIC".."_A"] then
 		HeroicID = dataID.."HEROIC"
 		if englishFaction == "Horde" and dataSource[HeroicID.."_H"] then
@@ -595,7 +614,7 @@ function AtlasLoot_GetLoottableHeroic(dataID)
 		end
 	end
 
-	return NormalID, HeroicID, Normal25ID, Heroic25ID
+	return NormalID, HeroicID, Normal25ID, Heroic25ID,realmID
 end
 
 --[[
@@ -657,7 +676,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
     end
 
 	--Set up checks to see if we have a heroic loot table or not
-	local NormalID, HeroicID, Normal25ID, Heroic25ID = AtlasLoot_GetLoottableHeroic(dataID)
+	local NormalID, HeroicID, Normal25ID, Heroic25ID,realmID = AtlasLoot_GetLoottableHeroic(dataID)
 	if AtlasLoot.db.profile.HeroicMode and HeroicID then
 		dataID = HeroicID
 	elseif AtlasLoot.db.profile.Bigraid and Normal25ID then
@@ -681,6 +700,8 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				AtlasLoot.db.profile.Bigraid = false
 				AtlasLoot.db.profile.BigraidHeroic = true
 				AtlasLoot.db.profile.HeroicMode = false
+			elseif realmID then
+			dataID = realmID
 			end
 		else
 			dataID = NormalID

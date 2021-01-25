@@ -1018,9 +1018,6 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#arenaset6#", AL["arenaset6"]);
     text = gsub(text, "#arenaset7#", AL["arenaset7"]);
     text = gsub(text, "#arenaset8#", AL["arenaset8"]);
-	text = gsub(text, "#arenaset8x1#", AL["arenaset8x1"]);
-    text = gsub(text, "#arenaset8x2#", AL["arenaset8x2"]);
-
     text = gsub(text, "#arenaset9#", AL["arenaset9"]);
     text = gsub(text, "#arenaset10#", AL["arenaset10"]);
 

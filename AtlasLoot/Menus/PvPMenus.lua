@@ -6,13 +6,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["PVPMENU"] = {
 		{ 2, "LEVEL80PVPSETS", "inv_chest_cloth_81", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 80"], "" };
 		{ 3, "PVP80NONSETEPICS", "inv_bracer_51", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 80"]};
-		{ 4, "PvPNewTokens", "INV_Sword_06", "=ds=PvP Жетоны", "=q5="..AL["Level 80"]};
+		{ 4, "PvPNewTokens_x2", "INV_Sword_06", "=ds=PvP Жетоны", "=q5="..AL["Level 80"]};
 		{ 7, "WINTERGRASPMENU", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
 		{ 8, "PVPMENU2", "INV_Jewelry_Necklace_21", "=ds="..AL["BG/Open PvP Rewards"], ""};
-		{ 17, "PvP80UnSet1", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 80"]};
-		{ 18, "GladiatorWeapons1", "inv_axe_115", "=ds="..AL["Gladiator\'s Weapons"], "=q5="..AL["Level 80"] };
+		{ 17, "PvP80UnSet1_x2", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 80"]};
+		{ 18, "GladiatorWeapons1_x2", "inv_axe_115", "=ds="..AL["Gladiator\'s Weapons"], "=q5="..AL["Level 80"] };
 		--{ 19, "PVPRBG", "warrior_talent_icon_furyintheblood", "=ds="..AL["PvP RBG"], "=q5="..AL["Level 80"]};
-		{ 22, "WillCircleMenu", "Ability_Mount_HordePVPMount", "=ds="..AL["WillCircle"], ""};
+		{ 22, "WillCircleMenu_x2", "Ability_Mount_HordePVPMount", "=ds="..AL["WillCircle"], ""};
 		{ 23, "RageSaddle", "achievement_bg_kill_on_mount", "=ds="..AL["RageSaddle"], ""};
 		--{ 8, "PvPa9NonSet1", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 80"]};
 		--{ 10, "A10PVPSETS", "inv_chest_plate_pvppaladin_d_01", "=ds="..AL["a10"], "=q5="..AL["Level 80"], "" };
@@ -55,31 +55,31 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 
 	AtlasLoot_Data["PVP80NONSETEPICS"] = {
-		{ 2, "PvP80ClothNonSet1", "INV_Boots_Cloth_12", "=ds="..BabbleInventory["Cloth"], ""};
-		{ 3, "PvP80MailNonSet1", "INV_Boots_Plate_06", "=ds="..BabbleInventory["Mail"], ""};
-		{ 4, "PvP80ClassItems1", "Spell_Frost_SummonWaterElemental", "=ds="..BabbleInventory["Relic"], "" };
-		{ 17, "PvP80LeatherNonSet1", "INV_Boots_08", "=ds="..BabbleInventory["Leather"], ""};
-		{ 18, "PvP80PlateNonSet1", "INV_Boots_Plate_04", "=ds="..BabbleInventory["Plate"], ""};
+		{ 2, "PvP80ClothNonSet0_x2", "INV_Boots_Cloth_12", "=ds="..BabbleInventory["Cloth"], ""};
+		{ 3, "PvP80MailNonSet0_x2", "INV_Boots_Plate_06", "=ds="..BabbleInventory["Mail"], ""};
+		{ 4, "PvP80ClassItems1_x2", "Spell_Frost_SummonWaterElemental", "=ds="..BabbleInventory["Relic"], "" };
+		{ 17, "PvP80LeatherNonSet0_x2", "INV_Boots_08", "=ds="..BabbleInventory["Leather"], ""};
+		{ 18, "PvP80PlateNonSet0_x2", "INV_Boots_Plate_04", "=ds="..BabbleInventory["Plate"], ""};
 		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["LEVEL80PVPSETS"] = {
-		{ 2, "PvP80DeathKnight", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
-		{ 4, "PvP80DruidBalance", "Spell_Nature_InsectSwarm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
-		{ 5, "PvP80DruidFeral", "Ability_Druid_Maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
-		{ 6, "PvP80DruidRestoration", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
-		{ 8, "PvP80Hunter", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
-		{ 10, "PvP80Mage", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-		{ 12, "PvP80PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-		{ 13, "PvP80PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-		{ 17, "PvP80PriestHoly", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
-		{ 18, "PvP80PriestShadow", "Spell_Shadow_AntiShadow", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
-		{ 20, "PvP80Rogue", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-		{ 22, "PvP80ShamanElemental", "Spell_Nature_Lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
-		{ 23, "PvP80ShamanEnhancement", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
-		{ 24, "PvP80ShamanRestoration", "Spell_Nature_HealingWaveGreater", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
-		{ 26, "PvP80Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-		{ 28, "PvP80Warrior", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+		{ 2, "PvP80DeathKnight_x2", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+		{ 4, "PvP80DruidBalance_x2", "Spell_Nature_InsectSwarm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+		{ 5, "PvP80DruidFeral_x2", "Ability_Druid_Maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+		{ 6, "PvP80DruidRestoration_x2", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+		{ 8, "PvP80Hunter_x2", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+		{ 10, "PvP80Mage_x2", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+		{ 12, "PvP80PaladinHoly_x2", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+		{ 13, "PvP80PaladinRetribution_x2", "Spell_Holy_AuraOfLight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+		{ 17, "PvP80PriestHoly_x2", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+		{ 18, "PvP80PriestShadow_x2", "Spell_Shadow_AntiShadow", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+		{ 20, "PvP80Rogue_x2", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+		{ 22, "PvP80ShamanElemental_x2", "Spell_Nature_Lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+		{ 23, "PvP80ShamanEnhancement_x2", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+		{ 24, "PvP80ShamanRestoration_x2", "Spell_Nature_HealingWaveGreater", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+		{ 26, "PvP80Warlock_x2", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+		{ 28, "PvP80Warrior_x2", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
 		Back = "PVPMENU";
 	};
 
