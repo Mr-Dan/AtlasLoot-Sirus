@@ -1294,9 +1294,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 
-		------------------------------------------------
-		--- Coilfang Reservoir: Serpentshrine Cavern ---
-		------------------------------------------------
+		-------------------------------------------------------
+		--- Coilfang Reservoir: Serpentshrine Cavern HEROIC ---
+		-------------------------------------------------------
 
 	AtlasLoot_Data["CFRSerpentHydrossHEROIC"] = {
 		{ 1, 65019, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", "", "18%"};
@@ -1384,9 +1384,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 9, 65134, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", "", "18%"};
 		{ 11, 60226, "", "=q4=Dargonax's Signet", "=ds=#s13#", "", "21%"};
 		{ 12, 65106, "", "=q4=Ring of Rivalry", "=ds=#s13#", "", "19%"};
-		--{ 16, 65105, "", "=q4=Theralion's Mirror", "=ds=#s14#", "", "20%"};
-		{ 16, 65094, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", "", "20%"};
-		{ 17, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", "", "15%"};
+		{ 16, 65105, "", "=q4=Theralion's Mirror", "=ds=#s14#", "", "20%"};
+		{ 17, 65094, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", "", "20%"};
+		{ 18, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", "", "15%"};
 		{ 23, 30323, "", "=q4=Plans: Boots of the Protector", "=ds=#p2# (375)", "", "15%"};
 		Prev = "CFRSerpentKarathressHEROIC";
 		Next = "CFRSerpentVashjHEROIC";
