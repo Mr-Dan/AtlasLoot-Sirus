@@ -301,6 +301,40 @@ end
 	AtlasLoot_TableNames["UlduarPatterns"] = { AL["Ulduar Formula/Patterns/Plans"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UlduarTrash"] = { AL["Trash Mobs"].." ("..BabbleZone["Ulduar"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UlduarTrash25Man"] = { AL["Trash Mobs"].." ("..BabbleZone["Ulduar"]..")", "AtlasLootWotLK" };
+  -- Ulduar HEROIC
+  
+	AtlasLoot_TableNames["UlduarLeviathanHEROIC"] = { BabbleBoss["Flame Leviathan"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarLeviathan25ManHEROIC"] = { BabbleBoss["Flame Leviathan"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarIgnisHEROIC"] = { BabbleBoss["Ignis the Furnace Master"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarIgnis25ManHEROIC"] = { BabbleBoss["Ignis the Furnace Master"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarRazorscaleHEROIC"] = { BabbleBoss["Razorscale"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarRazorscale25ManHEROIC"] = { BabbleBoss["Razorscale"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarIronCouncilHEROIC"] = { BabbleBoss["The Iron Council"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarIronCouncil25ManHEROIC"] = { BabbleBoss["The Iron Council"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarDeconstructorHEROIC"] = { BabbleBoss["XT-002 Deconstructor"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarDeconstructor25ManHEROIC"] = { BabbleBoss["XT-002 Deconstructor"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarKologarnHEROIC"] = { BabbleBoss["Kologarn"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarKologarn25ManHEROIC"] = { BabbleBoss["Kologarn"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarAlgalonHEROIC"] = { BabbleBoss["Algalon the Observer"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarAlgalon25ManHEROIC"] = { BabbleBoss["Algalon the Observer"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarAuriayaHEROIC"] = { BabbleBoss["Auriaya"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarAuriaya25ManHEROIC"] = { BabbleBoss["Auriaya"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarHodirHEROIC"] = { BabbleBoss["Hodir"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarHodir25ManHEROIC"] = { BabbleBoss["Hodir"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarThorimHEROIC"] = { BabbleBoss["Thorim"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarThorim25ManHEROIC"] = { BabbleBoss["Thorim"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarFreyaHEROIC"] = { BabbleBoss["Freya"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarFreya25ManHEROIC"] = { BabbleBoss["Freya"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarMimironHEROIC"] = { BabbleBoss["Mimiron"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarMimiron25ManHEROIC"] = { BabbleBoss["Mimiron"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarVezaxHEROIC"] = { BabbleBoss["General Vezax"], "AtlasLootWotLK" };
+ 	AtlasLoot_TableNames["UlduarVezax25ManHEROIC"] = { BabbleBoss["General Vezax"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarYoggSaronHEROIC"] = { BabbleBoss["Yogg-Saron"], "AtlasLootWotLK" };
+ 	AtlasLoot_TableNames["UlduarYoggSaron25ManHEROIC"] = { BabbleBoss["Yogg-Saron"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarPatterns"] = { AL["Ulduar Formula/Patterns/Plans"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarTrashHEROIC"] = { AL["Trash Mobs"].." ("..BabbleZone["Ulduar"]..")", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarTrash25ManHEROIC"] = { AL["Trash Mobs"].." ("..BabbleZone["Ulduar"]..")", "AtlasLootWotLK" };
+	
   -- Trial of the Champion
 	AtlasLoot_TableNames["TrialoftheChampionChampions"] = { AL["Faction Champions"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheChampionConfessorPaletress"] = { BabbleBoss["Argent Confessor Paletress"], "AtlasLootWotLK" };
@@ -1597,8 +1631,8 @@ end
 	AtlasLoot_TableNames["LordKrimor"] = { AL["LordKrimor"], "AtlasLootSirus" };
 	
 	AtlasLoot_TableNames["MillenniumRoulette"] = { AL["MillenniumRoulette"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["MillenniumRoulettex2"] = { AL["MillenniumRoulettex2"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["MillenniumRoulettex1"] = { AL["MillenniumRoulettex1"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["MillenniumRoulettex_x2"] = { AL["MillenniumRoulettex_x2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["MillenniumRoulettex_x4"] = { AL["MillenniumRoulettex_x4"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["MillenniumRouletteStat"] = { AL["MillenniumRouletteStat"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["MillenniumRouletteStatSession"] = { AL["MillenniumRouletteStatSession"], "AtlasLootSirus" };
 	
@@ -1788,9 +1822,13 @@ end
   -- Shattered Sun Offensive
 	AtlasLoot_TableNames["SunOffensive1"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["SunOffensive2"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["SunOffensive3"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["SunOffensive3_x2"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["SunOffensive3_x4"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
+
 	AtlasLoot_TableNames["SunOffensive4"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["SunOffensive5"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["SunOffensive5_x2"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["SunOffensive5_x4"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
+
   -- Sporeggar
 	AtlasLoot_TableNames["Sporeggar1"] = { BabbleFaction["Sporeggar"], "AtlasLootBurningCrusade" };
   -- Thrallmar

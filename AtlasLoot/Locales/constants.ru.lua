@@ -92,8 +92,8 @@ if AL then
 	AL["Boss7"] = "F-Reaper 8000 TX";
 	AL["LordKrimor"] = "Лорд Кримор";
 	AL["MillenniumRoulette"] = "Рулетка Тысячелетия";
-	AL["MillenniumRoulettex2"] = "Рулетка Тысячелетия x2 сервер";
-	AL["MillenniumRoulettex1"] = "Рулетка Тысячелетия x3 сервер";
+	AL["MillenniumRoulettex_x2"] = "Рулетка Тысячелетия x2 сервер";
+	AL["MillenniumRoulettex_x4"] = "Рулетка Тысячелетия x4 сервер";
 	AL["MillenniumRouletteStat"] = "Рулетка Тысячелетия - Статистика";
 	AL["MillenniumRouletteStatSession"] = "Рулетка Тысячелетия - Статистика(Сессия)";
 	AL["UsedJulieGold"] = "Использовано: ";

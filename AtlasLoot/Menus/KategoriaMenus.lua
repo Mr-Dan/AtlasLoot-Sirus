@@ -20,7 +20,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, "SIRUSMOUNTMENU", "ability_mount_cranemountblue", "=ds="..AL["SIRUSMOUNT"], ""};
 		{ 15, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};
 		--{ 24, "LordKrimor", "Ability_Ambush", "=ds="..AL["LordKrimor"], ""};
-		{ 17, "MillenniumRoulettex2", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};
+		{ 17, "MillenniumRoulettex_x2", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};
 		{ 18, "BlackDiamonds", "inv_legendary_chimeraoffear", "=ds="..AL["BlackDiamonds"], ""};
 		{ 19, "BlackDiamonds2", "INV_Legendary_BreathofBlackPrince_AGI", "=ds="..AL["BlackDiamonds2"], ""};
 		{ 20, "TrinketChests_H", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
@@ -35,13 +35,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["KATEGORIAMENU_x4"] = {
 	
-		{ 17, "SIRUSMOUNTMENU", "ability_mount_cranemountblue", "=ds="..AL["SIRUSMOUNT"], ""};
-		{ 18, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};	
+		
 		{ 2, "TrinketChests_H", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
 		{ 3, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
 		{ 4, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
 		{ 5, "Lili", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
-		{ 6, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};
+		{ 6, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};		
+		{ 17, "SIRUSMOUNTMENU", "ability_mount_cranemountblue", "=ds="..AL["SIRUSMOUNT"], ""};
+		{ 18, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};	
+		{ 19, "MillenniumRoulettex_x4", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};
+
 		
 	};
 

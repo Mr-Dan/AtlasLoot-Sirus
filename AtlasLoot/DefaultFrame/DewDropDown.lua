@@ -271,7 +271,7 @@ AtlasLoot_DewDropDown = {
 		{ AL["World Events"], "WORLDEVENTMENU", "Table" },
 	},
 	[13] = {
-		{ AL["Kategoria"], "KATEGORIAMENU", "Table" },
+		{ AL["Kategoria"], "KATEGORIAMENU_x2", "Table" },
 	},
 };
 

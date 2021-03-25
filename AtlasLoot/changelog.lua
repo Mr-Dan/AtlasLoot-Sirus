@@ -10,7 +10,7 @@ AtlasLootVersionsList[7] = "26.05.20"
 AtlasLootVersionsList[8] = "16.11.20"
 AtlasLootVersionsList[9] = "24.12.20"
 AtlasLootVersionsList[10] = "25.01.21"
-
+AtlasLootVersionsList[11] = "25.03.21"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -134,12 +134,20 @@ text:SetText(WHITE..
 "- Добавлены новые маунты за Седло Ярости, а также новые PVP маунты .".."\n\n"..
 "- Теперь в зависимости от реалма будут меньяться данные. Добавленно для x4 и x2".."\n\n"
 )
+
+elseif x == 11 then
+text:SetText(WHITE..
+"- Добавлен т5.3 .".."\n\n"..
+"- Обновлен нужный рейтинг на PVP экипировку.".."\n\n"..
+"- Добавлен героический режим для Ульдуара .".."\n\n"..
+"- Обновлен шмот с острова для х4".."\n\n"
+)
 end
 end
 
-AtlasLootChangelogText(10)
+AtlasLootChangelogText(11)
 
-local chooseversion = "25.01.21"
+local chooseversion = "25.03.21"
 
 local dropDown = CreateFrame("FRAME", "ChangelogDropDown", AtlasLoot_ChangelogFrame, "UIDropDownMenuTemplate")
 dropDown:SetPoint("TOP", 10, -10)

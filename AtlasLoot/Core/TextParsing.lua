@@ -1111,6 +1111,10 @@ function AtlasLoot_FixText(text)
 	text = gsub(text, "#primalnether#", "|TInterface\\Icons\\Inv_elemental_primal_nether:0|t");
 	text = gsub(text, "#netherseal#", "|TInterface\\Icons\\ARCHAEOLOGY_5_0_THUNDERKINGINSIGNIA:15|t");
 	text = gsub(text, "#sealeternity#", "|TInterface\\Icons\\inv_jewelry_ring_60:0|t");
+	text = gsub(text, "#SealoftheTitans#", "|TInterface\\Icons\\inv_relics_warpring:0|t");
+	
+	
+
 	text = gsub(text, "#ragesaddle#", "|TInterface\\Icons\\achievement_bg_kill_on_mount:0|t");
     text = gsub(text, "#elementalnether#", "|TInterface\\Icons\\Inv_elemental_mote_nether:0|t");--Воронка пустоты
 
