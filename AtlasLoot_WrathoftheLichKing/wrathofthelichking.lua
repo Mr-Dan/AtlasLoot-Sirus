@@ -4854,7 +4854,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 22, 45536, "", "=q4=Legguards of Cunning Deception", "=ds=#s11#, #a2#", "", "1%"};
 		{ 23, 45534, "", "=q4=Seal of the Betrayed King", "=ds=#s13#"};
 		{ 24, 45535, "", "=q4=Show of Faith", "=ds=#s14#"};
-		{ 25, 45533, "", "=q4=Dark Edge of Depravity", "=ds=#h2#, #w1#", "", "1%"};
+		{ 25, 45533, "", "=q4=Dark Edge of Depravity", "=ds=#h2#, #w7#", "", "1%"};
 		{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
 		{ 28, 45693, "", "=q4=Mimiron's Head", "=ds=#e12#", "", "100%"};
 		Prev = "UlduarVezax25Man";
@@ -5631,7 +5631,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 18, 151358, "", "=q4=Legguards of Cunning Deception", "=ds=#s11#, #a2#", "", "1%"};
 		{ 19, 151377, "", "=q4=Seal of the Betrayed King", "=ds=#s13#"};
 		{ 20, 151379, "", "=q4=Show of Faith", "=ds=#s14#"};
-		{ 21, 151390, "", "=q4=Dark Edge of Depravity", "=ds=#h2#, #w1#", "", "1%"};
+		{ 21, 151390, "", "=q4=Dark Edge of Depravity", "=ds=#h2#, #w7#", "", "1%"};
 		{ 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
 		{ 24, 45693, "", "=q4=Mimiron's Head", "=ds=#e12#", "", "100%"};
 		
