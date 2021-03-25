@@ -4989,7 +4989,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 21, 151414, "", "=q4=Twirling Blades", "=ds=#w11#", "", "0.36%"};
 		
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Next = "UlduarRazorscale";
 	};
 
@@ -5020,7 +5020,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 24, 151396, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#", "", "0.11%"};
 		
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Next = "UlduarRazorscale25Man";
 	};
 
@@ -5059,7 +5059,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 17, 151330, "", "=q4=Guiding Star", "=ds=#h3#, #w6#", "", "19%"};
 		{ 18, 151335, "", "=q4=Veranus' Bane", "=ds=#w5#", "", "18%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarLeviathan25Man";
 		Next = "UlduarIgnis25Man";
 	};
@@ -5099,7 +5099,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 17, 151326, "", "=q4=Intensity", "=ds=#w9#", "", "20%"};
 		{ 18, 151337, "", "=q4=Scepter of Creation", "=ds=#w12#", "", "21%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarRazorscale25Man";
 		Next = "UlduarDeconstructor25Man";
 	};
@@ -5151,7 +5151,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 22, 151345, "", "=q4=Charm of Meticulous Timing", "=ds=#s2#", "", "0.15%"};
 		{ 23, 151381, "", "=q4=Sorthalis, Hammer of the Watchers", "=ds=#h1#, #w6#", "", "0.28%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarIgnis25Man";
 		Next = "UlduarIronCouncil25Man";
 	};
@@ -5175,7 +5175,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 21, 151448, "", "=q4=Perilous Bite", "=ds=#h1#, #w4#", "", "17%"};
 		{ 22, 45506, "", "=q4=Archivum Data Disc", "=ds=#m2#", "", "91%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarDeconstructor";
 		Next = "UlduarKologarn";
 	};
@@ -5208,7 +5208,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 26, 151382, "", "=q4=Fang of Oblivion", "=ds=#h1#, #w4#", "", "18%"};
 		{ 27, 45857, "", "=q4=Archivum Data Disc", "=ds=#m2#", "", "94%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarDeconstructor25Man";
 		Next = "UlduarKologarn25Man";
 	};
@@ -5248,8 +5248,8 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 16, 151319, "", "=q4=Malice", "=ds=#h1#, #w10#", "", "18%"};
 		{ 17, 151336, "", "=q4=Giant's Bane", "=ds=#w5#", "", "16%"};
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 29, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 29, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarIronCouncil25Man";
 		Next = "UlduarAlgalon25Man";
 	};
@@ -5342,7 +5342,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 17, 151321, "", "=q4=Siren's Cry", "=ds=#w2#", "", "20%"};
 		{ 27, 155483, "", "=q4=Черный механический лев", "=ds=#e12#", ""};	
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarAlgalon25Man";
 		Next = "UlduarHodir25Man";
 	};
@@ -5365,7 +5365,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 21, 151493, "", "=q4=The Boreal Guard", "=ds=#w8#", "", "17%"};
 		{ 23, 45786, "", "=q1=Hodir's Sigil", "=ds=#m3#", "", "23%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarAuriaya";
 		Next = "UlduarThorim";
 	};
@@ -5394,7 +5394,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarAuriaya25Man";
 		Next = "UlduarThorim25Man";
 	};
@@ -5418,7 +5418,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 23, 45784, "", "=q1=Thorim's Sigil", "=ds=#m3#", "", "5%"};
 		
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarHodir";
 		Next = "UlduarFreya";
 	};
@@ -5447,7 +5447,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarHodir25Man";
 		Next = "UlduarFreya25Man";
 	};
@@ -5473,7 +5473,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 46110, "", "=q3=Alchemist's Cache", "=ds=#p1# (425)", "", "66%"};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarThorim";
 		Next = "UlduarMimiron";
 	};
@@ -5503,7 +5503,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 27, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 28, 46110, "", "=q3=Alchemist's Cache", "=ds=#p1# (425)", "", "66%"};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarThorim25Man";
 		Next = "UlduarMimiron25Man";
 	};
@@ -5527,7 +5527,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 23, 45787, "", "=q1=Mimiron's Sigil", "=ds=#m3#", "", "2%"};
 		{ 26, 93025, "", "=q3=Мут'туз", "=ds=#e13#", "", ""};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarFreya";
 		Next = "UlduarVezax";
 	};
@@ -5558,7 +5558,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarFreya25Man";
 		Next = "UlduarVezax25Man";
 	};
@@ -5612,7 +5612,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 23, 151391, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
 		
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarMimiron25Man";
 		Next = "UlduarYoggSaron25Man";
 	};
@@ -5641,7 +5641,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
 		{ 24, 151571, "", "=q4=Vanquished Clutches of Yogg-Saron", "=ds=#s14#", "", "100%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarVezax";
 		Next = "UlduarTrash";
 	};
@@ -5675,7 +5675,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarVezax25Man";
 		Next = "UlduarTrash25Man";
 	};
