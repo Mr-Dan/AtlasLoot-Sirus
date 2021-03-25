@@ -5254,7 +5254,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 10, 151654, "", "=q4=Cataclysm Shoulderpads", "=ds=#SealoftheTitans#"};
 		{ 11, 151650, "", "=q4=Cataclysm Chestpiece", "=ds=#SealoftheTitans#"};
 		{ 12, 151651, "", "=q4=Cataclysm Handgrips", "=ds=#SealoftheTitans#"};
-		{ 13, 151648, "", "=q4=Cataclysm Legguards", "=ds=#SealoftheTitans#"};
+		{ 13, 151653, "", "=q4=Cataclysm Legguards", "=ds=#SealoftheTitans#"};
 		
 		{ 16, 0, "Spell_Nature_Lightning", "=q6=#t5s7_3#", "=ec1=#m22#"};
 		{ 17, 103458, "", "=q4=Cataclysm Headpiece", "=ds=#sealeternity#"};
