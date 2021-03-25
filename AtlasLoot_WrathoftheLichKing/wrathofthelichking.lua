@@ -4299,7 +4299,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 19, 45295, "", "=q4=Gilded Steel Legplates", "=ds=#s11#, #a4#", "", "0.25%"};
 		{ 20, 45297, "", "=q4=Shimmering Seal", "=ds=#s13#", "", "0.11%"};
 		{ 21, 45296, "", "=q4=Twirling Blades", "=ds=#w11#", "", "0.36%"};
-		Next = "UlduarRazorscale";
+		Next = "UlduarIgnis";
 	};
 
 	AtlasLoot_Data["UlduarLeviathan25Man"] = {
@@ -4326,45 +4326,10 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 23, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
 		{ 24, 45133, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#"};
 		{ 25, 45132, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#", "", "0.11%"};
-		Next = "UlduarRazorscale25Man";
-	};
-
-	AtlasLoot_Data["UlduarRazorscale"] = {
-		{ 1, 45306, "", "=q4=Binding of the Dragon Matriarch", "=ds=#s10#, #a1#", "", "20%"};
-		{ 2, 45302, "", "=q4=Treads of the Invader", "=ds=#s12#, #a2#", "", "19%"};
-		{ 3, 45301, "", "=q4=Bracers of the Smothering Inferno", "=ds=#s8#, #a3#", "", "20%"};
-		{ 4, 45307, "", "=q4=Ironscale Leggings", "=ds=#s11#, #a3#", "", "20%"};
-		{ 5, 45299, "", "=q4=Dragonsteel Faceplate", "=ds=#s1#, #a4#", "", "19%"};
-		{ 6, 45305, "", "=q4=Breastplate of the Afterlife", "=ds=#s5#, #a4#", "", "19%"};
-		{ 7, 45304, "", "=q4=Stormtempered Girdle", "=ds=#s10#, #a4#", "", "19%"};
-		{ 8, 45303, "", "=q4=Band of Draconic Guile", "=ds=#s13#", "", "20%"};
-		{ 9, 45308, "", "=q4=Eye of the Broodmother", "=ds=#s14#", "", "21%"};
-		{ 10, 45298, "", "=q4=Razorscale Talon", "=ds=#h1#, #w10#", "", "20%"};
-		Prev = "UlduarLeviathan";
-		Next = "UlduarIgnis";
-	};
-
-	AtlasLoot_Data["UlduarRazorscale25Man"] = {
-		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-		{ 4, 45138, "", "=q4=Drape of the Drakerider", "=ds=#s4#", "", "20%"};
-		{ 5, 45150, "", "=q4=Collar of the Wyrmhunter", "=ds=#s1#, #a1#", "", "20%"};
-		{ 6, 45146, "", "=q4=Shackles of the Odalisque", "=ds=#s8#, #a1#", "", "20%"};
-		{ 7, 45149, "", "=q4=Bracers of the Broodmother", "=ds=#s8#, #a2#", "", "21%"};
-		{ 8, 45141, "", "=q4=Proto-hide Leggings", "=ds=#s11#, #a2#", "", "19%"};
-		{ 9, 45151, "", "=q4=Belt of the Fallen Wyrm", "=ds=#s10#, #a3#", "", "19%"};
-		{ 10, 45143, "", "=q4=Saronite Mesh Legguards", "=ds=#s11#, #a3#", "", "20%"};
-		{ 11, 45140, "", "=q4=Razorscale Shoulderguards", "=ds=#s3#, #a4#", "", "19%"};
-		{ 12, 45139, "", "=q4=Dragonslayer's Brace", "=ds=#s10#, #a4#", "", "19%"};
-		{ 13, 45148, "", "=q4=Living Flame", "=ds=#s14#", "", "19%"};
-		{ 14, 45510, "", "=q4=Libram of Discord", "=ds=#s16#, #w16#", "", "19%"};
-		{ 15, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#, #w21#", "", "19%"};
-		{ 16, 45142, "", "=q4=Remorse", "=ds=#h1#, #w10#", "", "19%"};
-		{ 17, 45147, "", "=q4=Guiding Star", "=ds=#h3#, #w6#", "", "19%"};
-		{ 18, 45137, "", "=q4=Veranus' Bane", "=ds=#w5#", "", "18%"};
-		Prev = "UlduarLeviathan25Man";
 		Next = "UlduarIgnis25Man";
 	};
+
+	
 
 	AtlasLoot_Data["UlduarIgnis"] = {
 		{ 1, 45317, "", "=q4=Shawl of the Caretaker", "=ds=#s4#", "", "20%"};
@@ -4377,8 +4342,8 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 8, 45314, "", "=q4=Igniter Rod", "=ds=#s15#", "", "19%"};
 		{ 9, 45311, "", "=q4=Relentless Edge", "=ds=#w7#", "", "20%"};
 		{ 10, 45309, "", "=q4=Rifle of the Platinum Guard", "=ds=#w5#", "", "19%"};
-		Prev = "UlduarRazorscale";
-		Next = "UlduarDeconstructor";
+		Prev = "UlduarLeviathan";
+		Next = "UlduarRazorscale";
 	};
 
 	AtlasLoot_Data["UlduarIgnis25Man"] = {
@@ -4399,7 +4364,45 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 16, 45165, "", "=q4=Worldcarver", "=ds=#h2#, #w1#", "", "19%"};
 		{ 17, 45171, "", "=q4=Intensity", "=ds=#w9#", "", "20%"};
 		{ 18, 45170, "", "=q4=Scepter of Creation", "=ds=#w12#", "", "21%"};
-		Prev = "UlduarRazorscale25Man";
+		Prev = "UlduarLeviathan25Man";
+		Next = "UlduarRazorscale25Man";
+	};
+	
+	
+	AtlasLoot_Data["UlduarRazorscale"] = {
+		{ 1, 45306, "", "=q4=Binding of the Dragon Matriarch", "=ds=#s10#, #a1#", "", "20%"};
+		{ 2, 45302, "", "=q4=Treads of the Invader", "=ds=#s12#, #a2#", "", "19%"};
+		{ 3, 45301, "", "=q4=Bracers of the Smothering Inferno", "=ds=#s8#, #a3#", "", "20%"};
+		{ 4, 45307, "", "=q4=Ironscale Leggings", "=ds=#s11#, #a3#", "", "20%"};
+		{ 5, 45299, "", "=q4=Dragonsteel Faceplate", "=ds=#s1#, #a4#", "", "19%"};
+		{ 6, 45305, "", "=q4=Breastplate of the Afterlife", "=ds=#s5#, #a4#", "", "19%"};
+		{ 7, 45304, "", "=q4=Stormtempered Girdle", "=ds=#s10#, #a4#", "", "19%"};
+		{ 8, 45303, "", "=q4=Band of Draconic Guile", "=ds=#s13#", "", "20%"};
+		{ 9, 45308, "", "=q4=Eye of the Broodmother", "=ds=#s14#", "", "21%"};
+		{ 10, 45298, "", "=q4=Razorscale Talon", "=ds=#h1#, #w10#", "", "20%"};
+		Prev = "UlduarIgnis";
+		Next = "UlduarDeconstructor";
+	};
+
+	AtlasLoot_Data["UlduarRazorscale25Man"] = {
+		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
+		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		{ 4, 45138, "", "=q4=Drape of the Drakerider", "=ds=#s4#", "", "20%"};
+		{ 5, 45150, "", "=q4=Collar of the Wyrmhunter", "=ds=#s1#, #a1#", "", "20%"};
+		{ 6, 45146, "", "=q4=Shackles of the Odalisque", "=ds=#s8#, #a1#", "", "20%"};
+		{ 7, 45149, "", "=q4=Bracers of the Broodmother", "=ds=#s8#, #a2#", "", "21%"};
+		{ 8, 45141, "", "=q4=Proto-hide Leggings", "=ds=#s11#, #a2#", "", "19%"};
+		{ 9, 45151, "", "=q4=Belt of the Fallen Wyrm", "=ds=#s10#, #a3#", "", "19%"};
+		{ 10, 45143, "", "=q4=Saronite Mesh Legguards", "=ds=#s11#, #a3#", "", "20%"};
+		{ 11, 45140, "", "=q4=Razorscale Shoulderguards", "=ds=#s3#, #a4#", "", "19%"};
+		{ 12, 45139, "", "=q4=Dragonslayer's Brace", "=ds=#s10#, #a4#", "", "19%"};
+		{ 13, 45148, "", "=q4=Living Flame", "=ds=#s14#", "", "19%"};
+		{ 14, 45510, "", "=q4=Libram of Discord", "=ds=#s16#, #w16#", "", "19%"};
+		{ 15, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#, #w21#", "", "19%"};
+		{ 16, 45142, "", "=q4=Remorse", "=ds=#h1#, #w10#", "", "19%"};
+		{ 17, 45147, "", "=q4=Guiding Star", "=ds=#h3#, #w6#", "", "19%"};
+		{ 18, 45137, "", "=q4=Veranus' Bane", "=ds=#w5#", "", "18%"};
+		Prev = "UlduarIgnis25Man";
 		Next = "UlduarDeconstructor25Man";
 	};
 
@@ -4420,7 +4423,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 19, 45871, "", "=q4=Seal of Ulduar", "=ds=#s13#", "", "2%"};
 		{ 20, 45868, "", "=q4=Aesir's Edge", "=ds=#h2#, #w10#", "", "2%"};
 		{ 21, 45870, "", "=q4=Magnetized Projectile Emitter", "=ds=#w5#", "", "3%"};
-		Prev = "UlduarIgnis";
+		Prev = "UlduarRazorscale";
 		Next = "UlduarIronCouncil";
 	};
 
@@ -4448,7 +4451,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 23, 45445, "", "=q4=Breastplate of the Devoted", "=ds=#s5#, #a4#", "", "0.16%"};
 		{ 24, 45443, "", "=q4=Charm of Meticulous Timing", "=ds=#s2#", "", "0.15%"};
 		{ 25, 45442, "", "=q4=Sorthalis, Hammer of the Watchers", "=ds=#h1#, #w6#", "", "0.28%"};
-		Prev = "UlduarIgnis25Man";
+		Prev = "UlduarRazorscale25Man";
 		Next = "UlduarIronCouncil25Man";
 	};
 
@@ -4516,7 +4519,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 9, 45700, "", "=q4=Stoneguard", "=ds=#h1#, #w10#", "", "19%"};
 		{ 10, 45695, "", "=q4=Spire of Withering Dreams", "=ds=#w9#", "", "21%"};
 		Prev = "UlduarIronCouncil";
-		Next = "UlduarAlgalon";
+		Next = "UlduarAuriaya";
 	};
 
 	AtlasLoot_Data["UlduarKologarn25Man"] = {
@@ -4538,59 +4541,10 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 17, 45266, "", "=q4=Malice", "=ds=#h1#, #w10#", "", "18%"};
 		{ 18, 45261, "", "=q4=Giant's Bane", "=ds=#w5#", "", "16%"};
 		Prev = "UlduarIronCouncil25Man";
-		Next = "UlduarAlgalon25Man";
-	};
-
-	AtlasLoot_Data["UlduarAlgalon"] = {
-		{ 1, 46042, "", "=q4=Drape of the Messenger", "=ds=#s4#"};
-		{ 2, 46045, "", "=q4=Pulsar Gloves", "=ds=#s9#, #a1#", "", "40%"};
-		{ 3, 46050, "", "=q4=Starlight Treads", "=ds=#s12#, #a1#"};
-		{ 4, 46043, "", "=q4=Gloves of the Endless Dark", "=ds=#s9#, #a2#"};
-		{ 5, 46049, "", "=q4=Zodiac Leggings", "=ds=#s11#, #a2#"};
-		{ 6, 46044, "", "=q4=Observer's Mantle", "=ds=#s3#, #a3#"};
-		{ 7, 46037, "", "=q4=Shoulderplates of the Celestial Watch", "=ds=#s3#, #a4#"};
-		{ 8, 46039, "", "=q4=Breastplate of the Timeless", "=ds=#s5#, #a4#"};
-		{ 9, 46041, "", "=q4=Starfall Girdle", "=ds=#s10#, #a4#"};
-		{ 10, 46047, "", "=q4=Pendant of the Somber Witness", "=ds=#s2#"};
-		{ 11, 46040, "", "=q4=Strength of the Heavens", "=ds=#s2#", "", "40%"};
-		{ 12, 46048, "", "=q4=Band of Lights", "=ds=#s13#"};
-		{ 13, 46046, "", "=q4=Nebula Band", "=ds=#s13#"};
-		{ 14, 46038, "", "=q4=Dark Matter", "=ds=#s14#"};
-		{ 15, 46051, "", "=q4=Meteorite Crystal", "=ds=#s14#", "", "40%"};
-		{ 16, 46052, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
-		{ 17, 46320, "", "=q4=Drape of the Skyherald", "=q1=#m4#: =ds=#s4#"};
-		{ 18, 46321, "", "=q4=Sunglimmer Drape", "=q1=#m4#: =ds=#s4#"};
-		{ 19, 46322, "", "=q4=Brann's Sealing Ring", "=q1=#m4#: =ds=#s13#"};
-		{ 20, 46323, "", "=q4=Starshine Signet", "=q1=#m4#: =ds=#s13#"};
-		Prev = "UlduarKologarn";
-		Next = "UlduarAuriaya";
-	};
-
-	AtlasLoot_Data["UlduarAlgalon25Man"] = {
-		{ 1, 45665, "", "=q4=Pharos Gloves", "=ds=#s9#, #a1#", "", "40%"};
-		{ 2, 45619, "", "=q4=Starwatcher's Binding", "=ds=#s10#, #a1#", "", ""};
-		{ 3, 45611, "", "=q4=Solar Bindings", "=ds=#s8#, #a2#", "", "40%"};
-		{ 4, 45616, "", "=q4=Star-beaded Clutch", "=ds=#s10#, #a2#"};
-		{ 5, 45610, "", "=q4=Boundless Gaze", "=ds=#s1#, #a3#"};
-		{ 6, 45615, "", "=q4=Planewalker Treads", "=ds=#s12#, #a3#"};
-		{ 7, 45594, "", "=q4=Legplates of the Endless Void", "=ds=#s11#, #a4#", "", "20%"};
-		{ 8, 45599, "", "=q4=Sabatons of Lifeless Night", "=ds=#s12#, #a4#"};
-		{ 9, 45617, "", "=q4=Cosmos", "=ds=#s15#"};
-		{ 10, 45620, "", "=q4=Starshard Edge", "=ds=#h3#, #w4#"};
-		{ 11, 45607, "", "=q4=Fang of Oblivion", "=ds=#h1#, #w4#", "", "18%"};
-		{ 12, 45612, "", "=q4=Constellus", "=ds=#h3#, #w6#", "", "11%"};
-		{ 13, 45613, "", "=q4=Dreambinder", "=ds=#w9#", "", "1%"};
-		{ 14, 45587, "", "=q4=Bulwark of Algalon", "=ds=#w8#"};
-		{ 15, 45570, "", "=q4=Skyforge Crossbow", "=ds=#w3#", "", "1%"};
-		{ 16, 45609, "", "=q4=Comet's Trail", "=ds=#s14#"};
-		{ 18, 46053, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
-		{ 19, 45588, "", "=q4=Drape of the Skyborn", "=q1=#m4#: =ds=#s4#"};
-		{ 20, 45618, "", "=q4=Sunglimmer Cloak", "=q1=#m4#: =ds=#s4#"};
-		{ 21, 45608, "", "=q4=Brann's Signet Ring", "=q1=#m4#: =ds=#s13#"};
-		{ 22, 45614, "", "=q4=Starshine Circle", "=q1=#m4#: =ds=#s13#"};
-		Prev = "UlduarKologarn25Man";
 		Next = "UlduarAuriaya25Man";
 	};
+
+	
 
 	AtlasLoot_Data["UlduarAuriaya"] = {
 		{ 1, 45832, "", "=q4=Mantle of the Preserver", "=ds=#s3#, #a1#", "", "19%"};
@@ -4603,7 +4557,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 8, 45866, "", "=q4=Elemental Focus Stone", "=ds=#s14#", "", "19%"};
 		{ 9, 45707, "", "=q4=Shieldwall of the Breaker", "=ds=#w8#", "", "19%"};
 		{ 10, 45713, "", "=q4=Nurturing Touch", "=ds=#w12#", "", "21%"};
-		Prev = "UlduarAlgalon";
+		Prev = "UlduarKologarn";
 		Next = "UlduarHodir";
 	};
 
@@ -4625,7 +4579,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 16, 45437, "", "=q4=Runescribed Blade", "=ds=#h3#, #w10#", "", "20%"};
 		{ 17, 45315, "", "=q4=Stonerender", "=ds=#h1#, #w6#", "", "19%"};
 		{ 18, 45327, "", "=q4=Siren's Cry", "=ds=#w2#", "", "20%"};
-		Prev = "UlduarAlgalon25Man";
+		Prev = "UlduarKologarn25Man";
 		Next = "UlduarHodir25Man";
 	};
 
@@ -4876,7 +4830,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
 		{ 24, 46312, "", "=q4=Vanquished Clutches of Yogg-Saron", "=ds=#s14#", "", "100%"};
 		Prev = "UlduarVezax";
-		Next = "UlduarTrash";
+		Next = "UlduarAlgalon";
 	};
 
 	AtlasLoot_Data["UlduarYoggSaron25Man"] = {
@@ -4904,6 +4858,57 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
 		{ 28, 45693, "", "=q4=Mimiron's Head", "=ds=#e12#", "", "100%"};
 		Prev = "UlduarVezax25Man";
+		Next = "UlduarAlgalon25Man";
+	};
+	
+	AtlasLoot_Data["UlduarAlgalon"] = {
+		{ 1, 46042, "", "=q4=Drape of the Messenger", "=ds=#s4#"};
+		{ 2, 46045, "", "=q4=Pulsar Gloves", "=ds=#s9#, #a1#", "", "40%"};
+		{ 3, 46050, "", "=q4=Starlight Treads", "=ds=#s12#, #a1#"};
+		{ 4, 46043, "", "=q4=Gloves of the Endless Dark", "=ds=#s9#, #a2#"};
+		{ 5, 46049, "", "=q4=Zodiac Leggings", "=ds=#s11#, #a2#"};
+		{ 6, 46044, "", "=q4=Observer's Mantle", "=ds=#s3#, #a3#"};
+		{ 7, 46037, "", "=q4=Shoulderplates of the Celestial Watch", "=ds=#s3#, #a4#"};
+		{ 8, 46039, "", "=q4=Breastplate of the Timeless", "=ds=#s5#, #a4#"};
+		{ 9, 46041, "", "=q4=Starfall Girdle", "=ds=#s10#, #a4#"};
+		{ 10, 46047, "", "=q4=Pendant of the Somber Witness", "=ds=#s2#"};
+		{ 11, 46040, "", "=q4=Strength of the Heavens", "=ds=#s2#", "", "40%"};
+		{ 12, 46048, "", "=q4=Band of Lights", "=ds=#s13#"};
+		{ 13, 46046, "", "=q4=Nebula Band", "=ds=#s13#"};
+		{ 14, 46038, "", "=q4=Dark Matter", "=ds=#s14#"};
+		{ 15, 46051, "", "=q4=Meteorite Crystal", "=ds=#s14#", "", "40%"};
+		{ 16, 46052, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
+		{ 17, 46320, "", "=q4=Drape of the Skyherald", "=q1=#m4#: =ds=#s4#"};
+		{ 18, 46321, "", "=q4=Sunglimmer Drape", "=q1=#m4#: =ds=#s4#"};
+		{ 19, 46322, "", "=q4=Brann's Sealing Ring", "=q1=#m4#: =ds=#s13#"};
+		{ 20, 46323, "", "=q4=Starshine Signet", "=q1=#m4#: =ds=#s13#"};
+		Prev = "UlduarYoggSaron";
+		Next = "UlduarTrash";
+	};
+
+	AtlasLoot_Data["UlduarAlgalon25Man"] = {
+		{ 1, 45665, "", "=q4=Pharos Gloves", "=ds=#s9#, #a1#", "", "40%"};
+		{ 2, 45619, "", "=q4=Starwatcher's Binding", "=ds=#s10#, #a1#", "", ""};
+		{ 3, 45611, "", "=q4=Solar Bindings", "=ds=#s8#, #a2#", "", "40%"};
+		{ 4, 45616, "", "=q4=Star-beaded Clutch", "=ds=#s10#, #a2#"};
+		{ 5, 45610, "", "=q4=Boundless Gaze", "=ds=#s1#, #a3#"};
+		{ 6, 45615, "", "=q4=Planewalker Treads", "=ds=#s12#, #a3#"};
+		{ 7, 45594, "", "=q4=Legplates of the Endless Void", "=ds=#s11#, #a4#", "", "20%"};
+		{ 8, 45599, "", "=q4=Sabatons of Lifeless Night", "=ds=#s12#, #a4#"};
+		{ 9, 45617, "", "=q4=Cosmos", "=ds=#s15#"};
+		{ 10, 45620, "", "=q4=Starshard Edge", "=ds=#h3#, #w4#"};
+		{ 11, 45607, "", "=q4=Fang of Oblivion", "=ds=#h1#, #w4#", "", "18%"};
+		{ 12, 45612, "", "=q4=Constellus", "=ds=#h3#, #w6#", "", "11%"};
+		{ 13, 45613, "", "=q4=Dreambinder", "=ds=#w9#", "", "1%"};
+		{ 14, 45587, "", "=q4=Bulwark of Algalon", "=ds=#w8#"};
+		{ 15, 45570, "", "=q4=Skyforge Crossbow", "=ds=#w3#", "", "1%"};
+		{ 16, 45609, "", "=q4=Comet's Trail", "=ds=#s14#"};
+		{ 18, 46053, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
+		{ 19, 45588, "", "=q4=Drape of the Skyborn", "=q1=#m4#: =ds=#s4#"};
+		{ 20, 45618, "", "=q4=Sunglimmer Cloak", "=q1=#m4#: =ds=#s4#"};
+		{ 21, 45608, "", "=q4=Brann's Signet Ring", "=q1=#m4#: =ds=#s13#"};
+		{ 22, 45614, "", "=q4=Starshine Circle", "=q1=#m4#: =ds=#s13#"};
+		Prev = "UlduarYoggSaron25Man";
 		Next = "UlduarTrash25Man";
 	};
 
@@ -4919,7 +4924,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 9, 46351, "", "=q4=Bloodcrush Cudgel", "=ds=#h1# #w6#", "", "2%"};
 		{ 10, 46350, "", "=q4=Pillar of Fortitude", "=ds=#w9#", "", "2%"};
 		{ 11, 46342, "", "=q4=Golemheart Longbow", "=ds=#w2#", "", "2%"};
-		Prev = "UlduarYoggSaron";
+		Prev = "UlduarAlgalon";
 		Next = "UlduarPatterns";
 	};
 
@@ -4936,7 +4941,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 10, 45538, "", "=q4=Titanstone Pendant", "=ds=#s2#", "", "3%"};
 		{ 11, 46138, "", "=q4=Idol of the Flourishing Life", "=ds=#s16#, #w14#", "", "6%"};
 		{ 12, 45605, "", "=q4=Daschal's Bite", "=ds=#h1# #w4#", "", "2%"};
-		Prev = "UlduarYoggSaron25Man";
+		Prev = "UlduarAlgalon25Man";
 		Next = "UlduarPatterns";
 	};
 
@@ -4990,7 +4995,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
-		Next = "UlduarRazorscale";
+		Next = "UlduarIgnis";
 	};
 
 	AtlasLoot_Data["UlduarLeviathan25ManHEROIC"] = {
@@ -5021,48 +5026,10 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
-		Next = "UlduarRazorscale25Man";
-	};
-
-	AtlasLoot_Data["UlduarRazorscaleHEROIC"] = {
-		{ 1, 151424, "", "=q4=Binding of the Dragon Matriarch", "=ds=#s10#, #a1#", "", "20%"};
-		{ 2, 151420, "", "=q4=Treads of the Invader", "=ds=#s12#, #a2#", "", "19%"};
-		{ 3, 151419, "", "=q4=Bracers of the Smothering Inferno", "=ds=#s8#, #a3#", "", "20%"};
-		{ 4, 151425, "", "=q4=Ironscale Leggings", "=ds=#s11#, #a3#", "", "20%"};
-		{ 5, 151417, "", "=q4=Dragonsteel Faceplate", "=ds=#s1#, #a4#", "", "19%"};
-		{ 6, 151423, "", "=q4=Breastplate of the Afterlife", "=ds=#s5#, #a4#", "", "19%"};
-		{ 7, 151422, "", "=q4=Stormtempered Girdle", "=ds=#s10#, #a4#", "", "19%"};
-		{ 8, 151421, "", "=q4=Band of Draconic Guile", "=ds=#s13#", "", "20%"};
-		{ 9, 151426, "", "=q4=Eye of the Broodmother", "=ds=#s14#", "", "21%"};
-		{ 10, 151416, "", "=q4=Razorscale Talon", "=ds=#h1#, #w10#", "", "20%"};
-		Prev = "UlduarLeviathan";
-		Next = "UlduarIgnis";
-	};
-
-	AtlasLoot_Data["UlduarRazorscale25ManHEROIC"] = {
-		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
-		{ 4, 151305, "", "=q4=Drape of the Drakerider", "=ds=#s4#", "", "20%"};
-		{ 5, 151200, "", "=q4=Collar of the Wyrmhunter", "=ds=#s1#, #a1#", "", "20%"};
-		{ 6, 151262, "", "=q4=Shackles of the Odalisque", "=ds=#s8#, #a1#", "", "20%"};
-		{ 7, 151265, "", "=q4=Bracers of the Broodmother", "=ds=#s8#, #a2#", "", "21%"};
-		{ 8, 151243, "", "=q4=Proto-hide Leggings", "=ds=#s11#, #a2#", "", "19%"};
-		{ 9, 151236, "", "=q4=Belt of the Fallen Wyrm", "=ds=#s10#, #a3#", "", "19%"};
-		{ 10, 151245, "", "=q4=Saronite Mesh Legguards", "=ds=#s11#, #a3#", "", "20%"};
-		{ 11, 151222, "", "=q4=Razorscale Shoulderguards", "=ds=#s3#, #a4#", "", "19%"};
-		{ 12, 151238, "", "=q4=Dragonslayer's Brace", "=ds=#s10#, #a4#", "", "19%"};
-		{ 13, 151297, "", "=q4=Living Flame", "=ds=#s14#", "", "19%"};
-		--{ 11, 45510, "", "=q4=Libram of Discord", "=ds=#s16#, #w16#", "", "19%"};
-		--{ 12, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#, #w21#", "", "19%"};
-		{ 16, 151318, "", "=q4=Remorse", "=ds=#h1#, #w10#", "", "19%"};
-		{ 17, 151330, "", "=q4=Guiding Star", "=ds=#h3#, #w6#", "", "19%"};
-		{ 18, 151335, "", "=q4=Veranus' Bane", "=ds=#w5#", "", "18%"};
-		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
-		Prev = "UlduarLeviathan25Man";
 		Next = "UlduarIgnis25Man";
 	};
+
+	
 
 	AtlasLoot_Data["UlduarIgnisHEROIC"] = {
 		{ 1, 151434, "", "=q4=Shawl of the Caretaker", "=ds=#s4#", "", "20%"};
@@ -5075,8 +5042,8 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 8, 151432, "", "=q4=Igniter Rod", "=ds=#s15#", "", "19%"};
 		{ 9, 151429, "", "=q4=Relentless Edge", "=ds=#w7#", "", "20%"};
 		{ 10, 151427, "", "=q4=Rifle of the Platinum Guard", "=ds=#w5#", "", "19%"};
-		Prev = "UlduarRazorscale";
-		Next = "UlduarDeconstructor";
+		Prev = "UlduarLeviathan";
+		Next = "UlduarRazorscale";
 	};
 
 	AtlasLoot_Data["UlduarIgnis25ManHEROIC"] = {
@@ -5100,9 +5067,51 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 18, 151337, "", "=q4=Scepter of Creation", "=ds=#w12#", "", "21%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
-		Prev = "UlduarRazorscale25Man";
+		Prev = "UlduarLeviathan25Man";
+		Next = "UlduarRazorscale25Man";
+	};
+	
+	AtlasLoot_Data["UlduarRazorscaleHEROIC"] = {
+		{ 1, 151424, "", "=q4=Binding of the Dragon Matriarch", "=ds=#s10#, #a1#", "", "20%"};
+		{ 2, 151420, "", "=q4=Treads of the Invader", "=ds=#s12#, #a2#", "", "19%"};
+		{ 3, 151419, "", "=q4=Bracers of the Smothering Inferno", "=ds=#s8#, #a3#", "", "20%"};
+		{ 4, 151425, "", "=q4=Ironscale Leggings", "=ds=#s11#, #a3#", "", "20%"};
+		{ 5, 151417, "", "=q4=Dragonsteel Faceplate", "=ds=#s1#, #a4#", "", "19%"};
+		{ 6, 151423, "", "=q4=Breastplate of the Afterlife", "=ds=#s5#, #a4#", "", "19%"};
+		{ 7, 151422, "", "=q4=Stormtempered Girdle", "=ds=#s10#, #a4#", "", "19%"};
+		{ 8, 151421, "", "=q4=Band of Draconic Guile", "=ds=#s13#", "", "20%"};
+		{ 9, 151426, "", "=q4=Eye of the Broodmother", "=ds=#s14#", "", "21%"};
+		{ 10, 151416, "", "=q4=Razorscale Talon", "=ds=#h1#, #w10#", "", "20%"};
+		Prev = "UlduarIgnis";
+		Next = "UlduarDeconstructor";
+	};
+
+	AtlasLoot_Data["UlduarRazorscale25ManHEROIC"] = {
+		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
+		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		
+		{ 4, 151305, "", "=q4=Drape of the Drakerider", "=ds=#s4#", "", "20%"};
+		{ 5, 151200, "", "=q4=Collar of the Wyrmhunter", "=ds=#s1#, #a1#", "", "20%"};
+		{ 6, 151262, "", "=q4=Shackles of the Odalisque", "=ds=#s8#, #a1#", "", "20%"};
+		{ 7, 151265, "", "=q4=Bracers of the Broodmother", "=ds=#s8#, #a2#", "", "21%"};
+		{ 8, 151243, "", "=q4=Proto-hide Leggings", "=ds=#s11#, #a2#", "", "19%"};
+		{ 9, 151236, "", "=q4=Belt of the Fallen Wyrm", "=ds=#s10#, #a3#", "", "19%"};
+		{ 10, 151245, "", "=q4=Saronite Mesh Legguards", "=ds=#s11#, #a3#", "", "20%"};
+		{ 11, 151222, "", "=q4=Razorscale Shoulderguards", "=ds=#s3#, #a4#", "", "19%"};
+		{ 12, 151238, "", "=q4=Dragonslayer's Brace", "=ds=#s10#, #a4#", "", "19%"};
+		{ 13, 151297, "", "=q4=Living Flame", "=ds=#s14#", "", "19%"};
+		--{ 11, 45510, "", "=q4=Libram of Discord", "=ds=#s16#, #w16#", "", "19%"};
+		--{ 12, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#, #w21#", "", "19%"};
+		{ 16, 151318, "", "=q4=Remorse", "=ds=#h1#, #w10#", "", "19%"};
+		{ 17, 151330, "", "=q4=Guiding Star", "=ds=#h3#, #w6#", "", "19%"};
+		{ 18, 151335, "", "=q4=Veranus' Bane", "=ds=#w5#", "", "18%"};
+		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
+		Prev = "UlduarIgnis25Man";
 		Next = "UlduarDeconstructor25Man";
 	};
+	
+	
 
 	AtlasLoot_Data["UlduarDeconstructorHEROIC"] = {
 		{ 1, 151463, "", "=q4=Conductive Cord", "=ds=#s10#, #a1#", "", "21%"};
@@ -5121,7 +5130,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 19, 151488, "", "=q4=Seal of Ulduar", "=ds=#s13#", "", "2%"};
 		{ 20, 151485, "", "=q4=Aesir's Edge", "=ds=#h2#, #w10#", "", "2%"};
 		{ 21, 151487, "", "=q4=Magnetized Projectile Emitter", "=ds=#w5#", "", "3%"};
-		Prev = "UlduarIgnis";
+		Prev = "UlduarRazorscale";
 		Next = "UlduarIronCouncil";
 	};
 
@@ -5152,21 +5161,23 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 23, 151381, "", "=q4=Sorthalis, Hammer of the Watchers", "=ds=#h1#, #w6#", "", "0.28%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
-		Prev = "UlduarIgnis25Man";
+		Prev = "UlduarRazorscale25Man";
 		Next = "UlduarIronCouncil25Man";
 	};
 
 	AtlasLoot_Data["UlduarIronCouncilHEROIC"] = {
-		{ 1, 151437, "", "=q4=Cloak of the Iron Council", "=ds=#s4#", "", "18%"};
-		{ 2, 151446, "", "=q4=Runetouch Handwraps", "=ds=#s8#, #a1#", "", "24%"};
-		{ 3, 151438, "", "=q4=Leggings of Swift Reflexes", "=ds=#s11#, #a2#", "", "19%"};
-		{ 4, 151444, "", "=q4=Boots of the Petrified Forest", "=ds=#s12#, #a2#", "", "17%"};
-		{ 5, 151439, "", "=q4=Circlet of True Sight", "=ds=#s1#, #a3#", "", "19%"};
-		{ 6, 151443, "", "=q4=Belt of the Iron Servant", "=ds=#s10#, #a3#", "", "22%"};
-		{ 7, 151440, "", "=q4=Greaves of Iron Intensity", "=ds=#s12#, #a4#", "", "23%"};
-		{ 8, 151445, "", "=q4=Lady Maye's Sapphire Ring", "=ds=#s13#", "", "21%"};
-		{ 9, 151442, "", "=q4=Stormtip", "=ds=#h3#, #w4#", "", "23%"};
-		{ 10, 151441, "", "=q4=Rune-Etched Nightblade", "=ds=#h1#, #w10#", "", "19%"};
+		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
+		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		{ 4, 151437, "", "=q4=Cloak of the Iron Council", "=ds=#s4#", "", "18%"};
+		{ 5, 151446, "", "=q4=Runetouch Handwraps", "=ds=#s8#, #a1#", "", "24%"};
+		{ 6, 151438, "", "=q4=Leggings of Swift Reflexes", "=ds=#s11#, #a2#", "", "19%"};
+		{ 7, 151444, "", "=q4=Boots of the Petrified Forest", "=ds=#s12#, #a2#", "", "17%"};
+		{ 8, 151439, "", "=q4=Circlet of True Sight", "=ds=#s1#, #a3#", "", "19%"};
+		{ 9, 151443, "", "=q4=Belt of the Iron Servant", "=ds=#s10#, #a3#", "", "22%"};
+		{ 10, 151440, "", "=q4=Greaves of Iron Intensity", "=ds=#s12#, #a4#", "", "23%"};
+		{ 11, 151445, "", "=q4=Lady Maye's Sapphire Ring", "=ds=#s13#", "", "21%"};
+		{ 12, 151442, "", "=q4=Stormtip", "=ds=#h3#, #w4#", "", "23%"};
+		{ 13, 151441, "", "=q4=Rune-Etched Nightblade", "=ds=#h1#, #w10#", "", "19%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151450, "", "=q4=Belt of the Crystal Tree", "=ds=#s10#, #a2#", "", "19%"};
 		{ 18, 151447, "", "=q4=Watchful Eye of Fate", "=ds=#s2#", "", "18%"};
@@ -5214,18 +5225,21 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 	};
 
 	AtlasLoot_Data["UlduarKologarnHEROIC"] = {
-		{ 1, 151473, "", "=q4=Shawl of the Shattered Giant", "=ds=#s4#", "", "19%"};
-		{ 2, 151470, "", "=q4=Greaves of the Earthbinder", "=ds=#s12#, #a3#", "", "21%"};
-		{ 3, 151466, "", "=q4=Shoulderguards of the Solemn Watch", "=ds=#s3#, #a4#", "", "18%"};
-		{ 4, 151467, "", "=q4=Sabatons of the Iron Watcher", "=ds=#s12#, #a4#", "", "18%"};
-		{ 5, 151465, "", "=q4=Mark of the Unyielding", "=ds=#s2#", "", "19%"};
-		{ 6, 151468, "", "=q4=Pendant of the Piercing Glare", "=ds=#s2#", "", "17%"};
-		{ 7, 151471, "", "=q4=Emerald Signet Ring", "=ds=#s13#", "", "18%"};
-		{ 8, 151472, "", "=q4=Spark of Hope", "=ds=#s14#", "", "17%"};
-		{ 9, 151469, "", "=q4=Stoneguard", "=ds=#h1#, #w10#", "", "19%"};
-		{ 10, 151464, "", "=q4=Spire of Withering Dreams", "=ds=#w9#", "", "21%"};
+		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
+		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		
+		{ 4, 151473, "", "=q4=Shawl of the Shattered Giant", "=ds=#s4#", "", "19%"};
+		{ 5, 151470, "", "=q4=Greaves of the Earthbinder", "=ds=#s12#, #a3#", "", "21%"};
+		{ 6, 151466, "", "=q4=Shoulderguards of the Solemn Watch", "=ds=#s3#, #a4#", "", "18%"};
+		{ 7, 151467, "", "=q4=Sabatons of the Iron Watcher", "=ds=#s12#, #a4#", "", "18%"};
+		{ 8, 151465, "", "=q4=Mark of the Unyielding", "=ds=#s2#", "", "19%"};
+		{ 9, 151468, "", "=q4=Pendant of the Piercing Glare", "=ds=#s2#", "", "17%"};
+		{ 10, 151471, "", "=q4=Emerald Signet Ring", "=ds=#s13#", "", "18%"};
+		{ 11, 151472, "", "=q4=Spark of Hope", "=ds=#s14#", "", "17%"};
+		{ 12, 151469, "", "=q4=Stoneguard", "=ds=#h1#, #w10#", "", "19%"};
+		{ 13, 151464, "", "=q4=Spire of Withering Dreams", "=ds=#w9#", "", "21%"};
 		Prev = "UlduarIronCouncil";
-		Next = "UlduarAlgalon";
+		Next = "UlduarAuriaya";
 	};
 
 	AtlasLoot_Data["UlduarKologarn25ManHEROIC"] = {
@@ -5251,58 +5265,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 29, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarIronCouncil25Man";
-		Next = "UlduarAlgalon25Man";
-	};
-
-	AtlasLoot_Data["UlduarAlgalonHEROIC"] = {
-		{ 1, 151556, "", "=q4=Drape of the Messenger", "=ds=#s4#"};
-		{ 2, 151559, "", "=q4=Pulsar Gloves", "=ds=#s9#, #a1#", "", "40%"};
-		{ 3, 151564, "", "=q4=Starlight Treads", "=ds=#s12#, #a1#"};
-		{ 4, 151557, "", "=q4=Gloves of the Endless Dark", "=ds=#s9#, #a2#"};
-		{ 5, 151563, "", "=q4=Zodiac Leggings", "=ds=#s11#, #a2#"};
-		{ 6, 151558, "", "=q4=Observer's Mantle", "=ds=#s3#, #a3#"};
-		{ 7, 151551, "", "=q4=Shoulderplates of the Celestial Watch", "=ds=#s3#, #a4#"};
-		{ 8, 151553, "", "=q4=Breastplate of the Timeless", "=ds=#s5#, #a4#"};
-		{ 9, 151555, "", "=q4=Starfall Girdle", "=ds=#s10#, #a4#"};
-		{ 10, 151561, "", "=q4=Pendant of the Somber Witness", "=ds=#s2#"};
-		{ 11, 151554, "", "=q4=Strength of the Heavens", "=ds=#s2#", "", "40%"};
-		{ 12, 151562, "", "=q4=Band of Lights", "=ds=#s13#"};
-		{ 13, 151560, "", "=q4=Nebula Band", "=ds=#s13#"};
-		{ 14, 151552, "", "=q4=Dark Matter", "=ds=#s14#"};
-		{ 15, 151565, "", "=q4=Meteorite Crystal", "=ds=#s14#", "", "40%"};
-		{ 16, 46052, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
-		--{ 17, 46320, "", "=q4=Drape of the Skyherald", "=q1=#m4#: =ds=#s4#"};
-		--{ 18, 46321, "", "=q4=Sunglimmer Drape", "=q1=#m4#: =ds=#s4#"};
-		--{ 19, 46322, "", "=q4=Brann's Sealing Ring", "=q1=#m4#: =ds=#s13#"};
-		--{ 20, 46323, "", "=q4=Starshine Signet", "=q1=#m4#: =ds=#s13#"};
-		Prev = "UlduarKologarn";
-		Next = "UlduarAuriaya";
-	};
-
-	AtlasLoot_Data["UlduarAlgalon25ManHEROIC"] = {
-		{ 1, 151370, "", "=q4=Pharos Gloves", "=ds=#s9#, #a1#", "", "40%"};
-		{ 2, 151354, "", "=q4=Starwatcher's Binding", "=ds=#s10#, #a1#", "", ""};
-		{ 3, 151367, "", "=q4=Solar Bindings", "=ds=#s8#, #a2#", "", "40%"};
-		{ 4, 151355, "", "=q4=Star-beaded Clutch", "=ds=#s10#, #a2#"};
-		{ 5, 151341, "", "=q4=Boundless Gaze", "=ds=#s1#, #a3#"};
-		{ 6, 151364, "", "=q4=Planewalker Treads", "=ds=#s12#, #a3#"};
-		{ 7, 151360, "", "=q4=Legplates of the Endless Void", "=ds=#s11#, #a4#", "", "20%"};
-		{ 8, 151365, "", "=q4=Sabatons of Lifeless Night", "=ds=#s12#, #a4#"};
-		{ 9, 151399, "", "=q4=Cosmos", "=ds=#s15#"};
-		{ 10, 151397, "", "=q4=Starshard Edge", "=ds=#h3#, #w4#"};
-		{ 11, 151382, "", "=q4=Fang of Oblivion", "=ds=#h1#, #w4#", "", "18%"};
-		{ 12, 151395, "", "=q4=Constellus", "=ds=#h3#, #w6#", "", "11%"};
-		{ 13, 151393, "", "=q4=Dreambinder", "=ds=#w9#", "", "1%"};
-		{ 14, 151385, "", "=q4=Bulwark of Algalon", "=ds=#w8#"};
-		{ 15, 151400, "", "=q4=Skyforge Crossbow", "=ds=#w3#", "", "1%"};
-		{ 16, 151380, "", "=q4=Comet's Trail", "=ds=#s14#"};
-		{ 18, 46053, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
-		--{ 19, 45588, "", "=q4=Drape of the Skyborn", "=q1=#m4#: =ds=#s4#"};
-		--{ 20, 45618, "", "=q4=Sunglimmer Cloak", "=q1=#m4#: =ds=#s4#"};
-		--{ 21, 45608, "", "=q4=Brann's Signet Ring", "=q1=#m4#: =ds=#s13#"};
-		--{ 22, 45614, "", "=q4=Starshine Circle", "=q1=#m4#: =ds=#s13#"};
-		
-		Prev = "UlduarKologarn25Man";
 		Next = "UlduarAuriaya25Man";
 	};
 
@@ -5317,7 +5279,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 8, 151483, "", "=q4=Elemental Focus Stone", "=ds=#s14#", "", "19%"};
 		{ 9, 151474, "", "=q4=Shieldwall of the Breaker", "=ds=#w8#", "", "19%"};
 		{ 10, 151479, "", "=q4=Nurturing Touch", "=ds=#w12#", "", "21%"};
-		Prev = "UlduarAlgalon";
+		Prev = "UlduarKologarn";
 		Next = "UlduarHodir";
 	};
 
@@ -5343,7 +5305,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 27, 155483, "", "=q4=Черный механический лев", "=ds=#e12#", ""};	
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
-		Prev = "UlduarAlgalon25Man";
+		Prev = "UlduarKologarn25Man";
 		Next = "UlduarHodir25Man";
 	};
 
@@ -5586,30 +5548,30 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 	};
 
 	AtlasLoot_Data["UlduarVezax25ManHEROIC"] = {
-		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
-		{ 4, 151217, "", "=q4=Mantle of the Unknowing", "=ds=#s3#, #a1#", "", "20%"};
-		{ 5, 151233, "", "=q4=Belt of the Darkspeaker", "=ds=#s10#, #a1#", "", "21%"};
-		{ 6, 151275, "", "=q4=Grips of the Unbroken", "=ds=#s9#, #a2#", "", "19%"};
-		{ 7, 151247, "", "=q4=Darkcore Leggings", "=ds=#s11#, #a3#", "", "18%"};
-		{ 8, 151258, "", "=q4=Boots of the Forgotten Depths", "=ds=#s12#, #a3#", "", "18%"};
-		{ 9, 151209, "", "=q4=Helm of the Faceless", "=ds=#s1#, #a4#", "", "19%"};
-		{ 10, 151240, "", "=q4=Belt of Clinging Hope", "=ds=#s10#, #a4#", "", "19%"};
-		{ 11, 151261, "", "=q4=Boots of the Underdweller", "=ds=#s12#, #a4#", "", "17%"};
-		{ 12, 151293, "", "=q4=Metallic Loop of the Sufferer", "=ds=#s13#", "", "20%"};
-		{ 13, 151294, "", "=q4=Ring of the Vacant Eye", "=ds=#s13#", "", "21%"};
-		{ 14, 151302, "", "=q4=The General's Heart", "=ds=#s14#", "", "20%"};
+		{ 1, 151217, "", "=q4=Mantle of the Unknowing", "=ds=#s3#, #a1#", "", "20%"};
+		{ 2, 151233, "", "=q4=Belt of the Darkspeaker", "=ds=#s10#, #a1#", "", "21%"};
+		{ 3, 151275, "", "=q4=Grips of the Unbroken", "=ds=#s9#, #a2#", "", "19%"};
+		{ 4, 151247, "", "=q4=Darkcore Leggings", "=ds=#s11#, #a3#", "", "18%"};
+		{ 5, 151258, "", "=q4=Boots of the Forgotten Depths", "=ds=#s12#, #a3#", "", "18%"};
+		{ 6, 151209, "", "=q4=Helm of the Faceless", "=ds=#s1#, #a4#", "", "19%"};
+		{ 7, 151240, "", "=q4=Belt of Clinging Hope", "=ds=#s10#, #a4#", "", "19%"};
+		{ 8, 151261, "", "=q4=Boots of the Underdweller", "=ds=#s12#, #a4#", "", "17%"};
+		{ 9, 151293, "", "=q4=Metallic Loop of the Sufferer", "=ds=#s13#", "", "20%"};
+		{ 10, 151294, "", "=q4=Ring of the Vacant Eye", "=ds=#s13#", "", "21%"};
+		{ 11, 151302, "", "=q4=The General's Heart", "=ds=#s14#", "", "20%"};
 		--{ 12, 45509, "", "=q4=Idol of the Corruptor", "=ds=#s16#, #w14#", "", "17%"};
 		--{ 12, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#s16#, #w16#", "", "19%"};
-		{ 15, 151324, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#", "", "20%"};
-		{ 16, 151339, "", "=q4=Scepter of Lost Souls", "=ds=#w12#", "", "19%"};
-		{ 18, 0, "INV_Box_01", "=q6=#j53#", ""};
-		{ 19, 151371, "", "=q4=Handwraps of the Vigilant", "=ds=#s9#, #a1#", "", "0.32%"};
-		{ 20, 151394, "", "=q4=Vestments of the Blind Denizen", "=ds=#s5#, #a2#", "", "0.32%"};
-		{ 21, 151347, "", "=q4=Pendulum of Infinity", "=ds=#s2#", "", "0.36%"};
-		{ 22, 151378, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
-		{ 23, 151391, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
+		{ 12, 151324, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#", "", "20%"};
+		{ 13, 151339, "", "=q4=Scepter of Lost Souls", "=ds=#w12#", "", "19%"};
+		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 17, 151371, "", "=q4=Handwraps of the Vigilant", "=ds=#s9#, #a1#", "", "0.32%"};
+		{ 18, 151394, "", "=q4=Vestments of the Blind Denizen", "=ds=#s5#, #a2#", "", "0.32%"};
+		{ 19, 151347, "", "=q4=Pendulum of Infinity", "=ds=#s2#", "", "0.36%"};
+		{ 20, 151378, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
+		{ 21, 151391, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
 		
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
@@ -5643,11 +5605,11 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarVezax";
-		Next = "UlduarTrash";
+		Next = "UlduarAlgalon";
 	};
 
 	AtlasLoot_Data["UlduarYoggSaron25ManHEROIC"] = {
-		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
+		{ 1, 45897, "", "=q5=Перекованный молот древних королей", "=ds=#m3#", "", "40%"};
 		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151309, "", "=q4=Shawl of Haunted Memories", "=ds=#s4#", "", "25%"};
@@ -5677,6 +5639,61 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarVezax25Man";
+		Next = "UlduarAlgalon25Man";
+	};
+	
+		AtlasLoot_Data["UlduarAlgalonHEROIC"] = {
+		{ 1, 151556, "", "=q4=Drape of the Messenger", "=ds=#s4#"};
+		{ 2, 151559, "", "=q4=Pulsar Gloves", "=ds=#s9#, #a1#", "", "40%"};
+		{ 3, 151564, "", "=q4=Starlight Treads", "=ds=#s12#, #a1#"};
+		{ 4, 151557, "", "=q4=Gloves of the Endless Dark", "=ds=#s9#, #a2#"};
+		{ 5, 151563, "", "=q4=Zodiac Leggings", "=ds=#s11#, #a2#"};
+		{ 6, 151558, "", "=q4=Observer's Mantle", "=ds=#s3#, #a3#"};
+		{ 7, 151551, "", "=q4=Shoulderplates of the Celestial Watch", "=ds=#s3#, #a4#"};
+		{ 8, 151553, "", "=q4=Breastplate of the Timeless", "=ds=#s5#, #a4#"};
+		{ 9, 151555, "", "=q4=Starfall Girdle", "=ds=#s10#, #a4#"};
+		{ 10, 151561, "", "=q4=Pendant of the Somber Witness", "=ds=#s2#"};
+		{ 11, 151554, "", "=q4=Strength of the Heavens", "=ds=#s2#", "", "40%"};
+		{ 12, 151562, "", "=q4=Band of Lights", "=ds=#s13#"};
+		{ 13, 151560, "", "=q4=Nebula Band", "=ds=#s13#"};
+		{ 14, 151552, "", "=q4=Dark Matter", "=ds=#s14#"};
+		{ 15, 151565, "", "=q4=Meteorite Crystal", "=ds=#s14#", "", "40%"};
+		{ 16, 46052, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
+		--{ 17, 46320, "", "=q4=Drape of the Skyherald", "=q1=#m4#: =ds=#s4#"};
+		--{ 18, 46321, "", "=q4=Sunglimmer Drape", "=q1=#m4#: =ds=#s4#"};
+		--{ 19, 46322, "", "=q4=Brann's Sealing Ring", "=q1=#m4#: =ds=#s13#"};
+		--{ 20, 46323, "", "=q4=Starshine Signet", "=q1=#m4#: =ds=#s13#"};
+		Prev = "UlduarYoggSaron";
+		Next = "UlduarTrash";
+	};
+
+	AtlasLoot_Data["UlduarAlgalon25ManHEROIC"] = {
+		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
+		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		
+		{ 4, 151370, "", "=q4=Pharos Gloves", "=ds=#s9#, #a1#", "", "40%"};
+		{ 5, 151354, "", "=q4=Starwatcher's Binding", "=ds=#s10#, #a1#", "", ""};
+		{ 6, 151367, "", "=q4=Solar Bindings", "=ds=#s8#, #a2#", "", "40%"};
+		{ 7, 151355, "", "=q4=Star-beaded Clutch", "=ds=#s10#, #a2#"};
+		{ 8, 151341, "", "=q4=Boundless Gaze", "=ds=#s1#, #a3#"};
+		{ 9, 151364, "", "=q4=Planewalker Treads", "=ds=#s12#, #a3#"};
+		{ 10, 151360, "", "=q4=Legplates of the Endless Void", "=ds=#s11#, #a4#", "", "20%"};
+		{ 11, 151365, "", "=q4=Sabatons of Lifeless Night", "=ds=#s12#, #a4#"};
+		{ 12, 151399, "", "=q4=Cosmos", "=ds=#s15#"};
+		{ 13, 151397, "", "=q4=Starshard Edge", "=ds=#h3#, #w4#"};
+		{ 14, 151382, "", "=q4=Fang of Oblivion", "=ds=#h1#, #w4#", "", "18%"};
+		{ 15, 151395, "", "=q4=Constellus", "=ds=#h3#, #w6#", "", "11%"};
+		{ 16, 151393, "", "=q4=Dreambinder", "=ds=#w9#", "", "1%"};
+		{ 17, 151385, "", "=q4=Bulwark of Algalon", "=ds=#w8#"};
+		{ 18, 151400, "", "=q4=Skyforge Crossbow", "=ds=#w3#", "", "1%"};
+		{ 19, 151380, "", "=q4=Comet's Trail", "=ds=#s14#"};
+		{ 20, 46053, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
+		--{ 19, 45588, "", "=q4=Drape of the Skyborn", "=q1=#m4#: =ds=#s4#"};
+		--{ 20, 45618, "", "=q4=Sunglimmer Cloak", "=q1=#m4#: =ds=#s4#"};
+		--{ 21, 45608, "", "=q4=Brann's Signet Ring", "=q1=#m4#: =ds=#s13#"};
+		--{ 22, 45614, "", "=q4=Starshine Circle", "=q1=#m4#: =ds=#s13#"};
+		
+		Prev = "UlduarYoggSaron25Man";
 		Next = "UlduarTrash25Man";
 	};
 
