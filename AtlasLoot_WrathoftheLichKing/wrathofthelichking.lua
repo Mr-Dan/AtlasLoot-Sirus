@@ -5639,7 +5639,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 20, 151570, "", "=q4=Caress of Insanity", "=ds=#h1#, #w6#"};
 		{ 21, 151566, "", "=q4=Hammer of Crushing Whispers", "=ds=#h2#, #w6#"};
 		{ 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
-		{ 24, 46312, "", "=q4=Vanquished Clutches of Yogg-Saron", "=ds=#s14#", "", "100%"};
+		{ 24, 151571, "", "=q4=Vanquished Clutches of Yogg-Saron", "=ds=#s14#", "", "100%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e15#"};	
 		Prev = "UlduarVezax";
