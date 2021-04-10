@@ -1127,18 +1127,24 @@ function AtlasLoot_FixText(text)
 		--text = gsub(text, "#arenapoints#", "|TInterface\\Icons\\PVPCurrency-Conquest-Horde:0|t");
 		text = gsub(text, "#honorpoints#", "|TInterface\\Icons\\PVPCurrency-Honor-Horde:0|t");
 		
-		 text = gsub(text, "#arenapoints#", "|TInterface\\PVPFrame\\PVPCurrency-Conquest-Horde:20:30|t");
-		 text = gsub(text, "#bgpoints#", "|TInterface\\PVPFrame\\PVPCurrency-Honor-Horde:20:30|t");
+		text = gsub(text, "#arenapoints#", "|TInterface\\PVPFrame\\PVPCurrency-Conquest-Horde:20:30|t");
+		text = gsub(text, "#bgpoints#", "|TInterface\\PVPFrame\\PVPCurrency-Honor-Horde:20:30|t");
 
-    else
+    elseif englishFaction == "Alliance" then
         text = gsub(text, "#faction#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:16:16:0:-2|t");
         text = gsub(text, "#factionoutlandPvP#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:0|t");
         text = gsub(text, "#markthrallmarhhold#", "|TInterface\\Icons\\INV_Misc_Token_HonorHold:0|t");
-		text = gsub(text, "#arenapoints#", "|TInterface\\Icons\\PVPCurrency-Conquest-Alliance:0|t");
+		--text = gsub(text, "#arenapoints#", "|TInterface\\Icons\\PVPCurrency-Conquest-Alliance:0|t");
 		text = gsub(text, "#honorpoints#", "|TInterface\\Icons\\PVPCurrency-Honor-Alliance:0|t");
 
-		 text = gsub(text, "#arenapoints#", "|TInterface\\PVPFrame\\PVPCurrency-Conquest-Alliance:20:30|t");
-		 text = gsub(text, "#bgpoints#", "|TInterface\\PVPFrame\\PVPCurrency-Honor-Alliance:20:30|t");
+		text = gsub(text, "#arenapoints#", "|TInterface\\PVPFrame\\PVPCurrency-Conquest-Alliance:20:30|t");
+		text = gsub(text, "#bgpoints#", "|TInterface\\PVPFrame\\PVPCurrency-Honor-Alliance:20:30|t");
+	else
+
+
+		text = gsub(text, "#arenapoints#", "|TInterface\\PVPFrame\\PVPCurrency-Conquest-Renegade:20:30|t");
+		text = gsub(text, "#bgpoints#", "|TInterface\\PVPFrame\\PVPCurrency-Honor-Renegade:20:30|t");
+		 
     end
 
     return text;

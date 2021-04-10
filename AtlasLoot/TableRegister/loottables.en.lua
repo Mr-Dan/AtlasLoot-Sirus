@@ -2126,6 +2126,7 @@ end
 
 	AtlasLoot_TableNames["RageSaddle"] = { AL["RageSaddle"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["RageSaddle2"] = { AL["RageSaddle"], "AtlasLootSirus" };
+	
 	AtlasLoot_TableNames["PvP80UnSet1_x2"] = {AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet1_x4"] = {AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet2_x2"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
@@ -2136,6 +2137,16 @@ end
 	AtlasLoot_TableNames["PvP80UnSet5"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet6"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet7"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	
+	AtlasLoot_TableNames["PvP80UnSet22_x2"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet22_x4"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet33"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet44_x2"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet44_x4"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet55"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet66"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet77"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	
 	AtlasLoot_TableNames["PvP80UnSet6_A"] = { AL["PvP Non-Set Epics"]..": "..AL["Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet6_H"] = { AL["PvP Non-Set Epics"]..": "..AL["Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80ClothNonSet0_x2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Cloth"], "AtlasLootWotLK" };
