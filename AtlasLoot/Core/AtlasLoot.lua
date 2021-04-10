@@ -38,7 +38,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "11";
 local VERSION_BOSSES = "03";
-ATLASLOOT_VERSION = "|cffFFFFFF25.03.21 AtlasLoot Sirus|r";
+ATLASLOOT_VERSION = "|cffFFFFFF10.04.21 AtlasLoot Sirus|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_CURRENT_ATLAS = {"1.16.1", "1.16.0"};
 ATLASLOOT_PREVIEW_ATLAS = {"1.17.0", "1.16.2"};
