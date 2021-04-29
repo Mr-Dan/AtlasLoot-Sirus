@@ -1330,7 +1330,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 72869, "", "=q4= Огнестрел драконьей пасти", "=ds=#w5#", "", ""};
 		{ 21, 30183, "", "=q4= Воронка Пустоты", "=ds=#e8#", "", ""};
 		{ 22, 280006, "", "=q1= Печать Вечности", "=ds=#e15#"};
-			
+		{ 24, 73953, "", "=q1= Морской пони", "=ds=#e13#"};
+		
 		Prev = "CFRSerpentHydrossHEROIC";
 		Next = "CFRSerpentLeotherasHEROIC";
 	};
@@ -3003,6 +3004,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 19, 59444, "", "=q4=Акмин-Курай, Щит Владычества", "=ds=#w8#", ""};
 		{ 20, 71217, "", "=q4=Инфернальная печатка мстителей", "=ds=#s13#", ""};
 		{ 21, 280006,"", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 23, 56806, "", "=q1=Игрущечный тор", "=ds=#e13#"};
 		--{ 6, 65053, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", "", "13%"};
 		--{ 16, 64314, "", "=q4=Mantle of the Forlorn Vanquisher", "=ds=Tier 11 #e15#", "", "61%"};
 		--{ 17, 64316, "", "=q4=Mantle of the Forlorn Protector", "=ds=Tier 11 #e15#", "", "62%"};

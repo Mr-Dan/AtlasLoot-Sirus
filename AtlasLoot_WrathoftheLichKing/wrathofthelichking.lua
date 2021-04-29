@@ -5340,9 +5340,10 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		
 		{ 4, 151225, "", "=q4=Winter's Icy Embrace", "=ds=#s5#, #a2#", "", "16%"};
 		{ 5, 151267, "", "=q4=Frost-bound Chain Bracers", "=ds=#s8#, #a3#", "", "18%"};
-		{ 6, 153006, "", "=q4=Изящные легкие браслеты", "=ds=#s8#, #a3#", "", "19%"};
-		{ 7, 153011, "", "=q4=Кушак прядильщика судеб", "=ds=#s10#, #a1#", "", "19%"};
-		{ 8, 151250, "", "=q4=Frostplate Greaves", "=ds=#s11#, #a4#", "", "16%"};
+
+		{ 6, 153011, "", "=q4=Кушак прядильщика судеб", "=ds=#s10#, #a1#", "", "19%"};
+		{ 7, 151250, "", "=q4=Frostplate Greaves", "=ds=#s11#, #a4#", "", "16%"};
+		{ 8, 153010, "", "=q4=Отшлифованный морской камень", "=ds=#s2#", "", "18%"};
 		{ 9, 151291, "", "=q4=Frozen Loop", "=ds=#s13#", "", "15%"};
 		{ 10, 151304, "", "=q4=Northern Barrier", "=ds=#w8#", "", "19%"};
 		--{ 6, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=#e15#", "", "52%"};
@@ -5460,7 +5461,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 6, 151280, "", "=q4=Gauntlets of Ruthless Reprisal", "=ds=#s9#, #a4#", "", "16%"};
 		{ 7, 153002, "", "=q4=Жесткий обод красавицы", "=ds=#s10#, #a4#", "", "18%"};
 		{ 8, 153001, "", "=q4=Поношеный плащ смотрителя", "=ds=#s4#", "", "18%"};
-		{ 9, 153010, "", "=q4=Отшлифованный морской камень", "=ds=#s2#", "", "18%"};
+		{ 9, 153006, "", "=q4=Изящные легкие браслеты", "=ds=#s8#, #a3#", "", "19%"};
 		{ 10, 151214, "", "=q4=Nymph Heart Charm", "=ds=#s2#", "", "13%"};
 		{ 11, 151329, "", "=q4=The Lifebinder", "=ds=#w9#", "", "19%"};
 		--{ 10, 45653, "", "=q4=Legplates of the Wayward Conqueror", "=ds=#e15#", "", "43%"};
@@ -5509,7 +5510,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		Prev = "UlduarFreya";
 		Next = "UlduarVezax";
 	};
-
 	AtlasLoot_Data["UlduarMimiron25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
 		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
@@ -5519,9 +5519,10 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 6, 151235, "", "=q4=Waistguard of the Creator", "=ds=#s10#, #a2#", "", "17%"};
 		{ 7, 153003, "", "=q4=Прочная петля", "=ds=#s2#", "", "17%"};
 		{ 8, 153007, "", "=q4=Вышитая серебром шаль", "=ds=#s4#", "", "17%"};
-		{ 9, 151301, "", "=q4=Pandora's Plea", "=ds=#s14#", "", "17%"};
-		{ 10, 153012, "", "=q4= Ружье отвергнутой помощи", "=ds=#w5#", "", "15%"};
-		{ 11, 151332, "", "=q4=Insanity's Grip", "=ds=#h3#, #w13#", "", "15%"};
+		{ 9, 153013, "", "=q4=Обсидиановая печатка", "=ds=#s13#"};
+		{ 10, 151301, "", "=q4=Pandora's Plea", "=ds=#s14#", "", "17%"};
+		{ 11, 153012, "", "=q4= Ружье отвергнутой помощи", "=ds=#w5#", "", "15%"};
+		{ 12, 151332, "", "=q4=Insanity's Grip", "=ds=#h3#, #w13#", "", "15%"};
 		--{ 10, 45641, "", "=q4=Gauntlets of the Wayward Conqueror", "=ds=#e15#", "", "45%"};
 		--{ 11, 45642, "", "=q4=Gauntlets of the Wayward Protector", "=ds=#e15#", "", "50%"};
 		--{ 12, 45643, "", "=q4=Gauntlets of the Wayward Vanquisher", "=ds=#e15#", "", "68%"};
