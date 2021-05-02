@@ -4973,7 +4973,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 8, 0, "INV_Shield_05", "=q6=#t5s9_1#", "=ec1=#m22#"};			
 		{ 9, 151602, "", "=q4=Destroyer Greathelm", "=ds= #SealoftheTitans#"};
 		{ 10, 151604, "", "=q4=Destroyer Shoulderguards", "=ds= #SealoftheTitans#"};
-		{ 11, 151604, "", "=q4=Destroyer Chestguard", "=ds= #SealoftheTitans#"};
+		{ 11, 151600, "", "=q4=Destroyer Chestguard", "=ds= #SealoftheTitans#"};
 		{ 12, 151601, "", "=q4=Destroyer Handguards", "=ds= #SealoftheTitans#"};
 		{ 13, 151603, "", "=q4=Destroyer Legguards", "=ds= #SealoftheTitans#"};		
 		
