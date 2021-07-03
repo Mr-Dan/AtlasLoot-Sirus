@@ -1870,7 +1870,52 @@ end
   --The Ashen Verdict
 	AtlasLoot_TableNames["AshenVerdict"] = { BabbleFaction["The Ashen Verdict"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["AshenVerdict2"] = { BabbleFaction["The Ashen Verdict"], "AtlasLootWotLK" };
+	
+----------------------
+--- WotLK Sirus ---
+----------------------
+		AtlasLoot_TableNames["Kor'kron_Battalion_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion2_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion3_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion4_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion5_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion6_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
 
+		AtlasLoot_TableNames["Seventh_Legion_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion2_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion3_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion4_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion5_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion6_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+
+		AtlasLoot_TableNames["Golden_Scorpid_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid2_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid3_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid4_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid5_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid6_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+
+		--------------------------------------------------------------------------------------------------
+		AtlasLoot_TableNames["Kor'kron_Battalion_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion2_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion3_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion4_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion5_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion6_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+
+		AtlasLoot_TableNames["Seventh_Legion_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion2_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion3_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion4_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion5_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion6_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+
+		AtlasLoot_TableNames["Golden_Scorpid_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid2_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid3_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid4_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid5_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid6_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
 --------------
 --- Trades ---
 --------------
@@ -1888,6 +1933,8 @@ end
 	AtlasLoot_TableNames["AlchemyMisc1"] = { ALCHEMY..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["AlchemyMisc2"] = { ALCHEMY..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["AlchemyOstrov"] = { ALCHEMY..": "..AL["Alchemy Ostrov"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Alchemy_Tol'Garod"] = { ALCHEMY..": "..AL["Alchemy_Tol'Garod"], "AtlasLootCrafting" };
+
   -- BlackSmithing
 	AtlasLoot_TableNames["SmithingArmorOld1"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingArmorOld2"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
@@ -1916,6 +1963,7 @@ end
 	AtlasLoot_TableNames["Hammersmith1"] = { HAMMERSMITH, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Swordsmith1"] = { SWORDSMITH, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingOstrov"] = { BLACKSMITHING..": "..AL["SmithingOstrov"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Smithing_Tol'Garod"] = { BLACKSMITHING..": "..AL["Smithing_Tol'Garod"], "AtlasLootCrafting" };
   -- Enchanting
 	AtlasLoot_TableNames["EnchantingBoots1"] = { ENCHANTING..": "..AL["Enchant Boots"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EnchantingBracer1"] = { ENCHANTING..": "..AL["Enchant Bracer"], "AtlasLootCrafting" };
@@ -1936,6 +1984,8 @@ end
 	AtlasLoot_TableNames["EnchantingMisc2"] = { ENCHANTING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EnchantingOstrov"] = { ENCHANTING..": "..AL["Enchant Ostrov"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EnchantingOstrov2"] = { ENCHANTING..": "..AL["Enchant Ostrov"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Enchant_Tol'Garod"] = { ENCHANTING..": "..AL["Enchant_Tol'Garod"], "AtlasLootCrafting" };
+
   -- Engineering
 	AtlasLoot_TableNames["EngineeringAmmo1"] = { ENGINEERING..": "..AL["Ammunition"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EngineeringArmor1"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
@@ -1954,7 +2004,8 @@ end
 	AtlasLoot_TableNames["Gnomish1"] = { GNOMISH, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Goblin1"] = { GOBLIN, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EngineeringOstrov"] = { ENGINEERING..": "..AL["EngineeringOstrov"], "AtlasLootCrafting" };
-	
+	AtlasLoot_TableNames["Engineering_Tol'Garod"] = { ENGINEERING..": "..AL["Engineering_Tol'Garod"], "AtlasLootCrafting" };
+
   -- Inscription
 	AtlasLoot_TableNames["Inscription_OffHand1"] = { INSCRIPTION..": "..AL["Off-Hand Items"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Inscription_Reagents1"] = { INSCRIPTION..": "..AL["Reagents"], "AtlasLootCrafting" };
@@ -1981,6 +2032,7 @@ end
 	AtlasLoot_TableNames["Inscription_WarlockMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Inscription_WarriorMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Inscription_WarriorMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["InscriptionSign_Tol'Garod"] = { INSCRIPTION..": "..AL["InscriptionSign_Tol'Garod"], "AtlasLootCrafting" };
   -- Jewelcrafting
 	AtlasLoot_TableNames["JewelRed1"] = { JEWELCRAFTING..": "..BabbleInventory["Red"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelRed2"] = { JEWELCRAFTING..": "..BabbleInventory["Red"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
@@ -2014,6 +2066,8 @@ end
 	AtlasLoot_TableNames["JewelNeck2"] = { JEWELCRAFTING..": "..BabbleInventory["Neck"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelMisc1"] = { JEWELCRAFTING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelOstrov"] = { JEWELCRAFTING..": "..AL["Jewel Ostrov"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Jewel_Tol'Garod"] = { JEWELCRAFTING..": "..AL["Jewel_Tol'Garod"], "AtlasLootCrafting" };
+		
   -- Leatherworking
 	AtlasLoot_TableNames["LeatherLeatherArmorOld1"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherLeatherArmorOld2"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
@@ -2043,6 +2097,8 @@ end
 	AtlasLoot_TableNames["Elemental1"] = { ELEMENTAL, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Tribal1"] = { TRIBAL, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherOstrov"] = { LEATHERWORKING..": "..AL["Leather Ostrov"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Leather_Tol'Garod"] = { LEATHERWORKING..": "..AL["Leather_Tol'Garod"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Leather_Tol'Garod2"] = { LEATHERWORKING..": "..AL["Leather_Tol'Garod"], "AtlasLootCrafting" };
   -- Mining
 	AtlasLoot_TableNames["Mining1"] = { MINING, "AtlasLootCrafting" };
   -- Tailoring
@@ -2068,6 +2124,7 @@ end
 	AtlasLoot_TableNames["Shadoweave1"] = { SHADOWEAVE, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Spellfire1"] = { SPELLFIRE, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringOstrov"] = { TAILORING..": "..AL["Tailoring Ostrov"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Tailoring_Tol'Garod"] = { TAILORING..": "..AL["Tailoring_Tol'Garod"], "AtlasLootCrafting" };
   -- Cooking
 	AtlasLoot_TableNames["Cooking1"] = { COOKING, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Cooking2"] = { COOKING, "AtlasLootCrafting" };
@@ -2248,6 +2305,10 @@ end
 	AtlasLoot_TableNames["REPMENU_ORIGINALWOW"] = { AL["Factions - Original WoW"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_BURNINGCRUSADE"] = { AL["Factions - Burning Crusade"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_WOTLK"] = { AL["Factions - Wrath of the Lich King"], "Menu" };
+	AtlasLoot_TableNames["REPMENU_Sirus"] = { AL["Factions - Sirus"], "Menu" };
+	AtlasLoot_TableNames["REPMENU_Sirus_A"] = { AL["Factions - Sirus"], "Menu" };
+	AtlasLoot_TableNames["REPMENU_Sirus_H"] = { AL["Factions - Sirus"], "Menu" };
+
 	AtlasLoot_TableNames["REPMENU"] = { AL["Factions"], "Menu" };
 	AtlasLoot_TableNames["SETMENU"] = { AL["Collections"], "Menu" };
 	AtlasLoot_TableNames["MOUNTMENU"] = { AL["Mounts"], "Menu" };

@@ -27,6 +27,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, "AlchemyPotion1", "INV_Potion_23", "=ds="..AL["Potions"], "" };
 		{ 4, "AlchemyTransmute1", "INV_Potion_23", "=ds="..AL["Transmutes"], "" };
 		{ 6, "AlchemyOstrov", "INV_Potion_23", "=ds="..AL["Alchemy Ostrov"], "" };
+		{ 7, "Alchemy_Tol'Garod", "INV_Potion_23", "=ds="..AL["Alchemy_Tol'Garod"], "" };
 		{ 17, "AlchemyGuardianElixir1", "INV_Potion_23", "=ds="..AL["Guardian Elixirs"], "" };
 		{ 18, "AlchemyFlask1", "INV_Potion_23", "=ds="..AL["Flasks"], "" };
 		{ 19, "AlchemyMisc1", "INV_Potion_23", "=ds="..AL["Miscellaneous"], "" };
@@ -40,10 +41,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, "SmithingEnhancement1", "Trade_BlackSmithing", "=ds="..AL["Item Enhancements"], "" };
 		{ 7, "Armorsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(9788), "" };
 		{ 8, "Axesmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17041), "" };
-		{ 9, "Swordsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17039), "" };
-		
+		{ 9, "Swordsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17039), "" };	
 		{ 11, "SmithingOstrov", "Trade_BlackSmithing", "=ds="..AL["SmithingOstrov"], "" };
-		
+		{ 12, "Smithing_Tol'Garod", "Trade_BlackSmithing", "=ds="..AL["Smithing_Tol'Garod"], "" };
 		{ 17, "SmithingWeaponOld1", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Original WoW"] };
 		{ 18, "SmithingWeaponBC1", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Burning Crusade"] };
 		{ 19, "SmithingWeaponWrath1", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Wrath of the Lich King"] };
@@ -61,6 +61,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, "Enchanting2HWeapon1", "Trade_Engraving", "=ds="..AL["Enchant 2H Weapon"], "" };
 		{ 7, "EnchantingMisc1", "Trade_Engraving", "=ds="..AL["Miscellaneous"], "" };
 		{ 9, "EnchantingOstrov", "Trade_Engraving", "=ds="..AL["Enchant Ostrov"], "" };
+		{ 10, "Enchant_Tol'Garod", "Trade_Engraving", "=ds="..AL["Enchant_Tol'Garod"], "" };
 		{ 17, "EnchantingBracer1", "Trade_Engraving", "=ds="..AL["Enchant Bracer"], "" };
 		{ 18, "EnchantingCloak1", "Trade_Engraving", "=ds="..AL["Enchant Cloak"], "" };
 		{ 19, "EnchantingRing1", "Trade_Engraving", "=ds="..AL["Enchant Ring"], "" };
@@ -74,10 +75,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, "EngineeringExplosives1", "Trade_Engineering", "=ds="..AL["Explosives"], "" };
 		{ 4, "EngineeringMisc1", "Trade_Engineering", "=ds="..AL["Miscellaneous"], "" };
 		{ 5, "EngineeringWeapon1", "Trade_Engineering", "=ds="..BabbleInventory["Weapon"], "" };
-		{ 7, "Gnomish1", "Trade_Engineering", "=ds="..GetSpellInfo(20220), "" };
-		
+		{ 7, "Gnomish1", "Trade_Engineering", "=ds="..GetSpellInfo(20220), "" };	
 		{ 9, "EngineeringOstrov", "Trade_Engineering", "=ds="..AL["EngineeringOstrov"], "" };
-		
+		{ 10, "Engineering_Tol'Garod", "Trade_Engineering", "=ds="..AL["Engineering_Tol'Garod"], "" };
 		{ 17, "EngineeringArmor1", "Trade_Engineering", "=ds="..BabbleInventory["Armor"], "" };
 		{ 18, "EngineeringItemEnhancements1", "Trade_Engineering", "=ds="..AL["Item Enhancements"], "" };
 		{ 19, "EngineeringReagents1", "Trade_Engineering", "=ds="..AL["Reagents"], "" };
@@ -88,28 +88,29 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["INSCRIPTIONMENU"] = {
 		{ 2, "Inscription_Scrolls1", "INV_Inscription_Tradeskill01", "=ds="..AL["Scrolls"], "" };
 		{ 3, "Inscription_Misc1", "INV_Inscription_Tradeskill01", "=ds="..AL["Miscellaneous"], "" };
-		{ 5, "Inscription_DeathKnightMajor1", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Major Glyph"] };
-		{ 6, "Inscription_DruidMajor1", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Major Glyph"] };
-		{ 7, "Inscription_HunterMajor1", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..AL["Major Glyph"] };
-		{ 8, "Inscription_MageMajor1", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..AL["Major Glyph"] };
-		{ 9, "Inscription_PaladinMajor1", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Major Glyph"] };
-		{ 10, "Inscription_PriestMajor1", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Major Glyph"] };
-		{ 11, "Inscription_RogueMajor1", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..AL["Major Glyph"] };
-		{ 12, "Inscription_ShamanMajor1", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Major Glyph"] };
-		{ 13, "Inscription_WarlockMajor1", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..AL["Major Glyph"] };
-		{ 14, "Inscription_WarriorMajor1", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Major Glyph"] };
+		{ 6, "Inscription_DeathKnightMajor1", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Major Glyph"] };
+		{ 7, "Inscription_DruidMajor1", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Major Glyph"] };
+		{ 8, "Inscription_HunterMajor1", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..AL["Major Glyph"] };
+		{ 9, "Inscription_MageMajor1", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..AL["Major Glyph"] };
+		{ 10, "Inscription_PaladinMajor1", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Major Glyph"] };
+		{ 11, "Inscription_PriestMajor1", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Major Glyph"] };
+		{ 12, "Inscription_RogueMajor1", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..AL["Major Glyph"] };
+		{ 13, "Inscription_ShamanMajor1", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Major Glyph"] };
+		{ 14, "Inscription_WarlockMajor1", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..AL["Major Glyph"] };
+		{ 15, "Inscription_WarriorMajor1", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Major Glyph"] };
 		{ 17, "Inscription_OffHand1", "INV_Inscription_Tradeskill01", "=ds="..AL["Off-Hand Items"], "" };
 		{ 18, "Inscription_Reagents1", "INV_Inscription_Tradeskill01", "=ds="..AL["Reagents"], "" };
-		{ 20, "Inscription_DeathKnightMinor1", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Minor Glyph"] };
-		{ 21, "Inscription_DruidMinor1", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Minor Glyph"] };
-		{ 22, "Inscription_HunterMinor1", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..AL["Minor Glyph"] };
-		{ 23, "Inscription_MageMinor1", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..AL["Minor Glyph"] };
-		{ 24, "Inscription_PaladinMinor1", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Minor Glyph"] };
-		{ 25, "Inscription_PriestMinor1", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Minor Glyph"] };
-		{ 26, "Inscription_RogueMinor1", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..AL["Minor Glyph"] };
-		{ 27, "Inscription_ShamanMinor1", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Minor Glyph"] };
-		{ 28, "Inscription_WarlockMinor1", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..AL["Minor Glyph"] };
-		{ 29, "Inscription_WarriorMinor1", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Minor Glyph"] };
+		{ 19, "InscriptionSign_Tol'Garod", "INV_Inscription_Tradeskill01", "=ds="..AL["InscriptionSign_Tol'Garod"], "" };
+		{ 21, "Inscription_DeathKnightMinor1", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Minor Glyph"] };
+		{ 22, "Inscription_DruidMinor1", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Minor Glyph"] };
+		{ 23, "Inscription_HunterMinor1", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..AL["Minor Glyph"] };
+		{ 24, "Inscription_MageMinor1", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..AL["Minor Glyph"] };
+		{ 25, "Inscription_PaladinMinor1", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Minor Glyph"] };
+		{ 26, "Inscription_PriestMinor1", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Minor Glyph"] };
+		{ 27, "Inscription_RogueMinor1", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..AL["Minor Glyph"] };
+		{ 28, "Inscription_ShamanMinor1", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Minor Glyph"] };
+		{ 29, "Inscription_WarlockMinor1", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..AL["Minor Glyph"] };
+		{ 30, "Inscription_WarriorMinor1", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Minor Glyph"] };
 		Back = "CRAFTINGMENU";
 	};
 
@@ -128,6 +129,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, "JewelRing1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Ring"], "" };
 		{ 19, "JewelMisc1", "INV_Misc_Gem_01", "=ds="..AL["Miscellaneous"], "" };
 		{ 21, "JewelOstrov", "INV_Misc_Gem_01", "=ds="..AL["Jewel Ostrov"], "" };
+		{ 22, "Jewel_Tol'Garod", "INV_Misc_Gem_01", "=ds="..AL["Jewel_Tol'Garod"], "" };
 		Back = "CRAFTINGMENU";
 	};
 
@@ -147,6 +149,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, "LeatherItemEnhancement1", "INV_Misc_ArmorKit_17", "=ds="..AL["Item Enhancements"], "" };
 		{ 22, "LeatherDrumsBagsMisc1", "INV_Misc_ArmorKit_17", "=ds="..AL["Drums, Bags and Misc."], "" };
 		{ 25, "LeatherOstrov", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Ostrov"], "" };
+		{ 26, "Leather_Tol'Garod", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather_Tol'Garod"], "" };
 		Back = "CRAFTINGMENU";
 	};
 
@@ -161,6 +164,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, "TailoringMisc1", "Trade_Tailoring", "=ds="..AL["Miscellaneous"], "" };
 		{ 19, "TailoringShirts1", "Trade_Tailoring", "=ds="..AL["Shirts"], "" };
 		{ 21, "TailoringOstrov", "Trade_Tailoring", "=ds="..AL["Tailoring Ostrov"], "" };
+		{ 22, "Tailoring_Tol'Garod", "Trade_Tailoring", "=ds="..AL["Tailoring_Tol'Garod"], "" };
 		Back = "CRAFTINGMENU";
 	};
 

@@ -150,17 +150,31 @@ if AL then
     AL["Misc"] = "Разное";
 	AL["ICCMisc"] = "Особые награды";
     AL["Miscellaneous"] = "Разнообразное";
-    AL["Enchant Ostrov"] = "Чары с Острова Кель'Данас";
+	AL["Enchant Ostrov"] = "Чары с Острова Кель'Данас";
     AL["Jewel Ostrov"] = "Особый Самоцвет с Острова Кель'Данас";
     AL["Tailoring Ostrov"] = "Нить с Острова Кель'Данас";
     AL["Leather Ostrov"] = "Накладки с Острова Кель'Данас";
     AL["Alchemy Ostrov"] = "Алхимия с Острова Кель'Данас";
+	AL["EngineeringOstrov"] = "Инженерские рецепты с Острова Кель'Данас";
+	AL["SmithingOstrov"] = "Кузнечные рецепты с Острова Кель'Данас";	
+	
+		
+	AL["Enchant_Tol'Garod"] = "Чары с Острова Тол'Гарод";
+    AL["Jewel_Tol'Garod"] = "Ювелирное дело с Острова Тол'Гарод";
+    AL["Tailoring_Tol'Garod"] = "Портняжное дело с Острова Тол'Гарод";
+    AL["Leather_Tol'Garod"] = "Кожевничество с Острова Тол'Гарод";
+    AL["Alchemy_Tol'Garod"] = "Алхимия с Острова Тол'Гарод";
+	AL["Engineering_Tol'Garod"] = "Инженерские рецепты с Острова Тол'Гарод";
+	AL["InscriptionSign_Tol'Garod"] = "Начертание с Острова Тол'Гарод";
+	AL["Smithing_Tol'Garod"] = "Кузнечные рецепты с Острова Тол'Гарод";
+
     AL["Rewards"] = "Награды";
     AL["Show 10 Man Loot"] = "Добыча 10-чел";
     AL["Show 25 Man Loot"] = "Добыча 25-чел";
     AL["Factions - Original WoW"] = "Фракции - Оригинального WoW";
     AL["Factions - Burning Crusade"] = "Фракции - Burning Crusade";
     AL["Factions - Wrath of the Lich King"] = "Фракции - Wrath of the Lich King";
+	AL["Factions - Sirus"] = "Фракции - Sirus";
     AL["Choose Table ..."] = "Выбор таблицы";
     AL["Unknown"] = "Неизвестно";
     AL["Add to QuickLooks:"] = "В Быстрый осмотр:";
@@ -1009,8 +1023,7 @@ if AL then
     -- Recipe origin strings
     AL["Trainer"] = "Тренер";
     AL["Ostrov"] = "Остров Кель'Данас";
-	AL["EngineeringOstrov"] = "Инженерские рецепты с Острова Кель'Данас";
-	AL["SmithingOstrov"] = "Кузнецкие рецепты с Острова Кель'Данас";
+	
     AL["Discovery"] = "Находка";
     AL["HerbResearch"] = "Исследование трав Нордскола";
     AL["World Drop"] = "Мировой выпад";

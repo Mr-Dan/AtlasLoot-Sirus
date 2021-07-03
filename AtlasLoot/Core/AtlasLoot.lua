@@ -38,7 +38,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "11";
 local VERSION_BOSSES = "03";
-ATLASLOOT_VERSION = "|cffFFFFFF29.04.21 AtlasLoot Sirus|r";
+ATLASLOOT_VERSION = "|cffFFFFFF03.07.21 AtlasLoot Sirus|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_CURRENT_ATLAS = {"1.16.1", "1.16.0"};
 ATLASLOOT_PREVIEW_ATLAS = {"1.17.0", "1.16.2"};
@@ -584,7 +584,7 @@ local x4 = "Algalon x4 - 3.3.5a"
 		NormalID = dataID
 		if englishFaction == "Horde" and dataSource[NormalID.."_H"] then
 			NormalID = NormalID.."_H"
-		elseif englishFaction ~= "Horde" and dataSource[NormalID.."_A"] then
+		elseif englishFaction == "Alliance" and dataSource[NormalID.."_A"] then
 			NormalID = NormalID.."_A"
 		end
 	end
