@@ -620,6 +620,9 @@ elseif GAME_LOCALE == "ruRU" then
 	["Winterfin Retreat"] = "Холодный Плавник",
 	["Wintersaber Trainers"] = "Укротители ледопардов",
 	["Zandalar Tribe"] = "Племя Зандалар",
+	Korkron_Battalion = "Батальон Кор'крона",
+	Seventh_Legion = "Седьмой легион",
+	Golden_Scorpid = "Золотой Скорпид",
 }
 elseif GAME_LOCALE == "zhCN" then
 	lib:SetCurrentTranslations {
