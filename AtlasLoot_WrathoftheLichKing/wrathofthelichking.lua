@@ -3459,8 +3459,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 	};
 
 
-
-
 		-----------------
 		--- Naxxramas ---
 		-----------------
