@@ -6,7 +6,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["REPMENU"] = {
 		{ 2, "REPMENU_ORIGINALWOW", "Achievement_Dungeon_BlackwingDescent_RAID_Nefarian.blp", "=ds="..AL["Factions - Original WoW"], ""};
-		{ 4, "REPMENU_Sirus", "Achievement_General_RaidRepresentation.blp", "=ds="..AL["Factions - Sirus"], ""};
+		{ 4, "REPMENU_Sirus_FHorde", "Achievement_General_RaidRepresentation.blp", "=ds="..AL["Factions - Sirus"], ""};
 		{ 17, "REPMENU_BURNINGCRUSADE", "ability_demonhunter_eyeofleotheras.blp", "=ds="..AL["Factions - Burning Crusade"], ""};
 		{ 19, "REPMENU_WOTLK", "ExpansionIcon_WrathoftheLichKing.blp", "=ds="..AL["Factions - Wrath of the Lich King"], ""};
 
@@ -83,17 +83,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 22, "AshenVerdict", "INV_Jewelry_Ring_85", "=ds="..BabbleFaction["The Ashen Verdict"], "=q5="..BabbleZone["Icecrown"]};
 		Back = "REPMENU";
 	};
-	AtlasLoot_Data["REPMENU_Sirus_A"] = {
+	AtlasLoot_Data["REPMENU_Sirus_FAlliance"] = {
 			{ 2, "Seventh_Legion_x2", "achievement_zone_tolbarad", "=ds=Седьмой легион", "=q5=Тол'Гарод" };
 
 	Back = "REPMENU";
 	}
-	AtlasLoot_Data["REPMENU_Sirus_H"] = {
+	AtlasLoot_Data["REPMENU_Sirus_FHorde"] = {
 			{ 2, "Kor'kron_Battalion_x2", "achievement_zone_tolbarad", "=ds=Батальон Кор'крона", "=q5=Тол'Гарод"};
 
 	Back = "REPMENU";
 	}
-	AtlasLoot_Data["REPMENU_Sirus"] = {
+	AtlasLoot_Data["REPMENU_Sirus_FRenegade"] = {
 			{ 2, "Golden_Scorpid_x2", "achievement_zone_tolbarad", "=ds=Золотой Скорпид", "=q5=Тол'Гарод"};
 
 	Back = "REPMENU";

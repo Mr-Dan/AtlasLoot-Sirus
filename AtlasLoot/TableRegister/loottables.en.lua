@@ -2305,9 +2305,10 @@ end
 	AtlasLoot_TableNames["REPMENU_ORIGINALWOW"] = { AL["Factions - Original WoW"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_BURNINGCRUSADE"] = { AL["Factions - Burning Crusade"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_WOTLK"] = { AL["Factions - Wrath of the Lich King"], "Menu" };
+	AtlasLoot_TableNames["REPMENU_Sirus_FRenegade"] = { AL["Factions - Sirus"], "Menu" };
+	AtlasLoot_TableNames["REPMENU_Sirus_FAlliance"] = { AL["Factions - Sirus"], "Menu" };
+	AtlasLoot_TableNames["REPMENU_Sirus_FHorde"] = { AL["Factions - Sirus"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_Sirus"] = { AL["Factions - Sirus"], "Menu" };
-	AtlasLoot_TableNames["REPMENU_Sirus_A"] = { AL["Factions - Sirus"], "Menu" };
-	AtlasLoot_TableNames["REPMENU_Sirus_H"] = { AL["Factions - Sirus"], "Menu" };
 
 	AtlasLoot_TableNames["REPMENU"] = { AL["Factions"], "Menu" };
 	AtlasLoot_TableNames["SETMENU"] = { AL["Collections"], "Menu" };

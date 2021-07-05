@@ -550,7 +550,7 @@ Set up checks to see if we have a heroic loot table or not.
 Returns: HeroicCheck, HeroicdataID, NonHeroicdataID, BigraidCheck, BigraiddataID, SmallraiddataID, heroname
 ]]
 function AtlasLoot_GetLoottableHeroic(dataID)
-	local NormalID, HeroicID, Normal25ID, Heroic25ID,realmID = nil,nil,nil,nil,nil
+	local NormalID, HeroicID, Normal25ID, Heroic25ID,realmID,FactionID = nil,nil,nil,nil,nil,nil
 	local dataSource = AtlasLoot_Data
 	local englishFaction = UnitFactionGroup("player")
 	local realm = GetRealmName();
@@ -561,6 +561,9 @@ local x4 = "Algalon x4 - 3.3.5a"
 	-- remove all Heroic etc infos from the dataID**
 	dataID = gsub(dataID, "_H", "")				-- Horde
 	dataID = gsub(dataID, "_A", "")				-- Alliance
+	dataID = gsub(dataID, "_FHorde", "")		-- Faction Horde
+	dataID = gsub(dataID, "_FAlliance", "")		-- Faction Alliance
+	dataID = gsub(dataID, "_FRenegade", "")		-- Faction Renegade
 	dataID = gsub(dataID, "HEROIC", "")			-- Hero Table (10)
 	dataID = gsub(dataID, "25Man", "")			-- 25 Man Table
 	dataID = gsub(dataID, "25ManHEROIC", "")	-- Heroic Table (25)
@@ -582,10 +585,22 @@ local x4 = "Algalon x4 - 3.3.5a"
 	
 	if dataSource[dataID] or dataSource[dataID.."_H"] or dataSource[dataID.."_A"] then
 		NormalID = dataID
-		if englishFaction == "Horde" and dataSource[NormalID.."_H"] then
-			NormalID = NormalID.."_H"
-		elseif englishFaction == "Alliance" and dataSource[NormalID.."_A"] then
+		if englishFaction == "Alliance" and dataSource[NormalID.."_A"] then
 			NormalID = NormalID.."_A"
+		elseif englishFaction ~= "Alliance" and dataSource[NormalID.."_H"] then
+			NormalID = NormalID.."_H"
+		end
+	end
+	
+	
+	if dataSource[dataID] or dataSource[dataID.."_FHorde"] or dataSource[dataID.."_FAlliance"] or dataSource[dataID.."_FRenegade"]then
+		FactionID = dataID
+		if englishFaction == "Horde" and dataSource[FactionID.."_FHorde"] then
+			FactionID = FactionID.."_FHorde"
+		elseif englishFaction == "Alliance" and dataSource[FactionID.."_FAlliance"] then
+			FactionID = FactionID.."_FAlliance"
+		elseif englishFaction == "Renegade" and dataSource[FactionID.."_FRenegade"] then
+			FactionID = FactionID.."_FRenegade"
 		end
 	end
 	
@@ -614,7 +629,7 @@ local x4 = "Algalon x4 - 3.3.5a"
 		end
 	end
 
-	return NormalID, HeroicID, Normal25ID, Heroic25ID,realmID
+	return NormalID, HeroicID, Normal25ID, Heroic25ID,realmID,FactionID
 end
 
 --[[
@@ -676,7 +691,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
     end
 
 	--Set up checks to see if we have a heroic loot table or not
-	local NormalID, HeroicID, Normal25ID, Heroic25ID,realmID = AtlasLoot_GetLoottableHeroic(dataID)
+	local NormalID, HeroicID, Normal25ID, Heroic25ID,realmID,FactionID = AtlasLoot_GetLoottableHeroic(dataID)
 	if AtlasLoot.db.profile.HeroicMode and HeroicID then
 		dataID = HeroicID
 	elseif AtlasLoot.db.profile.Bigraid and Normal25ID then
@@ -701,7 +716,9 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				AtlasLoot.db.profile.BigraidHeroic = true
 				AtlasLoot.db.profile.HeroicMode = false
 			elseif realmID then
-			dataID = realmID
+				dataID = realmID		
+			elseif FactionID then
+				dataID = FactionID		
 			end
 		else
 			dataID = NormalID
