@@ -14,6 +14,7 @@ AtlasLootVersionsList[11] = "25.03.21"
 AtlasLootVersionsList[12] = "10.04.21"
 AtlasLootVersionsList[13] = "29.04.21"
 AtlasLootVersionsList[14] = "3.07.21"
+AtlasLootVersionsList[15] = "5.09.21"
 
 
 local GREY = "|cff999999";
@@ -166,12 +167,20 @@ text:SetText(WHITE..
 "- Добавлен остров Тол'Гарод.".."\n\n"..
 "- Исправлен лут с Ульдуар 25 гер.".."\n\n"
 )
+elseif x == 15 then
+text:SetText(WHITE..
+"- Добавлен а11 pvp шмот".."\n\n"..
+"- Обновлены цены для актуального pvp шмота для х2 и х4 ".."\n\n"..
+"- Добавлены недостающие предметы с острова Тол'Гарод".."\n\n"..
+"- Добавлены предметы с острова Кель'Данас (x4)".."\n\n"..
+"- Мелкие добавления недостающих предметов ".."\n\n"
+)
 end
 end
 
-AtlasLootChangelogText(14)
+AtlasLootChangelogText(15)
 
-local chooseversion = "03.07.21"
+local chooseversion = "05.09.21"
 
 local dropDown = CreateFrame("FRAME", "ChangelogDropDown", AtlasLoot_ChangelogFrame, "UIDropDownMenuTemplate")
 dropDown:SetPoint("TOP", 10, -10)
