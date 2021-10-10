@@ -3048,7 +3048,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 ----------------
 ---Heroic 10----
 ----------------
-
+--[[
 AtlasLoot_Data["VaultofArchavonElem1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 2, 51280, "", "=q4=Sanctified Bloodmage Gauntlets", "=ds=#s9#, #a1#"};
@@ -3456,7 +3456,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 27, 73488, "", "=q4=Cataclysmic Gladiator's Signet of Accuracy", "=ds=#s13#"};
 		{ 28, 73622, "", "=q4=Cataclysmic Gladiator's Band of Accuracy", "=ds=#s13#"};
 		Prev = "VaultofArchavonElem725Man";
-	};
+	};]]
 
 
 		-----------------
@@ -4302,7 +4302,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarLeviathan25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45117, "", "=q4=Constructor's Handwraps", "=ds=#s9#, #a1#", "", "19%"};
 		{ 5, 45119, "", "=q4=Embrace of the Leviathan", "=ds=#s10#, #a1#", "", "20%"};
 		{ 6, 45108, "", "=q4=Mechanist's Bindings", "=ds=#s8#, #a2#", "", "19%"};
@@ -4346,7 +4346,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarIgnis25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45186, "", "=q4=Soot-Covered Mantle", "=ds=#s3#, #a1#", "", "18%"};
 		{ 5, 45185, "", "=q4=Flamewrought Cinch", "=ds=#s10#, #a2#", "", "20%"};
 		{ 6, 45162, "", "=q4=Flamestalker Boots", "=ds=#s12#, #a2#", "", "18%"};
@@ -4384,7 +4384,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarRazorscale25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45138, "", "=q4=Drape of the Drakerider", "=ds=#s4#", "", "20%"};
 		{ 5, 45150, "", "=q4=Collar of the Wyrmhunter", "=ds=#s1#, #a1#", "", "20%"};
 		{ 6, 45146, "", "=q4=Shackles of the Odalisque", "=ds=#s8#, #a1#", "", "20%"};
@@ -4427,7 +4427,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarDeconstructor25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45253, "", "=q4=Mantle of Wavering Calm", "=ds=#s3#, #a1#", "", "19%"};
 		{ 5, 45258, "", "=q4=Sandals of Rash Temperament", "=ds=#s12#, #a1#", "", "19%"};
 		{ 6, 45260, "", "=q4=Boots of Hasty Revival", "=ds=#s12#, #a2#", "", "21%"};
@@ -4477,7 +4477,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarIronCouncil25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45224, "", "=q4=Drape of the Lithe", "=ds=#s4#", "", "19%"};
 		{ 5, 45240, "", "=q4=Raiments of the Iron Council", "=ds=#s5#, #a1#", "", "24%"};
 		{ 6, 45238, "", "=q4=Overload Legwraps", "=ds=#s11#, #a1#", "", "20%"};
@@ -4522,7 +4522,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarKologarn25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45272, "", "=q4=Robes of the Umbral Brute", "=ds=#s5#, #a1#", "", "20%"};
 		{ 5, 45275, "", "=q4=Bracers of Unleashed Magic", "=ds=#s8#, #a1#", "", "18%"};
 		{ 6, 45273, "", "=q4=Handwraps of Plentiful Recovery", "=ds=#s9#, #a1#", "", "18%"};
@@ -4561,7 +4561,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarAuriaya25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45319, "", "=q4=Cloak of the Makers", "=ds=#s4#", "", "19%"};
 		{ 5, 45435, "", "=q4=Cowl of the Absolute", "=ds=#s1#, #a1#", "", "19%"};
 		{ 6, 45441, "", "=q4=Sandals of the Ancient Keeper", "=ds=#s12#, #a1#", "", "20%"};
@@ -4603,7 +4603,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarHodir25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45453, "", "=q4=Winter's Icy Embrace", "=ds=#s5#, #a2#", "", "16%"};
 		{ 5, 45454, "", "=q4=Frost-bound Chain Bracers", "=ds=#s8#, #a3#", "", "18%"};
 		{ 6, 45452, "", "=q4=Frostplate Greaves", "=ds=#s11#, #a4#", "", "16%"};
@@ -4646,7 +4646,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarThorim25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45468, "", "=q4=Leggings of Lost Love", "=ds=#s11#, #a1#", "", "17%"};
 		{ 5, 45467, "", "=q4=Belt of the Betrayed", "=ds=#s10#, #a3#", "", "17%"};
 		{ 6, 45469, "", "=q4=Sif's Promise", "=ds=#s13#", "", "14%"};
@@ -4690,7 +4690,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarFreya25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45483, "", "=q4=Boots of the Servant", "=ds=#s12#, #a1#", "", "15%"};
 		{ 5, 45482, "", "=q4=Leggings of the Lifetender", "=ds=#s11#, #a2#", "", "17%"};
 		{ 6, 45481, "", "=q4=Gauntlets of Ruthless Reprisal", "=ds=#s9#, #a4#", "", "16%"};
@@ -4734,7 +4734,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarMimiron25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45493, "", "=q4=Asimov's Drape", "=ds=#s4#", "", "11%"};
 		{ 5, 45492, "", "=q4=Malleable Steelweave Mantle", "=ds=#s3#, #a2#", "", "25%"};
 		{ 6, 45491, "", "=q4=Waistguard of the Creator", "=ds=#s10#, #a2#", "", "17%"};
@@ -4779,7 +4779,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarVezax25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45514, "", "=q4=Mantle of the Unknowing", "=ds=#s3#, #a1#", "", "20%"};
 		{ 5, 45508, "", "=q4=Belt of the Darkspeaker", "=ds=#s10#, #a1#", "", "21%"};
 		{ 6, 45512, "", "=q4=Grips of the Unbroken", "=ds=#s9#, #a2#", "", "19%"};
@@ -4833,7 +4833,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarYoggSaron25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 		{ 4, 45529, "", "=q4=Shawl of Haunted Memories", "=ds=#s4#", "", "25%"};
 		{ 5, 45532, "", "=q4=Cowl of Dark Whispers", "=ds=#s1#, #a1#", "", "17%"};
 		{ 6, 45523, "", "=q4=Garona's Guise", "=ds=#s1#, #a2#", "", "18%"};
@@ -4996,7 +4996,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarLeviathan25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151272, "", "=q4=Constructor's Handwraps", "=ds=#s9#, #a1#", "", "19%"};
 		{ 5, 151232, "", "=q4=Embrace of the Leviathan", "=ds=#s10#, #a1#", "", "20%"};
@@ -5045,7 +5045,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarIgnis25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151215, "", "=q4=Soot-Covered Mantle", "=ds=#s3#, #a1#", "", "18%"};
 		{ 5, 151234, "", "=q4=Flamewrought Cinch", "=ds=#s10#, #a2#", "", "20%"};
@@ -5084,7 +5084,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarRazorscale25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151305, "", "=q4=Drape of the Drakerider", "=ds=#s4#", "", "20%"};
 		{ 5, 151200, "", "=q4=Collar of the Wyrmhunter", "=ds=#s1#, #a1#", "", "20%"};
@@ -5132,7 +5132,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarDeconstructor25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151216, "", "=q4=Mantle of Wavering Calm", "=ds=#s3#, #a1#", "", "19%"};
 		{ 5, 151251, "", "=q4=Sandals of Rash Temperament", "=ds=#s12#, #a1#", "", "19%"};
@@ -5187,7 +5187,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarIronCouncil25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151306, "", "=q4=Drape of the Lithe", "=ds=#s4#", "", "19%"};
 		{ 5, 151310, "", "=q4=Raiments of the Iron Council", "=ds=#s5#, #a1#", "", "24%"};
@@ -5234,7 +5234,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarKologarn25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151311, "", "=q4=Robes of the Umbral Brute", "=ds=#s5#, #a1#", "", "20%"};
 		{ 5, 151263, "", "=q4=Bracers of Unleashed Magic", "=ds=#s8#, #a1#", "", "18%"};
@@ -5273,7 +5273,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarAuriaya25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151307, "", "=q4=Cloak of the Makers", "=ds=#s4#", "", "19%"};
 		{ 5, 151201, "", "=q4=Cowl of the Absolute", "=ds=#s1#, #a1#", "", "19%"};
@@ -5322,7 +5322,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarHodir25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151225, "", "=q4=Winter's Icy Embrace", "=ds=#s5#, #a2#", "", "16%"};
 		{ 5, 151267, "", "=q4=Frost-bound Chain Bracers", "=ds=#s8#, #a3#", "", "18%"};
@@ -5380,7 +5380,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarThorim25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151242, "", "=q4=Leggings of Lost Love", "=ds=#s11#, #a1#", "", "17%"};
 		{ 5, 151237, "", "=q4=Belt of the Betrayed", "=ds=#s10#, #a3#", "", "17%"};
@@ -5439,7 +5439,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarFreya25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151253, "", "=q4=Boots of the Servant", "=ds=#s12#, #a1#", "", "15%"};
 		{ 5, 151244, "", "=q4=Leggings of the Lifetender", "=ds=#s11#, #a2#", "", "17%"};
@@ -5497,7 +5497,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 	};
 	AtlasLoot_Data["UlduarMimiron25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151308, "", "=q4=Asimov's Drape", "=ds=#s4#", "", "11%"};
 		{ 5, 151219, "", "=q4=Malleable Steelweave Mantle", "=ds=#s3#, #a2#", "", "25%"};
@@ -5614,7 +5614,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarYoggSaron25ManHEROIC"] = {
 		{ 1, 45897, "", "=q5=Перекованный молот древних королей", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151309, "", "=q4=Shawl of Haunted Memories", "=ds=#s4#", "", "25%"};
 		{ 5, 151202, "", "=q4=Cowl of Dark Whispers", "=ds=#s1#, #a1#", "", "17%"};
@@ -5671,7 +5671,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarAlgalon25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
+		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
 		
 		{ 4, 151370, "", "=q4=Pharos Gloves", "=ds=#s9#, #a1#", "", "40%"};
 		{ 5, 151354, "", "=q4=Starwatcher's Binding", "=ds=#s10#, #a1#", "", ""};

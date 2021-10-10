@@ -270,14 +270,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 33862, "", "=q1=Brewfest Regalia", "=ds=#s5#, 200 #brewfest#"};
 		{ 9, 33868, "", "=q1=Brewfest Boots", "=ds=#s12#, 100 #brewfest#"};
 		{ 10, 33966, "", "=q1=Brewfest Slippers", "=ds=#s12#, 100 #brewfest#"};
-		{ 16, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#, 100 #brewfest#"};
-		{ 17, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#, 100 #brewfest#"};
-		{ 18, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#, 40 #silver#"};
-		{ 19, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#, 200 #brewfest#"};
-		{ 21, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#, 20 #brewfest#"};
-		{ 22, 37750, "", "=q1=Fresh Brewfest Hops", "=ds=#m20#, 2 #brewfest#"};
-		{ 23, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ec1=#m6# =ds=#m20#, 5 #brewfest#"};
-		{ 24, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ec1=#m7# =ds=#m20#, 5 #brewfest#"};
+		{ 16, 155759, "", "=q3=Поводья рабочей лошадки Хмельного Фестиваля", "=ds=#m20#, 150 #brewfest#"};
+		{ 17, 153463, "", "=q3=Темный хмелементаль", "=ds=#m20#, 150 #brewfest#"};
+		{ 18, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#, 100 #brewfest#"};
+		{ 19, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#, 100 #brewfest#"};
+		{ 20, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#, 40 #silver#"};
+		{ 21, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#, 200 #brewfest#"};
+		{ 22, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#, 20 #brewfest#"};
+		{ 23, 37750, "", "=q1=Fresh Brewfest Hops", "=ds=#m20#, 2 #brewfest#"};
+		{ 24, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ec1=#m6# =ds=#m20#, 5 #brewfest#"};
+		{ 25, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ec1=#m7# =ds=#m20#, 5 #brewfest#"};
 		{ 27, 37829, "", "=q2=Brewfest Prize Token", "=ds=#m17#"};
 		Next = "Brewfest2";
 		Back = "WORLDEVENTMENU";
@@ -848,7 +850,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		----------------------
 
 	AtlasLoot_Data["Darkmoon1"] = {
-		{ 1, 19491, "", "=q4=Amulet of the Darkmoon", "=ds=#s2#", "1200 #darkmoon#", ""};
+		--[[{ 1, 19491, "", "=q4=Amulet of the Darkmoon", "=ds=#s2#", "1200 #darkmoon#", ""};
 		{ 2, 19426, "", "=q4=Orb of the Darkmoon", "=ds=#s2#", "1200 #darkmoon#", ""};
 		{ 3, 19296, "", "=q2=Greater Darkmoon Prize", "40 #darkmoon#"};
 		{ 4, 19297, "", "=q2=Lesser Darkmoon Prize", "12 #darkmoon#"};
@@ -860,10 +862,20 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 10, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#", "5 #darkmoon#", ""};
 		{ 12, 19182, "", "=q1=Darkmoon Faire Prize Ticket", "=ds=#m17#"};
 		{ 16, 19302, "", "=q3=Darkmoon Ring", "=ds=#s13#"};
-		{ 17, 19303, "", "=q2=Darkmoon Necklace", "=ds=#s2#"};
-		{ 19, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
-		{ 20, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
-		{ 21, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};
+		{ 17, 19303, "", "=q2=Darkmoon Necklace", "=ds=#s2#"};]]		
+		{ 1, 19491, "", "=q4=Amulet of the Darkmoon", "=ds=#s2#", "1200 #darkmoon#", ""};
+		{ 2, 19426, "", "=q4=Orb of the Darkmoon", "=ds=#s2#", "1200 #darkmoon#", ""};	
+		{ 3, 34499, "", "=q2=Складной бумажный ветролет", "1000 #darkmoon#"};
+		{ 4, 32465, "", "=q1=Счастливая Монета", "=ds=#h1#, #w6#", "1000 #darkmoon#", ""};
+		{ 5, 34187, "", "=q1=Драконий череп", "500 #darkmoon#"};
+		{ 6, 53880, "", "=q1=Супердевчачья рубашка", "=ds=#p5# (275)", "500 #darkmoon#", ""};
+		{ 7, 26045, "", "=q1=Боевой знак Халаа", "=ds=", "100 #darkmoon#", ""};
+		{ 8, 22729, "", "=q2=Схема: пульт управления паровым танком", "40 #darkmoon#"};
+		{ 9, 45047, "", "=q1=Тигр-качалка", "=ds=#h1#, #w6#", "10 #darkmoon#", ""};
+		{ 11, 19182, "", "=q1=Darkmoon Faire Prize Ticket", "=ds=#m17#"};---
+		{ 16, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
+		{ 17, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
+		{ 18, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};
 		Next = "Darkmoon2";
 		Back = "DARKMOONMENU";
 	};
