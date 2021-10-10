@@ -556,7 +556,7 @@ if AL then
 	AL["Book of Glyph Mastery"] = "Книга познания символов";
 
     -- Leatherworking
-    AL["Leather Armor"] = "Кожанная броня";
+    AL["Leather Armor"] = "Кожаная броня";
     AL["Mail Armor"] = "Кольчужная броня";
     AL["Cloaks"] = "Плащи";
     AL["Item Enhancements"] = "Улучшения";
