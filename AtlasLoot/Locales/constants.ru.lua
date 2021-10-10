@@ -32,7 +32,7 @@ if AL then
     AL["Priority:"] = "Приоритет:";
     AL["Click boss name to view loot."] = "Кликните по имени босса для просмотра трофеев.модификации";
     AL["Various Locations"] = "Разное местонахождение";
-    AL["Minicredit"] = "|cffFFFFFFАдаптация Аддона для Sirus(Днюша).|r";
+    AL["Minicredit"] = "|cffFFFFFFАдаптация Аддона для Sirus(Днюша).|r"; 
     AL["Toggle AL Panel"] = "Перек-тель AL Панели";
     AL["Back"] = "Назад";
     AL["Level 60"] = "Уровень 60";
@@ -104,8 +104,11 @@ if AL then
 	AL["Dalaran"] = "Даларан";
 	AL["nil"] = "|r|cffFFFFFFНет данных";
 	AL["Atal"] = "Всего: ";
-	
-  
+	AL["Ilvl"] = "Ilvl";
+	AL["One-Hand"]="Одноручное оружие";
+    AL["Two-Hand"]="Двуручное оружие";
+    AL["Main Hand"]="Правая рука";
+	AL["Off Hand"]="Левая рука";
 
 	AL["BlackDiamonds"] = "Черные бриллианты";
 	AL["BlackDiamonds2"] = "Алмаз Бездны";
@@ -460,6 +463,7 @@ if AL then
     AL["Select All Loot"] = "Выбрать всю добычу";
     AL["Apply Filter:"] = "Исп. Фильтр:";
 	AL["Armor:"] = "Доспехи";
+	AL["Plate Armor"] = "Латная броня";
 	AL["Melee weapons:"] = "Ближний бой:";
 	AL["Ranged weapons:"] = "Дальний бой:";
 	AL["Relics:"] = "Реликвии:";

@@ -2,6 +2,6 @@
     <Script file="dkp.lua"/>
     <Script file="classpriority.lua"/>
 	    <Script file="AtlasLootFrameLock.lua"/>
-		<Script file="AtlasLootUpdateInfo.lua"/>
+		<Script file="AtlasLootUpdate.lua"/>
 		
 </Ui>

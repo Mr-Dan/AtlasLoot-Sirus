@@ -310,7 +310,7 @@
             </Button>
 			<EditBox name="AtlasLootDefaultFrameSearchBox" inherits="InputBoxTemplate" letters="100">
 				<Size>
-					<AbsDimension x="180" y="32" />
+					<AbsDimension x="168" y="32" />
 				</Size>
 				<Anchors>
 					<Anchor point="BOTTOM" relativeTo="$parent" relativePoint="BOTTOM">
@@ -331,12 +331,38 @@
 				</Scripts>
 				<FontString name="AtlasLootDefaultFrameSearchString" inherits="GameFontNormal"></FontString>
 			</EditBox>
+			<Button name="AtlasLootDefaultFrameSearchButtonFilter" parent="AtlasLootDefaultFrameSearchBox" >
+				<Size>
+					<AbsDimension x="20" y="20"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture file="Interface\Buttons\on"/>
+				<PushedTexture file="Interface\Buttons\click"/>
+				<DisabledTexture file="Interface\Buttons\UI-SpellbookIcon-NextPage-Disabled"/>
+				<HighlightTexture file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD"/>
+				
+				<Scripts>
+					<OnShow>
+						local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");					
+						this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+					</OnShow>
+					<OnClick>
+						AtlasLoot:ShowSearchFilter();
+					</OnClick>
+				</Scripts>
+			</Button>
 			<Button name="AtlasLootDefaultFrameSearchButton" inherits="UIPanelButtonTemplate2" parent="AtlasLootDefaultFrameSearchBox">
 				<Size>
 					<AbsDimension x="69" y="32"/>
 				</Size>
 				<Anchors>
-					<Anchor point="LEFT" relativePoint="RIGHT">
+					<Anchor point="LEFT" relativeTo="AtlasLootDefaultFrameSearchButtonFilter" relativePoint="RIGHT">
 						<Offset>
 							<AbsDimension x="0" y="0"/>
 						</Offset>
@@ -445,6 +471,286 @@
 					</OnShow>
 				</Scripts>
 			</Button>
+		<Frame name="AtlasLootDefaultFrameFilter" toplevel="true" enableMouse="true" hidden="true" parent="AtlasLootDefaultFrameSearchButtonFilter" enableKeyboard="true">
+		<Size>
+			<AbsDimension x="280" y="135"/>
+		</Size>
+		<Anchors>
+			<Anchor point="RIGHT" relativeTo="AtlasLootDefaultFrameSearchButtonFilter" relativePoint="LEFT"/>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11"/>
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32"/>
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32"/>
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			<CheckButton name="AtlasLootCheckButtonFilterEnable" inherits="OptionsCheckButtonTemplate" checked="false">
+				<Anchors>
+					<Anchor point="TOPLEFT" >
+						<Offset>
+							<AbsDimension x="10" y="-5"></AbsDimension>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+                    <OnShow>
+		                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+	                </OnShow>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Filter"]);
+					</OnLoad>
+					<OnClick>
+						
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="AtlasLootCheckButtonCloth" inherits="OptionsCheckButtonTemplate" checked="false">
+				<Anchors>
+					<Anchor point="TOPLEFT" >
+						<Offset>
+							<AbsDimension x="10" y="-25"></AbsDimension>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+                    <OnShow>
+		                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+	                </OnShow>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Cloth Armor"]);
+					</OnLoad>
+					<OnClick>
+						
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="AtlasLootCheckButtonLeather" inherits="OptionsCheckButtonTemplate" checked="false">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="10" y="-45"></AbsDimension>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+                    <OnShow>
+		                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+	                </OnShow>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Leather Armor"]);
+					</OnLoad>
+					<OnClick>
+						
+					</OnClick>
+				</Scripts>
+		</CheckButton>
+			<CheckButton name="AtlasLootCheckButtonMail" inherits="OptionsCheckButtonTemplate" checked="false">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="10" y="-65"></AbsDimension>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+                    <OnShow>
+		                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+	                </OnShow>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Mail Armor"]);
+					</OnLoad>
+					<OnClick>
+						
+					</OnClick>
+				</Scripts>
+		</CheckButton>
+			<CheckButton name="AtlasLootCheckButtonPlate" inherits="OptionsCheckButtonTemplate" checked="false">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="10" y="-85"></AbsDimension>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+                    <OnShow>
+		                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+	                </OnShow>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Plate Armor"]);
+					</OnLoad>
+					<OnClick>
+						
+					</OnClick>
+				</Scripts>
+		</CheckButton>
+				<CheckButton name="AtlasLootCheckButtonWeapon" inherits="OptionsCheckButtonTemplate" checked="false">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="130" y="-25"></AbsDimension>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+                    <OnShow>
+		                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+	                </OnShow>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["One-Hand"]);
+					</OnLoad>
+					<OnClick>
+						
+					</OnClick>
+				</Scripts>
+		</CheckButton>
+		<CheckButton name="AtlasLootCheckButton2Weapon" inherits="OptionsCheckButtonTemplate" checked="false">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="130" y="-45"></AbsDimension>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+                    <OnShow>
+		                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+	                </OnShow>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Two-Hand"]);
+					</OnLoad>
+					<OnClick>
+						
+					</OnClick>
+				</Scripts>
+		</CheckButton>
+		<CheckButton name="AtlasLootCheckButtonMainHand" inherits="OptionsCheckButtonTemplate" checked="false">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="130" y="-65"></AbsDimension>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+                    <OnShow>
+		                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+	                </OnShow>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Main Hand"]);
+					</OnLoad>
+					<OnClick>
+						
+					</OnClick>
+				</Scripts>
+		</CheckButton>
+		<CheckButton name="AtlasLootCheckButtonOffHand" inherits="OptionsCheckButtonTemplate" checked="false">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="130" y="-85"></AbsDimension>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+                    <OnShow>
+		                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+	                </OnShow>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Off Hand"]);
+					</OnLoad>
+					<OnClick>
+						
+					</OnClick>
+				</Scripts>
+		</CheckButton>
+			<EditBox name="AtlasLootDefaultFrameFilterBoxIlvlFrom" inherits="InputBoxTemplate" letters="3">
+				<Size>
+					<AbsDimension x="35" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="50" y="-105"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						this:SetAutoFocus(false);
+						this:SetTextInsets(0, 8, 0, 0);
+						
+					</OnLoad>
+					<OnEnterPressed>
+						
+						this:ClearFocus();
+					</OnEnterPressed>
+				</Scripts>
+				<FontString name="AtlasLootDefaultFrameSearchString" inherits="GameFontNormal"></FontString>
+			</EditBox>
+			<EditBox name="AtlasLootDefaultFrameFilterBoxIlvlBefore" inherits="InputBoxTemplate" letters="3">
+				<Size>
+					<AbsDimension x="35" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="105" y="-105"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						this:SetAutoFocus(false);
+						this:SetTextInsets(0, 8, 0, 0);
+						
+					</OnLoad>
+					<OnEnterPressed>
+						
+						this:ClearFocus();
+					</OnEnterPressed>
+				</Scripts>
+				<FontString name="AtlasLootDefaultFrameSearchString" inherits="GameFontNormal"></FontString>
+			</EditBox>
+			</Frames>
+		<Layers>
+			<Layer level="ARTWORK">
+			<FontString inherits="GameFontNormal" text="Ilvl от">
+					<Anchors>
+						<Anchor point="TOPLEFT" >
+							<Offset>
+								<AbsDimension x="15" y="-110"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+			</FontString>
+			<FontString inherits="GameFontNormal" text="до">
+					<Anchors>
+						<Anchor point="TOPLEFT" >
+							<Offset>
+								<AbsDimension x="85" y="-110"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+			</FontString>
+				</Layer>
+		</Layers>			
+	</Frame>	
 		</Frames>
 		<Layers>
 			<Layer level="ARTWORK">
