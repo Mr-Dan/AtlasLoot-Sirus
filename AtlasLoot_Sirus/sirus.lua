@@ -2783,37 +2783,4 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	
 	
 	
-function AtlasLootLastLootUpdate()
-		AtlasLoot_Data["LastLootedItems"] = {
-		Back = "KATEGORIAMENU";
-		Next = "LastLootedItems2";
-	};
-	
-		AtlasLoot_Data["LastLootedItems2"] = {
-		Back = "KATEGORIAMENU";
-		Prev = "LastLootedItems";
-	};
 
-if (AtlasLootLogItemsMod ~= nil) then	
-
-if #LootLog < 31 then
-for i=1, #LootLog do
-table.insert(AtlasLoot_Data["LastLootedItems"], { i, LootLog[i].Id, "", "=q6="..LootLog[i].Name, LootLog[i].Quantity.." ("..LootLog[i].Date.." )"})
-end
-
-else
-for i=1, 30 do
-table.insert(AtlasLoot_Data["LastLootedItems"], { i, LootLog[i].Id, "", "=q6="..LootLog[i].Name, LootLog[i].Quantity.." ("..LootLog[i].Date.." )"})
-end
-
-for i=31, #LootLog do
-table.insert(AtlasLoot_Data["LastLootedItems2"], { i-30, LootLog[i].Id, "", "=q6="..LootLog[i].Name, LootLog[i].Quantity.." ("..LootLog[i].Date.." )"})
-end
-
-
-end -- if lootlog
-end -- if mod
-
-end -- func
-
-AtlasLootLastLootUpdate()
