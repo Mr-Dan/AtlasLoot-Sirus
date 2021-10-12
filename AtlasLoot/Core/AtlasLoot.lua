@@ -482,25 +482,12 @@ function AtlasLoot_SlashCommand(msg)
 	elseif msg == AL["options"] then
 		AtlasLootOptions_Toggle();
 	else
-if (AtlasLootFrameLockMod ~= nil) then
-if ((AtlasLootFrameLockPos[1] == nil and AtlasLootFrameLockPos[2] == nil) or (AtlasLootFrameLock[1] == 0)) then
-AtlasLootDefaultFrame:ClearAllPoints();
-AtlasLootDefaultFrame:SetPoint("CENTER")
-end
-end
-
-if (AtlasLootRouletteStatMod ~= nil) then
-	AtlasLootRoulettePrintF()
-if((AtlasLoot_Data["MillenniumRouletteStat"] ~= nil)) then
-	AtlasLootUpdateRoulette()
-end
-end
-
-if (AtlasLootLogItemsMod ~= nil) then
-if((AtlasLoot_Data["LastLootedItems"] ~= nil)) then
-AtlasLootLastLootUpdate()
-end
-end
+	if (AtlasLootFrameLockMod ~= nil) then
+		if ((AtlasLootFrameLockPos[1] == nil and AtlasLootFrameLockPos[2] == nil) or (AtlasLootFrameLock[1] == 0)) then
+			AtlasLootDefaultFrame:ClearAllPoints();
+			AtlasLootDefaultFrame:SetPoint("CENTER")
+		end
+	end
 
 	AtlasLootDefaultFrame:Show();
 	end

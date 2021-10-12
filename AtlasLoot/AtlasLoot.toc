@@ -24,8 +24,8 @@
 ## RealTitle-zhCN: [地图]副本掉落物品查询
 ## RealTitle-zhTW: [地圖]AL 物品掉落[主程式]
 ## Notes-ruRU: Отображает всю возможную добычу и даже больше!
-## SavedVariables: AtlasLootOptions, AtlasLootDB, AtlasLootWishList, AtlasLootFrameLock, AtlasLootFrameLockPos, AtlasLootModsEditBox, LootLogFilter
-## SavedVariablesPerCharacter: AtlasLootCharDB, AtlasLootFilterDB, AtlasLootRoulettePrizeCount, AtlasLootRouletteCount, LootLog
+## SavedVariables: AtlasLootOptions, AtlasLootDB, AtlasLootWishList, AtlasLootFrameLock, AtlasLootFrameLockPos,AtlasLootNeedUprate
+## SavedVariablesPerCharacter: AtlasLootCharDB, AtlasLootFilterDB
 ## OptionalDeps: Alphamap, LootLink, ItemSync, DewdropLib, FuBarPlugin-3.0, FuBar, Ace3, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-Inventory-3.0, LibBabble-Zone-3.0
 ## X-Curse-Packaged-Version: 02.01.20 от Copperfield, Sanguinius,Mysterium,Днюша
 ## X-Curse-Project-Name: Atlasloot Enhanced
