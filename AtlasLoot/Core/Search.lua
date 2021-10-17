@@ -322,7 +322,7 @@ function AtlasLoot:SearchCastom(Text)
 	elseif   string.find(string.lower("Запястья"), Text) then
 		Text = "INVTYPE_WRIST"
 		EquipType = true
-	elseif   string.find(string.lower("Руки"), Text) then
+	elseif   string.find(string.lower("Руки"), Text) or string.find(string.lower("Кисти рук"), Text) then
 		Text = "INVTYPE_HAND"
 		EquipType = true
 	elseif   string.find(string.lower("Пояс"), Text) then
