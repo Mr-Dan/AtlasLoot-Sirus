@@ -483,12 +483,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 18632, "", "=q1=Moonbrook Riot Taffy", "=ds=#e3#"};
 		{ 7, 18635, "", "=q1=Bellara's Nutterbar", "=ds=#e3#"};
 		{ 8, 20557, "", "=q1=Hallow's End Pumpkin Treat", "=ds=#m20#"};
-		{ 10, 0, "inv_gauntlets_06", "=q6=#x40#", ""};
-		{ 11, 37585, "", "=q3=Chewy Fel Taffy", "=ds=#m20#"};
-		{ 12, 37583, "", "=q3=G.N.E.R.D.S.", "=ds=#m20#"};
-		{ 13, 37582, "", "=q1=Pyroblast Cinnamon Ball", "=ds=#m20#"};
-		{ 14, 37584, "", "=q1=Soothing Spearmint Candy", "=ds=#m20#"};
-		{ 15, 155710, "", "=q6=Поводья Восставшего змея Тыквовина", "#e12#"};
+		{ 9, 0, "inv_gauntlets_06", "=q6=#x40#", ""};
+		{ 10, 37585, "", "=q3=Chewy Fel Taffy", "=ds=#m20#"};
+		{ 11, 37583, "", "=q3=G.N.E.R.D.S.", "=ds=#m20#"};
+		{ 12, 37582, "", "=q1=Pyroblast Cinnamon Ball", "=ds=#m20#"};
+		{ 13, 37584, "", "=q1=Soothing Spearmint Candy", "=ds=#m20#"};
+		{ 14, 155710, "", "=q6=Поводья Восставшего змея Тыквовина", "#e12#"};
+		{ 15, 153116, "", "=q6=Дрожарик", "#e13#"};
 		{ 16, 0, "INV_Misc_Bag_11", "=q6=#x18#", ""};
 		{ 17, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#"};
 		{ 18, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#"};
@@ -543,9 +544,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 34068, "", "=q1=Weighted Jack-o'-Lantern", "=ds=#m20#", "", "100%"};
 		{ 8, 33226, "", "=q1=Tricky Treat", "=ds=#m20#"};
 		{ 16, 37012, "", "=q4=The Horseman's Reins", "=ds=#e12#"};
-		{ 17, 37011, "", "=q3=Magic Broom", "=ds=#e12#"};
-		{ 18, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#"};
-		{ 19, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#"};
+		{ 17, 155818, "", "=q3=Метла Ведьминого часа", "=ds=#e12#"};
+		{ 18, 37011, "", "=q3=Magic Broom", "=ds=#e12#"};
+		{ 19, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#"};
+		{ 20, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#"};
 		Prev = "Halloween2";
 		Back = "WORLDEVENTMENU";
 	};
@@ -570,18 +572,22 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		--------------------------
 		
 	AtlasLoot_Data["Valentineday"] = {
-		{ 1, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#, 10 #valentineday#"};
-		{ 2, 21815, "", "=q1=Love Token", "=ds=", "=ds=#m20#, 1 #valentineday2#"};
-		{ 3, 50163, "", "=q1=Lovely Rose", "=ds=", "=ds=#m20#, 5 #valentineday#"};
-		{ 4, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#, 2 #valentineday#"};
-		{ 5, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#, 5 #valentineday#"};
-		{ 6, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#, 40 #valentineday#"};
-		{ 7, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#, 2 #valentineday#"};
-		{ 8, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#, 10 #valentineday#"};
-		{ 9, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#, 20 #valentineday#"};
-		{ 10, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#, 20 #valentineday#"};
-		{ 11, 34258, "", "=q1=Love Rocket", "=ds=#e23#, 5 #valentineday#"};
-		{ 12, 22261, "", "=q1=Love Fool", "=ds=#e22#, 10 #valentineday#"};
+	
+		{ 1, 153468, "", "=q3=Стремительная птица любви", "=ds=#e12#, 250 #valentineday#"};
+		{ 2, 153472, "", "=q3=Духи с цветочным ароматом", "=ds=#m20#, 250 #valentineday#"};
+		{ 3, 153332, "", "=q3=Птенец птицы любви", "=ds=#e13#, 40 #valentineday#"};		
+		{ 4, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#, 10 #valentineday#"};
+		{ 5, 21815, "", "=q1=Love Token", "=ds=", "=ds=#m20#, 1 #valentineday2#"};
+		{ 6, 50163, "", "=q1=Lovely Rose", "=ds=", "=ds=#m20#, 5 #valentineday#"};
+		{ 7, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#, 2 #valentineday#"};
+		{ 8, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#, 5 #valentineday#"};
+		{ 9, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#, 40 #valentineday#"};
+		{ 10, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#, 2 #valentineday#"};
+		{ 11, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#, 10 #valentineday#"};
+		{ 12, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#, 20 #valentineday#"};
+		{ 13, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#, 20 #valentineday#"};
+		{ 14, 34258, "", "=q1=Love Rocket", "=ds=#e23#, 5 #valentineday#"};
+		{ 15, 22261, "", "=q1=Love Fool", "=ds=#e22#, 10 #valentineday#"};
 		{ 16, 49859, "", "=q1=\"Bravado\" Cologne", "=ds=#m20#, 1 #valentineday#"};
 		{ 17, 49861, "", "=q1=\"STALWART\" Cologne", "=ds=#m20#, 1 #valentineday#"};
 		{ 18, 49860, "", "=q1=\"Wizardry\" Cologne", "=ds=#m20#, 1 #valentineday#"};
@@ -643,13 +649,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		----------------------
 
 	AtlasLoot_Data["LunarFestival1"] = {
-		{ 1, 21540, "", "=q2=Elune's Lantern", "=q1=#m4#: =ds=#m20#"};
-		{ 3, 21157, "", "=q1=Festive Green Dress", "=ds=#s5#"};
-		{ 4, 21538, "", "=q1=Festive Pink Dress", "=ds=#s5#"};
-		{ 5, 21539, "", "=q1=Festive Purple Dress", "=ds=#s5#"};
-		{ 7, 21541, "", "=q1=Festive Black Pant Suit", "=ds=#s5#"};
-		{ 8, 21544, "", "=q1=Festive Blue Pant Suit", "=ds=#s5#"};
-		{ 9, 21543, "", "=q1=Festive Teal Pant Suit", "=ds=#s5#"};
+	
+		{ 1, 74610, "", "=q2=Лунный фонарик", "=ds=#e13# Альянса, 20 #Coin of Ancestry#"};
+		{ 2, 74611, "", "=q2=Фестивальный фонарик", "=ds=#e13# Орды, 20 #Coin of Ancestry#"};
+		{ 3, 155733, "", "=q2= Портативная Лунная ракета", "=ds=#e12#, 50 #Coin of Ancestry#"};
+		{ 4, 21540, "", "=q2=Elune's Lantern", "=q1=#m4#: =ds=#m20#"};
+		{ 5, 21157, "", "=q1=Festive Green Dress", "=ds=#s5#"};
+		{ 6, 21538, "", "=q1=Festive Pink Dress", "=ds=#s5#"};
+		{ 7, 21539, "", "=q1=Festive Purple Dress", "=ds=#s5#"};
+		{ 8, 21541, "", "=q1=Festive Black Pant Suit", "=ds=#s5#"};
+		{ 9, 21544, "", "=q1=Festive Blue Pant Suit", "=ds=#s5#"};
+		{ 10, 21543, "", "=q1=Festive Teal Pant Suit", "=ds=#s5#"};
 		{ 11, 21537, "", "=q1=Festival Dumplings", "=ds=#e3#"};
 		{ 13, 21713, "", "=q1=Elune's Candle", "=ds=#m20#"};
 		{ 15, 21100, "", "=q1=Coin of Ancestry", "=ds=#m17#"};
@@ -701,22 +711,25 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		-------------------------------
 
 	AtlasLoot_Data["MidsummerFestival"] = {
-		{ 1, 34686, "", "=q3=Brazier of Dancing Flames", "350 #fireflower#"};
-		{ 2, 23083, "", "=q3=Captured Flame", "=ds=#e13#, 350 #fireflower#"};
-		{ 4, 23379, "", "=q2=Cinder Bracers", "=ds=#e22#"};
-		{ 6, 23246, "", "=q1=Fiery Festival Brew", "2 #fireflower#"};
-		{ 7, 23435, "", "=q1=Elderberry Pie", "5 #fireflower#"};
-		{ 8, 23327, "", "=q1=Fire-toasted Bun", "5 #fireflower#"};
-		{ 9, 23326, "", "=q1=Midsummer Sausage", "5 #fireflower#"};
-		{ 10, 23211, "", "=q1=Toasted Smorc", "5 #fireflower#"};
-		{ 11, 34684, "", "=q1=Handful of Summer Petals", "2 #fireflower#"};
-		{ 12, 23215, "", "=q1=Bag of Smorc Ingredients", "5 #fireflower#"};
-		{ 13, 34599, "", "=q1=Juggling Torch", "5 #fireflower#"};
-		{ 15, 23247, "", "=q1=Burning Blossom", "=ds=#m17#"};
-		{ 16, 23323, "", "=q1=Crown of the Fire Festival", "=ds=#s1#, #a1#, #m4#"};
-		{ 17, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#, 100 #fireflower#"};
-		{ 18, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#, 100 #fireflower#"};
-		{ 19, 34683, "", "=q1=Sandals of Summer", "=ds=#s11#, 200 #fireflower#"};
+	
+		{ 1, 153471, "", "=q3=Медальон пылающего защитника", "350 #fireflower#"};
+		{ 2, 34686, "", "=q3=Brazier of Dancing Flames", "350 #fireflower#"};
+		{ 3, 23083, "", "=q3=Captured Flame", "=ds=#e13#, 350 #fireflower#"};
+		{ 4, 97390, "", "=q3=Солнечный росток", "=ds=#e13#, 150 #fireflower#"};
+		{ 6, 23379, "", "=q2=Cinder Bracers", "=ds=#e22#"};
+		{ 8, 23246, "", "=q1=Fiery Festival Brew", "2 #fireflower#"};
+		{ 9, 23435, "", "=q1=Elderberry Pie", "5 #fireflower#"};
+		{ 10, 23327, "", "=q1=Fire-toasted Bun", "5 #fireflower#"};
+		{ 11, 23326, "", "=q1=Midsummer Sausage", "5 #fireflower#"};
+		{ 12, 23211, "", "=q1=Toasted Smorc", "5 #fireflower#"};
+		{ 13, 34684, "", "=q1=Handful of Summer Petals", "2 #fireflower#"};
+		{ 14, 23215, "", "=q1=Bag of Smorc Ingredients", "5 #fireflower#"};
+		{ 15, 34599, "", "=q1=Juggling Torch", "5 #fireflower#"};
+		{ 16, 23247, "", "=q1=Burning Blossom", "=ds=#m17#"};
+		{ 18, 23323, "", "=q1=Crown of the Fire Festival", "=ds=#s1#, #a1#, #m4#"};
+		{ 19, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#, 100 #fireflower#"};
+		{ 20, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#, 100 #fireflower#"};
+		{ 21, 34683, "", "=q1=Sandals of Summer", "=ds=#s11#, 200 #fireflower#"};
 		Next = "LordAhune";
 		Back = "WORLDEVENTMENU";
 	};
@@ -743,18 +756,22 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		-------------------
 
 	AtlasLoot_Data["Noblegarden"] = {
-		{ 2, 44793, "", "=q3=Tome of Polymorph: Rabbit", "=ds=#e10#", "100 #noblegarden#"};
-		{ 3, 44794, "", "=q3=Spring Rabbit's Foot", "=ds=#e13#", "100 #noblegarden#"};
-		{ 4, 44803, "", "=q1=Spring Circlet", "=ds=#s1#", "50 #noblegarden#"};
-		{ 5, 19028, "", "=q1=Elegant Dress", "=ds=#s5#", "50 #noblegarden#"};
-		{ 6, 44800, "", "=q1=Spring Robes", "=ds=#s5#", "50 #noblegarden#"};
-		{ 7, 45073, "", "=q1=Spring Flowers", "=ds=#h1#", "50 #noblegarden#"};
-		{ 8, 6833, "", "=q1=White Tuxedo Shirt", "=ds=#s6#", "25 #noblegarden#"};
-		{ 9, 6835, "", "=q1=Black Tuxedo Pants", "=ds=#s11#", "25 #noblegarden#"};
-		{ 10, 44792, "", "=q1=Blossoming Branch", "=ds=", "10 #noblegarden#"};
-		{ 11, 44818, "", "=q1=Noblegarden Egg", "=ds=", "5 #noblegarden#"};
-		{ 13, 45067, "", "=q1=Egg Basket", "=q1=#m4#: =ds=#s15#"};
-		{ 14, 44791, "", "=q1=Noblegarden Chocolate", "=ds=#e3#"};
+	
+		{ 1, 153467, "", "=q3=Стремительный весенний долгоног", "=ds=#e13#", "500 #noblegarden#"};
+		{ 2, 153287, "", "=q3=Золотистый бегун Сада Чудес", "=ds=#e12#", "200 #noblegarden#"};
+		{ 3, 153462, "", "=q3= Таинственный весенний букет", "=ds=#e12#", "200 #noblegarden#"};
+		{ 4, 44793, "", "=q3=Tome of Polymorph: Rabbit", "=ds=#e10#", "100 #noblegarden#"};
+		{ 5, 44794, "", "=q3=Spring Rabbit's Foot", "=ds=#e13#", "100 #noblegarden#"};
+		{ 6, 44803, "", "=q1=Spring Circlet", "=ds=#s1#", "50 #noblegarden#"};
+		{ 7, 19028, "", "=q1=Elegant Dress", "=ds=#s5#", "50 #noblegarden#"};
+		{ 8, 44800, "", "=q1=Spring Robes", "=ds=#s5#", "50 #noblegarden#"};
+		{ 9, 45073, "", "=q1=Spring Flowers", "=ds=#h1#", "50 #noblegarden#"};
+		{ 10, 6833, "", "=q1=White Tuxedo Shirt", "=ds=#s6#", "25 #noblegarden#"};
+		{ 11, 6835, "", "=q1=Black Tuxedo Pants", "=ds=#s11#", "25 #noblegarden#"};
+		{ 12, 44792, "", "=q1=Blossoming Branch", "=ds=", "10 #noblegarden#"};
+		{ 13, 44818, "", "=q1=Noblegarden Egg", "=ds=", "5 #noblegarden#"};
+		{ 16, 45067, "", "=q1=Egg Basket", "=q1=#m4#: =ds=#s15#"};
+		{ 17, 44791, "", "=q1=Noblegarden Chocolate", "=ds=#e3#"};
 		Back = "WORLDEVENTMENU";
 	};
 		------------------------
@@ -762,18 +779,19 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		------------------------
 
 	AtlasLoot_Data["PilgrimsBounty_A"] = {
-		{ 1, 46809, "", "=q2=Bountiful Cookbook", "=ds=#p3# #e10# (1)"};
-		{ 2, 44860, "", "=q1=Recipe: Spice Bread Stuffing", "=ds=#p3# (1)"};
-		{ 3, 44862, "", "=q1=Recipe: Pumpkin Pie", "=ds=#p3# (100)"};
-		{ 4, 44858, "", "=q1=Recipe: Cranberry Chutney", "=ds=#p3# (160)"};
-		{ 5, 44859, "", "=q1=Recipe: Candied Sweet Potato", "=ds=#p3# (220)"};
-		{ 6, 44861, "", "=q1=Recipe: Slow-Roasted Turkey", "=ds=#p3# (280)"};
-		{ 7, 46888, "", "=q1=Bountiful Basket", "=ds=#e3#, #p3# (350)"};
-		{ 8, 44855, "", "=q1=Teldrassil Sweet Potato", "=ds=#e3#"};
-		{ 9, 44854, "", "=q1=Tangy Wetland Cranberries", "=ds=#e3#"};
-		{ 10, 46784, "", "=q1=Ripe Elwynn Pumpkin", "=ds=#e3#"};
-		{ 11, 44835, "", "=q1=Autumnal Herbs", "=ds=#e6#"};
-		{ 12, 44853, "", "=q1=Honey", "=ds=#e6#"};
+		{ 1, 153464, "", "=q4= Цыпленок-бройлер", "=ds=#e13#, 100 #brewfest#"};
+		{ 2, 46809, "", "=q2=Bountiful Cookbook", "=ds=#p3# #e10# (1)"};
+		{ 3, 44860, "", "=q1=Recipe: Spice Bread Stuffing", "=ds=#p3# (1)"};
+		{ 4, 44862, "", "=q1=Recipe: Pumpkin Pie", "=ds=#p3# (100)"};
+		{ 5, 44858, "", "=q1=Recipe: Cranberry Chutney", "=ds=#p3# (160)"};
+		{ 6, 44859, "", "=q1=Recipe: Candied Sweet Potato", "=ds=#p3# (220)"};
+		{ 7, 44861, "", "=q1=Recipe: Slow-Roasted Turkey", "=ds=#p3# (280)"};
+		{ 8, 46888, "", "=q1=Bountiful Basket", "=ds=#e3#, #p3# (350)"};
+		{ 9, 44855, "", "=q1=Teldrassil Sweet Potato", "=ds=#e3#"};
+		{ 10, 44854, "", "=q1=Tangy Wetland Cranberries", "=ds=#e3#"};
+		{ 11, 46784, "", "=q1=Ripe Elwynn Pumpkin", "=ds=#e3#"};
+		{ 12, 44835, "", "=q1=Autumnal Herbs", "=ds=#e6#"};
+		{ 13, 44853, "", "=q1=Honey", "=ds=#e6#"};
 		{ 16, 44810, "", "=q3=Turkey Cage", "=q1=#m32#: =ds=#e13#"};
 		{ 17, 46723, "", "=q1=Pilgrim's Hat", "=q1=#m4#: =ds=#s1#"};
 		{ 18, 46800, "", "=q1=Pilgrim's Attire", "=q1=#m4#: =ds=#s5#"};
@@ -786,18 +804,19 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["PilgrimsBounty_H"] = {
-		{ 1, 46810, "", "=q2=Bountiful Cookbook", "=ds=#p3# #e10# (1)"};
-		{ 2, 46803, "", "=q1=Recipe: Spice Bread Stuffing", "=ds=#p3# (1)"};
-		{ 3, 46804, "", "=q1=Recipe: Pumpkin Pie", "=ds=#p3# (100)"};
-		{ 4, 46805, "", "=q1=Recipe: Cranberry Chutney", "=ds=#p3# (160)"};
-		{ 5, 46806, "", "=q1=Recipe: Candied Sweet Potato", "=ds=#p3# (220)"};
-		{ 6, 46807, "", "=q1=Recipe: Slow-Roasted Turkey", "=ds=#p3# (280)"};
-		{ 7, 46888, "", "=q1=Bountiful Basket", "=ds=#e3#, #p3# (350)"};
-		{ 8, 46797, "", "=q1=Mulgore Sweet Potato", "=ds=#e3#"};
-		{ 9, 46793, "", "=q1=Tangy Southfury Cranberries ", "=ds=#e3#"};
-		{ 10, 46796, "", "=q1=Ripe Tirisfal Pumpkin ", "=ds=#e3#"};
-		{ 11, 44835, "", "=q1=Autumnal Herbs", "=ds=#e6#"};
-		{ 12, 44853, "", "=q1=Honey", "=ds=#e6#"};
+		{ 1, 153464, "", "=q4= Цыпленок-бройлер", "=ds=#e13#, 100 #brewfest#"};
+		{ 2, 46810, "", "=q2=Bountiful Cookbook", "=ds=#p3# #e10# (1)"};
+		{ 3, 46803, "", "=q1=Recipe: Spice Bread Stuffing", "=ds=#p3# (1)"};
+		{ 4, 46804, "", "=q1=Recipe: Pumpkin Pie", "=ds=#p3# (100)"};
+		{ 5, 46805, "", "=q1=Recipe: Cranberry Chutney", "=ds=#p3# (160)"};
+		{ 6, 46806, "", "=q1=Recipe: Candied Sweet Potato", "=ds=#p3# (220)"};
+		{ 7, 46807, "", "=q1=Recipe: Slow-Roasted Turkey", "=ds=#p3# (280)"};
+		{ 8, 46888, "", "=q1=Bountiful Basket", "=ds=#e3#, #p3# (350)"};
+		{ 9, 46797, "", "=q1=Mulgore Sweet Potato", "=ds=#e3#"};
+		{ 10, 46793, "", "=q1=Tangy Southfury Cranberries ", "=ds=#e3#"};
+		{ 11, 46796, "", "=q1=Ripe Tirisfal Pumpkin ", "=ds=#e3#"};
+		{ 12, 44835, "", "=q1=Autumnal Herbs", "=ds=#e6#"};
+		{ 13, 44853, "", "=q1=Honey", "=ds=#e6#"};
 		{ 16, 44810, "", "=q3=Turkey Cage", "=q1=#m32#: =ds=#e13#"};
 		{ 17, 46723, "", "=q1=Pilgrim's Hat", "=q1=#m4#: =ds=#s1#"};
 		{ 18, 46800, "", "=q1=Pilgrim's Attire", "=q1=#m4#: =ds=#s5#"};
