@@ -50,6 +50,22 @@ if not AtlasLoot_TableNames then
 end
 
 -----------------------
+--- Sirus Instances ---
+-----------------------
+
+	-- Bronze Sanctuary
+	AtlasLoot_TableNames["Murozond25Man"] ={AL["Murozond"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Elonus25Man"] ={AL["Elonus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Imporus25Man"] ={AL["Imporus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["MurozondHARD25Man"] ={AL["Murozond"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ElonusHARD25Man"] ={AL["Elonus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ImporusHARD25Man"] ={AL["Imporus"], "AtlasLootSirus" };
+	
+	AtlasLoot_TableNames["Murozond25ManHEROIC"] ={AL["Murozond"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Elonus25ManHEROIC"] ={AL["Elonus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Imporus25ManHEROIC"] ={AL["Imporus"], "AtlasLootSirus" };
+	
+-----------------------
 --- WotLK Instances ---
 -----------------------
 
@@ -1612,7 +1628,7 @@ end
 	AtlasLoot_TableNames["SIRUSCHESTMENU"] = { AL["SIRUSCHEST"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["SIRUSCHEST2MENU"] = { AL["SIRUSCHEST2"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["SIRUSCHESTMOUNTMENU"] = { AL["SIRUSCHESTMOUNTMENU"], "AtlasLootSirus" };
-
+	AtlasLoot_TableNames["ElisandrMountMenu"] = { AL["Elisandr"], "AtlasLootSirus" };
 	
 	AtlasLoot_TableNames["7Menu+"] = { AL["7+ kata"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["6Menu+"] = { AL["6+ kata"], "AtlasLootSirus" };
@@ -1904,7 +1920,7 @@ end
 	AtlasLoot_TableNames["AshenVerdict2"] = { BabbleFaction["The Ashen Verdict"], "AtlasLootWotLK" };
 	
 ----------------------
---- WotLK Sirus ---
+--- Sirus fraction ---
 ----------------------
 		AtlasLoot_TableNames["Kor'kron_Battalion_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
 		AtlasLoot_TableNames["Kor'kron_Battalion1_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
@@ -2095,6 +2111,7 @@ end
 	AtlasLoot_TableNames["JewelMeta1"] = { JEWELCRAFTING..": "..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelMeta2"] = { JEWELCRAFTING..": "..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelDragonsEye1"] = { JEWELCRAFTING..": "..AL["Dragon's Eye"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["ChimerasEye"] = { JEWELCRAFTING..": "..AL["Chimera's Eye"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelPrismatic1"] = { JEWELCRAFTING..": "..BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelTrinket1"] = { JEWELCRAFTING..": "..BabbleInventory["Trinket"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelRing1"] = { JEWELCRAFTING..": "..BabbleInventory["Ring"], "AtlasLootCrafting" };

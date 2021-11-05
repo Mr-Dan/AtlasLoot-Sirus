@@ -124,6 +124,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, "JewelMeta1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "" };
 		{ 8, "JewelPrismatic1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "" };
 		{ 9, "JewelDragonsEye1", "INV_Misc_Gem_01", "=ds="..AL["Dragon's Eye"], "" };
+		{ 10, "ChimerasEye", "INV_Misc_Gem_01", "=ds="..AL["Chimera's Eye"], "" };
 		{ 16, "JewelNeck1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Neck"], "" };
 		{ 17, "JewelTrinket1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Trinket"], "" };
 		{ 18, "JewelRing1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Ring"], "" };

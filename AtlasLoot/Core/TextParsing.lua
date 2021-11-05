@@ -1105,6 +1105,7 @@ function AtlasLoot_FixText(text)
 	text = gsub(text, "#blackpigment#", BabbleInventory["blackpigment"]);--Полироль 
 	text = gsub(text, "#Tol'Garod#", "|TInterface\\Icons\\Achievement_Zone_TolBarad:15|t");--жетоны Тол'Гарод
 	text = gsub(text, "#Coin of Ancestry#", "|TInterface\\Icons\\inv_misc_elvencoins:15|t");-- Монета Наследия
+	text = gsub(text, "#Elisandra's Loans#", "|TInterface\\Icons\\ability_racial_etherealconnection:15|t");--Кредиты дельцы Элисандра
 
 	text = gsub(text, "#valentineday#", "|TInterface\\Icons\\inv_valentinescard01:0|t");
 	text = gsub(text, "#valentineday2#", "|TInterface\\Icons\\inv_jewelry_necklace_43:0|t");

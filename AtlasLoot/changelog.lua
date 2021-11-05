@@ -16,6 +16,7 @@ AtlasLootVersionsList[13] = "29.04.21"
 AtlasLootVersionsList[14] = "3.07.21"
 AtlasLootVersionsList[15] = "5.09.21"
 AtlasLootVersionsList[16] = "10.10.21"
+AtlasLootVersionsList[17] = "05.11.21"
 
 
 local GREY = "|cff999999";
@@ -182,12 +183,19 @@ text:SetText(WHITE..
 "- Добавлена новая система поиска предметов.".."\n\n"..
 "- Мелкие исправления.".."\n\n"
 )
+elseif x == 17 then
+text:SetText(WHITE..
+"- Добавлен лут с Бронзового Святилища.".."\n\n"..
+"- Добавлены новые ювелирные камни.".."\n\n"..
+"- Добавлены ездовые животные с дельца Элисандра .".."\n\n"..
+"- Мелкие исправления.".."\n\n"
+)
 end
 end
 
-AtlasLootChangelogText(16)
+AtlasLootChangelogText(17)
 
-local chooseversion = "10.10.21"
+local chooseversion = "05.11.21"
 
 local dropDown = CreateFrame("FRAME", "ChangelogDropDown", AtlasLoot_ChangelogFrame, "UIDropDownMenuTemplate")
 dropDown:SetPoint("TOP", 10, -10)

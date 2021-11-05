@@ -253,24 +253,31 @@ AtlasLoot_DewDropDown = {
 		},
 	},
 	[7] = {
-		{ AL["Crafting"], "CRAFTINGMENU", "Table" },
+		[AL["Sirus Raids"]] = {
+			[1] = {
+				{ AL["Bronze Sanctuary"], "BronzeSanctuary", "Submenu" },
+			},		
+		},
 	},
 	[8] = {
-		{ AL["Sets/Collections"], "SETMENU", "Table" },
+		{ AL["Crafting"], "CRAFTINGMENU", "Table" },
 	},
 	[9] = {
-		{ AL["PvP Rewards"], "PVPMENU", "Table" },
+		{ AL["Sets/Collections"], "SETMENU", "Table" },
 	},
 	[10] = {
-		{ AL["World Bosses"], "WorldBosses", "Submenu" },
+		{ AL["PvP Rewards"], "PVPMENU", "Table" },
 	},
 	[11] = {
-		{ AL["Reputation Factions"], "REPMENU", "Table" },
+		{ AL["World Bosses"], "WorldBosses", "Submenu" },
 	},
 	[12] = {
-		{ AL["World Events"], "WORLDEVENTMENU", "Table" },
+		{ AL["Reputation Factions"], "REPMENU", "Table" },
 	},
 	[13] = {
+		{ AL["World Events"], "WORLDEVENTMENU", "Table" },
+	},
+	[14] = {
 		{ AL["Kategoria"], "KATEGORIAMENU_x2", "Table" },
 	},
 };
@@ -920,5 +927,10 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "ICCLichKing" },
 		{ "", "ICCJaina25ManHEROIC" },
 		{ "", "ICCTrash25Man" },
+	},
+	["BronzeSanctuary"] = {
+		{ "", "Imporus25Man" },
+		{ "", "Elonus25Man" },
+		{ "", "Murozond25Man" },
 	},
 };

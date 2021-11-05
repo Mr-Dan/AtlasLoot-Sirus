@@ -355,6 +355,7 @@ if AL then
     AL["BC Raids"] = "Рейды BC";
 	AL["WotLK Instances"] = "Подземелья WotLK";
 	AL["WotLK Raids"] = "Рейды WotLK";
+	AL["Sirus Raids"] = "Рейды Sirus";
 	AL["Sets/Collections"] = "Комплекты/Наборы";
     AL["Reputation Factions"] = "Репутация у фракций";
 	AL["World Bosses"] = "Мировые боссы";
@@ -368,6 +369,7 @@ if AL then
 	AL["Crafted Sets"] = "Изготавливаемые комплекты";
 	AL["Crafted Epic Weapons"] = "Изготавливаемое превосх. оружие";
 	AL["Dragon's Eye"] = "Око Дракона";
+	AL["Chimera's Eye"] = "Глаз Химеры";
 	AL["Cooking Ogrilla"] = "Кулинария (Огри'ла)";
 
    	-- Sets/Collections Menu
@@ -450,6 +452,12 @@ if AL then
 	AL["Pilgrim's Bounty"] = "Пиршество странников";
     AL["Skettis"] = "Скеттис";
     AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
+	-- Zone
+	AL["Bronze Sanctuary"] = "Бронзовое Святилище";
+	-- Boss
+	AL["Murozond"] = "Мурозонд";
+	AL["Elonus"] = "Исказитель времени Элонус";
+	AL["Imporus"] = "Импорус";
 	
     -- Minimap Button
     AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
@@ -638,7 +646,7 @@ if AL then
 	-- Labels for loot table sections
     AL["Additional Heroic Loot"] = "Допол. добыча с героиков";
     AL["Heroic Mode"] = "Героик";
-    AL["Normal Mode"] = "Обычный";
+    AL["Normal Mode"] = "Обычный режим";
     AL["Raid"] = "Рейд";
 	AL["Hard Mode"] = "Сложный режим";
 	AL["Bonus Loot"] = "Дополнительная добыча";

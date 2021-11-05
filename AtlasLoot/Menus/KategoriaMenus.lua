@@ -16,6 +16,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		--{ 11, "SIRUSLEGENDARYMENU", "inv_misc_cape_deathwingraid_d_01", "=ds="..AL["SIRUSLEGENDARY"], ""};
 		--{ 12, "SIRUSCHESTMENU", "inv_misc_bag_34", "=ds="..AL["SIRUSCHEST"], ""};
 		--{ 13, "SIRUSCHEST2MENU", "inv_misc_lockbox_1", "=ds="..AL["SIRUSCHEST2"], ""};
+		{ 12, "ElisandrMountMenu", "inv_brontosaurusmount", "=ds="..AL["Elisandr"], ""};
 		{ 13, "SIRUSCHESTMOUNTMENU", "INV_Box_04", "=ds="..AL["SIRUSCHESTMOUNTMENU"], ""};
 		{ 14, "SIRUSMOUNTMENU", "ability_mount_cranemountblue", "=ds="..AL["SIRUSMOUNT"], ""};
 		{ 15, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};
@@ -40,10 +41,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
 		{ 4, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
 		{ 5, "Lili", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
-		{ 6, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};		
-		{ 17, "SIRUSMOUNTMENU", "ability_mount_cranemountblue", "=ds="..AL["SIRUSMOUNT"], ""};
-		{ 18, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};	
-		{ 19, "MillenniumRoulettex_x4", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};
+		{ 6, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};	
+		{ 17, "ElisandrMountMenu", "inv_brontosaurusmount", "=ds="..AL["Elisandr"], ""};		
+		{ 18, "SIRUSMOUNTMENU", "ability_mount_cranemountblue", "=ds="..AL["SIRUSMOUNT"], ""};
+		{ 19, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};	
+		{ 20, "MillenniumRoulettex_x4", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};
 
 		
 	};
