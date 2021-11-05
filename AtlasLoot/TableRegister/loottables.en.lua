@@ -64,6 +64,7 @@ end
 	AtlasLoot_TableNames["Murozond25ManHEROIC"] ={AL["Murozond"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Elonus25ManHEROIC"] ={AL["Elonus"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Imporus25ManHEROIC"] ={AL["Imporus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["GrainOfSandOfLost"] ={AL["GrainOfSandOfLost"], "AtlasLootSirus" };
 	
 -----------------------
 --- WotLK Instances ---

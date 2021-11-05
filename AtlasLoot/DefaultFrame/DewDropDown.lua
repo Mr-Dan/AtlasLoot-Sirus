@@ -932,5 +932,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "Imporus25Man" },
 		{ "", "Elonus25Man" },
 		{ "", "Murozond25Man" },
+		{ "", "GrainOfSandOfLost" },
 	},
 };

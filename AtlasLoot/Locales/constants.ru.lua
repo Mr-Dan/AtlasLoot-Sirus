@@ -459,6 +459,10 @@ if AL then
 	AL["Elonus"] = "Исказитель времени Элонус";
 	AL["Imporus"] = "Импорус";
 	
+	--Other
+	
+	AL["GrainOfSandOfLost"] = "Песчинка потерянного времени";
+	
     -- Minimap Button
     AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
     AL["|cffff0000Right-Click|r View Options"] = "|cffff0000ПКЛ|r Просмотр опций";
