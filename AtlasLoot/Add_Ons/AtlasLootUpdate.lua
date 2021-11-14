@@ -13,9 +13,21 @@ frame:SetScript("OnEvent", function(frame, event, ...)
 			getglobal("AtlasLootDefaultFrame_Notice"):SetText(AL["Need Update"])			
 		end
 	end
-		SendAddonMessage("AtlasLootUpdater", tostring(current_version), "GUILD")		
-		
-elseif (event == "CHAT_MSG_ADDON" and arg1 == "AtlasLootUpdater" and arg3 == "GUILD") then
+	
+	if GetNumRaidMembers() > 1 then
+		local _, instanceType = IsInInstance()
+		if instanceType == "pvp" then
+            SendAddonMessage("AtlasLootUpdater", tostring(current_version), "BATTLEGROUND")
+		else
+			SendAddonMessage("AtlasLootUpdater", tostring(current_version), "RAID")
+		end
+	elseif GetNumPartyMembers() > 0 then
+        SendAddonMessage("AtlasLootUpdater", tostring(current_version), "PARTY")
+	elseif IsInGuild() then
+        SendAddonMessage("AtlasLootUpdater", tostring(current_version), "GUILD")
+    end
+			
+elseif (event == "CHAT_MSG_ADDON" and arg1 == "AtlasLootUpdater" ) then
 
 		if (tonumber(arg2) > current_version) then
 			getglobal("AtlasLootDefaultFrame_Notice"):SetText(AL["Need Update"])			
