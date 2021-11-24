@@ -28,6 +28,8 @@ if AL then
 	AL["BOPAuction"] = "Аукцион: ПпП"
 	AL["Disenchant"] = "Распыление "
 	AL["BOPDisenchant"] = "Распыление: Неизвестно"
+	AL["Model in collection"] = "У вас есть такая модель"
+	AL["Model not in collection"] = "У вас еще нет такой модели"
     AL["DKP"] = "ДКП";
     AL["Priority:"] = "Приоритет:";
     AL["Click boss name to view loot."] = "Кликните по имени босса для просмотра трофеев.модификации";
@@ -370,7 +372,7 @@ if AL then
 	AL["Crafted Epic Weapons"] = "Изготавливаемое превосх. оружие";
 	AL["Dragon's Eye"] = "Око Дракона";
 	AL["Chimera's Eye"] = "Глаз Химеры";
-	AL["Cooking Ogrilla"] = "Кулинария (Огри'ла)";
+	AL["Cooking Dalaran"] = "Кулинария (Даларан)";
 
    	-- Sets/Collections Menu
     AL["Badge of Justice Rewards"] = "Устаревшие артефакты";

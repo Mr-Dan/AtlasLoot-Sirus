@@ -2188,7 +2188,7 @@ end
 	AtlasLoot_TableNames["Cooking4"] = { COOKING, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Cooking5"] = { COOKING, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Cooking6"] = { COOKING, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["CookingOgrilla"] = { AL["Cooking Ogrilla"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["CookingDalaran"] = { AL["Cooking Dalaran"], "AtlasLootCrafting" };
 	
   -- First Aid
 	AtlasLoot_TableNames["FirstAid1"] = { FIRSTAID, "AtlasLootCrafting" };

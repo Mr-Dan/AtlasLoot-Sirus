@@ -140,30 +140,16 @@ function AtlasLootItem_OnEnter()
                         AtlasLootTooltip:SetHyperlink("item:"..this.itemID..":0:0:0");
                         if ( AtlasLoot.db.profile.ItemIDs ) then
                             AtlasLootTooltip:AddLine(BLUE..AL["ItemID:"].." "..this.itemID, nil, nil, nil, 1);
-                        end
-						
+                        end					
                       --[[  if( this.droprate ~= nil) then
                             AtlasLootTooltip:AddLine(AL["Drop Rate: "]..this.droprate, 1, 1, 0);
-                        end]]--
-						
+                        end]]--				
                         if( DKP ~= nil and DKP ~= "" ) then
                             AtlasLootTooltip:AddLine(RED..DKP.." "..AL["DKP"], 1, 1, 0);
-                        end
-						
-							local status, err;
-															
-						  if( AtlasLoot.db.profile.ItemIDs) then
-							local itemName = GetItemInfo (this.itemID);
-							local auctionPrice	= 0;
-							 status, err = pcall(function () auctionPrice	=  Atr_GetAuctionPrice (itemName) end ); 						  
-							if (auctionPrice ~= nil and err == nil) then
-							AtlasLootTooltip:AddLine (AL["Auction"]..WHITE..ALpriceToMoneyString(auctionPrice));
-							elseif( err == nil ) then
-							AtlasLootTooltip:AddLine (AL["BOPAuction"]);			
-							end                       
-                        end
-												
-						  if( AtlasLoot.db.profile.ItemIDs ) then
+                        end				
+						local status, err;																						                       									
+						 --  Торговец цена	
+							GameTooltip_ClearMoney(AtlasLootTooltip)
 							local _, _, _, _, _, _, _, _,_, _, itemSellPrice  = GetItemInfo(this.itemID);
 							local vendorPrice	= 0;						
 							vendorPrice	= itemSellPrice;						  
@@ -171,19 +157,65 @@ function AtlasLootItem_OnEnter()
 							AtlasLootTooltip:AddLine (AL["Vendor2"]..WHITE..ALpriceToMoneyString(itemSellPrice));
 							elseif ( err == nil) then
 							AtlasLootTooltip:AddLine (AL["BOPVendor2"]);
-							end 							
-                        end
-						
-						  if( AtlasLoot.db.profile.ItemIDs ) then
-							local _, _, itemRarity, itemLevel, _, itemType, _, _,_, _, itemSellPrice  = GetItemInfo(this.itemID);
-							local dePrice= nil;					
-							status, err = pcall(function () dePrice	= Atr_CalcDisenchantPrice (itemType, itemRarity, itemLevel) end ); 
+							end 
+
+						-- Аддон Auctionator цена
+							local itemLink = select(2, GetItemInfo(this.itemID))
+							local auctionPrice	= 0;
+							 status, err = pcall(function () 							             
+								Auctionator.Utilities.DBKeyFromLink(itemLink, function(dbKeys) 
+									if #dbKeys == 0 or Auctionator.Utilities.IsPetDBKey(dbKeys[1]) then
+										return
+									end
+									local auctionPrice = Auctionator.Database:GetFirstPrice(dbKeys) 
+									if (auctionPrice ~= nil ) then
+										AtlasLootTooltip:AddLine (AL["Auction"]..WHITE..ALpriceToMoneyString(auctionPrice));
+									elseif( err == nil ) then
+										AtlasLootTooltip:AddLine (AL["BOPAuction"]);			
+									end
+								 end) 
+							 end); 									
+                        			
+						  -- Аддон Auctionator	распыление
+							local _, itemLink, itemRarity, itemLevel, _, itemType, _, _,_, _, itemSellPrice  = GetItemInfo(this.itemID);
+							local dePrice= nil;	
+							local disenchantStatus= nil;								
+							status, err = pcall(function ()
+							local itemInfo = { GetItemInfo(itemLink) };						
+							  if (#itemInfo) ~= 0 then
+								local sellPrice = itemInfo[Auctionator.Constants.ITEM_INFO.SELL_PRICE]
+									disenchantStatus = Auctionator.Enchant.DisenchantStatus(itemInfo)
+									dePrice = Auctionator.Enchant.GetDisenchantAuctionPrice(itemLink)
+								end
+							end ); 
 							if (dePrice ~= 0 and err == nil and (itemType == 'Оружие' or itemType =='Доспехи')and (itemRarity >=2 and itemRarity<=4 )  ) then
 							AtlasLootTooltip:AddLine (AL["Disenchant"]..WHITE..ALpriceToMoneyString(dePrice));
 							elseif ( err == nil) then
 							AtlasLootTooltip:AddLine (AL["BOPDisenchant"]);
 							end 							
-                        end
+                       
+							-- Модель									
+							local incollection = SIRUS_COLLECTION_COLLECTED_ITEM_APPEARANCES[this.itemID]	
+							local foundModel = false
+							if (incollection~= true) then
+								local foundSourceInfo = ITEM_MODIFIED_APPEARANCE_STORAGE[this.itemID]
+									if (foundSourceInfo~= nil)  then
+										local sourceInfo = ITEM_MODIFIED_APPEARANCE_STORAGE[this.itemID][1]
+										local itemAppearanceInfo = ITEM_APPEARANCE_STORAGE[sourceInfo]
+										for i=1, #itemAppearanceInfo[2] do								
+											if SIRUS_COLLECTION_COLLECTED_ITEM_APPEARANCES[itemAppearanceInfo[2][i]]then
+												foundModel = true
+											end									
+										end
+										if(foundModel~= true) then
+											AtlasLootTooltip:AddLine ("|cff6E86D6"..AL["Model not in collection"]);
+										end											
+									end 							
+							end
+							if (incollection == true or foundModel == true) then
+								AtlasLootTooltip:AddLine ("|cff6E86D6"..AL["Model in collection"]);
+							end
+						
 						
                         if( priority ~= nil and priority ~= "" ) then
                             AtlasLootTooltip:AddLine(GREEN..AL["Priority:"].." "..priority, 1, 1, 0);
@@ -430,7 +462,6 @@ function ALpriceToMoneyString (val, noZeroCoppers)
 		st = gold..goldicon.."  ";
 	end
 
-
 	if (st ~= "") then
 		st = st..format("%02i%s  ", silver, silvericon);
 	elseif (silver ~= 0) then
@@ -450,3 +481,4 @@ function ALpriceToMoneyString (val, noZeroCoppers)
 	return st;
 
 end
+

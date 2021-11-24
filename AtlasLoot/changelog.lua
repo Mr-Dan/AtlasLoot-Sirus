@@ -18,7 +18,7 @@ AtlasLootVersionsList[15] = "5.09.21"
 AtlasLootVersionsList[16] = "10.10.21"
 AtlasLootVersionsList[17] = "05.11.21"
 AtlasLootVersionsList[18] = "08.11.21"
-
+AtlasLootVersionsList[19] = "25.11.21"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -196,12 +196,18 @@ text:SetText(WHITE..
 "- Добавлены предметы за 30/30 попыток с Бронзового Святилища.".."\n\n"..
 "- Добавлены недостающие предметы с песчинки потерянного времени.".."\n\n"
 )
+elseif x == 19 then
+text:SetText(WHITE..
+"- Исправлены некоторые неточности/баги".."\n\n"..
+"- Добавлена поддержка новой версии аддона Auctionator".."\n\n"..
+"- Добавлено отображение наличие модели предмета в коллекции трансмогрификации".."\n\n"
+)
 end
 end
 
-AtlasLootChangelogText(18)
+AtlasLootChangelogText(#AtlasLootVersionsList)
 
-local chooseversion = "08.11.21"
+local chooseversion = AtlasLootVersionsList[#AtlasLootVersionsList]
 
 local dropDown = CreateFrame("FRAME", "ChangelogDropDown", AtlasLoot_ChangelogFrame, "UIDropDownMenuTemplate")
 dropDown:SetPoint("TOP", 10, -10)
