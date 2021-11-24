@@ -4236,14 +4236,15 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 7, 40488, "", "=q4=Ice Spire Scepter", "=ds=#h3#, #w6#", "", "12%"};
 		{ 8, 40489, "", "=q4=Greatstaff of the Nexus", "=ds=#w9#", "", "12%"};
 		{ 9, 40497, "", "=q4=Black Ice", "=ds=#w7#", "", "10%"};
-		{ 10, 40475, "", "=q4=Barricade of Eternity", "=ds=#w8#", "", "11%"};
-		{ 11, 43953, "", "=q4=Поводья синего дракона", "=ds=#e12#", "", "1%"};
-		{ 13, 44569, "", "=q4=Key to the Focusing Iris", "=ds=#m3#", "", "91%"};
+		{ 10, 40475, "", "=q4=Barricade of Eternity", "=ds=#w8#", "", "11%"};		
+		{ 12, 44569, "", "=q4=Key to the Focusing Iris", "=ds=#m3#", "", "91%"};
 		{ 16, 44650, "", "=q1=Heart of Magic", "=ds=#m3#", "", "100%"};
 		{ 17, 44658, "", "=q4=Chain of the Ancient Wyrm", "=q1=#m4#: =ds=#s2#"};
 		{ 18, 44660, "", "=q4=Drakescale Collar", "=q1=#m4#: =ds=#s2#"};
 		{ 19, 44659, "", "=q4=Pendant of the Dragonsworn", "=q1=#m4#: =ds=#s2#"};
 		{ 20, 44657, "", "=q4=Torque of the Red Dragonflight", "=q1=#m4#: =ds=#s2#"};
+		{ 22, 43953, "", "=q4=Поводья синего дракона", "=ds=#e12#", "", "1%"};
+		{ 23, 43952, "", "=q4=Reins of the Azure Drake", "=ds=#e12#", "", "1%"};
 	};
 
 	AtlasLoot_Data["Malygos25Man"] = {
@@ -4267,13 +4268,14 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 18, 40591, "", "=q4=Melancholy Sabatons", "=ds=#s12#, #a4#", "", "9%"};
 		{ 19, 40532, "", "=q4=Living Ice Crystals", "=ds=#s14#", "", "9%"};
 		{ 20, 40531, "", "=q4=Mark of Norgannon", "=ds=#s14#", "", "8%"};
-		{ 21, 43952, "", "=q4=Reins of the Azure Drake", "=ds=#e12#", "", "1%"};
-		{ 23, 44577, "", "=q4=Heroic Key to the Focusing Iris", "=ds=#m3#", "", "92%"};
-		{ 25, 44650, "", "=q1=Heart of Magic", "=ds=#m3#", "", "100%"};
-		{ 26, 44664, "", "=q4=Favor of the Dragon Queen", "=q1=#m4#: =ds=#s2#"};
-		{ 27, 44662, "", "=q4=Life-Binder's Locket", "=q1=#m4#: =ds=#s2#"};
-		{ 28, 44665, "", "=q4=Nexus War Champion Beads", "=q1=#m4#: =ds=#s2#"};
-		{ 29, 44661, "", "=q4=Wyrmrest Necklace of Power", "=q1=#m4#: =ds=#s2#"};
+		{ 21, 43953, "", "=q4=Поводья синего дракона", "=ds=#e12#", "", "1%"};
+		{ 22, 43952, "", "=q4=Reins of the Azure Drake", "=ds=#e12#", "", "1%"};
+		{ 24, 44577, "", "=q4=Heroic Key to the Focusing Iris", "=ds=#m3#", "", "92%"};
+		{ 26, 44650, "", "=q1=Heart of Magic", "=ds=#m3#", "", "100%"};
+		{ 27, 44664, "", "=q4=Favor of the Dragon Queen", "=q1=#m4#: =ds=#s2#"};
+		{ 28, 44662, "", "=q4=Life-Binder's Locket", "=q1=#m4#: =ds=#s2#"};
+		{ 29, 44665, "", "=q4=Nexus War Champion Beads", "=q1=#m4#: =ds=#s2#"};
+		{ 30, 44661, "", "=q4=Wyrmrest Necklace of Power", "=q1=#m4#: =ds=#s2#"};
 	};
 
 		--------------
@@ -15100,9 +15102,10 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 14, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h3# #w6#", "" };
 		
 		{ 16, 0, "INV_Box_01", "Пробужденные реликвии", ""};
-		{ 18, 49623, "", "=q5=Shadowmourne", "=ds=#h2# #w1#", "" };
-		{ 19, 436, "", "=q5=EternityChill", "=ds=#w9#", "" };
-		{ 20, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=ds=#h3# #w6#", "" };
+		{ 18, 135597, "", "=q5=Ужас глубин", "=ds=#e20#", "" };
+		{ 19, 49623, "", "=q5=Shadowmourne", "=ds=#h2# #w1#", "" };
+		{ 20, 436, "", "=q5=EternityChill", "=ds=#w9#", "" };
+		{ 21, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=ds=#h3# #w6#", "" };
 		--{ 6, 30312, "", "=q5=Infinity Blade", "=q1=#m26#: =ds=#h1#, #w4#"};
 		--{ 7, 30311, "", "=q5=Warp Slicer", "=q1=#m26#: =ds=#h1#, #w10#"};
 		--{ 8, 30317, "", "=q5=Cosmic Infuser", "=q1=#m26#: =ds=#h3#, #w6#"};
