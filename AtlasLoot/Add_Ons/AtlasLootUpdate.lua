@@ -10,10 +10,10 @@ frame:SetScript("OnEvent", function(frame, event, ...)
  if (event == "PLAYER_ENTERING_WORLD") then
 	if (AtlasLootNeedUprate~= nil) then
 		if (tonumber(AtlasLootNeedUprate) > tonumber(current_version)) then
-			getglobal("AtlasLootDefaultFrame_Notice"):SetText(AL["Need Update"])			
+			getglobal("AtlasLootDefaultFrame_Notice"):SetText(AL["Need Update"])
 		end
 	end
-	
+
 	if GetNumRaidMembers() > 1 then
 		local _, instanceType = IsInInstance()
 		if instanceType == "pvp" then
@@ -26,11 +26,11 @@ frame:SetScript("OnEvent", function(frame, event, ...)
 	elseif IsInGuild() then
         SendAddonMessage("AtlasLootUpdater", tostring(current_version), "GUILD")
     end
-			
+
 elseif (event == "CHAT_MSG_ADDON" and arg1 == "AtlasLootUpdater" ) then
 
 		if (tonumber(arg2) > tonumber(current_version)) then
-			getglobal("AtlasLootDefaultFrame_Notice"):SetText(AL["Need Update"])			
+			getglobal("AtlasLootDefaultFrame_Notice"):SetText(AL["Need Update"])
 			AtlasLootNeedUprate = arg2
 		end
 	end
