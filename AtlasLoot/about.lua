@@ -62,7 +62,7 @@ text2:SetJustifyH("LEFT")
 text2:SetJustifyV("TOP")
 --text2:SetSpacing(5)
 text2:SetText(
-WHITE..GetAddOnMetadata("AtlasLoot", "Version").."\n\n\n"..
+WHITE..AtlasLootCurrentVersion.."\n\n\n"..
 GetAddOnMetadata("AtlasLoot", "Author").."\n\n"..
 GetAddOnMetadata("AtlasLoot", "X-Category").."\n\n\n"..
 GetAddOnMetadata("AtlasLoot", "X-License").."\n\n\n Mysterium, за модификацию Аддона \n\n\n"..BLUE.."https://forum.sirus.su/threads/atlasloot-sirus.86804/" --

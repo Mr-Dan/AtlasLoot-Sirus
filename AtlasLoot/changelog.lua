@@ -20,6 +20,8 @@ AtlasLootVersionsList[17] = "05.11.21"
 AtlasLootVersionsList[18] = "08.11.21"
 AtlasLootVersionsList[19] = "25.11.21"
 
+AtlasLootCurrentVersion = 19
+
 local GREY = "|cff999999";
 local RED = "|cffff0000";
 local WHITE = "|cffFFFFFF";
