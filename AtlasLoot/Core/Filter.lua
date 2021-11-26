@@ -35,25 +35,25 @@ local FilterTable = {
 		"Mail",			--3
 		"Plate",		--4
 		},
-		
+
 	["WeaponsMeele"] = {
 		"Held in Off-Hand",	--1
 		"Dagger",			--2
 		"Mace",				--3
-		"Staff",			--4		
+		"Staff",			--4
 		"Axe",				--5
 		"Polearm",			--6
 		"Shield",			--7
 		"Sword",			--8
 		"Fist Weapon",		--9
 		},
-		
+
 	["WeaponsMeeleTwoHand"] = {
 		"Mace",				--1
 		"Axe",				--2
-		"Sword",			--3	
+		"Sword",			--3
 		},
-		
+
 	["WeaponsRanged"] = {
 		"Wand",			--1
 		"Bow",			--2
@@ -61,14 +61,14 @@ local FilterTable = {
 		"Gun",			--4
 		"Thrown",		--5
 		},
-		
+
 	["Relics"] = {
 		"Idol",			--1
 		"Totem",		--2
 		"Libram",		--3
 		"Sigils",		--4
 		},
-		
+
 	["Other"] = {
 		"Ring",			--1
 		"Trinket",		--2
@@ -101,14 +101,14 @@ AtlasLoot_Data["FilterList"] = {
 
 function AtlasLoot_Testabc()
 		print(BabbleInventory["Two-Hand"])
-end	
-	
-	
+end
+
+
 function AtlasLoot_HideNoUsableItems()
-	local dataID = AtlasLootItemsFrame.refreshOri[1] 
-	local dataSource = AtlasLootItemsFrame.refreshOri[2] 
-	local boss = AtlasLootItemsFrame.refreshOri[3] 
-	local pFrame = AtlasLootItemsFrame.refreshOri[4] 	
+	local dataID = AtlasLootItemsFrame.refreshOri[1]
+	local dataSource = AtlasLootItemsFrame.refreshOri[2]
+	local boss = AtlasLootItemsFrame.refreshOri[3]
+	local pFrame = AtlasLootItemsFrame.refreshOri[4]
 	local tablebase = AtlasLoot_Data[dataID]
 	if not tablebase or dataID == "WishList" or dataID == "SearchResult" or dataSource == "AtlasLootCrafting" then return end
 	local itemCount = 0
@@ -131,9 +131,9 @@ function AtlasLoot_HideNoUsableItems()
 			local xitemExtraText = AtlasLoot_FixText(tablebase[itemCount][5])
 			local xitemExtraTextSave = xitemExtraText
 			-- remove the "-"
-			xitemExtraText = gsub(xitemExtraText, "-", "") 
+			xitemExtraText = gsub(xitemExtraText, "-", "")
 			local xitemNameText = getglobal("AtlasLootItem_"..i.."_Name"):GetText()
-			
+
 			if xitemExtraText and xitemExtraText ~= "" then
 				for k = 1,#FilterSort do
 					k = FilterSort[k]
@@ -165,25 +165,25 @@ function AtlasLoot_HideNoUsableItems()
 					end
 				end
 			end
-			
+
 			-- Sort the items
 			if xgo == true then
 				if i==16 and countOld > 0 then
-					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}	
+					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}
 					countAll = 16
 				elseif i==16 and xitemExtraText and strfind(xitemExtraText, AL["Token"]) then
-					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}	
+					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}
 					countAll = 16
 				elseif countAll < 16 and xitemNameText and strfind(xitemNameText, AL["Hard Mode"]) then
-					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}	
+					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}
 					countAll = 16
 				elseif i==16 and xitemTexture == "INV_Box_01" then
-					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}	
+					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}
 					countAll = 16
 				else
-					AtlasLoot_Data["FilterList"][countAll] = { countAll, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}					
+					AtlasLoot_Data["FilterList"][countAll] = { countAll, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}
 				end
-				
+
 				if tablebase[itemCount][6] and countAll==16 then
 					AtlasLoot_Data["FilterList"][16][6] = tablebase[itemCount][6]
 				elseif tablebase[itemCount][6] and countAll~=16 then
@@ -205,7 +205,7 @@ function AtlasLoot_HideNoUsableItems()
 			end
 		else
 			count = count + 1
-		end		
+		end
 	end
 
 	-- Set the Next, Prev and Back button.
@@ -218,7 +218,7 @@ function AtlasLoot_HideNoUsableItems()
 	if tablebase.Back then
 		AtlasLoot_Data["FilterList"].Back = tablebase.Back
 	end
-	
+
 	AtlasLoot_TableNames["FilterList"] = {AtlasLoot_TableNames[dataID][1],AtlasLoot_TableNames[dataID][2]};
 	AtlasLoot_ShowItemsFrame("FilterList", "AtlasLootFilter", "", AtlasLootItemsFrame.refresh[4])
 end
@@ -265,7 +265,7 @@ local function CreateCheckButton(parrent, text, num)
 				AtlasLootFilterDB[num][text] = true;
 			end
 		end)
-			
+
 	if xpos == framewidht/2 then
 		xpos = 0
 		ypos = ypos - 20
@@ -288,14 +288,14 @@ local function CreateCat(parrent, text)
 		Text:SetText(FilterTableNames[text]);
 		Text:SetHeight(20)
 		Text:SetTextColor(1.0, 1.0, 1.0, 1.0);
-		
+
 	ypos = ypos - 30
-		
+
 	for i,j in pairs(FilterTable[text]) do
 		if AtlasLootFilterDB[text][j] ~= true and AtlasLootFilterDB[text][j] ~= false then AtlasLootFilterDB[text][j] = true end
 		CreateCheckButton(parrent, j, text)
 	end
-	
+
 	xpos = 0
 	ypos = ypos - 10
 end
@@ -305,17 +305,17 @@ function AtlasLoot_CreateFilterOptions()
 	local FilterOptionsFrame = CreateFrame("FRAME", nil)
 		FilterOptionsFrame.name = AL["Filter"];
 		FilterOptionsFrame.parent = AL["AtlasLoot"];
-		
+
 	local framewidht = InterfaceOptionsFramePanelContainer:GetWidth()
 	local panel3 = CreateFrame("ScrollFrame", "AtlasLootFilterOptionsScrollFrame", FilterOptionsFrame, "UIPanelScrollFrameTemplate")
 	local scc = CreateFrame("Frame", "AtlasLootFilterOptionsScrollInhalt", panel3)
 		panel3:SetScrollChild(scc)
 		panel3:SetPoint("TOPLEFT", FilterOptionsFrame, "TOPLEFT", 10, -10)
 		scc:SetPoint("TOPLEFT", panel3, "TOPLEFT", 0, 0)
-		panel3:SetWidth(framewidht-45)  
-		panel3:SetHeight(410) 
-		scc:SetWidth(framewidht-45)  
-		scc:SetHeight(410)  
+		panel3:SetWidth(framewidht-45)
+		panel3:SetHeight(410)
+		scc:SetWidth(framewidht-45)
+		scc:SetHeight(410)
 		panel3:SetHorizontalScroll(-50)
 		panel3:SetVerticalScroll(50)
 		panel3:SetBackdrop({bgFile="Interface\\DialogFrame\\UI-DialogBox-Background", edgeFile="", tile = false, tileSize = 0, edgeSize = 0, insets = { left = 0, right = 0, top = 0, bottom = 0 }})
@@ -327,16 +327,16 @@ function AtlasLoot_CreateFilterOptions()
 			local xframewidht = InterfaceOptionsFramePanelContainer:GetWidth()
 			local xframeheight = InterfaceOptionsFramePanelContainer:GetHeight()
 			if xframewidht ~= lastframewidht or xframeheight ~= lastframeheight then
-				panel3:SetWidth(xframewidht-45)  
-				scc:SetWidth(xframewidht-45)  
-				panel3:SetHeight(xframeheight-20) 
-				scc:SetHeight(xframeheight-20) 
+				panel3:SetWidth(xframewidht-45)
+				scc:SetWidth(xframewidht-45)
+				panel3:SetHeight(xframeheight-20)
+				scc:SetHeight(xframeheight-20)
 			end
 		end)
-		
-    local FilterDisableButton = CreateFrame("BUTTON", nil, scc, "UIPanelButtonTemplate")
+
+    local FilterDisableButton = CreateFrame("BUTTON", "AtlasLootFilterOptionsFilterDisableButton", scc, "UIPanelButtonTemplate")
         FilterDisableButton:SetHeight(20)
-		FilterDisableButton:SetWidth(150)  
+		FilterDisableButton:SetWidth(150)
 		FilterDisableButton:SetPoint("TOPLEFT", scc, "TOPLEFT",0,-5)
 		FilterDisableButton:SetText(AL["Select All Loot"])
 		FilterDisableButton:SetWidth(FilterDisableButton:GetTextWidth()+20)
@@ -347,15 +347,15 @@ function AtlasLoot_CreateFilterOptions()
 						AtlasLootFilterDB[k][j] = true
 					end
 				end
-			end					
+			end
 			scc:Hide()
 			scc:Show()
 		end)
-    
+
     local locClass,playerClass = UnitClass("player");
-	local ClassFilterLoadButton = CreateFrame("BUTTON", nil, scc, "UIPanelButtonTemplate")
+	local ClassFilterLoadButton = CreateFrame("BUTTON", "AtlasLootFilterOptionsClassFilterLoadButton", scc, "UIPanelButtonTemplate")
 		ClassFilterLoadButton:SetHeight(20)
-		ClassFilterLoadButton:SetWidth(150)  
+		ClassFilterLoadButton:SetWidth(150)
 		ClassFilterLoadButton:SetPoint("TOPRIGHT", scc, "TOPRIGHT",0,-5)
 		ClassFilterLoadButton:SetText(AL["Apply Filter:"].." "..locClass)
 		ClassFilterLoadButton:SetWidth(ClassFilterLoadButton:GetTextWidth()+20)
@@ -370,20 +370,20 @@ function AtlasLoot_CreateFilterOptions()
 						end
 					end
 				end
-			end					
+			end
 			scc:Hide()
 			scc:Show()
 		end)
-        
-    
-	
+
+
+
 	CreateCat(scc, "Armor")
 	CreateCat(scc, "WeaponsMeele")
 	CreateCat(scc, "WeaponsMeeleTwoHand")
 	CreateCat(scc, "WeaponsRanged")
 	CreateCat(scc, "Relics")
 	CreateCat(scc, "Other")
-			
+
 	InterfaceOptions_AddCategory(FilterOptionsFrame)
 	OptionsLoadet = true
 end

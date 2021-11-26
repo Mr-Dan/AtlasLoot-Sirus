@@ -20,8 +20,6 @@ AtlasLootVersionsList[17] = "05.11.21"
 AtlasLootVersionsList[18] = "08.11.21"
 AtlasLootVersionsList[19] = "25.11.21"
 
-AtlasLootCurrentVersion = 19
-
 local GREY = "|cff999999";
 local RED = "|cffff0000";
 local WHITE = "|cffFFFFFF";
@@ -39,8 +37,8 @@ local ALframeheight = InterfaceOptionsFramePanelContainer:GetHeight()
 	local scc = CreateFrame("Frame", "AtlasLoot_ChangelogFrame", panel3)
 			panel3:SetScrollChild(scc)
 			panel3:SetPoint("TOPLEFT", AtlasLootChangelogFrame, "TOPLEFT", 10, -35)
-			panel3:SetWidth(ALframewidth-45)  
-			panel3:SetHeight(ALframeheight-45) 
+			panel3:SetWidth(ALframewidth-45)
+			panel3:SetHeight(ALframeheight-45)
 			panel3:SetHorizontalScroll(-50)
 			panel3:SetVerticalScroll(50)
 			panel3:SetBackdrop({bgFile="Interface\\DialogFrame\\UI-DialogBox-Background", edgeFile="", tile = false, tileSize = 0, edgeSize = 0, insets = { left = 0, right = 0, top = 0, bottom = 0 }})
@@ -49,8 +47,8 @@ local ALframeheight = InterfaceOptionsFramePanelContainer:GetHeight()
 			panel3:SetVerticalScroll(0)
 			panel3:SetHorizontalScroll(0)
 			scc:SetPoint("TOPLEFT", panel3, "TOPLEFT", 0, 0)
-			scc:SetWidth(ALframewidth-45)  
-			scc:SetHeight(ALframeheight-45)  
+			scc:SetWidth(ALframewidth-45)
+			scc:SetHeight(ALframeheight-45)
 
 local text = scc:CreateFontString("AtlasLootChangelog_Text", "OVERLAY", "GameFontNormal")
 text:SetFont("Fonts\\FRIZQT__.TTF", 12)
@@ -75,7 +73,6 @@ text:SetText(WHITE..
 "- Новые реликвии у Лили .".."\n\n"..
 "- Добавлены полироли .".."\n\n"..
 "- Новые полироли теперь можно увидеть в списке лута с новых рбк .".."\n\n"
-
 
 
 )

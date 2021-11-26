@@ -22,7 +22,7 @@ AtlasLoot:SearchCastom(Text)
 else
 	if not Text then return end
 	Text = strtrim(Text);
-	if Text == "" then return end	
+	if Text == "" then return end
 	-- Decide if we need load all modules or just specified ones
 	local allDisabled = not self.db.profile.SearchOn.All;
 	if allDisabled then
@@ -46,10 +46,10 @@ else
 			end
 		end
 	end
-	
+
     AtlasLootCharDB["SearchResult"] = {};
 	AtlasLootCharDB.LastSearchedText = Text;
-    
+
 	local text = string.lower(Text);
     --[[if not self.db.profile.SearchOn.All then
         local module = AtlasLoot_GetLODModule(dataSource);
@@ -73,13 +73,13 @@ else
                     if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
                     table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
                 end
-            elseif (v[2] ~= nil) and (v[2] ~= "") and (string.sub(v[2], 1, 1) == "s") then 
+            elseif (v[2] ~= nil) and (v[2] ~= "") and (string.sub(v[2], 1, 1) == "s") then
                 local spellName = GetSpellInfo(string.sub(v[2], 2));
                 if not spellName then
-                    if (string.sub(v[4], 1, 2) == "=d") then  
+                    if (string.sub(v[4], 1, 2) == "=d") then
                         spellName = gsub(v[4], "=ds=", "");
                     else
-                        spellName = gsub(v[4], "=q%d=", ""); 
+                        spellName = gsub(v[4], "=q%d=", "");
                     end
                 end
                 local found;
@@ -96,7 +96,7 @@ else
             end
         end
     end
-	
+
 	if #AtlasLootCharDB["SearchResult"] == 0 then
 		DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot"]..": "..WHITE..AL["No match found for"].." \""..Text.."\".");
 	else
@@ -171,8 +171,8 @@ end
 
 function AtlasLoot:GetOriginalDataFromSearchResult(itemID)
 	for i, v in ipairs(AtlasLootCharDB["SearchResult"]) do
-		if v[2] == itemID then 
-            AtlasLoot_ShowWishListDropDown(v[2], v[3], v[4], v[5], v[8], this);        
+		if v[2] == itemID then
+            AtlasLoot_ShowWishListDropDown(v[2], v[3], v[4], v[5], v[8], this);
         end
 	end
 end
@@ -217,7 +217,7 @@ function AtlasLoot:SearchCastom(Text)
 	local CheckButtonTwoWeapon = AtlasLootCheckButton2Weapon:GetChecked()
 	local CheckButtonOffHand = AtlasLootCheckButtonOffHand:GetChecked()
 	local CheckButtonMainHand = AtlasLootCheckButtonMainHand:GetChecked()
-		
+
 			local CountType = 0
 			if CheckButtonWeapon then
 				CountType = CountType+1
@@ -230,14 +230,14 @@ function AtlasLoot:SearchCastom(Text)
 			end
 			if CheckButtonMainHand then
 				CountType = CountType+1
-			end		
-		
-		if not Text then 
-			return 
+			end
+
+		if not Text then
+			return
 		end
 			Text = strtrim(Text);
 		if Text == "" and CountType == 0 then
-			return 
+			return
 		elseif Text == "" and CountType > 0 then
 				Text = "фильтр"
 		end
@@ -266,46 +266,46 @@ function AtlasLoot:SearchCastom(Text)
 			end
 		end
 	end
-	
+
     AtlasLootCharDB["SearchResult"] = {};
 	AtlasLootCharDB.LastSearchedText = Text;
-		
-	local Cloth = AtlasLootCheckButtonCloth:GetChecked() 
-	local Leather = AtlasLootCheckButtonLeather:GetChecked() 
-	local Mail = AtlasLootCheckButtonMail:GetChecked() 
-	local Plate = AtlasLootCheckButtonPlate:GetChecked() 
+
+	local Cloth = AtlasLootCheckButtonCloth:GetChecked()
+	local Leather = AtlasLootCheckButtonLeather:GetChecked()
+	local Mail = AtlasLootCheckButtonMail:GetChecked()
+	local Plate = AtlasLootCheckButtonPlate:GetChecked()
 
 	local ArmorTypeAll = false
 	local IlvlFrom = 0
 	local IlvlBefore = 999
-	local SubType = Text 
-	 
+	local SubType = Text
+
 		if (Cloth and Leather and Mail and Plate) or (not Cloth and not Leather and not Mail and not Plate) then
 			ArmorTypeAll = true
 		end
 	local EquipType = false
 	local ChestType = false
-	local OtherType = false 
+	local OtherType = false
 	local WeaponType = false
 	local NonFilterWeapon = false
-	local HowManyChoices = false 	
-	local OtherSubType = false 
+	local HowManyChoices = false
+	local OtherSubType = false
 	local OffHand = false
-	local NonType = false	
+	local NonType = false
 	local NotFound = false
-	
+
 		if AtlasLootDefaultFrameFilterBoxIlvlFrom:GetNumLetters() >0 then
-			IlvlFrom = AtlasLootDefaultFrameFilterBoxIlvlFrom:GetNumber()	
+			IlvlFrom = AtlasLootDefaultFrameFilterBoxIlvlFrom:GetNumber()
 		end
 		if AtlasLootDefaultFrameFilterBoxIlvlBefore:GetNumLetters() >0 then
 			IlvlBefore = AtlasLootDefaultFrameFilterBoxIlvlBefore:GetNumber()
-		end	
+		end
 	if   string.find(string.lower("Голова"), Text) then
 		Text = "INVTYPE_HEAD"
 		EquipType = true
 	elseif   string.find(string.lower("Шея"), Text) then
 		Text = "INVTYPE_NECK"
-		OtherType = true 
+		OtherType = true
 	elseif   string.find(string.lower("Плечо"), Text) then
 		Text = "INVTYPE_SHOULDER"
 		EquipType = true
@@ -342,12 +342,12 @@ function AtlasLoot:SearchCastom(Text)
 		OtherType = true
 	elseif   string.find(string.lower("Щит"), Text) then
 		Text = "INVTYPE_SHIELD"
-		
+
 		OtherType = true
 	elseif   string.find(string.lower("Одноручное оружие"), Text) then --?
 		Text = "INVTYPE_WEAPON"
-	elseif   string.find(string.lower("Кинжал"), Text) or string.find(string.lower("Кистевое"), Text) or string.find(string.lower("Меч"), Text) or string.find(string.lower("Дробящее"), Text)or string.find(string.lower("Топор"), Text) then 		
-		if CountType >1 then 
+	elseif   string.find(string.lower("Кинжал"), Text) or string.find(string.lower("Кистевое"), Text) or string.find(string.lower("Меч"), Text) or string.find(string.lower("Дробящее"), Text)or string.find(string.lower("Топор"), Text) then
+		if CountType >1 then
 			HowManyChoices = true
 			WeaponType = true
 		elseif CheckButtonWeapon then
@@ -364,41 +364,41 @@ function AtlasLoot:SearchCastom(Text)
 			WeaponType = true
 		else
 			NonFilterWeapon = true
-		end		
-		
-		OtherSubType = true	
-	elseif   string.find(string.lower("Посох"), Text)then  
+		end
+
+		OtherSubType = true
+	elseif   string.find(string.lower("Посох"), Text)then
 		Text = "INVTYPE_2HWEAPON"
 		WeaponType = true
-		OtherSubType = true				
-	elseif   string.find(string.lower("Двуручное оружие"), Text) then 
+		OtherSubType = true
+	elseif   string.find(string.lower("Двуручное оружие"), Text) then
 		Text = "INVTYPE_2HWEAPON"
-		NonType = true		
-	elseif   string.find(string.lower("Левая рука"), Text) then 
+		NonType = true
+	elseif   string.find(string.lower("Левая рука"), Text) then
 		Text = "INVTYPE_WEAPONOFFHAND"
 		--Text = "INVTYPE_HOLDABLE"
-		OffHand = true		
-	elseif   string.find(string.lower("Правая рука"), Text) then 
+		OffHand = true
+	elseif   string.find(string.lower("Правая рука"), Text) then
 		Text = "INVTYPE_WEAPONMAINHAND"
 		NonType = true
-	elseif   string.find(string.lower("Реликвия"), Text) then 
+	elseif   string.find(string.lower("Реликвия"), Text) then
 		Text = "INVTYPE_RELIC"
 		OtherType = true
-	elseif   string.find(string.lower("Идолы"), Text) or  string.find(string.lower("Манускрипты"), Text) or  string.find(string.lower("Тотемы"), Text) or  string.find(string.lower("Печати"), Text) then 
+	elseif   string.find(string.lower("Идолы"), Text) or  string.find(string.lower("Манускрипты"), Text) or  string.find(string.lower("Тотемы"), Text) or  string.find(string.lower("Печати"), Text) then
 		Text = "INVTYPE_RELIC"
 		OtherType = true
 		OtherSubType = true
 	elseif   string.find(string.lower("Метательное"), Text) then
 		Text = "INVTYPE_THROWN"
 		OtherType = true
-	elseif   string.find(string.lower("Лук"), Text) then 
-		Text = "INVTYPE_RANGED"	
+	elseif   string.find(string.lower("Лук"), Text) then
+		Text = "INVTYPE_RANGED"
 		NonType = true
-	elseif   string.find(string.lower("Оружие дального боя"), Text) then 
+	elseif   string.find(string.lower("Оружие дального боя"), Text) then
 		Text = "INVTYPE_RANGEDRIGHT"
 		NonType = true
-	elseif   string.find(string.lower("Арбалет"), Text) or string.find(string.lower("Огнестрельное"), Text) or string.find(string.lower("Жезл"), Text)then 
-		Text = "INVTYPE_RANGEDRIGHT"	
+	elseif   string.find(string.lower("Арбалет"), Text) or string.find(string.lower("Огнестрельное"), Text) or string.find(string.lower("Жезл"), Text)then
+		Text = "INVTYPE_RANGEDRIGHT"
 		OtherSubType = true
 	elseif   string.find(string.lower("Спина"), Text) then
 		Text = "INVTYPE_CLOAK"
@@ -406,13 +406,13 @@ function AtlasLoot:SearchCastom(Text)
 	elseif Text~="фильтр" then
 		NotFound = true
 	end
-	
-	local text = string.lower(Text);   
+
+	local text = string.lower(Text);
 	local all = false
 		if not EquipType and not OtherType and not WeaponType then
-			all = true 
+			all = true
 		end
-if  NotFound == false and (text ~="" or CountType >0)then	
+if  NotFound == false and (text ~="" or CountType >0)then
     local partial = self.db.profile.PartialMatching;
     for dataID, data in pairs(AtlasLoot_Data) do
         for _, v in ipairs(data) do
@@ -423,33 +423,33 @@ if  NotFound == false and (text ~="" or CountType >0)then
 				local foundSubType
 				local foundItemLevel = false
 				local foundOtherSubType
-				
-				if EquipType then 										
-						found = string.lower(itemEquipLoc) == text;					
+
+				if EquipType then
+						found = string.lower(itemEquipLoc) == text;
 					if  not found and ChestType then
-						text = string.lower("INVTYPE_ROBE") 
+						text = string.lower("INVTYPE_ROBE")
 						found = string.lower(itemEquipLoc) == text;
 					end
 					if  not found and ChestType then
 						text = string.lower("INVTYPE_CHEST")
 						found = string.lower(itemEquipLoc) == text;
-						end								
-					if found then	
-						if Cloth and not foundSubType then							
-							foundSubType = string.lower(itemSubType) == "тканевые";							
 						end
-						if Leather and not foundSubType then							
+					if found then
+						if Cloth and not foundSubType then
+							foundSubType = string.lower(itemSubType) == "тканевые";
+						end
+						if Leather and not foundSubType then
 							foundSubType = string.lower(itemSubType) == "кожаные";
 						end
-						if Mail and not foundSubType then					
-							foundSubType = string.lower(itemSubType) == "кольчужные";							
+						if Mail and not foundSubType then
+							foundSubType = string.lower(itemSubType) == "кольчужные";
 						end
-						if Plate and not foundSubType then						
-							foundSubType = string.lower(itemSubType) == "латные";						
-						end														
+						if Plate and not foundSubType then
+							foundSubType = string.lower(itemSubType) == "латные";
+						end
 						if IlvlFrom  <= itemLevel and  itemLevel <= IlvlBefore then
 							foundItemLevel = true
-						end								
+						end
 						if foundSubType and not ArmorTypeAll and foundItemLevel then
 							local _, _, quality = string.find(v[4], "=q(%d)=");
 							if quality then itemName = "=q"..quality.."="..itemName end
@@ -462,137 +462,137 @@ if  NotFound == false and (text ~="" or CountType >0)then
 							if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
 							table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
 						end
-					end		
-				elseif OtherType  then 							
-						found = string.lower(itemEquipLoc) == text;											
-					if OtherSubType then 						
-						foundOtherSubType = string.find(string.lower(itemSubType), SubType);											
-					end				
+					end
+				elseif OtherType  then
+						found = string.lower(itemEquipLoc) == text;
+					if OtherSubType then
+						foundOtherSubType = string.find(string.lower(itemSubType), SubType);
+					end
 					if IlvlFrom  <= itemLevel and  itemLevel <= IlvlBefore then
 						foundItemLevel = true
-					end																			
+					end
 					if found and foundItemLevel and not OtherSubType then
 						local _, _, quality = string.find(v[4], "=q(%d)=");
 						if quality then itemName = "=q"..quality.."="..itemName end
 						if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
-						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });           
-					end					
+						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
+					end
 					if found and foundItemLevel and OtherSubType and foundOtherSubType then
 						local _, _, quality = string.find(v[4], "=q(%d)=");
 						if quality then itemName = "=q"..quality.."="..itemName end
 						if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
-						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });           
-					end													
-				elseif WeaponType then					
-						found = string.lower(itemEquipLoc) == text;																	
-					if HowManyChoices then 		
+						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
+					end
+				elseif WeaponType then
+						found = string.lower(itemEquipLoc) == text;
+					if HowManyChoices then
 						if not found and CheckButtonWeapon then
 							local newtext = string.lower("INVTYPE_WEAPON")
-							found = string.lower(itemEquipLoc) == newtext;	
+							found = string.lower(itemEquipLoc) == newtext;
 						end
-						if not found and CheckButtonTwoWeapon then  
+						if not found and CheckButtonTwoWeapon then
 							local newtext = string.lower("INVTYPE_2HWEAPON")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end	
-						if not found and CheckButtonOffHand then  
+							found = string.lower(itemEquipLoc) == newtext;
+						end
+						if not found and CheckButtonOffHand then
 							local newtext = string.lower("INVTYPE_WEAPONOFFHAND")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end	
-						if not found and CheckButtonMainHand then  
+							found = string.lower(itemEquipLoc) == newtext;
+						end
+						if not found and CheckButtonMainHand then
 							local newtext = string.lower("INVTYPE_WEAPONMAINHAND")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end								
-					end									
-					if OtherSubType then 						
-						foundOtherSubType = string.find(string.lower(itemSubType), SubType);							
-					end					
+							found = string.lower(itemEquipLoc) == newtext;
+						end
+					end
+					if OtherSubType then
+						foundOtherSubType = string.find(string.lower(itemSubType), SubType);
+					end
 					if IlvlFrom  <= itemLevel and  itemLevel <= IlvlBefore then
 						foundItemLevel = true
-					end																				
-						if found and foundItemLevel and not OtherSubType then					
+					end
+						if found and foundItemLevel and not OtherSubType then
 							local _, _, quality = string.find(v[4], "=q(%d)=");
 							if quality then itemName = "=q"..quality.."="..itemName end
 							if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
-							table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });           
-						end					
-						if found and foundItemLevel and OtherSubType and foundOtherSubType then				
+							table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
+						end
+						if found and foundItemLevel and OtherSubType and foundOtherSubType then
 							local _, _, quality = string.find(v[4], "=q(%d)=");
 							if quality then itemName = "=q"..quality.."="..itemName end
 							if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
-							table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });           
-						end								
-				elseif all then							
+							table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
+						end
+				elseif all then
 					if CountType >0 and not NonType then
 						if not found and CheckButtonWeapon then
 							local newtext = string.lower("INVTYPE_WEAPON")
-							found = string.lower(itemEquipLoc) == newtext;	
+							found = string.lower(itemEquipLoc) == newtext;
 						end
-						if not found and CheckButtonTwoWeapon then  
+						if not found and CheckButtonTwoWeapon then
 							local newtext = string.lower("INVTYPE_2HWEAPON")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end	
-						if not found and CheckButtonOffHand then  
-							local newtext = string.lower("INVTYPE_WEAPONOFFHAND")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end	
-						if not found and CheckButtonMainHand then  
-							local newtext = string.lower("INVTYPE_WEAPONMAINHAND")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end	
-						if not found and CheckButtonOffHand then  
-							local newtext = string.lower("INVTYPE_HOLDABLE")
-							found = string.lower(itemEquipLoc) == newtext;	
+							found = string.lower(itemEquipLoc) == newtext;
 						end
-					
+						if not found and CheckButtonOffHand then
+							local newtext = string.lower("INVTYPE_WEAPONOFFHAND")
+							found = string.lower(itemEquipLoc) == newtext;
+						end
+						if not found and CheckButtonMainHand then
+							local newtext = string.lower("INVTYPE_WEAPONMAINHAND")
+							found = string.lower(itemEquipLoc) == newtext;
+						end
+						if not found and CheckButtonOffHand then
+							local newtext = string.lower("INVTYPE_HOLDABLE")
+							found = string.lower(itemEquipLoc) == newtext;
+						end
+
 					elseif CountType ==0 and NonFilterWeapon then
 						if not found  then
 							local newtext = string.lower("INVTYPE_WEAPON")
-							found = string.lower(itemEquipLoc) == newtext;	
+							found = string.lower(itemEquipLoc) == newtext;
 						end
-						if not found then  
+						if not found then
 							local newtext = string.lower("INVTYPE_2HWEAPON")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end	
-						if not found then  
+							found = string.lower(itemEquipLoc) == newtext;
+						end
+						if not found then
 							local newtext = string.lower("INVTYPE_WEAPONOFFHAND")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end	
-						if not found  then  
+							found = string.lower(itemEquipLoc) == newtext;
+						end
+						if not found  then
 							local newtext = string.lower("INVTYPE_WEAPONMAINHAND")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end	
-															
+							found = string.lower(itemEquipLoc) == newtext;
+						end
+
 					elseif OffHand then
-						if not found  then  
+						if not found  then
 							local newtext = string.lower("INVTYPE_WEAPONOFFHAND")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end		
-						if not found then  
+							found = string.lower(itemEquipLoc) == newtext;
+						end
+						if not found then
 							local newtext = string.lower("INVTYPE_HOLDABLE")
-							found = string.lower(itemEquipLoc) == newtext;	
-						end		
+							found = string.lower(itemEquipLoc) == newtext;
+						end
 					else
-						found = string.lower(itemEquipLoc) == text;							
-				end	
+						found = string.lower(itemEquipLoc) == text;
+				end
 					if IlvlFrom  <= itemLevel and  itemLevel <= IlvlBefore then
 							foundItemLevel = true
-					end	
-					if OtherSubType then 						
-							foundOtherSubType = string.find(string.lower(itemSubType), SubType);							
-					end		
-					if found and foundItemLevel and not OtherSubType then					
+					end
+					if OtherSubType then
+							foundOtherSubType = string.find(string.lower(itemSubType), SubType);
+					end
+					if found and foundItemLevel and not OtherSubType then
 						local _, _, quality = string.find(v[4], "=q(%d)=");
 						if quality then itemName = "=q"..quality.."="..itemName end
 						if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
-						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });           
-					end		
-					if found and foundItemLevel and OtherSubType and foundOtherSubType then				
+						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
+					end
+					if found and foundItemLevel and OtherSubType and foundOtherSubType then
 						local _, _, quality = string.find(v[4], "=q(%d)=");
 						if quality then itemName = "=q"..quality.."="..itemName end
 						if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
-						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });           
-					end										
-				end	
+						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
+					end
+				end
             end
         end
     end

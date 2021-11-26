@@ -401,5 +401,5 @@ AtlasLoot_ExtraText = {
         GREEN..AL["Accessories"];
         GREEN..AL["Weapons"];
         GREEN..BabbleInventory["Armor"];
-    };    
+    };
 };
