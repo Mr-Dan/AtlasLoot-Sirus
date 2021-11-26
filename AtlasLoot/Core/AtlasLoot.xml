@@ -1735,6 +1735,31 @@
 				</Scripts>
 				<FontString name="AtlasLootSearchString" inherits="GameFontNormal"></FontString>
 			</EditBox>
+			<Button name="AtlasLootDefaultFrameSearchButtonFilter" inherits="UIPanelButtonTemplate2" parent="AtlasLootSearchBox">
+				<Size>
+					<AbsDimension x="20" y="20"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture file="Interface\Buttons\on"/>
+				<PushedTexture file="Interface\Buttons\click"/>
+				<DisabledTexture file="Interface\Buttons\UI-SpellbookIcon-NextPage-Disabled"/>
+				<HighlightTexture file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD"/>				
+				<Scripts>
+					<OnShow>
+						local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");					
+						this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+					</OnShow>
+					<OnClick>
+						AtlasLoot:ShowSearchFilter();
+					</OnClick>
+				</Scripts>
+			</Button>
             <Button name="AtlasLootSearchButton" inherits="UIPanelButtonTemplate2" parent="AtlasLootSearchBox">
 				<Size>
 					<AbsDimension x="69" y="32"/>
