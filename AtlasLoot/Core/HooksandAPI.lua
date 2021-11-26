@@ -23,7 +23,7 @@ integration purposes.
 ]]
 function AtlasLoot_Atlas_OnShow()
     Atlas_Refresh();
-    
+
     --We don't want Atlas and the Loot Browser open at the same time, so the Loot Browser is close
     if AtlasLootDefaultFrame then
         AtlasLootDefaultFrame:Hide();
@@ -49,7 +49,7 @@ function AtlasLoot_Atlas_OnShow()
         AtlasLootPanel:Hide();
     else
         AtlasLootPanel:Show();
-    end 
+    end
     pFrame = AtlasFrame;
 end
 
@@ -66,19 +66,19 @@ function AtlasLoot_Refresh()
     local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
     local data = AtlasMaps;
     local base = {};
-    
+
     --Get boss name information
     for k,v in pairs(data[zoneID]) do
         base[k] = v;
     end
-    
+
     --Display the newly selected texture
     AtlasMap:ClearAllPoints();
     AtlasMap:SetWidth(512);
     AtlasMap:SetHeight(512);
     AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 18, -84);
     local builtIn = AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
-    
+
     --If texture was not found in the core Atlas mod, check plugins
     if ( not builtIn ) then
         for k,v in pairs(ATLAS_PLUGINS) do
@@ -87,7 +87,7 @@ function AtlasLoot_Refresh()
             end
         end
     end
-    
+
     --Setup info panel above boss listing
     local tName = base.ZoneName[1];
     if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
@@ -95,7 +95,7 @@ function AtlasLoot_Refresh()
         tName = tName.._RED.." ["..base.Acronym.."]";
     end
     AtlasText_ZoneName_Text:SetText(tName);
-    
+
     local tLoc = "";
     local tLR = "";
     local tML = "";
@@ -116,7 +116,7 @@ function AtlasLoot_Refresh()
     AtlasText_LevelRange_Text:SetText(tLR);
     AtlasText_MinLevel_Text:SetText(tML);
     AtlasText_PlayerLimit_Text:SetText(tPL);
-    
+
     Atlastextbase = base;
     --Get the size of the Atlas text to append stuff to the bottom.  Looks for empty lines
     local i = 1;
@@ -143,21 +143,21 @@ function AtlasLoot_Refresh()
             Atlastextbase[i]={"", nil, nil};
         end
     end
-    
+
     --Hide any Atlas objects lurking around that have now been replaced
     for i=1,ATLAS_CUR_LINES do
         if ( getglobal("AtlasEntry"..i) ) then
             getglobal("AtlasEntry"..i):Hide();
         end
     end
-    
+
     ATLAS_DATA = Atlastextbase;
     ATLAS_SEARCH_METHOD = data.Search;
     --Deal with Atlas's search function
     if ( data.Search == nil ) then
         ATLAS_SEARCH_METHOD = AtlasSimpleSearch;
     end
-    
+
     if ( data.Search ~= false ) then
         AtlasSearchEditBox:Show();
         AtlasNoSearch:Hide();
@@ -171,7 +171,7 @@ function AtlasLoot_Refresh()
     Atlas_Search("");
     AtlasSearchEditBox:SetText("");
     AtlasSearchEditBox:ClearFocus();
-    
+
     --create and align any new entry buttons that we need
     for i=1,ATLAS_CUR_LINES do
         local f;
@@ -188,13 +188,13 @@ function AtlasLoot_Refresh()
             getglobal("AtlasBossLine"..i.."_Selected"):Hide();
         end
     end
-    
+
     --Hide the loot frame now that a pristine Atlas instance is created
     AtlasLootItemsFrame:Hide();
     Atlas_Search("");
     --Make sure the scroll bar is correctly offset
     AtlasLoot_AtlasScrollBar_Update();
-	
+
 	--see if we should display the entrance/instance button or not, and decide what it should say
 	local matchFound = {nil};
 	local sayEntrance = nil;
@@ -212,7 +212,7 @@ function AtlasLoot_Refresh()
 			end
 		end
 	end
-	
+
 	--set the button's text, populate the dropdown menu, and show or hide the button
 	if ( matchFound[1] ~= nil ) then
 		ATLAS_INST_ENT_DROPDOWN = {};
@@ -230,7 +230,7 @@ function AtlasLoot_Refresh()
 	else
 		AtlasSwitchButton:Hide();
 	end
-	
+
 	if ( TitanPanelButton_UpdateButton ) then
 		TitanPanelButton_UpdateButton("Atlas");
 	end
@@ -239,7 +239,7 @@ end
 
 --[[
 AtlasLoot_AtlasScrollBar_Update:
-Hooks the Atlas scroll frame.  
+Hooks the Atlas scroll frame.
 Required as the Atlas function cannot deal with the AtlasLoot button template or the added Atlasloot entries
 ]]
 function AtlasLoot_AtlasScrollBar_Update()
@@ -292,7 +292,7 @@ This function figures out where the loot table is stored, then sends the relevan
 function AtlasLoot_ShowBossLoot(dataID, boss, pFrame)
 
     local tableavailable = AtlasLoot_IsLootTableAvailable(dataID);
-    
+
     if (tableavailable) then
         AtlasLootItemsFrame:Hide();
 

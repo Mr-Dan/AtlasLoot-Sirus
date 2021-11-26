@@ -123,7 +123,7 @@ function AtlasLootItem_OnEnter()
                 end
                 if( DKP ~= nil and DKP ~= "" ) then
                     GameTooltip:AddLine(RED..DKP.." "..AL["DKP"], 1, 1, 0);
-                end 
+                end
                 if( priority ~= nil and priority ~= "" ) then
                     GameTooltip:AddLine(GREEN..AL["Priority:"].." "..priority, 1, 1, 0);
                 end
@@ -140,83 +140,83 @@ function AtlasLootItem_OnEnter()
                         AtlasLootTooltip:SetHyperlink("item:"..this.itemID..":0:0:0");
                         if ( AtlasLoot.db.profile.ItemIDs ) then
                             AtlasLootTooltip:AddLine(BLUE..AL["ItemID:"].." "..this.itemID, nil, nil, nil, 1);
-                        end					
+                        end
                       --[[  if( this.droprate ~= nil) then
                             AtlasLootTooltip:AddLine(AL["Drop Rate: "]..this.droprate, 1, 1, 0);
-                        end]]--				
+                        end]]--
                         if( DKP ~= nil and DKP ~= "" ) then
                             AtlasLootTooltip:AddLine(RED..DKP.." "..AL["DKP"], 1, 1, 0);
-                        end				
-						local status, err;																						                       									
-						 --  Торговец цена	
+                        end
+						local status, err;
+						 --  Торговец цена
 							GameTooltip_ClearMoney(AtlasLootTooltip)
 							local _, _, _, _, _, _, _, _,_, _, itemSellPrice  = GetItemInfo(this.itemID);
-							local vendorPrice	= 0;						
-							vendorPrice	= itemSellPrice;						  
+							local vendorPrice	= 0;
+							vendorPrice	= itemSellPrice;
 							if (vendorPrice ~= 0 and err == nil) then
 							AtlasLootTooltip:AddLine (AL["Vendor2"]..WHITE..ALpriceToMoneyString(itemSellPrice));
 							elseif ( err == nil) then
 							AtlasLootTooltip:AddLine (AL["BOPVendor2"]);
-							end 
+							end
 
 						-- Аддон Auctionator цена
 							local itemLink = select(2, GetItemInfo(this.itemID))
 							local auctionPrice	= 0;
-							 status, err = pcall(function () 							             
-								Auctionator.Utilities.DBKeyFromLink(itemLink, function(dbKeys) 
+							 status, err = pcall(function ()
+								Auctionator.Utilities.DBKeyFromLink(itemLink, function(dbKeys)
 									if #dbKeys == 0 or Auctionator.Utilities.IsPetDBKey(dbKeys[1]) then
 										return
 									end
-									local auctionPrice = Auctionator.Database:GetFirstPrice(dbKeys) 
+									local auctionPrice = Auctionator.Database:GetFirstPrice(dbKeys)
 									if (auctionPrice ~= nil ) then
 										AtlasLootTooltip:AddLine (AL["Auction"]..WHITE..ALpriceToMoneyString(auctionPrice));
 									elseif( err == nil ) then
-										AtlasLootTooltip:AddLine (AL["BOPAuction"]);			
+										AtlasLootTooltip:AddLine (AL["BOPAuction"]);
 									end
-								 end) 
-							 end); 									
-                        			
+								 end)
+							 end);
+
 						  -- Аддон Auctionator	распыление
 							local _, itemLink, itemRarity, itemLevel, _, itemType, _, _,_, _, itemSellPrice  = GetItemInfo(this.itemID);
-							local dePrice= nil;	
-							local disenchantStatus= nil;								
+							local dePrice= nil;
+							local disenchantStatus= nil;
 							status, err = pcall(function ()
-							local itemInfo = { GetItemInfo(itemLink) };						
+							local itemInfo = { GetItemInfo(itemLink) };
 							  if (#itemInfo) ~= 0 then
 								local sellPrice = itemInfo[Auctionator.Constants.ITEM_INFO.SELL_PRICE]
 									disenchantStatus = Auctionator.Enchant.DisenchantStatus(itemInfo)
 									dePrice = Auctionator.Enchant.GetDisenchantAuctionPrice(itemLink)
 								end
-							end ); 
+							end );
 							if (dePrice ~= 0 and err == nil and (itemType == 'Оружие' or itemType =='Доспехи')and (itemRarity >=2 and itemRarity<=4 )  ) then
 							AtlasLootTooltip:AddLine (AL["Disenchant"]..WHITE..ALpriceToMoneyString(dePrice));
 							elseif ( err == nil) then
 							AtlasLootTooltip:AddLine (AL["BOPDisenchant"]);
-							end 							
-                       
-							-- Модель									
-							local incollection = SIRUS_COLLECTION_COLLECTED_ITEM_APPEARANCES[this.itemID]	
+							end
+
+							-- Модель
+							local incollection = SIRUS_COLLECTION_COLLECTED_ITEM_APPEARANCES[this.itemID]
 							local foundModel = false
 							if (incollection~= true) then
 								local foundSourceInfo = ITEM_MODIFIED_APPEARANCE_STORAGE[this.itemID]
 									if (foundSourceInfo~= nil)  then
 										local sourceInfo = ITEM_MODIFIED_APPEARANCE_STORAGE[this.itemID][1]
 										local itemAppearanceInfo = ITEM_APPEARANCE_STORAGE[sourceInfo]
-										for i=1, #itemAppearanceInfo[2] do								
+										for i=1, #itemAppearanceInfo[2] do
 											if SIRUS_COLLECTION_COLLECTED_ITEM_APPEARANCES[itemAppearanceInfo[2][i]]then
 												foundModel = true
-											end									
+											end
 										end
 										if(foundModel~= true) then
 											AtlasLootTooltip:AddLine ("|cff6E86D6"..AL["Model not in collection"]);
-										end											
-									end 							
+										end
+									end
 							end
 							if (incollection == true or foundModel == true) then
 								AtlasLootTooltip:AddLine ("|cff6E86D6"..AL["Model in collection"]);
 							end
-						
-						
+
+
                         if( priority ~= nil and priority ~= "" ) then
                             AtlasLootTooltip:AddLine(GREEN..AL["Priority:"].." "..priority, 1, 1, 0);
                         end
@@ -244,7 +244,7 @@ function AtlasLootItem_OnEnter()
             AtlasLootTooltip:Show();
             if(this.spellitemID and ((AtlasLoot.db.profile.EquipCompare and ((not EquipCompare_RegisterTooltip) or (not EquipCompare_Enabled))) or IsShiftKeyDown())) then
                 AtlasLootItem_ShowCompareItem(); --- CALL MISSING METHOD TO SHOW 2 TOOLTIPS (Item Compare)
-            end    
+            end
         end
     end
 end
@@ -367,11 +367,11 @@ function AtlasLootItem_ShowCompareItem()
    if ( not link ) then
       return
    end
-   
+
    ShoppingTooltip1:SetOwner(AtlasLootTooltip, "ANCHOR_NONE");
    ShoppingTooltip2:SetOwner(AtlasLootTooltip, "ANCHOR_NONE");
    ShoppingTooltip3:SetOwner(AtlasLootTooltip, "ANCHOR_NONE");
-   
+
    local item1 = nil;
    local item2 = nil;
    local item3 = nil;
@@ -385,10 +385,10 @@ function AtlasLootItem_ShowCompareItem()
    if ( ShoppingTooltip3:SetHyperlinkCompareItem(link, 3, 1, AtlasLootTooltip) ) then
       item3 = true;
    end
-   if not item1 and not item2 and not item3 then 
-        return 
+   if not item1 and not item2 and not item3 then
+        return
     end
-   
+
    if item3 then
         if not item1 then
             item1, item3 = true, nil;
@@ -402,11 +402,11 @@ function AtlasLootItem_ShowCompareItem()
         item1, item2 = true, nil;
         ShoppingTooltip1:SetHyperlinkCompareItem(link, 2, 1, AtlasLootTooltip);
     end
-   
+
    local left, right, anchor1, anchor2 = AtlasLootTooltip:GetLeft(), AtlasLootTooltip:GetRight(), "TOPLEFT", "TOPRIGHT";
    if not left or not right then return end
 	if (GetScreenWidth() - right) < left then anchor1, anchor2 = anchor2, anchor1 end
-    
+
     if item1 then
 		ShoppingTooltip1:ClearAllPoints();
 		ShoppingTooltip1:SetPoint(anchor1, AtlasLootTooltip, anchor2, 0, -10);
@@ -417,14 +417,14 @@ function AtlasLootItem_ShowCompareItem()
 			ShoppingTooltip2:SetPoint(anchor1, ShoppingTooltip1, anchor2);
 			ShoppingTooltip2:Show();
 		end
-        
+
         if item3 then
 			ShoppingTooltip3:ClearAllPoints();
 			ShoppingTooltip3:SetPoint(anchor1, ShoppingTooltip2, anchor2);
 			ShoppingTooltip3:Show();
 		end
 	end
-    
+
 end
 
    local goldicon		= "|TInterface\\MoneyFrame\\UI-GoldIcon:12:12:4:0|t"
@@ -449,9 +449,9 @@ end
 	local c = rv;
 
 	return g, s, c
-end  
-   
-   
+end
+
+
 function ALpriceToMoneyString (val, noZeroCoppers)
 
 	local gold, silver, copper  = ALval2gsc(val);

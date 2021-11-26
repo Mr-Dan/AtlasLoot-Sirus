@@ -163,8 +163,8 @@ local ALframeheight = InterfaceOptionsFramePanelContainer:GetHeight()
 		local scc = CreateFrame("Frame", "AtlasLootHelpFrame_HelpTextFrame", panel3)
 			panel3:SetScrollChild(scc)
 			panel3:SetPoint("TOPLEFT", AtlasLootHelpFrame, "TOPLEFT", 10, -25)
-			panel3:SetWidth(ALframewidth-45)  
-			panel3:SetHeight(ALframeheight-45) 
+			panel3:SetWidth(ALframewidth-45)
+			panel3:SetHeight(ALframeheight-45)
 			panel3:SetHorizontalScroll(-50)
 			panel3:SetVerticalScroll(50)
 			panel3:SetBackdrop({bgFile="Interface\\DialogFrame\\UI-DialogBox-Background", edgeFile="", tile = false, tileSize = 0, edgeSize = 0, insets = { left = 0, right = 0, top = 0, bottom = 0 }})
@@ -173,8 +173,8 @@ local ALframeheight = InterfaceOptionsFramePanelContainer:GetHeight()
 			panel3:SetVerticalScroll(0)
 			panel3:SetHorizontalScroll(0)
 			scc:SetPoint("TOPLEFT", panel3, "TOPLEFT", 0, 0)
-			scc:SetWidth(ALframewidth-45)  
-			scc:SetHeight(ALframeheight-45) 
+			scc:SetWidth(ALframewidth-45)
+			scc:SetHeight(ALframeheight-45)
 		local text = scc:CreateFontString("AtlasLootHelpFrame_HelpText","OVERLAY","GameFontNormal")
 			text:SetPoint("TOPLEFT", scc, "TOPLEFT", 0, 0)
 			text:SetWidth(ALframewidth-80)
@@ -244,7 +244,7 @@ function AtlasLoot_CreateOptionsInfoTooltips()
       AtlasLoot_AddTooltip("AtlasLootOptionsFrame_ResetQuicklooks", nil) -- AL["Reset Quicklooks"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrame_FuBarShow", nil) -- AL["Show FuBar Plugin"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrame_FuBarHide", nil) -- AL["Hide FuBar Plugin"]
-      AtlasLoot_AddTooltip("AtlasLoot_SelectLootBrowserStyle", nil) 
+      AtlasLoot_AddTooltip("AtlasLoot_SelectLootBrowserStyle", nil)
 end
 
 function AtlasLoot_OptionsOnShow()
@@ -270,7 +270,7 @@ function AtlasLoot_SelectLootBrowserStyle_Initialize()
         func = AtlasLoot_SelectLootBrowserStyle_OnClick;
     };
 	UIDropDownMenu_AddButton(info);
-	
+
 	if (AtlasLootNewStylesMod ~= nil) then
 	AtlasLootMenuAddStyles()
 	end
@@ -325,16 +325,16 @@ local Authors = {
 	["Lâg"] = "Arthas",
 	["Daviesh"] = "Thaurissan",
 	["Hegarol"] = "Dun Morogh",
-	
+
 }
 
 function AtlasLoot_UnitTarget()
 	local name = GameTooltip:GetUnit()
-	if UnitName("mouseover") == name then 
+	if UnitName("mouseover") == name then
 		local _, realm = UnitName("mouseover")
-		if not realm then 
+		if not realm then
 			realm = GetRealmName()
-		end; 
+		end;
 		if name and Authors[name] then
 			if Authors[name] == realm then
 				GameTooltip:AddLine("AtlasLoot Author |TInterface\\AddOns\\AtlasLoot\\Images\\gold:0|t", 0, 1, 0 )

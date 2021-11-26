@@ -947,7 +947,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#absh5#", AL["The Defiler's Fortitude"]);
     text = gsub(text, "#absh6#", AL["The Defiler's Resolution"]);
 
-    -- PvP Level 60 Rare Sets - Alliance 
+    -- PvP Level 60 Rare Sets - Alliance
     text = gsub(text, "#pvpra1#", AL["Lieutenant Commander's Refuge"]);
     text = gsub(text, "#pvpra2#", AL["Lieutenant Commander's Pursuance"]);
     text = gsub(text, "#pvpra3#", AL["Lieutenant Commander's Arcanum"]);
@@ -1011,9 +1011,9 @@ function AtlasLoot_FixText(text)
     -- Arena Epic Sets
     text = gsub(text, "#reqrating#", AL["Rating:"]);
 	text = gsub(text, "#reqrank#", AL["Rank:"]);
-	
+
 	-- Arena Tier
-	
+
     text = gsub(text, "#arenaset5#", AL["arenaset5"]);
     text = gsub(text, "#arenaset6#", AL["arenaset6"]);
     text = gsub(text, "#arenaset7#", AL["arenaset7"]);
@@ -1101,22 +1101,22 @@ function AtlasLoot_FixText(text)
 	text = gsub(text, "#legendarygem#", "|TInterface\\Icons\\inv_legendary_chimeraoffear:18|t");
 	text = gsub(text, "#pvevalorpoints#", "|TInterface\\Icons\\pvecurrency-valor:15|t");
 	text = gsub(text, "#jeton#", "|TInterface\\Icons\\inv_misc_trinketpanda_08:15|t");--жетоны война запределья
-	text = gsub(text, "#pigment#", BabbleInventory["pigment"]);--Полироль 
-	text = gsub(text, "#blackpigment#", BabbleInventory["blackpigment"]);--Полироль 
+	text = gsub(text, "#pigment#", BabbleInventory["pigment"]);--Полироль
+	text = gsub(text, "#blackpigment#", BabbleInventory["blackpigment"]);--Полироль
 	text = gsub(text, "#Tol'Garod#", "|TInterface\\Icons\\Achievement_Zone_TolBarad:15|t");--жетоны Тол'Гарод
 	text = gsub(text, "#Coin of Ancestry#", "|TInterface\\Icons\\inv_misc_elvencoins:15|t");-- Монета Наследия
 	text = gsub(text, "#Elisandra's Loans#", "|TInterface\\Icons\\ability_racial_etherealconnection:15|t");--Кредиты дельцы Элисандра
 
 	text = gsub(text, "#valentineday#", "|TInterface\\Icons\\inv_valentinescard01:0|t");
 	text = gsub(text, "#valentineday2#", "|TInterface\\Icons\\inv_jewelry_necklace_43:0|t");
-	
+
 	text = gsub(text, "#frozenorb#", "|TInterface\\Icons\\Spell_frost_frozencore:0|t");
 	text = gsub(text, "#primalnether#", "|TInterface\\Icons\\Inv_elemental_primal_nether:0|t");
 	text = gsub(text, "#netherseal#", "|TInterface\\Icons\\ARCHAEOLOGY_5_0_THUNDERKINGINSIGNIA:15|t");
 	text = gsub(text, "#sealeternity#", "|TInterface\\Icons\\inv_jewelry_ring_60:0|t");
 	text = gsub(text, "#SealoftheTitans#", "|TInterface\\Icons\\inv_relics_warpring:0|t");
-	
-	
+
+
 
 	text = gsub(text, "#ragesaddle#", "|TInterface\\Icons\\achievement_bg_kill_on_mount:0|t");
     text = gsub(text, "#elementalnether#", "|TInterface\\Icons\\Inv_elemental_mote_nether:0|t");--Воронка пустоты
@@ -1129,7 +1129,7 @@ function AtlasLoot_FixText(text)
         text = gsub(text, "#markthrallmarhhold#", "|TInterface\\Icons\\INV_Misc_Token_Thrallmar:0|t");
 		--text = gsub(text, "#arenapoints#", "|TInterface\\Icons\\PVPCurrency-Conquest-Horde:0|t");
 		text = gsub(text, "#honorpoints#", "|TInterface\\Icons\\PVPCurrency-Honor-Horde:0|t");
-		
+
 		text = gsub(text, "#arenapoints#", "|TInterface\\PVPFrame\\PVPCurrency-Conquest-Horde:20:30|t");
 		text = gsub(text, "#bgpoints#", "|TInterface\\PVPFrame\\PVPCurrency-Honor-Horde:20:30|t");
 
@@ -1147,7 +1147,7 @@ function AtlasLoot_FixText(text)
 
 		text = gsub(text, "#arenapoints#", "|TInterface\\PVPFrame\\PVPCurrency-Conquest-Renegade:20:30|t");
 		text = gsub(text, "#bgpoints#", "|TInterface\\PVPFrame\\PVPCurrency-Honor-Renegade:20:30|t");
-		 
+
     end
 
     return text;

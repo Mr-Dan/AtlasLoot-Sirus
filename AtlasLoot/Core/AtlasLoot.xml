@@ -11,6 +11,7 @@
 	<Script file="AtlasLoot.lua"/>
 	<Script file="WishList.lua"/>
     <Script file="Search.lua"/>
+		
     
 	
     <GameTooltip name="AtlasLootTooltip" inherits="GameTooltipTemplate" parent="UIParent" hidden="true"/>
@@ -1827,4 +1828,3 @@
     </Frame>
 
 </Ui>
-

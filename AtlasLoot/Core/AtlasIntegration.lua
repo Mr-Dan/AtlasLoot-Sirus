@@ -13,7 +13,7 @@ function AtlasLoot_SetupForAtlas()
     AtlasLootInfo:ClearAllPoints();
     AtlasLootInfo:SetParent(AtlasFrame);
     AtlasLootInfo:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 546, -3);
-    
+
     --Anchor the bottom panel to the Atlas frame
     AtlasLootPanel:ClearAllPoints();
     AtlasLootPanel:SetParent(AtlasFrame);
@@ -22,7 +22,7 @@ function AtlasLoot_SetupForAtlas()
     --Anchor the loot table to the Atlas frame
     AtlasLoot_SetItemInfoFrame();
     AtlasLootItemsFrame:Hide();
-    AtlasLoot_AnchorFrame = AtlasFrame;	
+    AtlasLoot_AnchorFrame = AtlasFrame;
 end
 
 --[[
@@ -31,20 +31,20 @@ Invoked whenever a boss line in Atlas is clicked
 Shows a loot page if one is associated with the button
 ]]
 function AtlasLootBoss_OnClick(name)
-    
-    
-    
+
+
+
     local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
     local id = this.idnum;
-    
-    
+
+
     --If the loot table was already shown and boss clicked again, hide the loot table and fix boss list icons
     if getglobal(name.."_Selected"):IsVisible() then
         getglobal(name.."_Selected"):Hide();
         getglobal(name.."_Loot"):Show();
         AtlasLootItemsFrame:Hide();
         AtlasLootItemsFrame.activeBoss = nil;
-    else    
+    else
         --If an loot table is associated with the button, show it.  Note multiple tables need to be checked due to the database structure
         if (AtlasLootBossButtons[zoneID] ~= nil and AtlasLootBossButtons[zoneID][id] ~= nil and AtlasLootBossButtons[zoneID][id] ~= "") then
             if AtlasLoot_IsLootTableAvailable(AtlasLootBossButtons[zoneID][id]) then
@@ -65,7 +65,7 @@ function AtlasLootBoss_OnClick(name)
                 AtlasLoot_AtlasScrollBar_Update();
             end
         elseif (AtlasLootBattlegrounds[zoneID] ~= nil and AtlasLootBattlegrounds[zoneID][id] ~= nil and AtlasLootBattlegrounds[zoneID][id] ~= "") then
-            if AtlasLoot_IsLootTableAvailable(AtlasLootBattlegrounds[zoneID][id]) then    
+            if AtlasLoot_IsLootTableAvailable(AtlasLootBattlegrounds[zoneID][id]) then
                 getglobal(name.."_Selected"):Show();
                 getglobal(name.."_Loot"):Hide();
                 local _,_,boss = string.find(getglobal(name.."_Text"):GetText(), "|c%x%x%x%x%x%x%x%x%s*[%wX]*[%) ]*(.*[^%,])[%,]?$");
@@ -75,10 +75,10 @@ function AtlasLootBoss_OnClick(name)
             end
         end
     end
-    
+
     --This has been invoked from Atlas, so we remove any claim external mods have on the loot table
     AtlasLootItemsFrame.externalBoss = nil;
-    
+
     --Hide the AtlasQuest frame if present so that the AtlasLoot items frame is not stuck under it
     if (AtlasQuestInsideFrame) then
         HideUIPanel(AtlasQuestInsideFrame);
