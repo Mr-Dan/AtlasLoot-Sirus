@@ -17,7 +17,7 @@ end
 
 function AtlasLoot:Search(Text)
 
-if AtlasLootCheckButtonFilterEnable:GetChecked() then
+if AtlasLootCheckButtonFilterEnable:GetChecked()  then
 AtlasLoot:SearchCastom(Text)
 else
 	if not Text then return end
@@ -106,6 +106,99 @@ else
 		end
 	end
 end
+
+
+function AtlasLoot:SearchAtlas(Text)
+
+	if AtlasLootCheckButtonFilterEnableAtlas:GetChecked()  then
+	AtlasLoot:SearchCastom(Text)
+	else
+		if not Text then return end
+		Text = strtrim(Text);
+		if Text == "" then return end
+		-- Decide if we need load all modules or just specified ones
+		local allDisabled = not self.db.profile.SearchOn.All;
+		if allDisabled then
+			for _, module in ipairs(modules) do
+				if self.db.profile.SearchOn[module] == true then
+					allDisabled = false;
+					break;
+				end
+			end
+		end
+		if allDisabled then
+			DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot"]..": "..WHITE..AL["You don't have any module selected to search on."]);
+			return;
+		end
+		if self.db.profile.SearchOn.All then
+			AtlasLoot_LoadAllModules();
+		else
+			for k, v in pairs(self.db.profile.SearchOn) do
+				if k ~= "All" and v == true and not IsAddOnLoaded(k) and LoadAddOn(k) and self.db.profile.LoDNotify then
+					DEFAULT_CHAT_FRAME:AddMessage(GREEN..AL["AtlasLoot"]..": "..ORANGE..k..WHITE.." "..AL["sucessfully loaded."]);
+				end
+			end
+		end
+	
+		AtlasLootCharDB["SearchResult"] = {};
+		AtlasLootCharDB.LastSearchedText = Text;
+	
+		local text = string.lower(Text);
+		--[[if not self.db.profile.SearchOn.All then
+			local module = AtlasLoot_GetLODModule(dataSource);
+			if not module or self.db.profile.SearchOn[module] ~= true then return end
+		end]]
+		local partial = self.db.profile.PartialMatching;
+		for dataID, data in pairs(AtlasLoot_Data) do
+			for _, v in ipairs(data) do
+				if type(v[2]) == "number" and v[2] > 0 then
+					local itemName = GetItemInfo(v[2]);
+					if not itemName then itemName = gsub(v[4], "=q%d=", "") end
+					local found;
+					if partial then
+						found = string.find(string.lower(itemName), text);
+					else
+						found = string.lower(itemName) == text;
+					end
+					if found then
+						local _, _, quality = string.find(v[4], "=q(%d)=");
+						if quality then itemName = "=q"..quality.."="..itemName end
+						if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
+						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
+					end
+				elseif (v[2] ~= nil) and (v[2] ~= "") and (string.sub(v[2], 1, 1) == "s") then
+					local spellName = GetSpellInfo(string.sub(v[2], 2));
+					if not spellName then
+						if (string.sub(v[4], 1, 2) == "=d") then
+							spellName = gsub(v[4], "=ds=", "");
+						else
+							spellName = gsub(v[4], "=q%d=", "");
+						end
+					end
+					local found;
+					if partial then
+						found = string.find(string.lower(spellName), text);
+					else
+						found = string.lower(spellName) == text;
+					end
+					if found then
+						spellName = string.sub(v[4], 1, 4)..spellName;
+						if AtlasLoot_TableNames[dataID][1] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
+						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], spellName, lootpage, "", "", dataID.."|".."\"\"" });
+					end
+				end
+			end
+		end
+	
+		if #AtlasLootCharDB["SearchResult"] == 0 then
+			DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot"]..": "..WHITE..AL["No match found for"].." \""..Text.."\".");
+		else
+			currentPage = 1;
+			SearchResult = AtlasLoot_CategorizeWishList(AtlasLootCharDB["SearchResult"]);
+			AtlasLoot_ShowItemsFrame("SearchResult", "SearchResultPage1", (AL["Search Result: %s"]):format(AtlasLootCharDB.LastSearchedText or ""), pFrame);
+			end
+		end
+	end
 
 function AtlasLoot:ShowSearchOptions(button)
 	local dewdrop = AceLibrary("Dewdrop-2.0");

@@ -1729,7 +1729,7 @@
 						this:SetTextInsets(0, 8, 0, 0);
 					</OnLoad>
 					<OnEnterPressed>
-						AtlasLoot:Search(this:GetText());
+						AtlasLoot:SearchAtlas(this:GetText());
 						this:ClearFocus();
 					</OnEnterPressed>
 				</Scripts>
@@ -1754,7 +1754,7 @@
 				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
 			        </OnShow>
 					<OnClick>
-						AtlasLoot:Search(AtlasLootSearchBox:GetText());
+						AtlasLoot:SearchAtlas(AtlasLootSearchBox:GetText());
 						AtlasLootSearchBox:ClearFocus();
 					</OnClick>
 				</Scripts>
