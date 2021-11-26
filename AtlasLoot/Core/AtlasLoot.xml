@@ -1735,7 +1735,7 @@
 				</Scripts>
 				<FontString name="AtlasLootSearchString" inherits="GameFontNormal"></FontString>
 			</EditBox>
-			<Button name="AtlasLootDefaultFrameSearchButtonFilter" inherits="UIPanelButtonTemplate2" parent="AtlasLootSearchBox">
+			<Button name="AtlasLootDefaultFrameSearchButtonFilterAtlas" inherits="UIPanelButtonTemplate2" parent="AtlasLootSearchBox">
 				<Size>
 					<AbsDimension x="20" y="20"/>
 				</Size>
