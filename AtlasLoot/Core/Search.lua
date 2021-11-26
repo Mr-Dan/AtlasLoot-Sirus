@@ -201,11 +201,21 @@ end
 
 function AtlasLoot:ShowSearchFilter()
 
-if (AtlasLootDefaultFrameFilter:IsVisible()) then
-AtlasLootDefaultFrameFilter:Hide()
-else
-AtlasLootDefaultFrameFilter:Show()
+	if (AtlasLootDefaultFrameFilter:IsVisible()) then
+	AtlasLootDefaultFrameFilter:Hide()
+	else
+	AtlasLootDefaultFrameFilter:Show()
+	end
+
 end
+
+function AtlasLoot:ShowSearchFilterAtlas()
+
+	if (AtlasLootDefaultFrameFilterAtlas:IsVisible()) then
+	AtlasLootDefaultFrameFilterAtlas:Hide()
+	else
+	AtlasLootDefaultFrameFilterAtlas:Show()
+	end
 
 end
 
