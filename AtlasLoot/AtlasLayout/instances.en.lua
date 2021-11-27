@@ -467,7 +467,7 @@ AtlasLootNewBossButtons = {
         "";
         "AuchCryptsShirrak";
         "AuchCryptsExarch";
-        "AuchCryptsAvatar";
+        "AuchCryptsAvatarHEROIC";
         "";
         "";
         "AuchTrash";
@@ -485,7 +485,7 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "AuchManaNexusPrince";
-        "AuchManaYor";
+        "AuchManaYorHEROIC";
         "";
         "AuchTrash";
         };
@@ -498,7 +498,7 @@ AtlasLootNewBossButtons = {
         "AuchSethekkDarkweaver";
         "";
         "AuchTrash";
-        "AuchSethekkRavenGod";
+        "AuchSethekkRavenGodHEROIC";
         "AuchSethekkTalonKing";
         "";
         "AuchTrash";
@@ -514,7 +514,7 @@ AtlasLootNewBossButtons = {
         "AuchShadowBlackheart";
         "AuchShadowGrandmaster";
         "";
-        "AuchShadowMurmur";
+        "AuchShadowMurmurHEROIC";
         "";
         "AuchTrash";
         "";
@@ -607,7 +607,7 @@ AtlasLootNewBossButtons = {
         "CFRSteamTrash";
         "CFRSteamSteamrigger";
         "";
-        "CFRSteamWarlord";
+        "CFRSteamWarlordHEROIC";
         "";
         "CFRSteamTrash";
         };
@@ -635,7 +635,7 @@ AtlasLootNewBossButtons = {
         "";
         "CoTMorassDeja";
         "CoTMorassTemporus";
-        "CoTMorassAeonus";
+        "CoTMorassAeonusHEROIC";
         "";
         "";
         "";
@@ -736,9 +736,9 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "HCHallsNethekurse";
-        "HCHallsPorung";
+        "HCHallsPorungHEROIC";
         "HCHallsOmrogg";
-        "HCHallsKargath";
+        "HCHallsKargathHEROIC";
         "HCHallsTrash";
         "";
         "";
@@ -898,7 +898,7 @@ AtlasLootNewBossButtons = {
         "TKArcDalliah";
         "TKArcScryer";
         "";
-        "TKArcHarbinger";
+        "TKArcHarbingerHEROIC";
         "";
         "";
         "";
@@ -914,7 +914,7 @@ AtlasLootNewBossButtons = {
         "TKBotFreywinn";
         "TKBotThorngrin";
         "TKBotLaj";
-        "TKBotSplinter";
+        "TKBotSplinterHEROIC";
         "";
         "TKTrash";
         };
@@ -924,13 +924,13 @@ AtlasLootNewBossButtons = {
         "BCKeys";
         "";
         "";
-        "TKMechCacheoftheLegion";
-        "TKMechCacheoftheLegion";
-        "TKMechCacheoftheLegion";
+        "TKMechCacheoftheLegionHEROIC";
+        "TKMechCacheoftheLegionHEROIC";
+        "TKMechCacheoftheLegionHEROIC";
         "TKMechCapacitus";
-        "TKMechOverchargedManacell";
+        "";
         "TKMechSepethrea";
-        "TKMechCalc";
+        "TKMechCalcHEROIC";
         "";
         "TKTrash";
         };
@@ -1818,7 +1818,22 @@ AtlasLootNewBossButtons = {
 --------------------------------------------------
 
 AtlasLootBossButtons = {
-
+  ---------------------
+  -- Sirus Instances --
+  ---------------------
+   BronzeSanctuary = {
+		"";
+		"";
+		"";
+		"Imporus25Man";
+		"Elonus25Man";
+		"Murozond25Man";
+		"";
+		"";
+		"";
+		"";
+		"GrainOfSandOfLost";
+        };
   ---------------------
   -- WotLK Instances --
   ---------------------
@@ -2265,7 +2280,7 @@ AtlasLootBossButtons = {
         "";
         "AuchCryptsShirrak";
         "AuchCryptsExarch";
-        "AuchCryptsAvatar";
+        "AuchCryptsAvatarHEROIC";
         "";
         "";
         "AuchTrash";
@@ -2283,7 +2298,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "AuchManaNexusPrince";
-        "AuchManaYor";
+        "AuchManaYorHEROIC";
         "";
         "AuchTrash";
         };
@@ -2296,7 +2311,7 @@ AtlasLootBossButtons = {
         "AuchSethekkDarkweaver";
         "";
         "AuchTrash";
-        "AuchSethekkRavenGod";
+        "AuchSethekkRavenGodHEROIC";
         "AuchSethekkTalonKing";
         "";
         "AuchTrash";
@@ -2312,7 +2327,7 @@ AtlasLootBossButtons = {
         "AuchShadowBlackheart";
         "AuchShadowGrandmaster";
         "";
-        "AuchShadowMurmur";
+        "AuchShadowMurmurHEROIC";
         "";
         "AuchTrash";
         "";
@@ -2405,7 +2420,7 @@ AtlasLootBossButtons = {
         "CFRSteamTrash";
         "CFRSteamSteamrigger";
         "";
-        "CFRSteamWarlord";
+        "CFRSteamWarlordHEROIC";
         "";
         "CFRSteamTrash";
         };
@@ -2433,7 +2448,7 @@ AtlasLootBossButtons = {
         "";
         "CoTMorassDeja";
         "CoTMorassTemporus";
-        "CoTMorassAeonus";
+        "CoTMorassAeonusHEROIC";
         "";
         "";
         "";
@@ -2534,9 +2549,9 @@ AtlasLootBossButtons = {
         "";
         "";
         "HCHallsNethekurse";
-        "HCHallsPorung";
+        "HCHallsPorungHEROIC";
         "HCHallsOmrogg";
-        "HCHallsKargath";
+        "HCHallsKargathHEROIC";
         "HCHallsTrash";
         "";
         "";
@@ -2696,7 +2711,7 @@ AtlasLootBossButtons = {
         "TKArcDalliah";
         "TKArcScryer";
         "";
-        "TKArcHarbinger";
+        "TKArcHarbingerHEROIC";
         "";
         "";
         "";
@@ -2712,7 +2727,7 @@ AtlasLootBossButtons = {
         "TKBotFreywinn";
         "TKBotThorngrin";
         "TKBotLaj";
-        "TKBotSplinter";
+        "TKBotSplinterHEROIC";
         "";
         "TKTrash";
         };
@@ -2722,13 +2737,13 @@ AtlasLootBossButtons = {
         "BCKeys";
         "";
         "";
-        "TKMechCacheoftheLegion";
-        "TKMechCacheoftheLegion";
-        "TKMechCacheoftheLegion";
+        "TKMechCacheoftheLegionHEROIC";
+        "TKMechCacheoftheLegionHEROIC";
+        "TKMechCacheoftheLegionHEROIC";
         "TKMechCapacitus";
-        "TKMechOverchargedManacell";
+        "";
         "TKMechSepethrea";
-        "TKMechCalc";
+        "TKMechCalcHEROIC";
         "";
         "TKTrash";
         };
