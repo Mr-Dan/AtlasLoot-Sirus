@@ -9,12 +9,12 @@ AtlasLootNewBossButtons = {
   ---------------------
    BronzeSanctuary = {
 		"";
-        "";
-        "Imporus25Man";
-        "Elonus25Man";
-        "Murozond25Man";
 		"";
-        "";
+		"Imporus25Man";
+		"Elonus25Man";
+		"Murozond25Man";
+		"";
+		"";
 		"";
 		"";
 		"GrainOfSandOfLost";
