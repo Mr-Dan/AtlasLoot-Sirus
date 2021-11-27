@@ -4,7 +4,22 @@
 ------------------------------------------------
 
 AtlasLootNewBossButtons = {
-
+  ---------------------
+  -- Sirus Instances --
+  ---------------------
+   BronzeSanctuary = {
+		"";
+		"";
+		"";
+		"Imporus25Man";
+		"Elonus25Man";
+		"Murozond25Man";
+		"";
+		"";
+		"";
+		"";
+		"GrainOfSandOfLost";
+        };
   ---------------------
   -- WotLK Instances --
   ---------------------
@@ -159,6 +174,7 @@ AtlasLootNewBossButtons = {
 		"AshenVerdict";
 		"";
 		"ICCLichKing";
+		"ICCJaina25ManHEROIC";
 		"";
 		"ICCTrash25Man";
 		};
