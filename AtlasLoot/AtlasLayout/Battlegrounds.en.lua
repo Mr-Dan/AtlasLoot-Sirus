@@ -10,9 +10,9 @@ AtlasLootBattlegrounds = {
 
     AlteracValleyNorth = {
         "";
-		"";
-		"";
-		"";
+	"";
+	"";
+	"";
         "";
         "";
         "";
@@ -79,9 +79,9 @@ AtlasLootBattlegrounds = {
     AlteracValleySouth = {
         "";
         "";
-		"";
-		"";
-		"";
+	"";
+	"";
+	"";
         "";
         "";
         "";
@@ -156,12 +156,12 @@ AtlasLootBattlegrounds = {
 	EyeOfTheStorm = {
         "";
         "";
-		"";
+	"";
         "";
-		"";
+	"";
         "";
         "";
-		"";
+	"";
         "";
         "LEVEL80PVPSETS";
         "PVP80NONSETEPICS";
@@ -171,13 +171,13 @@ AtlasLootBattlegrounds = {
     };
 	StrandOfTheAncients = {
         "";
-		"";
+	"";
         "";
         "";
-		"";
+	"";
         "";
         "";
-		"";
+	"";
         "";
         "LEVEL80PVPSETS";
         "PVP80NONSETEPICS";
@@ -187,18 +187,18 @@ AtlasLootBattlegrounds = {
     };
 	IsleOfConquest = {
         "";
-		"";
+	"";
         "";
         "";
-		"";
+	"";
         "";
         "";
-		"";
+	"";
         "";
-		"";
+	"";
         "";
         "";
-		"";
+	"";
         "";
         "LEVEL80PVPSETS";
         "PVP80NONSETEPICS";
@@ -209,13 +209,13 @@ AtlasLootBattlegrounds = {
 	
 	TheTempleCityOfAlaWashte = {
         "";
-		"";
+	"";
         "";
         "";
-		"";
-		"";
-		"";
-		"";
+	"";
+	"";
+	"";
+	"";
         "LEVEL80PVPSETS";
         "PVP80NONSETEPICS";
         "PvPNewTokens_x2";
@@ -224,11 +224,11 @@ AtlasLootBattlegrounds = {
     };
 	
 	TwinPeaks = {
-		"";
-		"";
+	"";
+	"";
         "";
-		"";
-		"";
+	"";
+	"";
         "LEVEL80PVPSETS";
         "PVP80NONSETEPICS";
         "PvPNewTokens_x2";
@@ -238,12 +238,12 @@ AtlasLootBattlegrounds = {
 	
 	TempleOfKotmogu = {
         "";
-		"";
-		"";
+	"";
+	"";
         "";
         "";
-		"";
-		"";
+	"";
+	"";
         "LEVEL80PVPSETS";
         "PVP80NONSETEPICS";
         "PvPNewTokens_x2";
@@ -252,13 +252,13 @@ AtlasLootBattlegrounds = {
     };
 	SlaveryValley = {
         "";
-		"";
-		"";
+	"";
+	"";
         "";
         "";
-		"";
-		"";
-		"";
+	"";
+	"";
+	"";
         "LEVEL80PVPSETS";
         "PVP80NONSETEPICS";
         "PvPNewTokens_x2";
@@ -266,12 +266,12 @@ AtlasLootBattlegrounds = {
         "GladiatorWeapons1_x2";
     };
 	SilvershardMines = {
-		"";
-		"";
+	"";
+	"";
         "";
         "";
-		"";
-		"";
+	"";
+	"";
         "LEVEL80PVPSETS";
         "PVP80NONSETEPICS";
         "PvPNewTokens_x2";
@@ -280,11 +280,11 @@ AtlasLootBattlegrounds = {
     };
 	TheBattleForGilneas = {
         "";
-		"";
-		"";
+	"";
+	"";
         "";
         "";
-		"";
+	"";
         "LEVEL80PVPSETS";
         "PVP80NONSETEPICS";
         "PvPNewTokens_x2";
