@@ -9,7 +9,10 @@ This file defines the loot buttons in the Atlas interface for the battleground m
 AtlasLootBattlegrounds = {
 
     AlteracValleyNorth = {
-        "AlteracFactions";
+        "";
+		"";
+		"";
+		"";
         "";
         "";
         "";
@@ -66,16 +69,19 @@ AtlasLootBattlegrounds = {
         "";
         "";
         "";
-        "";
-        "";
-        "";
-        "";
-        "AVMisc";
-        "AVBlue_A";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
         };
     
     AlteracValleySouth = {
-        "AlteracFactions";
+        "";
+        "";
+		"";
+		"";
+		"";
         "";
         "";
         "";
@@ -114,18 +120,14 @@ AtlasLootBattlegrounds = {
         "";
         "";
         "";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "AVMisc";
-        "AVBlue_A";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
     };
     
     ArathiBasin = {
-        "MiscFactions";
-        "MiscFactions";
         "";
         "";
         "";
@@ -134,22 +136,159 @@ AtlasLootBattlegrounds = {
         "";
         "";
         "";
-        "ABMisc_A";
-        "AB2039_A";
-        "AB4049_A";
-        "";
-        "ABSets1_A";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
     };
     
     WarsongGulch = {
         "";
         "";
         "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	EyeOfTheStorm = {
         "";
         "";
-        "WSGMisc";
-        "WSGAccessories_A";
-        "WSGWeapons_A";
-        "WSGArmor_A";
+		"";
+        "";
+		"";
+        "";
+        "";
+		"";
+        "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	StrandOfTheAncients = {
+        "";
+		"";
+        "";
+        "";
+		"";
+        "";
+        "";
+		"";
+        "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	IsleOfConquest = {
+        "";
+		"";
+        "";
+        "";
+		"";
+        "";
+        "";
+		"";
+        "";
+		"";
+        "";
+        "";
+		"";
+        "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	
+	TheTempleCityOfAlaWashte = {
+        "";
+		"";
+        "";
+        "";
+		"";
+		"";
+		"";
+		"";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	
+	TwinPeaks = {
+		"";
+		"";
+        "";
+		"";
+		"";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	
+	TempleOfKotmogu = {
+        "";
+		"";
+		"";
+        "";
+        "";
+		"";
+		"";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	SlaveryValley = {
+        "";
+		"";
+		"";
+        "";
+        "";
+		"";
+		"";
+		"";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	SilvershardMines = {
+		"";
+		"";
+        "";
+        "";
+		"";
+		"";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	TheBattleForGilneas = {
+        "";
+		"";
+		"";
+        "";
+        "";
+		"";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
     };
 };
