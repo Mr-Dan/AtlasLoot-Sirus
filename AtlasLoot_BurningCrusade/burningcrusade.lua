@@ -418,12 +418,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	
 		{ 23, 24309, "", "=q4=Pattern: Spellstrike Pants", "=ds=#p8# (375)", "", "0.37%"};
 		{ 24, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e12#", "", ""};
-		{ 25, 149072, "", "=q1=", "=ds=#pigment#"};
-		{ 26, 149073, "", "=q1=", "=ds=#pigment#"};
-		{ 27, 149074, "", "=q1=", "=ds=#pigment#"};
-		{ 28, 149075, "", "=q1=", "=ds=#pigment#"};
-		{ 29, 149076, "", "=q1=", "=ds=#pigment#"};
-		{ 30, 149077, "", "=q1=", "=ds=#pigment#"};
+		{ 25, 99977, "", "=q1=", "=ds=#pigment#"};
+		{ 26, 99979, "", "=q1=", "=ds=#pigment#"};
+		{ 27, 99978, "", "=q1=", "=ds=#pigment#"};
+		{ 28, 99981, "", "=q1=", "=ds=#pigment#"};
+		{ 29, 99982, "", "=q1=", "=ds=#pigment#"};
+		{ 30, 99980, "", "=q1=", "=ds=#pigment#"};
 		Prev = "AuchShadowGrandmaster";
 	};
 	
@@ -1055,12 +1055,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 		{ 23, 90173, "", "=q3=Pandaren Water Spirit", "=ds=#e13#", "", ""};
 		{ 24, 24313, "", "=q4=Pattern: Battlecast Hood", "=ds=#p8# (375)", "", "0.20%"};
-		{ 25, 149072, "", "=q1=", "=ds=#pigment#"};
-		{ 26, 149073, "", "=q1=", "=ds=#pigment#"};
-		{ 27, 149074, "", "=q1=", "=ds=#pigment#"};
-		{ 28, 149075, "", "=q1=", "=ds=#pigment#"};
-		{ 29, 149076, "", "=q1=", "=ds=#pigment#"};
-		{ 30, 149077, "", "=q1=", "=ds=#pigment#"};
+		{ 25, 99977, "", "=q1=", "=ds=#pigment#"};
+		{ 26, 99979, "", "=q1=", "=ds=#pigment#"};
+		{ 27, 99978, "", "=q1=", "=ds=#pigment#"};
+		{ 28, 99981, "", "=q1=", "=ds=#pigment#"};
+		{ 29, 99982, "", "=q1=", "=ds=#pigment#"};
+		{ 30, 99980, "", "=q1=", "=ds=#pigment#"};
 		Prev = "CFRSteamSteamrigger";
 	};
 
@@ -1777,12 +1777,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
 		{ 22, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
 		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
-	    { 24, 149072, "", "=q1=", "=ds=#pigment#"};
-		{ 25, 149073, "", "=q1=", "=ds=#pigment#"};
-		{ 26, 149074, "", "=q1=", "=ds=#pigment#"};
-		{ 27, 149075, "", "=q1=", "=ds=#pigment#"};
-		{ 28, 149076, "", "=q1=", "=ds=#pigment#"};
-		{ 29, 149077, "", "=q1=", "=ds=#pigment#"};
+	    { 24, 99977, "", "=q1=", "=ds=#pigment#"};
+		{ 25, 99979, "", "=q1=", "=ds=#pigment#"};
+		{ 26, 99978, "", "=q1=", "=ds=#pigment#"};
+		{ 27, 99981, "", "=q1=", "=ds=#pigment#"};
+		{ 28, 99982, "", "=q1=", "=ds=#pigment#"};
+		{ 29, 99980, "", "=q1=", "=ds=#pigment#"};
 		Prev = "HCHallsOmrogg";
 	};
 
@@ -2664,12 +2664,12 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 22, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
 		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 		{ 24, 93041, "", "=q3=Jewel of Maddening Whispers", "=ds=#e13#", "", ""};
-		{ 25, 149072, "", "=q1=", "=ds=#pigment#"};
-		{ 26, 149073, "", "=q1=", "=ds=#pigment#"};
-		{ 27, 149074, "", "=q1=", "=ds=#pigment#"};
-		{ 28, 149075, "", "=q1=", "=ds=#pigment#"};
-		{ 29, 149076, "", "=q1=", "=ds=#pigment#"};
-		{ 30, 149077, "", "=q1=", "=ds=#pigment#"};
+		{ 25, 99977, "", "=q1=", "=ds=#pigment#"};
+		{ 26, 99979, "", "=q1=", "=ds=#pigment#"};
+		{ 27, 99978, "", "=q1=", "=ds=#pigment#"};
+		{ 28, 99981, "", "=q1=", "=ds=#pigment#"};
+		{ 29, 99982, "", "=q1=", "=ds=#pigment#"};
+		{ 30, 99980, "", "=q1=", "=ds=#pigment#"};
 
 		Prev = "TKArcDalliah";
 	};
@@ -2769,12 +2769,12 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 		{ 24, 46325, "", "=q3=Withers", "=ds=#e13#", "", ""};
 		
-		{ 25, 149072, "", "=q1=", "=ds=#pigment#"};
-		{ 26, 149073, "", "=q1=", "=ds=#pigment#"};
-		{ 27, 149074, "", "=q1=", "=ds=#pigment#"};
-		{ 28, 149075, "", "=q1=", "=ds=#pigment#"};
-		{ 29, 149076, "", "=q1=", "=ds=#pigment#"};
-		{ 30, 149077, "", "=q1=", "=ds=#pigment#"};
+		{ 25, 99977, "", "=q1=", "=ds=#pigment#"};
+		{ 26, 99979, "", "=q1=", "=ds=#pigment#"};
+		{ 27, 99978, "", "=q1=", "=ds=#pigment#"};
+		{ 28, 99981, "", "=q1=", "=ds=#pigment#"};
+		{ 29, 99982, "", "=q1=", "=ds=#pigment#"};
+		{ 30, 99980, "", "=q1=", "=ds=#pigment#"};
 		Prev = "TKBotLaj";
 
 	};
@@ -2844,12 +2844,12 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 21, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
 		{ 22, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 		{ 23, 94124, "", "=q3=Sunreaver Micro-Sentry", "=ds=#e13#", "", ""};
-		{ 24, 149072, "", "=q1=", "=ds=#pigment#"};
-		{ 25, 149073, "", "=q1=", "=ds=#pigment#"};
-		{ 26, 149074, "", "=q1=", "=ds=#pigment#"};
-		{ 27, 149075, "", "=q1=", "=ds=#pigment#"};
-		{ 28, 149076, "", "=q1=", "=ds=#pigment#"};
-		{ 29, 149077, "", "=q1=", "=ds=#pigment#"};
+		{ 24, 99977, "", "=q1=", "=ds=#pigment#"};
+		{ 25, 99979, "", "=q1=", "=ds=#pigment#"};
+		{ 26, 99978, "", "=q1=", "=ds=#pigment#"};
+		{ 27, 99981, "", "=q1=", "=ds=#pigment#"};
+		{ 28, 99982, "", "=q1=", "=ds=#pigment#"};
+		{ 29, 99980, "", "=q1=", "=ds=#pigment#"};
 		Prev = "TKMechSepethrea";
 	};
 
