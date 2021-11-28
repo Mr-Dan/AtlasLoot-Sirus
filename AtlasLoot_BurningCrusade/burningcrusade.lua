@@ -143,12 +143,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 27869, "", "=q4=Soulpriest's Ring of Resolve", "=ds=#s13#", "", "18.33%"};
 		{ 8, 27523, "", "=q4=Exarch's Diamond Band", "=ds=#s13#", "", "13.33%"};
 		{ 9, 27872, "", "=q4=The Harvester of Souls", "=ds=#h1#, #w1#", "", "11.67%"};
-		{ 16, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 17, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 18, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 19, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 20, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 21, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 16, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 17, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 18, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 19, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 20, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 21, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 		{ 23, 90900, "", "=q3=Imperial Moth", "=ds=#e13#", "", ""};
 		Prev = "AuchCryptsShirrak";
 		Next = "AuchCryptsAvatarHEROIC";
@@ -235,12 +235,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, 27829, "", "=q4=Axe of the Nexus-Kings", "=ds=#h2#, #w1#", "", "9.09%"};
 		{ 15, 27840, "", "=q4=Scepter of Sha'tar", "=ds=#h2#, #w6#"};
 		{ 16, 27842, "", "=q4=Grand Scepter of the Nexus-Kings", "=ds=#w9#", "", "9.09%"};
-		{ 18, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 19, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 20, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 21, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 22, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 23, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+	
+		{ 18, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 19, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 20, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 21, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 22, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+
 		{ 25, 92799, "", "=q3=Pandaren Air Spirit", "=ds=#e13#", "", ""};
 		{ 27, 33835, "", "=q1=Shaffar's Wondrous Amulet", "=ds=#m3#", "", "100%"};
 		{ 28, 28490, "", "=q1=Shaffar's Wrappings", "=ds=#m3#", "", "100%"};
@@ -330,12 +332,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 13, 27980, "", "=q4=Terokk's Nightmace", "=ds=#h1#, #w6#", "", "11.18%"};
 		{ 14, 27986, "", "=q4=Crow Wing Reaper", "=ds=#h2#, #w1#", "", "8.50%"};
 		{ 15, 29355, "", "=q4=Terokk's Shadowstaff", "=ds=#w9#", "", "0.16%"};
-		{ 16, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 17, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 18, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 19, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 20, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 21, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+
+		{ 16, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 17, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 18, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 19, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 20, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 21, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		
 		{ 23, 71387, "", "=q3=Brilliant Kaliri", "=ds=#e13#", "", ""};
 		{ 25, 27632, "", "=q1=Terokk's Quill", "=ds=#m3#", "", "100%"};
 		{ 26, 27991, "", "=q1=Shadow Labyrinth Key", "=ds=#e9#", "", "100%"};
@@ -404,12 +408,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, 27905, "", "=q4=Greatsword of Horrid Dreams", "=ds=#h3#, #w10#", "", "9.35%"};
 		{ 15, 27903, "", "=q4=Sonic Spear", "=ds=#w7#", "", "11.17%"};
 		{ 16, 29353, "", "=q4=Shockwave Truncheon", "=ds=#h3#, #w6#", "", "10.71%"};
-		{ 17, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 18, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 19, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 20, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 21, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 22, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+
+		{ 17, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 18, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 19, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 20, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 21, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 22, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+	
 		{ 23, 24309, "", "=q4=Pattern: Spellstrike Pants", "=ds=#p8# (375)", "", "0.37%"};
 		{ 24, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e12#", "", ""};
 		{ 25, 149072, "", "=q1=", "=ds=#pigment#"};
@@ -712,13 +718,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, 28227, "", "=q4=Sparking Arcanite Ring", "=ds=#s13#", "", "0.24%"};
 		{ 16, 28223, "", "=q4=Arcanist's Stone", "=ds=#s14#", "", "10.00%"};
 		{ 17, 28226, "", "=q4=Timeslicer", "=ds=#h1#, #w4#", "", "5.00%"};
-		{ 18, 28222, "", "=q4=Reaver of the Infinites", "=ds=#h2#, #w1#", "", "0.48%"};
-		{ 20, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 21, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 22, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 23, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 24, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 25, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 18, 28222, "", "=q4=Reaver of the Infinites", "=ds=#h2#, #w1#", "", "0.48%"};		
+
+		{ 20, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 21, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 22, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 23, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 24, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 25, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+
 		{ 27, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#", "", ""};
 		{ 29, 24173, "", "=q4=Design: Circlet of Arcane Might", "=ds=#p12# (370)", "", "0.10%"};
 		Prev = "CoTHillsbradSkarloc";
@@ -784,13 +792,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, 28190, "", "=q4=Scarab of the Infinite Cycle", "=ds=#s14#", "", "11.32%"};
 		{ 15, 28189, "", "=q4=Latro's Shifting Sword", "=ds=#h1#, #w10#", "", "9.70%"};
 		{ 16, 28188, "", "=q4=Bloodfire Greatstaff", "=ds=#w9#", "", "10.48%"};
-		{ 17, 29356, "", "=q4=Quantum Blade", "=ds=#h2#, #w10#"};
-		{ 19, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 20, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 21, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 22, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 23, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 24, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 17, 29356, "", "=q4=Quantum Blade", "=ds=#h2#, #w10#"};		
+
+		{ 19, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 20, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 21, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 22, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 23, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 24, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+
+
 		{ 26, 68833, "", "=q3=Panther Cub", "=ds=#e13#", "", ""};
 		{ 28, 33858, "", "=q1=Aeonus's Hourglass", "=ds=#m3#", "", "100%"};
 		Prev = "CoTMorassTemporus";
@@ -976,12 +987,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, 27714, "", "=q4=Swamplight Lantern", "=ds=#s15#", "", "10.92%"};
 		{ 15, 27673, "", "=q4=Phosphorescent Blade", "=ds=#h1#, #w10#"};
 		{ 16, 27741, "", "=q4=Bleeding Hollow Warhammer", "=ds=#h3#, #w6#", "", "9.83%"};
-		{ 18, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 19, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 20, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 21, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 22, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 23, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		
+		{ 18, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 19, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 20, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 21, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 22, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+
 		{ 25, 93039, "", "=q3=Viscidus Globule", "=ds=#e13#", "", ""};
 		{ 27, 33821, "", "=q1=The Heart of Quagmirran", "=ds=#m3#", "", "100%"};
 		Prev = "CFRSlaveRokmar";
@@ -1031,13 +1044,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 13, 27475, "", "=q4=Gauntlets of the Bold", "=ds=#s9#, #a4# (D3)", "", "10.05%"};
 		{ 14, 27804, "", "=q4=Devilshark Cape", "=ds=#s4#", "", "12.18%"};
 		{ 15, 27805, "", "=q4=Ring of the Silver Hand", "=ds=#s13#", "", "13.95%"};
-		{ 16, 29351, "", "=q4=Wrathtide Longbow", "=ds=#w2#", "", "3.52%"};
-		{ 17, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 18, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 19, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 20, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 21, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 22, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 16, 29351, "", "=q4=Wrathtide Longbow", "=ds=#w2#", "", "3.52%"};		
+
+		{ 17, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 18, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 19, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 20, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 21, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 22, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+
 		{ 23, 90173, "", "=q3=Pandaren Water Spirit", "=ds=#e13#", "", ""};
 		{ 24, 24313, "", "=q4=Pattern: Battlecast Hood", "=ds=#p8# (375)", "", "0.20%"};
 		{ 25, 149072, "", "=q1=", "=ds=#pigment#"};
@@ -1141,13 +1156,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 13, 27770, "", "=q4=Argussian Compass", "=ds=#s14#", "", "3.66%"};	
 		{ 14, 27772, "", "=q4=Stormshield of Renewal", "=ds=#w8#", "", "13.01%"};
 		{ 15, 29350, "", "=q4=The Black Stalk", "=ds=#w12#", "", "4.88%"};
-		{ 16, 27769, "", "=q4=Endbringer", "=ds=#h2#, #w10#", "", "9.35%"};
-		{ 18, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 19, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 20, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 21, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 22, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 23, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 16, 27769, "", "=q4=Endbringer", "=ds=#h2#, #w10#", "", "9.35%"};	
+
+		{ 18, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 19, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 20, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 21, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 22, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+
 		{ 25, 69648, "", "=q3=Legs", "=ds=#e13#", "", ""};
 		{ 27, 24248, "", "=q1=Brain of the Black Stalker", "=ds=#m3#", "", "100%"};
 		{ 28, 33826, "", "=q1=Black Stalker Egg", "=ds=#m3#", "", "100%"};
@@ -1570,12 +1587,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 10, 27477, "", "=q4=Faol's Signet of Cleansing", "=ds=#s15#", "", "10.32%"};
 		{ 11, 27463, "", "=q4=Terror Flame Dagger", "=ds=#h1#, #w4#", "", "8.90%"};
 		{ 12, 27476, "", "=q4=Truncheon of Five Hells", "=ds=#h1#, #w6#", "", "9.25%"};
-		{ 16, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 17, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 18, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 19, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 20, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 21, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 16, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 17, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 18, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 19, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 20, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 21, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 		Prev = "HCRampWatchkeeper";
 		Next = "HCRampVazruden";
 	};
@@ -1685,12 +1702,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, 28121, "", "=q4=Icon of Unyielding Courage", "=ds=#s14#", "", "8.33%"};
 		{ 15, 27512, "", "=q4=The Willbreaker", "=ds=#h3#, #w10#", "", "6.06%"};
 		{ 16, 27507, "", "=q4=Adamantine Repeater", "=ds=#w3#", "", "6.82%"};
-		{ 18, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 19, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 20, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 21, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 22, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 23, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 18, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 19, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 20, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 21, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 22, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 		{ 25, 91040, "", "=q3=Darkmoon Eye", "=ds=#e13#", "", ""};
 		Prev = "HCFurnaceBroggok";
 	};
@@ -1754,12 +1771,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 15, 27540, "", "=q4=Nexus Torch", "=ds=#w12#", "", "13.02%"};
 		{ 16, 29348, "", "=q4=The Bladefist", "=ds=#h3#, #w13#", "", "3.39%"};
 		{ 17, 71726, "", "=q3=Murky's Little Soulstone", "=ds=#e13#", "", ""};
-		{ 18, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 19, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 20, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 21, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 22, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 23, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 18, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 19, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 20, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 21, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 22, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 	    { 24, 149072, "", "=q1=", "=ds=#pigment#"};
 		{ 25, 149073, "", "=q1=", "=ds=#pigment#"};
 		{ 26, 149074, "", "=q1=", "=ds=#pigment#"};
@@ -2640,12 +2657,12 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 15, 28412, "", "=q4=Lamp of Peaceful Radiance", "=ds=#s15#", "", "13.15%"};
 		{ 16, 28416, "", "=q4=Hungering Spineripper", "=ds=#h1#, #w4#", "", "12.35%"};
 		{ 17, 29360, "", "=q4=Vileblade of the Betrayer", "=ds=#h1#, #w4#", "", "0.18%"};
-		{ 18, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 19, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 20, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 21, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 22, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 23, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 18, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 19, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 20, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 21, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 22, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 		{ 24, 93041, "", "=q3=Jewel of Maddening Whispers", "=ds=#e13#", "", ""};
 		{ 25, 149072, "", "=q1=", "=ds=#pigment#"};
 		{ 26, 149073, "", "=q1=", "=ds=#pigment#"};
@@ -2744,12 +2761,12 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 15, 28345, "", "=q4=Warp Splinter's Thorn", "=ds=#h1#, #w4#", "", "28.00%"};
 		{ 16, 28367, "", "=q4=Greatsword of Forlorn Visions", "=ds=#h2#, #w10#", "", "8.00%"};
 		{ 17, 28341, "", "=q4=Warpstaff of Arcanum", "=ds=#w9#", "", "4.00%"};
-		{ 18, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 19, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 20, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 21, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 22, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 23, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 18, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 19, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 20, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 21, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 22, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 		{ 24, 46325, "", "=q3=Withers", "=ds=#e13#", "", ""};
 		
 		{ 25, 149072, "", "=q1=", "=ds=#pigment#"};
@@ -2820,12 +2837,12 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 14, 27899, "", "=q4=Mana Wrath", "=ds=#h3#, #w10#", "", "9.36%"};
 		{ 15, 28267, "", "=q4=Edge of the Cosmos", "=ds=#h1#, #w10#", "", "11.82%"};
 		{ 16, 28286, "", "=q4=Telescopic Sharprifle", "=ds=#w5#", "", "9.85%"};
-		{ 17, 52179, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 18, 52181, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 19, 52178, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 20, 52177, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 21, 52182, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 22, 52180, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
+		{ 17, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
+		{ 18, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
+		{ 19, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
+		{ 20, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
+		{ 21, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
+		{ 22, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 		{ 23, 94124, "", "=q3=Sunreaver Micro-Sentry", "=ds=#e13#", "", ""};
 		{ 24, 149072, "", "=q1=", "=ds=#pigment#"};
 		{ 25, 149073, "", "=q1=", "=ds=#pigment#"};
