@@ -33,7 +33,7 @@ Called when a button in AtlasLoot_Dewdrop is clicked
 function AtlasLoot_DewDropClick(tablename, text, tabletype)
     --Definition of where I want the loot table to be shown
     pFrame = { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" };
-    
+
     --If the button clicked was linked to a loot table
     if tabletype == "Table" then
         --Show the loot table
@@ -67,7 +67,7 @@ function AtlasLoot_DewDropClick(tablename, text, tabletype)
     AtlasLootDefaultFrame_SelectedCategory:SetText(text);
     AtlasLootDefaultFrame_SelectedCategory:Show();
     AtlasLoot_Dewdrop:Close(1);
-end 
+end
 
 --[[
 AtlasLoot_DewDropSubMenuClick(tablename, text):
@@ -97,7 +97,7 @@ AtlasLootDefaultFrame_OnShow:
 Called whenever the loot browser is shown and sets up buttons and loot tables
 ]]
 function AtlasLootDefaultFrame_OnShow()
-    --Definition of where I want the loot table to be shown    
+    --Definition of where I want the loot table to be shown
     pFrame = { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" };
     --Having the Atlas and loot browser frames shown at the same time would
     --cause conflicts, so I hide the Atlas frame when the loot browser appears
@@ -127,7 +127,7 @@ function AtlasLootDefaultFrame_OnHide()
     end
     AtlasLoot_Dewdrop:Close(1);
     AtlasLoot_DewdropSubMenu:Close(1);
-end   
+end
 
 --[[
 AtlasLoot_DewdropSubMenuRegister(loottable):
@@ -410,7 +410,7 @@ function AtlasLoot_SetNewStyle(style)
 		"AtlasLootDefaultFrameLastResultButton",
 		"AtlasLootDefaultFrameWishListButton"
 	}
-	
+
 	if (AtlasLootFrameLockMod == nil) then
 	AtlasLootDefaultFrame:RegisterForDrag("LeftButton");
     AtlasLootDefaultFrame:SetMovable(true)
@@ -419,22 +419,23 @@ function AtlasLoot_SetNewStyle(style)
 	else
 	AtlasLootLockButton()
 	end
-		
+    AtlasLoot_UpdateLock()
+
 	if style == "Default" then
-	
-		AtlasLootDefaultFrame_LootBackground:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-StatsBackground", 
-			  edgeFile = "Interface/Tooltips/UI-Tooltip-Border", 
-			  edgeSize = 16, 
+
+		AtlasLootDefaultFrame_LootBackground:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-StatsBackground",
+			  edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
+			  edgeSize = 16,
 			  insets = { left = 0, right = 0, top = 0, bottom = 0 }});
 		AtlasLootDefaultFrame_LootBackground:SetBackdropColor(1,1,1,1)
 		AtlasLootDefaultFrame_LootBackground:SetBackdropBorderColor(1,1,1,0.5)
-		AtlasLootDefaultFrame:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-AchievementBackground", 
-			  edgeFile = "Interface/DialogFrame/UI-DialogBox-Border", 
-			  edgeSize = 16, 
+		AtlasLootDefaultFrame:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-AchievementBackground",
+			  edgeFile = "Interface/DialogFrame/UI-DialogBox-Border",
+			  edgeSize = 16,
 			  insets = { left = 4, right = 4, top = 4, bottom = 4 }});
 		AtlasLootDefaultFrame:SetBackdropColor(1,1,1,0.5)
 		AtlasLootDefaultFrame:SetBackdropBorderColor(1,0.675,0.125,1)
-		
+
 		AtlasLootDefaultFrameHeader:SetTexture("Interface\\AchievementFrame\\UI-Achievement-Alert-Background.blp")
 		AtlasLootDefaultFrameHeader:SetTexCoord(0,0.605,0,0.703)
 		AtlasLootDefaultFrameHeader:SetWidth(299)
@@ -445,13 +446,13 @@ function AtlasLoot_SetNewStyle(style)
 		AtlasLootDefaultFrame_Options:SetHeight(24)
 		AtlasLootDefaultFrame_Options:SetPushedTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
 		AtlasLootDefaultFrame_Options:SetHeight(24)
-		
+
 		AtlasLootDefaultFrame_Preset1:SetWidth(130)
 		AtlasLootDefaultFrame_Preset2:SetWidth(130)
 		AtlasLootDefaultFrame_Preset3:SetWidth(130)
 		AtlasLootDefaultFrame_Preset4:SetWidth(130)
 		AtlasLootDefaultFrame_Preset1:SetPoint("LEFT", 32, 0)
-		
+
 		AtlasLootDefaultFrameWishListButton:SetWidth(115)
 		AtlasLootDefaultFrame_SubMenu:SetWidth(140)
 		AtlasLootDefaultFrameLastResultButton:SetWidth(110)
@@ -464,7 +465,7 @@ function AtlasLoot_SetNewStyle(style)
 		   local tex = getglobal(path):GetNormalTexture();
 		   tex:SetTexCoord(0, 0.6640625, 0, 0.8);
 		   tex:SetHeight(32)
-		   
+
 		   local tex2 = getglobal(path):GetPushedTexture();
 		   tex2:SetTexCoord(0, 0.6640625, 0, 0.8);
 		   tex2:SetHeight(32)
@@ -473,22 +474,22 @@ function AtlasLoot_SetNewStyle(style)
 		for k,v in pairs(buttons) do
 		   SetButtons(v)
 		end
-	
+
 	elseif style == "Old" then
-	
-		AtlasLootDefaultFrame_LootBackground:SetBackdrop({bgFile = "", 
-			  edgeFile = "Interface/Tooltips/UI-Tooltip-Border", 
-			  edgeSize = 16, 
+
+		AtlasLootDefaultFrame_LootBackground:SetBackdrop({bgFile = "",
+			  edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
+			  edgeSize = 16,
 			  insets = { left = 0, right = 0, top = 0, bottom = 0 }});
 		AtlasLootDefaultFrame_LootBackground:SetBackdropColor(0,0,0.5,0.5)
 		AtlasLootDefaultFrame_LootBackground:SetBackdropBorderColor(0,0,0,1)
-		AtlasLootDefaultFrame:SetBackdrop({bgFile = "Interface/DialogFrame/UI-DialogBox-Background", 
-			  edgeFile = "Interface/DialogFrame/UI-DialogBox-Border", 
-			  edgeSize = 32, 
+		AtlasLootDefaultFrame:SetBackdrop({bgFile = "Interface/DialogFrame/UI-DialogBox-Background",
+			  edgeFile = "Interface/DialogFrame/UI-DialogBox-Border",
+			  edgeSize = 32,
 			  insets = { left = 11, right = 12, top = 12, bottom = 11 }});
 		AtlasLootDefaultFrame:SetBackdropColor(1,1,1,1)
 		AtlasLootDefaultFrame:SetBackdropBorderColor(1,1,1,1)
-		
+
 		AtlasLootDefaultFrameHeader:SetTexture("Interface/DialogFrame/UI-DialogBox-Header")
 		AtlasLootDefaultFrameHeader:SetTexCoord(0,1,0,1)
 		AtlasLootDefaultFrameHeader:SetWidth(425)
@@ -499,13 +500,13 @@ function AtlasLoot_SetNewStyle(style)
 		AtlasLootDefaultFrame_Options:SetHeight(20)
 		AtlasLootDefaultFrame_Options:SetPushedTexture("Interface/Buttons/UI-Panel-Button-Down")
 		AtlasLootDefaultFrame_Options:SetHeight(20)
-		
+
 		AtlasLootDefaultFrame_Preset1:SetWidth(130)
 		AtlasLootDefaultFrame_Preset2:SetWidth(130)
 		AtlasLootDefaultFrame_Preset3:SetWidth(130)
 		AtlasLootDefaultFrame_Preset4:SetWidth(130)
 		AtlasLootDefaultFrame_Preset1:SetPoint("LEFT", 32, 0)
-		
+
 		AtlasLootDefaultFrameWishListButton:SetWidth(115)
 		AtlasLootDefaultFrame_SubMenu:SetWidth(140)
 		AtlasLootDefaultFrameLastResultButton:SetWidth(110)
@@ -518,7 +519,7 @@ function AtlasLoot_SetNewStyle(style)
 		   local tex = getglobal(path):GetNormalTexture();
 		   tex:SetTexCoord(0, 0.625, 0, 0.6875);
 		   tex:SetHeight(20)
-		   
+
 		   local tex2 = getglobal(path):GetPushedTexture();
 		   tex2:SetTexCoord(0, 0.625, 0, 0.6875);
 		   tex2:SetHeight(20)
@@ -527,6 +528,90 @@ function AtlasLoot_SetNewStyle(style)
 		for k,v in pairs(buttons) do
 		   SetButtons(v)
 		end
-	
+
 	end
 end
+
+--------------------- lock button
+AtlasLootFrameLockMod = {}
+
+AtlasLootFrameLock = {}
+AtlasLootFrameLockPos = {}
+
+if AtlasLootFrameLock[1] == nil then
+    AtlasLootFrameLock[1] = 0
+end
+
+
+function AtlasLoot_ToggleLock()
+
+	if AtlasLootFrameLock[1] == 0 then
+        AtlasLootFrameLock[1] = 1
+		AtlasLoot_UpdateLock();
+	else
+		AtlasLootFrameLock[1] = 0
+		AtlasLoot_UpdateLock();
+	end
+end
+
+--Updates the appearance of the lock button based on the status of AtlasLocked
+function AtlasLoot_UpdateLock()
+
+    if AtlasLootFrameLock[1] == 0 then
+        ALLockButtonTex:SetTexture("Interface\\AddOns\\Atlas\\Images\\LockButton-Unlocked-Up");
+		ALLockButtonTexP:SetTexture("Interface\\AddOns\\Atlas\\Images\\LockButton-Unlocked-Down");
+        AtlasLootFrameLockF()
+    else
+		ALLockButtonTex:SetTexture("Interface\\AddOns\\Atlas\\Images\\LockButton-Locked-Up");
+		ALLockButtonTexP:SetTexture("Interface\\AddOns\\Atlas\\Images\\LockButton-Locked-Down");
+        AtlasLootFrameLockF()
+	end
+end
+
+function AtlasLootFrameLockFStartUp()
+        if (AtlasLootFrameLockPos[1] ~= nil and AtlasLootFrameLockPos[2] ~= nil and (AtlasLootFrameLock[1] == 1)) then --coords exists, locked
+        AtlasLootDefaultFrame:SetPoint("BOTTOMLEFT", UIParent, AtlasLootFrameLockPos[1], AtlasLootFrameLockPos[2])
+        end
+     AtlasLootFrameLockF()
+end
+
+    function AtlasLootFrameLockF()
+
+        if AtlasLootFrameLock[1] == 0 then --lock entire AL frame
+            AtlasLootDefaultFrame:RegisterForDrag("LeftButton");
+            AtlasLootDefaultFrame:SetMovable(true)
+            AtlasLootDefaultFrame:SetScript("OnDragStart", AtlasLootDefaultFrame.StartMoving)
+            AtlasLootDefaultFrame:SetScript("OnDragStop", AtlasLootDefaultFrame.StopMovingOrSizing)
+        else
+            AtlasLootDefaultFrame:RegisterForDrag(nil);
+            AtlasLootDefaultFrame:SetMovable(false)
+            AtlasLootDefaultFrame:SetScript("OnDragStart", nil)
+            AtlasLootDefaultFrame:SetScript("OnDragStop", nil)
+        end
+    end
+
+function AtlasLootLockButton()
+            AtlasLootFrameLockF()
+end
+
+-- function AtlasLootLockButtonStyle()
+-- 	if( AtlasLoot.db.profile.LootBrowserStyle == 1 ) then
+--         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(1,1,1,0.5)
+-- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 2 ) then
+--         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0,0,0,1)
+-- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 3 ) then
+--         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0.262,0.415,0.05,1)
+-- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 4 ) then
+--         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0.658,0.396,0.250,1)
+-- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 5 ) then
+--         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0.839,0.878,1,1)
+-- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 6 ) then
+--         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(1,0,0,1)
+-- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 7 ) then
+--         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(1,0.5,0,1)
+-- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 8 ) then
+--         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0.419,0.02,0.321,1)
+-- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 9 ) then
+--         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0.764,0.623,0.235,1)
+-- 	end
+-- end
