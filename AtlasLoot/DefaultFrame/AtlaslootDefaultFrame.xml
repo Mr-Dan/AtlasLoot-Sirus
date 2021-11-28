@@ -44,6 +44,31 @@
 					</OnShow>
 				</Scripts>
 			</Button>
+			<!-- 
+				lockbutton
+			-->
+			<Button name="$parent_LockButton">
+				<Size>
+					<AbsDimension x="32" y="32"/>
+				</Size>
+				<Anchors>
+					<Anchor point="BOTTOM" relativeTo="AtlasLootDefaultFrame_CloseButton" relativePoint="BOTTOM">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						AtlasLoot_ToggleLock();						
+					</OnClick>
+				</Scripts>
+				<NormalTexture name="ALLockButtonTex"/>
+				<PushedTexture name="ALLockButtonTexP"/>
+				<HighlightTexture file="Interface\Buttons\UI-Panel-MinimizeButton-Highlight" AlphaMode="ADD"/>
+			</Button>
+			<!-- 
+			-->
 			  <Button name="$parent_LoadModules" inherits="AtlasLootDefaultFrameButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPRIGHT" relativeTo="$parent" relativePoint="TOPRIGHT">

@@ -75,7 +75,7 @@ AtlasLootBattlegrounds = {
         "PvP80UnSet1_x2";
         "GladiatorWeapons1_x2";
         };
-    
+
     AlteracValleySouth = {
         "";
         "";
@@ -126,7 +126,7 @@ AtlasLootBattlegrounds = {
         "PvP80UnSet1_x2";
         "GladiatorWeapons1_x2";
     };
-    
+
     ArathiBasin = {
         "";
         "";
@@ -142,7 +142,7 @@ AtlasLootBattlegrounds = {
         "PvP80UnSet1_x2";
         "GladiatorWeapons1_x2";
     };
-    
+
     WarsongGulch = {
         "";
         "";
@@ -206,7 +206,7 @@ AtlasLootBattlegrounds = {
         "PvP80UnSet1_x2";
         "GladiatorWeapons1_x2";
     };
-	
+
 	TheTempleCityOfAlaWashte = {
         "";
 	"";
@@ -222,7 +222,7 @@ AtlasLootBattlegrounds = {
         "PvP80UnSet1_x2";
         "GladiatorWeapons1_x2";
     };
-	
+
 	TwinPeaks = {
 	"";
 	"";
@@ -235,7 +235,7 @@ AtlasLootBattlegrounds = {
         "PvP80UnSet1_x2";
         "GladiatorWeapons1_x2";
     };
-	
+
 	TempleOfKotmogu = {
         "";
 	"";

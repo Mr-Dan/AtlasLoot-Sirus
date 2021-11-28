@@ -257,7 +257,7 @@ function AtlasLoot_OnVariablesLoaded()
     end
 	end
 	if (AtlasLootFrameLockMod ~= nil) then
-	AtlasLootLockButtonStyle()
+	-- AtlasLootLockButtonStyle()
 	end
 
 	--Disable options that don't have the supporting mods
