@@ -1,7 +1,7 @@
 ﻿local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
- 
+
 -- Index
 --- Dungeons & Raids
 ---- Keys
@@ -132,7 +132,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "AuchCryptsShirrak";
 		Next = "AuchCryptsAvatar";
 	};
-	
+
 		AtlasLoot_Data["AuchCryptsExarchHEROIC"] = {
 		{ 1, 29257, "", "=q4=Sash of Arcane Visions", "=ds=#s10#, #a1#", "", "6.67%"};
 		{ 2, 27867, "", "=q4=Boots of the Unjust", "=ds=#s12#, #a2#", "", "3.33%"};
@@ -235,7 +235,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, 27829, "", "=q4=Axe of the Nexus-Kings", "=ds=#h2#, #w1#", "", "9.09%"};
 		{ 15, 27840, "", "=q4=Scepter of Sha'tar", "=ds=#h2#, #w6#"};
 		{ 16, 27842, "", "=q4=Grand Scepter of the Nexus-Kings", "=ds=#w9#", "", "9.09%"};
-	
+
 		{ 18, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
 		{ 19, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
 		{ 20, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
@@ -315,7 +315,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "AuchSethekkDarkweaver";
 		Next = "AuchSethekkRavenGodHEROIC";
 	};
-	
+
 	AtlasLoot_Data["AuchSethekkTalonKingHEROIC"] = {
 		{ 1, 27948, "", "=q4=Trousers of Oblivion", "=ds=#s11#, #a1# (D3)", "", "8.89%"};
 		{ 2, 27838, "", "=q4=Incanter's Trousers", "=ds=#s11#, #a1# (D3)", "", "9.54%"};
@@ -339,7 +339,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
 		{ 20, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
 		{ 21, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
-		
+
 		{ 23, 71387, "", "=q3=Brilliant Kaliri", "=ds=#e13#", "", ""};
 		{ 25, 27632, "", "=q1=Terokk's Quill", "=ds=#m3#", "", "100%"};
 		{ 26, 27991, "", "=q1=Shadow Labyrinth Key", "=ds=#e9#", "", "100%"};
@@ -377,7 +377,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Next = "AuchShadowGrandmaster";
 	};
 
-	AtlasLoot_Data["AuchShadowGrandmaster"] = {	
+	AtlasLoot_Data["AuchShadowGrandmaster"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 2, 27775, "", "=q4=Hallowed Pauldrons", "=ds=#s3#, #a1# (D3)", "", "16.11%"};
 		{ 3, 27897, "", "=q4=Breastplate of Many Graces", "=ds=#s5#, #a4#", "", "12.67%"};
@@ -415,7 +415,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
 		{ 21, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
 		{ 22, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
-	
+
 		{ 23, 24309, "", "=q4=Pattern: Spellstrike Pants", "=ds=#p8# (375)", "", "0.37%"};
 		{ 24, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e12#", "", ""};
 		{ 25, 99977, "", "=q1=", "=ds=#pigment#"};
@@ -426,7 +426,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 30, 99980, "", "=q1=", "=ds=#pigment#"};
 		Prev = "AuchShadowGrandmaster";
 	};
-	
+
 	AtlasLoot_Data["AuchTrash"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Mana-Tombs"]};
 		{ 2, 23615, "", "=q3=Plans: Swiftsteel Gloves", "=ds=#p2# (370), =q1=#n54#", "", "0.52%"};
@@ -718,7 +718,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, 28227, "", "=q4=Sparking Arcanite Ring", "=ds=#s13#", "", "0.24%"};
 		{ 16, 28223, "", "=q4=Arcanist's Stone", "=ds=#s14#", "", "10.00%"};
 		{ 17, 28226, "", "=q4=Timeslicer", "=ds=#h1#, #w4#", "", "5.00%"};
-		{ 18, 28222, "", "=q4=Reaver of the Infinites", "=ds=#h2#, #w1#", "", "0.48%"};		
+		{ 18, 28222, "", "=q4=Reaver of the Infinites", "=ds=#h2#, #w1#", "", "0.48%"};
 
 		{ 20, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
 		{ 21, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
@@ -792,7 +792,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, 28190, "", "=q4=Scarab of the Infinite Cycle", "=ds=#s14#", "", "11.32%"};
 		{ 15, 28189, "", "=q4=Latro's Shifting Sword", "=ds=#h1#, #w10#", "", "9.70%"};
 		{ 16, 28188, "", "=q4=Bloodfire Greatstaff", "=ds=#w9#", "", "10.48%"};
-		{ 17, 29356, "", "=q4=Quantum Blade", "=ds=#h2#, #w10#"};		
+		{ 17, 29356, "", "=q4=Quantum Blade", "=ds=#h2#, #w10#"};
 
 		{ 19, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
 		{ 20, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
@@ -822,7 +822,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 58189, "", "=q4=Blood-stained Pauldrons", "=ds=#s13#", "", ""};
 		{ 9, 59347, "", "=q4=Blessed Adamantite Bracers", "=ds=#h1#, #w6#", "", ""};
 		{ 16, 85871, "", "=q4=Furious Shackles", "=ds=#e13#", "", ""};
-		
+
 		{ 20, 32459, "", "=q1=Time-Phased Phylactery", "=ds=#m3#", "", ""};
 		Next = "MountHyjalAnetheron";
 	};
@@ -887,7 +887,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 71340, "", "=q4=Gatekeeper's Embrace", "=ds=#s5#, #a3#", "", "14%"};
 		{ 5, 71457, "", "=q4=Decimation Treads", "=ds=#s12#, #a3#", "", "15%"};
 		{ 6, 71345, "", "=q4=Shoulderpads of the Forgotten Gate", "=ds=#s3#, #a2#", "", "15%"};
-		{ 7, 77240, "", "=q4=Flickering Wristbands", "=ds=#s8#, #a2#", "", "16%"};		
+		{ 7, 77240, "", "=q4=Flickering Wristbands", "=ds=#s8#, #a2#", "", "16%"};
 		{ 9, 71785, "", "=q4=Firethorn Mindslicer", "=ds=#h1#, #w10#", "", "15%"};
 		{ 10, 71787, "", "=q4=Entrail Disgorger", "=ds=#h1#, #w4#", "", "15%"};
 		{ 11, 71355, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h1#, #w6#", "", "14%"};
@@ -969,7 +969,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 33821, "", "=q1=The Heart of Quagmirran", "=ds=#m3#", "", "100%"};
 		Prev = "CFRSlaveRokmar";
 	};
-	
+
 	AtlasLoot_Data["CFRSlaveQuagmirranHEROIC"] = {
 		{ 1, 27796, "", "=q4=Mana-Etched Spaulders", "=ds=#s3#, #a1# (D3)", "", "5.24%"};
 		{ 2, 27742, "", "=q4=Mage-Fury Girdle", "=ds=#s10#, #a1#", "", "12.00%"};
@@ -987,7 +987,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 14, 27714, "", "=q4=Swamplight Lantern", "=ds=#s15#", "", "10.92%"};
 		{ 15, 27673, "", "=q4=Phosphorescent Blade", "=ds=#h1#, #w10#"};
 		{ 16, 27741, "", "=q4=Bleeding Hollow Warhammer", "=ds=#h3#, #w6#", "", "9.83%"};
-		
+
 		{ 18, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
 		{ 19, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
 		{ 20, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
@@ -1044,7 +1044,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 13, 27475, "", "=q4=Gauntlets of the Bold", "=ds=#s9#, #a4# (D3)", "", "10.05%"};
 		{ 14, 27804, "", "=q4=Devilshark Cape", "=ds=#s4#", "", "12.18%"};
 		{ 15, 27805, "", "=q4=Ring of the Silver Hand", "=ds=#s13#", "", "13.95%"};
-		{ 16, 29351, "", "=q4=Wrathtide Longbow", "=ds=#w2#", "", "3.52%"};		
+		{ 16, 29351, "", "=q4=Wrathtide Longbow", "=ds=#w2#", "", "3.52%"};
 
 		{ 17, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
 		{ 18, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
@@ -1153,10 +1153,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 10, 27780, "", "=q4=Ring of Fabled Hope", "=ds=#s13#", "", "9.90%"};
 		{ 11, 32081, "", "=q4=Eye of the Stalker", "=ds=#s13#"};
 		{ 12, 27896, "", "=q4=Alembic of Infernal Power", "=ds=#s14#", "", "12.60%"};
-		{ 13, 27770, "", "=q4=Argussian Compass", "=ds=#s14#", "", "3.66%"};	
+		{ 13, 27770, "", "=q4=Argussian Compass", "=ds=#s14#", "", "3.66%"};
 		{ 14, 27772, "", "=q4=Stormshield of Renewal", "=ds=#w8#", "", "13.01%"};
 		{ 15, 29350, "", "=q4=The Black Stalk", "=ds=#w12#", "", "4.88%"};
-		{ 16, 27769, "", "=q4=Endbringer", "=ds=#h2#, #w10#", "", "9.35%"};	
+		{ 16, 27769, "", "=q4=Endbringer", "=ds=#h2#, #w10#", "", "9.35%"};
 
 		{ 18, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
 		{ 19, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
@@ -1287,7 +1287,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 155723, "", "=q4=Поводья сапфирового Покорителя волн", "=ds=#e12#", "", "25%"};
 		{ 7, 155724, "", "=q4=Поводья ультрамаринового Покорителя волн", "=ds=#e12#", "", "25%"};
 		{ 8, 155725, "", "=q4= Поводья песчаного Покорителя волн", "=ds=#e12#", "", "25%"};
-		
+
 		{ 10, 30324, "", "=q4=Plans: Red Havoc Boots", "=ds=#p2# (375)", "", "1%"};
 		{ 11, 30322, "", "=q4=Plans: Red Belt of Battle", "=ds=#p2# (375)", "", "2%"};
 		{ 12, 30323, "", "=q4=Plans: Boots of the Protector", "=ds=#p2# (375)", "", "2%"};
@@ -1305,7 +1305,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, 30303, "", "=q4=Pattern: Belt of the Black Eagle", "=ds=#p7# (375)", "", "1%"};
 		{ 25, 30302, "", "=q4=Pattern: Belt of Deep Shadow", "=ds=#p7# (375)", "", "1%"};
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 29, 32897, "", "=q2=Mark of the Illidari", "=ds=#m20#", "", "27%"};		
+		{ 29, 32897, "", "=q2=Mark of the Illidari", "=ds=#m20#", "", "27%"};
 		{ 30, 30183, "", "=q4=Nether Vortex", "=ds=#e8#", "", "75%"};
 		Prev = "CFRSerpentVashj";
 	};
@@ -1336,19 +1336,19 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["CFRSerpentLurkerHEROIC"] = {
 		{ 1, 77252, "", "=q4= Заряд жизненной силы", "=ds=#s12#, #a3#", "", ""};
-		{ 2, 77173, "", "=q4= Скороходы верхолаза", "=ds=#s12#, #a2#", "", ""};	
-		{ 3, 77238, "", "=q4= Башмаки кипящей крови", "=ds=#s12#, #a2#", "", ""};	
-		{ 4, 71270, "", "=q4= Мантия терпения", "=ds=#s4#", "", ""};	
-		{ 5, 71610, "", "=q4= Колье поверженного вождя", "=ds=#s2#", "", ""};	
-		{ 6, 71640, "", "=q4= Утерянный ошейник Лютогрыза", "=ds=#s10#, #a2#", "", ""};	
+		{ 2, 77173, "", "=q4= Скороходы верхолаза", "=ds=#s12#, #a2#", "", ""};
+		{ 3, 77238, "", "=q4= Башмаки кипящей крови", "=ds=#s12#, #a2#", "", ""};
+		{ 4, 71270, "", "=q4= Мантия терпения", "=ds=#s4#", "", ""};
+		{ 5, 71610, "", "=q4= Колье поверженного вождя", "=ds=#s2#", "", ""};
+		{ 6, 71640, "", "=q4= Утерянный ошейник Лютогрыза", "=ds=#s10#, #a2#", "", ""};
 		{ 16, 78404, "", "=q4= Скальпель нескончаемой агонии", "=ds=#h3#, #w4#", "", ""};
 		{ 17, 77947, "", "=q4= Лезвие снов", "=ds=#h1#, #w4#", "", ""};
-		{ 18, 78878, "", "=q4= Хребет тысячи порезов", "=ds=#h1#, #w10#", "", ""};	
+		{ 18, 78878, "", "=q4= Хребет тысячи порезов", "=ds=#h1#, #w10#", "", ""};
 		{ 19, 72869, "", "=q4= Огнестрел драконьей пасти", "=ds=#w5#", "", ""};
 		{ 21, 30183, "", "=q4= Воронка Пустоты", "=ds=#e8#", "", ""};
 		{ 22, 280006, "", "=q1= Печать Вечности", "=ds=#e15#"};
 		{ 24, 73953, "", "=q1= Морской пони", "=ds=#e13#"};
-		
+
 		Prev = "CFRSerpentHydrossHEROIC";
 		Next = "CFRSerpentLeotherasHEROIC";
 	};
@@ -1361,31 +1361,31 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 70121, "", "=q4=Оружейные держатели Рикет", "=ds=#s8#, #a4#", "", ""};
 		{ 5, 65086, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", "", "17%"};
 		{ 6, 70106, "", "=q4=Амулет Ткущего Ночь", "=ds=#s2#", "", ""};
-		{ 7, 71267, "", "=q4=Мантия желания", "=ds=#s4#", "", ""};		
-		{ 16, 65013, "", "=q4=Maldo's Sword Cane", "=ds=#h1#, #w10#", "", ""};	
+		{ 7, 71267, "", "=q4=Мантия желания", "=ds=#s4#", "", ""};
+		{ 16, 65013, "", "=q4=Maldo's Sword Cane", "=ds=#h1#, #w10#", "", ""};
 		{ 17, 71367, "", "=q4=Угольная печатка Тека", "=ds=#s13#",  "",  ""};
 		{ 19, 65140, "", "=q4=Essence of the Cyclone", "=ds=#s14#", "", "18%"};
-		{ 21, 280006, "", "=q1=", "=ds=#e15#"};	
+		{ 21, 280006, "", "=q1=", "=ds=#e15#"};
 		{ 23, 30323, "", "=q4=Plans: Boots of the Protector", "=ds=#p2# (375)", "", "15%"};
 		Prev = "CFRSerpentLurkerHEROIC";
 		Next = "CFRSerpentKarathressHEROIC";
 	};
 
 	AtlasLoot_Data["CFRSerpentKarathressHEROIC"] = {
-		
+
 		{ 1, 65060, "", "=q4=Sark of the Unwatched", "=ds=#s5#, #a2#", "", "15%"};
 		{ 2, 65059, "", "=q4=Ironstar Amulet", "=ds=#s2#", "", "15%"};
 		{ 3, 69606, "", "=q4=Пелерина лоа Хаккари", "=ds=#s4#", "", ""};
 		{ 4, 65116, "", "=q4=Treads of Liquid Ice", "=ds=#s12#, #a1#", "", "15%"};
-		{ 5, 69949, "", "=q4=Башмаки из земляных чешуек", "=ds=#s12#, #a3#", "", ""};		
+		{ 5, 69949, "", "=q4=Башмаки из земляных чешуек", "=ds=#s12#, #a3#", "", ""};
 		{ 6, 59118, "", "=q4=Электронная индуктивная катушка", "=ds=#s8#, #a4#", "", ""};
 		{ 16, 65007, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", "", "15%"};
-		{ 17, 78437, "", "=q4=Моргенштерн холодных глубин", "=ds=#h1#,#w6#", "", ""};	
+		{ 17, 78437, "", "=q4=Моргенштерн холодных глубин", "=ds=#h1#,#w6#", "", ""};
 		{ 19, 65029, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", "", "15%"};
 		{ 20, 65124, "", "=q4=Fall of Mortality", "=ds=#s14#", "", ""};
-		
+
 		{ 22, 280006, "", "=q1=Печать вечности", "=ds=#e15#"};
-		
+
 		{ 24, 30323, "", "=q4=Plans: Boots of the Protector", "=ds=#p2# (375)", "", "15%"};
 		Prev = "CFRSerpentLeotherasHEROIC";
 		Next = "CFRSerpentMorogrimHEROIC";
@@ -1445,7 +1445,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 155722, "", "=q4=Поводья изумрудного Покорителя волн", "=ds=#e12#", "", "25%"};
 		{ 6, 155723, "", "=q4=Поводья сапфирового Покорителя волн", "=ds=#e12#", "", "25%"};
 		{ 7, 155724, "", "=q4=Поводья ультрамаринового Покорителя волн", "=ds=#e12#", "", "25%"};
-		{ 8, 155725, "", "=q4= Поводья песчаного Покорителя волн", "=ds=#e12#", "", "25%"};	
+		{ 8, 155725, "", "=q4= Поводья песчаного Покорителя волн", "=ds=#e12#", "", "25%"};
 		{ 10, 30324, "", "=q4=Plans: Red Havoc Boots", "=ds=#p2# (375)", "", "1%"};
 		{ 11, 30322, "", "=q4=Plans: Red Belt of Battle", "=ds=#p2# (375)", "", "2%"};
 		{ 12, 30323, "", "=q4=Plans: Boots of the Protector", "=ds=#p2# (375)", "", "2%"};
@@ -1463,7 +1463,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, 30303, "", "=q4=Pattern: Belt of the Black Eagle", "=ds=#p7# (375)", "", "1%"};
 		{ 25, 30302, "", "=q4=Pattern: Belt of Deep Shadow", "=ds=#p7# (375)", "", "1%"};
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 29, 32897, "", "=q2=Mark of the Illidari", "=ds=#m20#", "", "27%"};		
+		{ 29, 32897, "", "=q2=Mark of the Illidari", "=ds=#m20#", "", "27%"};
 		{ 30, 30183, "", "=q4=Nether Vortex", "=ds=#e8#", "", "75%"};
 		Prev = "CFRSerpentVashjHEROIC";
 
@@ -1486,7 +1486,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 160000, "pvecurrency-valor", "=q3=Очки доблести", "=q5=x150     =q7="};
 		Next = "GruulGruulHEROIC";
 	};
-	
+
 	AtlasLoot_Data["GruulsLairHighKingMaulgarHEROIC"] = {
 		{ 1, 81666, "", "=q4=Brute Cloak of the Ogre-Magi", "#s4#", "", ""};
 		{ 2, 81966, "", "=q4=Belt of Divine Inspiration", "#s10#, #a1#", "", ""};
@@ -1536,7 +1536,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 82019, "", "=q4=Leggings of the Fallen Defender", "=ds=#h2#, #w1#", "", ""};
 		{ 18, 90337, "", "=q4=Leggings of the Fallen Hero", "=ds=#w8#", "", ""};
 		{ 19, 82218, "", "=q4=Leggings of the Fallen Hero", "=ds=#w11#", "", ""};
-		{ 20, 155033, "", "=q4=Поводья Рыжей бронированной виверны", "=ds=#e12#", ""};	
+		{ 20, 155033, "", "=q4=Поводья Рыжей бронированной виверны", "=ds=#e12#", ""};
 		{ 22, 280005, "", "=q4=Seal of Nether", "=ds=#e15#", "", "100%"};
 		{ 23, 160000, "pvecurrency-valor", "=q3=Очки доблести", "=q5=x250     =q7="};
 		Prev = "GruulsLairHighKingMaulgar";
@@ -1573,7 +1573,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "HCRampWatchkeeper";
 		Next = "HCRampVazruden";
 	};
-	
+
 	AtlasLoot_Data["HCRampOmorHEROIC"] = {
 		{ 1, 27465, "", "=q4=Mana-Etched Gloves", "=ds=#s9#, #a1#", "", "11.74%"};
 		{ 2, 27466, "", "=q4=Headdress of Alacrity", "=ds=#s1#, #a1#", "", "12.10%"};
@@ -1684,7 +1684,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 24394, "", "=q4=Warsong Howling Axe", "=ds=#h2#, #w1#", "", "15.52%"};
 		Prev = "HCFurnaceBroggok";
 	};
-	
+
 	AtlasLoot_Data["HCFurnaceBreakerHEROIC"] = {
 		{ 1, 27506, "", "=q4=Robe of Effervescent Light", "=ds=#s5#, #a1#", "", "17.42%"};
 		{ 2, 27514, "", "=q4=Leggings of the Unrepentant", "=ds=#s11#, #a2#", "", "13.64%"};
@@ -1717,7 +1717,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		---------------------------------------------
 
 	AtlasLoot_Data["HCHallsNethekurse"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};	
+		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 2, 27519, "", "=q4=Cloak of Malice", "=ds=#s4#", "", "17.44%"};
 		{ 3, 27517, "", "=q4=Bands of Nethekurse", "=ds=#s8#, #a1#", "", "17.52%"};
 		{ 4, 27521, "", "=q4=Telaari Hunting Girdle", "=ds=#s10#, #a3#", "", "16.50%"};
@@ -1731,7 +1731,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["HCHallsPorungHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};	
+		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 2, 30709, "", "=q4=Pantaloons of Flaming Wrath", "=ds=#s11#, #a1#", "", "14.58%"};
 		{ 3, 30707, "", "=q4=Nimble-foot Treads", "=ds=#s12#, #a2#", "", "10.42%"};
 		{ 4, 30708, "", "=q4=Belt of Flowing Thought", "=ds=#s10#, #a3#", "", "12.50%"};
@@ -1742,7 +1742,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["HCHallsOmrogg"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};	
+		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 2, 27525, "", "=q4=Jeweled Boots of Sanctification", "=ds=#s12#, #a1#", "", "18.26%"};
 		{ 3, 27802, "", "=q4=Tidefury Shoulderguards", "=ds=#s3#, #a3# (D3)", "", "17.02%"};
 		{ 4, 27868, "", "=q4=Runesong Dagger", "=ds=#h3#, #w4#", "", "15.32%"};
@@ -1878,7 +1878,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "KaraNightbane";
 		Next = "KaraTrash";
 	};
-	
+
 
 	AtlasLoot_Data["KaraAttumen"] = {
 		{ 1, 28477, "", "=q4=Harbinger Bands", "=ds=#s8#, #a1#", "", "14.68%"};
@@ -1915,8 +1915,8 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 23809, "", "=q3=Schematic: Stabilized Eternium Scope", "=ds=#p5# (375)", "", ""};
 		{ 25, 160000, "pvecurrency-valor", "=q3=Очки доблести", "=q5=x125     =q7="};
 		Next = "KaraMoroesHEROIC";
-	};	
-	
+	};
+
 	AtlasLoot_Data["KaraMoroesHEROIC"] = {
 		{ 1, 62245, "", "=q4=Royal Cloak of Arathi Kings", "=ds=#s16#, #w14#", "", ""};
 		{ 2, 63841, "", "=q4=Shadow-Cloak of Dalaran", "=ds=#s14#", "", ""};
@@ -1935,7 +1935,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Prev = "KaraAttumenHEROIC";
 		Next = "KaraMaidenHEROIC";
 	};
-	
+
 		AtlasLoot_Data["KaraMoroes"] = {
 		{ 1, 28529, "", "=q4=Royal Cloak of Arathi Kings", "=ds=#s4#", "", "15.91%"};
 		{ 2, 28570, "", "=q4=Shadow-Cloak of Dalaran", "=ds=#s4#", "", "12.18%"};
@@ -1995,7 +1995,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Next = "KaraOperaEvent";
 	};
 
-	
+
 	AtlasLoot_Data["KaraOperaEventHEROIC"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["The Crone"], ""};
 		{ 2, 82397, "", "=q4=Wicked Witch's Hat", "=ds=#s1#, #a1#", "", ""};
@@ -2043,7 +2043,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Next = "KaraCurator";
 	};
 
-	
+
 	AtlasLoot_Data["KaraCuratorHEROIC"] = {
 		{ 1, 82090, "", "=q4=Pauldrons of the Solace-Giver", "=ds=#s3#, #a1#", "", ""};
 		{ 2, 82043, "", "=q4=Forest Wind Shoulderpads", "=ds=#s3#, #a2#", "", ""};
@@ -2055,7 +2055,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Prev = "KaraOperaEventHEROIC";
 		Next = "KaraIllhoofHEROIC";
 	};
-	
+
 	AtlasLoot_Data["KaraCurator"] = {
 		{ 1, 28612, "", "=q4=Pauldrons of the Solace-Giver", "=ds=#s3#, #a1#", "", "15.19%"};
 		{ 2, 28647, "", "=q4=Forest Wind Shoulderpads", "=ds=#s3#, #a2#", "", "10.56%"};
@@ -2089,7 +2089,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Prev = "KaraCuratorHEROIC";
 		Next = "KaraAranHEROIC";
 	};
-	
+
 	AtlasLoot_Data["KaraIllhoof"] = {
 		{ 1, 28660, "", "=q4=Gilded Thorium Cloak", "=ds=#s4#", "", "14.63%"};
 		{ 2, 28653, "", "=q4=Shadowvine Cloak of Infusion", "=ds=#s4#", "", "10.45%"};
@@ -2128,7 +2128,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Prev = "KaraIllhoofHEROIC";
 		Next = "KaraNetherspiteHEROIC";
 	};
-	
+
 	AtlasLoot_Data["KaraAran"] = {
 		{ 1, 28672, "", "=q4=Drape of the Dark Reavers", "=ds=#s4#", "", "11.70%"};
 		{ 2, 28726, "", "=q4=Mantle of the Mind Flayer", "=ds=#s3#, #a1#", "", "16.03%"};
@@ -2164,7 +2164,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Prev = "KaraAranHEROIC";
 		Next = "KaraPrinceHEROIC";
 	};
-	
+
 	AtlasLoot_Data["KaraNetherspite"] = {
 		{ 1, 28744, "", "=q4=Uni-Mind Headdress", "=ds=#s1#, #a1#", "", "12.91%"};
 		{ 2, 28742, "", "=q4=Pantaloons of Repentence", "=ds=#s11#, #a1#", "", "10.99%"};
@@ -2182,7 +2182,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Prev = "KaraAran";
 		Next = "KaraChess";
 	};
-	
+
 	AtlasLoot_Data["KaraChess"] = {
 		{ 1, 28756, "", "=q4=Headdress of the High Potentate", "=ds=#s1#, #a1#", "", "17.98%"};
 		{ 2, 28755, "", "=q4=Bladed Shoulderpads of the Merciless", "=ds=#s3#, #a2#", "", "13.55%"};
@@ -2219,7 +2219,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 21, 280005, "", "=q4=Seal of Nether", "=ds=#e15#", "", "100%"};
 		Prev = "KaraPrinceHEROIC";
 	};
-	
+
 	AtlasLoot_Data["KaraNightbane"] = {
 		{ 1, 28602, "", "=q4=Robe of the Elder Scribes", "=ds=#s5#, #a1#", "", "17.38%"};
 		{ 2, 28600, "", "=q4=Stonebough Jerkin", "=ds=#s5#, #a2#", "", "13.33%"};
@@ -2258,7 +2258,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Prev = "KaraNetherspiteHEROIC";
 		Next = "KaraNightbaneHEROIC";
 	};
-	
+
 	AtlasLoot_Data["KaraPrince"] = {
 		{ 1, 28765, "", "=q4=Stainless Cloak of the Pure Hearted", "=ds=#s4#", "", "10.37%"};
 		{ 2, 28766, "", "=q4=Ruby Drape of the Mysticant", "=ds=#s4#", "", "12.50%"};
@@ -2312,7 +2312,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 3, 72859, "", "=q4=Leggings of the Betrayed", "=ds=#s1#, #a3#", "", ""};
 		{ 4, 72843, "", "=q4=Bindings of Raging Fire", "=ds=#s1#, #a4#", "", ""};
 		{ 6, 76162, "", "=q4=Cloak of Swift Mending", "=ds=#s2#", "", ""};
-		{ 7, 70940, "", "=q4=Bracers of the Forest Stalker", "=ds=#s13#", "", ""};	
+		{ 7, 70940, "", "=q4=Bracers of the Forest Stalker", "=ds=#s13#", "", ""};
 		{ 8, 71782, "", "=q4=Sun-forged Cleaver", "=ds=#h1#, #w6#", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 71255, "", "=q4=Jaded Crystal Dagger", "=ds=#s10#, #a3#", "", ""};
@@ -2720,7 +2720,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	};
 
 	AtlasLoot_Data["TKBotThorngrin"] = {
-		
+
 		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 2, 28324, "", "=q4=Gauntlets of Cruel Intention", "=ds=#s9#, #a4#", "", "15.56%"};
 		{ 3, 28327, "", "=q4=Arcane Netherband", "=ds=#s13#", "", "17.77%"};
@@ -2768,7 +2768,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 22, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
 		{ 23, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
 		{ 24, 46325, "", "=q3=Withers", "=ds=#e13#", "", ""};
-		
+
 		{ 25, 99977, "", "=q1=", "=ds=#pigment#"};
 		{ 26, 99979, "", "=q1=", "=ds=#pigment#"};
 		{ 27, 99978, "", "=q1=", "=ds=#pigment#"};
@@ -2924,18 +2924,18 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 16, 30236, "", "=q4=Chestguard of the Vanquished Champion", "=ds=#m22# #e15#", "", "69%"};
 		{ 17, 30237, "", "=q4=Chestguard of the Vanquished Defender", "=ds=#m22# #e15#", "", "68%"};
 		{ 18, 30238, "", "=q4=Chestguard of the Vanquished Hero", "=ds=#m22# #e15#", "", "66%"};
-		
+
 		{ 20, 32405, "", "=q4=Verdant Sphere", "=ds=#m2#", "", "100%"};
 		{ 21, 30018, "", "=q4=Lord Sanguinar's Claim", "=q1=#m4#: =ds=#s2#"};
 		{ 22, 30017, "", "=q4=Telonicus's Pendant of Mayhem", "=q1=#m4#: =ds=#s2#"};
 		{ 23, 30007, "", "=q4=The Darkener's Grasp", "=q1=#m4#: =ds=#s2#"};
 		{ 24, 30015, "", "=q4=The Sun King's Talisman", "=q1=#m4#: =ds=#s2#"};
 		{ 25, 29905, "", "=q1=Kael's Vial Remnant", "=ds=#m3#", "", "37%"};
-		
+
 		{ 28, 32458, "", "=q4=Ashes of Al'ar", "=ds=#e12#", ""};
 		{ 29, 30183, "", "=q4=Nether Vortex", "=ds=#e8#", ""};
 		{ 30, 32896, "", "=q4=Свиток Солнца", "=ds=", ""};
-			
+
 		Prev = "TKEyeSolarian";
 		Next = "TKEyeTrash";
 	};
@@ -3010,8 +3010,8 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 1, 65077, "", "=q4=Power Generator Hood", "=ds=#s1#, #a1#", ""};
 		{ 2, 65038, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
 		{ 3, 65057, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
-		{ 4, 56536, "", "=q4=Грозовой ремешок", "=ds=#s10#, #a2#"};	
-		{ 5, 59334, "", "=q4=Воинский пояс жизненного цикла", "=ds=#s10#, #a3#"};	
+		{ 4, 56536, "", "=q4=Грозовой ремешок", "=ds=#s10#, #a2#"};
+		{ 5, 59334, "", "=q4=Воинский пояс жизненного цикла", "=ds=#s10#, #a3#"};
 		{ 6, 65049, "", "=q4=Leggings of Lethal Force", "=ds=#s11#, #a3#", ""};
 		{ 7, 65143, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};
 		{ 8, 77088, "", "=q4=Опал тайного ордена", "=ds=#s2#", "", };
@@ -3059,17 +3059,17 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 7, 59481, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};
 		{ 8, 65120, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
 		{ 9, 65119, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
-		{ 10, 71262, "", "=q4=Наручники тлеющего черепа", "=ds=#s8#, #a2#", ""};	
+		{ 10, 71262, "", "=q4=Наручники тлеющего черепа", "=ds=#s8#, #a2#", ""};
 		{ 11, 65034, "", "=q4= Пояс чародейских бурь", "=ds=#s10#, #a1#", ""};
 
 		{ 13, 59517, "", "=q4=Ожерелье борьбы", "=ds=#s2#", ""};
 		{ 14, 67136, "", "=q4=Gilnean Ring of Ruination", "=ds=#s13#", ""};
-		
+
 		{ 16, 65145, "", "=q4=Shalug'doom, the Axe of Unmaking", "=ds=#h2#, #w1#", ""};
 		{ 17, 55064, "", "=q4=Элементиевый коварный клинок", "=ds=#h1#, #w4#", ""};
 		{ 18, 59521, "", "=q4=Клинок души", "=ds=#h1#, #w10#", ""};
 		{ 19, 78429, "", "=q4=Моргенштерн героической воли", "=ds=#h1#, #w6#", ""};
-	
+
 		{ 24, 32458, "", "=q4=Ashes of Al'ar", "=ds=#e12#", ""};
 		{ 25, 280006, "", "=q1=", "=ds=#e15#"};
 		{ 26, 30183, "", "=q4=Nether Vortex", "=ds=#e8#", ""};
@@ -3083,7 +3083,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 21, 30015, "", "=q4=The Sun King's Talisman", "=q1=#m4#: =ds=#s2#"};
 		{ 22, 29905, "", "=q1=Kael's Vial Remnant", "=ds=#m3#", "", "37%"};
 		{ 23, 280006, "", "=q1=", "=ds=#e15#"};]]--
-		
+
 		Prev = "TKEyeSolarianHEROIC";
 		Next = "TKEyeTrashHEROIC";
 	};
@@ -3232,19 +3232,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 7, 33971, "", "=q4=Elunite Imbued Leggings", "=ds=#s11#, #a2#", "", "10%"};
 		{ 8, 33805, "", "=q4=Shadowhunter's Treads", "=ds=#s12#, #a3#", "", "10%"};
 		{ 9, 33481, "", "=q4=Pauldrons of Stone Resolve", "=ds=#s3#, #a4#", "", "11%"};
-		{ 16, 0, "INV_Box_01", "=q6=#x31#", ""};
-		{ 17, 33495, "", "=q4=Rage", "=ds=#h3#, #w13#", "", "12%"};
-		{ 18, 33493, "", "=q4=Umbral Shiv", "=ds=#h1#, #w4#", "", "12%"};
-		{ 19, 33492, "", "=q4=Trollbane", "=ds=#h2#, #w1#", "", "11%"};
-		{ 20, 33490, "", "=q4=Staff of Dark Mending", "=ds=#w9#", "", "13%"};
-		{ 21, 33494, "", "=q4=Amani Divining Staff", "=ds=#w9#", "", "11%"};
-		{ 22, 33491, "", "=q4=Tuskbreaker", "=ds=#w5#", "", "12%"};
-		{ 24, 0, "INV_Box_01", "=q6=#x32#", ""};
-		{ 25, 33497, "", "=q4=Mana Attuned Band", "=ds=#s13#", "", "18%"};
-		{ 26, 33500, "", "=q4=Signet of Eternal Life", "=ds=#s13#", "", "20%"};
-		{ 27, 33496, "", "=q4=Signet of Primal Wrath", "=ds=#s13#", "", "23%"};
-		{ 28, 33499, "", "=q4=Signet of the Last Defender", "=ds=#s13#", "", "18%"};
-		{ 29, 33498, "", "=q4=Signet of the Quiet Forest", "=ds=#s13#", "", "21%"};
+		{ 11, 0, "INV_Box_01", "=q6=#x31#", ""};
+		{ 12, 33495, "", "=q4=Rage", "=ds=#h3#, #w13#", "", "12%"};
+		{ 13, 33493, "", "=q4=Umbral Shiv", "=ds=#h1#, #w4#", "", "12%"};
+		{ 14, 33492, "", "=q4=Trollbane", "=ds=#h2#, #w1#", "", "11%"};
+		{ 15, 33490, "", "=q4=Staff of Dark Mending", "=ds=#w9#", "", "13%"};
+		{ 16, 33494, "", "=q4=Amani Divining Staff", "=ds=#w9#", "", "11%"};
+		{ 17, 33491, "", "=q4=Tuskbreaker", "=ds=#w5#", "", "12%"};
+		{ 19, 0, "INV_Box_01", "=q6=#x32#", ""};
+		{ 20, 33497, "", "=q4=Mana Attuned Band", "=ds=#s13#", "", "18%"};
+		{ 21, 33500, "", "=q4=Signet of Eternal Life", "=ds=#s13#", "", "20%"};
+		{ 22, 33496, "", "=q4=Signet of Primal Wrath", "=ds=#s13#", "", "23%"};
+		{ 23, 33499, "", "=q4=Signet of the Last Defender", "=ds=#s13#", "", "18%"};
+		{ 24, 33498, "", "=q4=Signet of the Quiet Forest", "=ds=#s13#", "", "21%"};
+		{ 26, 0, "INV_Box_01", "=q6=#x33#", ""};
+		{ 27, 33809, "", "=q4=Mount", "", "", "100%"};
+
 		Prev = "ZAZuljin";
 		Next = "ZATrash";
 	};
@@ -3646,7 +3649,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Prev = "SunOffensive1";
 		Back = "REPMENU_BURNINGCRUSADE";
 	};
-	
+
 		AtlasLoot_Data["SunOffensive3_x2"] = {
 		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
 		{ 2, 34665, "", "=q3=Bombardier's Blade", "=ds=#h1#, #w4#", "120 #ssunmark#"};
@@ -3745,8 +3748,8 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Next = "SunOffensive5";
 		Back = "REPMENU_BURNINGCRUSADE";
 	};
-	
-			
+
+
 		AtlasLoot_Data["SunOffensive5_x2"] = {
 		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
 		{ 2, 34678, "", "=q4=Shattered Sun Pendant of Acumen", "=ds=#s2#", "270 #ssunmark#"};
@@ -4406,7 +4409,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 17, 28278, "", "=q3=Incanter's Cowl", "=ds="..BabbleBoss["Pathaleon the Calculator"].." ("..BabbleZone["The Mechanar"]..")"};
 		{ 18, 27738, "", "=q3=Incanter's Pauldrons", "=ds="..BabbleBoss["Warlord Kalithresh"].." ("..BabbleZone["The Steamvault"]..")"};
 		{ 19, 28229, "", "=q3=Incanter's Robe", "=ds="..BabbleBoss["Warp Splinter"].." ("..BabbleZone["The Botanica"]..")"};
-		{ 20, 27508, "", "=q3=Incanter's Gloves", "=ds="..BabbleBoss["Hydromancer Thespia"].." ("..BabbleZone["The Steamvault"]..")"}; 
+		{ 20, 27508, "", "=q3=Incanter's Gloves", "=ds="..BabbleBoss["Hydromancer Thespia"].." ("..BabbleZone["The Steamvault"]..")"};
 		{ 21, 27838, "", "=q3=Incanter's Trousers", "=ds="..BabbleBoss["Talon King Ikiss"].." ("..BabbleZone["Sethekk Halls"]..")"};
 		{ 23, 0, "Ability_Creature_Cursed_03", "=q6=#ds3s4#", ""};
 		{ 24, 28415, "", "=q3=Hood of Oblivion", "=ds="..BabbleBoss["Harbinger Skyriss"].." ("..BabbleZone["The Arcatraz"]..")"};
@@ -4493,8 +4496,8 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		--- 	  Tier 4       	---
 		----------------------------
 
-	
-	
+
+
 	AtlasLoot_Data["T4DruidFeral"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t4s1_1#", "=ec1=#m21#"};
 		{ 2, 29098, "", "=q4=Stag-Helm of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4519,25 +4522,25 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
-	
+
+
 	AtlasLoot_Data["T4DruidRestoration"] = {
-		
-		
+
+
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_2#", "=ec1=#m21#"};
 		{ 2, 29086, "", "=q4=Crown of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29089, "", "=q4=Shoulderguards of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29087, "", "=q4=Chestguard of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29090, "", "=q4=Handguards of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29088, "", "=q4=Legguards of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-		
+
 		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_2#", "=ec1=#m21#"};
 		{ 9, 100470, "", "=q4=Crown of Malorne", "=ds=#netherseal#"};
 		{ 10, 100473, "", "=q4=Shoulderguards of Malorne", "=ds=#netherseal#"};
 		{ 11, 100471, "", "=q4=Chestguard of Malorne", "=ds=#netherseal#"};
 		{ 12, 100474, "", "=q4=Handguards of Malorne", "=ds=#netherseal#"};
 		{ 13, 100472, "", "=q4=Legguards of Malorne", "=ds=#netherseal#"};
-		
+
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
@@ -4550,24 +4553,24 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	};
 
 
-	
+
 	AtlasLoot_Data["T4DeathKnightDPS"] = {
-		
-		
+
+
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 2, 55848, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 55207, "", "=q4=Pauldrons of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 55254, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 55784, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 56104, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-		
+
 		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 9, 100489, "", "=q4=Antlers of Malorne", "=ds=#netherseal#"};
 		{ 10, 100485, "", "=q4=Pauldrons of Malorne", "=ds=#netherseal#"};
 		{ 11, 100486, "", "=q4=Chestpiece of Malorne", "=ds=#netherseal#"};
 		{ 12, 100487, "", "=q4=Gloves of Malorne", "=ds=#netherseal#"};
 		{ 13, 100490, "", "=q4=Britches of Malorne", "=ds=#netherseal#"};
-		
+
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
@@ -4579,24 +4582,24 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
+
 
 	AtlasLoot_Data["T4DeathKnightTank"] = {
-		
+
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 2, 63462, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 55792, "", "=q4=Pauldrons of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 56291, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 56323, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 56435, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-	
+
 		{8, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 9, 100494, "", "=q4=Antlers of Malorne", "=ds=#netherseal#"};
 		{ 10, 100488, "", "=q4=Pauldrons of Malorne", "=ds=#netherseal#"};
 		{ 11, 100491, "", "=q4=Chestpiece of Malorne", "=ds=#netherseal#"};
 		{ 12, 100492, "", "=q4=Gloves of Malorne", "=ds=#netherseal#"};
 		{ 13, 100493, "", "=q4=Britches of Malorne", "=ds=#netherseal#"};
-		
+
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
@@ -4609,7 +4612,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	};
 
 
-	
+
 	AtlasLoot_Data["T4DruidBalance"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 2, 29093, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4617,7 +4620,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 29091, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29092, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29094, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-		
+
 		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 9, 100477, "", "=q4=Antlers of Malorne", "=ds=#netherseal#"};
 		{ 10, 100479, "", "=q4=Pauldrons of Malorne", "=ds=#netherseal#"};
@@ -4635,8 +4638,8 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
-	
+
+
 	AtlasLoot_Data["T4Hunter"] = {
 		{1, 0, "Ability_Hunter_RunningShot", "=q6=#t4s2#", "=ec1=#m21#"};
 		{ 2, 29081, "", "=q4=Demon Stalker Greathelm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4644,14 +4647,14 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 29082, "", "=q4=Demon Stalker Harness", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29085, "", "=q4=Demon Stalker Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29083, "", "=q4=Demon Stalker Greaves", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-		
+
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t4s2#", "=ec1=#m21#"};
 		{ 9, 100465, "", "=q4=Demon Stalker Greathelm", "=ds=#netherseal#"};
 		{ 10, 100468, "", "=q4=Demon Stalker Shoulderguards", "=ds=#netherseal#"};
 		{ 11, 100466, "", "=q4=Demon Stalker Harness", "=ds=#netherseal#"};
 		{ 12, 100469, "", "=q4=Demon Stalker Gauntlets", "=ds=#netherseal#"};
 		{ 13, 100467, "", "=q4=Demon Stalker Greaves", "=ds=#netherseal#"};
-		
+
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
@@ -4663,8 +4666,8 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
-	
+
+
 	AtlasLoot_Data["T4Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t4s3#", "=ec1=#m21#"};
 		{ 2, 29076, "", "=q4=Collar of the Aldor", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4672,14 +4675,14 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 29077, "", "=q4=Vestments of the Aldor", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29080, "", "=q4=Gloves of the Aldor", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29078, "", "=q4=Legwraps of the Aldor", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-		
+
 		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t4s3#", "=ec1=#m21#"};
 		{ 9, 100460, "", "=q4=Collar of the Aldor", "=ds=#netherseal#"};
 		{ 10, 100463, "", "=q4=Pauldrons of the Aldor", "=ds=#netherseal#"};
 		{ 11, 100461, "", "=q4=Vestments of the Aldor", "=ds=#netherseal#"};
 		{ 12, 100464, "", "=q4=Gloves of the Aldor", "=ds=#netherseal#"};
 		{ 13, 100462, "", "=q4=Legwraps of the Aldor", "=ds=#netherseal#"};
-		
+
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
@@ -4705,20 +4708,20 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100450, "", "=q4=Justicar Chestguard", "=ds=#netherseal#"};
 		{ 12, 100451, "", "=q4=Justicar Handguards", "=ds=#netherseal#"};
 		{ 13, 100453, "", "=q4=Justicar Legguards", "=ds=#netherseal#"};
-		
+
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
 		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
 		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
 		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		
+
 		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
 		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-	
-	
+
+
 	AtlasLoot_Data["T4PaladinRetribution"] = {
 	{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t4s4_2#", "=ec1=#m21#"};
 		{ 2, 29073, "", "=q4=Justicar Crown", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4731,7 +4734,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 10, 100459, "", "=q4=Justicar Shoulderplates", "=ds=#netherseal#"};
 		{ 11, 100455, "", "=q4=Justicar Breastplate", "=ds=#netherseal#"};
 		{ 12, 100456, "", "=q4=Justicar Gauntlets", "=ds=#netherseal#"};
-		{ 13, 100458, "", "=q4=Justicar Greaves", "=ds=#netherseal#"};	
+		{ 13, 100458, "", "=q4=Justicar Greaves", "=ds=#netherseal#"};
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
@@ -4743,8 +4746,8 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
-	
+
+
 	AtlasLoot_Data["T4PaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t4s4_3#", "=ec1=#m21#"};
 		{ 2, 29061, "", "=q4=Justicar Diadem", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4757,7 +4760,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 10, 100448, "", "=q4=Justicar Pauldrons", "=ds=#netherseal#"};
 		{ 11, 100446, "", "=q4=Justicar Chestpiece", "=ds=#netherseal#"};
 		{ 12, 100449, "", "=q4=Justicar Gloves", "=ds=#netherseal#"};
-		{ 13, 100447, "", "=q4=Justicar Leggings", "=ds=#netherseal#"};	
+		{ 13, 100447, "", "=q4=Justicar Leggings", "=ds=#netherseal#"};
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
@@ -4769,7 +4772,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
+
 	AtlasLoot_Data["T4PriestHoly"] = {
 	{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t4s5_1#", "=ec1=#m21#"};
 		{ 2, 29049, "", "=q4=Light-Collar of the Incarnate", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4782,7 +4785,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 10, 100438, "", "=q4=Light-Mantle of the Incarnate", "=ds=#netherseal#"};
 		{ 11, 100436, "", "=q4=Robes of the Incarnate", "=ds=#netherseal#"};
 		{ 12, 100439, "", "=q4=Handwraps of the Incarnate", "=ds=#netherseal#"};
-		{ 13, 100437, "", "=q4=Trousers of the Incarnate", "=ds=#netherseal#"};	
+		{ 13, 100437, "", "=q4=Trousers of the Incarnate", "=ds=#netherseal#"};
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
@@ -4794,7 +4797,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
+
 	AtlasLoot_Data["T4PriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t4s5_2#", "=ec1=#m21#"};
 		{ 2, 29058, "", "=q4=Soul-Collar of the Incarnate", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4819,8 +4822,8 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
-	
+
+
 	AtlasLoot_Data["T4Rogue"] = {
 	{ 1, 0, "Ability_BackStab", "=q6=#t4s6#", "=ec1=#m21#"};
 		{ 2, 29044, "", "=q4=Netherblade Facemask", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4845,7 +4848,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
+
 	AtlasLoot_Data["T4ShamanEnhancement"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t4s7_1#", "=ec1=#m21#"};
 		{ 2, 29040, "", "=q4=Cyclone Helm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4870,7 +4873,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
+
 	AtlasLoot_Data["T4ShamanRestoration"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t4s7_2#", "=ec1=#m21#"};
 		{ 2, 29028, "", "=q4=Cyclone Headdress", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4883,7 +4886,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 10, 100418, "", "=q4=Cyclone Shoulderpads", "=ds=#netherseal#"};
 		{ 11, 100416, "", "=q4=Cyclone Hauberk", "=ds=#netherseal#"};
 		{ 12, 100419, "", "=q4=Cyclone Gloves", "=ds=#netherseal#"};
-		{ 13, 100417, "", "=q4=Cyclone Kilt", "=ds=#netherseal#"};	
+		{ 13, 100417, "", "=q4=Cyclone Kilt", "=ds=#netherseal#"};
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
@@ -4895,7 +4898,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
+
 	AtlasLoot_Data["T4ShamanElemental"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t4s7_3#", "=ec1=#m21#"};
 		{ 2, 29035, "", "=q4=Cyclone Faceguard", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4909,7 +4912,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100420, "", "=q4=Cyclone Chestguard", "=ds=#netherseal#"};
 		{ 12, 100421, "", "=q4=Cyclone Handguards", "=ds=#netherseal#"};
 		{ 13, 100423, "", "=q4=Cyclone Legguards", "=ds=#netherseal#"};
-		
+
 		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
 		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
 		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
@@ -4921,7 +4924,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
+
 	AtlasLoot_Data["T4Warlock"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t4s8#", "=ec1=#m21#"};
 		{ 2, 28963, "", "=q4=Voidheart Crown", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4948,7 +4951,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
+
 	AtlasLoot_Data["T4WarriorProtection"] = {
 		{ 1, 0, "INV_Shield_05", "=q6=#t4s9_1#", "=ec1=#m21#"};
 		{ 2, 29011, "", "=q4=Warbringer Greathelm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4973,8 +4976,8 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		Back = "T4SET";
 	};
 
-	
-	
+
+
 	AtlasLoot_Data["T4WarriorFury"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t4s9_2#", "=ec1=#m21#"};
 		{ 2, 29021, "", "=q4=Warbringer Battle-Helm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4998,36 +5001,36 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#", "", ""};
 		Back = "T4SET";
 	};
-	
+
 		--------------------------------
 		--- 	T5 sets   start   	 ---
 		--------------------------------
 
 	AtlasLoot_Data["T5WarriorProtection"] = {
-		
+
 		{ 1, 0, "INV_Shield_05", "=q6=#t5s9_1#", "=ec1=#m22#"};
 		{ 2, 30115, "", "=q4=Destroyer Greathelm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30117, "", "=q4=Destroyer Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30113, "", "=q4=Destroyer Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30114, "", "=q4=Destroyer Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30116, "", "=q4=Destroyer Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
-		{ 8, 0, "INV_Shield_05", "=q6=#t5s9_1#", "=ec1=#m22#"};			
+
+		{ 8, 0, "INV_Shield_05", "=q6=#t5s9_1#", "=ec1=#m22#"};
 		{ 9, 151602, "", "=q4=Destroyer Greathelm", "=ds= #SealoftheTitans#"};
 		{ 10, 151604, "", "=q4=Destroyer Shoulderguards", "=ds= #SealoftheTitans#"};
 		{ 11, 151600, "", "=q4=Destroyer Chestguard", "=ds= #SealoftheTitans#"};
 		{ 12, 151601, "", "=q4=Destroyer Handguards", "=ds= #SealoftheTitans#"};
-		{ 13, 151603, "", "=q4=Destroyer Legguards", "=ds= #SealoftheTitans#"};		
-		
+		{ 13, 151603, "", "=q4=Destroyer Legguards", "=ds= #SealoftheTitans#"};
+
 		{ 16, 0, "INV_Shield_05", "=q6=#t5s9_1#", "=ec1=#m22#"};
 		{ 17, 103408, "", "=q4=Destroyer Greathelm", "=ds= #sealeternity#"};
 		{ 18, 103410, "", "=q4=Destroyer Shoulderguards", "=ds= #sealeternity#"};
 		{ 19, 103406, "", "=q4=Destroyer Chestguard", "=ds= #sealeternity#"};
 		{ 20, 103407, "", "=q4=Destroyer Handguards", "=ds= #sealeternity#"};
-		{ 21, 103409, "", "=q4=Destroyer Legguards", "=ds= #sealeternity#"};	
-		
+		{ 21, 103409, "", "=q4=Destroyer Legguards", "=ds= #sealeternity#"};
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
@@ -5038,27 +5041,27 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 30118, "", "=q4=Destroyer Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30119, "", "=q4=Destroyer Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30121, "", "=q4=Destroyer Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
 		{ 9, 151607, "", "=q4=Destroyer Battle-Helm", "=ds= #SealoftheTitans#"};
 		{ 10, 151609, "", "=q4=Destroyer Shoulderblades", "=ds= #SealoftheTitans#"};
 		{ 11, 151605, "", "=q4=Destroyer Breastplate", "=ds= #SealoftheTitans#"};
 		{ 12, 151606, "", "=q4=Destroyer Gauntlets", "=ds= #SealoftheTitans#"};
 		{ 13, 151608, "", "=q4=Destroyer Greaves", "=ds= #SealoftheTitans#"};
-		
+
 		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
 		{ 17,  103413, "", "=q4=Destroyer Battle-Helm", "=ds= #sealeternity#"};
 		{ 18, 103415, "", "=q4=Destroyer Shoulderblades", "=ds= #sealeternity#"};
 		{ 19, 103411, "", "=q4=Destroyer Breastplate", "=ds= #sealeternity#"};
 		{ 20, 103412, "", "=q4=Destroyer Gauntlets", "=ds= #sealeternity#"};
 		{ 21, 103414, "", "=q4=Destroyer Greaves", "=ds= #sealeternity#"};
-		
+
         { 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
-		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};		
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
-	
+
 	AtlasLoot_Data["T5PaladinProtection"] = {
 
 		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t5s4_1#", "=ec1=#m22#"};
@@ -5067,276 +5070,276 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 30123, "", "=q4=Crystalforge Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30124, "", "=q4=Crystalforge Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30126, "", "=q4=Crystalforge Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Holy_SealOfMight", "=q6=#t5s4_1#", "=ec1=#m22#"};
 		{ 9,  151612, "", "=q4=Crystalforge Faceguard", "=ds= #SealoftheTitans#"};
 		{ 10, 151614, "", "=q4=Crystalforge Shoulderguards", "=ds= #SealoftheTitans#"};
 		{ 11, 151610, "", "=q4=Crystalforge Chestguard", "=ds= #SealoftheTitans#"};
 		{ 12, 151611, "", "=q4=Crystalforge Handguards", "=ds= #SealoftheTitans#"};
 		{ 13, 151613, "", "=q4=Crystalforge Legguards", "=ds= #SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Holy_SealOfMight", "=q6=#t5s4_1#", "=ec1=#m22#"};
 		{ 17,  103418, "", "=q4=Crystalforge Faceguard", "=ds= #sealeternity#"};
 		{ 18, 103420, "", "=q4=Crystalforge Shoulderguards", "=ds= #sealeternity#"};
 		{ 19, 103416, "", "=q4=Crystalforge Chestguard", "=ds= #sealeternity#"};
 		{ 20, 103417, "", "=q4=Crystalforge Handguards", "=ds= #sealeternity#"};
 		{ 21, 103419, "", "=q4=Crystalforge Legguards", "=ds= #sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 
-		AtlasLoot_Data["T5PaladinRetribution"] = {		
+		AtlasLoot_Data["T5PaladinRetribution"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t5s4_2#", "=ec1=#m22#"};
 		{ 2, 30131, "", "=q4=Crystalforge War-Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30133, "", "=q4=Crystalforge Shoulderbraces", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30129, "", "=q4=Crystalforge Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30130, "", "=q4=Crystalforge Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30132, "", "=q4=Crystalforge Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t5s4_2#", "=ec1=#m22#"};
 		{ 9, 151617, "", "=q4=Crystalforge War-Helm", "=ds=#SealoftheTitans#"};
 		{ 10, 151619, "", "=q4=Crystalforge Shoulderbraces","=ds=#SealoftheTitans#" };
 		{ 11, 151615, "", "=q4=Crystalforge Breastplate", "=ds=#SealoftheTitans#"};
 		{ 12, 151616, "", "=q4=Crystalforge Gauntlets", "=ds=#SealoftheTitans#"};
 		{ 13, 151618, "", "=q4=Crystalforge Greaves", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t5s4_2#", "=ec1=#m22#"};
 		{ 17, 103423, "", "=q4=Crystalforge War-Helm", "=ds=#sealeternity#"};
 		{ 18, 103425, "", "=q4=Crystalforge Shoulderbraces","=ds=#sealeternity#" };
 		{ 19, 103421, "", "=q4=Crystalforge Breastplate", "=ds=#sealeternity#"};
 		{ 20, 103422, "", "=q4=Crystalforge Gauntlets", "=ds=#sealeternity#"};
 		{ 21, 103424, "", "=q4=Crystalforge Greaves", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
-	AtlasLoot_Data["T5PaladinHoly"] = {	
+	AtlasLoot_Data["T5PaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t5s4_3#", "=ec1=#m22#"};
 		{ 2, 30136, "", "=q4=Crystalforge Greathelm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30138, "", "=q4=Crystalforge Pauldrons", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30134, "", "=q4=Crystalforge Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30135, "", "=q4=Crystalforge Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30137, "", "=q4=Crystalforge Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t5s4_3#", "=ec1=#m22#"};
 		{ 9, 151622, "", "=q4=Crystalforge Greathelm", "=ds= #SealoftheTitans#"};
 		{ 10, 151624, "", "=q4=Crystalforge Pauldrons", "=ds=#SealoftheTitans#"};
 		{ 11, 151620, "", "=q4=Crystalforge Chestpiece", "=ds=#SealoftheTitans#"};
 		{ 12, 151621, "", "=q4=Crystalforge Gloves", "=ds=#SealoftheTitans#"};
 		{ 13, 151623, "", "=q4=Crystalforge Leggings", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t5s4_3#", "=ec1=#m22#"};
 		{ 17, 103428, "", "=q4=Crystalforge Greathelm", "=ds= #sealeternity#"};
 		{ 18, 103430, "", "=q4=Crystalforge Pauldrons", "=ds=#sealeternity#"};
 		{ 19, 103426, "", "=q4=Crystalforge Chestpiece", "=ds=#sealeternity#"};
 		{ 20, 103427, "", "=q4=Crystalforge Gloves", "=ds=#sealeternity#"};
 		{ 21, 103429, "", "=q4=Crystalforge Leggings", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 	AtlasLoot_Data["T5Hunter"] = {
-		
+
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
 		{ 2, 30141, "", "=q4=Rift Stalker Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30143, "", "=q4=Rift Stalker Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30139, "", "=q4=Rift Stalker Hauberk", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30140, "", "=q4=Rift Stalker Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30142, "", "=q4=Rift Stalker Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
 		{ 9, 151627, "", "=q4=Rift Stalker Helm", "=ds=#SealoftheTitans#"};
 		{ 10, 151629, "", "=q4=Rift Stalker Mantle", "=ds=#SealoftheTitans#"};
 		{ 11, 151625, "", "=q4=Rift Stalker Hauberk", "=ds=#SealoftheTitans#"};
 		{ 12, 151626, "", "=q4=Rift Stalker Gauntlets", "=ds=#SealoftheTitans#"};
 		{ 13, 151628, "", "=q4=Rift Stalker Leggings", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
 		{ 17, 103433, "", "=q4=Rift Stalker Helm", "=ds=#sealeternity#"};
 		{ 18, 103435, "", "=q4=Rift Stalker Mantle", "=ds=#sealeternity#"};
 		{ 19, 103431, "", "=q4=Rift Stalker Hauberk", "=ds=#sealeternity#"};
 		{ 20, 103432, "", "=q4=Rift Stalker Gauntlets", "=ds=#sealeternity#"};
 		{ 21, 103434, "", "=q4=Rift Stalker Leggings", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 	AtlasLoot_Data["T5Rogue"] = {
-	
+
 		{ 1, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
 		{ 2, 30146, "", "=q4=Deathmantle Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30149, "", "=q4=Deathmantle Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30144, "", "=q4=Deathmantle Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30145, "", "=q4=Deathmantle Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30148, "", "=q4=Deathmantle Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
 		{ 9, 151632, "", "=q4=Deathmantle Helm", "=ds=#SealoftheTitans#"};
 		{ 10, 151634, "", "=q4=Deathmantle Shoulderpads", "=ds=#SealoftheTitans#"};
 		{ 11, 151630, "", "=q4=Deathmantle Chestguard", "=ds=#SealoftheTitans#"};
 		{ 12, 151631, "", "=q4=Deathmantle Handguards", "=ds=#SealoftheTitans#"};
 		{ 13, 151633, "", "=q4=Deathmantle Legguards", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
 		{ 17, 103438, "", "=q4=Deathmantle Helm", "=ds=#sealeternity#"};
 		{ 18, 103440, "", "=q4=Deathmantle Shoulderpads", "=ds=#sealeternity#"};
 		{ 19, 103436, "", "=q4=Deathmantle Chestguard", "=ds=#sealeternity#"};
 		{ 20, 103437, "", "=q4=Deathmantle Handguards", "=ds=#sealeternity#"};
 		{ 21, 103439, "", "=q4=Deathmantle Legguards", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
-	
+
 	AtlasLoot_Data["T5PriestHoly"] = {
-		
+
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t5s5_1#", "=ec1=#m22#"};
 		{ 2, 30152, "", "=q4=Cowl of the Avatar", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30154, "", "=q4=Mantle of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30150, "", "=q4=Vestments of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30151, "", "=q4=Gloves of the Avatar", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30153, "", "=q4=Breeches of the Avatar", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#t5s5_1#", "=ec1=#m22#"};
 		{ 9,   151637, "", "=q4=Cowl of the Avatar", "=ds=#SealoftheTitans#"};
 		{ 10,  151639, "", "=q4=Mantle of the Avatar", "=ds=#SealoftheTitans#"};
 		{ 11,  151635, "", "=q4=Vestments of the Avatar", "=ds=#SealoftheTitans#"};
 		{ 12,  151636, "", "=q4=Gloves of the Avatar", "=ds=#SealoftheTitans#"};
 		{ 13,  151638, "", "=q4=Breeches of the Avatar", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#t5s5_1#", "=ec1=#m22#"};
 		{ 17,   103443, "", "=q4=Cowl of the Avatar", "=ds=#sealeternity#"};
 		{ 18,  103445, "", "=q4=Mantle of the Avatar", "=ds=#sealeternity#"};
 		{ 19,  103441, "", "=q4=Vestments of the Avatar", "=ds=#sealeternity#"};
 		{ 20,  103442, "", "=q4=Gloves of the Avatar", "=ds=#sealeternity#"};
 		{ 21,  103444, "", "=q4=Breeches of the Avatar", "=ds=#sealeternity#"};
-	
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
-		
+
 		AtlasLoot_Data["T5PriestShadow"] = {
-	
+
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t5s5_2#", "=ec1=#m22#"};
 		{ 2, 30161, "", "=q4=Hood of the Avatar", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30163, "", "=q4=Wings of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30159, "", "=q4=Shroud of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30160, "", "=q4=Handguards of the Avatar", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30162, "", "=q4=Leggings of the Avatar", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#t5s5_2#", "=ec1=#m22#"};
 		{ 9,  151642, "", "=q4=Hood of the Avatar", "=ds=#SealoftheTitans#"};
 		{ 10,  151644, "", "=q4=Wings of the Avatar", "=ds=#SealoftheTitans#"};
 		{ 11,  151640, "", "=q4=Shroud of the Avatar", "=ds=#SealoftheTitans#"};
 		{ 12,  151641, "", "=q4=Handguards of the Avatar", "=ds=#SealoftheTitans#"};
 		{ 13,  151643, "", "=q4=Leggings of the Avatar", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Shadow_AntiShadow", "=q6=#t5s5_2#", "=ec1=#m22#"};
 		{ 17,  103448, "", "=q4=Hood of the Avatar", "=ds=#sealeternity#"};
 		{ 18,  103450, "", "=q4=Wings of the Avatar", "=ds=#sealeternity#"};
 		{ 19,  103446, "", "=q4=Shroud of the Avatar", "=ds=#sealeternity#"};
 		{ 20,  103447, "", "=q4=Handguards of the Avatar", "=ds=#sealeternity#"};
 		{ 21,  103449, "", "=q4=Leggings of the Avatar", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
-		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 	AtlasLoot_Data["T5ShamanRestoration"] = {
-	
+
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t5s7_2#", "=ec1=#m22#"};
 		{ 2, 30166, "", "=q4=Cataclysm Headguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30168, "", "=q4=Cataclysm Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30164, "", "=q4=Cataclysm Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30165, "", "=q4=Cataclysm Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30167, "", "=q4=Cataclysm Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t5s7_2#", "=ec1=#m22#"};
 		{ 9, 151647, "", "=q4=Cataclysm Headguard", "=ds=#SealoftheTitans#"};
 		{ 10,151649, "", "=q4=Cataclysm Shoulderguards", "=ds=#SealoftheTitans#"};
 		{ 11, 151645, "", "=q4=Cataclysm Chestguard", "=ds=#SealoftheTitans#"};
 		{ 12, 151646, "", "=q4=Cataclysm Gloves", "=ds=#SealoftheTitans#"};
 		{ 13, 151648, "", "=q4=Cataclysm Legguards", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t5s7_2#", "=ec1=#m22#"};
 		{ 17, 103453, "", "=q4=Cataclysm Headguard", "=ds=#sealeternity#"};
 		{ 18,103455, "", "=q4=Cataclysm Shoulderguards", "=ds=#sealeternity#"};
 		{ 19, 103451, "", "=q4=Cataclysm Chestguard", "=ds=#sealeternity#"};
 		{ 20, 103452, "", "=q4=Cataclysm Gloves", "=ds=#sealeternity#"};
 		{ 21, 103454, "", "=q4=Cataclysm Legguards", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 	AtlasLoot_Data["T5ShamanElemental"] = {
-		
+
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t5s7_3#", "=ec1=#m22#"};
 		{ 2, 30171, "", "=q4=Cataclysm Headpiece", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30173, "", "=q4=Cataclysm Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30169, "", "=q4=Cataclysm Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30170, "", "=q4=Cataclysm Handgrips", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30172, "", "=q4=Cataclysm Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Nature_Lightning", "=q6=#t5s7_3#", "=ec1=#m22#"};
 		{ 9, 151652, "", "=q4=Cataclysm Headpiece", "=ds=#SealoftheTitans#"};
 		{ 10, 151654, "", "=q4=Cataclysm Shoulderpads", "=ds=#SealoftheTitans#"};
 		{ 11, 151650, "", "=q4=Cataclysm Chestpiece", "=ds=#SealoftheTitans#"};
 		{ 12, 151651, "", "=q4=Cataclysm Handgrips", "=ds=#SealoftheTitans#"};
 		{ 13, 151653, "", "=q4=Cataclysm Legguards", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Nature_Lightning", "=q6=#t5s7_3#", "=ec1=#m22#"};
 		{ 17, 103458, "", "=q4=Cataclysm Headpiece", "=ds=#sealeternity#"};
 		{ 18, 103460, "", "=q4=Cataclysm Shoulderpads", "=ds=#sealeternity#"};
 		{ 19, 103456, "", "=q4=Cataclysm Chestpiece", "=ds=#sealeternity#"};
 		{ 20, 103457, "", "=q4=Cataclysm Handgrips", "=ds=#sealeternity#"};
 		{ 21, 103459, "", "=q4=Cataclysm Legguards", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 	AtlasLoot_Data["T5ShamanEnhancement"] = {
-	
+
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t5s7_1#", "=ec1=#m22#"};
 		{ 2, 30190, "", "=q4=Cataclysm Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30194, "", "=q4=Cataclysm Shoulderplates", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30185, "", "=q4=Cataclysm Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30189, "", "=q4=Cataclysm Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30192, "", "=q4=Cataclysm Legplates", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#t5s7_1#", "=ec1=#m22#"};
 		{ 9,  151657, "", "=q4=Cataclysm Helm", "=ds=#SealoftheTitans#"};
 		{ 10, 151659, "", "=q4=Cataclysm Shoulderplates", "=ds=#SealoftheTitans#"};
 		{ 11,  151655, "", "=q4=Cataclysm Chestplate", "=ds=#SealoftheTitans#"};
 		{ 12,  151656, "", "=q4=Cataclysm Gauntlets", "=ds=#SealoftheTitans#"};
 		{ 13,  151658, "", "=q4=Cataclysm Legplates", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#t5s7_1#", "=ec1=#m22#"};
 		{ 17,  103463, "", "=q4=Cataclysm Helm", "=ds=#sealeternity#"};
 		{ 18, 103465, "", "=q4=Cataclysm Shoulderplates", "=ds=#sealeternity#"};
 		{ 19,  103461, "", "=q4=Cataclysm Chestplate", "=ds=#sealeternity#"};
 		{ 20,  103462, "", "=q4=Cataclysm Gauntlets", "=ds=#sealeternity#"};
 		{ 21,  103464, "", "=q4=Cataclysm Legplates", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
@@ -5347,201 +5350,201 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 30196, "", "=q4=Robes of Tirisfal", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30205, "", "=q4=Gloves of Tirisfal", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30207, "", "=q4=Leggings of Tirisfal", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
 		{ 9, 151662, "", "=q4=Cowl of Tirisfal", "=ds=#SealoftheTitans#"};
 		{ 10, 151664, "", "=q4=Mantle of Tirisfal", "=ds=#SealoftheTitans#"};
 		{ 11, 151660, "", "=q4=Robes of Tirisfal", "=ds=#SealoftheTitans#"};
 		{ 12, 151661, "", "=q4=Gloves of Tirisfal", "=ds=#SealoftheTitans#"};
 		{ 13, 151663, "", "=q4=Leggings of Tirisfal", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
 		{ 17, 103468, "", "=q4=Cowl of Tirisfal", "=ds=#sealeternity#"};
 		{ 18, 103470, "", "=q4=Mantle of Tirisfal", "=ds=#sealeternity#"};
 		{ 19, 103466, "", "=q4=Robes of Tirisfal", "=ds=#sealeternity#"};
 		{ 20, 103467, "", "=q4=Gloves of Tirisfal", "=ds=#sealeternity#"};
 		{ 21, 103469, "", "=q4=Leggings of Tirisfal", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 	AtlasLoot_Data["T5Warlock"] = {
-		
+
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
 		{ 2, 30212, "", "=q4=Hood of the Corruptor", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30215, "", "=q4=Mantle of the Corruptor", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30214, "", "=q4=Robe of the Corruptor", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30211, "", "=q4=Gloves of the Corruptor", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30213, "", "=q4=Leggings of the Corruptor", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
 		{ 9,  151666, "", "=q4=Hood of the Corruptor", "=ds=#SealoftheTitans#"};
 		{ 10, 151669, "", "=q4=Mantle of the Corruptor", "=ds=#SealoftheTitans#"};
 		{ 11, 151668, "", "=q4=Robe of the Corruptor", "=ds=#SealoftheTitans#"};
 		{ 12, 151665, "", "=q4=Gloves of the Corruptor", "=ds=#SealoftheTitans#"};
 		{ 13, 151667, "", "=q4=Leggings of the Corruptor", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
 		{ 17, 103472, "", "=q4=Hood of the Corruptor", "=ds=#sealeternity#"};
 		{ 18, 103475, "", "=q4=Mantle of the Corruptor", "=ds=#sealeternity#"};
 		{ 19, 103474, "", "=q4=Robe of the Corruptor", "=ds=#sealeternity#"};
 		{ 20, 103471, "", "=q4=Gloves of the Corruptor", "=ds=#sealeternity#"};
 		{ 21, 103473, "", "=q4=Leggings of the Corruptor", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
-		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 	AtlasLoot_Data["T5DruidRestoration"] = {
-		
+
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t5s1_2#", "=ec1=#m22#"};
 		{ 2, 30219, "", "=q4=Nordrassil Headguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30221, "", "=q4=Nordrassil Life-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30216, "", "=q4=Nordrassil Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30217, "", "=q4=Nordrassil Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30220, "", "=q4=Nordrassil Life-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t5s1_2#", "=ec1=#m22#"};
 		{ 9, 151672, "", "=q4=Nordrassil Headguard", "=ds=#SealoftheTitans#"};
 		{ 10, 151674, "", "=q4=Nordrassil Life-Mantle", "=ds=#SealoftheTitans#"};
 		{ 11, 151670, "", "=q4=Nordrassil Chestguard", "=ds=#SealoftheTitans#"};
 		{ 12, 151671, "", "=q4=Nordrassil Gloves", "=ds=#SealoftheTitans#"};
 		{ 13, 151673, "", "=q4=Nordrassil Life-Kilt", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t5s1_2#", "=ec1=#m22#"};
 		{ 17, 103478, "", "=q4=Nordrassil Headguard", "=ds=#sealeternity#"};
 		{ 18, 103480, "", "=q4=Nordrassil Life-Mantle", "=ds=#sealeternity#"};
 		{ 19, 103476, "", "=q4=Nordrassil Chestguard", "=ds=#sealeternity#"};
 		{ 20, 103477, "", "=q4=Nordrassil Gloves", "=ds=#sealeternity#"};
 		{ 21, 103479, "", "=q4=Nordrassil Life-Kilt", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 	AtlasLoot_Data["T5DruidFeral"] = {
-	
+
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t5s1_1#", "=ec1=#m22#"};
 		{ 2, 30228, "", "=q4=Nordrassil Headdress", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30230, "", "=q4=Nordrassil Feral-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30222, "", "=q4=Nordrassil Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30223, "", "=q4=Nordrassil Handgrips", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30229, "", "=q4=Nordrassil Feral-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Ability_Druid_Maul", "=q6=#t5s1_1#", "=ec1=#m22#"};
 		{ 9, 151677, "", "=q4=Nordrassil Headdress", "=ds=#SealoftheTitans#"};
 		{ 10, 151679, "", "=q4=Nordrassil Feral-Mantle", "=ds=#SealoftheTitans#"};
 		{ 11, 151675, "", "=q4=Nordrassil Chestplate", "=ds=#SealoftheTitans#"};
 		{ 12, 151676, "", "=q4=Nordrassil Handgrips", "=ds=#SealoftheTitans#"};
 		{ 13, 151678, "", "=q4=Nordrassil Feral-Kilt", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Ability_Druid_Maul", "=q6=#t5s1_1#", "=ec1=#m22#"};
 		{ 17, 103483, "", "=q4=Nordrassil Headdress", "=ds=#sealeternity#"};
 		{ 18, 103485, "", "=q4=Nordrassil Feral-Mantle", "=ds=#sealeternity#"};
 		{ 19, 103481, "", "=q4=Nordrassil Chestplate", "=ds=#sealeternity#"};
 		{ 20, 103482, "", "=q4=Nordrassil Handgrips", "=ds=#sealeternity#"};
 		{ 21, 103484, "", "=q4=Nordrassil Feral-Kilt", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
-	
+
 	AtlasLoot_Data["T5DruidBalance"] = {
-		
+
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 2, 30233, "", "=q4=Nordrassil Headpiece", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 30235, "", "=q4=Nordrassil Wrath-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 30231, "", "=q4=Nordrassil Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 30232, "", "=q4=Nordrassil Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 30234, "", "=q4=Nordrassil Wrath-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 9, 151682, "", "=q4=Nordrassil Headpiece", "=ds=#SealoftheTitans#"};
 		{ 10, 151684, "", "=q4=Nordrassil Wrath-Mantle", "=ds=#SealoftheTitans#"};
 		{ 11, 151680, "", "=q4=Nordrassil Chestpiece", "=ds=#SealoftheTitans#"};
 		{ 12, 151681, "", "=q4=Nordrassil Gauntlets", "=ds=#SealoftheTitans#"};
 		{ 13, 151683, "", "=q4=Nordrassil Wrath-Kilt", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 17, 103488, "", "=q4=Nordrassil Headpiece", "=ds=#sealeternity#"};
 		{ 18, 103490, "", "=q4=Nordrassil Wrath-Mantle", "=ds=#sealeternity#"};
 		{ 19, 103486, "", "=q4=Nordrassil Chestpiece", "=ds=#sealeternity#"};
 		{ 20, 103487, "", "=q4=Nordrassil Gauntlets", "=ds=#sealeternity#"};
 		{ 21, 103489, "", "=q4=Nordrassil Wrath-Kilt", "=ds=#sealeternity#"};
-		
+
 	    { 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 	AtlasLoot_Data["T5DeathKnightDPS"] = {
-		
+
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 2, 81241, "", "=q4=Elementium Deathplate Helmet", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 80867, "", "=q4=Elementium Deathplate Shoulderplates", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 80861, "", "=q4=Elementium Deathplate Battleplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 80927, "", "=q4=Elementium Deathplate Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 82812, "", "=q4=Elementium Deathplate Legplates", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
+
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 9, 151688, "", "=q4=Elementium Deathplate Helmet", "=ds=#SealoftheTitans#"};
 		{ 10, 151686, "", "=q4=Elementium Deathplate Shoulderplates", "=ds=#SealoftheTitans#"};
 		{ 11, 151685, "", "=q4=Elementium Deathplate Battleplate", "=ds=#SealoftheTitans#"};
 		{ 12, 151687, "", "=q4=Elementium Deathplate Gauntlets", "=ds=#SealoftheTitans#"};
 		{ 13, 151689, "", "=q4=Elementium Deathplate Legplates", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 17, 103494, "", "=q4=Elementium Deathplate Helmet", "=ds=#sealeternity#"};
 		{ 18, 103492, "", "=q4=Elementium Deathplate Shoulderplates", "=ds=#sealeternity#"};
 		{ 19, 103491, "", "=q4=Elementium Deathplate Battleplate", "=ds=#sealeternity#"};
 		{ 20, 103493, "", "=q4=Elementium Deathplate Gauntlets", "=ds=#sealeternity#"};
 		{ 21, 103495, "", "=q4=Elementium Deathplate Legplates", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
-		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
 	AtlasLoot_Data["T5DeathKnightTank"] = {
-		
+
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 2, 87612, "", "=q4=Elementium Deathplate Faceguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 3, 87494, "", "=q4=Elementium Deathplate Pauldrons", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 4, 90600, "", "=q4=Elementium Deathplate Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 5, 87601, "", "=q4=Elementium Deathplate Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 6, 87589, "", "=q4=Elementium Deathplate Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		
-		
+
+
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 9,  151693, "", "=q4=Elementium Deathplate Faceguard", "=ds=#SealoftheTitans#"};
 		{ 10, 151690, "", "=q4=Elementium Deathplate Pauldrons", "=ds=#SealoftheTitans#"};
 		{ 11, 151694, "", "=q4=Elementium Deathplate Chestguard", "=ds=#SealoftheTitans#"};
 		{ 12, 151692, "", "=q4=Elementium Deathplate Handguards", "=ds=#SealoftheTitans#"};
 		{ 13, 151691, "", "=q4=Elementium Deathplate Legguards", "=ds=#SealoftheTitans#"};
-		
+
 		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 17,  103499, "", "=q4=Elementium Deathplate Faceguard", "=ds=#sealeternity#"};
 		{ 18, 103496, "", "=q4=Elementium Deathplate Pauldrons", "=ds=#sealeternity#"};
 		{ 19, 103500, "", "=q4=Elementium Deathplate Chestguard", "=ds=#sealeternity#"};
 		{ 20, 103498, "", "=q4=Elementium Deathplate Handguards", "=ds=#sealeternity#"};
 		{ 21, 103497, "", "=q4=Elementium Deathplate Legguards", "=ds=#sealeternity#"};
-		
+
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};	
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
 		Back = "T5SET";
 	};
-	
+
 		--------------------------------
 		--- 	    T6 sets          ---
 		--------------------------------
-		
+
 		AtlasLoot_Data["T6DruidFeral"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t6s1_1#", "=ec1=#m23#"};
 		{ 2, 31039, "", "=q4=Thunderheart Cover", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5554,7 +5557,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34573, "", "=q4=Thunderheart Treads", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 		AtlasLoot_Data["T6DruidRestoration"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t6s1_2#", "=ec1=#m23#"};
 		{ 2, 31037, "", "=q4=Thunderheart Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5567,7 +5570,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34571, "", "=q4=Thunderheart Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	AtlasLoot_Data["T6DruidBalance"] = {		
+	AtlasLoot_Data["T6DruidBalance"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t6s1_3#", "=ec1=#m23#"};
 		{ 2, 31040, "", "=q4=Thunderheart Headguard", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
 		{ 3, 31049, "", "=q4=Thunderheart Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
@@ -5591,7 +5594,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34570, "", "=q4=Gronnstalker's Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 	AtlasLoot_Data["T6Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t6s3#", "=ec1=#m23#"};
 		{ 2, 31056, "", "=q4=Cowl of the Tempest", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5616,7 +5619,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34560, "", "=q4=Lightbringer Greaves", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 	AtlasLoot_Data["T6PaladinRetribution"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t6s4_2#", "=ec1=#m23#"};
 		{ 2, 30989, "", "=q4=Lightbringer War-Helm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5629,7 +5632,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34561, "", "=q4=Lightbringer Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 	 AtlasLoot_Data["T6PaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t6s4_3#", "=ec1=#m23#"};
 		{ 2, 30988, "", "=q4=Lightbringer Greathelm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5654,7 +5657,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34562, "", "=q4=Boots of Absolution", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 	AtlasLoot_Data["T6PriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t6s5_2#", "=ec1=#m23#"};
 		{ 2, 31064, "", "=q4=Hood of Absolution", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5667,7 +5670,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34563, "", "=q4=Treads of Absolution", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 	AtlasLoot_Data["T6Rogue"] = {
 		{ 1, 0, "Ability_BackStab", "=q6=#t6s6#", "=ec1=#m23#"};
 		{ 2, 31027, "", "=q4=Slayer's Helm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5680,7 +5683,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34575, "", "=q4=Slayer's Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 	AtlasLoot_Data["T6ShamanEnhancement"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t6s7_1#", "=ec1=#m23#"};
 		{ 2, 31015, "", "=q4=Skyshatter Cover", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5693,7 +5696,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34567, "", "=q4=Skyshatter Greaves", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 	AtlasLoot_Data["T6ShamanRestoration"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t6s7_2#", "=ec1=#m23#"};
 		{ 2, 31012, "", "=q4=Skyshatter Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5706,7 +5709,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34565, "", "=q4=Skyshatter Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 	AtlasLoot_Data["T6ShamanElemental"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t6s7_3#", "=ec1=#m23#"};
 		{ 2, 31014, "", "=q4=Skyshatter Headguard", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5719,7 +5722,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34566, "", "=q4=Skyshatter Treads", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 	AtlasLoot_Data["T6Warlock"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t6s8#", "=ec1=#m23#"};
 		{ 2, 31051, "", "=q4=Hood of the Malefic", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5732,7 +5735,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34564, "", "=q4=Boots of the Malefic", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 	AtlasLoot_Data["T6WarriorProtection"] = {
 		{ 1, 0, "INV_Shield_05", "=q6=#t6s9_1#", "=ec1=#m23#"};
 		{ 2, 30974, "", "=q4=Onslaught Greathelm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
@@ -5757,12 +5760,12 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 9, 34569, "", "=q4=Onslaught Treads", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	
+
 		--------------------------------
 		--- 	T6 sets     end      ---
 		--------------------------------
-		
-		
+
+
 		--------------------------------
 		--- The Burning Crusade Sets ---
 		--------------------------------
