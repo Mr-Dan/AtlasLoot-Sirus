@@ -270,7 +270,7 @@
         <Frames>
             <Button name="$parentHidePanel" inherits="OptionsButtonTemplate">
                 <Size>
-                    <AbsDimension x="140" y="20"/>
+                    <AbsDimension x="100" y="20"/>
                 </Size>
                 <Anchors>
                     <Anchor point="BOTTOMLEFT" relativeTo="$parent" relativePoint="BOTTOMLEFT">
