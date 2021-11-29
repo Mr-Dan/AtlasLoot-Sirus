@@ -888,13 +888,13 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "TheNexusKeristrasza" },
 	},
 	["WorldBosses"] = {
-		{ "", "WorldBossesClassic" },
-		{ "", "WorldBossesBC"},
-		{ "", "DEmeriss" },
-		{ "", "DLethon"},
+		{ "", "Norigorn_x2" },
+		{ "", "WorldBossesClassic"},
+		{ "", "WorldBossesBC" },
+		{ "", "DEmeriss"},
+		{ "", "DLethon" },
 		{ "", "DTaerar" },
 		{ "", "DYsondre" },
-		{ "", "DNorigorn" },
 	},
 	["ForgeofSouls"] = {
 		{ "", "FoSBronjahm" },

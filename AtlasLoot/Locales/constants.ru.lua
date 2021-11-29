@@ -1799,5 +1799,4 @@ if AL then
     AL["PowerRanger"] = "Страж силовых линий Тол'Гарода";
 	AL["TolGorod"] = "Тол'Гарод";
 	AL["Norigorn"] = "Норигорн";
-    AL["DNorigorn"] = "Норигорн";
 end
