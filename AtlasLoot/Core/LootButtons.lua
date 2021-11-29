@@ -432,7 +432,11 @@ local silvericon	= "|TInterface\\MoneyFrame\\UI-SilverIcon:12:12:4:0|t"
 local coppericon	= "|TInterface\\MoneyFrame\\UI-CopperIcon:12:12:4:0|t"
 
 function ALround (v)
-	return math.floor (v + 0.5);
+    if v == nil then
+	    return 0
+    end
+    return math.floor (v + 0.5);
+
 end
 
  function ALval2gsc (v)
