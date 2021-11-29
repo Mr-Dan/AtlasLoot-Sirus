@@ -1488,7 +1488,7 @@
 					<OnClick>
                         <!--AtlasLoot_QuickLooks:Hide();
                         AtlasLootQuickLooksButton:Hide();-->
-						AtlasLoot_ShowWishListDropDown2("","","","","",this,true)
+						AtlasLoot_ShowWishListDropDown("","","","","",this,true)
 					</OnClick>
                     <OnShow>
                         local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
