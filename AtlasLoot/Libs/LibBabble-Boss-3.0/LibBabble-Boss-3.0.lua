@@ -4968,6 +4968,8 @@ elseif GAME_LOCALE == "ruRU" then
 	["XT-002 Deconstructor"] = "Разрушитель XT-002",
 	["Yogg-Saron"] = "Йогг-Сарон",
 	Ysondre = "Исондра",
+	--powerranger
+	Norigorn = "Норигорн",
 	Zekkis = "Зеккис",
 	["Zelemar the Wrathful"] = "Зелемар Гневный",
 	["Zereketh the Unbound"] = "Зерекет Бездонный",

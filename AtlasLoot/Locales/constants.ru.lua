@@ -34,7 +34,7 @@ if AL then
     AL["Priority:"] = "Приоритет:";
     AL["Click boss name to view loot."] = "Кликните по имени босса для просмотра трофеев.модификации";
     AL["Various Locations"] = "Разное местонахождение";
-    AL["Minicredit"] = "|cffFFFFFFАдаптация Аддона для Sirus(Днюша).|r"; 
+    AL["Minicredit"] = "|cffFFFFFFАдаптация Аддона для Sirus(Днюша).|r";
     AL["Toggle AL Panel"] = "Перек-тель AL Панели";
     AL["Back"] = "Назад";
     AL["Level 60"] = "Уровень 60";
@@ -114,7 +114,7 @@ if AL then
 
 	AL["BlackDiamonds"] = "Черные бриллианты";
 	AL["BlackDiamonds2"] = "Алмаз Бездны";
-	AL["TrinketChests"] = "Сундуки с аксессуарами";	
+	AL["TrinketChests"] = "Сундуки с аксессуарами";
 	AL["BlackMarket"] = "Черный рынок";
 	AL["BMarketMounts"] = "Ездовые животные";
 	AL["BMarketPets"] = "Питомцы";
@@ -123,7 +123,7 @@ if AL then
 	AL["BMarketEquip"] = "Экипировка";
 	AL["BMarketOther"] = "Прочее";
 	AL["BMarketRecipes"] = "Рецепты";
-	
+
 	AL["pigment"] = "Полироль";
     AL["pigmentruby"] = "Красная мистическая полироль";
 	AL["pigmentsapphire"] = "Синяя мистическая полироль";
@@ -131,8 +131,8 @@ if AL then
 	AL["pigmentindigo"] = "Фиолетовая мистическая полироль";
 	AL["pigmentemerald"] = "Зеленая мистическая полироль";
 	AL["pigmentburnt"] = "Оранжевая мистическая полироль";
-	
-	
+
+
 	AL["blackpigment"] = "Черная Полироль";
     AL["Perfectruby"] = "Идеальный сердолик";
 	AL["Perfectsapphire"] = "Идеальный зефирит";
@@ -140,17 +140,17 @@ if AL then
 	AL["Perfectindigo"] = "Идеальный камень ночи";
 	AL["Perfectemerald"] = "Идеальная яшма";
 	AL["Perfectburnt"] = "Идеальный гессонит";
-	
+
 
 	AL["Forgotten"] = "Забытый";
 	AL["Lili"]="Лили";
 	AL["ForgottenSets"] = "Комплекты экипировки";
 	AL["ForgottenChests"] = "Сундуки с аксессуарами";
 	AL["ForgottenGems"] = "Древние драгоценные камни";
-	
+
 	AL["LastLootedItems"] = "Последние полученные предметы";
 	AL["LastLootedItems2"] = "Последние полученные предметы";
-	
+
     AL["|cffff0000(unsafe)"] = "|cffff0000(опасный)";
     AL["Misc"] = "Разное";
 	AL["ICCMisc"] = "Особые награды";
@@ -161,9 +161,9 @@ if AL then
     AL["Leather Ostrov"] = "Накладки с Острова Кель'Данас";
     AL["Alchemy Ostrov"] = "Алхимия с Острова Кель'Данас";
 	AL["EngineeringOstrov"] = "Инженерские рецепты с Острова Кель'Данас";
-	AL["SmithingOstrov"] = "Кузнечные рецепты с Острова Кель'Данас";	
-	
-		
+	AL["SmithingOstrov"] = "Кузнечные рецепты с Острова Кель'Данас";
+
+
 	AL["Enchant_Tol'Garod"] = "Чары с Острова Тол'Гарод";
     AL["Jewel_Tol'Garod"] = "Ювелирное дело с Острова Тол'Гарод";
     AL["Tailoring_Tol'Garod"] = "Портняжное дело с Острова Тол'Гарод";
@@ -291,7 +291,7 @@ if AL then
 	AL["TailorSign2"] = "Знак искусного портного Даларана";
 	AL["TailorSign3"] = "Знак умелого портного Шаттрата";
 	AL["TailorSign4"] = "Знак искусного портного Шаттрата";
-	AL["TailorSign5"] = "Знак портного-мастера Шаттрата"; 
+	AL["TailorSign5"] = "Знак портного-мастера Шаттрата";
 	AL["AlchemySign1"] = "Знак алхимика Даларана";
 	AL["AlchemySign2"] = "Знак алхимика Шаттрата";
 	AL["EnchanterSign1"] = "Знак искусного зачарователя Даларана";
@@ -460,11 +460,11 @@ if AL then
 	AL["Murozond"] = "Мурозонд";
 	AL["Elonus"] = "Исказитель времени Элонус";
 	AL["Imporus"] = "Импорус";
-	
+
 	--Other
-	
+
 	AL["GrainOfSandOfLost"] = "Песчинка потерянного времени";
-	
+
     -- Minimap Button
     AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
     AL["|cffff0000Right-Click|r View Options"] = "|cffff0000ПКЛ|r Просмотр опций";
@@ -482,7 +482,7 @@ if AL then
 	AL["Ranged weapons:"] = "Дальний бой:";
 	AL["Relics:"] = "Реликвии:";
 	AL["Other:"] = "Другое:";
-	
+
 	-- Wishlist
 	AL["MountJournalOpen"] = "Открыть в Коллекции";
 	AL["Close"] = "Закрыть";
@@ -556,11 +556,11 @@ if AL then
     AL["Enchant Shield"] = "Чары для щита";
     AL["Enchant 2H Weapon"] = "Чары для двуручного оружия";
     AL["Enchant Weapon"] = "Чары для оружия";
-	
+
 	-- Engineering
 	AL["Ammunition"] = "Боеприпасы";
 	AL["Explosives"] = "Взрывчатые вещества";
-    
+
     -- Inscription
     AL["Major Glyph"] = "Большой символ";
     AL["Minor Glyph"] = "Малый символ";
@@ -581,7 +581,7 @@ if AL then
     AL["Cloth Armor"] = "Тканевая броня";
     AL["Shirts"] = "Рубашки";
     AL["Bags"] = "Сумки";
-    
+
     -- Labels for loot descriptions
     AL["Classes:"] = "Классы:";
     AL["This Item Begins a Quest"] = "Этот предмет начинает задание";
@@ -648,7 +648,7 @@ if AL then
     AL["Nature Resistance Gear"] = "Наборы защиты от магии природы";
     AL["Frost Resistance Gear"] = "Наборы защиты от льда";
     AL["Shadow Resistance Gear"] = "Наборы защиты от магии тьмы";
-	
+
 	-- Labels for loot table sections
     AL["Additional Heroic Loot"] = "Допол. добыча с героиков";
     AL["Heroic Mode"] = "Героик";
@@ -685,7 +685,7 @@ if AL then
 	AL["Weapons a7"] = "Оружие 7 PVP сезона";
 	AL["Weapons a6"] = "Оружие 6 PVP сезона";
 	AL["Weapons a5"] = "Оружие 5 PVP сезона";
-	
+
 	-- Loot Table Names
     AL["Scholomance Sets"] = "Комплекты Некроситета";
     AL["PvP Accessories (Level 60)"] = "PvP аксессуары (Уровень 60)";
@@ -711,7 +711,7 @@ if AL then
     AL["Furious Gladiator Sets"] = "Комплекты гневного гладиатора";
     AL["Relentless Gladiator Sets"] = "Комплекты безжалостного гладиатора";
 	AL["Brew of the Month Club"] = "Клуб \"Пиво месяца\"";
-	
+
 	-- Extra Text in Boss lists
     AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
     AL["Set: Defias Leather"] = "Комплект: Кожаные доспехи Братства Справедливости";
@@ -768,13 +768,13 @@ if AL then
 	AL["Halaa PvP Mounts"] = "PvP транспорт Халаа";
 	AL["Promotional Mounts"] = "Поощрительный транспорт";
     AL["Rare Mounts"] = "Редкий транспорт";
-	
+
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Награды Ярмарки Новолуния";
 	AL["Low Level Decks"] = "Низко уровневые колоды";
 	AL["Original and BC Trinkets"] = "Аксессуары - BC и Классика";
 	AL["WotLK Trinkets"] = "Аксессуары - WotLK";
-    
+
     -- Card Game Decks and descriptions
     AL["Loot Card Items"] = "Предметы с карт";
     AL["UDE Items"] = "Предметы UDE";
@@ -784,37 +784,37 @@ if AL then
     AL["Landro Longshot"] = "Ландро Дальнострел";
     AL["Thunderhead Hippogryph"] = "Гиппогриф Громовой вершины";
     AL["Saltwater Snapjaw"] = "Морской щелкоклюв";
-	
+
     -- Second set
     AL["Through The Dark Portal"] = "Через Темный портал";
     AL["King Mukla"] = "Король Мукла";
     AL["Rest and Relaxation"] = "Отдых и покой";
     AL["Fortune Telling"] = "Бес в шаре";
-	
+
     -- Third set
     AL["Fires of Outland"] = "Огни Запределья";
     AL["Spectral Tiger"] = "Призрачный Тигр";
     AL["Gone Fishin'"] = "Стул рыболова";
     AL["Goblin Gumbo"] = "Гоблинское хлебово";
-	
+
     -- Fourth set
     AL["March of the Legion"] = "Граница легиона";
     AL["Kiting"] = "Воздушный змеедрак";
     AL["Robotic Homing Chicken"] = "Турбоцыпленок";
     AL["Paper Airplane"] = "Бумажный аэроплан";
-	
+
     -- Fifth set
     AL["Servants of the Betrayer"] = "Слуги Предателя";
     AL["X-51 Nether-Rocket"] = "Ракета Пустоты X-51";
     AL["Personal Weather Machine"] = "Личная погодная машина";
     AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "Старомодное лакомство для питомцев от Папаши Хюммеля";
-   
+
     -- Sixth set
     AL["Hunt for Illidan"] = "Охота на Иллидана";
     AL["The Footsteps of Illidan"] = "Путь Иллидана";
     AL["Disco Inferno!"] = "Диско-шар";
     AL["Ethereal Plunderer"] = "Эфириал-призыватель";
-   
+
     -- Seventh set
 	AL["Drums of War"] = "Барабаны войны";
     AL["The Red Bearon"] = "Большой боевой медведь";
@@ -826,7 +826,7 @@ if AL then
 	AL["Sandbox Tiger"] = "Тигр-качалка";
 	AL["Center of Attention"] = "В центре внимания";
 	AL["Foam Sword Rack"] = "Подставка для мечя из пенополимера";
-	
+
 	-- Ninth set
 	AL["Fields of Honor"] = "Поля чести";
 	AL["Path of Cenarius"] = "Путь Кенария";
@@ -838,19 +838,19 @@ if AL then
 	AL["Tiny"] = "Скакун";
 	AL["Tuskarr Kite"] = "Клыкаррский воздушный змей";
 	AL["Spectral Kitten"] = "Призрачный тигренок";
-	
+
 	-- Eleventh set
 	AL["Wrathgate"] = "Врата гнева";
 	AL["Statue Generator"] = "Мгновенно возводимая статуя";
 	AL["Landro's Gift"] = "Коробка с подарками Ландро";
 	AL["Blazing Hippogryph"] = "Пламенеющий гиппогриф";
-	
+
 	-- Twelvth set
 	AL["Icecrown"] = "Ледяная Корона";
 	AL["Wooly White Rhino"] = "Белый шерстистый носорог";
 	AL["Ethereal Portal"] = "Эфириальный портал";
 	AL["Paint Bomb"] = "Бомба с краской";
-	
+
     -- Battleground Brackets
 	AL["BG/Open PvP Rewards"] = "Поле боя/Открытое PvP";
     AL["Misc. Rewards"] = "Разные награды";
@@ -863,9 +863,9 @@ if AL then
 
 	--Kloaka
 	AL["WillCircle"] = "Круг Воли";
-	
+
 	AL["RageSaddle"] = "Седло Ярости";
-	
+
     -- Brood of Nozdormu Paths
     AL["Path of the Conqueror"] = "Путь победителя";
     AL["Path of the Invoker"] = "Путь заклинателя";
@@ -876,7 +876,7 @@ if AL then
     AL["Path of the Violet Mage"] = "Маг из Аметистового Ока";
     AL["Path of the Violet Assassin"] = "Убийца из Аметистового Ока";
     AL["Path of the Violet Restorer"] = "Исцелитель из Аметистового Ока";
-	
+
 	-- Ashen Verdict Paths
 	AL["Path of Courage"] = "Путь отваги";
 	AL["Path of Destruction"] = "Путь разрушения";
@@ -937,7 +937,7 @@ if AL then
     AL["Skin of the Great Sandworm"] = "Шкура гигантского песчаного червя";
     AL["Husk of the Old God"] = "Броня Древнего Бога";
     AL["Carapace of the Old God"] = "Панцирь Древнего Бога";
-	
+
 	-- Blacksmithing Mail Crafted Sets
     AL["Bloodsoul Embrace"] = "Объятия Кровавого Духа";
     AL["Fel Iron Chain"] = "Кольчуга из оскверненного железа";
@@ -987,7 +987,7 @@ if AL then
 	AL["Nerubian Hive"] = "Нерубская шкура";
 	AL["Stormhide Battlegear"] = "Броня штормового укрытия";
 	AL["Swiftarrow Battlefear"] = "Броня быстрой стрелы";
-	
+
     -- Tailoring Crafted Sets
     AL["Bloodvine Garb"] = "Одеяния Боевого заклятья";
     AL["Netherweave Vestments"] = "Одеяния из ткани Пустоты";
@@ -1033,7 +1033,7 @@ if AL then
     AL["The Twin Stars"] = "Двойные Звезды";
 	AL["The Fists of Fury"] = "Кулаки Ярости";
     AL["The Twin Blades of Azzinoth"] = "Парные клинки Аззинота";
-	
+
 	-- Wrath of the Lich King Sets
 	AL["Raine's Revenge"] = "Отмщение Рейн";
 	AL["Purified Shard of the Gods"] = "Очищенный осколок Богов";
@@ -1042,7 +1042,7 @@ if AL then
     -- Recipe origin strings
     AL["Trainer"] = "Тренер";
     AL["Ostrov"] = "Остров Кель'Данас";
-	
+
     AL["Discovery"] = "Находка";
     AL["HerbResearch"] = "Исследование трав Нордскола";
     AL["World Drop"] = "Мировой выпад";
@@ -1050,7 +1050,7 @@ if AL then
     AL["Vendor"] = "Продавец";
     AL["Quest"] = "Задание";
     AL["Crafted"] = "Создано";
-    
+
 	-- Scourge Invasion
     AL["Scourge Invasion"] = "Вторжения Плети";
     AL["Scourge Invasion Sets"] = "Комплект Вторжения Плети";
@@ -1240,7 +1240,7 @@ if AL then
     AL["Plagueheart Garb"] = "Облачение Проклятого Сердца";
     AL["Dreadnaught Battlegear"] = "Броня неустрашимости";
     AL["Dreadnaught Plate"] = "Латы неустрашимости";
-	
+
 	-- Tier 8 Sets
 	AL["Darkruned Battlegear"] = "Темнорунная броня";
 	AL["Darkruned Plate"] = "Темнорунные латы";
@@ -1261,7 +1261,7 @@ if AL then
 	AL["Deathbringer Garb"] = "Наряд несущего смерть";
 	AL["Siegebreaker Battlegear"] = "Осадная броня";
 	AL["Siegebreaker Plate"] = "Осадные латы";
-	
+
 	-- Tier 9 Sets
 	AL["Malfurion's Garb"] = "Наряд Малфуриона";
 	AL["Malfurion's Battlegear"] = "Броня Малфуриона";
@@ -1301,7 +1301,7 @@ if AL then
 	AL["Koltira's Battlegear"] = "Броня Кольтиры";
 	AL["Thassarian's Plate"] = "Латы Тассариана";
 	AL["Koltira's Plate"] = "Латы Кольтиры";
-	
+
 	-- Tier 10 Sets
 	AL["Lasherweave's Garb"] = "Плеточные одеяния";
 	AL["Lasherweave's Battlegear"] = "Плеточная броня";
@@ -1400,7 +1400,7 @@ if AL then
     AL["Seer's Ringmail Battlegear"] = "Кольчатая броня провидца";
     AL["Dreadweave Battlegear"] = "Броня из ткани Ужаса";
     AL["Savage's Plate Battlegear"] = "Латная броня свирепости";
-	
+
 	-- Arena Tier
 
 	AL["arenaset5"] = "Экипировка 5 PVP сезона  ";
@@ -1410,7 +1410,7 @@ if AL then
 	AL["arenaset9"] = "Экипировка 9 PVP сезона  ";
 	AL["arenaset10"] = "Экипировка 10 PVP сезона  ";
 	AL["arenaset11"] = "Экипировка 11 PVP сезона  ";
-	
+
 	AL["arenaset05"] = "5 PVP сезона ";
 	AL["arenaset06"] = "6 PVP сезона ";
 	AL["arenaset07"] = "7 PVP сезона ";
@@ -1441,7 +1441,7 @@ if AL then
 	AL["October"] = "Октябрь";
 	AL["November"] = "Ноябрь";
 	AL["December"] = "Декабрь";
-	
+
     -- Specs
     AL["Balance"] = "Баланс";
     AL["Feral"] = "Сила зверя";
@@ -1457,7 +1457,7 @@ if AL then
     AL["Destruction"] = "Разрушение";
     AL["Tanking"] = "Танкования";
     AL["DPS"] = "ДПС";
-	
+
 	-- Naxx Zones
 	AL["Construct Quarter"] = "Квартал Мерзости";
 	AL["Arachnid Quarter"] = "Паучий квартал";
@@ -1622,7 +1622,7 @@ if AL then
 	AL["Plans: Serenity"] = "Планы: Безмятежность";
 	AL["Atiesh <Hand of Sargeras>"] = "Атиеш <Длань Саргераса>";
 	AL["Mailbox Keys"] = "Почтовый ящик: ключи";
-	
+
 
     -- Zones
     AL["World Drop"] = "Мировой выпад";
@@ -1706,7 +1706,7 @@ if AL then
     AL["refreshed when you next mouse"] = "будут обновлены при след";
     AL["over them."] = "наводе мыши.";
 	AL["Need Update"] = "|cffffffffВаша версия |cff69CCF0AtlasLoot |cffffffffустарела. Ссылка для скачивания находится в: |cff00FF96Настройки|cffffffff-|cff00FF96Об аддоне.|r";
-	
+
     -- Help Frame
 	AL["Help"] = "Справка";
 	AL["AtlasLoot Help"] = "Справка   AtlasLoot";
@@ -1727,7 +1727,7 @@ if AL then
 	AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."] = "Если вы щелкните левой кнопкой мыши любой элемент в списке желаний, вы можете перейти на страницу добычи, с которой этот элемент приходит.  Кроме того, на странице лута любой предмет, уже находящийся в вашем списке желтых желаний, помечается желтой звездочкой.";
 	AL["HELP!! I have broken the mod somehow!"] = "Помогите! Я как-то сломал мод!";
 	AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = "Используйте кнопку сброса, которая доступна в настройках, или наберите в чат '/ Al reset'.";
-	
+
 	AL["AtlasLoot Mods"] = "Модификации";
 	AL["AtlasLoot New Styles"] = "|cff9d9d9dAtlasLoot: Новые стили|r";
 	AL["AtlasLoot Frame Locker"] = "|cff9d9d9dAtlasLoot: Блокировщик фрейма|r";
@@ -1735,11 +1735,11 @@ if AL then
  AL["AtlasLoot Update Info"] = "|cff9d9d9dAtlasLoot: Индикатор устаревшей версии|r";
 	AL["AtlasLoot Log Items"] = "|cff9d9d9dAtlasLoot: Список полученных предметов|r";
 	AL["AtlasLoot Filter Items"] = "Только оружие и доспехи";
-	
+
 	AL["AtlasLoot Changelog"] = "Список изменений";
 	AL["AtlasLoot About"] = "Об аддоне";
 	AL["AtlasLoot AboutT"] = "|cffFFD700AtlasLoot - Об аддоне";
-	
+
 	-- Error Messages and warnings
     AL["AtlasLoot Error!"] = "Ошибка AtlasLoot!";
     AL["WishList Full!"] = "Список нужного полон!";
@@ -1774,7 +1774,7 @@ if AL then
 
     -- All Available modules loaded
     AL["All Available Modules Loaded"] = "Все доступные модули загружены";
-	
+
     -- First time user
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Добро пожаловать в Atlasloot Enhanced.  Пожалуйста уделите чуточку времени для установки ваших предпочтений.";
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = "Добро пожаловать в Atlasloot Enhanced.  Пожалуйста уделите чуточку времени для установки ваших предпочтений? подсказок, ссылок в окно чата.\n\n  Это окно настроек может быть вызванно в любоя время вводом в чат команды: '/atlasloot'.";
@@ -1793,4 +1793,11 @@ if AL then
     AL["This item is not available on your server or your battlegroup yet."] = "Этот предмет пока что недоступен на вашем сервере или боевой группе.";
     AL["This item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world. This is a restriction enforced by Blizzard since Patch 1.10."] = "Этот предмет небезопасен. Для того, чтобы посмотреть его без риска отсоединения от сервера, сначала Вы должны его увидеть в игре. Это ограничение было введено компанией Blizzard начиная с патча 1.10.";
     AL["You can right-click to attempt to query the server.  You may be disconnected."] = "Вы можете щелкнуть правой кнопкой, чтобы попытаться запросить информацию о предмете.  Имеется риск отсоединения от сервера.";
+
+
+    --powerranger
+    AL["PowerRanger"] = "Страж силовых линий Тол'Гарода";
+	AL["TolGorod"] = "Тол'Гарод";
+	AL["Norigorn"] = "Норигорн";
+    AL["DNorigorn"] = "Норигорн";
 end

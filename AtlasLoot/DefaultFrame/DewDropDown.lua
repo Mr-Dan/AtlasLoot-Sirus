@@ -894,6 +894,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "DLethon"},
 		{ "", "DTaerar" },
 		{ "", "DYsondre" },
+		{ "", "DNorigorn" },
 	},
 	["ForgeofSouls"] = {
 		{ "", "FoSBronjahm" },
