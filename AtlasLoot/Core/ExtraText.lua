@@ -378,28 +378,108 @@ AtlasLoot_ExtraText = {
         GREY..INDENT..AL["ZG Enchants"];
     };
     AlteracValleyNorth = {
-        "";
-        GREEN..AL["Misc. Rewards"];
-        GREEN..BabbleInventory["Armor"];
+         "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
     };
     AlteracValleySouth = {
-        "";
-        GREEN..AL["Misc. Rewards"];
-        GREEN..BabbleInventory["Armor"];
+         "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
     };
     ArathiBasin = {
         "";
-        GREEN..AL["Misc. Rewards"];
-        GREEN..AL["Level 40-49 Rewards"];
-        GREEN..AL["Level 20-39 Rewards"];
-        "";
-        GREEN..AL["Arathi Basin Sets"];
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
     };
     WarsongGulch = {
         "";
-        GREEN..AL["Misc. Rewards"];
-        GREEN..AL["Accessories"];
-        GREEN..AL["Weapons"];
-        GREEN..BabbleInventory["Armor"];
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
     };
+	EyeOfTheStorm = {
+        "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
+    };
+	StrandOfTheAncients = {
+        "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
+    };
+	IsleOfConquest = {
+        "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
+    };
+	TheTempleCityOfAlaWashte = {
+        "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
+    };
+	TempleOfKotmogu = {
+        "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
+    };
+	TheBattleForGilneas = {
+        "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
+    };
+	SilvershardMines = {
+        "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
+    };
+	SlaveryValley = {
+        "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
+    };
+	TwinPeaks = {
+        "";
+        GREEN..AL["PvP Armor Sets"];
+        GREEN..AL["PvP Non-Set Epics"];
+        GREEN..AL["PvPNewTokens"];
+        GREEN..AL["PvP Accessories"];
+		GREEN..AL["Gladiator\'s Weapons"];
+    };
+	
 };
