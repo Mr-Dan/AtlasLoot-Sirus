@@ -1533,6 +1533,8 @@ end
 	AtlasLoot_TableNames["DLethon"] = { BabbleBoss["Lethon"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["DTaerar"] = { BabbleBoss["Taerar"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["DYsondre"] = { BabbleBoss["Ysondre"], "AtlasLootOriginalWoW" };
+	--powerranger
+	AtlasLoot_TableNames["DNorigorn"] = { BabbleBoss["Norigorn"], "AtlasLootOriginalWoW" };
 
 --------------
 --- Events ---
