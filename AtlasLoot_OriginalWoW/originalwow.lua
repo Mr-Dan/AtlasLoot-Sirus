@@ -5358,12 +5358,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 21, 20578, "", "=q4=Emerald Dragonfang", "=ds=#h1#, #w4#", "", "9.95%"};
 	};
 
-	--powerranger
-	AtlasLoot_Data["DNorigorn"] = {		
-		{ 1, 160000, "pvecurrency-valor", "=q3=Очки доблести", "=q5=x1   =q7="};
-
-	};
-
 		----------------
 		--- Azuregos ---
 		----------------
