@@ -19,6 +19,7 @@ AtlasLootVersionsList[16] = "10.10.21"
 AtlasLootVersionsList[17] = "05.11.21"
 AtlasLootVersionsList[18] = "08.11.21"
 AtlasLootVersionsList[19] = "25.11.21"
+AtlasLootVersionsList[20] = "30.11.21"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -200,6 +201,12 @@ text:SetText(WHITE..
 "- Исправлены некоторые неточности/баги".."\n\n"..
 "- Добавлена поддержка новой версии аддона Auctionator".."\n\n"..
 "- Добавлено отображение наличие модели предмета в коллекции трансмогрификации".."\n\n"
+)
+elseif x == 20 then
+text:SetText(WHITE..
+"- Добавлен кастомный босс Норигорн".."\n\n"..
+"- Исправлены некоторые неточности/баги".."\n\n"..
+"- Добавлена поддержка новой версии аддона Atlas ".."\n\n"
 )
 end
 end
