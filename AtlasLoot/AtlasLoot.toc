@@ -32,7 +32,7 @@
 ## X-Curse-Project-ID: atlasloot-enhanced
 ## X-Curse-Repository-ID: wow/atlasloot-enhanced/mainline
 
-embeds.xml
+AtlasLoot_embeds.xml
 
 Locales\Locales.xml
 TableRegister\TableRegister.xml
