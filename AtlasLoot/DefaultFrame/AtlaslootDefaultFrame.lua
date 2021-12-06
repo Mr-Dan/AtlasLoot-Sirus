@@ -542,14 +542,17 @@ if AtlasLootFrameLock[1] == nil then
     AtlasLootFrameLock[1] = 0
 end
 
-
 function AtlasLoot_ToggleLock()
 
 	if AtlasLootFrameLock[1] == 0 then
         AtlasLootFrameLock[1] = 1
+		AtlasLootFrameLockPos[1] = AtlasLootDefaultFrame:GetLeft()
+		AtlasLootFrameLockPos[2] = AtlasLootDefaultFrame:GetBottom()
 		AtlasLoot_UpdateLock();
 	else
 		AtlasLootFrameLock[1] = 0
+		AtlasLootFrameLockPos[1] = nil
+		AtlasLootFrameLockPos[2] = nil
 		AtlasLoot_UpdateLock();
 	end
 end
@@ -575,7 +578,7 @@ function AtlasLootFrameLockFStartUp()
      AtlasLootFrameLockF()
 end
 
-    function AtlasLootFrameLockF()
+function AtlasLootFrameLockF()
 
         if AtlasLootFrameLock[1] == 0 then --lock entire AL frame
             AtlasLootDefaultFrame:RegisterForDrag("LeftButton");
@@ -591,27 +594,6 @@ end
     end
 
 function AtlasLootLockButton()
-            AtlasLootFrameLockF()
+    AtlasLootFrameLockF()
+	AtlasLootFrameLockFStartUp()
 end
-
--- function AtlasLootLockButtonStyle()
--- 	if( AtlasLoot.db.profile.LootBrowserStyle == 1 ) then
---         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(1,1,1,0.5)
--- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 2 ) then
---         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0,0,0,1)
--- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 3 ) then
---         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0.262,0.415,0.05,1)
--- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 4 ) then
---         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0.658,0.396,0.250,1)
--- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 5 ) then
---         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0.839,0.878,1,1)
--- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 6 ) then
---         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(1,0,0,1)
--- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 7 ) then
---         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(1,0.5,0,1)
--- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 8 ) then
---         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0.419,0.02,0.321,1)
--- 	elseif( AtlasLoot.db.profile.LootBrowserStyle == 9 ) then
---         AtlasLootDefaultFrame_LockButton:SetBackdropBorderColor(0.764,0.623,0.235,1)
--- 	end
--- end
