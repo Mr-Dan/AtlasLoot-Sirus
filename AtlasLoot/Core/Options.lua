@@ -291,6 +291,7 @@ function AtlasLoot_SelectLootBrowserStyle_OnClick()
 	end
 	if (AtlasLootFrameLockMod ~= nil) then
 	AtlasLootLockButton()
+	--AtlasLootLockButtonStyle()
 	end
     AtlasLoot_OptionsOnShow();
 end
