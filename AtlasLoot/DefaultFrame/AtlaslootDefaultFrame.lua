@@ -561,12 +561,12 @@ end
 function AtlasLoot_UpdateLock()
 
     if AtlasLootFrameLock[1] == 0 then
-        ALLockButtonTex:SetTexture("Interface\\AddOns\\Atlas\\Images\\LockButton-Unlocked-Up");
-		ALLockButtonTexP:SetTexture("Interface\\AddOns\\Atlas\\Images\\LockButton-Unlocked-Down");
+        ALLockButtonTex:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\LockButton-Unlocked-Up");
+		ALLockButtonTexP:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\LockButton-Unlocked-Down");
         AtlasLootFrameLockF()
     else
-		ALLockButtonTex:SetTexture("Interface\\AddOns\\Atlas\\Images\\LockButton-Locked-Up");
-		ALLockButtonTexP:SetTexture("Interface\\AddOns\\Atlas\\Images\\LockButton-Locked-Down");
+		ALLockButtonTex:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\LockButton-Locked-Up");
+		ALLockButtonTexP:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\LockButton-Locked-Down");
         AtlasLootFrameLockF()
 	end
 end
