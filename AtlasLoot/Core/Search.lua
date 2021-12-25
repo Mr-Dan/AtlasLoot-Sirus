@@ -381,6 +381,8 @@ function AtlasLoot:SearchCastom(Text)
 	local ArmorTypeAll = false
 	local IlvlFrom = 0
 	local IlvlBefore = 999
+	local lvlFrom = 0
+	local lvlBefore = 80
 	local SubType = Text
 
 		if (Cloth and Leather and Mail and Plate) or (not Cloth and not Leather and not Mail and not Plate) then
@@ -403,6 +405,12 @@ function AtlasLoot:SearchCastom(Text)
 		if AtlasLootDefaultFrameFilterBoxIlvlBefore:GetNumLetters() >0 then
 			IlvlBefore = AtlasLootDefaultFrameFilterBoxIlvlBefore:GetNumber()
 		end
+		if AtlasLootDefaultFrameFilterBoxlvlFrom:GetNumLetters() >0 then
+			lvlFrom = AtlasLootDefaultFrameFilterBoxlvlFrom:GetNumber()
+		end
+		if AtlasLootDefaultFrameFilterBoxlvlBefore:GetNumLetters() >0 then
+			lvlBefore = AtlasLootDefaultFrameFilterBoxlvlBefore:GetNumber()
+		end
 	if   string.find(string.lower("Голова"), Text) then
 		Text = "INVTYPE_HEAD"
 		EquipType = true
@@ -422,7 +430,7 @@ function AtlasLoot:SearchCastom(Text)
 	elseif   string.find(string.lower("Гербовая накидка"), Text) then
 		Text = "INVTYPE_TABARD"
 		OtherType = true
-	elseif   string.find(string.lower("Запястья"), Text) then
+	elseif   string.find(string.lower("Запястья"), Text) or string.find(string.lower("Наручи"), Text) then
 		Text = "INVTYPE_WRIST"
 		EquipType = true
 	elseif   string.find(string.lower("Руки"), Text) or string.find(string.lower("Кисти рук"), Text) then
@@ -520,11 +528,12 @@ if  NotFound == false and (text ~="" or CountType >0)then
     for dataID, data in pairs(AtlasLoot_Data) do
         for _, v in ipairs(data) do
             if type(v[2]) == "number" and v[2] > 0 then
-                local itemName, _, _, itemLevel, _, itemType,itemSubType, _, itemEquipLoc, _, _ = GetItemInfo(v[2]);
+                local itemName, _, _, itemLevel, itemMinLevel, itemType,itemSubType, _, itemEquipLoc, _, _ = GetItemInfo(v[2]);
                 if not itemName then itemName = gsub(v[4], "=q%d=", "") end
                 local found;
 				local foundSubType
 				local foundItemLevel = false
+				local founditemMinLevel = false
 				local foundOtherSubType
 
 				if EquipType then
@@ -553,13 +562,16 @@ if  NotFound == false and (text ~="" or CountType >0)then
 						if IlvlFrom  <= itemLevel and  itemLevel <= IlvlBefore then
 							foundItemLevel = true
 						end
-						if foundSubType and not ArmorTypeAll and foundItemLevel then
+						if lvlFrom  <= itemMinLevel and  itemMinLevel <= lvlBefore then
+							founditemMinLevel = true
+						end
+						if foundSubType and not ArmorTypeAll and foundItemLevel and founditemMinLevel then
 							local _, _, quality = string.find(v[4], "=q(%d)=");
 							if quality then itemName = "=q"..quality.."="..itemName end
 							if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
 							table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
 						end
-						if ArmorTypeAll and foundItemLevel then
+						if ArmorTypeAll and foundItemLevel and founditemMinLevel then
 							local _, _, quality = string.find(v[4], "=q(%d)=");
 							if quality then itemName = "=q"..quality.."="..itemName end
 							if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
@@ -574,13 +586,16 @@ if  NotFound == false and (text ~="" or CountType >0)then
 					if IlvlFrom  <= itemLevel and  itemLevel <= IlvlBefore then
 						foundItemLevel = true
 					end
-					if found and foundItemLevel and not OtherSubType then
+					if lvlFrom  <= itemMinLevel and  itemMinLevel <= lvlBefore then
+							founditemMinLevel = true
+					end
+					if found and foundItemLevel and founditemMinLevel and not OtherSubType then
 						local _, _, quality = string.find(v[4], "=q(%d)=");
 						if quality then itemName = "=q"..quality.."="..itemName end
 						if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
 						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
 					end
-					if found and foundItemLevel and OtherSubType and foundOtherSubType then
+					if found and foundItemLevel and founditemMinLevel and OtherSubType and foundOtherSubType then
 						local _, _, quality = string.find(v[4], "=q(%d)=");
 						if quality then itemName = "=q"..quality.."="..itemName end
 						if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
@@ -612,13 +627,16 @@ if  NotFound == false and (text ~="" or CountType >0)then
 					if IlvlFrom  <= itemLevel and  itemLevel <= IlvlBefore then
 						foundItemLevel = true
 					end
-						if found and foundItemLevel and not OtherSubType then
+					if lvlFrom  <= itemMinLevel and  itemMinLevel <= lvlBefore then
+							founditemMinLevel = true
+					end
+						if found and foundItemLevel and founditemMinLevel and not OtherSubType then
 							local _, _, quality = string.find(v[4], "=q(%d)=");
 							if quality then itemName = "=q"..quality.."="..itemName end
 							if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
 							table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
 						end
-						if found and foundItemLevel and OtherSubType and foundOtherSubType then
+						if found and foundItemLevel and founditemMinLevel and OtherSubType and foundOtherSubType then
 							local _, _, quality = string.find(v[4], "=q(%d)=");
 							if quality then itemName = "=q"..quality.."="..itemName end
 							if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
@@ -680,16 +698,19 @@ if  NotFound == false and (text ~="" or CountType >0)then
 					if IlvlFrom  <= itemLevel and  itemLevel <= IlvlBefore then
 							foundItemLevel = true
 					end
+					if lvlFrom  <= itemMinLevel and  itemMinLevel <= lvlBefore then
+							founditemMinLevel = true
+					end
 					if OtherSubType then
 							foundOtherSubType = string.find(string.lower(itemSubType), SubType);
 					end
-					if found and foundItemLevel and not OtherSubType then
+					if found and foundItemLevel and founditemMinLevel and not OtherSubType then
 						local _, _, quality = string.find(v[4], "=q(%d)=");
 						if quality then itemName = "=q"..quality.."="..itemName end
 						if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
 						table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
 					end
-					if found and foundItemLevel and OtherSubType and foundOtherSubType then
+					if found and foundItemLevel and founditemMinLevel and OtherSubType and foundOtherSubType then
 						local _, _, quality = string.find(v[4], "=q(%d)=");
 						if quality then itemName = "=q"..quality.."="..itemName end
 						if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end

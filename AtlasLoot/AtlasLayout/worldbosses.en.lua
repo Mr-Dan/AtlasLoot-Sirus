@@ -60,7 +60,7 @@ AtlasLootWBBossButtons = {
         "VakkiztheWindrager";
         };
     Norigorn = {
-        "DNorigorn";
+        "Norigorn_x2";
     },
 
     };

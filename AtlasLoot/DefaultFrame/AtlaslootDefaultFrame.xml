@@ -718,11 +718,9 @@
 				<Scripts>
 					<OnLoad>
 						this:SetAutoFocus(false);
-						this:SetTextInsets(0, 8, 0, 0);
-						
+						this:SetTextInsets(0, 8, 0, 0);				
 					</OnLoad>
-					<OnEnterPressed>
-						
+					<OnEnterPressed>				
 						this:ClearFocus();
 					</OnEnterPressed>
 				</Scripts>
@@ -742,11 +740,53 @@
 				<Scripts>
 					<OnLoad>
 						this:SetAutoFocus(false);
-						this:SetTextInsets(0, 8, 0, 0);
-						
+						this:SetTextInsets(0, 8, 0, 0);						
 					</OnLoad>
-					<OnEnterPressed>
-						
+					<OnEnterPressed>					
+						this:ClearFocus();
+					</OnEnterPressed>
+				</Scripts>
+				<FontString name="AtlasLootDefaultFrameSearchString" inherits="GameFontNormal"></FontString>
+			</EditBox>
+			<EditBox name="AtlasLootDefaultFrameFilterBoxlvlFrom" inherits="InputBoxTemplate" letters="2">
+				<Size>
+					<AbsDimension x="35" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="180" y="-105"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						this:SetAutoFocus(false);
+						this:SetTextInsets(0, 8, 0, 0);				
+					</OnLoad>
+					<OnEnterPressed>				
+						this:ClearFocus();
+					</OnEnterPressed>
+				</Scripts>
+				<FontString name="AtlasLootDefaultFrameSearchString" inherits="GameFontNormal"></FontString>
+			</EditBox>
+			<EditBox name="AtlasLootDefaultFrameFilterBoxlvlBefore" inherits="InputBoxTemplate" letters="2">
+				<Size>
+					<AbsDimension x="35" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="235" y="-105"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						this:SetAutoFocus(false);
+						this:SetTextInsets(0, 8, 0, 0);						
+					</OnLoad>
+					<OnEnterPressed>					
 						this:ClearFocus();
 					</OnEnterPressed>
 				</Scripts>
@@ -755,25 +795,43 @@
 			</Frames>
 		<Layers>
 			<Layer level="ARTWORK">
-			<FontString inherits="GameFontNormal" text="Ilvl от">
-					<Anchors>
-						<Anchor point="TOPLEFT" >
-							<Offset>
-								<AbsDimension x="15" y="-110"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-			</FontString>
-			<FontString inherits="GameFontNormal" text="до">
-					<Anchors>
-						<Anchor point="TOPLEFT" >
-							<Offset>
-								<AbsDimension x="85" y="-110"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-			</FontString>
-				</Layer>
+				<FontString inherits="GameFontNormal" text="Ilvl от">
+						<Anchors>
+							<Anchor point="TOPLEFT" >
+								<Offset>
+									<AbsDimension x="15" y="-110"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+				</FontString>
+				<FontString inherits="GameFontNormal" text="до">
+						<Anchors>
+							<Anchor point="TOPLEFT" >
+								<Offset>
+									<AbsDimension x="85" y="-110"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+				</FontString>
+				<FontString inherits="GameFontNormal" text="lvl от">
+						<Anchors>
+							<Anchor point="TOPLEFT" >
+								<Offset>
+									<AbsDimension x="150" y="-110"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+				</FontString>
+				<FontString inherits="GameFontNormal" text="до">
+						<Anchors>
+							<Anchor point="TOPLEFT" >
+								<Offset>
+									<AbsDimension x="215" y="-110"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+				</FontString>
+			</Layer>
 		</Layers>			
 	</Frame>	
 		</Frames>

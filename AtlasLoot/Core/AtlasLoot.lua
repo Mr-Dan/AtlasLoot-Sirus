@@ -426,7 +426,7 @@ function AtlasLoot_Reset(data)
 		AtlasLootFrameLockPos[1] = nil
         AtlasLootFrameLockPos[2] = nil
 		AtlasLootFrameLockF()
-	    ALLockButtontex:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\zamok_ul.blp")
+	    --ALLockButtontex:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\zamok_ul.blp")
 		end
         if AtlasLootFu then
             AtlasLootFu.db.profile.minimapPosition = 200;
@@ -453,7 +453,7 @@ function AtlasLoot_Reset(data)
 		AtlasLootFrameLockPos[1] = nil
         AtlasLootFrameLockPos[2] = nil
 		AtlasLootFrameLockF()
-	    ALLockButtontex:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\zamok_ul.blp")
+	    --ALLockButtontex:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\zamok_ul.blp")
 		end
         if AtlasLootFu then
             AtlasLootFu.db.profile.minimapPosition = 200;
