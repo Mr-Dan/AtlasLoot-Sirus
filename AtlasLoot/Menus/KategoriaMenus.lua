@@ -27,27 +27,24 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, "TrinketChests_H", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
 		{ 21, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
 		{ 22, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
-		{ 23, "Lili", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
-		{ 24, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};
-		{ 25, "blackpigment", "Sha_Spell_Fire_FelFireNova", "=ds="..AL["blackpigment"], ""};
+		{ 23, "LiliMenu", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
+		{ 24, "Maar'n", "Achi_sAmaniTroll", "=ds="..AL["Maar'n"], ""};
+		{ 25, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};
+		{ 26, "blackpigment", "Sha_Spell_Fire_FelFireNova", "=ds="..AL["blackpigment"], ""};
 
 	};
-		
 
-	AtlasLoot_Data["KATEGORIAMENU_x4"] = {
-	
-		
+	AtlasLoot_Data["KATEGORIAMENU_x4"] = {	
 		{ 2, "TrinketChests_H", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
 		{ 3, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
 		{ 4, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
-		{ 5, "Lili", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
-		{ 6, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};	
+		{ 5, "LiliMenu", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
+		{ 6, "Maar'n", "Achi_sAmaniTroll", "=ds="..AL["Maar'n"], ""};
+		{ 7, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};	
 		{ 17, "ElisandrMountMenu", "inv_brontosaurusmount", "=ds="..AL["Elisandr"], ""};		
 		{ 18, "SIRUSMOUNTMENU", "ability_mount_cranemountblue", "=ds="..AL["SIRUSMOUNT"], ""};
 		{ 19, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};	
-		{ 20, "MillenniumRoulettex_x4", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};
-
-		
+		{ 20, "MillenniumRoulettex_x4", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};	
 	};
 
 
@@ -233,11 +230,68 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "KATEGORIAMENU";
 	};
 	
-		AtlasLoot_Data["Forgotten"] = {
+	AtlasLoot_Data["Forgotten"] = {
 		{ 2, "ForgottenSets", "Inv_chest_plate18", "=ds="..AL["ForgottenSets"], ""};
 		{ 3, "ForgottenChests_A", "Inv_misc_enggizmos_17", "=ds="..AL["ForgottenChests"], ""};
 		{ 17, "ForgottenGems", "Inv_jewelcrafting_shadowsongamethyst_01", "=ds="..AL["ForgottenGems"], ""};
 		Back = "KATEGORIAMENU";
+	};
+	AtlasLoot_Data["Maar'n"] = {
+		{ 2, "Maar'nT9SET", "inv_gauntlets_80", "=ds="..AL["Tier 9 Sets"], ""};
+		{ 3, "Maar'nWeapons", "INV_Sword_142", "=ds="..AL["Weapons"], ""};
+		{ 17, "Maar'nOther", "Inv_elemental_primal_nether", "=ds="..AL["Maar'nOther"], ""};
+		Back = "KATEGORIAMENU";
+	};
+	AtlasLoot_Data["Maar'nT9SET"] = {
+		{ 2, "Maar'nT9DeathKnightDPS_A", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+		{ 3, "Maar'nT9DeathKnightTank_A", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
+		{ 5, "Maar'nT9DruidBalance_A", "Spell_Nature_InsectSwarm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+		{ 6, "Maar'nT9DruidFeral_A", "Ability_Druid_Maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+		{ 7, "Maar'nT9DruidRestoration_A", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+		{ 9, "Maar'nT9Hunter_A", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+		{ 11, "Maar'nT9Mage_A", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+		{ 13, "Maar'nT9PaladinHoly_A", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+		{ 14, "Maar'nT9PaladinProtection_A", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+		{ 15, "Maar'nT9PaladinRetribution_A", "Spell_Holy_AuraOfLight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+		{ 17, "Maar'nT9PriestHoly_A", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+		{ 18, "Maar'nT9PriestShadow_A", "Spell_Shadow_AntiShadow", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+		{ 20, "Maar'nT9Rogue_A", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+		{ 22, "Maar'nT9ShamanElemental_A", "Spell_Nature_Lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+		{ 23, "Maar'nT9ShamanEnhancement_A", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+		{ 24, "Maar'nT9ShamanRestoration_A", "Spell_Nature_HealingWaveGreater", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+		{ 26, "Maar'nT9Warlock_A", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+		{ 28, "Maar'nT9WarriorFury_A", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 29, "Maar'nT9WarriorProtection_A", "INV_Shield_05", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+		Back = "Maar'n";
+	};
+	
+	AtlasLoot_Data["LiliMenu"] = {
+		{ 2, "Lili", "inv_elemental_mote_life01", "=ds="..AL["RelicLili"], ""};
+		{ 17, "LiliT5SET", "INV_Chest_Leather_RaidRogue_L_01", "=ds="..AL["Tier 5 Sets"], ""};
+		Back = "KATEGORIAMENU";
+	};
+	
+	AtlasLoot_Data["LiliT5SET"] = {
+		{ 2, "LiliT5DeathKnightDPS", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+		{ 3, "LiliT5DeathKnightTank", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
+		{ 5, "LiliT5DruidBalance", "Spell_Nature_InsectSwarm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+		{ 6, "LiliT5DruidFeral", "Ability_Druid_Maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+		{ 7, "LiliT5DruidRestoration", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+		{ 9, "LiliT5Hunter", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+		{ 11, "LiliT5Mage", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+		{ 13, "LiliT5PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+		{ 14, "LiliT5PaladinProtection", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+		{ 15, "LiliT5PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+		{ 17, "LiliT5PriestHoly", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+		{ 18, "LiliT5PriestShadow", "Spell_Shadow_AntiShadow", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+		{ 20, "LiliT5Rogue", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+		{ 22, "LiliT5ShamanElemental", "Spell_Nature_Lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+		{ 23, "LiliT5ShamanEnhancement", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+		{ 24, "LiliT5ShamanRestoration", "Spell_Nature_HealingWaveGreater", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+		{ 26, "LiliT5Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+		{ 28, "LiliT5WarriorFury", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 29, "LiliT5WarriorProtection", "INV_Shield_05", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+		Back = "LiliMenu";
 	};
 	
 	AtlasLoot_Data["pigment"] = {

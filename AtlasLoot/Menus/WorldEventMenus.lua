@@ -19,7 +19,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 15, "SKETTISMENU", "Spell_Nature_NaturesWrath", "=ds="..AL["Skettis"], "=q5="..BabbleZone["Terokkar Forest"]};
 		{ 16, "DARKMOONMENU", "INV_Misc_Ticket_Tarot_Madness", "=ds="..BabbleFaction["Darkmoon Faire"], "=q5="..AL["Various Locations"]};
 		{ 18, "ChildrensWeek", "Ability_Hunter_BeastCall", "=ds="..AL["Children's Week"], "=q5="..AL["Various Locations"]};
-		{ 19, "Winterviel1", "INV_Holiday_Christmas_Present_01", "=ds="..AL["Feast of Winter Veil"], "=q5="..AL["Various Locations"]};
+		{ 19, "WintervielMenu", "INV_Holiday_Christmas_Present_01", "=ds="..AL["Feast of Winter Veil"], "=q5="..AL["Various Locations"]};
 		{ 20, "HarvestFestival", "INV_Misc_Food_33", "=ds="..AL["Harvest Festival"], "=q5="..AL["Various Locations"]};
 		{ 21, "LunarFestival1", "INV_Misc_ElvenCoins", "=ds="..AL["Lunar Festival"], "=q5="..AL["Various Locations"]};
 		{ 22, "Noblegarden", "INV_Egg_03", "=ds="..AL["Noblegarden"], "=q5="..AL["Various Locations"]};
@@ -73,5 +73,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, "Terokk", "INV_Misc_Rune_07", "=ds="..AL["Terokk"], ""};
 		{ 17, "Karrog", "INV_Misc_Rune_07", "=ds="..AL["Karrog"], ""};
 		{ 18, "VakkiztheWindrager", "INV_Misc_Rune_07", "=ds="..AL["Vakkiz the Windrager"], ""};
+		Back = "WORLDEVENTMENU";
+	};
+
+	AtlasLoot_Data["WintervielMenu"] = {
+		{ 1, "Winterviel1", "INV_Misc_Rune_07", "=ds="..AL["Feast of Winter Veil"], ""};
+		{ 2, "RabbiSnegman", "INV_Pet_Snowman", "=ds="..AL["Rabbi Snegman"], ""};
+		{ 16, "FrozenSnowman'sLair", "INV_Pet_Snowman", "=ds="..AL["Frozen Snowman's Lair"], ""};
 		Back = "WORLDEVENTMENU";
 	};

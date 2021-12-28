@@ -144,6 +144,9 @@ if AL then
 
 	AL["Forgotten"] = "Забытый";
 	AL["Lili"]="Лили";
+	AL["RelicLili"]="Реликвии Лили";
+	AL["Maar'n"]="Маар'н";
+	AL["Maar'nOther"]="Товары за Изначальную пустоту";
 	AL["ForgottenSets"] = "Комплекты экипировки";
 	AL["ForgottenChests"] = "Сундуки с аксессуарами";
 	AL["ForgottenGems"] = "Древние драгоценные камни";
@@ -464,7 +467,9 @@ if AL then
 	--Other
 
 	AL["GrainOfSandOfLost"] = "Песчинка потерянного времени";
-
+	AL["Clappers"] = "Хлопушки";
+	AL["Animals"] = "Зверушки";
+	AL["Delicious buns"] = "Вкусные плюшки";
     -- Minimap Button
     AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
     AL["|cffff0000Right-Click|r View Options"] = "|cffff0000ПКЛ|r Просмотр опций";
@@ -534,7 +539,8 @@ if AL then
     AL["Combat Pet"] = "Боевой питомец";
     AL["Fireworks"] = "Феерверк";
 	AL["Fishing Lure"] = "Рыбацкая приманка";
-
+	AL["Toy"] = "Игрушка";
+	
     -- Extra inventory stuff
     AL["Cloak"] = "Плащ";
 	AL["Sigil"] = "Печать"; -- Can be added to BabbleInv
@@ -1622,6 +1628,8 @@ if AL then
 	AL["Plans: Serenity"] = "Планы: Безмятежность";
 	AL["Atiesh <Hand of Sargeras>"] = "Атиеш <Длань Саргераса>";
 	AL["Mailbox Keys"] = "Почтовый ящик: ключи";
+	AL["Rabbi Snegman"] = "Рабби Снегман";
+	AL["Frozen Snowman's Lair"] = "Логово замерзшего снеговика";
 
 
     -- Zones

@@ -132,7 +132,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#e22#", AL["Combat Pet"]);
     text = gsub(text, "#e23#", AL["Fireworks"]);
     text = gsub(text, "#e24#", AL["Fishing Lure"]);
-
+	text = gsub(text, "#e25#", AL["Toy"]);
     -- Labels for Loot Descriptions
     text = gsub(text, "#m1#", AL["Classes:"]);
     text = gsub(text, "#m2#", AL["This Item Begins a Quest"]);
@@ -1106,12 +1106,13 @@ function AtlasLoot_FixText(text)
 	text = gsub(text, "#Tol'Garod#", "|TInterface\\Icons\\Achievement_Zone_TolBarad:15|t");--жетоны Тол'Гарод
 	text = gsub(text, "#Coin of Ancestry#", "|TInterface\\Icons\\inv_misc_elvencoins:15|t");-- Монета Наследия
 	text = gsub(text, "#Elisandra's Loans#", "|TInterface\\Icons\\ability_racial_etherealconnection:15|t");--Кредиты дельцы Элисандра
+	text = gsub(text, "#MarbledSnow#", "|TInterface\\Icons\\s_marbled_snow:15|t");--Обрамленный снег
 
 	text = gsub(text, "#valentineday#", "|TInterface\\Icons\\inv_valentinescard01:0|t");
 	text = gsub(text, "#valentineday2#", "|TInterface\\Icons\\inv_jewelry_necklace_43:0|t");
 
 	text = gsub(text, "#frozenorb#", "|TInterface\\Icons\\Spell_frost_frozencore:0|t");
-	text = gsub(text, "#primalnether#", "|TInterface\\Icons\\Inv_elemental_primal_nether:0|t");
+	text = gsub(text, "#primalnether#", "|TInterface\\Icons\\Inv_elemental_primal_nether:15|t");
 	text = gsub(text, "#netherseal#", "|TInterface\\Icons\\ARCHAEOLOGY_5_0_THUNDERKINGINSIGNIA:15|t");
 	text = gsub(text, "#sealeternity#", "|TInterface\\Icons\\inv_jewelry_ring_60:0|t");
 	text = gsub(text, "#SealoftheTitans#", "|TInterface\\Icons\\inv_relics_warpring:0|t");
@@ -1119,7 +1120,7 @@ function AtlasLoot_FixText(text)
 
 
 	text = gsub(text, "#ragesaddle#", "|TInterface\\Icons\\achievement_bg_kill_on_mount:0|t");
-    text = gsub(text, "#elementalnether#", "|TInterface\\Icons\\Inv_elemental_mote_nether:0|t");--Воронка пустоты
+    text = gsub(text, "#elementalnether#", "|TInterface\\Icons\\Inv_elemental_mote_nether:15|t");--Воронка пустоты
 
 
     englishFaction, _ = UnitFactionGroup("player")

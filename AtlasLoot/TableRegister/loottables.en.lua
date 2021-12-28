@@ -1581,6 +1581,10 @@ end
   --- Feast of Winter Veil
 	AtlasLoot_TableNames["Winterviel1"] = { AL["Feast of Winter Veil"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Winterviel2"] = { AL["Feast of Winter Veil"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["WintervielMenu"] = { AL["Feast of Winter Veil"], "Menu" };
+	AtlasLoot_TableNames["RabbiSnegman"] = { AL["Rabbi Snegman"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["RabbiSnegman1"] = { AL["Rabbi Snegman"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["FrozenSnowman'sLair"] = { AL["Frozen Snowman's Lair"], "AtlasLootWorldEvents" };
   --- Hallow's End
 	AtlasLoot_TableNames["Halloween1"] = { AL["Hallow's End"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Halloween2"] = { AL["Hallow's End"], "AtlasLootWorldEvents" };
@@ -1696,11 +1700,9 @@ end
 	AtlasLoot_TableNames["pigmentgolden"] = { AL["pigmentgolden"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["pigmentindigo"] = { AL["pigmentindigo"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["pigmentemerald"] = { AL["pigmentemerald"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["pigmentburnt"] = { AL["pigmentburnt"], "AtlasLootSirus" };
-	-- Полироли/
+	AtlasLoot_TableNames["pigmentburnt"] = { AL["pigmentburnt"], "AtlasLootSirus" };	
 	
 	-- Черная полироль
-	
 	AtlasLoot_TableNames["blackpigment"] = { AL["blackpigment"], "Menu" };
 	AtlasLoot_TableNames["Perfectruby"] = { AL["Perfectruby"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Perfectsapphire"] = { AL["Perfectsapphire"], "AtlasLootSirus" };
@@ -1709,7 +1711,6 @@ end
 	AtlasLoot_TableNames["Perfectemerald"] = { AL["Perfectemerald"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Perfectburnt"] = { AL["Perfectburnt"], "AtlasLootSirus" };
 	
-	-- Черная полироль/
 	AtlasLoot_TableNames["BlackMarket"] = { AL["BlackMarket"], "Menu" };
 	AtlasLoot_TableNames["BMarketMounts"] = { AL["BMarketMounts"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["BMarketPets"] = { AL["BMarketPets"], "AtlasLootSirus" };
@@ -1719,7 +1720,75 @@ end
 	AtlasLoot_TableNames["BMarketOther"] = { AL["BMarketOther"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["BMarketRecipes"] = { AL["BMarketRecipes"], "AtlasLootSirus" };
 	
+	AtlasLoot_TableNames["LiliMenu"] = { AL["Lili"], "Menu" };
 	AtlasLoot_TableNames["Lili"] = { AL["Lili"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5SET"] = { AL["Tier 5 Sets"], "Menu" };
+	
+	AtlasLoot_TableNames["LiliT5DeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5DeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5DruidBalance"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5DruidFeral"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5DruidRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5Hunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5Mage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5PaladinHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5PaladinProtection"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5PaladinRetribution"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5PriestHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5PriestShadow"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5Rogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5ShamanElemental"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5ShamanEnhancement"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5ShamanRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5WarriorFury"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["LiliT5WarriorProtection"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootSirus" };
+	
+	AtlasLoot_TableNames["Maar'n"] = { AL["Maar'n"], "Menu" };
+	AtlasLoot_TableNames["Maar'nOther"] = { AL["Maar'n"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9SET"] = { AL["Tier 9 Sets"], "Menu" };
+	AtlasLoot_TableNames["Maar'nWeapons"] = { AL["Weapons"], "AtlasLootSirus" };
+	-- Tier 9 Sets (Alliance)
+	AtlasLoot_TableNames["Maar'nT9DeathKnightDPS_A"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9DeathKnightTank_A"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9DruidBalance_A"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9DruidFeral_A"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9DruidRestoration_A"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9Hunter_A"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9Mage_A"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9PaladinHoly_A"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9PaladinProtection_A"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9PaladinRetribution_A"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9PriestHoly_A"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9PriestShadow_A"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9Rogue_A"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9ShamanElemental_A"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9ShamanEnhancement_A"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9ShamanRestoration_A"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9Warlock_A"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9WarriorFury_A"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9WarriorProtection_A"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootSirus" };
+  -- Tier 9 Sets (Horde)
+	AtlasLoot_TableNames["Maar'nT9DeathKnightDPS_H"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9DeathKnightTank_H"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9DruidBalance_H"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9DruidFeral_H"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9DruidRestoration_H"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9Hunter_H"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9Mage_H"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9PaladinHoly_H"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9PaladinProtection_H"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9PaladinRetribution_H"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9PriestHoly_H"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9PriestShadow_H"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9Rogue_H"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9ShamanElemental_H"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9ShamanEnhancement_H"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9ShamanRestoration_H"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9Warlock_H"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9WarriorFury_H"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Maar'nT9WarriorProtection_H"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootSirus" };
+	
 	AtlasLoot_TableNames["Forgotten"] = { AL["Forgotten"], "Menu" };
 	AtlasLoot_TableNames["ForgottenSets"] = { AL["ForgottenSets"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["ForgottenChests_A"] = { AL["ForgottenChests"], "AtlasLootSirus" };
@@ -1871,15 +1940,16 @@ end
   -- Sha'tari Skyguard
 	AtlasLoot_TableNames["Skyguard1"] = { BabbleFaction["Sha'tari Skyguard"], "AtlasLootBurningCrusade" };
   -- Shattered Sun Offensive
+	AtlasLoot_TableNames["SunOffensive"] = { BabbleFaction["Shattered Sun Offensive"], "Menu" };
 	AtlasLoot_TableNames["SunOffensive1"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["SunOffensive2"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["SunOffensive3_x2"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["SunOffensive3_x4"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
-
 	AtlasLoot_TableNames["SunOffensive4"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["SunOffensive5_x2"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["SunOffensive5_x4"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
-
+	AtlasLoot_TableNames["SunOffensive6"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["SunOffensive7"] = { BabbleFaction["Shattered Sun Offensive"], "AtlasLootBurningCrusade" };
   -- Sporeggar
 	AtlasLoot_TableNames["Sporeggar1"] = { BabbleFaction["Sporeggar"], "AtlasLootBurningCrusade" };
   -- Thrallmar
