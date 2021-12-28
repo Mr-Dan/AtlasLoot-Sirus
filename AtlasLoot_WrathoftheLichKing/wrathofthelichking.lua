@@ -2824,7 +2824,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 42077, "", "=q4=Relentless Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 		{ 7, 42081, "", "=q4=Relentless Gladiator's Cloak of Triumph", "=ds=#s4#"};
 		{ 8, 42082, "", "=q4=Relentless Gladiator's Cloak of Victory", "=ds=#s4#"};
-		{ 11, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
 		{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
@@ -3027,7 +3026,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 51332, "", "=q4=Wrathful Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 		{ 7, 51354, "", "=q4=Wrathful Gladiator's Cloak of Triumph", "=ds=#s4#"};
 		{ 8, 51356, "", "=q4=Wrathful Gladiator's Cloak of Victory", "=ds=#s4#"};
-		{ 11, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
 		{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
@@ -3233,7 +3231,6 @@ AtlasLoot_Data["VaultofArchavonElem1"] = {
 		{ 6, 42056, "", "=q4=Hateful Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 		{ 7, 42060, "", "=q4=Hateful Gladiator's Cloak of Triumph", "=ds=#s4#"};
 		{ 8, 42061, "", "=q4=Hateful Gladiator's Cloak of Victory", "=ds=#s4#"};
-		{ 11, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
 		{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
@@ -3440,7 +3437,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 6, 73630, "", "=q4=Cataclysmic Gladiator's Drape of Prowess", "=ds=#s4#"};
 		{ 7, 73646, "", "=q4=Cataclysmic Gladiator's Cape of Prowess", "=ds=#s4#"};
 		{ 8, 73647, "", "=q4=Cataclysmic Gladiator's Cape of Cruelty", "=ds=#s4#"};
-		{ 11, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
 		{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
@@ -8072,12 +8068,15 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 5, 51844, "", "=q4=Throatrender Handguards", "=ds=#s9#, #a4#"};
 		{ 6, 51835, "", "=q4=Veincrusher Gauntlets", "=ds=#s9#, #a4#"};
 		{ 7, 51836, "", "=q4=Tightening Waistband", "=ds=#s10#, #a4#"};
-		{ 16, 51842, "", "=q4=Collar of Haughty Disdain", "=ds=#s2#"};
-		{ 17, 51843, "", "=q4=Seal of the Twilight Queen", "=ds=#s13#"};
-		{ 19, 51846, "", "=q4=Bloodsipper", "=ds=#h1#, #w4#"};
-		{ 20, 51845, "", "=q4=Stakethrower", "=ds=#w5#"};
-		{ 21, 51838, "", "=q4=Lana'thel's Bloody Nail", "=ds=#w12#"};
-		{ 23, 95341, "", "=q4=Armored Bloodwing", "=ds=#e12#", "", ""};
+		{ 8, 51842, "", "=q4=Collar of Haughty Disdain", "=ds=#s2#"};
+		{ 9, 51843, "", "=q4=Seal of the Twilight Queen", "=ds=#s13#"};
+		{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		{ 20, 51846, "", "=q4=Bloodsipper", "=ds=#h1#, #w4#"};
+		{ 21, 51845, "", "=q4=Stakethrower", "=ds=#w5#"};
+		{ 22, 51838, "", "=q4=Lana'thel's Bloody Nail", "=ds=#w12#"};
+		{ 24, 95341, "", "=q4=Armored Bloodwing", "=ds=#e12#", "", ""};
 		Prev = "ICCCouncilHEROIC";
 		Next = "ICCValithriaHEROIC";
 	};
@@ -13825,7 +13824,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 21, 48487, "", "=q4=Thassarian's Legplates of Triumph", "=ds=#s11#,#a4#"};
 		Back = "T9SET";
 	};
-
 		
 	AtlasLoot_Data["T9DeathKnightDPS_H"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_2h#", "=q5="..AL["Tier 9"]};
@@ -13914,8 +13912,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 21, 48140, "", "=q4=Malfurion's Leggings of Triumph", "=ds=#s11#,#a2#"};
 		Back = "T9SET";
 	};
-
-		
+	
 	AtlasLoot_Data["T9DruidRestoration_H"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48154, "", "=q4=Runetotem's Headpiece of Conquest", "=ds=#s1#, #a2#", "3750 #pvevalorpoints# / 15 #frozenorb# 5 #primalnether#"};

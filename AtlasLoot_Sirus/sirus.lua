@@ -1325,12 +1325,13 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 7, 28579, "", "=q4=Флакон с ядом Ромуло", "#s14#"};
 		{ 8, 47725, "", "=q4=Зов победителя", "#s14#"};
 		{ 9, 28288, "", "=q4= Абак Сильных расхождений", "#s14#"};
-		{ 10, 28830, "", "=q4=Трофей из драконьего хребта", "#s14#"};
-		{ 11, 47734, "", "=q4=Знак превосходства", "#s14#"};
-		{ 12, 48722, "", "=q4=Осколок хрустального сердца", "#s14#"};
-		{ 13, 47948, "", "=q4=Зов победителя гер", "#s14#"};
-		{ 14, 47115, "", "=q4=Приговор смерти", "#s14#"};
-		{ 15, 50342, "", "=q4= Шепчущий клыкастый череп", "#s14#"};
+		{ 10, 45609, "", "=q4= Хвост кометы", "#s14#"};
+		{ 11, 28830, "", "=q4=Трофей из драконьего хребта", "#s14#"};
+		{ 12, 47734, "", "=q4=Знак превосходства", "#s14#"};
+		{ 13, 48722, "", "=q4=Осколок хрустального сердца", "#s14#"};
+		{ 14, 47948, "", "=q4=Зов победителя гер", "#s14#"};
+		{ 15, 47115, "", "=q4=Приговор смерти", "#s14#"};
+		{ 16, 50342, "", "=q4= Шепчущий клыкастый череп", "#s14#"};
 
 		Next = "TrinketChests2_A";
 		Back = "KATEGORIAMENU";
@@ -1345,12 +1346,13 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 7, 28579, "", "=q4=Флакон с ядом Ромуло", "#s14#"};
 		{ 8, 47881, "", "=q4=Отмщение Отрекшихся", "#s14#"};
 		{ 9, 28288, "", "=q4= Абак Сильных расхождений", "#s14#"};
-		{ 10, 28830, "", "=q4=Трофей из драконьего хребта", "#s14#"};
-		{ 11, 47734, "", "=q4=Знак превосходства", "#s14#"};
-		{ 12, 48722, "", "=q4=Осколок хрустального сердца", "#s14#"};
-		{ 13, 48020, "", "=q4=Отмщение Отрекшихся гер", "#s14#"};
-		{ 14, 47303, "", "=q4=Выбор смерти", "#s14#"};		
-		{ 15, 50342, "", "=q4= Шепчущий клыкастый череп", "#s14#"};
+		{ 10, 45609, "", "=q4= Хвост кометы", "#s14#"};
+		{ 11, 28830, "", "=q4=Трофей из драконьего хребта", "#s14#"};
+		{ 12, 47734, "", "=q4=Знак превосходства", "#s14#"};
+		{ 13, 48722, "", "=q4=Осколок хрустального сердца", "#s14#"};
+		{ 14, 48020, "", "=q4=Отмщение Отрекшихся гер", "#s14#"};
+		{ 15, 47303, "", "=q4=Выбор смерти", "#s14#"};		
+		{ 16, 50342, "", "=q4= Шепчущий клыкастый череп", "#s14#"};
 		
 		Next = "TrinketChests2_H";
 		Back = "KATEGORIAMENU";
@@ -1367,10 +1369,11 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 9, 49463, "", "=q4=Очищенная сфера пламени", "#s14#"};
 		{ 10, 49310, "", "=q4=Очищенный обломок чешуи", "#s14#"};
 		{ 11, 28418, "", "=q4= Астральный рог Шиффара", "#s14#"};
-		{ 12, 49488, "", "=q4=Блестящий обломок чешуи", "#s14#"};
-		{ 13, 49464, "", "=q4=Блестящая сфера пламени", "#s14#"};
-		{ 14, 48722, "", "=q4=Осколок хрустального сердца", "#s14#"};
-		{ 15, 48724, "", "=q4=Талисман восстановления", "#s14#"};
+		{ 12, 28823, "", "=q4=Глаз Груула", "#s14#"};
+		{ 13, 49488, "", "=q4=Блестящий обломок чешуи", "#s14#"};
+		{ 14, 49464, "", "=q4=Блестящая сфера пламени", "#s14#"};
+		{ 15, 48722, "", "=q4=Осколок хрустального сердца", "#s14#"};
+		{ 16, 48724, "", "=q4=Талисман восстановления", "#s14#"};
 		{ 18, 47946, "", "=q4=Талисман неустойчивой силы гер", "#s14#"};
 		{ 19, 47182, "", "=q4=Власть неживых", "#s14#"};
 		{ 20, 50340, "", "=q4= Подзорная труба Мурадина", "#s14#"};
@@ -1390,10 +1393,11 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 9, 49463, "", "=q4=Очищенная сфера пламени", "#s14#"};
 		{ 10, 49310, "", "=q4=Очищенный обломок чешуи", "#s14#"};
 		{ 11, 28418, "", "=q4= Астральный рог Шиффара", "#s14#"};
-		{ 12, 49488, "", "=q4=Блестящий обломок чешуи", "#s14#"};
-		{ 13, 49464, "", "=q4=Блестящая сфера пламени", "#s14#"};
-		{ 14, 48722, "", "=q4=Осколок хрустального сердца", "#s14#"};
-		{ 15, 48724, "", "=q4=Талисман восстановления", "#s14#"};
+		{ 12, 28823, "", "=q4=Глаз Груула", "#s14#"};
+		{ 13, 49488, "", "=q4=Блестящий обломок чешуи", "#s14#"};
+		{ 14, 49464, "", "=q4=Блестящая сфера пламени", "#s14#"};
+		{ 15, 48722, "", "=q4=Осколок хрустального сердца", "#s14#"};
+		{ 16, 48724, "", "=q4=Талисман восстановления", "#s14#"};
 		{ 18, 48018, "", "=q4=Фетиш неустойчивой силы гер", "#s14#"};
 		{ 19, 47316, "", "=q4=Власть мертвых", "#s14#"};	
 		{ 20, 50340, "", "=q4= Подзорная труба Мурадина", "#s14#"};
@@ -1453,10 +1457,11 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 9, 49463, "", "=q4=Очищенная сфера пламени", "#s14#"};
 		{ 10, 49310, "", "=q4=Очищенный обломок чешуи", "#s14#"};
 		{ 11, 47728, "", "=q4=Связующий свет", "#s14#"};
-		{ 12, 28370, "", "=q4= Браслет Нескончаемого Блаженства", "#s14#"};
-		{ 13, 28789, "", "=q4=Глаз Магтеридона", "#s14#"};
-		{ 14, 28823, "", "=q4=Глаз Груула", "#s14#"};
-		{ 15, 49488, "", "=q4=Блестящий обломок чешуи", "#s14#"};
+		{ 12, 45535, "", "=q4= Доказательство веры", "#s14#"};
+		{ 13, 28370, "", "=q4= Браслет Нескончаемого Блаженства", "#s14#"};
+		{ 14, 28789, "", "=q4=Глаз Магтеридона", "#s14#"};
+		{ 15, 28823, "", "=q4=Глаз Груула", "#s14#"};
+		{ 16, 49488, "", "=q4=Блестящий обломок чешуи", "#s14#"};
 		{ 18, 49464, "", "=q4=Блестящая сфера пламени", "#s14#"};
 		{ 19, 48724, "", "=q4=Талисман восстановления", "#s14#"};
 		{ 20, 47947, "", "=q4=Связующий свет гер", "#s14#"};
@@ -1466,8 +1471,7 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		Prev = "TrinketChests3_A";
 		Back = "KATEGORIAMENU";
 	};	
-
-			AtlasLoot_Data["TrinketChests4_H"] = {
+	AtlasLoot_Data["TrinketChests4_H"] = {
 		{ 1, 33, "", "=q4=Благодатный сундук со случайным аксессуаром", "15 #wintergraspmark# / 50 #jeton#"};
 		{ 3, 40382, "", "=q4=Душа умершего", "#s14#"};
 		{ 4, 40258, "", "=q4=Талисман предусмотрительности", "#s14#"};
@@ -1478,10 +1482,11 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 9, 49463, "", "=q4=Очищенная сфера пламени", "#s14#"};
 		{ 10, 49310, "", "=q4=Очищенный обломок чешуи", "#s14#"};
 		{ 11, 47880, "", "=q4=Связующий камень", "#s14#"};
-		{ 12, 28370, "", "=q4= Браслет Нескончаемого Блаженства", "#s14#"};
-		{ 13, 28789, "", "=q4=Глаз Магтеридона", "#s14#"};
-		{ 14, 28823, "", "=q4=Глаз Груула", "#s14#"};
-		{ 15, 49488, "", "=q4=Блестящий обломок чешуи", "#s14#"};
+		{ 12, 45535, "", "=q4= Доказательство веры", "#s14#"};
+		{ 13, 28370, "", "=q4= Браслет Нескончаемого Блаженства", "#s14#"};
+		{ 14, 28789, "", "=q4=Глаз Магтеридона", "#s14#"};
+		{ 15, 28823, "", "=q4=Глаз Груула", "#s14#"};
+		{ 16, 49488, "", "=q4=Блестящий обломок чешуи", "#s14#"};
 		{ 18, 49464, "", "=q4=Блестящая сфера пламени", "#s14#"};
 		{ 19, 48724, "", "=q4=Талисман восстановления", "#s14#"};
 		{ 20, 48019, "", "=q4=Связующий камень гер", "#s14#"};
@@ -1700,25 +1705,620 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 1, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 2, 64671, "", "=q6= Реликвия Голганнета","=ds=#s16#, #w21#"};
 		{ 3, 71149, "", "=q6=Опаленное перо Авианы","=ds=#s16#, #w21#"};
-
 		{ 4, 64672, "", "=q6=Реликвия Норганнона","=ds=#s16#, #w14#"};
 		{ 5, 64673, "", "=q6=Реликвия Эонар","=ds=#s16#, #w14#"};
 		{ 6, 71146, "", "=q6=Союз пламени","=ds=#s16#, #w14#"};
-
 		{ 7, 64674, "", "=q6=Реликвия Агграмара","=ds=#s16#, #w16#"};
 		{ 8, 64676, "", "=q6=Реликвия Каз'горота","=ds=#s16#, #w16#"};
 		{ 9, 71147, "", "=q6=Реликвия повелителя элементалей","=ds=#s16#, #w16#"};
-	
 		{ 10, 70109, "", "=q6=Реликвия тени Элуны","=ds=#s16#, #w15#"};
 		{ 11, 70939, "", "=q6=Статуэтка хватки смерти","=ds=#s16#, #w15#"};
-		{ 12, 71148, "", "=q6=Фиал пламенеющей души","=ds=#s16#, #w15# "};
-		
+		{ 12, 71148, "", "=q6=Фиал пламенеющей души","=ds=#s16#, #w15# "};	
 		{ 16, 0, "INV_Box_01", "=q6=Предмет", ""};
-		{ 17, 30183, "", "=q4=Nether Vortex", "=ds=#e8#"};
-		
+		{ 17, 30183, "", "=q4=Nether Vortex", "=ds=#e8#"};	
 		{ 18, 0, "INV_Box_01", "=q6=Цена реликвий","=ds= 3 #elementalnether#, 75 #jeton#,14500 #pvevalorpoints#"};
-		Back = "KATEGORIAMENU";
+		Back = "LiliMenu";
 	};
+	
+	AtlasLoot_Data["LiliT5WarriorProtection"] = {
+		{ 1, 0, "INV_Shield_05", "=q6=#t5s9_1#", "=ec1=#m22#"};	
+		{ 2, 30117, "", "=q4=Destroyer Shoulderguards", "=ds=20#elementalnether# 9000#pvevalorpoints#"};	
+		{ 3, 30114, "", "=q4=Destroyer Handguards", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30117, "", "=q4=Destroyer Shoulderguards", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};	
+		{ 5, 30114, "", "=q4=Destroyer Handguards", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30117, "", "=q4=Destroyer Shoulderguards", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};	
+		{ 17, 30114, "", "=q4=Destroyer Handguards", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5WarriorFury"] = {
+		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
+		{ 2, 30122, "", "=q4=Destroyer Shoulderblades", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30119, "", "=q4=Destroyer Gauntlets", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30122, "", "=q4=Destroyer Shoulderblades", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30119, "", "=q4=Destroyer Gauntlets", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30122, "", "=q4=Destroyer Shoulderblades", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30119, "", "=q4=Destroyer Gauntlets", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5PaladinProtection"] = {
+		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t5s4_1#", "=ec1=#m22#"};
+		{ 2, 30127, "", "=q4=Crystalforge Shoulderguards", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30124, "", "=q4=Crystalforge Handguards", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30127, "", "=q4=Crystalforge Shoulderguards", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30124, "", "=q4=Crystalforge Handguards", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30127, "", "=q4=Crystalforge Shoulderguards", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30124, "", "=q4=Crystalforge Handguards", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5PaladinRetribution"] = {
+		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t5s4_2#", "=ec1=#m22#"};
+		{ 2, 30133, "", "=q4=Crystalforge Shoulderbraces", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30130, "", "=q4=Crystalforge Gauntlets", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30133, "", "=q4=Crystalforge Shoulderbraces", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30130, "", "=q4=Crystalforge Gauntlets", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30133, "", "=q4=Crystalforge Shoulderbraces", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30130, "", "=q4=Crystalforge Gauntlets", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5PaladinHoly"] = {
+		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t5s4_3#", "=ec1=#m22#"};
+		{ 2, 30138, "", "=q4=Crystalforge Pauldrons", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30135, "", "=q4=Crystalforge Gloves", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30138, "", "=q4=Crystalforge Pauldrons", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30135, "", "=q4=Crystalforge Gloves", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30138, "", "=q4=Crystalforge Pauldrons", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30135, "", "=q4=Crystalforge Gloves", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5Hunter"] = {
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
+		{ 2, 30143, "", "=q4=Rift Stalker Mantle", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30140, "", "=q4=Rift Stalker Gauntlets", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30143, "", "=q4=Rift Stalker Mantle", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30140, "", "=q4=Rift Stalker Gauntlets", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30143, "", "=q4=Rift Stalker Mantle", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30140, "", "=q4=Rift Stalker Gauntlets", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5Rogue"] = {
+		{ 1, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
+		{ 2, 30149, "", "=q4=Deathmantle Shoulderpads", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30145, "", "=q4=Deathmantle Handguards", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30149, "", "=q4=Deathmantle Shoulderpads", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30145, "", "=q4=Deathmantle Handguards", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30149, "", "=q4=Deathmantle Shoulderpads", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30145, "", "=q4=Deathmantle Handguards", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5PriestHoly"] = {
+		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t5s5_1#", "=ec1=#m22#"};
+		{ 2, 30154, "", "=q4=Mantle of the Avatar", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30151, "", "=q4=Gloves of the Avatar", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30154, "", "=q4=Mantle of the Avatar", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30151, "", "=q4=Gloves of the Avatar", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30154, "", "=q4=Mantle of the Avatar", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30151, "", "=q4=Gloves of the Avatar", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5PriestShadow"] = {
+		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t5s5_2#", "=ec1=#m22#"};
+		{ 2, 30163, "", "=q4=Wings of the Avatar", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30160, "", "=q4=Handguards of the Avatar", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30163, "", "=q4=Wings of the Avatar", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30160, "", "=q4=Handguards of the Avatar", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30163, "", "=q4=Wings of the Avatar", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30160, "", "=q4=Handguards of the Avatar", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5ShamanRestoration"] = {
+		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t5s7_2#", "=ec1=#m22#"};
+		{ 2, 30168, "", "=q4=Cataclysm Shoulderguards", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30165, "", "=q4=Cataclysm Gloves", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30168, "", "=q4=Cataclysm Shoulderguards", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30165, "", "=q4=Cataclysm Gloves", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30168, "", "=q4=Cataclysm Shoulderguards", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30165, "", "=q4=Cataclysm Gloves", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5ShamanElemental"] = {
+		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t5s7_3#", "=ec1=#m22#"};
+		{ 2, 30173, "", "=q4=Cataclysm Shoulderpads", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30170, "", "=q4=Cataclysm Handgrips", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30173, "", "=q4=Cataclysm Shoulderpads", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30170, "", "=q4=Cataclysm Handgrips", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30173, "", "=q4=Cataclysm Shoulderpads", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30170, "", "=q4=Cataclysm Handgrips", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5ShamanEnhancement"] = {
+		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t5s7_1#", "=ec1=#m22#"};
+		{ 2, 30194, "", "=q4=Cataclysm Shoulderplates", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30189, "", "=q4=Cataclysm Gauntlets", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30194, "", "=q4=Cataclysm Shoulderplates", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30189, "", "=q4=Cataclysm Gauntlets", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 6, 30194, "", "=q4=Cataclysm Shoulderplates", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 7, 30189, "", "=q4=Cataclysm Gauntlets", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5Mage"] = {
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
+		{ 2, 30210, "", "=q4=Mantle of Tirisfal", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30205, "", "=q4=Gloves of Tirisfal", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30210, "", "=q4=Mantle of Tirisfal", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30205, "", "=q4=Gloves of Tirisfal", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30210, "", "=q4=Mantle of Tirisfal", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30205, "", "=q4=Gloves of Tirisfal", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5Warlock"] = {
+		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
+		{ 2, 30215, "", "=q4=Mantle of the Corruptor", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30211, "", "=q4=Gloves of the Corruptor", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30215, "", "=q4=Mantle of the Corruptor", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30211, "", "=q4=Gloves of the Corruptor", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30215, "", "=q4=Mantle of the Corruptor", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30211, "", "=q4=Gloves of the Corruptor", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5DruidRestoration"] = {
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t5s1_2#", "=ec1=#m22#"};	
+		{ 2, 30221, "", "=q4=Nordrassil Life-Mantle", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30217, "", "=q4=Nordrassil Gloves", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30221, "", "=q4=Nordrassil Life-Mantle", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30217, "", "=q4=Nordrassil Gloves", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30221, "", "=q4=Nordrassil Life-Mantle", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30217, "", "=q4=Nordrassil Gloves", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5DruidFeral"] = {
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#t5s1_1#", "=ec1=#m22#"};
+		{ 2, 30230, "", "=q4=Nordrassil Feral-Mantle", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30223, "", "=q4=Nordrassil Handgrips", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30230, "", "=q4=Nordrassil Feral-Mantle", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30223, "", "=q4=Nordrassil Handgrips", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30230, "", "=q4=Nordrassil Feral-Mantle", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30223, "", "=q4=Nordrassil Handgrips", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5DruidBalance"] = {
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 2, 30235, "", "=q4=Nordrassil Wrath-Mantle", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 30232, "", "=q4=Nordrassil Gauntlets", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 30235, "", "=q4=Nordrassil Wrath-Mantle", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 30232, "", "=q4=Nordrassil Gauntlets", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 30235, "", "=q4=Nordrassil Wrath-Mantle", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 30232, "", "=q4=Nordrassil Gauntlets", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5DeathKnightDPS"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 2, 80867, "", "=q4=Elementium Deathplate Shoulderplates", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 80927, "", "=q4=Elementium Deathplate Gauntlets", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 80867, "", "=q4=Elementium Deathplate Shoulderplates", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 80927, "", "=q4=Elementium Deathplate Gauntlets", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 80867, "", "=q4=Elementium Deathplate Shoulderplates", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 80927, "", "=q4=Elementium Deathplate Gauntlets", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	AtlasLoot_Data["LiliT5DeathKnightTank"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 2, 87494, "", "=q4=Elementium Deathplate Pauldrons", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 3, 87601, "", "=q4=Elementium Deathplate Handguards", "=ds=20#elementalnether# 9000#pvevalorpoints#"};
+		{ 4, 87494, "", "=q4=Elementium Deathplate Pauldrons", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 5, 87601, "", "=q4=Elementium Deathplate Handguards", "=ds=20#elementalnether# 7500#arenapoints# Арена:2000"};
+		{ 16, 87494, "", "=q4=Elementium Deathplate Pauldrons", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		{ 17, 87601, "", "=q4=Elementium Deathplate Handguards", "=ds=20#elementalnether# 40000#bgpoints# Служба:6500"};
+		Back = "LiliT5SET";
+	};
+	
+	AtlasLoot_Data["Maar'nOther"] = {
+		{ 1, 22794, "", "=q6=Лотос Скверны","=ds=10 #primalnether#"};
+		{ 2, 22451, "", "=q6=Изначальный Воздух","=ds=2 #primalnether#"};
+		{ 3, 22452, "", "=q6=Изначальная Земля","=ds=2 #primalnether#"};
+		{ 4, 22456, "", "=q6=Изначальная Тьма","=ds=2 #primalnether#"};
+		{ 16, 22457, "", "=q6=Изначальная Мана","=ds=2 #primalnether#"};
+		{ 17, 21884, "", "=q6=Изначальный Огонь","=ds=2 #primalnether#"};
+		{ 18, 21885, "", "=q6=Изначальная Вода","=ds=2 #primalnether#"};
+		{ 19, 21886, "", "=q6=Изначальная Жизнь","=ds=2 #primalnether#"};
+		
+		Back = "Maar'n";
+	};
+
+	AtlasLoot_Data["Maar'nWeapons"] = {
+		{ 1, 90860, "", "=q6=Кольцо безграничной удачи","=ds=#s13# 15000#gold#"};
+		{ 2, 47508, "", "=q6=Боевая звезда Аледар","=ds=#h1#, #w6# 30 #primalnether#"};
+		{ 3, 47509, "", "=q6=Печаль Мариэль","=ds=#h3#, #w6# 30 #primalnether#"};
+		{ 4, 47500, "", "=q6=Клинок мирохранителя","=ds=#h1#, #w10# 30 #primalnether#"};
+		{ 16, 47522, "", "=q6=Сокрушение основ","=ds=#h2#, #w7# 30 #primalnether#"};
+		{ 17, 47568, "", "=q6=Длинностволая винтовка меткости","=ds=#w5# 30 #primalnether#"};
+		{ 18, 47493, "", "=q6=Лезвие разгрома","=ds=#h2#, #w1# 30 #primalnether#"};
+		{ 19, 47569, "", "=q6=Призрачный крис","=ds=#h3#, #w4# 30 #primalnether#"};
+		{ 20, 49682, "", "=q6=Рондел Черного рыцаря","=ds=#h1#, #w4# 30 #primalnether#"};
+		
+		Back = "Maar'n";
+	};
+		
+	AtlasLoot_Data["Maar'nT9DeathKnightDPS_A"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_2a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48472, "", "=q4=Thassarian's Helmet of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48478, "", "=q4=Thassarian's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48474, "", "=q4=Thassarian's Battleplate of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48480, "", "=q4=Thassarian's Gauntlets of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48476, "", "=q4=Thassarian's Legplates of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+		
+	AtlasLoot_Data["Maar'nT9DeathKnightDPS_H"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_2h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48503, "", "=q4=Koltira's Helmet of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48505, "", "=q4=Koltira's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48501, "", "=q4=Koltira's Battleplate of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48502, "", "=q4=Koltira's Gauntlets of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48504, "", "=q4=Koltira's Legplates of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9DeathKnightTank_A"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_1a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48529, "", "=q4=Thassarian's Faceguard of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48535, "", "=q4=Thassarian's Pauldrons of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48531, "", "=q4=Thassarian's Chestguard of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48537, "", "=q4=Thassarian's Handguards of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48533, "", "=q4=Thassarian's Legguards of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9DeathKnightTank_H"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_1h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48560, "", "=q4=Koltira's Faceguard of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48562, "", "=q4=Koltira's Pauldrons of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48558, "", "=q4=Koltira's Chestguard of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48559, "", "=q4=Koltira's Handguards of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48561, "", "=q4=Koltira's Legguards of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9DruidRestoration_A"] = {
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48102, "", "=q4=Malfurion's Headpiece of Conquest", "=ds=#s1#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48131, "", "=q4=Malfurion's Spaulders of Conquest", "=ds=#s3#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48129, "", "=q4=Malfurion's Robe of Conquest", "=ds=#s5#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48132, "", "=q4=Malfurion's Handguards of Conquest", "=ds=#s9#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48130, "", "=q4=Malfurion's Leggings of Conquest", "=ds=#s11#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+		
+	AtlasLoot_Data["Maar'nT9DruidRestoration_H"] = {
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48154, "", "=q4=Runetotem's Headpiece of Conquest", "=ds=#s1#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48157, "", "=q4=Runetotem's Spaulders of Conquest", "=ds=#s3#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48156, "", "=q4=Runetotem's Robe of Conquest", "=ds=#s5#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48153, "", "=q4=Runetotem's Handguards of Conquest", "=ds=#s9#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48155, "", "=q4=Runetotem's Leggings of Conquest", "=ds=#s11#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9DruidFeral_A"] = {
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48214, "", "=q4=Malfurion's Headguard of Conquest", "=ds=#s1#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48217, "", "=q4=Malfurion's Shoulderpads of Conquest", "=ds=#s3#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48216, "", "=q4=Malfurion's Raiments of Conquest", "=ds=#s5#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48213, "", "=q4=Malfurion's Handgrips of Conquest", "=ds=#s9#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48215, "", "=q4=Malfurion's Legguards of Conquest", "=ds=#s11#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9DruidFeral_H"] = {
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#t9s1_2h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48188, "", "=q4=Runetotem's Headguard of Conquest", "=ds=#s1#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48191, "", "=q4=Runetotem's Shoulderpads of Conquest", "=ds=#s3#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48189, "", "=q4=Runetotem's Raiments of Conquest", "=ds=#s5#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48192, "", "=q4=Runetotem's Handgrips of Conquest", "=ds=#s9#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48190, "", "=q4=Runetotem's Legguards of Conquest", "=ds=#s11#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9DruidBalance_A"] = {
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48158, "", "=q4=Malfurion's Cover of Conquest", "=ds=#s1#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48161, "", "=q4=Malfurion's Mantle of Conquest", "=ds=#s3#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48159, "", "=q4=Malfurion's Vestments of Conquest", "=ds=#s5#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48162, "", "=q4=Malfurion's Gloves of Conquest", "=ds=#s9#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48160, "", "=q4=Malfurion's Trousers of Conquest", "=ds=#s11#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9DruidBalance_H"] = {
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48184, "", "=q4=Runetotem's Cover of Conquest", "=ds=#s1#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48187, "", "=q4=Runetotem's Mantle of Conquest", "=ds=#s3#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48186, "", "=q4=Runetotem's Vestments of Conquest", "=ds=#s5#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48183, "", "=q4=Runetotem's Gloves of Conquest", "=ds=#s9#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48185, "", "=q4=Runetotem's Trousers of Conquest", "=ds=#s11#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9Hunter_A"] = {
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48250, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48253, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48251, "", "=q4=Windrunner's Tunic of Conquest", "=ds=#s5#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48254, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48252, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9Hunter_H"] = {
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48277, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48279, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48275, "", "=q4=Windrunner's Tunic of Conquest", "=ds=#s5#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48276, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48278, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9Mage_A"] = {
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t9s3_a#", "=q5="..AL["Tier 9"]};
+		{ 2, 47748, "", "=q4=Khadgar's Hood of Conquest", "=ds=#s1#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 47751, "", "=q4=Khadgar's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 47749, "", "=q4=Khadgar's Robe of Conquest", "=ds=#s5#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 47752, "", "=q4=Khadgar's Gauntlets of Conquest", "=ds=#s9#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 47750, "", "=q4=Khadgar's Leggings of Conquest", "=ds=#s11#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9Mage_H"] = {
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t9s3_h#", "=q5="..AL["Tier 9"]};
+		{ 2, 47774, "", "=q4=Sunstrider's Hood of Conquest", "=ds=#s1#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 47777, "", "=q4=Sunstrider's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 47776, "", "=q4=Sunstrider's Robe of Conquest", "=ds=#s5#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 47773, "", "=q4=Sunstrider's Gauntlets of Conquest", "=ds=#s9#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 47775, "", "=q4=Sunstrider's Leggings of Conquest", "=ds=#s11#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9PaladinHoly_A"] = {
+		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t9s4_1a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48564, "", "=q4=Turalyon's Headpiece of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48572, "", "=q4=Turalyon's Spaulders of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48566, "", "=q4=Turalyon's Tunic of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48574, "", "=q4=Turalyon's Gloves of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48568, "", "=q4=Turalyon's Greaves of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9PaladinHoly_H"] = {
+		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t9s4_1h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48597, "", "=q4=Liadrin's Headpiece of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48595, "", "=q4=Liadrin's Spaulders of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48599, "", "=q4=Liadrin's Tunic of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48598, "", "=q4=Liadrin's Gloves of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48596, "", "=q4=Liadrin's Greaves of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9PaladinRetribution_A"] = {
+		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t9s4_2a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48604, "", "=q4=Turalyon's Helm of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48606, "", "=q4=Turalyon's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48602, "", "=q4=Turalyon's Battleplate of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48603, "", "=q4=Turalyon's Gauntlets of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48605, "", "=q4=Turalyon's Legplates of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9PaladinRetribution_H"] = {
+		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t9s4_2h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48629, "", "=q4=Liadrin's Helm of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48627, "", "=q4=Liadrin's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48631, "", "=q4=Liadrin's Battleplate of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48630, "", "=q4=Liadrin's Gauntlets of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48628, "", "=q4=Liadrin's Legplates of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9PaladinProtection_A"] = {
+		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t9s4_3a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48634, "", "=q4=Turalyon's Faceguard of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48636, "", "=q4=Turalyon's Shoulderguards of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48632, "", "=q4=Turalyon's Breastplate of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48633, "", "=q4=Turalyon's Handguards of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48635, "", "=q4=Turalyon's Legguards of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9PaladinProtection_H"] = {
+		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t9s4_3h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48654, "", "=q4=Liadrin's Faceguard of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48656, "", "=q4=Liadrin's Shoulderguards of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48652, "", "=q4=Liadrin's Breastplate of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48653, "", "=q4=Liadrin's Handguards of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48655, "", "=q4=Liadrin's Legguards of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9PriestShadow_A"] = {
+		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t9s5_1a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48073, "", "=q4=Velen's Circlet of Conquest", "=ds=#s1#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48076, "", "=q4=Velen's Mantle of Conquest", "=ds=#s3#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48075, "", "=q4=Velen's Raiments of Conquest", "=ds=#s5#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48072, "", "=q4=Velen's Handwraps of Conquest", "=ds=#s9#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48074, "", "=q4=Velen's Pants of Conquest", "=ds=#s11#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9PriestShadow_H"] = {
+		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t9s5_1h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48098, "", "=q4=Zabra's Circlet of Conquest", "=ds=#s1#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48101, "", "=q4=Zabra's Mantle of Conquest", "=ds=#s3#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48100, "", "=q4=Zabra's Raiments of Conquest", "=ds=#s5#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48097, "", "=q4=Zabra's Handwraps of Conquest", "=ds=#s9#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48099, "", "=q4=Zabra's Pants of Conquest", "=ds=#s11#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9PriestHoly_A"] = {
+		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t9s5_2a#", "=q5="..AL["Tier 9"]};
+		{ 2, 47914, "", "=q4=Velen's Cowl of Conquest", "=ds=#s1#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 47981, "", "=q4=Velen's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 47936, "", "=q4=Velen's Robe of Conquest", "=ds=#s5#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 47982, "", "=q4=Velen's Gloves of Conquest", "=ds=#s9#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 47980, "", "=q4=Velen's Leggings of Conquest", "=ds=#s11#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9PriestHoly_H"] = {
+		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t9s5_2h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48068, "", "=q4=Zabra's Cowl of Conquest", "=ds=#s1#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48071, "", "=q4=Zabra's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48070, "", "=q4=Zabra's Robe of Conquest", "=ds=#s5#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48067, "", "=q4=Zabra's Gloves of Conquest", "=ds=#s9#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48069, "", "=q4=Zabra's Leggings of Conquest", "=ds=#s11#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9Rogue_A"] = {
+		{ 1, 0, "Ability_BackStab", "=q6=#t9s6_a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48218, "", "=q4=VanCleef's Helmet of Conquest", "=ds=#s1#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48221, "", "=q4=VanCleef's Pauldrons of Conquest", "=ds=#s3#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48219, "", "=q4=VanCleef's Breastplate of Conquest", "=ds=#s5#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48222, "", "=q4=VanCleef's Gauntlets of Conquest", "=ds=#s9#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48220, "", "=q4=VanCleef's Legplates of Conquest", "=ds=#s11#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9Rogue_H"] = {
+		{ 1, 0, "Ability_BackStab", "=q6=#t9s6_h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48245, "", "=q4=Garona's Helmet of Conquest", "=ds=#s1#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48247, "", "=q4=Garona's Pauldrons of Conquest", "=ds=#s3#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48243, "", "=q4=Garona's Breastplate of Conquest", "=ds=#s5#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48244, "", "=q4=Garona's Gauntlets of Conquest", "=ds=#s9#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48246, "", "=q4=Garona's Legplates of Conquest", "=ds=#s11#, #a2#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9ShamanElemental_A"] = {
+		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48313, "", "=q4=Nobundo's Helm of Conquest", "=ds=#s1#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48315, "", "=q4=Nobundo's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48310, "", "=q4=Nobundo's Hauberk of Conquest", "=ds=#s5#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48312, "", "=q4=Nobundo's Gloves of Conquest", "=ds=#s9#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48314, "", "=q4=Nobundo's Kilt of Conquest", "=ds=#s11#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9ShamanElemental_H"] = {
+		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48338, "", "=q4=Thrall's Helm of Conquest", "=ds=#s1#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48340, "", "=q4=Thrall's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48336, "", "=q4=Thrall's Hauberk of Conquest", "=ds=#s5#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48337, "", "=q4=Thrall's Gloves of Conquest", "=ds=#s9#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48339, "", "=q4=Thrall's Kilt of Conquest", "=ds=#s11#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9ShamanEnhancement_A"] = {
+		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t9s7_2a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48343, "", "=q4=Nobundo's Faceguard of Conquest", "=ds=#s1#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48345, "", "=q4=Nobundo's Shoulderguards of Conquest", "=ds=#s3#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48341, "", "=q4=Nobundo's Chestguard of Conquest", "=ds=#s5#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48342, "", "=q4=Nobundo's Grips of Conquest", "=ds=#s9#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48344, "", "=q4=Nobundo's War-Kilt of Conquest", "=ds=#s11#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9ShamanEnhancement_H"] = {
+		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t9s7_2h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48368, "", "=q4=Thrall's Faceguard of Conquest", "=ds=#s1#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48370, "", "=q4=Thrall's Shoulderguards of Conquest", "=ds=#s3#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48366, "", "=q4=Thrall's Chestguard of Conquest", "=ds=#s5#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48367, "", "=q4=Thrall's Grips of Conquest", "=ds=#s9#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48369, "", "=q4=Thrall's War-Kilt of Conquest", "=ds=#s11#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9ShamanRestoration_A"] = {
+		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_1a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48280, "", "=q4=Nobundo's Headpiece of Conquest", "=ds=#s1#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48283, "", "=q4=Nobundo's Spaulders of Conquest", "=ds=#s3#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48281, "", "=q4=Nobundo's Tunic of Conquest", "=ds=#s5#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48284, "", "=q4=Nobundo's Handguards of Conquest", "=ds=#s9#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48282, "", "=q4=Nobundo's Legguards of Conquest", "=ds=#s11#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9ShamanRestoration_H"] = {
+		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48297, "", "=q4=Thrall's Headpiece of Conquest", "=ds=#s1#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48299, "", "=q4=Thrall's Spaulders of Conquest", "=ds=#s3#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48295, "", "=q4=Thrall's Tunic of Conquest", "=ds=#s5#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48296, "", "=q4=Thrall's Handguards of Conquest", "=ds=#s9#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48298, "", "=q4=Thrall's Legguards of Conquest", "=ds=#s11#, #a3#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9Warlock_A"] = {
+		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t9s8_a#", "=q5="..AL["Tier 9"]};
+		{ 2, 47784, "", "=q4=Kel'Thuzad's Hood of Conquest", "=ds=#s1#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 47787, "", "=q4=Kel'Thuzad's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 47786, "", "=q4=Kel'Thuzad's Robe of Conquest", "=ds=#s5#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 47783, "", "=q4=Kel'Thuzad's Gloves of Conquest", "=ds=#s9#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 47785, "", "=q4=Kel'Thuzad's Leggings of Conquest", "=ds=#s11#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9Warlock_H"] = {
+		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t9s8_h#", "=q5="..AL["Tier 9"]};
+		{ 2, 47801, "", "=q4=Gul'dan's Hood of Conquest", "=ds=#s1#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 47798, "", "=q4=Gul'dan's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 47799, "", "=q4=Gul'dan's Robe of Conquest", "=ds=#s5#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 47802, "", "=q4=Gul'dan's Gloves of Conquest", "=ds=#s9#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 47800, "", "=q4=Gul'dan's Leggings of Conquest", "=ds=#s11#, #a1#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9WarriorFury_A"] = {
+		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t9s9_1a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48371, "", "=q4=Wrynn's Helmet of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48374, "", "=q4=Wrynn's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48372, "", "=q4=Wrynn's Battleplate of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48375, "", "=q4=Wrynn's Gauntlets of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48373, "", "=q4=Wrynn's Legplates of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9WarriorFury_H"] = {
+		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48388, "", "=q4=Hellscream's Helmet of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48390, "", "=q4=Hellscream's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48386, "", "=q4=Hellscream's Battleplate of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48387, "", "=q4=Hellscream's Gauntlets of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48389, "", "=q4=Hellscream's Legplates of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9WarriorProtection_A"] = {
+		{ 1, 0, "INV_Shield_05", "=q6=#t9s9_2a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48429, "", "=q4=Wrynn's Greathelm of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48448, "", "=q4=Wrynn's Pauldrons of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48436, "", "=q4=Wrynn's Breastplate of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48449, "", "=q4=Wrynn's Handguards of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48445, "", "=q4=Wrynn's Legguards of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+	AtlasLoot_Data["Maar'nT9WarriorProtection_H"] = {
+		{ 1, 0, "INV_Shield_05", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48458, "", "=q4=Hellscream's Greathelm of Conquest", "=ds=#s1#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 3, 48460, "", "=q4=Hellscream's Pauldrons of Conquest", "=ds=#s3#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 4, 48456, "", "=q4=Hellscream's Breastplate of Conquest", "=ds=#s5#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 5, 48457, "", "=q4=Hellscream's Handguards of Conquest", "=ds=#s9#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		{ 6, 48459, "", "=q4=Hellscream's Legguards of Conquest", "=ds=#s11#, #a4#", "15 #frozenorb# 5 #primalnether#"};
+		Back = "Maar'nT9SET";
+	};
+
+		
 	--pigment
 	AtlasLoot_Data["pigmentruby"] = {
 		{ 1, 149000, "", "=q6=","=ds=#pigment#"};
@@ -1987,20 +2587,16 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Kor'kron_Battalion2_x2"] = {
 		{ 2, 153705, "", "=q4=Плащ вожака", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 3, 153710, "", "=q4=Плащ вожака", "=ds=#s4# =q1="};
-		{ 4, 153715, "", "=q4=Плащ вожака", "=ds=#s4# =q1="};
-		
+		{ 4, 153715, "", "=q4=Плащ вожака", "=ds=#s4# =q1="};	
 		{ 6, 153707, "", "=q4=Плащ доверия", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 7, 153712, "", "=q4=Плащ доверия", "=ds=#s4# =q1="};
-		{ 8, 153717, "", "=q4=Плащ доверия", "=ds=#s4# =q1="};
-		
+		{ 8, 153717, "", "=q4=Плащ доверия", "=ds=#s4# =q1="};	
 		{ 10, 153709, "", "=q4=Тень прошлого", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 11, 153714, "", "=q4=Тень прошлого", "=ds=#s4# =q1="};
-		{ 12, 153719, "", "=q4=Тень прошлого", "=ds=#s4# =q1="};
-				
+		{ 12, 153719, "", "=q4=Тень прошлого", "=ds=#s4# =q1="};			
 		{ 17, 153706, "", "=q4=Тень совершенства", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 18, 153711, "", "=q4=Тень совершенства", "=ds=#s4# =q1="};
-		{ 19, 153716, "", "=q4=Тень совершенства","=ds=#s4# =q1="};
-				
+		{ 19, 153716, "", "=q4=Тень совершенства","=ds=#s4# =q1="};			
 		{ 21, 153708, "", "=q4=Накидка ваятеля", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 22, 153713, "", "=q4=Накидка ваятеля","=ds=#s4# =q1="};
 		{ 23, 153718, "", "=q4=Накидка ваятеля", "=ds=#s4# =q1="};
@@ -2011,24 +2607,19 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Kor'kron_Battalion3_x2"] = {
 		{ 2, 154395, "", "=q4=Акрий, бородовидный топор", "=ds=#h1#, #w1#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 3, 154396, "", "=q4=Акрий, бородовидный топор", "=ds=#h1# #w1# =q1="};
-		{ 4, 154397, "", "=q4=Акрий, бородовидный топор", "=ds=#h1# #w1# =q1="};
-		
+		{ 4, 154397, "", "=q4=Акрий, бородовидный топор", "=ds=#h1# #w1# =q1="};		
 		{ 6, 153644, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 7, 153653, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4# =q1="};
-		{ 8, 153662, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4# =q1="};
-		
+		{ 8, 153662, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4# =q1="};	
 		{ 10, 153646, "", "=q4=Топорик хищника", "=ds=#h1#, #w1#, =q1= #r3# 120 #Tol'Garod#"};
 		{ 11, 153655, "", "=q4=Топорик хищника", "=ds=#h1# #w1# =q1="};
-		{ 12, 153664, "", "=q4=Топорик хищника", "=ds=#h1# #w1# =q1="};
-				
+		{ 12, 153664, "", "=q4=Топорик хищника", "=ds=#h1# #w1# =q1="};		
 		{ 17, 153643, "", "=q4=Крабовая скорбь", "=ds=#w13#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 18, 153652, "", "=q4=Крабовая скорбь", "=ds=#w13# =q1="};
-		{ 19, 153661, "", "=q4=Крабовая скорбь","=ds=#w13# =q1="};
-				
+		{ 19, 153661, "", "=q4=Крабовая скорбь","=ds=#w13# =q1="};			
 		{ 21, 153645, "", "=q4=Элементиевая заточка", "=ds=#w4#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 22, 153654, "", "=q4=Элементиевая заточка","=ds=#w4# =q1="};
 		{ 23, 153663, "", "=q4=Элементиевая заточка", "=ds=#w4# =q1="};
-		
 		{ 25, 153647, "", "=q4=Лунный молот", "=ds=#h3#, #w6#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 26, 153656, "", "=q4=Лунный молот","=ds=#h3#, #w6# =q1="};
 		{ 27, 153665, "", "=q4=Лунный молот", "=ds=#h3#, #w6# =q1="};
@@ -2039,20 +2630,16 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Kor'kron_Battalion4_x2"] = {
 		{ 2, 153648, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6#, =q1= #r3#, 360 #Tol'Garod#"};
 		{ 3, 153657, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6# =q1="};
-		{ 4, 153666, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6# =q1="};
-		
+		{ 4, 153666, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6# =q1="};		
 		{ 6, 153650, "", "=q4=Знак Тигра", "=ds=#h2#, #w9#, =q1= #r3#, 360 #Tol'Garod#"};
 		{ 7, 153659, "", "=q4=Знак Тигра", "=ds=#h2#, #w9# =q1="};
-		{ 8, 153668, "", "=q4=Знак Тигра", "=ds=#h2#, #w9# =q1="};
-		
+		{ 8, 153668, "", "=q4=Знак Тигра", "=ds=#h2#, #w9# =q1="};	
 		{ 17, 153649, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9#, =q1= #r3#, 360 #Tol'Garod#"};
 		{ 18, 153658, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9# =q1="};
-		{ 19, 153667, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9# =q1="};
-				
+		{ 19, 153667, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9# =q1="};			
 		{ 21, 153651, "", "=q4=Пронзающий небеса", "=ds=#w3#, =q1= #r3#, 240 #Tol'Garod#"};
 		{ 22, 153660, "", "=q4=Пронзающий небеса", "=ds=#w3# =q1="};
-		{ 23, 153669, "", "=q4=Пронзающий небеса","=ds=#w3# =q1="};
-				
+		{ 23, 153669, "", "=q4=Пронзающий небеса","=ds=#w3# =q1="};			
 		Next = "Kor'kron_Battalion5_x2";
 		Prev = "Kor'kron_Battalion3_x2";	
 		Back = "REPMENU";	
@@ -2060,24 +2647,19 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Kor'kron_Battalion5_x2"] = {
 		{ 2, 154410, "", "=q4=Расколотое солнце", "=ds=#s14# =q1= #r4#, 120 #Tol'Garod#"};
 		{ 3, 154411, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};
-		{ 4, 154412, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};		
-		
+		{ 4, 154412, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};			
 		{ 6, 153731, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1= #r4# 120 #Tol'Garod#"};
 		{ 7, 153736, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};
-		{ 8, 153741, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};
-				
+		{ 8, 153741, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};			
 		{ 10, 153733, "", "=q4=Сердце грома", "=ds=#s14#, =q1= #r4#, 120 #Tol'Garod#"};
 		{ 11, 153738, "", "=q4=Сердце грома", "=ds=#s14# =q1="};
-		{ 12, 153743, "", "=q4=Сердце грома","=ds=#s14# =q1="};
-			
+		{ 12, 153743, "", "=q4=Сердце грома","=ds=#s14# =q1="};	
 		{ 17, 153730, "", "=q4=Вечное пламя", "=ds=#s14# =q1= #r4#, 120 #Tol'Garod#"};
 		{ 18, 153735, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};
-		{ 19, 153740, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};
-		
+		{ 19, 153740, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};	
 		{ 21, 153732, "", "=q4=Рог зверя", "=ds=#s14#, =q1= #r4#, 120 #Tol'Garod#"};
 		{ 22, 153737, "", "=q4=Рог зверя","=ds=#s14# =q1="};
 		{ 23, 153742, "", "=q4=Рог зверя", "=ds=#s14# =q1="};
-		
 		{ 25, 153734, "", "=q4=Железный оберег", "=ds=#s14# =q1= #r4#, 120 #Tol'Garod#"};
 		{ 26, 153739, "", "=q4=Железный оберег","=ds=#s14# =q1="};
 		{ 27, 153744, "", "=q4=Железный оберег", "=ds=#s14# =q1="};
@@ -2088,27 +2670,22 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Kor'kron_Battalion6_x2"] = {
 		{ 2, 153680, "", "=q4=Символ защитника", "=ds=#s13# =q1= #r5#, 180 #Tol'Garod#"};
 		{ 3, 153685, "", "=q4=Символ защитника", "=ds=#s13# =q1="};
-		{ 4, 153690, "", "=q4=Символ защитника", "=ds=#s13# =q1="};		
-		
+		{ 4, 153690, "", "=q4=Символ защитника", "=ds=#s13# =q1="};				
 		{ 6, 153682, "", "=q4=Символ воителя", "=ds=#s13# =q1= #r5# 180 #Tol'Garod#"};
 		{ 7, 153687, "", "=q4=Символ воителя", "=ds=#s13# =q1="};
-		{ 8, 153692, "", "=q4=Символ воителя", "=ds=#s13# =q1="};
-				
+		{ 8, 153692, "", "=q4=Символ воителя", "=ds=#s13# =q1="};				
 		{ 10, 153684, "", "=q4=Символ лекаря", "=ds=#s13#, =q1= #r5#, 180 #Tol'Garod#"};
 		{ 11, 153689, "", "=q4=Символ лекаря", "=ds=#s13# =q1="};
-		{ 12, 153694, "", "=q4=Символ лекаря","=ds=#s13# =q1="};
-			
+		{ 12, 153694, "", "=q4=Символ лекаря","=ds=#s13# =q1="};		
 		{ 17, 153681, "", "=q4=Символ мудреца", "=ds=#s13# =q1= #r5#, 180 #Tol'Garod#"};
 		{ 18, 153686, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};
-		{ 19, 153691, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};
-		
+		{ 19, 153691, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};		
 		{ 21, 153683, "", "=q4=Символ хитреца", "=ds=#s13#, =q1= #r5#, 180 #Tol'Garod#"};
 		{ 22, 153688, "", "=q4=Символ хитреца","=ds=#s13# =q1="};
-		{ 23, 153693, "", "=q4=Символ хитреца", "=ds=#s13# =q1="};
-				
+		{ 23, 153693, "", "=q4=Символ хитреца", "=ds=#s13# =q1="};			
 		Prev = "Kor'kron_Battalion5_x2";	
 		Back = "REPMENU";	
-	};
+	};	
 	
 	AtlasLoot_Data["Seventh_Legion_x2"] = {
 		{ 1, 155768, "", "=q4=Поводья охрового остроклыка", "=ds=180 #Tol'Garod#"};
@@ -2154,20 +2731,16 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Seventh_Legion2_x2"] = {
 		{ 2, 153959, "", "=q4=Плащ вожака", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 3, 153964, "", "=q4=Плащ вожака", "=ds=#s4# =q1="};
-		{ 4, 153969, "", "=q4=Плащ вожака", "=ds=#s4# =q1="};
-		
+		{ 4, 153969, "", "=q4=Плащ вожака", "=ds=#s4# =q1="};		
 		{ 6, 153961, "", "=q4=Плащ доверия", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 7, 153966, "", "=q4=Плащ доверия", "=ds=#s4# =q1="};
-		{ 8, 153971, "", "=q4=Плащ доверия", "=ds=#s4# =q1="};
-		
+		{ 8, 153971, "", "=q4=Плащ доверия", "=ds=#s4# =q1="};		
 		{ 10, 153963, "", "=q4=Тень прошлого", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 11, 153968, "", "=q4=Тень прошлого", "=ds=#s4# =q1="};
-		{ 12, 153973, "", "=q4=Тень прошлого", "=ds=#s4# =q1="};
-				
+		{ 12, 153973, "", "=q4=Тень прошлого", "=ds=#s4# =q1="};				
 		{ 17, 153960, "", "=q4=Тень совершенства", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 18, 153965, "", "=q4=Тень совершенства", "=ds=#s4# =q1="};
-		{ 19, 153970, "", "=q4=Тень совершенства","=ds=#s4# =q1="};
-				
+		{ 19, 153970, "", "=q4=Тень совершенства","=ds=#s4# =q1="};				
 		{ 21, 153962, "", "=q4=Накидка ваятеля", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 22, 153967, "", "=q4=Накидка ваятеля","=ds=#s4# =q1="};
 		{ 23, 153972, "", "=q4=Накидка ваятеля", "=ds=#s4# =q1="};
@@ -2178,24 +2751,19 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Seventh_Legion3_x2"] = {
 		{ 2, 154400, "", "=q4=Акрий, бородовидный топор", "=ds=#h1#, #w1#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 3, 154401, "", "=q4=Акрий, бородовидный топор", "=ds=#h1# #w1# =q1="};
-		{ 4, 154402, "", "=q4=Акрий, бородовидный топор", "=ds=#h1# #w1# =q1="};
-		
+		{ 4, 154402, "", "=q4=Акрий, бородовидный топор", "=ds=#h1# #w1# =q1="};		
 		{ 6, 153898, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 7, 153907, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4# =q1="};
-		{ 8, 153916, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4# =q1="};
-		
+		{ 8, 153916, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4# =q1="};	
 		{ 10, 153900, "", "=q4=Топорик хищника", "=ds=#h1#, #w1#, =q1= #r3# 120 #Tol'Garod#"};
 		{ 11, 153909, "", "=q4=Топорик хищника", "=ds=#h1# #w1# =q1="};
-		{ 12, 153918, "", "=q4=Топорик хищника", "=ds=#h1# #w1# =q1="};
-				
+		{ 12, 153918, "", "=q4=Топорик хищника", "=ds=#h1# #w1# =q1="};			
 		{ 17, 153897, "", "=q4=Крабовая скорбь", "=ds=#w13#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 18, 153906, "", "=q4=Крабовая скорбь", "=ds=#w13# =q1="};
-		{ 19, 153915, "", "=q4=Крабовая скорбь","=ds=#w13# =q1="};
-				
+		{ 19, 153915, "", "=q4=Крабовая скорбь","=ds=#w13# =q1="};			
 		{ 21, 153899, "", "=q4=Элементиевая заточка", "=ds=#w4#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 22, 153908, "", "=q4=Элементиевая заточка","=ds=#w4# =q1="};
-		{ 23, 153917, "", "=q4=Элементиевая заточка", "=ds=#w4# =q1="};
-		
+		{ 23, 153917, "", "=q4=Элементиевая заточка", "=ds=#w4# =q1="};	
 		{ 25, 153901, "", "=q4=Лунный молот", "=ds=#h3#, #w6#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 26, 153910, "", "=q4=Лунный молот","=ds=#h3#, #w6# =q1="};
 		{ 27, 153919, "", "=q4=Лунный молот", "=ds=#h3#, #w6# =q1="};
@@ -2206,20 +2774,16 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Seventh_Legion4_x2"] = {
 		{ 2, 153902, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6#, =q1= #r3#, 360 #Tol'Garod#"};
 		{ 3, 153911, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6# =q1="};
-		{ 4, 153920, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6# =q1="};
-		
+		{ 4, 153920, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6# =q1="};	
 		{ 6, 153904, "", "=q4=Знак Тигра", "=ds=#h2#, #w9#, =q1= #r3#, 360 #Tol'Garod#"};
 		{ 7, 153913, "", "=q4=Знак Тигра", "=ds=#h2#, #w9# =q1="};
-		{ 8, 153922, "", "=q4=Знак Тигра", "=ds=#h2#, #w9# =q1="};
-		
+		{ 8, 153922, "", "=q4=Знак Тигра", "=ds=#h2#, #w9# =q1="};	
 		{ 17, 153903, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9#, =q1= #r3#, 360 #Tol'Garod#"};
 		{ 18, 153912, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9# =q1="};
-		{ 19, 153921, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9# =q1="};
-				
+		{ 19, 153921, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9# =q1="};		
 		{ 21, 153905, "", "=q4=Пронзающий небеса", "=ds=#w3#, =q1= #r3#, 240 #Tol'Garod#"};
 		{ 22, 153914, "", "=q4=Пронзающий небеса", "=ds=#w3# =q1="};
-		{ 23, 153923, "", "=q4=Пронзающий небеса","=ds=#w3# =q1="};
-				
+		{ 23, 153923, "", "=q4=Пронзающий небеса","=ds=#w3# =q1="};		
 		Next = "Seventh_Legion5_x2";
 		Prev = "Seventh_Legion3_x2";	
 		Back = "REPMENU";	
@@ -2227,24 +2791,19 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Seventh_Legion5_x2"] = {
 		{ 2, 154415, "", "=q4=Расколотое солнце", "=ds=#s14# =q1= #r4#, 120 #Tol'Garod#"};
 		{ 3, 154416, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};
-		{ 4, 154417, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};		
-		
+		{ 4, 154417, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};			
 		{ 6, 153985, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1= #r4# 120 #Tol'Garod#"};
 		{ 7, 153990, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};
-		{ 8, 153995, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};
-				
+		{ 8, 153995, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};			
 		{ 10, 153987, "", "=q4=Сердце грома", "=ds=#s14#, =q1= #r4#, 120 #Tol'Garod#"};
 		{ 11, 153992, "", "=q4=Сердце грома", "=ds=#s14# =q1="};
-		{ 12, 153997, "", "=q4=Сердце грома","=ds=#s14# =q1="};
-			
+		{ 12, 153997, "", "=q4=Сердце грома","=ds=#s14# =q1="};		
 		{ 17, 153984, "", "=q4=Вечное пламя", "=ds=#s14# =q1= #r4#, 120 #Tol'Garod#"};
 		{ 18, 153989, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};
-		{ 19, 153994, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};
-		
+		{ 19, 153994, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};	
 		{ 21, 153986, "", "=q4=Рог зверя", "=ds=#s14#, =q1= #r4#, 120 #Tol'Garod#"};
 		{ 22, 153991, "", "=q4=Рог зверя","=ds=#s14# =q1="};
 		{ 23, 153996, "", "=q4=Рог зверя", "=ds=#s14# =q1="};
-		
 		{ 25, 153988, "", "=q4=Железный оберег", "=ds=#s14# =q1= #r4#, 120 #Tol'Garod#"};
 		{ 26, 153993, "", "=q4=Железный оберег","=ds=#s14# =q1="};
 		{ 27, 153998, "", "=q4=Железный оберег", "=ds=#s14# =q1="};
@@ -2255,27 +2814,22 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Seventh_Legion6_x2"] = {
 		{ 2, 153934, "", "=q4=Символ защитника", "=ds=#s13# =q1= #r5#, 180 #Tol'Garod#"};
 		{ 3, 153939, "", "=q4=Символ защитника", "=ds=#s13# =q1="};
-		{ 4, 153944, "", "=q4=Символ защитника", "=ds=#s13# =q1="};		
-		
+		{ 4, 153944, "", "=q4=Символ защитника", "=ds=#s13# =q1="};			
 		{ 6, 153936, "", "=q4=Символ воителя", "=ds=#s13# =q1= #r5# 180 #Tol'Garod#"};
 		{ 7, 153941, "", "=q4=Символ воителя", "=ds=#s13# =q1="};
-		{ 8, 153946, "", "=q4=Символ воителя", "=ds=#s13# =q1="};
-				
+		{ 8, 153946, "", "=q4=Символ воителя", "=ds=#s13# =q1="};		
 		{ 10, 153938, "", "=q4=Символ лекаря", "=ds=#s13#, =q1= #r5#, 180 #Tol'Garod#"};
 		{ 11, 153943, "", "=q4=Символ лекаря", "=ds=#s13# =q1="};
-		{ 12, 153948, "", "=q4=Символ лекаря","=ds=#s13# =q1="};
-			
+		{ 12, 153948, "", "=q4=Символ лекаря","=ds=#s13# =q1="};		
 		{ 17, 153935, "", "=q4=Символ мудреца", "=ds=#s13# =q1= #r5#, 180 #Tol'Garod#"};
 		{ 18, 153940, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};
-		{ 19, 153945, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};
-		
+		{ 19, 153945, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};	
 		{ 21, 153937, "", "=q4=Символ хитреца", "=ds=#s13#, =q1= #r5#, 180 #Tol'Garod#"};
 		{ 22, 153942, "", "=q4=Символ хитреца","=ds=#s13# =q1="};
-		{ 23, 153947, "", "=q4=Символ хитреца", "=ds=#s13# =q1="};
-				
+		{ 23, 153947, "", "=q4=Символ хитреца", "=ds=#s13# =q1="};			
 		Prev = "Seventh_Legion5_x2";	
 		Back = "REPMENU";	
-	};
+	};	
 	
 	AtlasLoot_Data["Golden_Scorpid_x2"] = {
 		{ 1, 155524, "", "=q4=Зеленый Малдраксианский Боров", "=ds=180 #Tol'Garod#"};
@@ -2321,20 +2875,16 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Golden_Scorpid2_x2"] = {
 		{ 2, 154111, "", "=q4=Плащ вожака", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 3, 154116, "", "=q4=Плащ вожака", "=ds=#s4# =q1="};
-		{ 4, 154121, "", "=q4=Плащ вожака", "=ds=#s4# =q1="};
-		
+		{ 4, 154121, "", "=q4=Плащ вожака", "=ds=#s4# =q1="};	
 		{ 6, 154113, "", "=q4=Плащ доверия", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 7, 154118, "", "=q4=Плащ доверия", "=ds=#s4# =q1="};
-		{ 8, 154123, "", "=q4=Плащ доверия", "=ds=#s4# =q1="};
-		
+		{ 8, 154123, "", "=q4=Плащ доверия", "=ds=#s4# =q1="};	
 		{ 10, 154115, "", "=q4=Тень прошлого", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 11, 154120, "", "=q4=Тень прошлого", "=ds=#s4# =q1="};
-		{ 12, 154125, "", "=q4=Тень прошлого", "=ds=#s4# =q1="};
-				
+		{ 12, 154125, "", "=q4=Тень прошлого", "=ds=#s4# =q1="};			
 		{ 17, 154112, "", "=q4=Тень совершенства", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 18, 154117, "", "=q4=Тень совершенства", "=ds=#s4# =q1="};
-		{ 19, 154122, "", "=q4=Тень совершенства","=ds=#s4# =q1="};
-				
+		{ 19, 154122, "", "=q4=Тень совершенства","=ds=#s4# =q1="};			
 		{ 21, 154114, "", "=q4=Накидка ваятеля", "=ds=#s4#, =q1= #r2#, 120 #Tol'Garod#"};
 		{ 22, 154119, "", "=q4=Накидка ваятеля","=ds=#s4# =q1="};
 		{ 23, 154124, "", "=q4=Накидка ваятеля", "=ds=#s4# =q1="};
@@ -2345,24 +2895,19 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Golden_Scorpid3_x2"] = {
 		{ 2, 154405, "", "=q4=Акрий, бородовидный топор", "=ds=#h1#, #w1#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 3, 154406, "", "=q4=Акрий, бородовидный топор", "=ds=#h1# #w1# =q1="};
-		{ 4, 154407, "", "=q4=Акрий, бородовидный топор", "=ds=#h1# #w1# =q1="};
-		
+		{ 4, 154407, "", "=q4=Акрий, бородовидный топор", "=ds=#h1# #w1# =q1="};		
 		{ 6, 154050, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 7, 154059, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4# =q1="};
-		{ 8, 154068, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4# =q1="};
-		
+		{ 8, 154068, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4# =q1="};	
 		{ 10, 154052, "", "=q4=Топорик хищника", "=ds=#h1#, #w1#, =q1= #r3# 120 #Tol'Garod#"};
 		{ 11, 154061, "", "=q4=Топорик хищника", "=ds=#h1# #w1# =q1="};
-		{ 12, 154070, "", "=q4=Топорик хищника", "=ds=#h1# #w1# =q1="};
-				
+		{ 12, 154070, "", "=q4=Топорик хищника", "=ds=#h1# #w1# =q1="};			
 		{ 17, 154049, "", "=q4=Крабовая скорбь", "=ds=#w13#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 18, 154058, "", "=q4=Крабовая скорбь", "=ds=#w13# =q1="};
-		{ 19, 154067, "", "=q4=Крабовая скорбь","=ds=#w13# =q1="};
-				
+		{ 19, 154067, "", "=q4=Крабовая скорбь","=ds=#w13# =q1="};			
 		{ 21, 154051, "", "=q4=Элементиевая заточка", "=ds=#w4#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 22, 154060, "", "=q4=Элементиевая заточка","=ds=#w4# =q1="};
-		{ 23, 154069, "", "=q4=Элементиевая заточка", "=ds=#w4# =q1="};
-		
+		{ 23, 154069, "", "=q4=Элементиевая заточка", "=ds=#w4# =q1="};	
 		{ 25, 154053, "", "=q4=Лунный молот", "=ds=#h3#, #w6#, =q1= #r3#, 120 #Tol'Garod#"};
 		{ 26, 154062, "", "=q4=Лунный молот","=ds=#h3#, #w6# =q1="};
 		{ 27, 154071, "", "=q4=Лунный молот", "=ds=#h3#, #w6# =q1="};
@@ -2373,20 +2918,16 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Golden_Scorpid4_x2"] = {
 		{ 2, 154054, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6#, =q1= #r3#, 360 #Tol'Garod#"};
 		{ 3, 154063, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6# =q1="};
-		{ 4, 154072, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6# =q1="};
-		
+		{ 4, 154072, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6# =q1="};		
 		{ 6, 154056, "", "=q4=Знак Тигра", "=ds=#h2#, #w9#, =q1= #r3#, 360 #Tol'Garod#"};
 		{ 7, 154065, "", "=q4=Знак Тигра", "=ds=#h2#, #w9# =q1="};
-		{ 8, 154074, "", "=q4=Знак Тигра", "=ds=#h2#, #w9# =q1="};
-		
+		{ 8, 154074, "", "=q4=Знак Тигра", "=ds=#h2#, #w9# =q1="};	
 		{ 17, 154055, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9#, =q1= #r3#, 360 #Tol'Garod#"};
 		{ 18, 154064, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9# =q1="};
-		{ 19, 154073, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9# =q1="};
-				
+		{ 19, 154073, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9# =q1="};				
 		{ 21, 154057, "", "=q4=Пронзающий небеса", "=ds=#w3#, =q1= #r3#, 240 #Tol'Garod#"};
 		{ 22, 154066, "", "=q4=Пронзающий небеса", "=ds=#w3# =q1="};
-		{ 23, 154075, "", "=q4=Пронзающий небеса","=ds=#w3# =q1="};
-				
+		{ 23, 154075, "", "=q4=Пронзающий небеса","=ds=#w3# =q1="};			
 		Next = "Golden_Scorpid5_x2";
 		Prev = "Golden_Scorpid3_x2";	
 		Back = "REPMENU";	
@@ -2394,24 +2935,19 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Golden_Scorpid5_x2"] = {
 		{ 2, 154420, "", "=q4=Расколотое солнце", "=ds=#s14# =q1= #r4#, 120 #Tol'Garod#"};
 		{ 3, 154421, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};
-		{ 4, 154422, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};		
-		
+		{ 4, 154422, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};			
 		{ 6, 154137, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1= #r4# 120 #Tol'Garod#"};
 		{ 7, 154142, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};
-		{ 8, 154147, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};
-				
+		{ 8, 154147, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};			
 		{ 10, 154139, "", "=q4=Сердце грома", "=ds=#s14#, =q1= #r4#, 120 #Tol'Garod#"};
 		{ 11, 154144, "", "=q4=Сердце грома", "=ds=#s14# =q1="};
-		{ 12, 154149, "", "=q4=Сердце грома","=ds=#s14# =q1="};
-			
+		{ 12, 154149, "", "=q4=Сердце грома","=ds=#s14# =q1="};		
 		{ 17, 154136, "", "=q4=Вечное пламя", "=ds=#s14# =q1= #r4#, 120 #Tol'Garod#"};
 		{ 18, 154141, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};
-		{ 19, 154146, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};
-		
+		{ 19, 154146, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};	
 		{ 21, 154138, "", "=q4=Рог зверя", "=ds=#s14#, =q1= #r4#, 120 #Tol'Garod#"};
 		{ 22, 154143, "", "=q4=Рог зверя","=ds=#s14# =q1="};
-		{ 23, 154148, "", "=q4=Рог зверя", "=ds=#s14# =q1="};
-		
+		{ 23, 154148, "", "=q4=Рог зверя", "=ds=#s14# =q1="};	
 		{ 25, 154140, "", "=q4=Железный оберег", "=ds=#s14# =q1= #r4#, 120 #Tol'Garod#"};
 		{ 26, 154145, "", "=q4=Железный оберег","=ds=#s14# =q1="};
 		{ 27, 154150, "", "=q4=Железный оберег", "=ds=#s14# =q1="};
@@ -2422,24 +2958,19 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Golden_Scorpid6_x2"] = {
 		{ 2, 154086, "", "=q4=Символ защитника", "=ds=#s13# =q1= #r5#, 180 #Tol'Garod#"};
 		{ 3, 154091, "", "=q4=Символ защитника", "=ds=#s13# =q1="};
-		{ 4, 154096, "", "=q4=Символ защитника", "=ds=#s13# =q1="};		
-		
+		{ 4, 154096, "", "=q4=Символ защитника", "=ds=#s13# =q1="};			
 		{ 6, 154088, "", "=q4=Символ воителя", "=ds=#s13# =q1= #r5# 180 #Tol'Garod#"};
 		{ 7, 154093, "", "=q4=Символ воителя", "=ds=#s13# =q1="};
-		{ 8, 154098, "", "=q4=Символ воителя", "=ds=#s13# =q1="};
-				
+		{ 8, 154098, "", "=q4=Символ воителя", "=ds=#s13# =q1="};				
 		{ 10, 154090, "", "=q4=Символ лекаря", "=ds=#s13#, =q1= #r5#, 180 #Tol'Garod#"};
 		{ 11, 154095, "", "=q4=Символ лекаря", "=ds=#s13# =q1="};
-		{ 12, 154100, "", "=q4=Символ лекаря","=ds=#s13# =q1="};
-			
+		{ 12, 154100, "", "=q4=Символ лекаря","=ds=#s13# =q1="};		
 		{ 17, 154087, "", "=q4=Символ мудреца", "=ds=#s13# =q1= #r5#, 180 #Tol'Garod#"};
 		{ 18, 154092, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};
-		{ 19, 154097, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};
-		
+		{ 19, 154097, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};		
 		{ 21, 154089, "", "=q4=Символ хитреца", "=ds=#s13#, =q1= #r5#, 180 #Tol'Garod#"};
 		{ 22, 154094, "", "=q4=Символ хитреца","=ds=#s13# =q1="};
-		{ 23, 154099, "", "=q4=Символ хитреца", "=ds=#s13# =q1="};
-				
+		{ 23, 154099, "", "=q4=Символ хитреца", "=ds=#s13# =q1="};				
 		Prev = "Golden_Scorpid5_x2";	
 		Back = "REPMENU";	
 	};
@@ -2492,77 +3023,77 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	};
 	AtlasLoot_Data["Kor'kron_Battalion2_x4"] = {
 		{ 2, 153695, "", "=q4=Плащ вожака", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-			
+		{ 3, 153700, "", "=q4=Плащ вожака", "=ds=#s4#, =q1="};									
 		{ 6, 153697, "", "=q4=Плащ доверия", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-				
+		{ 7, 153702, "", "=q4=Плащ доверия", "=ds=#s4#, =q1="};	
 		{ 10, 153699, "", "=q4=Тень прошлого", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};	
-				
+		{ 11, 153704, "", "=q4=Тень прошлого", "=ds=#s4#, =q1="};		
 		{ 17, 153696, "", "=q4=Тень совершенства", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-						
+		{ 18, 153701, "", "=q4=Тень совершенства", "=ds=#s4#, =q1="};		
 		{ 21, 153698, "", "=q4=Накидка ваятеля", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-		
+		{ 22, 153703, "", "=q4=Накидка ваятеля", "=ds=#s4#, =q1="};
 		Next = "Kor'kron_Battalion3_x4";	
 		Prev = "Kor'kron_Battalion1_x4";	
 		Back = "REPMENU";	
 	};	
 	AtlasLoot_Data["Kor'kron_Battalion3_x4"] = {
 		{ 2, 154393, "", "=q4=Акрий, бородовидный топор", "=ds=#h1#, #w1#, =q1= #r3#, 240 #Tol'Garod#"};
-		
+		{ 3, 154394, "", "=q4=Акрий, бородовидный топор", "=ds=#h1#, #w1#, =q1="};
 		{ 6, 153626, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4#, =q1= #r3#, 240 #Tol'Garod#"};
-		
+		{ 7, 153635, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4#, =q1="};	
 		{ 10, 153628, "", "=q4=Топорик хищника", "=ds=#h1#, #w1#, =q1= #r3# 240 #Tol'Garod#"};
-				
+		{ 11, 153637, "", "=q4=Топорик хищника", "=ds=#h1#, #w1#, =q1="};	
 		{ 17, 153625, "", "=q4=Крабовая скорбь", "=ds=#w13#, =q1= #r3#, 240 #Tol'Garod#"};
-				
+		{ 18, 153634, "", "=q4=Крабовая скорбь", "=ds=#w13#, =q1="};
 		{ 21, 153627, "", "=q4=Элементиевая заточка", "=ds=#w4#, =q1= #r3#, 240 #Tol'Garod#"};
-		
+		{ 22, 153636, "", "=q4=Элементиевая заточка", "=ds=#w4#, =q1="};
 		{ 25, 153629, "", "=q4=Лунный молот", "=ds=#h3#, #w6#, =q1= #r3#, 240 #Tol'Garod#"};
-
+		{ 26, 153638, "", "=q4=Лунный молот", "=ds=#h3#, #w6#, =q1="};
 		Next = "Kor'kron_Battalion4_x4";
 		Prev = "Kor'kron_Battalion2_x4";	
 		Back = "REPMENU";	
 	};
 	AtlasLoot_Data["Kor'kron_Battalion4_x4"] = {
 		{ 2, 153630, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6#, =q1= #r3#, 480 #Tol'Garod#"};
-		
+		{ 3, 153639, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6#, =q1="};
 		{ 6, 153632, "", "=q4=Знак Тигра", "=ds=#h2#, #w9#, =q1= #r3#, 480 #Tol'Garod#"};
-		
+		{ 7, 153641, "", "=q4=Знак Тигра", "=ds=#h2#, #w9#, =q1="};
 		{ 17, 153631, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9#, =q1= #r3#, 480 #Tol'Garod#"};
-				
+		{ 18, 153640, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9#, =q1="};		
 		{ 21, 153633, "", "=q4=Пронзающий небеса", "=ds=#w3#, =q1= #r3#, 360 #Tol'Garod#"};
-				
+		{ 22, 153642, "", "=q4=Пронзающий небеса", "=ds=#w3#, =q1="};	
 		Next = "Kor'kron_Battalion5_x4";
 		Prev = "Kor'kron_Battalion3_x4";	
 		Back = "REPMENU";	
 	};	
 	AtlasLoot_Data["Kor'kron_Battalion5_x4"] = {
 		{ 2, 154408, "", "=q4=Расколотое солнце", "=ds=#s14# =q1= #r4#, 240 #Tol'Garod#"};	
-		
+		{ 3, 154409, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};	
 		{ 6, 153721, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1= #r4# 240 #Tol'Garod#"};
-	
+		{ 7, 153726, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};
 		{ 10, 153723, "", "=q4=Сердце грома", "=ds=#s14#, =q1= #r4#, 240 #Tol'Garod#"};
-			
+		{ 11, 153728, "", "=q4=Сердце грома", "=ds=#s14#, =q1="};
 		{ 17, 153720, "", "=q4=Вечное пламя", "=ds=#s14# =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 18, 153725, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};
 		{ 21, 153722, "", "=q4=Рог зверя", "=ds=#s14#, =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 22, 153727, "", "=q4=Рог зверя", "=ds=#s14#, =q1="};
 		{ 25, 153724, "", "=q4=Железный оберег", "=ds=#s14# =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 26, 153729, "", "=q4=Железный оберег", "=ds=#s14# =q1="};
 		Next = "Kor'kron_Battalion6_x4";
 		Prev = "Kor'kron_Battalion4_x4";	
 		Back = "REPMENU";	
 	};	
 	AtlasLoot_Data["Kor'kron_Battalion6_x4"] = {
 		{ 2, 153670, "", "=q4=Символ защитника", "=ds=#s13# =q1= #r5#, 300 #Tol'Garod#"};
-		
+		{ 3, 153675, "", "=q4=Символ защитника", "=ds=#s13# =q1="};
 		{ 6, 153672, "", "=q4=Символ воителя", "=ds=#s13# =q1= #r5# 300 #Tol'Garod#"};
-				
+		{ 7, 153677, "", "=q4=Символ воителя", "=ds=#s13# =q1="};
 		{ 10, 153674, "", "=q4=Символ лекаря", "=ds=#s13#, =q1= #r5#, 300 #Tol'Garod#"};
-		
+		{ 11, 153679, "", "=q4=Символ лекаря", "=ds=#s13#, =q1="};
 		{ 17, 153671, "", "=q4=Символ мудреца", "=ds=#s13# =q1= #r5#, 300 #Tol'Garod#"};
-		
+		{ 18, 153676, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};
 		{ 21, 153673, "", "=q4=Символ хитреца", "=ds=#s13#, =q1= #r5#, 300 #Tol'Garod#"};
-				
+		{ 22, 153678, "", "=q4=Символ хитреца", "=ds=#s13#, =q1="};		
 		Prev = "Kor'kron_Battalion5_x4";	
 		Back = "REPMENU";	
 	};
@@ -2608,77 +3139,77 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	};
 	AtlasLoot_Data["Seventh_Legion2_x4"] = {
 		{ 2, 153949, "", "=q4=Плащ вожака", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-				
+		{ 3, 153954, "", "=q4=Плащ вожака", "=ds=#s4#, =q1="};		
 		{ 6, 153951, "", "=q4=Плащ доверия", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-				
+		{ 7, 153956, "", "=q4=Плащ доверия", "=ds=#s4#, =q1="};	
 		{ 10, 153953, "", "=q4=Тень прошлого", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};		
-				
+		{ 11, 153958, "", "=q4=Тень прошлого", "=ds=#s4#, =q1="};				
 		{ 17, 153950, "", "=q4=Тень совершенства", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-						
+		{ 18, 153955, "", "=q4=Тень совершенства", "=ds=#s4#, =q1="};				
 		{ 21, 153952, "", "=q4=Накидка ваятеля", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-	
+		{ 22, 153957, "", "=q4=Накидка ваятеля", "=ds=#s4#, =q1="};
 		Next = "Seventh_Legion3_x4";	
 		Prev = "Seventh_Legion1_x4";	
 		Back = "REPMENU";	
 	};
 	AtlasLoot_Data["Seventh_Legion3_x4"] = {
 		{ 2, 154398, "", "=q4=Акрий, бородовидный топор", "=ds=#h1#, #w1#, =q1= #r3#, 240 #Tol'Garod#"};
-		
+		{ 3, 154399, "", "=q4=Акрий, бородовидный топор", "=ds=#h1#, #w1#, =q1="};
 		{ 6, 153880, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4#, =q1= #r3#, 240 #Tol'Garod#"};
-	
+		{ 7, 153889, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4#, =q1="};
 		{ 10, 153882, "", "=q4=Топорик хищника", "=ds=#h1#, #w1#, =q1= #r3# 240 #Tol'Garod#"};
-				
+		{ 11, 153891, "", "=q4=Топорик хищника", "=ds=#h1#, #w1#, =q1="};	
 		{ 17, 153879, "", "=q4=Крабовая скорбь", "=ds=#w13#, =q1= #r3#, 240 #Tol'Garod#"};
-				
+		{ 18, 153888, "", "=q4=Крабовая скорбь", "=ds=#w13#, =q1="};		
 		{ 21, 153881, "", "=q4=Элементиевая заточка", "=ds=#w4#, =q1= #r3#, 240 #Tol'Garod#"};
-		
+		{ 22, 153890, "", "=q4=Элементиевая заточка", "=ds=#w4#, =q1="};
 		{ 25, 153883, "", "=q4=Лунный молот", "=ds=#h3#, #w6#, =q1= #r3#, 240 #Tol'Garod#"};
-		
+		{ 26, 153892, "", "=q4=Лунный молот", "=ds=#h3#, #w6#, =q1="};
 		Next = "Seventh_Legion4_x4";
 		Prev = "Seventh_Legion2_x4";	
 		Back = "REPMENU";	
 	};
 	AtlasLoot_Data["Seventh_Legion4_x4"] = {
 		{ 2, 153884, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6#, =q1= #r3#, 480 #Tol'Garod#"};
-		
+		{ 3, 153893, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6#, =q1="};
 		{ 6, 153886, "", "=q4=Знак Тигра", "=ds=#h2#, #w9#, =q1= #r3#, 480 #Tol'Garod#"};
-		
+		{ 7, 153895, "", "=q4=Знак Тигра", "=ds=#h2#, #w9#, =q1="};
 		{ 17, 153885, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9#, =q1= #r3#, 480 #Tol'Garod#"};
-				
+		{ 18, 153894, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9#, =q1="};		
 		{ 21, 153887, "", "=q4=Пронзающий небеса", "=ds=#w3#, =q1= #r3#, 360 #Tol'Garod#"};
-				
+		{ 22, 153896, "", "=q4=Пронзающий небеса", "=ds=#w3#, =q1="};	
 		Next = "Seventh_Legion5_x4";
 		Prev = "Seventh_Legion3_x4";	
 		Back = "REPMENU";	
 	};	
 	AtlasLoot_Data["Seventh_Legion5_x4"] = {
 		{ 2, 154413, "", "=q4=Расколотое солнце", "=ds=#s14# =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 3, 154414, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};
 		{ 6, 153975, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1= #r4# 240 #Tol'Garod#"};
-				
+		{ 7, 153980, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};
 		{ 10, 153977, "", "=q4=Сердце грома", "=ds=#s14#, =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 11, 153982, "", "=q4=Сердце грома", "=ds=#s14#, =q1="};
 		{ 17, 153974, "", "=q4=Вечное пламя", "=ds=#s14# =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 18, 153979, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};
 		{ 21, 153976, "", "=q4=Рог зверя", "=ds=#s14#, =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 22, 153981, "", "=q4=Рог зверя", "=ds=#s14#, =q1="};
 		{ 25, 153978, "", "=q4=Железный оберег", "=ds=#s14# =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 26, 153983, "", "=q4=Железный оберег", "=ds=#s14# =q1="};
 		Next = "Seventh_Legion6_x4";
 		Prev = "Seventh_Legion4_x4";	
 		Back = "REPMENU";	
 	};
 	AtlasLoot_Data["Seventh_Legion6_x4"] = {
 		{ 2, 153924, "", "=q4=Символ защитника", "=ds=#s13# =q1= #r5#, 300 #Tol'Garod#"};
-		
+		{ 3, 153929, "", "=q4=Символ защитника", "=ds=#s13# =q1="};
 		{ 6, 153926, "", "=q4=Символ воителя", "=ds=#s13# =q1= #r5# 300 #Tol'Garod#"};
-		
+		{ 7, 153931, "", "=q4=Символ воителя", "=ds=#s13# =q1="};
 		{ 10, 153928, "", "=q4=Символ лекаря", "=ds=#s13#, =q1= #r5#, 300 #Tol'Garod#"};
-			
+		{ 11, 153933, "", "=q4=Символ лекаря", "=ds=#s13#, =q1="};
 		{ 17, 153925, "", "=q4=Символ мудреца", "=ds=#s13# =q1= #r5#, 300 #Tol'Garod#"};
-
+		{ 18, 153930, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};
 		{ 21, 153927, "", "=q4=Символ хитреца", "=ds=#s13#, =q1= #r5#, 300 #Tol'Garod#"};
-				
+		{ 22, 153932, "", "=q4=Символ хитреца", "=ds=#s13#, =q1="};		
 		Prev = "Seventh_Legion5_x4";	
 		Back = "REPMENU";	
 	};
@@ -2724,77 +3255,77 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	};	
 	AtlasLoot_Data["Golden_Scorpid2_x4"] = {
 		{ 2, 154101, "", "=q4=Плащ вожака", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-		
+		{ 3, 154106, "", "=q4=Плащ вожака", "=ds=#s4#, =q1="};
 		{ 6, 154103, "", "=q4=Плащ доверия", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-		
+		{ 7, 154108, "", "=q4=Плащ доверия", "=ds=#s4#, =q1="};
 		{ 10, 154105, "", "=q4=Тень прошлого", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-				
+		{ 10, 154110, "", "=q4=Тень прошлого", "=ds=#s4#, =q1="};
 		{ 17, 154102, "", "=q4=Тень совершенства", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-				
+		{ 18, 154107, "", "=q4=Тень совершенства", "=ds=#s4#, =q1="};	
 		{ 21, 154104, "", "=q4=Накидка ваятеля", "=ds=#s4#, =q1= #r2#, 240 #Tol'Garod#"};
-
+		{ 22, 154109, "", "=q4=Накидка ваятеля", "=ds=#s4#, =q1="};
 		Next = "Golden_Scorpid3_x4";	
 		Prev = "Golden_Scorpid1_x4";	
 		Back = "REPMENU";	
 	};	
 	AtlasLoot_Data["Golden_Scorpid3_x4"] = {
 		{ 2, 154403, "", "=q4=Акрий, бородовидный топор", "=ds=#h1#, #w1#, =q1= #r3#, 240 #Tol'Garod#"};
-		
+		{ 3, 154404, "", "=q4=Акрий, бородовидный топор", "=ds=#h1#, #w1#, =q1="};
 		{ 6, 154032, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4#, =q1= #r3#, 240 #Tol'Garod#"};
-		
+		{ 7, 154041, "", "=q4=Кинжал бессонных ночей", "=ds=#h3#, #w4#, =q1="};
 		{ 10, 154034, "", "=q4=Топорик хищника", "=ds=#h1#, #w1#, =q1= #r3# 240 #Tol'Garod#"};
-				
+		{ 11, 154043, "", "=q4=Топорик хищника", "=ds=#h1#, #w1#, =q1="};	
 		{ 17, 154031, "", "=q4=Крабовая скорбь", "=ds=#w13#, =q1= #r3#, 240 #Tol'Garod#"};
-				
+		{ 18, 154040, "", "=q4=Крабовая скорбь", "=ds=#w13#, =q1="};		
 		{ 21, 154033, "", "=q4=Элементиевая заточка", "=ds=#w4#, =q1= #r3#, 240 #Tol'Garod#"};
-		
+		{ 22, 154042, "", "=q4=Элементиевая заточка", "=ds=#w4#, =q1="};
 		{ 25, 154035, "", "=q4=Лунный молот", "=ds=#h3#, #w6#, =q1= #r3#, 240 #Tol'Garod#"};
-
+		{ 26, 154044, "", "=q4=Лунный молот", "=ds=#h3#, #w6#, =q1="};
 		Next = "Golden_Scorpid4_x4";
 		Prev = "Golden_Scorpid2_x4";	
 		Back = "REPMENU";	
 	};
 	AtlasLoot_Data["Golden_Scorpid4_x4"] = {
 		{ 2, 154036, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6#, =q1= #r3#, 480 #Tol'Garod#"};
-		
+		{ 3, 154045, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6#, =q1="};
 		{ 6, 154038, "", "=q4=Знак Тигра", "=ds=#h2#, #w9#, =q1= #r3#, 480 #Tol'Garod#"};
-		
+		{ 7, 154047, "", "=q4=Знак Тигра", "=ds=#h2#, #w9#, =q1= "};
 		{ 17, 154037, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9#, =q1= #r3#, 480 #Tol'Garod#"};
-		
+		{ 18, 154046, "", "=q4=Оскверненный посох", "=ds=#h2#, #w9#, =q1="};
 		{ 21, 154039, "", "=q4=Пронзающий небеса", "=ds=#w3#, =q1= #r3#, 360 #Tol'Garod#"};
-		
+		{ 22, 154048, "", "=q4=Пронзающий небеса", "=ds=#w3#, =q1="};
 		Next = "Golden_Scorpid5_x4";
 		Prev = "Golden_Scorpid3_x4";	
 		Back = "REPMENU";	
 	};	
 	AtlasLoot_Data["Golden_Scorpid5_x4"] = {
 		{ 2, 154418, "", "=q4=Расколотое солнце", "=ds=#s14# =q1= #r4#, 240 #Tol'Garod#"};	
-		
+		{ 3, 154419, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};	
 		{ 6, 154127, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1= #r4# 240 #Tol'Garod#"};
-		
+		{ 7, 154132, "", "=q4=Обязывающее обещание", "=ds=#s14# =q1="};
 		{ 10, 154129, "", "=q4=Сердце грома", "=ds=#s14#, =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 11, 154134, "", "=q4=Сердце грома", "=ds=#s14#, =q1="};
 		{ 17, 154126, "", "=q4=Вечное пламя", "=ds=#s14# =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 18, 154131, "", "=q4=Вечное пламя", "=ds=#s14# =q1="};
 		{ 21, 154128, "", "=q4=Рог зверя", "=ds=#s14#, =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 22, 154133, "", "=q4=Рог зверя", "=ds=#s14#, =q1="};
 		{ 25, 154130, "", "=q4=Железный оберег", "=ds=#s14# =q1= #r4#, 240 #Tol'Garod#"};
-		
+		{ 26, 154135, "", "=q4=Железный оберег", "=ds=#s14# =q1="};
 		Next = "Golden_Scorpid6_x4";
 		Prev = "Golden_Scorpid4_x4";	
 		Back = "REPMENU";	
 	};
 	AtlasLoot_Data["Golden_Scorpid6_x4"] = {
 		{ 2, 154076, "", "=q4=Символ защитника", "=ds=#s13# =q1= #r5#, 300 #Tol'Garod#"};
-		
+		{ 3, 154081, "", "=q4=Символ защитника", "=ds=#s13# =q1="};
 		{ 6, 154078, "", "=q4=Символ воителя", "=ds=#s13# =q1= #r5# 300 #Tol'Garod#"};
-				
+		{ 7, 154083, "", "=q4=Символ воителя", "=ds=#s13# =q1="};	
 		{ 10, 154080, "", "=q4=Символ лекаря", "=ds=#s13#, =q1= #r5#, 300 #Tol'Garod#"};
-			
+		{ 11, 154085, "", "=q4=Символ лекаря", "=ds=#s13#, =q1="};
 		{ 17, 154077, "", "=q4=Символ мудреца", "=ds=#s13# =q1= #r5#, 300 #Tol'Garod#"};
-		
+		{ 18, 154082, "", "=q4=Символ мудреца", "=ds=#s13# =q1="};
 		{ 21, 154079, "", "=q4=Символ хитреца", "=ds=#s13#, =q1= #r5#, 300 #Tol'Garod#"};
-				
+		{ 22, 154084, "", "=q4=Символ хитреца", "=ds=#s13#, =q1="};	
 		Prev = "Golden_Scorpid5_x4";	
 		Back = "REPMENU";	
 	};
@@ -2834,16 +3365,25 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 
 	AtlasLoot_Data["Norigorn_x4"] = {		
 		{ 1, 154425, "", "=q4=Полевой мешочек тауматурга", "=ds=#h4#"};	
-		{ 2, 154430, "", "=q4=Светоч искры жизни", "=ds=#h4#"};	
-		{ 3, 154435, "", "=q4=Баклер заклинателя духов", "=ds=#h4#, #w8#"};	
-		{ 4, 154440, "", "=q4=Боевой щит тюремного стража", "=ds=#h4#, #w8#"};	
+		{ 2, 154426, "", "=q4=Полевой мешочек тауматурга", "=ds=#h4#"};	
+		{ 3, 154430, "", "=q4=Светоч искры жизни", "=ds=#h4#"};	
+		{ 4, 154431, "", "=q4=Светоч искры жизни", "=ds=#h4#"};	
+		{ 5, 154435, "", "=q4=Баклер заклинателя духов", "=ds=#h4#, #w8#"};	
+		{ 6, 154436, "", "=q4=Баклер заклинателя духов", "=ds=#h4#, #w8#"};	
+		{ 7, 154440, "", "=q4=Боевой щит тюремного стража", "=ds=#h4#, #w8#"};	
+		{ 8, 154441, "", "=q4=Боевой щит тюремного стража", "=ds=#h4#, #w8#"};	
 		{ 14, 153403, "", "=q4=Ненасытный поглотитель", "=ds=#e12#"};
 		{ 15, 153349, "", "=q4=Лазурепанцирный кролуск", "=ds=#e13#"};
 		{ 16, 154445, "", "=q4=Счастливая карта", "=ds=#s14#"};	
-		{ 17, 154450, "", "=q4=Клык Тол'Гародской лисицы", "=ds=#s14#"};	
-		{ 18, 154455, "", "=q4=Последний вдох", "=ds=#s14#"};	
-		{ 19, 154460, "", "=q4=Сердце хранителя", "=ds=#s14#"};	
-		{ 20, 154465, "", "=q4=Кристаллизованная слеза", "=ds=#s14#"};
+		{ 17, 154446, "", "=q4=Счастливая карта", "=ds=#s14#"};	
+		{ 18, 154450, "", "=q4=Клык Тол'Гародской лисицы", "=ds=#s14#"};
+		{ 19, 154451, "", "=q4=Клык Тол'Гародской лисицы", "=ds=#s14#"};			
+		{ 20, 154455, "", "=q4=Последний вдох", "=ds=#s14#"};
+		{ 21, 154456, "", "=q4=Последний вдох", "=ds=#s14#"};		
+		{ 22, 154460, "", "=q4=Сердце хранителя", "=ds=#s14#"};	
+		{ 23, 154461, "", "=q4=Сердце хранителя", "=ds=#s14#"};
+		{ 24, 154465, "", "=q4=Кристаллизованная слеза", "=ds=#s14#"};
+		{ 25, 154466, "", "=q4=Кристаллизованная слеза", "=ds=#s14#"};
 	};
 		------------------------
 		--- Bronze Sanctuary ---
