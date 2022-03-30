@@ -150,6 +150,8 @@ if AL then
 	AL["ForgottenSets"] = "Комплекты экипировки";
 	AL["ForgottenChests"] = "Сундуки с аксессуарами";
 	AL["ForgottenGems"] = "Древние драгоценные камни";
+	AL["ForgottenPetsMount"] = "Спутники и транспорт";
+	AL["ForgottenRep"] = "Знаки репутаций";
 
 	AL["LastLootedItems"] = "Последние полученные предметы";
 	AL["LastLootedItems2"] = "Последние полученные предметы";
@@ -382,6 +384,7 @@ if AL then
     AL["Emblem of Valor Rewards"] = "Хорошие артефакты";
     AL["Emblem of Heroism Rewards"] = "Дешевые артефакты";
     AL["Emblem of Conquest Rewards"] = "Улучшенные артефакты";
+	AL["Emblem of Subjugation Rewards"] = "Отличные артефакты";
 	AL["Emblem of Triumph Rewards"] = "Хорошие артефакты";
 	AL["Emblem of Frost Rewards"] = "Улучшенные артефакты";
     AL["BoE World Epics"] = "Мировые превосходные ПпП";
@@ -459,10 +462,15 @@ if AL then
     AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
 	-- Zone
 	AL["Bronze Sanctuary"] = "Бронзовое Святилище";
+	AL["Tol'Garod Prison"] = "Тол'Гародская тюрьма";
 	-- Boss
 	AL["Murozond"] = "Мурозонд";
 	AL["Elonus"] = "Исказитель времени Элонус";
 	AL["Imporus"] = "Импорус";
+	
+	AL["Gogonash"] = "Гогонаш";
+	AL["Xtrax Mind Absorber"] = "Поглотитель разума Ктракс";
+	AL["Magic Eater"] = "Пожиратель магии";
 
 	--Other
 
@@ -684,6 +692,7 @@ if AL then
 	AL["A Tribute to Immortality"] = "Дань бессмертию";
 	AL["Low Level"] = "Низкого уровня";
 	AL["High Level"] = "Высокого уровня";
+	AL["Weapons a12"] = "Оружие 12 PVP сезона";
 	AL["Weapons a11"] = "Оружие 11 PVP сезона";
 	AL["Weapons a10"] = "Оружие 10 PVP сезона";
 	AL["Weapons a9"] = "Оружие 9 PVP сезона";
@@ -1416,6 +1425,7 @@ if AL then
 	AL["arenaset9"] = "Экипировка 9 PVP сезона  ";
 	AL["arenaset10"] = "Экипировка 10 PVP сезона  ";
 	AL["arenaset11"] = "Экипировка 11 PVP сезона  ";
+	AL["arenaset12"] = "Экипировка 12 PVP сезона  ";
 
 	AL["arenaset05"] = "5 PVP сезона ";
 	AL["arenaset06"] = "6 PVP сезона ";
@@ -1424,6 +1434,7 @@ if AL then
 	AL["arenaset09"] = "9 PVP сезона ";
 	AL["arenaset010"] = "10 PVP сезона ";
 	AL["arenaset011"] = "11 PVP сезона  ";
+	AL["arenaset012"] = "12 PVP сезона  ";
     -- Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "Оружие свирепого гладиатора";  --unused
     AL["Deadly Gladiator\'s Weapons"] = "Оружие смертоносного гладиатора";  --unused

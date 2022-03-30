@@ -233,7 +233,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["Forgotten"] = {
 		{ 2, "ForgottenSets", "Inv_chest_plate18", "=ds="..AL["ForgottenSets"], ""};
 		{ 3, "ForgottenChests_A", "Inv_misc_enggizmos_17", "=ds="..AL["ForgottenChests"], ""};
+		{ 4, "ForgottenRep", "Inv_Shield_48", "=ds="..AL["ForgottenRep"], ""};
 		{ 17, "ForgottenGems", "Inv_jewelcrafting_shadowsongamethyst_01", "=ds="..AL["ForgottenGems"], ""};
+		{ 18, "ForgottenPetsMount", "Inv_fungarian_blood", "=ds="..AL["ForgottenPetsMount"], ""};
 		Back = "KATEGORIAMENU";
 	};
 	AtlasLoot_Data["Maar'n"] = {

@@ -9,6 +9,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 2, "EMBLEMOFHEROISMMENU", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 3, "EMBLEMOFVALORMENU", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 4, "EMBLEMOFCONQUESTMENU", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 5, "EMBLEMOFSUBJUGATIONMENU", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Subjugation Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 6, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 		{ 7, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
 		{ 8, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
@@ -32,8 +33,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 	
 		
-
-
 
 	AtlasLoot_Data["70TOKENMENU"] = {
 		{ 2, "HardModeCloth", "Spell_Holy_ChampionsBond", "=ds="..BabbleInventory["Cloth"], ""};
@@ -70,6 +69,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "SETMENU";
 	};
 
+	AtlasLoot_Data["EMBLEMOFSUBJUGATIONMENU"] = {
+		{ 2, 0, "INV_Box_01", "=q6=Уровень предметов: 277", ""};
+		{ 3, "EmblemofScorching", "inv_misc_frostemblem_01", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], ""};
+		Back = "SETMENU";
+	};
 	AtlasLoot_Data["EMBLEMOFVALORMENU"] = {
 		{ 2, 0, "INV_Box_01", "=q6=Уровень предметов: 232-245", ""};
 		{ 3, "EmblemofTriumph1_A", "spell_holy_summonchampion", "=ds="..BabbleInventory["Armor"], ""};

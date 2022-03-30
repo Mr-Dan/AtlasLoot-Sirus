@@ -256,7 +256,10 @@ AtlasLoot_DewDropDown = {
 		[AL["Sirus Raids"]] = {
 			[1] = {
 				{ AL["Bronze Sanctuary"], "BronzeSanctuary", "Submenu" },
-			},		
+			},	
+			[2] = {
+				{ AL["Tol'Garod Prison"], "Tol'Garod Prison", "Submenu" },
+			},				
 		},
 	},
 	[8] = {
@@ -935,4 +938,11 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "Murozond25Man" },
 		{ "", "GrainOfSandOfLost" },
 	},
+	["Tol'Garod Prison"] = {
+		{ "", "Gogonash_x2" },
+		{ "", "Xtrax Mind Absorber" },
+		{ "", "Magic Eater" },
+		
+	},
+		
 };
