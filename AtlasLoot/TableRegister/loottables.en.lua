@@ -61,18 +61,20 @@ end
 	AtlasLoot_TableNames["Xtrax Mind Absorber_x4"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Magic Eater_x4"] ={AL["Magic Eater"], "AtlasLootSirus" };
 	-- Bronze Sanctuary
-	AtlasLoot_TableNames["Murozond25Man"] ={AL["Murozond"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Elonus25Man"] ={AL["Elonus"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Imporus25Man"] ={AL["Imporus"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["MurozondHARD25Man"] ={AL["Murozond"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["ElonusHARD25Man"] ={AL["Elonus"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["ImporusHARD25Man"] ={AL["Imporus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Murozond"] ={AL["Murozond"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Elonus"] ={AL["Elonus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Imporus"] ={AL["Imporus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["MurozondHARD"] ={AL["Murozond"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ElonusHARD"] ={AL["Elonus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ImporusHARD"] ={AL["Imporus"], "AtlasLootSirus" };
 	
-	AtlasLoot_TableNames["Murozond25ManHEROIC"] ={AL["Murozond"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Elonus25ManHEROIC"] ={AL["Elonus"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Imporus25ManHEROIC"] ={AL["Imporus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["MurozondHEROIC"] ={AL["Murozond"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ElonusHEROIC"] ={AL["Elonus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ImporusHEROIC"] ={AL["Imporus"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["GrainOfSandOfLost"] ={AL["GrainOfSandOfLost"], "AtlasLootSirus" };
 	
+	AtlasLoot_TableNames["Zort"] ={AL["Zort"], "AtlasLootSirus" };
+		
 -----------------------
 --- WotLK Instances ---
 -----------------------
@@ -1811,14 +1813,14 @@ end
 	AtlasLoot_TableNames["LastLootedItems"] = { AL["LastLootedItems"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["LastLootedItems2"] = { AL["LastLootedItems2"], "AtlasLootSirus" };
 	
-	AtlasLoot_TableNames["TrinketChests_A"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests2_A"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests3_A"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests4_A"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests_H"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests2_H"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests3_H"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests4_H"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests_x2"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests2_x2"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests3_x2"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests4_x2"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests_x4"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests2_x4"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests3_x4"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests4_x4"] = { AL["TrinketChests"], "AtlasLootSirus" };
 
 	AtlasLoot_TableNames["TailorMenu1"] = { AL["TailorSign1"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["TailorMenu2"] = { AL["TailorSign2"], "AtlasLootWorldEvents" };

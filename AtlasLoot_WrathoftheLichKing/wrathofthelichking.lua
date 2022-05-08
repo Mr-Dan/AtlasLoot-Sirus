@@ -13902,7 +13902,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 11, 40569, "", "=q4=Valorous Redemption Tunic", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40570, "", "=q4=Valorous Redemption Gloves", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40572, "", "=q4=Valorous Redemption Greaves", "=ds="..BabbleBoss["Thaddius"]};
-		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t8s4_1#", "=q5=("..AL["10 Man"]..")"};
+		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t8s4_1#", "=q5="..AL["Tier 8"].." ("..AL["10 Man"]..")"};
 		{ 17, 45372, "", "=q4=Valorous Aegis Headpiece", "=ds="..BabbleBoss["Mimiron"]};
 		{ 18, 45373, "", "=q4=Valorous Aegis Spaulders", "=ds="..BabbleBoss.Thorim};
 		{ 19, 45374, "", "=q4=Valorous Aegis Tunic", "=ds="..BabbleBoss["Yogg-Saron"]};
@@ -13930,7 +13930,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 11, 40574, "", "=q4=Valorous Redemption Chestpiece", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40575, "", "=q4=Valorous Redemption Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40577, "", "=q4=Valorous Redemption Legplates", "=ds="..BabbleBoss["Thaddius"]};
-		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t8s4_2#", "=q5=("..AL["10 Man"]..")"};
+		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t8s4_2#", "=q5="..AL["Tier 8"].." ("..AL["10 Man"]..")"};
 		{ 17, 45377, "", "=q4=Valorous Aegis Helm", "=ds="..BabbleBoss["Mimiron"]};
 		{ 18, 45380, "", "=q4=Valorous Aegis Shoulderplates", "=ds="..BabbleBoss.Thorim};
 		{ 19, 45375, "", "=q4=Valorous Aegis Battleplate", "=ds="..BabbleBoss["Yogg-Saron"]};
@@ -13958,7 +13958,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 11, 40579, "", "=q4=Valorous Redemption Breastplate", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40580, "", "=q4=Valorous Redemption Handguards", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40583, "", "=q4=Valorous Redemption Legguards", "=ds="..BabbleBoss["Thaddius"]};
-		{ 16, 0, "Spell_Holy_SealOfMight", "=q6=#t8s4_3#", "=q5=("..AL["10 Man"]..")"};
+		{ 16, 0, "Spell_Holy_SealOfMight", "=q6=#t8s4_3#", "=q5="..AL["Tier 8"].." ("..AL["10 Man"]..")"};
 		{ 17, 45382, "", "=q4=Valorous Aegis Faceguard", "=ds="..BabbleBoss["Mimiron"]};
 		{ 18, 45385, "", "=q4=Valorous Aegis Shouldergards", "=ds="..BabbleBoss.Thorim};
 		{ 19, 45381, "", "=q4=Valorous Aegis Breastplate", "=ds="..BabbleBoss["Yogg-Saron"]};
@@ -16010,9 +16010,9 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 22, 31831, "", "=q4=Reins of the Silver Riding Talbuk", "=ds=#e12#"};
 		{ 23, 31833, "", "=q4=Reins of the Tan Riding Talbuk", "=ds=#e12#"};
 		{ 24, 31835, "", "=q4=Reins of the White Riding Talbuk", "=ds=#e12#"};
-		{ 26, 0, "INV_BannerPVP_02", "=q6=Ravasaur Trainers #j30#", "=ec1=#m7#"};
+		{ 26, 0, "INV_BannerPVP_01", "=q6="..BabbleFaction["Wintersaber Trainers"].. " #j30#", "=ec1=#m6#"};
 		{ 27, 46102, "", "=q4=Whistle of the Venomhide Ravasaur", "=ds=#e12#"};
-		{ 28, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["The Sunreavers"].." #j30#", "=ec1=#m7#"};
+		{ 28, 0, "INV_BannerPVP_01", "=q6="..BabbleFaction["The Sunreavers"].." #j30#", "=ec1=#m6#"};
 		{ 29, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e12#"};
 		{ 30, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e12#"};
 		Prev = "MountsHorde2";

@@ -3158,9 +3158,10 @@ AtlasLoot_Data["Enchant_Tol'Garod"] = {
 		{ 23, "s200033", "150033", "=q4=Hessonite", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };		
 		{ 24, "s319043", "97616", "=q4=Hessonite", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
 		{ 25, "s319044", "97617", "=q4=Hessonite", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
-		{ 26, "s319045", "97619", "=q4=Hessonite", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
-		{ 27, "s319046", "97620", "=q4=Hessonite", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
-		{ 28, "s319047", "97621", "=q4=Hessonite", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
+		{ 26, "s319045", "97618", "=q4=Hessonite", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
+		{ 27, "s319046", "97619", "=q4=Hessonite", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
+		{ 28, "s319047", "97620", "=q4=Hessonite", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
+		{ 29, "s319048", "97621", "=q4=Hessonite", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
 		Next = "JewelOrange2";
 		Back = "JEWELCRAFTINGMENU";
 	};

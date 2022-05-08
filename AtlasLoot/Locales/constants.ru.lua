@@ -471,6 +471,8 @@ if AL then
 	AL["Gogonash"] = "Гогонаш";
 	AL["Xtrax Mind Absorber"] = "Поглотитель разума Ктракс";
 	AL["Magic Eater"] = "Пожиратель магии";
+	
+	AL["Zort"] = "Зорт";
 
 	--Other
 

@@ -259,7 +259,10 @@ AtlasLoot_DewDropDown = {
 			},	
 			[2] = {
 				{ AL["Tol'Garod Prison"], "Tol'Garod Prison", "Submenu" },
-			},				
+			},	
+			[3] = {
+				{ AL["Zort"], "Zort", "Submenu" },
+			},			
 		},
 	},
 	[8] = {
@@ -933,16 +936,19 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "ICCTrash25Man" },
 	},
 	["BronzeSanctuary"] = {
-		{ "", "Imporus25Man" },
-		{ "", "Elonus25Man" },
-		{ "", "Murozond25Man" },
+		{ "", "Imporus" },
+		{ "", "Elonus" },
+		{ "", "Murozond" },
 		{ "", "GrainOfSandOfLost" },
 	},
 	["Tol'Garod Prison"] = {
 		{ "", "Gogonash_x2" },
-		{ "", "Xtrax Mind Absorber" },
-		{ "", "Magic Eater" },
+		{ "", "Xtrax Mind Absorber_x2" },
+		{ "", "Magic Eater_x2" },
 		
+	},
+	["Zort"] = {
+		{ "", "Zort" },			
 	},
 		
 };

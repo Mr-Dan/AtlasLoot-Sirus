@@ -24,7 +24,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, "MillenniumRoulettex_x2", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};
 		{ 18, "BlackDiamonds", "inv_legendary_chimeraoffear", "=ds="..AL["BlackDiamonds"], ""};
 		{ 19, "BlackDiamonds2", "INV_Legendary_BreathofBlackPrince_AGI", "=ds="..AL["BlackDiamonds2"], ""};
-		{ 20, "TrinketChests_H", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
+		{ 20, "TrinketChests_x2", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
 		{ 21, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
 		{ 22, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
 		{ 23, "LiliMenu", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
@@ -35,7 +35,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["KATEGORIAMENU_x4"] = {	
-		{ 2, "TrinketChests_H", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
+		{ 2, "TrinketChests_x4", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
 		{ 3, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
 		{ 4, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
 		{ 5, "LiliMenu", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
