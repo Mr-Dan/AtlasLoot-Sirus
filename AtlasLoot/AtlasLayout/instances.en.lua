@@ -11,9 +11,9 @@ AtlasLootNewBossButtons = {
 		"";
 		"";
 		"";
-		"Imporus25Man";
-		"Elonus25Man";
-		"Murozond25Man";
+		"Imporus";
+		"Elonus";
+		"Murozond";
 		"";
 		"";
 		"";
@@ -1825,9 +1825,9 @@ AtlasLootBossButtons = {
 		"";
 		"";
 		"";
-		"Imporus25Man";
-		"Elonus25Man";
-		"Murozond25Man";
+		"Imporus";
+		"Elonus";
+		"Murozond";
 		"";
 		"";
 		"";
