@@ -23,6 +23,7 @@ AtlasLootVersionsList[20] = "30.11.21"
 AtlasLootVersionsList[21] = "28.12.21"
 AtlasLootVersionsList[22] = "30.03.22"
 AtlasLootVersionsList[23] = "08.05.22"
+AtlasLootVersionsList[24] = "29.05.22"
 local GREY = "|cff999999";
 local RED = "|cffff0000";
 local WHITE = "|cffFFFFFF";
@@ -235,6 +236,10 @@ elseif x == 23 then
 text:SetText(WHITE..
 "- Добавлены предметы с Зорта".."\n\n"..
 "- Исправления багов".."\n\n"
+)
+elseif x == 24 then
+text:SetText(WHITE..
+"- Исправлен лут с Зорта".."\n\n"
 )
 end
 end
