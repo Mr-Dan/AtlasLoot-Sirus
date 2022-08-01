@@ -1,4 +1,4 @@
-﻿local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
@@ -716,19 +716,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 12, 28233, "", "=q4=Necklace of Resplendent Hope", "=ds=#s2#", "", "15.00%"};
 		{ 13, 27904, "", "=q4=Resounding Ring of Glory", "=ds=#s13#", "", "0.17%"};
 		{ 14, 28227, "", "=q4=Sparking Arcanite Ring", "=ds=#s13#", "", "0.24%"};
-		{ 16, 28223, "", "=q4=Arcanist's Stone", "=ds=#s14#", "", "10.00%"};
-		{ 17, 28226, "", "=q4=Timeslicer", "=ds=#h1#, #w4#", "", "5.00%"};
-		{ 18, 28222, "", "=q4=Reaver of the Infinites", "=ds=#h2#, #w1#", "", "0.48%"};
-
-		{ 20, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 21, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 22, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 23, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 24, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 25, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
-
-		{ 27, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#", "", ""};
-		{ 29, 24173, "", "=q4=Design: Circlet of Arcane Might", "=ds=#p12# (370)", "", "0.10%"};
+		{ 15, 28223, "", "=q4=Arcanist's Stone", "=ds=#s14#", "", "10.00%"};
+		{ 16, 28226, "", "=q4=Timeslicer", "=ds=#h1#, #w4#", "", "5.00%"};
+		{ 17, 28222, "", "=q4=Reaver of the Infinites", "=ds=#h2#, #w1#", "", "0.48%"};
+		{ 18, 149334, "", "=q4=Фрагмент зачарованного ювелирного кристалла", "=ds=#e7#", "", ""};
+		{ 19, 99977, "", "=q1=Фрагмент красной мистической полироли", "=ds=#pigment#"};
+		{ 20, 99979, "", "=q1=Фрагмент синей мистической полироли", "=ds=#pigment#"};
+		{ 21, 99978, "", "=q1=Фрагмент желтой мистической полироли", "=ds=#pigment#"};
+		{ 22, 99981, "", "=q1=Фрагмент фиолетовой мистической полироли", "=ds=#pigment#"};
+		{ 23, 99982, "", "=q1=Фрагмент зеленой мистической полироли", "=ds=#pigment#"};
+		{ 24, 99980, "", "=q1=Фрагмент оранжевой мистической полироли", "=ds=#pigment#"};
+		{ 25, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#", "", ""};
 		Prev = "CoTHillsbradSkarloc";
 	};
 
@@ -791,19 +789,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 13, 29253, "", "=q4=Girdle of Valorous Deeds", "=ds=#s10#, #a4#"};
 		{ 14, 28190, "", "=q4=Scarab of the Infinite Cycle", "=ds=#s14#", "", "11.32%"};
 		{ 15, 28189, "", "=q4=Latro's Shifting Sword", "=ds=#h1#, #w10#", "", "9.70%"};
-		{ 16, 28188, "", "=q4=Bloodfire Greatstaff", "=ds=#w9#", "", "10.48%"};
+		{ 16, 28188, "", "=q4=Bloodfire Greatstaff", "=ds=#w9#", "", "10.48%"};	
 		{ 17, 29356, "", "=q4=Quantum Blade", "=ds=#h2#, #w10#"};
-
-		{ 19, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 20, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 21, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 22, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 23, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 24, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
-
-
-		{ 26, 68833, "", "=q3=Panther Cub", "=ds=#e13#", "", ""};
-		{ 28, 33858, "", "=q1=Aeonus's Hourglass", "=ds=#m3#", "", "100%"};
+		{ 18, 149334, "", "=q4=Фрагмент зачарованного ювелирного кристалла", "=ds=#e7#", "", ""};
+		{ 19, 99977, "", "=q1=Фрагмент красной мистической полироли", "=ds=#pigment#"};
+		{ 20, 99979, "", "=q1=Фрагмент синей мистической полироли", "=ds=#pigment#"};
+		{ 21, 99978, "", "=q1=Фрагмент желтой мистической полироли", "=ds=#pigment#"};
+		{ 22, 99981, "", "=q1=Фрагмент фиолетовой мистической полироли", "=ds=#pigment#"};
+		{ 23, 99982, "", "=q1=Фрагмент зеленой мистической полироли", "=ds=#pigment#"};
+		{ 24, 99980, "", "=q1=Фрагмент оранжевой мистической полироли", "=ds=#pigment#"};
+		{ 25, 68833, "", "=q3=Panther Cub", "=ds=#e13#", "", ""};
 		Prev = "CoTMorassTemporus";
 	};
 
@@ -2268,7 +2263,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 6, 28757, "", "=q4=Ring of a Thousand Marks", "=ds=#s13#", "", "12.90%"};
 		{ 8, 28770, "", "=q4=Nathrezim Mindblade", "=ds=#h3#, #w4#", "", "10.64%"};
 		{ 9, 28768, "", "=q4=Malchazeen", "=ds=#h1#, #w4#", "", "9.84%"};
-		{ 10, 106, "", "=q4=The Decapitator", "=ds=#h1#, #w1#", "", "15.43%"};
+		{ 10, 28767, "", "=q4=The Decapitator", "=ds=#h1#, #w1#", "", "15.43%"};
 		{ 11, 28773, "", "=q4=Gorehowl", "=ds=#h2#, #w1#", "", "12.63%"};
 		{ 12, 28771, "", "=q4=Light's Justice", "=ds=#h3#, #w6#", "", "11.17%"};
 		{ 13, 28772, "", "=q4=Sunfury Bow of the Phoenix", "=ds=#w2#", "", "9.97%"};
@@ -4524,8 +4519,6 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		--- 	  Tier 4       	---
 		----------------------------
 
-
-
 	AtlasLoot_Data["T4DruidFeral"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t4s1_1#", "=ec1=#m21#"};
 		{ 2, 29098, "", "=q4=Stag-Helm of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4539,107 +4532,112 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100480, "", "=q4=Breastplate of Malorne", "=ds=#netherseal#"};
 		{ 12, 100481, "", "=q4=Gauntlets of Malorne", "=ds=#netherseal#"};
 		{ 13, 100483, "", "=q4=Greaves of Malorne", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Ability_Druid_Maul", "=q6=#t4s1_2#", "=ec1=#m21#"};
+		{ 17, 101382, "", "=q4=Shoulderguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101384, "", "=q4=Shoulderguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101380, "", "=q4=Chestguard of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101381, "", "=q4=Handguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101383, "", "=q4=Legguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
-
-
 	AtlasLoot_Data["T4DruidRestoration"] = {
-
-
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_2#", "=ec1=#m21#"};
 		{ 2, 29086, "", "=q4=Crown of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29089, "", "=q4=Shoulderguards of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29087, "", "=q4=Chestguard of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29090, "", "=q4=Handguards of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29088, "", "=q4=Legguards of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
 		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_2#", "=ec1=#m21#"};
 		{ 9, 100470, "", "=q4=Crown of Malorne", "=ds=#netherseal#"};
 		{ 10, 100473, "", "=q4=Shoulderguards of Malorne", "=ds=#netherseal#"};
 		{ 11, 100471, "", "=q4=Chestguard of Malorne", "=ds=#netherseal#"};
 		{ 12, 100474, "", "=q4=Handguards of Malorne", "=ds=#netherseal#"};
 		{ 13, 100472, "", "=q4=Legguards of Malorne", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", ""};
+		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_2#", "=ec1=#m21#"};
+		{ 17, 101370, "", "=q4=Crown of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101373, "", "=q4=Shoulderguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101371, "", "=q4=Chestguard of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101374, "", "=q4=Handguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101372, "", "=q4=Legguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", ""};
 		Back = "T4SET";
 	};
 
-
-
 	AtlasLoot_Data["T4DeathKnightDPS"] = {
-
-
-		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 1, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 2, 55848, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 55207, "", "=q4=Pauldrons of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 55254, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 55784, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 56104, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
-		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 8, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 9, 100489, "", "=q4=Antlers of Malorne", "=ds=#netherseal#"};
 		{ 10, 100485, "", "=q4=Pauldrons of Malorne", "=ds=#netherseal#"};
 		{ 11, 100486, "", "=q4=Chestpiece of Malorne", "=ds=#netherseal#"};
 		{ 12, 100487, "", "=q4=Gloves of Malorne", "=ds=#netherseal#"};
 		{ 13, 100490, "", "=q4=Britches of Malorne", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 17, 101389, "", "=q4=Antlers of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101385, "", "=q4=Pauldrons of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101386, "", "=q4=Chestpiece of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101387, "", "=q4=Gloves of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101390, "", "=q4=Britches of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
-
-
 	AtlasLoot_Data["T4DeathKnightTank"] = {
-
-		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 1, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 2, 63462, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 55792, "", "=q4=Pauldrons of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 56291, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 56323, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 56435, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
-		{8, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 8, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 9, 100494, "", "=q4=Antlers of Malorne", "=ds=#netherseal#"};
 		{ 10, 100488, "", "=q4=Pauldrons of Malorne", "=ds=#netherseal#"};
 		{ 11, 100491, "", "=q4=Chestpiece of Malorne", "=ds=#netherseal#"};
 		{ 12, 100492, "", "=q4=Gloves of Malorne", "=ds=#netherseal#"};
 		{ 13, 100493, "", "=q4=Britches of Malorne", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 17, 101394, "", "=q4=Antlers of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101388, "", "=q4=Pauldrons of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101391, "", "=q4=Chestpiece of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101392, "", "=q4=Gloves of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101393, "", "=q4=Britches of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
-
 
 	AtlasLoot_Data["T4DruidBalance"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
@@ -4648,25 +4646,28 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 29091, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29092, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29094, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
 		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 9, 100477, "", "=q4=Antlers of Malorne", "=ds=#netherseal#"};
 		{ 10, 100479, "", "=q4=Pauldrons of Malorne", "=ds=#netherseal#"};
 		{ 11, 100475, "", "=q4=Chestpiece of Malorne", "=ds=#netherseal#"};
 		{ 12, 100476, "", "=q4=Gloves of Malorne", "=ds=#netherseal#"};
 		{ 13, 100478, "", "=q4=Britches of Malorne", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 17, 101377, "", "=q4=Crown of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101379, "", "=q4=Shoulderguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101375, "", "=q4=Chestguard of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101376, "", "=q4=Handguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101378, "", "=q4=Legguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
-
 
 	AtlasLoot_Data["T4Hunter"] = {
 		{1, 0, "Ability_Hunter_RunningShot", "=q6=#t4s2#", "=ec1=#m21#"};
@@ -4675,26 +4676,28 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 29082, "", "=q4=Demon Stalker Harness", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29085, "", "=q4=Demon Stalker Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29083, "", "=q4=Demon Stalker Greaves", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t4s2#", "=ec1=#m21#"};
 		{ 9, 100465, "", "=q4=Demon Stalker Greathelm", "=ds=#netherseal#"};
 		{ 10, 100468, "", "=q4=Demon Stalker Shoulderguards", "=ds=#netherseal#"};
 		{ 11, 100466, "", "=q4=Demon Stalker Harness", "=ds=#netherseal#"};
 		{ 12, 100469, "", "=q4=Demon Stalker Gauntlets", "=ds=#netherseal#"};
 		{ 13, 100467, "", "=q4=Demon Stalker Greaves", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t4s2#", "=ec1=#m21#"};
+		{ 17, 101365, "", "=q4=Demon Stalker Greathelm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101368, "", "=q4=Demon Stalker Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101366, "", "=q4=Demon Stalker Harness", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101369, "", "=q4=Demon Stalker Gauntlets", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101367, "", "=q4=Demon Stalker Greaves", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
-
 
 	AtlasLoot_Data["T4Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t4s3#", "=ec1=#m21#"};
@@ -4703,28 +4706,32 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 29077, "", "=q4=Vestments of the Aldor", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29080, "", "=q4=Gloves of the Aldor", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29078, "", "=q4=Legwraps of the Aldor", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
 		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t4s3#", "=ec1=#m21#"};
 		{ 9, 100460, "", "=q4=Collar of the Aldor", "=ds=#netherseal#"};
 		{ 10, 100463, "", "=q4=Pauldrons of the Aldor", "=ds=#netherseal#"};
 		{ 11, 100461, "", "=q4=Vestments of the Aldor", "=ds=#netherseal#"};
 		{ 12, 100464, "", "=q4=Gloves of the Aldor", "=ds=#netherseal#"};
 		{ 13, 100462, "", "=q4=Legwraps of the Aldor", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#t4s3#", "=ec1=#m21#"};
+		{ 17, 101360, "", "=q4=Collar of the Aldor", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101363, "", "=q4=Pauldrons of the Aldor", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101361, "", "=q4=Vestments of the Aldor", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101364, "", "=q4=Gloves of the Aldor", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101362, "", "=q4=Legwraps of the Aldor", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
 
 	AtlasLoot_Data["T4PaladinProtection"] = {
-	{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t4s4_1#", "=ec1=#m21#"};
+		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t4s4_1#", "=ec1=#m21#"};
 		{ 2, 29068, "", "=q4=Justicar Faceguard", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29070, "", "=q4=Justicar Shoulderguards", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29066, "", "=q4=Justicar Chestguard", "=ds="..BabbleBoss["Magtheridon"]};
@@ -4736,22 +4743,26 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100450, "", "=q4=Justicar Chestguard", "=ds=#netherseal#"};
 		{ 12, 100451, "", "=q4=Justicar Handguards", "=ds=#netherseal#"};
 		{ 13, 100453, "", "=q4=Justicar Legguards", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Holy_SealOfMight", "=q6=#t4s4_1#", "=ec1=#m21#"};
+		{ 17, 101352, "", "=q4=Justicar Faceguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101354, "", "=q4=Justicar Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101350, "", "=q4=Justicar Chestguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101351, "", "=q4=Justicar Handguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101353, "", "=q4=Justicar Legguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
 
 	AtlasLoot_Data["T4PaladinRetribution"] = {
-	{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t4s4_2#", "=ec1=#m21#"};
+		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t4s4_2#", "=ec1=#m21#"};
 		{ 2, 29073, "", "=q4=Justicar Crown", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29075, "", "=q4=Justicar Shoulderplates", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29071, "", "=q4=Justicar Breastplate", "=ds="..BabbleBoss["Magtheridon"]};
@@ -4763,18 +4774,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100455, "", "=q4=Justicar Breastplate", "=ds=#netherseal#"};
 		{ 12, 100456, "", "=q4=Justicar Gauntlets", "=ds=#netherseal#"};
 		{ 13, 100458, "", "=q4=Justicar Greaves", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t4s4_2#", "=ec1=#m21#"};
+		{ 17, 101357, "", "=q4=Justicar Faceguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101359, "", "=q4=Justicar Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101355, "", "=q4=Justicar Chestguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101356, "", "=q4=Justicar Handguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101358, "", "=q4=Justicar Legguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
-
 
 	AtlasLoot_Data["T4PaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t4s4_3#", "=ec1=#m21#"};
@@ -4789,20 +4804,25 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100446, "", "=q4=Justicar Chestpiece", "=ds=#netherseal#"};
 		{ 12, 100449, "", "=q4=Justicar Gloves", "=ds=#netherseal#"};
 		{ 13, 100447, "", "=q4=Justicar Leggings", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t4s4_3#", "=ec1=#m21#"};
+		{ 17, 101345, "", "=q4=Justicar Faceguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101348, "", "=q4=Justicar Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101346, "", "=q4=Justicar Chestguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101349, "", "=q4=Justicar Handguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101347, "", "=q4=Justicar Legguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
-
 	AtlasLoot_Data["T4PriestHoly"] = {
-	{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t4s5_1#", "=ec1=#m21#"};
+		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t4s5_1#", "=ec1=#m21#"};
 		{ 2, 29049, "", "=q4=Light-Collar of the Incarnate", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29054, "", "=q4=Light-Mantle of the Incarnate", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29050, "", "=q4=Robes of the Incarnate", "=ds="..BabbleBoss["Magtheridon"]};
@@ -4814,17 +4834,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100436, "", "=q4=Robes of the Incarnate", "=ds=#netherseal#"};
 		{ 12, 100439, "", "=q4=Handwraps of the Incarnate", "=ds=#netherseal#"};
 		{ 13, 100437, "", "=q4=Trousers of the Incarnate", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#t4s5_1#", "=ec1=#m21#"};
+		{ 17, 101335, "", "=q4=Light-Collar of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101338, "", "=q4=Light-Mantle of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101340, "", "=q4=Robes of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101339, "", "=q4=Handwraps of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101337, "", "=q4=Trousers of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
 
 	AtlasLoot_Data["T4PriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t4s5_2#", "=ec1=#m21#"};
@@ -4839,21 +4864,25 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100440, "", "=q4=Shroud of the Incarnate", "=ds=#netherseal#"};
 		{ 12, 100441, "", "=q4=Gloves of the Incarnate", "=ds=#netherseal#"};
 		{ 13, 100443, "", "=q4=Leggings of the Incarnate", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Shadow_AntiShadow", "=q6=#t4s5_2#", "=ec1=#m21#"};
+		{ 17, 101342, "", "=q4=Light-Collar of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101344, "", "=q4=Light-Mantle of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101340, "", "=q4=Robes of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101341, "", "=q4=Handwraps of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101343, "", "=q4=Trousers of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
-
-
 	AtlasLoot_Data["T4Rogue"] = {
-	{ 1, 0, "Ability_BackStab", "=q6=#t4s6#", "=ec1=#m21#"};
+		{ 1, 0, "Ability_BackStab", "=q6=#t4s6#", "=ec1=#m21#"};
 		{ 2, 29044, "", "=q4=Netherblade Facemask", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29047, "", "=q4=Netherblade Shoulderpads", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29045, "", "=q4=Netherblade Chestpiece", "=ds="..BabbleBoss["Magtheridon"]};
@@ -4865,14 +4894,20 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100431, "", "=q4=Netherblade Chestpiece", "=ds=#netherseal#"};
 		{ 12, 100434, "", "=q4=Netherblade Gloves", "=ds=#netherseal#"};
 		{ 13, 100432, "", "=q4=Netherblade Breeches", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Ability_BackStab", "=q6=#t4s6#", "=ec1=#m21#"};
+		{ 17, 101330, "", "=q4=Netherblade Facemask", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101333, "", "=q4=Netherblade Shoulderpads", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101331, "", "=q4=Netherblade Chestpiece", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101334, "", "=q4=Netherblade Gloves", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101332, "", "=q4=Netherblade Breeches", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
@@ -4890,17 +4925,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100425, "", "=q4=Cyclone Breastplate", "=ds=#netherseal#"};
 		{ 12, 100426, "", "=q4=Cyclone Gauntlets", "=ds=#netherseal#"};
 		{ 13, 100428, "", "=q4=Cyclone War-Kilt", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#t4s7_1#", "=ec1=#m21#"};
+		{ 17, 101327, "", "=q4=Cyclone Helm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101329, "", "=q4=Cyclone Shoulderplates", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101325, "", "=q4=Cyclone Breastplate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101326, "", "=q4=Cyclone Gauntlets", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101328, "", "=q4=Cyclone War-Kilt", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
 
 	AtlasLoot_Data["T4ShamanRestoration"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t4s7_2#", "=ec1=#m21#"};
@@ -4915,17 +4955,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100416, "", "=q4=Cyclone Hauberk", "=ds=#netherseal#"};
 		{ 12, 100419, "", "=q4=Cyclone Gloves", "=ds=#netherseal#"};
 		{ 13, 100417, "", "=q4=Cyclone Kilt", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t4s7_2#", "=ec1=#m21#"};
+		{ 17, 101315, "", "=q4=Cyclone Helm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101318, "", "=q4=Cyclone Shoulderplates", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101316, "", "=q4=Cyclone Breastplate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101319, "", "=q4=Cyclone Gauntlets", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101317, "", "=q4=Cyclone War-Kilt", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
 
 	AtlasLoot_Data["T4ShamanElemental"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t4s7_3#", "=ec1=#m21#"};
@@ -4940,18 +4985,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100420, "", "=q4=Cyclone Chestguard", "=ds=#netherseal#"};
 		{ 12, 100421, "", "=q4=Cyclone Handguards", "=ds=#netherseal#"};
 		{ 13, 100423, "", "=q4=Cyclone Legguards", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Nature_Lightning", "=q6=#t4s7_3#", "=ec1=#m21#"};
+		{ 17, 101322, "", "=q4=Cyclone Helm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101324, "", "=q4=Cyclone Shoulderplates", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101320, "", "=q4=Cyclone Breastplate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101321, "", "=q4=Cyclone Gauntlets", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101323, "", "=q4=Cyclone War-Kilt", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
 
 	AtlasLoot_Data["T4Warlock"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t4s8#", "=ec1=#m21#"};
@@ -4966,19 +5015,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100401, "", "=q4=Voidheart Robe", "=ds=#netherseal#"};
 		{ 12, 100404, "", "=q4=Voidheart Gloves", "=ds=#netherseal#"};
 		{ 13, 100402, "", "=q4=Voidheart Leggings", "=ds=#netherseal#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#", "", ""};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t4s8#", "=ec1=#m21#"};
+		{ 17, 101300, "", "=q4=Voidheart Crown", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101303, "", "=q4=Voidheart Mantle", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101301, "", "=q4=Voidheart Robe", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101304, "", "=q4=Voidheart Gloves", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101302, "", "=q4=Voidheart Leggings", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
 
 	AtlasLoot_Data["T4WarriorProtection"] = {
 		{ 1, 0, "INV_Shield_05", "=q6=#t4s9_1#", "=ec1=#m21#"};
@@ -4993,18 +5045,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100406, "", "=q4=Warbringer Chestguard", "=ds=#netherseal#"};
 		{ 12, 100409, "", "=q4=Warbringer Handguards", "=ds=#netherseal#"};
 		{ 13, 100407, "", "=q4=Warbringer Legguards", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "INV_Shield_05", "=q6=#t4s9_1#", "=ec1=#m21#"};
+		{ 17, 101305, "", "=q4=Warbringer Greathelm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101308, "", "=q4=Warbringer Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101306, "", "=q4=Warbringer Chestguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101309, "", "=q4=Warbringer Handguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101307, "", "=q4=Warbringer Legguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
-
 
 	AtlasLoot_Data["T4WarriorFury"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t4s9_2#", "=ec1=#m21#"};
@@ -5019,14 +5075,20 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100410, "", "=q4=Warbringer Breastplate", "=ds=#netherseal#"};
 		{ 12, 100411, "", "=q4=Warbringer Gauntlets", "=ds=#netherseal#"};
 		{ 13, 100413, "", "=q4=Warbringer Greaves", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#", "", ""};
+		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#t4s9_2#", "=ec1=#m21#"};
+		{ 17, 101312, "", "=q4=Warbringer Greathelm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101314, "", "=q4=Warbringer Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101310, "", "=q4=Warbringer Chestguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101311, "", "=q4=Warbringer Handguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101313, "", "=q4=Warbringer Legguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#", "", ""};
 		Back = "T4SET";
 	};
 

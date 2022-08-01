@@ -114,6 +114,7 @@ if AL then
 
 	AL["BlackDiamonds"] = "Черные бриллианты";
 	AL["BlackDiamonds2"] = "Алмаз Бездны";
+	AL["BlackDiamonds3"] = "Заряженный бриллиант";
 	AL["TrinketChests"] = "Сундуки с аксессуарами";
 	AL["BlackMarket"] = "Черный рынок";
 	AL["BMarketMounts"] = "Ездовые животные";
@@ -132,7 +133,14 @@ if AL then
 	AL["pigmentemerald"] = "Зеленая мистическая полироль";
 	AL["pigmentburnt"] = "Оранжевая мистическая полироль";
 
-
+	AL["EnchantedGem"] = "Зачарованный самоцвет";
+    AL["EnchantedGemRuby"] = "Красный зачарованный самоцвет";
+	AL["EnchantedGemSapphire"] = "Синий зачарованный самоцвет";
+	AL["EnchantedGemGolden"] = "Желтый зачарованный самоцвет";
+	AL["EnchantedGemIndigo"] = "Фиолетовый зачарованный самоцвет";
+	AL["EnchantedGemEmerald"] = "Зеленый зачарованный самоцвет";
+	AL["EnchantedGemBurnt"] = "Оранжевый зачарованный самоцвет";
+	
 	AL["blackpigment"] = "Черная Полироль";
     AL["Perfectruby"] = "Идеальный сердолик";
 	AL["Perfectsapphire"] = "Идеальный зефирит";
@@ -170,6 +178,7 @@ if AL then
 
 
 	AL["Enchant_Tol'Garod"] = "Чары с Острова Тол'Гарод";
+	AL["Enchanting_Tol'Garod"] = "Случайные чары с Острова Тол'Гарод";
     AL["Jewel_Tol'Garod"] = "Ювелирное дело с Острова Тол'Гарод";
     AL["Tailoring_Tol'Garod"] = "Портняжное дело с Острова Тол'Гарод";
     AL["Leather_Tol'Garod"] = "Кожевничество с Острова Тол'Гарод";

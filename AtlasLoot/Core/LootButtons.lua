@@ -21,13 +21,20 @@ function AtlasLoot_GetEnchantLink(enchantID)
    AtlasLootScanTooltip:Show()
    local tooltipline = getglobal("AtlasLootScanTooltipTextLeft1")
    local text = tooltipline:GetText()
+   
    if text and string.find(text, ":") then
       EnchantLink = "|cffffd000|Henchant:"..enchantID.."|h["..text.."]|h|r"
    else
       EnchantLink = GetSpellLink(enchantID)
    end
    AtlasLootScanTooltip:Hide()
-   return EnchantLink
+   
+   if EnchantLink ~= nil then
+		return EnchantLink
+   else
+		return "|cff71d5ff|Hspell:"..enchantID..":0|h[]|h|r"
+   end
+   
 end
 
 --------------------------------------------------------------------------------
@@ -241,7 +248,7 @@ function AtlasLootItem_OnEnter()
             AtlasLootTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
             AtlasLootTooltip:ClearLines();
             AtlasLootTooltip:SetHyperlink(AtlasLoot_GetEnchantLink(spellID));
-            AtlasLootTooltip:Show();
+            AtlasLootTooltip:Show();		
             if(this.spellitemID and ((AtlasLoot.db.profile.EquipCompare and ((not EquipCompare_RegisterTooltip) or (not EquipCompare_Enabled))) or IsShiftKeyDown())) then
                 AtlasLootItem_ShowCompareItem(); --- CALL MISSING METHOD TO SHOW 2 TOOLTIPS (Item Compare)
             end

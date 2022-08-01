@@ -57,9 +57,11 @@ end
 	AtlasLoot_TableNames["Gogonash_x2"] ={AL["Gogonash"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Xtrax Mind Absorber_x2"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Magic Eater_x2"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater2_x2"] ={AL["Magic Eater"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Gogonash_x4"] ={AL["Gogonash"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Xtrax Mind Absorber_x4"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Magic Eater_x4"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater2_x4"] ={AL["Magic Eater"], "AtlasLootSirus" };
 	-- Bronze Sanctuary
 	AtlasLoot_TableNames["Murozond"] ={AL["Murozond"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Elonus"] ={AL["Elonus"], "AtlasLootSirus" };
@@ -1706,6 +1708,8 @@ end
 	
 	AtlasLoot_TableNames["BlackDiamonds"] = { AL["BlackDiamonds"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["BlackDiamonds2"] = { AL["BlackDiamonds2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamonds3"] = { AL["BlackDiamonds3"], "AtlasLootSirus" };
+	
 	-- Полироли
 	AtlasLoot_TableNames["pigment"] = { AL["pigment"], "Menu" };
 	AtlasLoot_TableNames["pigmentruby"] = { AL["pigmentruby"], "AtlasLootSirus" };
@@ -1714,6 +1718,16 @@ end
 	AtlasLoot_TableNames["pigmentindigo"] = { AL["pigmentindigo"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["pigmentemerald"] = { AL["pigmentemerald"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["pigmentburnt"] = { AL["pigmentburnt"], "AtlasLootSirus" };	
+	
+	-- Зачарованный самоцвет
+	AtlasLoot_TableNames["EnchantedGem"] = { AL["EnchantedGem"], "Menu" };
+	AtlasLoot_TableNames["EnchantedGemRuby"] = { AL["EnchantedGemRuby"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemSapphire"] = { AL["EnchantedGemSapphire"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemGolden"] = { AL["EnchantedGemGolden"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemIndigo"] = { AL["EnchantedGemIndigo"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemEmerald"] = { AL["EnchantedGemEmerald"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemBurnt"] = { AL["EnchantedGemBurnt"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemBurnt2"] = { AL["EnchantedGemBurnt"], "AtlasLootSirus" };
 	
 	-- Черная полироль
 	AtlasLoot_TableNames["blackpigment"] = { AL["blackpigment"], "Menu" };
@@ -2127,7 +2141,8 @@ end
 	AtlasLoot_TableNames["EnchantingOstrov"] = { ENCHANTING..": "..AL["Enchant Ostrov"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EnchantingOstrov2"] = { ENCHANTING..": "..AL["Enchant Ostrov"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Enchant_Tol'Garod"] = { ENCHANTING..": "..AL["Enchant_Tol'Garod"], "AtlasLootCrafting" };
-
+	AtlasLoot_TableNames["Enchanting_Tol'Garod"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Enchanting_Tol'Garod2"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
   -- Engineering
 	AtlasLoot_TableNames["EngineeringAmmo1"] = { ENGINEERING..": "..AL["Ammunition"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EngineeringArmor1"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };

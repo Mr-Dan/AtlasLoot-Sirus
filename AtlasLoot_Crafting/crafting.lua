@@ -1779,10 +1779,10 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Prev = "EnchantingOstrov";
 		Back = "ENCHANTINGMENU";
 	};
-AtlasLoot_Data["Enchant_Tol'Garod"] = {
+	
+	AtlasLoot_Data["Enchant_Tol'Garod"] = {
 		{ 1, "s315384", "154303", "=q1=Формула: Иллюзорное масло маны", "=ds=#sr# 435 60 #Tol'Garod#"};
 		{ 2, "s315385", "154304", "=q1=Формула: Иллюзорное волшебное масло", "=ds=#sr# 435 60 #Tol'Garod#"};
-
 		Back = "ENCHANTINGMENU";
 	};
 		-------------------
