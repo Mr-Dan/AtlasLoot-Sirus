@@ -945,6 +945,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "Gogonash_x2" },
 		{ "", "Xtrax Mind Absorber_x2" },
 		{ "", "Magic Eater_x2" },
+		{ "", "Enchanting_Tol'Garod" },
 		
 	},
 	["Zort"] = {

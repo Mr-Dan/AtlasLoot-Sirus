@@ -827,9 +827,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, 37082, "", "=q3=Slaughterhouse Sabatons", "=ds=#s12#, #a4#", "", "22%"};
 		{ 4, 37079, "", "=q3=Enchanted Wire Stitching", "=ds=#s13#", "", "23%"};
 		{ 5, 37081, "", "=q3=Meathook's Slicer", "=ds=#h1#, #w10#", "", "22%"};	
-		{ 15, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 16, 149334, "", "=q4=Фрагмент зачарованного ювелирного кристалла", "=ds=#e7#", "", ""};
-		{ 17, 99977, "", "=q1=Фрагмент красной мистической полироли", "=ds=#pigment#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 149334, "", "=q4=Фрагмент зачарованного ювелирного кристалла", "=ds=#e7#", "", ""};
+		{ 18, 99977, "", "=q1=Фрагмент красной мистической полироли", "=ds=#pigment#"};
 		{ 19, 99979, "", "=q1=Фрагмент синей мистической полироли", "=ds=#pigment#"};
 		{ 20, 99978, "", "=q1=Фрагмент желтой мистической полироли", "=ds=#pigment#"};
 		{ 21, 99981, "", "=q1=Фрагмент фиолетовой мистической полироли", "=ds=#pigment#"};
@@ -839,7 +839,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 27, 37678, "", "=q3=Bile-Cured Gloves", "=ds=#s9#, #a2#", "", "22%"};
 		{ 28, 37679, "", "=q3=Spaulders of the Abomination", "=ds=#s3#, #a3#", "", "21%"};
 		{ 29, 37675, "", "=q3=Legplates of Steel Implants", "=ds=#s11#, #a4#", "", "23%"};
-		{ 30, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e12#", "", ""};
 		Next = "CoTStratholmeSalramm";
 	};
 
@@ -875,6 +874,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["CoTStratholmeInfiniteCorruptorHEROIC"] = {
 		{ 1, 43951, "", "=q4=Reins of the Bronze Drake", "=ds=#e12#", "", "100%"};
+		{ 2, 153163, "", "=q4=Бронзочешуйный дракончик", "=ds=#e12#", "", "100%"};
 		Prev = "CoTStratholmeEpoch";
 		Next = "CoTStratholmeMalGanis";
 	};
@@ -900,6 +900,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#", "", "14%"};
 		{ 25, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#", "", "14%"};
 		{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 28, 92800, "", "=q3=Пандаренский дух земли", "=ds=#e13#", ""};
 		Prev = "CoTStratholmeInfiniteCorruptorHEROIC";
 		Next = "CoTStratholmeTrash";
 	};
@@ -4186,7 +4187,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 25, 43993, "", "=q4=Greatring of Collision", "=ds=#s13#"};
 		{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Three Drakes Left"]};
 		{ 28, 43986, "", "=q4=Reins of the Black Drake", "=ds=#e12#", "", "100%"};
-		{ 30, 67418, "", "=q3=������� ���� �������", "=ds=#e13#", "", ""};
+		{ 30, 67418, "", "=q3=������� ���� �������", "=ds=#e13#", "", ""};
 	};
 
 	AtlasLoot_Data["Sartharion25Man"] = {
@@ -4216,7 +4217,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 25, 44011, "", "=q4=Leggings of the Honored", "=ds=#s11#, #a2#", "", "3%"};
 		{ 26, 44006, "", "=q4=Obsidian Greathelm", "=ds=#s1#, #a4#", "", "3%"};
 		{ 28, 43954, "", "=q4=Reins of the Twilight Drake", "=ds=#e12#", "", "100%"};
-		{ 30, 67418, "", "=q3=������� ���� �������", "=ds=#e13#", "", ""};
+		{ 30, 67418, "", "=q3=������� ���� �������", "=ds=#e13#", "", ""};
 	};
 
 		---------------------------
@@ -4772,6 +4773,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 19, 46036, "", "=q4=Void Sabre", "=ds=#h1#, #w10#", "", "2%"};
 		{ 20, 46035, "", "=q4=Aesuga, Hand of the Ardent Champion", "=ds=#h1#, #w6#", "", "3%"};
 		{ 21, 46033, "", "=q4=Tortured Earth", "=ds=#w9#", "", "4%"};
+		{ 23, 157209, "", "=q4=Потешная щуполька", "=ds=#e25#", ""};
 		Prev = "UlduarMimiron";
 		Next = "UlduarYoggSaron";
 	};
@@ -4800,6 +4802,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 23, 45517, "", "=q4=Pendulum of Infinity", "=ds=#s2#", "", "0.36%"};
 		{ 24, 45518, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
 		{ 25, 45516, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
+		{ 27, 157209, "", "=q4=Потешная щуполька", "=ds=#e25#", ""};
 		Prev = "UlduarMimiron25Man";
 		Next = "UlduarYoggSaron25Man";
 	};
@@ -4986,8 +4989,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 18, 151418, "", "=q4=Mantle of Fiery Vengeance", "=ds=#s3#, #a3#"};
 		{ 19, 151413, "", "=q4=Gilded Steel Legplates", "=ds=#s11#, #a4#", "", "0.25%"};
 		{ 20, 151415, "", "=q4=Shimmering Seal", "=ds=#s13#", "", "0.11%"};
-		{ 21, 151414, "", "=q4=Twirling Blades", "=ds=#w11#", "", "0.36%"};
-		
+		{ 21, 151414, "", "=q4=Twirling Blades", "=ds=#w11#", "", "0.36%"};	
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Next = "UlduarIgnis";
@@ -4995,8 +4997,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarLeviathan25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
 		{ 4, 151272, "", "=q4=Constructor's Handwraps", "=ds=#s9#, #a1#", "", "19%"};
 		{ 5, 151232, "", "=q4=Embrace of the Leviathan", "=ds=#s10#, #a1#", "", "20%"};
 		{ 6, 151264, "", "=q4=Mechanist's Bindings", "=ds=#s8#, #a2#", "", "19%"};
@@ -5009,18 +5009,14 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 13, 151281, "", "=q4=Strength of the Automaton", "=ds=#s13#", "", "16%"};
 		{ 14, 151282, "", "=q4=The Leviathan's Coil", "=ds=#s13#", "", "19%"};
 		{ 15, 151313, "", "=q4=Leviathan Fueling Manual", "=ds=#s15#", "", "18%"};
-		--{ 13, 45114, "", "=q4=Steamcaller's Totem", "=ds=#s16#, #w15#", "", "18%"};
 		{ 16, 151317, "", "=q4=Titanguard", "=ds=#h1#, #w10#", "", "18%"};
-		{ 17, 151334, "", "=q4=Rising Sun", "=ds=#w11#", "", "18%"};
-		--{ 18, 151316, "", "=q4=Vulmir, the Northern Tempest", "=ds=#h1# #w6#", "", "18%"};
-		
+		{ 17, 151334, "", "=q4=Rising Sun", "=ds=#w11#", "", "18%"};	
 		{ 19, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 20, 151361, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#", "", "0.27%"};
 		{ 21, 151349, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#"};
 		{ 22, 151359, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
 		{ 23, 151343, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#"};
-		{ 24, 151396, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#", "", "0.11%"};
-		
+		{ 24, 151396, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#", "", "0.11%"};	
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Next = "UlduarIgnis25Man";
@@ -5044,8 +5040,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarIgnis25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
 		{ 4, 151215, "", "=q4=Soot-Covered Mantle", "=ds=#s3#, #a1#", "", "18%"};
 		{ 5, 151234, "", "=q4=Flamewrought Cinch", "=ds=#s10#, #a2#", "", "20%"};
 		{ 6, 151254, "", "=q4=Flamestalker Boots", "=ds=#s12#, #a2#", "", "18%"};
@@ -5057,7 +5051,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 12, 151284, "", "=q4=Cindershard Ring", "=ds=#s13#", "", "20%"};
 		{ 13, 151285, "", "=q4=Pyrelight Circle", "=ds=#s13#", "", "20%"};
 		{ 14, 151298, "", "=q4=Heart of Iron", "=ds=#s14#", "", "19%"};
-		--{ 12, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#s16#, #w15#", "", "21%"};
 		{ 16, 151322, "", "=q4=Worldcarver", "=ds=#h2#, #w1#", "", "19%"};
 		{ 17, 151326, "", "=q4=Intensity", "=ds=#w9#", "", "20%"};
 		{ 18, 151337, "", "=q4=Scepter of Creation", "=ds=#w12#", "", "21%"};
@@ -5082,9 +5075,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 	};
 
 	AtlasLoot_Data["UlduarRazorscale25ManHEROIC"] = {
-		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
+		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};	
 		{ 4, 151305, "", "=q4=Drape of the Drakerider", "=ds=#s4#", "", "20%"};
 		{ 5, 151200, "", "=q4=Collar of the Wyrmhunter", "=ds=#s1#, #a1#", "", "20%"};
 		{ 6, 151262, "", "=q4=Shackles of the Odalisque", "=ds=#s8#, #a1#", "", "20%"};
@@ -5095,8 +5086,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 11, 151222, "", "=q4=Razorscale Shoulderguards", "=ds=#s3#, #a4#", "", "19%"};
 		{ 12, 151238, "", "=q4=Dragonslayer's Brace", "=ds=#s10#, #a4#", "", "19%"};
 		{ 13, 151297, "", "=q4=Living Flame", "=ds=#s14#", "", "19%"};
-		--{ 11, 45510, "", "=q4=Libram of Discord", "=ds=#s16#, #w16#", "", "19%"};
-		--{ 12, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#, #w21#", "", "19%"};
 		{ 16, 151318, "", "=q4=Remorse", "=ds=#h1#, #w10#", "", "19%"};
 		{ 17, 151330, "", "=q4=Guiding Star", "=ds=#h3#, #w6#", "", "19%"};
 		{ 18, 151335, "", "=q4=Veranus' Bane", "=ds=#w5#", "", "18%"};
@@ -5106,8 +5095,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		Next = "UlduarDeconstructor25Man";
 	};
 	
-	
-
 	AtlasLoot_Data["UlduarDeconstructorHEROIC"] = {
 		{ 1, 151463, "", "=q4=Conductive Cord", "=ds=#s10#, #a1#", "", "21%"};
 		{ 2, 151456, "", "=q4=Treacherous Shoulderpads", "=ds=#s3#, #a2#", "", "19%"};
@@ -5130,9 +5117,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 	};
 
 	AtlasLoot_Data["UlduarDeconstructor25ManHEROIC"] = {
-		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
+		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};	
 		{ 4, 151216, "", "=q4=Mantle of Wavering Calm", "=ds=#s3#, #a1#", "", "19%"};
 		{ 5, 151251, "", "=q4=Sandals of Rash Temperament", "=ds=#s12#, #a1#", "", "19%"};
 		{ 6, 151256, "", "=q4=Boots of Hasty Revival", "=ds=#s12#, #a2#", "", "21%"};
@@ -5143,8 +5128,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 11, 151248, "", "=q4=Clockwork Legplates", "=ds=#s11#, #a4#", "", "19%"};
 		{ 12, 151288, "", "=q4=Crazed Construct Ring", "=ds=#s13#", "", "18%"};
 		{ 13, 151287, "", "=q4=Signet of the Earthshaker", "=ds=#s13#", "", "20%"};
-		--{ 11, 45254, "", "=q4=Sigil of the Vengeful Heart", "=ds=#s16#, #w21#", "", "20%"};
-		--{ 12, 45255, "", "=q4=Thunderfall Totem", "=ds=#s16#, #w15#", "", "20%"};
 		{ 14, 151320, "", "=q4=Golem-Shard Sticker", "=ds=#h1#, #w4#", "", "19%"};
 		{ 15, 151328, "", "=q4=Twisted Visage", "=ds=#w9#", "", "19%"};
 		{ 16, 151338, "", "=q4=Quartz Crystal Wand", "=ds=#w12#", "", "20%"};
@@ -5186,8 +5169,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarIronCouncil25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
 		{ 4, 151306, "", "=q4=Drape of the Lithe", "=ds=#s4#", "", "19%"};
 		{ 5, 151310, "", "=q4=Raiments of the Iron Council", "=ds=#s5#, #a1#", "", "24%"};
 		{ 6, 151241, "", "=q4=Overload Legwraps", "=ds=#s11#, #a1#", "", "20%"};
@@ -5232,9 +5213,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 	};
 
 	AtlasLoot_Data["UlduarKologarn25ManHEROIC"] = {
-		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
+		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};	
 		{ 4, 151311, "", "=q4=Robes of the Umbral Brute", "=ds=#s5#, #a1#", "", "20%"};
 		{ 5, 151263, "", "=q4=Bracers of Unleashed Magic", "=ds=#s8#, #a1#", "", "18%"};
 		{ 6, 151273, "", "=q4=Handwraps of Plentiful Recovery", "=ds=#s9#, #a1#", "", "18%"};
@@ -5247,7 +5226,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 13, 151213, "", "=q4=Necklace of Unerring Mettle", "=ds=#s2#", "", "18%"};
 		{ 14, 151299, "", "=q4=Wrathstone", "=ds=#s14#", "", "18%"};
 		{ 15, 151314, "", "=q4=Ironmender", "=ds=#s15#", "", "17%"};
-		--{ 14, 45270, "", "=q4=Idol of the Crying Wind", "=ds=#s16#, #w14#", "", "17%"};
 		{ 16, 151319, "", "=q4=Malice", "=ds=#h1#, #w10#", "", "18%"};
 		{ 17, 151336, "", "=q4=Giant's Bane", "=ds=#w5#", "", "16%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
@@ -5272,8 +5250,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarAuriaya25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
 		{ 4, 151307, "", "=q4=Cloak of the Makers", "=ds=#s4#", "", "19%"};
 		{ 5, 151201, "", "=q4=Cowl of the Absolute", "=ds=#s1#, #a1#", "", "19%"};
 		{ 6, 151252, "", "=q4=Sandals of the Ancient Keeper", "=ds=#s12#, #a1#", "", "20%"};
@@ -5285,7 +5261,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 12, 151260, "", "=q4=Greaves of the Rockmender", "=ds=#s12#, #a4#", "", "20%"};
 		{ 13, 151289, "", "=q4=Platinum Band of the Aesir", "=ds=#s13#", "", "19%"};
 		{ 14, 151290, "", "=q4=Ring of the Faithful Servant", "=ds=#s13#", "", "19%"};
-		--{ 12, 45436, "", "=q4=Libram of the Resolute", "=ds=#s16#, #w16#", "", "20%"};
 		{ 15, 151331, "", "=q4=Runescribed Blade", "=ds=#h3#, #w10#", "", "20%"};
 		{ 16, 151315, "", "=q4=Stonerender", "=ds=#h1#, #w6#", "", "19%"};
 		{ 17, 151321, "", "=q4=Siren's Cry", "=ds=#w2#", "", "20%"};
@@ -5302,10 +5277,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 3, 151491, "", "=q4=Signet of Winter", "=ds=#s13#", "", "16%"};
 		{ 4, 151452, "", "=q4=Stormedge", "=ds=#h2#, #w1#", "", "17%"};
 		{ 5, 151489, "", "=q4=Avalanche", "=ds=#w2#", "", "22%"};
-		--{ 7, 45650, "", "=q4=Leggings of the Wayward Conqueror", "=ds=#e15#", "", "29%"};
-		--{ 8, 45651, "", "=q4=Leggings of the Wayward Protector", "=ds=#e15#", "", "29%"};
-		--{ 9, 45652, "", "=q4=Leggings of the Wayward Vanquisher", "=ds=#e15#", "", "34%"};
-	
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151496, "", "=q4=Bitter Cold Armguards", "=ds=#s8#, #a4#", "", "18%"};
 		{ 18, 151492, "", "=q4=Shiver", "=ds=#h1#, #w6#", "", "16%"};
@@ -5321,22 +5292,14 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarHodir25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
 		{ 4, 151225, "", "=q4=Winter's Icy Embrace", "=ds=#s5#, #a2#", "", "16%"};
 		{ 5, 151267, "", "=q4=Frost-bound Chain Bracers", "=ds=#s8#, #a3#", "", "18%"};
-
 		{ 6, 153011, "", "=q4=Кушак прядильщика судеб", "=ds=#s10#, #a1#", "", "19%"};
 		{ 7, 151250, "", "=q4=Frostplate Greaves", "=ds=#s11#, #a4#", "", "16%"};
 		{ 8, 153010, "", "=q4=Отшлифованный морской камень", "=ds=#s2#", "", "18%"};
 		{ 9, 151291, "", "=q4=Frozen Loop", "=ds=#s13#", "", "15%"};
 		{ 10, 151304, "", "=q4=Northern Barrier", "=ds=#w8#", "", "19%"};
-		--{ 6, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=#e15#", "", "52%"};
-		--{ 7, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=#e15#", "", "50%"};
-		--{ 8, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=#e15#", "", "71%"};
 		{ 11, 153000, "", "=q4=Месть", "=ds=#h1#, #w10#", "", ""};
-		
-		
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151387, "", "=q4=Drape of Icy Intent", "=ds=#s4#", "", "19%"};
 		{ 18, 151372, "", "=q4=Gloves of the Frozen Glade", "=ds=#s9#, #a2#", "", "10%"};
@@ -5344,8 +5307,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 20, 151346, "", "=q4=Frigid Strength of Hodir", "=ds=#s2#", "", "13%"};
 		{ 21, 151395, "", "=q4=Constellus", "=ds=#h3#, #w6#", "", "11%"};
 		{ 22, 151392, "", "=q4=Staff of Endless Winter", "=ds=#w9#", "", "19%"};
-		{ 24, 45815, "", "=q1=Hodir's Sigil", "=ds=#m3#", "", "21%"};
-		
+		{ 24, 45815, "", "=q1=Hodir's Sigil", "=ds=#m3#", "", "21%"};	
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
@@ -5359,18 +5321,11 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 3, 151499, "", "=q4=Leggings of Unstable Discharge", "=ds=#s11#, #a1#", "", "17%"};
 		{ 4, 151500, "", "=q4=Belt of the Blood Pit", "=ds=#s10#, #a3#", "", "18%"};
 		{ 5, 151497, "", "=q4=Legacy of Thunder", "=ds=#h1# #w6#", "", "18%"};
-		--{ 7, 45659, "", "=q4=Spaulders of the Wayward Conqueror", "=ds=#e15#", "", "25%"};
-		--{ 8, 45660, "", "=q4=Spaulders of the Wayward Protector", "=ds=#e15#", "", "28%"};
-		--{ 9, 45661, "", "=q4=Spaulders of the Wayward Vanquisher", "=ds=#e15#", "", "34%"};
-	
-				
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151502, "", "=q4=Gauntlets of the Thunder God", "=ds=#s9#, #a4#", "", "5%"};
-		{ 18, 151506, "", "=q4=Pendant of the Shallow Grave", "=ds=#s2#", "", "4%"};
-		{ 19, 151505, "", "=q4=Mjolnir Runestone", "=ds=#s14#", "", "5%"};
+		{ 18, 151506, "", "=q4=Pendant of the Shallow Grave", "=ds=#s2#", "", "4%"};		
 		{ 20, 151504, "", "=q4=Combatant's Bootblade", "=ds=#h1# #w4#", "", "5%"};
 		{ 22, 45784, "", "=q1=Thorim's Sigil", "=ds=#m3#", "", "5%"};
-		
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarHodir";
@@ -5379,8 +5334,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarThorim25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
 		{ 4, 151242, "", "=q4=Leggings of Lost Love", "=ds=#s11#, #a1#", "", "17%"};
 		{ 5, 151237, "", "=q4=Belt of the Betrayed", "=ds=#s10#, #a3#", "", "17%"};
 		{ 6, 153009, "", "=q4=Пояс оледенелой преграды", "=ds=#s10#, #a3#", "", "18%"};
@@ -5388,12 +5341,8 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 8, 151292, "", "=q4=Sif's Promise", "=ds=#s13#", "", "14%"};
 		{ 9, 151300, "", "=q4=Scale of Fates", "=ds=#s14#", "", "17%"};
 		{ 10, 151316, "", "=q4=Vulmir, the Northern Tempest", "=ds=#h1#, #w6#", "", "18%"};
-		--	{ 10, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=#e15#", "", "50%"};
-		--{ 11, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=#e15#", "", "57%"};
-		--{ 12, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=#e15#", "", "71%"};	
 		{ 11, 153005, "", "=q4=Подстрекающий шепот", "=ds=#h1#, #w1#", "", "18%"};
-		{ 12, 153014, "", "=q4=Талисман вращающегося лезвия", "=ds=#s2#", "", "18%"};
-		
+		{ 12, 153014, "", "=q4=Талисман вращающегося лезвия", "=ds=#s2#", "", "18%"};	
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151352, "", "=q4=Embrace of the Gladiator", "=ds=#s5#, #a2#", "", "2%"};
 		{ 18, 151351, "", "=q4=Pauldrons of the Combatant", "=ds=#s3#, #a3#", "", "2%"};
@@ -5402,7 +5351,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 21, 151400, "", "=q4=Skyforge Crossbow", "=ds=#w3#", "", "1%"};
 		{ 22, 151384, "", "=q4=Wisdom's Hold", "=ds=#w8#", "", "2%"};
 		{ 24, 45817, "", "=q1=Thorim's Sigil", "=ds=#m3#", "", "3%"};
-		
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
@@ -5416,19 +5364,13 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 3, 151508, "", "=q4=Ironbark Faceguard", "=ds=#s1#, #a4#", "", "17%"};
 		{ 4, 151509, "", "=q4=Legplates of Flourishing Resolve", "=ds=#s11#, #a4#", "", "15%"};
 		{ 5, 151507, "", "=q4=Unraveling Reach", "=ds=#w9#", "", "18%"};
-		--{ 7, 45644, "", "=q4=Gloves of the Wayward Conqueror", "=ds=#e15#", "", "25%"};
-		--{ 8, 45645, "", "=q4=Gloves of the Wayward Protector", "=ds=#e15#", "", "23%"};
-		--{ 9, 45646, "", "=q4=Gloves of the Wayward Vanquisher", "=ds=#e15#", "", "30%"};
-	
-
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151512, "", "=q4=Gloves of Whispering Winds", "=ds=#s9#, #a3#", "", "2%"};
 		{ 18, 151513, "", "=q4=Seed of Budding Carnage", "=ds=#s2#", "", "2%"};
 		{ 19, 151514, "", "=q4=Fire Orchid Signet", "=ds=#s13#", "", "2%"};
 		{ 20, 151515, "", "=q4=Serilas, Blood Blade of Invar One-Arm", "=ds=#h1# #w10#", "", "2%"};
 		{ 21, 151412, "", "=q4=Petrified Ivy Sprig", "=ds=#w12#", "", "1%"};
-		{ 23, 45788, "", "=q1=Freya's Sigil", "=ds=#m3#", "", "4%"};
-		
+		{ 23, 45788, "", "=q1=Freya's Sigil", "=ds=#m3#", "", "4%"};	
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 46110, "", "=q3=Alchemist's Cache", "=ds=#p1# (425)", "", "66%"};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
@@ -5438,8 +5380,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 
 	AtlasLoot_Data["UlduarFreya25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
 		{ 4, 151253, "", "=q4=Boots of the Servant", "=ds=#s12#, #a1#", "", "15%"};
 		{ 5, 151244, "", "=q4=Leggings of the Lifetender", "=ds=#s11#, #a2#", "", "17%"};
 		{ 6, 151280, "", "=q4=Gauntlets of Ruthless Reprisal", "=ds=#s9#, #a4#", "", "16%"};
@@ -5448,12 +5388,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 9, 153006, "", "=q4=Изящные легкие браслеты", "=ds=#s8#, #a3#", "", "19%"};
 		{ 10, 151214, "", "=q4=Nymph Heart Charm", "=ds=#s2#", "", "13%"};
 		{ 11, 151329, "", "=q4=The Lifebinder", "=ds=#w9#", "", "19%"};
-		--{ 10, 45653, "", "=q4=Legplates of the Wayward Conqueror", "=ds=#e15#", "", "43%"};
-		--{ 11, 45654, "", "=q4=Legplates of the Wayward Protector", "=ds=#e15#", "", "52%"};
-		--{ 12, 45655, "", "=q4=Legplates of the Wayward Vanquisher", "=ds=#e15#", "", "69%"};
 		{ 12, 153004, "", "=q4=Заточка Анди", "=ds=#h1#, #w4#", "", "18%"};
-		
-		
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151388, "", "=q4=Drape of the Sullen Goddess", "=ds=#s4#"};
 		{ 18, 151357, "", "=q4=Leggings of the Enslaved Idol", "=ds=#s11#, #a1#", "", "0.13%"};
@@ -5461,8 +5396,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 20, 151348, "", "=q4=Bronze Pendant of the Vanir", "=ds=#s2#"};
 		{ 21, 151383, "", "=q4=Bladetwister", "=ds=#h1#, #w4#", "", "0.27%"};
 		{ 22, 151393, "", "=q4=Dreambinder", "=ds=#w9#", "", "1%"};
-		{ 24, 45814, "", "=q1=Freya's Sigil", "=ds=#m3#", "", "0.27%"};
-		
+		{ 24, 45814, "", "=q1=Freya's Sigil", "=ds=#m3#", "", "0.27%"};	
 		{ 27, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 28, 46110, "", "=q3=Alchemist's Cache", "=ds=#p1# (425)", "", "66%"};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
@@ -5477,10 +5411,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 3, 151518, "", "=q4=Shoulderguards of Assimilation", "=ds=#s3#, #a2#", "", "75%"};
 		{ 4, 151519, "", "=q4=Cable of the Metrognome", "=ds=#s10#, #a4#", "", "11%"};
 		{ 5, 151516, "", "=q4=Pulse Baton", "=ds=#h3#, #w6#", "", "0.13%"};
-		--{ 7, 45647, "", "=q4=Helm of the Wayward Conqueror", "=ds=#e15#", "", "28%"};
-		--{ 8, 45648, "", "=q4=Helm of the Wayward Protector", "=ds=#e15#", "", "75%"};
-		--{ 9, 45649, "", "=q4=Helm of the Wayward Vanquisher", "=ds=#e15#", "", "37%"};
-		
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151525, "", "=q4=Mimiron's Flight Goggles", "=ds=#s1#, #a2#", "", "1%"};
 		{ 18, 151523, "", "=q4=Tempered Mercury Greaves", "=ds=#s12#, #a3#", "", "0.34%"};
@@ -5496,8 +5426,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 	};
 	AtlasLoot_Data["UlduarMimiron25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
 		{ 4, 151308, "", "=q4=Asimov's Drape", "=ds=#s4#", "", "11%"};
 		{ 5, 151219, "", "=q4=Malleable Steelweave Mantle", "=ds=#s3#, #a2#", "", "25%"};
 		{ 6, 151235, "", "=q4=Waistguard of the Creator", "=ds=#s10#, #a2#", "", "17%"};
@@ -5506,11 +5434,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 9, 153013, "", "=q4=Обсидиановая печатка", "=ds=#s13#"};
 		{ 10, 153012, "", "=q4= Ружье отвергнутой помощи", "=ds=#w5#", "", "15%"};
 		{ 11, 151332, "", "=q4=Insanity's Grip", "=ds=#h3#, #w13#", "", "15%"};
-		--{ 10, 45641, "", "=q4=Gauntlets of the Wayward Conqueror", "=ds=#e15#", "", "45%"};
-		--{ 11, 45642, "", "=q4=Gauntlets of the Wayward Protector", "=ds=#e15#", "", "50%"};
-		--{ 12, 45643, "", "=q4=Gauntlets of the Wayward Vanquisher", "=ds=#e15#", "", "68%"};
-		
-		
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151389, "", "=q4=Titanskin Cloak", "=ds=#s4#", "", "0.33%"};
 		{ 18, 151340, "", "=q4=Crown of Luminescence", "=ds=#s1#, #a1#"};
@@ -5518,10 +5441,8 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 20, 151376, "", "=q4=Conductive Seal", "=ds=#s13#"};
 		{ 21, 151398, "", "=q4=Delirium's Touch", "=ds=#h4#, #w13#"};
 		{ 22, 151397, "", "=q4=Starshard Edge", "=ds=#h3#, #w4#"};
-		{ 24, 45816, "", "=q1=Mimiron's Sigil", "=ds=#m3#", "", "0.16%"};
-		
-		{ 26, 93025, "", "=q3=Мут'туз", "=ds=#e13#", "", ""};
-		
+		{ 24, 45816, "", "=q1=Mimiron's Sigil", "=ds=#m3#", "", "0.16%"};	
+		{ 26, 93025, "", "=q3=Мут'туз", "=ds=#e13#", "", ""};	
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
@@ -5547,14 +5468,12 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 19, 151550, "", "=q4=Void Sabre", "=ds=#h1#, #w10#", "", "2%"};
 		{ 20, 151549, "", "=q4=Aesuga, Hand of the Ardent Champion", "=ds=#h1#, #w6#", "", "3%"};
 		{ 21, 151547, "", "=q4=Tortured Earth", "=ds=#w9#", "", "4%"};
+		{ 23, 157209, "", "=q4=Потешная щуполька", "=ds=#e25#", ""};
 		Prev = "UlduarMimiron";
 		Next = "UlduarYoggSaron";
 	};
 
 	AtlasLoot_Data["UlduarVezax25ManHEROIC"] = {
-		--{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
 		{ 1, 151217, "", "=q4=Mantle of the Unknowing", "=ds=#s3#, #a1#", "", "20%"};
 		{ 2, 151233, "", "=q4=Belt of the Darkspeaker", "=ds=#s10#, #a1#", "", "21%"};
 		{ 3, 151275, "", "=q4=Grips of the Unbroken", "=ds=#s9#, #a2#", "", "19%"};
@@ -5565,9 +5484,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 8, 151261, "", "=q4=Boots of the Underdweller", "=ds=#s12#, #a4#", "", "17%"};
 		{ 9, 151293, "", "=q4=Metallic Loop of the Sufferer", "=ds=#s13#", "", "20%"};
 		{ 10, 151294, "", "=q4=Ring of the Vacant Eye", "=ds=#s13#", "", "21%"};
-		--{ 11, 151302, "", "=q4=The General's Heart", "=ds=#s14#", "", "20%"};
-		--{ 12, 45509, "", "=q4=Idol of the Corruptor", "=ds=#s16#, #w14#", "", "17%"};
-		--{ 12, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#s16#, #w16#", "", "19%"};
 		{ 11, 151324, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#", "", "20%"};
 		{ 12, 151339, "", "=q4=Scepter of Lost Souls", "=ds=#w12#", "", "19%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
@@ -5576,7 +5492,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 19, 151347, "", "=q4=Pendulum of Infinity", "=ds=#s2#", "", "0.36%"};
 		{ 20, 151378, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
 		{ 21, 151391, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
-		
+		{ 23, 157209, "", "=q4=Потешная щуполька", "=ds=#e25#", ""};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarMimiron25Man";
@@ -5593,18 +5509,12 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 7, 151545, "", "=q4=Touch of Madness", "=ds=#h1#, #w1#", "", "25%"};
 		{ 8, 151542, "", "=q4=Devotion", "=ds=#w9#", "", "23%"};
 		{ 9, 151537, "", "=q4=Deliverance", "=ds=#w3#", "", "35%"};
-		--{ 12, 45635, "", "=q4=Chestguard of the Wayward Conqueror", "=ds=#e15#", "", "52%"};
-		--{ 13, 45636, "", "=q4=Chestguard of the Wayward Protector", "=ds=#e15#", "", "50%"};
-		--{ 14, 45637, "", "=q4=Chestguard of the Wayward Vanquisher", "=ds=#e15#", "", "27%"};
-		
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151567, "", "=q4=Amice of Inconceivable Horror", "=ds=#s3#, #a1#"};
 		{ 18, 151568, "", "=q4=Soul-Devouring Cinch", "=ds=#s10#, #a2#"};
 		{ 19, 151569, "", "=q4=Signet of Soft Lament", "=ds=#s13#"};
 		{ 20, 151570, "", "=q4=Caress of Insanity", "=ds=#h1#, #w6#"};
 		{ 21, 151566, "", "=q4=Hammer of Crushing Whispers", "=ds=#h2#, #w6#"};
-		{ 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
-		{ 24, 151571, "", "=q4=Vanquished Clutches of Yogg-Saron", "=ds=#s14#", "", "100%"};
 		{ 29, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
 		Prev = "UlduarVezax";
@@ -5612,9 +5522,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 	};
 
 	AtlasLoot_Data["UlduarYoggSaron25ManHEROIC"] = {
-		{ 1, 45897, "", "=q5=Перекованный молот древних королей", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
+		{ 1, 45897, "", "=q5=Перекованный молот древних королей", "=ds=#m3#", "", "40%"};	
 		{ 4, 151309, "", "=q4=Shawl of Haunted Memories", "=ds=#s4#", "", "25%"};
 		{ 5, 151202, "", "=q4=Cowl of Dark Whispers", "=ds=#s1#, #a1#", "", "17%"};
 		{ 6, 151204, "", "=q4=Garona's Guise", "=ds=#s1#, #a2#", "", "18%"};
@@ -5625,18 +5533,13 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 11, 151303, "", "=q4=Blood of the Old God", "=ds=#s14#", "", "20%"};
 		{ 12, 151333, "", "=q4=Soulscribe", "=ds=#h3#, #w4#", "", "9%"};
 		{ 13, 151323, "", "=q4=Earthshaper", "=ds=#h2#, #w6#", "", "15%"};
-		--{ 16, 45656, "", "=q4=Mantle of the Wayward Conqueror", "=ds=#e15#", "", "59%"};
-		--{ 17, 45657, "", "=q4=Mantle of the Wayward Protector", "=ds=#e15#", "", "54%"};
-		--{ 18, 45658, "", "=q4=Mantle of the Wayward Vanquisher", "=ds=#e15#", "", "66%"};
-		
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 151362, "", "=q4=Treads of the False Oracle", "=ds=#s12#, #a1#", "", "1%"};
 		{ 18, 151358, "", "=q4=Legguards of Cunning Deception", "=ds=#s11#, #a2#", "", "1%"};
 		{ 19, 151377, "", "=q4=Seal of the Betrayed King", "=ds=#s13#"};
 		{ 20, 151390, "", "=q4=Dark Edge of Depravity", "=ds=#h2#, #w7#", "", "1%"};
 		{ 22, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
-		{ 23, 45693, "", "=q4=Mimiron's Head", "=ds=#e12#", "", "100%"};
-		
+		{ 23, 45693, "", "=q4=Mimiron's Head", "=ds=#e12#", "", "100%"};	
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
@@ -5658,20 +5561,12 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 17, 151554, "", "=q4=Strength of the Heavens", "=ds=#s2#", "", "40%"};
 		{ 18, 151562, "", "=q4=Band of Lights", "=ds=#s13#"};
 		{ 19, 151560, "", "=q4=Nebula Band", "=ds=#s13#"};
-
-		--{ 16, 46052, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
-		--{ 17, 46320, "", "=q4=Drape of the Skyherald", "=q1=#m4#: =ds=#s4#"};
-		--{ 18, 46321, "", "=q4=Sunglimmer Drape", "=q1=#m4#: =ds=#s4#"};
-		--{ 19, 46322, "", "=q4=Brann's Sealing Ring", "=q1=#m4#: =ds=#s13#"};
-		--{ 20, 46323, "", "=q4=Starshine Signet", "=q1=#m4#: =ds=#s13#"};
 		Prev = "UlduarYoggSaron";
 		Next = "UlduarTrash";
 	};
 
 	AtlasLoot_Data["UlduarAlgalon25ManHEROIC"] = {
 		{ 1, 151696, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-		--{ 2, 151821, "", "=q5=Val'anyr, Hammer of Azeroth's Keepers", "=q1=#m4#: =ds=#h1#, #w6#"};
-		
 		{ 4, 151370, "", "=q4=Pharos Gloves", "=ds=#s9#, #a1#", "", "40%"};
 		{ 5, 151354, "", "=q4=Starwatcher's Binding", "=ds=#s10#, #a1#", "", ""};
 		{ 6, 151367, "", "=q4=Solar Bindings", "=ds=#s8#, #a2#", "", "40%"};
@@ -5688,11 +5583,6 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 17, 151385, "", "=q4=Bulwark of Algalon", "=ds=#w8#"};
 		{ 18, 151400, "", "=q4=Skyforge Crossbow", "=ds=#w3#", "", "1%"};
 		{ 19, 151380, "", "=q4=Comet's Trail", "=ds=#s14#"};
-		--{ 20, 46053, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
-		--{ 19, 45588, "", "=q4=Drape of the Skyborn", "=q1=#m4#: =ds=#s4#"};
-		--{ 20, 45618, "", "=q4=Sunglimmer Cloak", "=q1=#m4#: =ds=#s4#"};
-		--{ 21, 45608, "", "=q4=Brann's Signet Ring", "=q1=#m4#: =ds=#s13#"};
-		--{ 22, 45614, "", "=q4=Starshine Circle", "=q1=#m4#: =ds=#s13#"};
 		{ 28, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 29, 280009, "", "=q4=Печать Титанов", "=ds=#e15#", "", "59%"};
 		{ 30, 151695, "", "=q4=Первоэлемент", "=ds=#e8#"};	
@@ -16635,85 +16525,85 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 	};
 	
 	AtlasLoot_Data["EmblemofScorching"] ={
-		{ 1, 97650, "", "=q4=Оковы безумного колдуна", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 2, 97651, "", "=q4=Наручи стража жизни", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 3, 97652, "", "=q4=Памятные наручники вора", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 4, 97653, "", "=q4=Браслеты с рунической огранкой", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 5, 97654, "", "=q4=Наручная защита друида", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 6, 97655, "", "=q4=Поручи блаженного духа", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 7, 97656, "", "=q4=Обмотки повелителя молний", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 8, 97657, "", "=q4=Нерушимая связь повелителя зверей", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 9, 97658, "", "=q4=Силовая цепь аметистовой стражи", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 10, 97659, "", "=q4=Кандалы клятвопреступника", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 11, 97660, "", "=q4=Браслеты инкрустированные алмазами", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 12, 97661, "", "=q4=Тонкий пояс ведьмы", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 13, 97662, "", "=q4=Пряжка отречения", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 14, 97663, "", "=q4=Ошейник матери-медведицы", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 15, 97664, "", "=q4=Пояс лунного очищения", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 16, 97665, "", "=q4=Кушак Фэндрала", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 17, 97666, "", "=q4=Метка служителя земли", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 18, 97667, "", "=q4=Опоясок гнева стихий", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 19, 97668, "", "=q4=Пояс немирного решения", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 20, 97669, "", "=q4=Опоясок командира орудия", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 21, 97670, "", "=q4=Путы мстителя", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 22, 97671, "", "=q4=Очищенный пояс вурдалака", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 23, 97672, "", "=q4=Митенки кровавой баронессы", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 24, 97673, "", "=q4=Перчатки послушника Алого Ордена", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 25, 97674, "", "=q4=Ужасающие лапы Голдрина", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 26, 97675, "", "=q4=Манжеты служителя лунной поляны", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 27, 97676, "", "=q4=Хват лунного совуха", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 28, 97677, "", "=q4=Указатель живительного прилива", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 29, 97678, "", "=q4=Захваты стихий", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 30, 97679, "", "=q4=Оборванные перчатки убийцы", "=ds=#s4#", "9000 #pvevalorpoints#" };
+		{ 1, 97650, "", "=q4=Оковы безумного колдуна", "=ds=#s8#, #a1#", "7500 #pvevalorpoints#" };
+		{ 2, 97651, "", "=q4=Наручи стража жизни", "=ds=#s8#, #a1#", "7500 #pvevalorpoints#" };
+		{ 3, 97652, "", "=q4=Памятные наручники вора", "=ds=#s8#, #a2#", "7500 #pvevalorpoints#" };
+		{ 4, 97653, "", "=q4=Браслеты с рунической огранкой", "=ds=#s8#, #a2#", "7500 #pvevalorpoints#" };
+		{ 5, 97654, "", "=q4=Наручная защита друида", "=ds=#s8#, #a2#", "7500 #pvevalorpoints#" };
+		{ 6, 97655, "", "=q4=Поручи блаженного духа", "=ds=#s8#, #a3#", "7500 #pvevalorpoints#" };
+		{ 7, 97656, "", "=q4=Обмотки повелителя молний", "=ds=#s8#, #a3#", "7500 #pvevalorpoints#" };
+		{ 8, 97657, "", "=q4=Нерушимая связь повелителя зверей", "=ds=#s8#, #a3#", "7500 #pvevalorpoints#" };
+		{ 9, 97658, "", "=q4=Силовая цепь аметистовой стражи", "=ds=#s8#, #a4#", "7500 #pvevalorpoints#" };
+		{ 10, 97659, "", "=q4=Кандалы клятвопреступника", "=ds=#s8#, #a4#", "7500 #pvevalorpoints#" };
+		{ 11, 97660, "", "=q4=Браслеты инкрустированные алмазами", "=ds=#s8#, #a4#", "7500 #pvevalorpoints#" };
+		{ 12, 97661, "", "=q4=Тонкий пояс ведьмы", "=ds=#s10#, #a1#", "9000 #pvevalorpoints#" };
+		{ 13, 97662, "", "=q4=Пряжка отречения", "=ds=#s10#, #a1#", "9000 #pvevalorpoints#" };
+		{ 14, 97663, "", "=q4=Ошейник матери-медведицы", "=ds=#s10#, #a2#", "9000 #pvevalorpoints#" };
+		{ 15, 97664, "", "=q4=Пояс лунного очищения", "=ds=#s10#, #a2#", "9000 #pvevalorpoints#" };
+		{ 16, 97665, "", "=q4=Кушак Фэндрала", "=ds=#s10#, #a2#", "9000 #pvevalorpoints#" };
+		{ 17, 97666, "", "=q4=Метка служителя земли", "=ds=#s10#, #a3#", "9000 #pvevalorpoints#" };
+		{ 18, 97667, "", "=q4=Опоясок гнева стихий", "=ds=#s10#, #a3#", "9000 #pvevalorpoints#" };
+		{ 19, 97668, "", "=q4=Пояс немирного решения", "=ds=#s10#, #a3#", "9000 #pvevalorpoints#" };
+		{ 20, 97669, "", "=q4=Опоясок командира орудия", "=ds=#s10#, #a4#", "9000 #pvevalorpoints#" };
+		{ 21, 97670, "", "=q4=Путы мстителя", "=ds=#s10#, #a4#", "9000 #pvevalorpoints#" };
+		{ 22, 97671, "", "=q4=Очищенный пояс вурдалака", "=ds=#s10#, #a4#", "9000 #pvevalorpoints#" };
+		{ 23, 97672, "", "=q4=Митенки кровавой баронессы", "=ds=#s9#, #a1#", "9000 #pvevalorpoints#" };
+		{ 24, 97673, "", "=q4=Перчатки послушника Алого Ордена", "=ds=#s9#, #a1#", "9000 #pvevalorpoints#" };
+		{ 25, 97674, "", "=q4=Ужасающие лапы Голдрина", "=ds=#s9#, #a2#", "9000 #pvevalorpoints#" };
+		{ 26, 97675, "", "=q4=Манжеты служителя лунной поляны", "=ds=#s9#, #a2#", "9000 #pvevalorpoints#" };
+		{ 27, 97676, "", "=q4=Хват лунного совуха", "=ds=#s9#, #a2#", "9000 #pvevalorpoints#" };
+		{ 28, 97677, "", "=q4=Указатель живительного прилива", "=ds=#s9#, #a3#", "9000 #pvevalorpoints#" };
+		{ 29, 97678, "", "=q4=Захваты стихий", "=ds=#s9#, #a3#", "9000 #pvevalorpoints#" };
+		{ 30, 97679, "", "=q4=Оборванные перчатки убийцы", "=ds=#s9#, #a3#", "9000 #pvevalorpoints#" };
 		Next = "EmblemofScorching2";
 		Back = "SETMENU";
 	};
 	AtlasLoot_Data["EmblemofScorching2"] ={
-		{ 1, 97680, "", "=q4=Наручная защита элитной стражи", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 2, 97681, "", "=q4=Перчатки палача", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 3, 97682, "", "=q4=Касание священника", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 4, 97683, "", "=q4=Ботфорты мага-отступника", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 5, 97684, "", "=q4=Ступни ходящего по воде", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 6, 97685, "", "=q4=Поступь гнева Урсока", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 7, 97686, "", "=q4=Опаленные солнцем ботинки", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 8, 97687, "", "=q4=Туфли стражницы лунной поляны", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 9, 97688, "", "=q4=Чеканные ботинки целителя", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 10, 97689, "", "=q4=Ходящие по лаве", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 11, 97690, "", "=q4=Чешуйчатые ботфорты", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 12, 97691, "", "=q4=Утяжеленные ботинки стража", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 13, 97692, "", "=q4=Прогнившие сапоги", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 14, 97693, "", "=q4=Шаги утренней зари", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 15, 97694, "", "=q4=Пристанище души первого лича", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 16, 97695, "", "=q4=Печатка саморазрушения", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 17, 97696, "", "=q4=Перстень железной воли жрицы", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 18, 97697, "", "=q4=Цепь бесконечной агонии", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 19, 97698, "", "=q4=Умиротворяющее кольцо", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 20, 97699, "", "=q4=Безудержный натиск Грома", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 21, 97700, "", "=q4=Кольцо стражника Луносвета", "=ds=#s4#", "7500 #pvevalorpoints#" };
-		{ 22, 97701, "", "=q4=Дикий гнев Пеплошкурой", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 23, 97702, "", "=q4=Идол мощи Малфуриона", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 24, 97703, "", "=q4=Напутствие Эонар", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 25, 97704, "", "=q4=Человечность Кольтиры", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 26, 97705, "", "=q4=Бездушность Тассариана", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 27, 97706, "", "=q4=Благословение Леди Лиадрин", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 28, 97707, "", "=q4=Месть Могрейна", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 29, 97708, "", "=q4=Барьер Датрохана", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 30, 97709, "", "=q4=Тотем волчьего воя Дрек'Тара", "=ds=#s4#", "4500 #pvevalorpoints#" };
+		{ 1, 97680, "", "=q4=Наручная защита элитной стражи", "=ds=#s9#, #a4#", "9000 #pvevalorpoints#" };
+		{ 2, 97681, "", "=q4=Перчатки палача", "=ds=#s9#, #a4#", "9000 #pvevalorpoints#" };
+		{ 3, 97682, "", "=q4=Касание священника", "=ds=#s9#, #a4#", "9000 #pvevalorpoints#" };
+		{ 4, 97683, "", "=q4=Ботфорты мага-отступника", "=ds=#s12#, #a1#", "9000 #pvevalorpoints#" };
+		{ 5, 97684, "", "=q4=Ступни ходящего по воде", "=ds=#s12#, #a1#", "9000 #pvevalorpoints#" };
+		{ 6, 97685, "", "=q4=Поступь гнева Урсока", "=ds=#s12#, #a2#", "9000 #pvevalorpoints#" };
+		{ 7, 97686, "", "=q4=Опаленные солнцем ботинки", "=ds=#s12#, #a2#", "9000 #pvevalorpoints#" };
+		{ 8, 97687, "", "=q4=Туфли стражницы лунной поляны", "=ds=#s12#, #a2#", "9000 #pvevalorpoints#" };
+		{ 9, 97688, "", "=q4=Чеканные ботинки целителя", "=ds=#s12#, #a3#", "9000 #pvevalorpoints#" };
+		{ 10, 97689, "", "=q4=Ходящие по лаве", "=ds=#s12#, #a3#", "9000 #pvevalorpoints#" };
+		{ 11, 97690, "", "=q4=Чешуйчатые ботфорты", "=ds=#s12#, #a3#", "9000 #pvevalorpoints#" };
+		{ 12, 97691, "", "=q4=Утяжеленные ботинки стража", "=ds=#s12#, #a4#", "9000 #pvevalorpoints#" };
+		{ 13, 97692, "", "=q4=Прогнившие сапоги", "=ds=#s12#, #a4#", "9000 #pvevalorpoints#" };
+		{ 14, 97693, "", "=q4=Шаги утренней зари", "=ds=#s12#, #a4#", "9000 #pvevalorpoints#" };
+		{ 15, 97694, "", "=q4=Пристанище души первого лича", "=ds=#s13#", "7500 #pvevalorpoints#" };
+		{ 16, 97695, "", "=q4=Печатка саморазрушения", "=ds=#s13#", "7500 #pvevalorpoints#" };
+		{ 17, 97696, "", "=q4=Перстень железной воли жрицы", "=ds=#s13#", "7500 #pvevalorpoints#" };
+		{ 18, 97697, "", "=q4=Цепь бесконечной агонии", "=ds=#s13#", "7500 #pvevalorpoints#" };
+		{ 19, 97698, "", "=q4=Умиротворяющее кольцо", "=ds=#s13#", "7500 #pvevalorpoints#" };
+		{ 20, 97699, "", "=q4=Безудержный натиск Грома", "=ds=#s13#", "7500 #pvevalorpoints#" };
+		{ 21, 97700, "", "=q4=Кольцо стражника Луносвета", "=ds=#s13#", "7500 #pvevalorpoints#" };
+		{ 22, 97701, "", "=q4=Дикий гнев Пеплошкурой", "=ds=#w14#", "4500 #pvevalorpoints#" };
+		{ 23, 97702, "", "=q4=Идол мощи Малфуриона", "=ds=#w14#", "4500 #pvevalorpoints#" };
+		{ 24, 97703, "", "=q4=Напутствие Эонар", "=ds=#w14#", "4500 #pvevalorpoints#" };
+		{ 25, 97704, "", "=q4=Человечность Кольтиры", "=ds=#w21#", "4500 #pvevalorpoints#" };
+		{ 26, 97705, "", "=q4=Бездушность Тассариана", "=ds=#w21#", "4500 #pvevalorpoints#" };
+		{ 27, 97706, "", "=q4=Благословение Леди Лиадрин", "=ds=#w16#", "4500 #pvevalorpoints#" };
+		{ 28, 97707, "", "=q4=Месть Могрейна", "=ds=#w16#", "4500 #pvevalorpoints#" };
+		{ 29, 97708, "", "=q4=Барьер Датрохана", "=ds=#w16#", "4500 #pvevalorpoints#" };
+		{ 30, 97709, "", "=q4=Тотем волчьего воя Дрек'Тара", "=ds=#w15#", "4500 #pvevalorpoints#" };
 		Next = "EmblemofScorching3";
 		Prev = "EmblemofScorching";
 		Back = "SETMENU";
 	};
 	AtlasLoot_Data["EmblemofScorching3"] ={
-		{ 1, 97710, "", "=q4=Первый тотем Нобундо", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 2, 97711, "", "=q4=Тотем дикого огнеястреба", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 3, 97712, "", "=q4=Касание короля-мага", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 4, 97713, "", "=q4=Очищающий жезл серебряного авангарда", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 5, 97714, "", "=q4=Запасной план Валиры", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 6, 97715, "", "=q4=Жестокий защитник", "=ds=#s4#", "4500 #pvevalorpoints#" };
-		{ 7, 97716, "", "=q4=Смертный час", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 8, 97717, "", "=q4=Разрушенный бастион", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 9, 97718, "", "=q4=Осколок сверхновой", "=ds=#s4#", "9000 #pvevalorpoints#" };
-		{ 10, 97719, "", "=q4=Очищенный осколок тьмы", "=ds=#s4#", "9000 #pvevalorpoints#" };
+		{ 1, 97710, "", "=q4=Первый тотем Нобундо", "=ds=#w15#", "4500 #pvevalorpoints#" };
+		{ 2, 97711, "", "=q4=Тотем дикого огнеястреба", "=ds=#w15#", "4500 #pvevalorpoints#" };
+		{ 3, 97712, "", "=q4=Касание короля-мага", "=ds=#w12#", "4500 #pvevalorpoints#" };
+		{ 4, 97713, "", "=q4=Очищающий жезл серебряного авангарда", "=ds=#w12#", "4500 #pvevalorpoints#" };
+		{ 5, 97714, "", "=q4=Запасной план Валиры", "=ds=#w11#", "4500 #pvevalorpoints#" };
+		{ 6, 97715, "", "=q4=Жестокий защитник", "=ds=#w11#", "4500 #pvevalorpoints#" };
+		{ 7, 97716, "", "=q4=Смертный час", "=ds=#s14#", "9000 #pvevalorpoints#" };
+		{ 8, 97717, "", "=q4=Разрушенный бастион", "=ds=#s14#", "9000 #pvevalorpoints#" };
+		{ 9, 97718, "", "=q4=Осколок сверхновой", "=ds=#s14#", "9000 #pvevalorpoints#" };
+		{ 10, 97719, "", "=q4=Очищенный осколок тьмы", "=ds=#s14#", "9000 #pvevalorpoints#" };
 		Prev = "EmblemofScorching2";
 		Back = "SETMENU";
 	};

@@ -32,8 +32,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 25, "Maar'n", "Achi_sAmaniTroll", "=ds="..AL["Maar'n"], ""};
 		{ 26, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};
 		{ 27, "EnchantedGem", "s_trade_archaeology_arakkoa_crystalshard", "=ds="..AL["EnchantedGem"], ""};
-		{ 28, "blackpigment", "Sha_Spell_Fire_FelFireNova", "=ds="..AL["blackpigment"], ""};
-		{ 29, "Enchanting_Tol'Garod", "Spell_Holy_GreaterHeal", "=ds="..AL["Enchanting_Tol'Garod"], ""};
+		{ 28, "blackpigment", "Sha_Spell_Fire_FelFireNova", "=ds="..AL["blackpigment"], ""};	
 	};
 
 	AtlasLoot_Data["KATEGORIAMENU_x4"] = {	

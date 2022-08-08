@@ -4063,6 +4063,7 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	AtlasLoot_Data["Magic Eater2_x2"] ={	
 		{ 1, 153378, "", "=q4=Разбойник", "=ds=#e13#"};
 		Prev = "Magic Eater";
+		Next = "Enchanting_Tol'Garod";
 	};
 	
 	AtlasLoot_Data["Gogonash_x4"] ={
@@ -4166,8 +4167,9 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 	};
 	
 	AtlasLoot_Data["Magic Eater2_x4"] ={	
-		{ 1, 153378, "", "=q4=Разбойник", "=ds=#e13#"};
+		{ 1, 153378, "", "=q4=Разбойник", "=ds=#e13#"};		
 		Prev = "Magic Eater";
+		Next = "Enchanting_Tol'Garod";
 	};
 	
 	AtlasLoot_Data["Enchanting_Tol'Garod"] ={
@@ -4193,15 +4195,15 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 20, "s318763", "Spell_Holy_GreaterHeal", "=ds=Охотник - Урон"};
 		{ 21, "s318764", "Spell_Holy_GreaterHeal", "=ds=Охотник - Урон - Триггер"};
 		{ 22, "s318750", "Spell_Holy_GreaterHeal", "=ds=Паладин - Исцеление - Триггер"};
-		{ 23, "s318752", "Spell_Holy_GreaterHeal", "=ds=Паладин - Исцеление - Триггер"};
-		{ 24, "s318753", "Spell_Holy_GreaterHeal", "=ds=Паладин - Исцеление - Триггер"};
-		{ 25, "s318722", "Spell_Holy_GreaterHeal", "=ds=Паладин - Танк"};
-		{ 26, "s318724", "Spell_Holy_GreaterHeal", "=ds=Паладин - Танк"};
-		{ 27, "s318739", "Spell_Holy_GreaterHeal", "=ds=Паладин - Урон - Триггер"};
-		{ 28, "s318741", "Spell_Holy_GreaterHeal", "=ds=Паладин - Урон - Триггер"};
-		{ 29, "s318774", "Spell_Holy_GreaterHeal", "=ds=Разбойник - Урон"};
-		{ 30, "s318777", "Spell_Holy_GreaterHeal", "=ds=Разбойник - Урон"};
-		Back = "KATEGORIAMENU";
+		--{ 23, "s318752", "Spell_Holy_GreaterHeal", "=ds=Паладин - Исцеление - Триггер"};
+		{ 23, "s318753", "Spell_Holy_GreaterHeal", "=ds=Паладин - Исцеление - Триггер"};
+		{ 24, "s318722", "Spell_Holy_GreaterHeal", "=ds=Паладин - Танк"};
+		{ 25, "s318724", "Spell_Holy_GreaterHeal", "=ds=Паладин - Танк"};
+		{ 26, "s318739", "Spell_Holy_GreaterHeal", "=ds=Паладин - Урон - Триггер"};
+		{ 27, "s318741", "Spell_Holy_GreaterHeal", "=ds=Паладин - Урон - Триггер"};
+		{ 28, "s318774", "Spell_Holy_GreaterHeal", "=ds=Разбойник - Урон"};
+		{ 29, "s318777", "Spell_Holy_GreaterHeal", "=ds=Разбойник - Урон"};
+		Prev = "Magic Eater2";
 		Next = "Enchanting_Tol'Garod2";
 	};
 	AtlasLoot_Data["Enchanting_Tol'Garod2"] ={	
@@ -4217,19 +4219,18 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 10, "s318760", "Spell_Holy_GreaterHeal", "=ds=Шаман - Ловкость"};
 		{ 11, "s318766", "Spell_Holy_GreaterHeal", "=ds=Шаман - Урон"};
 		{ 12, "s318767", "Spell_Holy_GreaterHeal", "=ds=Шаман - Урон"};
-		{ 13, "s318717", "Spell_Holy_GreaterHeal", "=ds=Броня"};
-		{ 14, "s318718", "Spell_Holy_GreaterHeal", "=ds=Здоровье"};
-		{ 15, "s318744", "Spell_Holy_GreaterHeal", "=ds=Критическая сила"};
-		{ 16, "s318743", "Spell_Holy_GreaterHeal", "=ds=Критический шанс"};
-		{ 17, "s318720", "Spell_Holy_GreaterHeal", "=ds=Получаемое исцеление"};
-		{ 18, "s318719", "Spell_Holy_GreaterHeal", "=ds=Регенерация"};
-		{ 19, "s318746", "Spell_Holy_GreaterHeal", "=ds=Сила атаки"};
-		{ 20, "s318755", "Spell_Holy_GreaterHeal", "=ds=Сила заклинаний"};
-		{ 21, "s318745", "Spell_Holy_GreaterHeal", "=ds=Рейтинг скорости"};
-		{ 22, "s318756", "Spell_Holy_GreaterHeal", "=ds=Снижение расхода маны"};
-		{ 23, "s318747", "Spell_Holy_GreaterHeal", "=ds=Двойная автоатака"};
-		{ 24, "s318721", "Spell_Holy_GreaterHeal", "=ds=Уменьшение от урона по области"};
-		Back = "KATEGORIAMENU";
+		{ 16, "s318717", "Spell_Holy_GreaterHeal", "=ds=Броня"};
+		{ 17, "s318718", "Spell_Holy_GreaterHeal", "=ds=Здоровье"};
+		{ 18, "s318744", "Spell_Holy_GreaterHeal", "=ds=Критическая сила"};
+		{ 19, "s318743", "Spell_Holy_GreaterHeal", "=ds=Критический шанс"};
+		{ 20, "s318720", "Spell_Holy_GreaterHeal", "=ds=Получаемое исцеление"};
+		{ 21, "s318719", "Spell_Holy_GreaterHeal", "=ds=Регенерация"};
+		{ 22, "s318746", "Spell_Holy_GreaterHeal", "=ds=Сила атаки"};
+		{ 23, "s318755", "Spell_Holy_GreaterHeal", "=ds=Сила заклинаний"};
+		{ 24, "s318745", "Spell_Holy_GreaterHeal", "=ds=Рейтинг скорости"};
+		{ 25, "s318756", "Spell_Holy_GreaterHeal", "=ds=Снижение расхода маны"};
+		{ 26, "s318747", "Spell_Holy_GreaterHeal", "=ds=Двойная автоатака"};
+		{ 27, "s318721", "Spell_Holy_GreaterHeal", "=ds=Уменьшение от урона по области"};
 		Prev = "Enchanting_Tol'Garod";
 	};
 	
