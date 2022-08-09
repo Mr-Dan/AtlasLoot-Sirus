@@ -1473,18 +1473,35 @@ if AL then
     -- Specs
     AL["Balance"] = "Баланс";
     AL["Feral"] = "Сила зверя";
+	AL["Guardian"] = "Сила зверя";
     AL["Restoration"] = "Исцеление";
     AL["Holy"] = "Свет";
+	AL["Discipline"] = "Послушание";
     AL["Protection"] = "Защита";
     AL["Retribution"] = "Возмездие";
-    AL["Shadow"] = "Темная магия";
+    AL["Shadow"] = "Тьма";
     AL["Elemental"] = "Стихии";
     AL["Enhancement"] = "Совершенствование";
     AL["Fury"] = "Неистовство";
+	AL["Arms"] = "Оружие";
     AL["Demonology"] = "Демонология";
     AL["Destruction"] = "Разрушение";
     AL["Tanking"] = "Танкования";
-    AL["DPS"] = "ДПС";
+    AL["Blood"] = "Кровь";
+	AL["Frost"] = "Лед";
+	AL["Unholy"] = "Нечестивость";
+	AL["BeastMastery"] = "Повелитель зверей";
+	AL["Marksmanship"] = "Стрельба";
+	AL["Survival"] = "Выживание";
+	AL["Arcane"] = "Тайная магия";
+	AL["Fire"] = "Огонь";
+	AL["Frost"] = "Лед";
+	AL["Assassination"] = "Ликвидация";
+	AL["Outlaw"] = "Бой";
+	AL["Subtlety"] = "Скрытность";
+	AL["Affliction"] = "Колдовство";
+	AL["Demonology"] = "Демонология";
+	AL["Destruction"] = "Разрушение";
 
 	-- Naxx Zones
 	AL["Construct Quarter"] = "Квартал Мерзости";
