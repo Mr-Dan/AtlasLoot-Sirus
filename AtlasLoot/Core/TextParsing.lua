@@ -1104,9 +1104,9 @@ function AtlasLoot_FixText(text)
 	text = gsub(text, "#legendarygem#", "|TInterface\\Icons\\inv_legendary_chimeraoffear:18|t");
 	text = gsub(text, "#pvevalorpoints#", "|TInterface\\Icons\\pvecurrency-valor:15|t");
 	text = gsub(text, "#jeton#", "|TInterface\\Icons\\inv_misc_trinketpanda_08:15|t");--жетоны война запределья
-	text = gsub(text, "#pigment#", BabbleInventory["pigment"]);--Полироль
-	text = gsub(text, "#EnchantedGem#", BabbleInventory["EnchantedGem"]);--EnchantedGem
-	text = gsub(text, "#blackpigment#", BabbleInventory["blackpigment"]);--Полироль
+	text = gsub(text, "#pigment#", AL["pigment"]);--Полироль
+	text = gsub(text, "#EnchantedGem#", AL["EnchantedGem"]);--EnchantedGem
+	text = gsub(text, "#blackpigment#", AL["blackpigment"]);--Полироль
 	text = gsub(text, "#Tol'Garod#", "|TInterface\\Icons\\Achievement_Zone_TolBarad:15|t");--жетоны Тол'Гарод
 	text = gsub(text, "#Coin of Ancestry#", "|TInterface\\Icons\\inv_misc_elvencoins:15|t");-- Монета Наследия
 	text = gsub(text, "#Elisandra's Loans#", "|TInterface\\Icons\\ability_racial_etherealconnection:15|t");--Кредиты дельцы Элисандра
