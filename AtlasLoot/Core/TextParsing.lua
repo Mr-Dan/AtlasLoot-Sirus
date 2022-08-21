@@ -1021,6 +1021,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#arenaset9#", AL["arenaset9"]);
     text = gsub(text, "#arenaset10#", AL["arenaset10"]);
 	text = gsub(text, "#arenaset11#", AL["arenaset11"]);
+	text = gsub(text, "#arenaset12#", AL["arenaset12"]);
     -- Crafting
     text = gsub(text, "#sr#", AL["Skill Required:"]);
 
@@ -1096,13 +1097,16 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#horde#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:14:14:0:-1|t");
     text = gsub(text, "#alliance#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:16:16:0:-2|t");
     text = gsub(text, "#fireflower#", "|TInterface\\Icons\\INV_SummerFest_FireFlower:0|t");
-    text = gsub(text, "#t10mark#", "|TInterface\\Icons\\ability_paladin_shieldofthetemplar:0|t");
+    text = gsub(text, "#t10mark#", "|TInterface\\Icons\\ability_paladin_shieldofthetemplar:15|t");
+    text = gsub(text, "#t10.2mark#", "|TInterface\\Icons\\ability_paladin_judgementsofthejust:15|t");
+    text = gsub(text, "#primordialsaronite#", "|TInterface\\Icons\\spell_fire_felflamebreath:15|t");
 	text = gsub(text, "#ssunmark#", "|TInterface\\Icons\\INV_Shield_48:0|t");
 	text = gsub(text, "#legendarygem#", "|TInterface\\Icons\\inv_legendary_chimeraoffear:18|t");
 	text = gsub(text, "#pvevalorpoints#", "|TInterface\\Icons\\pvecurrency-valor:15|t");
 	text = gsub(text, "#jeton#", "|TInterface\\Icons\\inv_misc_trinketpanda_08:15|t");--жетоны война запределья
-	text = gsub(text, "#pigment#", BabbleInventory["pigment"]);--Полироль
-	text = gsub(text, "#blackpigment#", BabbleInventory["blackpigment"]);--Полироль
+	text = gsub(text, "#pigment#", AL["pigment"]);--Полироль
+	text = gsub(text, "#EnchantedGem#", AL["EnchantedGem"]);--EnchantedGem
+	text = gsub(text, "#blackpigment#", AL["blackpigment"]);--Полироль
 	text = gsub(text, "#Tol'Garod#", "|TInterface\\Icons\\Achievement_Zone_TolBarad:15|t");--жетоны Тол'Гарод
 	text = gsub(text, "#Coin of Ancestry#", "|TInterface\\Icons\\inv_misc_elvencoins:15|t");-- Монета Наследия
 	text = gsub(text, "#Elisandra's Loans#", "|TInterface\\Icons\\ability_racial_etherealconnection:15|t");--Кредиты дельцы Элисандра

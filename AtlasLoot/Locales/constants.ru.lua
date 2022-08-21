@@ -114,6 +114,7 @@ if AL then
 
 	AL["BlackDiamonds"] = "Черные бриллианты";
 	AL["BlackDiamonds2"] = "Алмаз Бездны";
+	AL["BlackDiamonds3"] = "Заряженный бриллиант";
 	AL["TrinketChests"] = "Сундуки с аксессуарами";
 	AL["BlackMarket"] = "Черный рынок";
 	AL["BMarketMounts"] = "Ездовые животные";
@@ -132,7 +133,14 @@ if AL then
 	AL["pigmentemerald"] = "Зеленая мистическая полироль";
 	AL["pigmentburnt"] = "Оранжевая мистическая полироль";
 
-
+	AL["EnchantedGem"] = "Зачарованный самоцвет";
+    AL["EnchantedGemRuby"] = "Красный зачарованный самоцвет";
+	AL["EnchantedGemSapphire"] = "Синий зачарованный самоцвет";
+	AL["EnchantedGemGolden"] = "Желтый зачарованный самоцвет";
+	AL["EnchantedGemIndigo"] = "Фиолетовый зачарованный самоцвет";
+	AL["EnchantedGemEmerald"] = "Зеленый зачарованный самоцвет";
+	AL["EnchantedGemBurnt"] = "Оранжевый зачарованный самоцвет";
+	
 	AL["blackpigment"] = "Черная Полироль";
     AL["Perfectruby"] = "Идеальный сердолик";
 	AL["Perfectsapphire"] = "Идеальный зефирит";
@@ -150,6 +158,8 @@ if AL then
 	AL["ForgottenSets"] = "Комплекты экипировки";
 	AL["ForgottenChests"] = "Сундуки с аксессуарами";
 	AL["ForgottenGems"] = "Древние драгоценные камни";
+	AL["ForgottenPetsMount"] = "Спутники и транспорт";
+	AL["ForgottenRep"] = "Знаки репутаций";
 
 	AL["LastLootedItems"] = "Последние полученные предметы";
 	AL["LastLootedItems2"] = "Последние полученные предметы";
@@ -168,6 +178,7 @@ if AL then
 
 
 	AL["Enchant_Tol'Garod"] = "Чары с Острова Тол'Гарод";
+	AL["Enchanting_Tol'Garod"] = "Случайные чары с Острова Тол'Гарод";
     AL["Jewel_Tol'Garod"] = "Ювелирное дело с Острова Тол'Гарод";
     AL["Tailoring_Tol'Garod"] = "Портняжное дело с Острова Тол'Гарод";
     AL["Leather_Tol'Garod"] = "Кожевничество с Острова Тол'Гарод";
@@ -382,6 +393,7 @@ if AL then
     AL["Emblem of Valor Rewards"] = "Хорошие артефакты";
     AL["Emblem of Heroism Rewards"] = "Дешевые артефакты";
     AL["Emblem of Conquest Rewards"] = "Улучшенные артефакты";
+	AL["Emblem of Subjugation Rewards"] = "Отличные артефакты";
 	AL["Emblem of Triumph Rewards"] = "Хорошие артефакты";
 	AL["Emblem of Frost Rewards"] = "Улучшенные артефакты";
     AL["BoE World Epics"] = "Мировые превосходные ПпП";
@@ -459,10 +471,17 @@ if AL then
     AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
 	-- Zone
 	AL["Bronze Sanctuary"] = "Бронзовое Святилище";
+	AL["Tol'Garod Prison"] = "Тол'Гародская тюрьма";
 	-- Boss
 	AL["Murozond"] = "Мурозонд";
 	AL["Elonus"] = "Исказитель времени Элонус";
 	AL["Imporus"] = "Импорус";
+	
+	AL["Gogonash"] = "Гогонаш";
+	AL["Xtrax Mind Absorber"] = "Поглотитель разума Ктракс";
+	AL["Magic Eater"] = "Пожиратель магии";
+	
+	AL["Zort"] = "Зорт";
 
 	--Other
 
@@ -684,6 +703,7 @@ if AL then
 	AL["A Tribute to Immortality"] = "Дань бессмертию";
 	AL["Low Level"] = "Низкого уровня";
 	AL["High Level"] = "Высокого уровня";
+	AL["Weapons a12"] = "Оружие 12 PVP сезона";
 	AL["Weapons a11"] = "Оружие 11 PVP сезона";
 	AL["Weapons a10"] = "Оружие 10 PVP сезона";
 	AL["Weapons a9"] = "Оружие 9 PVP сезона";
@@ -1416,6 +1436,7 @@ if AL then
 	AL["arenaset9"] = "Экипировка 9 PVP сезона  ";
 	AL["arenaset10"] = "Экипировка 10 PVP сезона  ";
 	AL["arenaset11"] = "Экипировка 11 PVP сезона  ";
+	AL["arenaset12"] = "Экипировка 12 PVP сезона  ";
 
 	AL["arenaset05"] = "5 PVP сезона ";
 	AL["arenaset06"] = "6 PVP сезона ";
@@ -1424,6 +1445,7 @@ if AL then
 	AL["arenaset09"] = "9 PVP сезона ";
 	AL["arenaset010"] = "10 PVP сезона ";
 	AL["arenaset011"] = "11 PVP сезона  ";
+	AL["arenaset012"] = "12 PVP сезона  ";
     -- Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "Оружие свирепого гладиатора";  --unused
     AL["Deadly Gladiator\'s Weapons"] = "Оружие смертоносного гладиатора";  --unused
@@ -1451,18 +1473,35 @@ if AL then
     -- Specs
     AL["Balance"] = "Баланс";
     AL["Feral"] = "Сила зверя";
+	AL["Guardian"] = "Сила зверя";
     AL["Restoration"] = "Исцеление";
     AL["Holy"] = "Свет";
+	AL["Discipline"] = "Послушание";
     AL["Protection"] = "Защита";
     AL["Retribution"] = "Возмездие";
-    AL["Shadow"] = "Темная магия";
+    AL["Shadow"] = "Тьма";
     AL["Elemental"] = "Стихии";
     AL["Enhancement"] = "Совершенствование";
     AL["Fury"] = "Неистовство";
+	AL["Arms"] = "Оружие";
     AL["Demonology"] = "Демонология";
     AL["Destruction"] = "Разрушение";
     AL["Tanking"] = "Танкования";
-    AL["DPS"] = "ДПС";
+    AL["Blood"] = "Кровь";
+	AL["Frost"] = "Лед";
+	AL["Unholy"] = "Нечестивость";
+	AL["BeastMastery"] = "Повелитель зверей";
+	AL["Marksmanship"] = "Стрельба";
+	AL["Survival"] = "Выживание";
+	AL["Arcane"] = "Тайная магия";
+	AL["Fire"] = "Огонь";
+	AL["Frost"] = "Лед";
+	AL["Assassination"] = "Ликвидация";
+	AL["Outlaw"] = "Бой";
+	AL["Subtlety"] = "Скрытность";
+	AL["Affliction"] = "Колдовство";
+	AL["Demonology"] = "Демонология";
+	AL["Destruction"] = "Разрушение";
 
 	-- Naxx Zones
 	AL["Construct Quarter"] = "Квартал Мерзости";

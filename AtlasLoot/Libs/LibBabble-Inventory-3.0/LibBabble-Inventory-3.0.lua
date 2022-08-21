@@ -1035,6 +1035,7 @@ elseif GAME_LOCALE == "ruRU" then
 	Yellow = "Желтый",
 	pigment = "Полироль",
 	blackpigment= "Черная Полироль",
+	EnchantedGem = "Зачарованный самоцвет",
 }
 elseif GAME_LOCALE == "zhCN" then
 	lib:SetCurrentTranslations {

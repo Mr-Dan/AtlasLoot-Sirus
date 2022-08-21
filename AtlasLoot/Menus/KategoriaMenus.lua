@@ -24,31 +24,32 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, "MillenniumRoulettex_x2", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};
 		{ 18, "BlackDiamonds", "inv_legendary_chimeraoffear", "=ds="..AL["BlackDiamonds"], ""};
 		{ 19, "BlackDiamonds2", "INV_Legendary_BreathofBlackPrince_AGI", "=ds="..AL["BlackDiamonds2"], ""};
-		{ 20, "TrinketChests_H", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
-		{ 21, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
-		{ 22, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
-		{ 23, "LiliMenu", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
-		{ 24, "Maar'n", "Achi_sAmaniTroll", "=ds="..AL["Maar'n"], ""};
-		{ 25, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};
-		{ 26, "blackpigment", "Sha_Spell_Fire_FelFireNova", "=ds="..AL["blackpigment"], ""};
-
+		{ 20, "BlackDiamonds3", "s_inv_empoweredbrilliant", "=ds="..AL["BlackDiamonds3"], ""};
+		{ 21, "TrinketChests_x2", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
+		{ 22, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
+		{ 23, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
+		{ 24, "LiliMenu", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
+		{ 25, "Maar'n", "Achi_sAmaniTroll", "=ds="..AL["Maar'n"], ""};
+		{ 26, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};
+		{ 27, "EnchantedGem", "s_trade_archaeology_arakkoa_crystalshard", "=ds="..AL["EnchantedGem"], ""};
+		{ 28, "blackpigment", "Sha_Spell_Fire_FelFireNova", "=ds="..AL["blackpigment"], ""};	
 	};
 
 	AtlasLoot_Data["KATEGORIAMENU_x4"] = {	
-		{ 2, "TrinketChests_H", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
+		{ 2, "TrinketChests_x4", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
 		{ 3, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
 		{ 4, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
 		{ 5, "LiliMenu", "Rogue_ShadowFocus", "=ds="..AL["Lili"], ""};
 		{ 6, "Maar'n", "Achi_sAmaniTroll", "=ds="..AL["Maar'n"], ""};
 		{ 7, "pigment", "inv_inscription_pigment_ruby", "=ds="..AL["pigment"], ""};	
+		{ 8, "EnchantedGem", "s_trade_archaeology_arakkoa_crystalshard", "=ds="..AL["EnchantedGem"], ""};
 		{ 17, "ElisandrMountMenu", "inv_brontosaurusmount", "=ds="..AL["Elisandr"], ""};		
 		{ 18, "SIRUSMOUNTMENU", "ability_mount_cranemountblue", "=ds="..AL["SIRUSMOUNT"], ""};
 		{ 19, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};	
 		{ 20, "MillenniumRoulettex_x4", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};	
+		{ 21, "Enchanting_Tol'Garod", "Spell_Holy_GreaterHeal", "=ds="..AL["Enchanting_Tol'Garod"], ""};
 	};
 
-
-	
 	AtlasLoot_Data["7MENU"] = {
 		{ 2, "7Menu+", "seven", "=ds="..AL["7+ kata"], ""};
 		Back = "KATEGORIAMENU";
@@ -233,7 +234,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["Forgotten"] = {
 		{ 2, "ForgottenSets", "Inv_chest_plate18", "=ds="..AL["ForgottenSets"], ""};
 		{ 3, "ForgottenChests_A", "Inv_misc_enggizmos_17", "=ds="..AL["ForgottenChests"], ""};
+		{ 4, "ForgottenRep", "Inv_Shield_48", "=ds="..AL["ForgottenRep"], ""};
 		{ 17, "ForgottenGems", "Inv_jewelcrafting_shadowsongamethyst_01", "=ds="..AL["ForgottenGems"], ""};
+		{ 18, "ForgottenPetsMount", "Inv_fungarian_blood", "=ds="..AL["ForgottenPetsMount"], ""};
 		Back = "KATEGORIAMENU";
 	};
 	AtlasLoot_Data["Maar'n"] = {
@@ -302,7 +305,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, "pigmentindigo", "inv_inscription_pigment_indigo", "=ds="..AL["pigmentindigo"], ""};
 		{ 6, "pigmentemerald", "inv_inscription_pigment_emerald", "=ds="..AL["pigmentemerald"], ""};
 		{ 7, "pigmentburnt", "inv_inscription_pigment_burnt", "=ds="..AL["pigmentburnt"], ""};
-
+		Back = "KATEGORIAMENU";
+	};
+	
+	AtlasLoot_Data["EnchantedGem"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 2, "EnchantedGemRuby", "Inv_jewelcrafting_80_cutgem01_red", "=ds="..AL["EnchantedGemRuby"], ""};
+		{ 3, "EnchantedGemSapphire", "Inv_jewelcrafting_80_cutgem01_blue", "=ds="..AL["EnchantedGemSapphire"], ""};
+		{ 4, "EnchantedGemGolden", "Inv_jewelcrafting_80_cutgem01_yellow", "=ds="..AL["EnchantedGemGolden"], ""};
+		{ 5, "EnchantedGemIndigo", "Inv_jewelcrafting_80_cutgem01_purple", "=ds="..AL["EnchantedGemIndigo"], ""};
+		{ 6, "EnchantedGemEmerald", "Inv_jewelcrafting_80_cutgem01_green", "=ds="..AL["EnchantedGemEmerald"], ""};
+		{ 7, "EnchantedGemBurnt", "Inv_jewelcrafting_80_cutgem01_orange", "=ds="..AL["EnchantedGemBurnt"], ""};
 		Back = "KATEGORIAMENU";
 	};
 	

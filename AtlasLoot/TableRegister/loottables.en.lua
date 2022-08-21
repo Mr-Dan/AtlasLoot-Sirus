@@ -52,20 +52,31 @@ end
 -----------------------
 --- Sirus Instances ---
 -----------------------
-
-	-- Bronze Sanctuary
-	AtlasLoot_TableNames["Murozond25Man"] ={AL["Murozond"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Elonus25Man"] ={AL["Elonus"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Imporus25Man"] ={AL["Imporus"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["MurozondHARD25Man"] ={AL["Murozond"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["ElonusHARD25Man"] ={AL["Elonus"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["ImporusHARD25Man"] ={AL["Imporus"], "AtlasLootSirus" };
 	
-	AtlasLoot_TableNames["Murozond25ManHEROIC"] ={AL["Murozond"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Elonus25ManHEROIC"] ={AL["Elonus"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Imporus25ManHEROIC"] ={AL["Imporus"], "AtlasLootSirus" };
+	--Tol'Garod Prison
+	AtlasLoot_TableNames["Gogonash_x2"] ={AL["Gogonash"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Xtrax Mind Absorber_x2"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater_x2"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater2_x2"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Gogonash_x4"] ={AL["Gogonash"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Xtrax Mind Absorber_x4"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater_x4"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater2_x4"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	-- Bronze Sanctuary
+	AtlasLoot_TableNames["Murozond"] ={AL["Murozond"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Elonus"] ={AL["Elonus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Imporus"] ={AL["Imporus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["MurozondHARD"] ={AL["Murozond"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ElonusHARD"] ={AL["Elonus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ImporusHARD"] ={AL["Imporus"], "AtlasLootSirus" };
+	
+	AtlasLoot_TableNames["MurozondHEROIC"] ={AL["Murozond"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ElonusHEROIC"] ={AL["Elonus"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ImporusHEROIC"] ={AL["Imporus"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["GrainOfSandOfLost"] ={AL["GrainOfSandOfLost"], "AtlasLootSirus" };
 	
+	AtlasLoot_TableNames["Zort"] ={AL["Zort"], "AtlasLootSirus" };
+		
 -----------------------
 --- WotLK Instances ---
 -----------------------
@@ -1321,23 +1332,38 @@ end
 	---T5 END
 	
 	---T6
-	AtlasLoot_TableNames["T6DeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T6DeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightBloodDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"].." "..AL["Blood"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightFrostDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"].." "..AL["Frost"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightUnholyDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"].." "..AL["Unholy"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightBloodTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"].." "..AL["Blood"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightFrostTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"].." "..AL["Frost"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightUnholyTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"].." "..AL["Unholy"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6DruidBalance"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6DruidFeral"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DruidGuardian"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Guardian"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6DruidRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T6Hunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T6Mage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6HunterBeastMastery"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." - "..AL["BeastMastery"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6HunterMarksmanship"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." - "..AL["Marksmanship"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6HunterSurvival"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." - "..AL["Survival"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6MageArcane"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"].." - "..AL["Arcane"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6MageFire"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"].." - "..AL["Fire"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6MageFrost"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"].." - "..AL["Frost"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6PaladinHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6PaladinProtection"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6PaladinRetribution"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6PriestHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6PriestDiscipline"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Discipline"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6PriestShadow"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T6Rogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6RogueAssassination"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." - "..AL["Assassination"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6RogueOutlaw"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." - "..AL["Outlaw"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6RogueSubtlety"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." - "..AL["Subtlety"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6ShamanElemental"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6ShamanEnhancement"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6ShamanRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T6Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6WarlockAffliction"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6WarlockDemonology"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6WarlockDestruction"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6WarriorArms"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Arms"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6WarriorFury"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6WarriorProtection"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootBurningCrusade" };
 	---T6 END
@@ -1376,6 +1402,10 @@ end
 	AtlasLoot_TableNames["EmblemofFrost"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofFrost2"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCMisc"] = { AL["ICCMisc"], "AtlasLootSirus" };
+ -- Emblem of Scorching Rewards
+	AtlasLoot_TableNames["EmblemofScorching"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofScorching2"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofScorching3"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
   -- Naxxramas 10/25 Man Sets
 	AtlasLoot_TableNames["NaxxDeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootWotLK" };
@@ -1693,6 +1723,8 @@ end
 	
 	AtlasLoot_TableNames["BlackDiamonds"] = { AL["BlackDiamonds"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["BlackDiamonds2"] = { AL["BlackDiamonds2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamonds3"] = { AL["BlackDiamonds3"], "AtlasLootSirus" };
+	
 	-- Полироли
 	AtlasLoot_TableNames["pigment"] = { AL["pigment"], "Menu" };
 	AtlasLoot_TableNames["pigmentruby"] = { AL["pigmentruby"], "AtlasLootSirus" };
@@ -1701,6 +1733,16 @@ end
 	AtlasLoot_TableNames["pigmentindigo"] = { AL["pigmentindigo"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["pigmentemerald"] = { AL["pigmentemerald"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["pigmentburnt"] = { AL["pigmentburnt"], "AtlasLootSirus" };	
+	
+	-- Зачарованный самоцвет
+	AtlasLoot_TableNames["EnchantedGem"] = { AL["EnchantedGem"], "Menu" };
+	AtlasLoot_TableNames["EnchantedGemRuby"] = { AL["EnchantedGemRuby"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemSapphire"] = { AL["EnchantedGemSapphire"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemGolden"] = { AL["EnchantedGemGolden"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemIndigo"] = { AL["EnchantedGemIndigo"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemEmerald"] = { AL["EnchantedGemEmerald"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemBurnt"] = { AL["EnchantedGemBurnt"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EnchantedGemBurnt2"] = { AL["EnchantedGemBurnt"], "AtlasLootSirus" };
 	
 	-- Черная полироль
 	AtlasLoot_TableNames["blackpigment"] = { AL["blackpigment"], "Menu" };
@@ -1794,18 +1836,20 @@ end
 	AtlasLoot_TableNames["ForgottenChests_A"] = { AL["ForgottenChests"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["ForgottenChests_H"] = { AL["ForgottenChests"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["ForgottenGems"] = { AL["ForgottenGems"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ForgottenPetsMount"] = { AL["ForgottenPetsMount"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["ForgottenRep"] = { AL["ForgottenRep"], "AtlasLootSirus" };
 	
 	AtlasLoot_TableNames["LastLootedItems"] = { AL["LastLootedItems"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["LastLootedItems2"] = { AL["LastLootedItems2"], "AtlasLootSirus" };
 	
-	AtlasLoot_TableNames["TrinketChests_A"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests2_A"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests3_A"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests4_A"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests_H"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests2_H"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests3_H"] = { AL["TrinketChests"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["TrinketChests4_H"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests_x2"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests2_x2"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests3_x2"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests4_x2"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests_x4"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests2_x4"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests3_x4"] = { AL["TrinketChests"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["TrinketChests4_x4"] = { AL["TrinketChests"], "AtlasLootSirus" };
 
 	AtlasLoot_TableNames["TailorMenu1"] = { AL["TailorSign1"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["TailorMenu2"] = { AL["TailorSign2"], "AtlasLootWorldEvents" };
@@ -2112,7 +2156,8 @@ end
 	AtlasLoot_TableNames["EnchantingOstrov"] = { ENCHANTING..": "..AL["Enchant Ostrov"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EnchantingOstrov2"] = { ENCHANTING..": "..AL["Enchant Ostrov"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Enchant_Tol'Garod"] = { ENCHANTING..": "..AL["Enchant_Tol'Garod"], "AtlasLootCrafting" };
-
+	AtlasLoot_TableNames["Enchanting_Tol'Garod"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Enchanting_Tol'Garod2"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
   -- Engineering
 	AtlasLoot_TableNames["EngineeringAmmo1"] = { ENGINEERING..": "..AL["Ammunition"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EngineeringArmor1"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
@@ -2177,6 +2222,7 @@ end
 	AtlasLoot_TableNames["JewelOrange2"] = { JEWELCRAFTING..": "..BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelOrange3"] = { JEWELCRAFTING..": "..BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelOrange4"] = { JEWELCRAFTING..": "..BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["JewelOrange5"] = { JEWELCRAFTING..": "..BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelPurple1"] = { JEWELCRAFTING..": "..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelPurple2"] = { JEWELCRAFTING..": "..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelPurple3"] = { JEWELCRAFTING..": "..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
@@ -2308,10 +2354,9 @@ end
 	AtlasLoot_TableNames["WillCircleMenu_x4"] = { AL["WillCircle"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["WillCircleMenu2_x2"] = { AL["WillCircle"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["WillCircleMenu2_x4"] = { AL["WillCircle"], "AtlasLootSirus" };
-
+	AtlasLoot_TableNames["WillCircleMenu3"] = { AL["WillCircle"], "AtlasLootSirus" };	
 	AtlasLoot_TableNames["RageSaddle"] = { AL["RageSaddle"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["RageSaddle2"] = { AL["RageSaddle"], "AtlasLootSirus" };
-	
+	AtlasLoot_TableNames["RageSaddle2"] = { AL["RageSaddle"], "AtlasLootSirus" };	
 	AtlasLoot_TableNames["PvP80UnSet1_x2"] = {AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet1_x4"] = {AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet2_x2"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
@@ -2321,10 +2366,11 @@ end
 	AtlasLoot_TableNames["PvP80UnSet4_x4"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet5_x2"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet5_x4"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PvP80UnSet6"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet6_x2"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet6_x4"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet7"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet8"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
-		
+	AtlasLoot_TableNames["PvP80UnSet9"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet22_x2"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet22_x4"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet33"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
@@ -2332,10 +2378,11 @@ end
 	AtlasLoot_TableNames["PvP80UnSet44_x4"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet55_x2"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet55_x4"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PvP80UnSet66"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet66_x2"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80UnSet66_x4"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet77"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet88"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
-	
+	AtlasLoot_TableNames["PvP80UnSet99"] = { AL["PvP Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet6_A"] = { AL["PvP Non-Set Epics"]..": "..AL["Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80UnSet6_H"] = { AL["PvP Non-Set Epics"]..": "..AL["Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80ClothNonSet0_x2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Cloth"], "AtlasLootWotLK" };
@@ -2353,6 +2400,7 @@ end
 	AtlasLoot_TableNames["PvP80LeatherNonSet2_x2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Leather"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80LeatherNonSet2_x4"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Leather"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80LeatherNonSet3"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Leather"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80LeatherNonSet4"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Leather"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80MailNonSet0_x2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80MailNonSet0_x4"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80MailNonSet1_x2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"], "AtlasLootWotLK" };
@@ -2360,6 +2408,7 @@ end
 	AtlasLoot_TableNames["PvP80MailNonSet2_x2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80MailNonSet2_x4"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80MailNonSet3"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80MailNonSet4"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80PlateNonSet0_x2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Plate"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80PlateNonSet0_x4"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Plate"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80PlateNonSet1_x2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Plate"], "AtlasLootWotLK" };
@@ -2367,6 +2416,7 @@ end
 	AtlasLoot_TableNames["PvP80PlateNonSet2_x2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Plate"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80PlateNonSet2_x4"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Plate"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80PlateNonSet3"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Plate"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80PlateNonSet4"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Plate"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80ClassItems1_x2"] = { AL["PvP Class Items"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80ClassItems2_x2"] = { AL["PvP Class Items"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80ClassItems3_x2"] = { AL["PvP Class Items"], "AtlasLootWotLK" };
@@ -2388,11 +2438,14 @@ end
 	AtlasLoot_TableNames["GladiatorWeapons5_x4"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["GladiatorWeapons6_x2"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["GladiatorWeapons6_x4"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["GladiatorWeapons7"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["GladiatorWeapons8"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GladiatorWeapons7_x2"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GladiatorWeapons7_x4"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GladiatorWeapons8_x2"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GladiatorWeapons8_x4"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["GladiatorWeapons9"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["GladiatorWeapons10"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["GladiatorWeapons11"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GladiatorWeapons12"] = { AL["Gladiator\'s Weapons"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvPa9NonSet1"] = { AL["PvP Non-Set Epics"]..": "..AL["Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvPa9NonSet3"] = { AL["PvP Non-Set Epics a9"]..": "..BabbleInventory["Cloth"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvPa9NonSet4"] = { AL["PvP Non-Set Epics a9"]..": "..BabbleInventory["Leather"], "AtlasLootWotLK" };
@@ -2417,6 +2470,8 @@ end
 	AtlasLoot_TableNames["PvPNewTokens_x4"] = { AL["PvPNewTokens"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["PvPNewTokens2_x4"] = { AL["PvPNewTokens"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["PvPNewTokens3_x4"] = { AL["PvPNewTokens"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["PvPNewTokens4_x2"] = { AL["PvPNewTokens"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["PvPNewTokens4_x4"] = { AL["PvPNewTokens"], "AtlasLootSirus" };
 -------------
 --- Other ---
 -------------
@@ -2437,6 +2492,7 @@ end
 	AtlasLoot_TableNames["T4SET"] = { AL["Tier 4 Sets"], "Menu" };	
 	AtlasLoot_TableNames["T5SET"] = { AL["Tier 5 Sets"], "Menu" };
 	AtlasLoot_TableNames["T6SET"] = { AL["Tier 6 Sets"], "Menu" };
+	AtlasLoot_TableNames["T6SET2"] = { AL["Tier 6 Sets"], "Menu" };
 	AtlasLoot_TableNames["T7T8SET"] = { AL["Tier 7/8 Sets"], "Menu" };
 	AtlasLoot_TableNames["T9SET"] = { AL["Tier 9 Sets"], "Menu" };
 	AtlasLoot_TableNames["T10SET"] = { AL["Tier 10 Sets"], "Menu" };
@@ -2471,6 +2527,7 @@ end
 	AtlasLoot_TableNames["EMBLEMOFVALORMENU"] = { AL["Emblem of Valor Rewards"], "Menu" };
 	AtlasLoot_TableNames["EMBLEMOFTRIUMPHMENU"] = { AL["Emblem of Triumph Rewards"], "Menu" };
 	AtlasLoot_TableNames["EMBLEMOFCONQUESTMENU"] = { AL["Emblem of Conquest Rewards"], "Menu" };
+	AtlasLoot_TableNames["EMBLEMOFSUBJUGATIONMENU"] = { AL["Emblem of Subjugation Rewards"], "Menu" };
 	AtlasLoot_TableNames["EMBLEMOFFROSTMENU"] = { AL["Emblem of Frost Rewards"], "Menu" };
 	AtlasLoot_TableNames["WORLDEPICS"] = { AL["BoE World Epics"], "Menu" };
 	AtlasLoot_TableNames["WORLDEVENTMENU"] = { AL["World Events"], "Menu" };

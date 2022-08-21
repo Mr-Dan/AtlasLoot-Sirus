@@ -1,4 +1,4 @@
-﻿local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
@@ -716,19 +716,18 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 12, 28233, "", "=q4=Necklace of Resplendent Hope", "=ds=#s2#", "", "15.00%"};
 		{ 13, 27904, "", "=q4=Resounding Ring of Glory", "=ds=#s13#", "", "0.17%"};
 		{ 14, 28227, "", "=q4=Sparking Arcanite Ring", "=ds=#s13#", "", "0.24%"};
-		{ 16, 28223, "", "=q4=Arcanist's Stone", "=ds=#s14#", "", "10.00%"};
-		{ 17, 28226, "", "=q4=Timeslicer", "=ds=#h1#, #w4#", "", "5.00%"};
-		{ 18, 28222, "", "=q4=Reaver of the Infinites", "=ds=#h2#, #w1#", "", "0.48%"};
-
-		{ 20, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 21, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 22, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 23, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 24, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 25, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
-
-		{ 27, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#", "", ""};
-		{ 29, 24173, "", "=q4=Design: Circlet of Arcane Might", "=ds=#p12# (370)", "", "0.10%"};
+		{ 15, 28223, "", "=q4=Arcanist's Stone", "=ds=#s14#", "", "10.00%"};
+		{ 16, 28226, "", "=q4=Timeslicer", "=ds=#h1#, #w4#", "", "5.00%"};
+		{ 17, 28222, "", "=q4=Reaver of the Infinites", "=ds=#h2#, #w1#", "", "0.48%"};
+		{ 18, 149334, "", "=q4=Фрагмент зачарованного ювелирного кристалла", "=ds=#e7#", "", ""};
+		{ 19, 99977, "", "=q1=Фрагмент красной мистической полироли", "=ds=#pigment#"};
+		{ 20, 99979, "", "=q1=Фрагмент синей мистической полироли", "=ds=#pigment#"};
+		{ 21, 99978, "", "=q1=Фрагмент желтой мистической полироли", "=ds=#pigment#"};
+		{ 22, 99981, "", "=q1=Фрагмент фиолетовой мистической полироли", "=ds=#pigment#"};
+		{ 23, 99982, "", "=q1=Фрагмент зеленой мистической полироли", "=ds=#pigment#"};
+		{ 24, 99980, "", "=q1=Фрагмент оранжевой мистической полироли", "=ds=#pigment#"};
+		{ 26, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e12#", "", ""};
+		{ 27, 153162, "", "=q4=Ультрамариновый дракончик", "=ds=#e13#", "", ""};
 		Prev = "CoTHillsbradSkarloc";
 	};
 
@@ -791,19 +790,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 13, 29253, "", "=q4=Girdle of Valorous Deeds", "=ds=#s10#, #a4#"};
 		{ 14, 28190, "", "=q4=Scarab of the Infinite Cycle", "=ds=#s14#", "", "11.32%"};
 		{ 15, 28189, "", "=q4=Latro's Shifting Sword", "=ds=#h1#, #w10#", "", "9.70%"};
-		{ 16, 28188, "", "=q4=Bloodfire Greatstaff", "=ds=#w9#", "", "10.48%"};
+		{ 16, 28188, "", "=q4=Bloodfire Greatstaff", "=ds=#w9#", "", "10.48%"};	
 		{ 17, 29356, "", "=q4=Quantum Blade", "=ds=#h2#, #w10#"};
-
-		{ 19, 99972, "", "=q4=Alicite", "=ds=#e7#", "", ""};
-		{ 20, 99974, "", "=q4=Hessonite", "=ds=#e7#", "", ""};
-		{ 21, 99973, "", "=q4=Zephyrite", "=ds=#e7#", "", ""};
-		{ 22, 99971, "", "=q4=Carnelian", "=ds=#e7#", "", ""};
-		{ 23, 99976, "", "=q4=Jasper", "=ds=#e7#", "", ""};
-		{ 24, 99975, "", "=q4=Nightstone", "=ds=#e7#", "", ""};
-
-
-		{ 26, 68833, "", "=q3=Panther Cub", "=ds=#e13#", "", ""};
-		{ 28, 33858, "", "=q1=Aeonus's Hourglass", "=ds=#m3#", "", "100%"};
+		{ 18, 149334, "", "=q4=Фрагмент зачарованного ювелирного кристалла", "=ds=#e7#", "", ""};
+		{ 19, 99977, "", "=q1=Фрагмент красной мистической полироли", "=ds=#pigment#"};
+		{ 20, 99979, "", "=q1=Фрагмент синей мистической полироли", "=ds=#pigment#"};
+		{ 21, 99978, "", "=q1=Фрагмент желтой мистической полироли", "=ds=#pigment#"};
+		{ 22, 99981, "", "=q1=Фрагмент фиолетовой мистической полироли", "=ds=#pigment#"};
+		{ 23, 99982, "", "=q1=Фрагмент зеленой мистической полироли", "=ds=#pigment#"};
+		{ 24, 99980, "", "=q1=Фрагмент оранжевой мистической полироли", "=ds=#pigment#"};
+		{ 25, 92798, "", "=q3=Пандаренский дух огня", "=ds=#e13#", "", ""};
 		Prev = "CoTMorassTemporus";
 	};
 
@@ -3673,18 +3669,18 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	
 	AtlasLoot_Data["SunOffensive3_x2"] = {
 		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
-		{ 2, 34665, "", "=q3=Bombardier's Blade", "=ds=#h1#, #w4#", "120 #ssunmark#"};
-		{ 3, 34667, "", "=q3=Archmage's Guile", "=ds=#h3#, #w10#", "120 #ssunmark#"};
-		{ 4, 34672, "", "=q3=Inuuro's Blade", "=ds=#h1#, #w10#", "120 #ssunmark#"};
-		{ 5, 34666, "", "=q3=The Sunbreaker", "=ds=#h1#, #w10#", "120 #ssunmark#"};
-		{ 6, 34671, "", "=q3=K'iru's Presage", "=ds=#h3#, #w6#", "120 #ssunmark#"};
-		{ 7, 34670, "", "=q3=Seeker's Gavel", "=ds=#h3#, #w6#", "120 #ssunmark#"};
-		{ 8, 25799, "", "=q3=Мясорезчик", "=ds=#w3#", "120 #ssunmark#"};
-		{ 9, 34674, "", "=q3=Truestrike Crossbow", "=ds=#w3#", "180 #ssunmark#"};
-		{ 10, 34673, "", "=q3=Legionfoe", "=ds=#h2#, #w1#", "240 #ssunmark#"};
-		{ 11, 22817, "", "=q3=Пронзатель сердец", "=ds=#w3#", "240 #ssunmark#"};
-		{ 12, 29748, "", "=q3=Растущий посох", "=ds=#w3#", "240 #ssunmark#"};
-		{ 13, 19879, "", "=q3=Крылатый ужас", "=ds=#w3#", "240 #ssunmark#"};
+		{ 2, 34665, "", "=q3=Bombardier's Blade", "=ds=#h1#, #w4#", "90 #ssunmark#"};
+		{ 3, 34667, "", "=q3=Archmage's Guile", "=ds=#h3#, #w10#", "90 #ssunmark#"};
+		{ 4, 34672, "", "=q3=Inuuro's Blade", "=ds=#h1#, #w10#", "90 #ssunmark#"};
+		{ 5, 34666, "", "=q3=The Sunbreaker", "=ds=#h1#, #w10#", "90 #ssunmark#"};
+		{ 6, 34671, "", "=q3=K'iru's Presage", "=ds=#h3#, #w6#", "90 #ssunmark#"};
+		{ 7, 34670, "", "=q3=Seeker's Gavel", "=ds=#h3#, #w6#", "90 #ssunmark#"};
+		{ 8, 25799, "", "=q3=Мясорезчик", "=ds=#w3#", "90 #ssunmark#"};
+		{ 9, 34674, "", "=q3=Truestrike Crossbow", "=ds=#w3#", "135 #ssunmark#"};
+		{ 10, 34673, "", "=q3=Legionfoe", "=ds=#h2#, #w1#", "180 #ssunmark#"};
+		{ 11, 22817, "", "=q3=Пронзатель сердец", "=ds=#w3#", "180 #ssunmark#"};
+		{ 12, 29748, "", "=q3=Растущий посох", "=ds=#w3#", "180 #ssunmark#"};
+		{ 13, 19879, "", "=q3=Крылатый ужас", "=ds=#w3#", "180 #ssunmark#"};
 		{ 17, 1, "", "=q3=Bombardier's Blade", "=ds=#h1#, #w4#", "50 #ssunmark#"};
 		{ 18, 3, "", "=q3=Archmage's Guile", "=ds=#h3#, #w10#", "50 #ssunmark#"};
 		{ 19, 6, "", "=q3=Inuuro's Blade", "=ds=#h1#, #w10#", "50 #ssunmark#"};
@@ -3697,6 +3693,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 26, 22, "", "=q3=Пронзатель сердец", "=ds=#w3#", "50 #ssunmark#"};
 		{ 27, 24, "", "=q3=Растущий посох", "=ds=#w3#", "50 #ssunmark#"};
 		{ 28, 21, "", "=q3=Крылатый ужас", "=ds=#w3#", "50 #ssunmark#"};
+		{ 30, 155363, "", "=q3=Поводья Золотистого водного долгонога", "=ds=#e12#", "180 #ssunmark#"};
 		Next = "SunOffensive5_x2";
 		Back = "SunOffensive";
 	};
@@ -3765,15 +3762,15 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	};
 	AtlasLoot_Data["SunOffensive5_x2"] = {
 		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
-		{ 2, 34678, "", "=q4=Shattered Sun Pendant of Acumen", "=ds=#s2#", "270 #ssunmark#"};
-		{ 3, 34679, "", "=q4=Shattered Sun Pendant of Warrior Might", "=ds=#s2#", "270 #ssunmark#"};
-		{ 4, 34680, "", "=q4=Shattered Sun Pendant of Resolve", "=ds=#s2#", "270 #ssunmark#"};
-		{ 5, 34677, "", "=q4=Shattered Sun Pendant of Restoration", "=ds=#s2#", "270 #ssunmark#"};
-		{ 6, 55262, "", "=q4=Shattered Sun Pendant of Ablutions", "=ds=#s2#", "270 #ssunmark#"};
-		{ 7, 300098, "", "=q4=Shattered Sun Pendant of Might", "=ds=#s2#", "270 #ssunmark#"};
-		{ 8, 34676, "", "=q4=Dawnforged Defender", "=ds=#w8#", "120 #ssunmark#"};
-		{ 9, 34675, "", "=q4=Sunward Crest", "=ds=#w8#", "120 #ssunmark#"};
-		{ 10, 50480, "", "=q3=лапмада танцующих углей", "=ds=#w8#", "120 #ssunmark#"};
+		{ 2, 34678, "", "=q4=Shattered Sun Pendant of Acumen", "=ds=#s2#", "180 #ssunmark#"};
+		{ 3, 34679, "", "=q4=Shattered Sun Pendant of Warrior Might", "=ds=#s2#", "180 #ssunmark#"};
+		{ 4, 34680, "", "=q4=Shattered Sun Pendant of Resolve", "=ds=#s2#", "180 #ssunmark#"};
+		{ 5, 34677, "", "=q4=Shattered Sun Pendant of Restoration", "=ds=#s2#", "180 #ssunmark#"};
+		{ 6, 55262, "", "=q4=Shattered Sun Pendant of Ablutions", "=ds=#s2#", "180 #ssunmark#"};
+		{ 7, 300098, "", "=q4=Shattered Sun Pendant of Might", "=ds=#s2#", "180 #ssunmark#"};
+		{ 8, 34676, "", "=q4=Dawnforged Defender", "=ds=#w8#", "90 #ssunmark#"};
+		{ 9, 34675, "", "=q4=Sunward Crest", "=ds=#w8#", "90 #ssunmark#"};
+		{ 10, 50480, "", "=q3=лапмада танцующих углей", "=ds=#w8#", "90 #ssunmark#"};
 		{ 17, 12, "", "=q4=Shattered Sun Pendant of Acumen", "=ds=#s2#", "50 #ssunmark#"};
 		{ 18, 13, "", "=q4=Shattered Sun Pendant of Warrior Might", "=ds=#s2#", "50 #ssunmark#"};
 		{ 19, 14, "", "=q4=Shattered Sun Pendant of Resolve", "=ds=#s2#", "50 #ssunmark#"};
@@ -4524,8 +4521,6 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		--- 	  Tier 4       	---
 		----------------------------
 
-
-
 	AtlasLoot_Data["T4DruidFeral"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t4s1_1#", "=ec1=#m21#"};
 		{ 2, 29098, "", "=q4=Stag-Helm of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4539,107 +4534,112 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100480, "", "=q4=Breastplate of Malorne", "=ds=#netherseal#"};
 		{ 12, 100481, "", "=q4=Gauntlets of Malorne", "=ds=#netherseal#"};
 		{ 13, 100483, "", "=q4=Greaves of Malorne", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Ability_Druid_Maul", "=q6=#t4s1_2#", "=ec1=#m21#"};
+		{ 17, 101382, "", "=q4=Shoulderguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101384, "", "=q4=Shoulderguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101380, "", "=q4=Chestguard of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101381, "", "=q4=Handguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101383, "", "=q4=Legguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
-
-
 	AtlasLoot_Data["T4DruidRestoration"] = {
-
-
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_2#", "=ec1=#m21#"};
 		{ 2, 29086, "", "=q4=Crown of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29089, "", "=q4=Shoulderguards of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29087, "", "=q4=Chestguard of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29090, "", "=q4=Handguards of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29088, "", "=q4=Legguards of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
 		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_2#", "=ec1=#m21#"};
 		{ 9, 100470, "", "=q4=Crown of Malorne", "=ds=#netherseal#"};
 		{ 10, 100473, "", "=q4=Shoulderguards of Malorne", "=ds=#netherseal#"};
 		{ 11, 100471, "", "=q4=Chestguard of Malorne", "=ds=#netherseal#"};
 		{ 12, 100474, "", "=q4=Handguards of Malorne", "=ds=#netherseal#"};
 		{ 13, 100472, "", "=q4=Legguards of Malorne", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", ""};
+		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_2#", "=ec1=#m21#"};
+		{ 17, 101370, "", "=q4=Crown of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101373, "", "=q4=Shoulderguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101371, "", "=q4=Chestguard of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101374, "", "=q4=Handguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101372, "", "=q4=Legguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", ""};
 		Back = "T4SET";
 	};
 
-
-
 	AtlasLoot_Data["T4DeathKnightDPS"] = {
-
-
-		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 1, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 2, 55848, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 55207, "", "=q4=Pauldrons of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 55254, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 55784, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 56104, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
-		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 8, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 9, 100489, "", "=q4=Antlers of Malorne", "=ds=#netherseal#"};
 		{ 10, 100485, "", "=q4=Pauldrons of Malorne", "=ds=#netherseal#"};
 		{ 11, 100486, "", "=q4=Chestpiece of Malorne", "=ds=#netherseal#"};
 		{ 12, 100487, "", "=q4=Gloves of Malorne", "=ds=#netherseal#"};
 		{ 13, 100490, "", "=q4=Britches of Malorne", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 17, 101389, "", "=q4=Antlers of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101385, "", "=q4=Pauldrons of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101386, "", "=q4=Chestpiece of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101387, "", "=q4=Gloves of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101390, "", "=q4=Britches of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29759, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29762, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29756, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29765, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
-
-
 	AtlasLoot_Data["T4DeathKnightTank"] = {
-
-		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 1, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 2, 63462, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 55792, "", "=q4=Pauldrons of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 56291, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 56323, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 56435, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
-		{8, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 8, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 9, 100494, "", "=q4=Antlers of Malorne", "=ds=#netherseal#"};
 		{ 10, 100488, "", "=q4=Pauldrons of Malorne", "=ds=#netherseal#"};
 		{ 11, 100491, "", "=q4=Chestpiece of Malorne", "=ds=#netherseal#"};
 		{ 12, 100492, "", "=q4=Gloves of Malorne", "=ds=#netherseal#"};
 		{ 13, 100493, "", "=q4=Britches of Malorne", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Deathknight_Deathstrike", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 17, 101394, "", "=q4=Antlers of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101388, "", "=q4=Pauldrons of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101391, "", "=q4=Chestpiece of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101392, "", "=q4=Gloves of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101393, "", "=q4=Britches of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29759, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29762, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29756, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29765, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
-
 
 	AtlasLoot_Data["T4DruidBalance"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
@@ -4648,25 +4648,28 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 29091, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29092, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29094, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
 		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 9, 100477, "", "=q4=Antlers of Malorne", "=ds=#netherseal#"};
 		{ 10, 100479, "", "=q4=Pauldrons of Malorne", "=ds=#netherseal#"};
 		{ 11, 100475, "", "=q4=Chestpiece of Malorne", "=ds=#netherseal#"};
 		{ 12, 100476, "", "=q4=Gloves of Malorne", "=ds=#netherseal#"};
 		{ 13, 100478, "", "=q4=Britches of Malorne", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
+		{ 17, 101377, "", "=q4=Crown of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101379, "", "=q4=Shoulderguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101375, "", "=q4=Chestguard of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101376, "", "=q4=Handguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101378, "", "=q4=Legguards of Malorne", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
-
 
 	AtlasLoot_Data["T4Hunter"] = {
 		{1, 0, "Ability_Hunter_RunningShot", "=q6=#t4s2#", "=ec1=#m21#"};
@@ -4675,26 +4678,28 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 29082, "", "=q4=Demon Stalker Harness", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29085, "", "=q4=Demon Stalker Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29083, "", "=q4=Demon Stalker Greaves", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t4s2#", "=ec1=#m21#"};
 		{ 9, 100465, "", "=q4=Demon Stalker Greathelm", "=ds=#netherseal#"};
 		{ 10, 100468, "", "=q4=Demon Stalker Shoulderguards", "=ds=#netherseal#"};
 		{ 11, 100466, "", "=q4=Demon Stalker Harness", "=ds=#netherseal#"};
 		{ 12, 100469, "", "=q4=Demon Stalker Gauntlets", "=ds=#netherseal#"};
 		{ 13, 100467, "", "=q4=Demon Stalker Greaves", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t4s2#", "=ec1=#m21#"};
+		{ 17, 101365, "", "=q4=Demon Stalker Greathelm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101368, "", "=q4=Demon Stalker Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101366, "", "=q4=Demon Stalker Harness", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101369, "", "=q4=Demon Stalker Gauntlets", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101367, "", "=q4=Demon Stalker Greaves", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29759, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29762, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29756, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29765, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
-
 
 	AtlasLoot_Data["T4Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t4s3#", "=ec1=#m21#"};
@@ -4703,28 +4708,32 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 4, 29077, "", "=q4=Vestments of the Aldor", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29080, "", "=q4=Gloves of the Aldor", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29078, "", "=q4=Legwraps of the Aldor", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-
 		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t4s3#", "=ec1=#m21#"};
 		{ 9, 100460, "", "=q4=Collar of the Aldor", "=ds=#netherseal#"};
 		{ 10, 100463, "", "=q4=Pauldrons of the Aldor", "=ds=#netherseal#"};
 		{ 11, 100461, "", "=q4=Vestments of the Aldor", "=ds=#netherseal#"};
 		{ 12, 100464, "", "=q4=Gloves of the Aldor", "=ds=#netherseal#"};
 		{ 13, 100462, "", "=q4=Legwraps of the Aldor", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#t4s3#", "=ec1=#m21#"};
+		{ 17, 101360, "", "=q4=Collar of the Aldor", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101363, "", "=q4=Pauldrons of the Aldor", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101361, "", "=q4=Vestments of the Aldor", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101364, "", "=q4=Gloves of the Aldor", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101362, "", "=q4=Legwraps of the Aldor", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29759, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29762, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29756, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29765, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
 
 	AtlasLoot_Data["T4PaladinProtection"] = {
-	{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t4s4_1#", "=ec1=#m21#"};
+		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t4s4_1#", "=ec1=#m21#"};
 		{ 2, 29068, "", "=q4=Justicar Faceguard", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29070, "", "=q4=Justicar Shoulderguards", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29066, "", "=q4=Justicar Chestguard", "=ds="..BabbleBoss["Magtheridon"]};
@@ -4736,22 +4745,26 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100450, "", "=q4=Justicar Chestguard", "=ds=#netherseal#"};
 		{ 12, 100451, "", "=q4=Justicar Handguards", "=ds=#netherseal#"};
 		{ 13, 100453, "", "=q4=Justicar Legguards", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Holy_SealOfMight", "=q6=#t4s4_1#", "=ec1=#m21#"};
+		{ 17, 101352, "", "=q4=Justicar Faceguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101354, "", "=q4=Justicar Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101350, "", "=q4=Justicar Chestguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101351, "", "=q4=Justicar Handguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101353, "", "=q4=Justicar Legguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
 
 	AtlasLoot_Data["T4PaladinRetribution"] = {
-	{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t4s4_2#", "=ec1=#m21#"};
+		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t4s4_2#", "=ec1=#m21#"};
 		{ 2, 29073, "", "=q4=Justicar Crown", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29075, "", "=q4=Justicar Shoulderplates", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29071, "", "=q4=Justicar Breastplate", "=ds="..BabbleBoss["Magtheridon"]};
@@ -4763,18 +4776,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100455, "", "=q4=Justicar Breastplate", "=ds=#netherseal#"};
 		{ 12, 100456, "", "=q4=Justicar Gauntlets", "=ds=#netherseal#"};
 		{ 13, 100458, "", "=q4=Justicar Greaves", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t4s4_2#", "=ec1=#m21#"};
+		{ 17, 101357, "", "=q4=Justicar Faceguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101359, "", "=q4=Justicar Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101355, "", "=q4=Justicar Chestguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101356, "", "=q4=Justicar Handguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101358, "", "=q4=Justicar Legguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
-
 
 	AtlasLoot_Data["T4PaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t4s4_3#", "=ec1=#m21#"};
@@ -4789,20 +4806,25 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100446, "", "=q4=Justicar Chestpiece", "=ds=#netherseal#"};
 		{ 12, 100449, "", "=q4=Justicar Gloves", "=ds=#netherseal#"};
 		{ 13, 100447, "", "=q4=Justicar Leggings", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t4s4_3#", "=ec1=#m21#"};
+		{ 17, 101345, "", "=q4=Justicar Faceguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101348, "", "=q4=Justicar Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101346, "", "=q4=Justicar Chestguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101349, "", "=q4=Justicar Handguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101347, "", "=q4=Justicar Legguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
-
 	AtlasLoot_Data["T4PriestHoly"] = {
-	{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t4s5_1#", "=ec1=#m21#"};
+		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t4s5_1#", "=ec1=#m21#"};
 		{ 2, 29049, "", "=q4=Light-Collar of the Incarnate", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29054, "", "=q4=Light-Mantle of the Incarnate", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29050, "", "=q4=Robes of the Incarnate", "=ds="..BabbleBoss["Magtheridon"]};
@@ -4814,17 +4836,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100436, "", "=q4=Robes of the Incarnate", "=ds=#netherseal#"};
 		{ 12, 100439, "", "=q4=Handwraps of the Incarnate", "=ds=#netherseal#"};
 		{ 13, 100437, "", "=q4=Trousers of the Incarnate", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#t4s5_1#", "=ec1=#m21#"};
+		{ 17, 101335, "", "=q4=Light-Collar of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101338, "", "=q4=Light-Mantle of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101340, "", "=q4=Robes of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101339, "", "=q4=Handwraps of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101337, "", "=q4=Trousers of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
 
 	AtlasLoot_Data["T4PriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t4s5_2#", "=ec1=#m21#"};
@@ -4839,21 +4866,25 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100440, "", "=q4=Shroud of the Incarnate", "=ds=#netherseal#"};
 		{ 12, 100441, "", "=q4=Gloves of the Incarnate", "=ds=#netherseal#"};
 		{ 13, 100443, "", "=q4=Leggings of the Incarnate", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Shadow_AntiShadow", "=q6=#t4s5_2#", "=ec1=#m21#"};
+		{ 17, 101342, "", "=q4=Light-Collar of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101344, "", "=q4=Light-Mantle of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101340, "", "=q4=Robes of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101341, "", "=q4=Handwraps of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101343, "", "=q4=Trousers of the Incarnate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
-
-
 	AtlasLoot_Data["T4Rogue"] = {
-	{ 1, 0, "Ability_BackStab", "=q6=#t4s6#", "=ec1=#m21#"};
+		{ 1, 0, "Ability_BackStab", "=q6=#t4s6#", "=ec1=#m21#"};
 		{ 2, 29044, "", "=q4=Netherblade Facemask", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29047, "", "=q4=Netherblade Shoulderpads", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29045, "", "=q4=Netherblade Chestpiece", "=ds="..BabbleBoss["Magtheridon"]};
@@ -4865,14 +4896,20 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100431, "", "=q4=Netherblade Chestpiece", "=ds=#netherseal#"};
 		{ 12, 100434, "", "=q4=Netherblade Gloves", "=ds=#netherseal#"};
 		{ 13, 100432, "", "=q4=Netherblade Breeches", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Ability_BackStab", "=q6=#t4s6#", "=ec1=#m21#"};
+		{ 17, 101330, "", "=q4=Netherblade Facemask", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101333, "", "=q4=Netherblade Shoulderpads", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101331, "", "=q4=Netherblade Chestpiece", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101334, "", "=q4=Netherblade Gloves", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101332, "", "=q4=Netherblade Breeches", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
 
@@ -4890,17 +4927,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100425, "", "=q4=Cyclone Breastplate", "=ds=#netherseal#"};
 		{ 12, 100426, "", "=q4=Cyclone Gauntlets", "=ds=#netherseal#"};
 		{ 13, 100428, "", "=q4=Cyclone War-Kilt", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#t4s7_1#", "=ec1=#m21#"};
+		{ 17, 101327, "", "=q4=Cyclone Helm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101329, "", "=q4=Cyclone Shoulderplates", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101325, "", "=q4=Cyclone Breastplate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101326, "", "=q4=Cyclone Gauntlets", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101328, "", "=q4=Cyclone War-Kilt", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
 
 	AtlasLoot_Data["T4ShamanRestoration"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t4s7_2#", "=ec1=#m21#"};
@@ -4915,17 +4957,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100416, "", "=q4=Cyclone Hauberk", "=ds=#netherseal#"};
 		{ 12, 100419, "", "=q4=Cyclone Gloves", "=ds=#netherseal#"};
 		{ 13, 100417, "", "=q4=Cyclone Kilt", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t4s7_2#", "=ec1=#m21#"};
+		{ 17, 101315, "", "=q4=Cyclone Helm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101318, "", "=q4=Cyclone Shoulderplates", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101316, "", "=q4=Cyclone Breastplate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101319, "", "=q4=Cyclone Gauntlets", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101317, "", "=q4=Cyclone War-Kilt", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
 
 	AtlasLoot_Data["T4ShamanElemental"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t4s7_3#", "=ec1=#m21#"};
@@ -4940,18 +4987,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100420, "", "=q4=Cyclone Chestguard", "=ds=#netherseal#"};
 		{ 12, 100421, "", "=q4=Cyclone Handguards", "=ds=#netherseal#"};
 		{ 13, 100423, "", "=q4=Cyclone Legguards", "=ds=#netherseal#"};
-
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29760, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29763, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29757, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29766, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Nature_Lightning", "=q6=#t4s7_3#", "=ec1=#m21#"};
+		{ 17, 101322, "", "=q4=Cyclone Helm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101324, "", "=q4=Cyclone Shoulderplates", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101320, "", "=q4=Cyclone Breastplate", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101321, "", "=q4=Cyclone Gauntlets", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101323, "", "=q4=Cyclone War-Kilt", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29760, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29763, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29754, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29757, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29766, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
 
 	AtlasLoot_Data["T4Warlock"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t4s8#", "=ec1=#m21#"};
@@ -4966,19 +5017,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100401, "", "=q4=Voidheart Robe", "=ds=#netherseal#"};
 		{ 12, 100404, "", "=q4=Voidheart Gloves", "=ds=#netherseal#"};
 		{ 13, 100402, "", "=q4=Voidheart Leggings", "=ds=#netherseal#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#", "", ""};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29759, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29762, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29756, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29765, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t4s8#", "=ec1=#m21#"};
+		{ 17, 101300, "", "=q4=Voidheart Crown", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101303, "", "=q4=Voidheart Mantle", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101301, "", "=q4=Voidheart Robe", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101304, "", "=q4=Voidheart Gloves", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101302, "", "=q4=Voidheart Leggings", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29759, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29762, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29755, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29756, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29765, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
 
 	AtlasLoot_Data["T4WarriorProtection"] = {
 		{ 1, 0, "INV_Shield_05", "=q6=#t4s9_1#", "=ec1=#m21#"};
@@ -4993,18 +5047,22 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100406, "", "=q4=Warbringer Chestguard", "=ds=#netherseal#"};
 		{ 12, 100409, "", "=q4=Warbringer Handguards", "=ds=#netherseal#"};
 		{ 13, 100407, "", "=q4=Warbringer Legguards", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,320 #jeton#", "", ""};
+		{ 16, 0, "INV_Shield_05", "=q6=#t4s9_1#", "=ec1=#m21#"};
+		{ 17, 101305, "", "=q4=Warbringer Greathelm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101308, "", "=q4=Warbringer Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101306, "", "=q4=Warbringer Chestguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101309, "", "=q4=Warbringer Handguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101307, "", "=q4=Warbringer Legguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#,240 #jeton#", "", ""};
 		Back = "T4SET";
 	};
-
-
 
 	AtlasLoot_Data["T4WarriorFury"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t4s9_2#", "=ec1=#m21#"};
@@ -5019,14 +5077,20 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 11, 100410, "", "=q4=Warbringer Breastplate", "=ds=#netherseal#"};
 		{ 12, 100411, "", "=q4=Warbringer Gauntlets", "=ds=#netherseal#"};
 		{ 13, 100413, "", "=q4=Warbringer Greaves", "=ds=#netherseal#"};
-		{ 16, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
-		{ 17, 29761, "", "=q4=Шлем павшего заступника", "=ds=150 #jeton#"};
-		{ 18, 29764, "", "=q4=Наплечье павшего заступника", "=ds=100 #jeton#"};
-		{ 19, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=150 #jeton#"};
-		{ 20, 29758, "", "=q4=Перчатки павшего заступника", "=ds=100 #jeton#"};
-		{ 21, 29767, "", "=q4=Поножи павшего заступника", "=ds=150 #jeton#"};
-		{ 27, 0, "INV_Box_01", "=q6=Предметы", ""};
-		{ 28, 280005, "", "=q4=Seal of Nether", "=ds=#e15#", "", ""};
+		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#t4s9_2#", "=ec1=#m21#"};
+		{ 17, 101312, "", "=q4=Warbringer Greathelm", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 18, 101314, "", "=q4=Warbringer Shoulderguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 19, 101310, "", "=q4=Warbringer Chestguard", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 20, 101311, "", "=q4=Warbringer Handguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 21, 101313, "", "=q4=Warbringer Legguards", "=ds=#t10.2mark# 3 #primordialsaronite#"};
+		{ 23, 0, "INV_Box_01", "=q6=Токены", "=ds=Забытый (Даларан)"};
+		{ 24, 29761, "", "=q4=Шлем павшего заступника", "=ds=115 #jeton#"};
+		{ 25, 29764, "", "=q4=Наплечье павшего заступника", "=ds=75 #jeton#"};
+		{ 26, 29753, "", "=q4=Нагрудный доспех павшего заступника", "=ds=115 #jeton#"};
+		{ 27, 29758, "", "=q4=Перчатки павшего заступника", "=ds=75 #jeton#"};
+		{ 28, 29767, "", "=q4=Поножи павшего заступника", "=ds=115 #jeton#"};
+		{ 29, 0, "INV_Box_01", "=q6=Предметы", ""};
+		{ 30, 280005, "", "=q4=Seal of Nether", "=ds=#e15#", "", ""};
 		Back = "T4SET";
 	};
 
@@ -5573,222 +5637,414 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		--- 	    T6 sets          ---
 		--------------------------------
 
-		AtlasLoot_Data["T6DruidFeral"] = {
+	AtlasLoot_Data["T6DruidFeral"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t6s1_1#", "=ec1=#m23#"};
-		{ 2, 31039, "", "=q4=Thunderheart Cover", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31048, "", "=q4=Thunderheart Pauldrons", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31042, "", "=q4=Thunderheart Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34444, "", "=q4=Thunderheart Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31034, "", "=q4=Thunderheart Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34556, "", "=q4=Thunderheart Waistguard", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31044, "", "=q4=Thunderheart Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34573, "", "=q4=Thunderheart Treads", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 2, 154898, "", "=q4=Убор первобытного зверя", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154899, "", "=q4=Наплечье первобытного зверя", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154900, "", "=q4=Нагрудный доспех первобытного зверя", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154901, "", "=q4=Поножи первобытного зверя", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154902, "", "=q4=Рукавицы первобытного зверя", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154903, "", "=q4=Нарукавники первобытного зверя", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154904, "", "=q4=Воинский пояс первобытного зверя", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154905, "", "=q4=Ботфорты первобытного зверя", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-
-		AtlasLoot_Data["T6DruidRestoration"] = {
+	AtlasLoot_Data["T6DruidGuardian"] = {		
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#t6s1_1#", "=ec1=#m23#"};
+		{ 2, 154906, "", "=q4=Убор древнего стража", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154907, "", "=q4=Наплечье древнего стража", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154908, "", "=q4=Нагрудный доспех древнего стража", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154909, "", "=q4=Поножи древнего стража", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154910, "", "=q4=Рукавицы древнего стража", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154911, "", "=q4=Нарукавники древнего стража", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154912, "", "=q4=Воинский пояс древнего стража", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154913, "", "=q4=Ботфорты древнего стража", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET";
+	};
+	AtlasLoot_Data["T6DruidRestoration"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t6s1_2#", "=ec1=#m23#"};
-		{ 2, 31037, "", "=q4=Thunderheart Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31047, "", "=q4=Thunderheart Spaulders", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31041, "", "=q4=Thunderheart Tunic", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34445, "", "=q4=Thunderheart Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31032, "", "=q4=Thunderheart Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34554, "", "=q4=Thunderheart Belt", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31045, "", "=q4=Thunderheart Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34571, "", "=q4=Thunderheart Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 2, 154914, "", "=q4=Полный шлем хранителя Рощи", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154915, "", "=q4=Наплеч хранителя Рощи", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154916, "", "=q4=Мундир хранителя Рощи", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154917, "", "=q4=Набедренники хранителя Рощи", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154918, "", "=q4=Перчатки хранителя Рощи", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154919, "", "=q4=Наручи хранителя Рощи", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154920, "", "=q4=Пояс хранителя Рощи", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154921, "", "=q4=Сапоги хранителя Рощи", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
 	AtlasLoot_Data["T6DruidBalance"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t6s1_3#", "=ec1=#m23#"};
-		{ 2, 31040, "", "=q4=Thunderheart Headguard", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31049, "", "=q4=Thunderheart Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31043, "", "=q4=Thunderheart Vest", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34446, "", "=q4=Thunderheart Bands", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31035, "", "=q4=Thunderheart Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34555, "", "=q4=Thunderheart Cord", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31046, "", "=q4=Thunderheart Pants", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34572, "", "=q4=Thunderheart Footwraps", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 2, 154890, "", "=q4=Наголовник адепта Космоса", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154891, "", "=q4=Наплечные пластины адепта Космоса", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154892, "", "=q4=Безрукавка адепта Космоса", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154893, "", "=q4=Штаны адепта Космоса", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154894, "", "=q4=Боевые рукавицы адепта Космоса", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154895, "", "=q4=Поручи адепта Космоса", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154896, "", "=q4=Шнурованный ремень адепта Космоса", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154897, "", "=q4=Обмотки адепта Космоса", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	AtlasLoot_Data["T6Hunter"] = {
-		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t6s2#", "=ec1=#m23#"};
-		{ 2, 31003, "", "=q4=Gronnstalker's Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31006, "", "=q4=Gronnstalker's Spaulders", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31004, "", "=q4=Gronnstalker's Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34443, "", "=q4=Gronnstalker's Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31001, "", "=q4=Gronnstalker's Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34549, "", "=q4=Gronnstalker's Belt", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31005, "", "=q4=Gronnstalker's Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34570, "", "=q4=Gronnstalker's Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+	AtlasLoot_Data["T6HunterBeastMastery"] = {
+		{ 1, 0, "ability_hunter_bestialdiscipline", "=q6=#t6s2#", "=ec1=#m23#"};
+		{ 2, 154698, "", "=q4=Полный шлем следопыта", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154699, "", "=q4=Наплеч следопыта", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154700, "", "=q4=Нагрудный доспех следопыта", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154701, "", "=q4=Поножи следопыта", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154702, "", "=q4=Перчатки следопыта", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154703, "", "=q4=Наручи следопыта", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154704, "", "=q4=Пояс следопыта", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154705, "", "=q4=Сапоги следопыта", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};		
 		Back = "T6SET";
 	};
-
-	AtlasLoot_Data["T6Mage"] = {
-		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t6s3#", "=ec1=#m23#"};
-		{ 2, 31056, "", "=q4=Cowl of the Tempest", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31059, "", "=q4=Mantle of the Tempest", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31057, "", "=q4=Robes of the Tempest", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34447, "", "=q4=Bracers of the Tempest", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31055, "", "=q4=Gloves of the Tempest", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34557, "", "=q4=Belt of the Tempest", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31058, "", "=q4=Leggings of the Tempest", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34574, "", "=q4=Boots of the Tempest", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+	AtlasLoot_Data["T6HunterMarksmanship"] = {
+		{ 1, 0, "ability_hunter_focusedaim", "=q6=#t6s2#", "=ec1=#m23#"};
+		{ 2, 154706, "", "=q4=Полный шлем снайпера", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154707, "", "=q4=Наплеч снайпера", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154708, "", "=q4=Нагрудный доспех снайпера", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154709, "", "=q4=Поножи снайпера", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154710, "", "=q4=Перчатки снайпера", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154711, "", "=q4=Наручи снайпера", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154712, "", "=q4=Пояс снайпера", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154713, "", "=q4=Сапоги снайпера", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};	
+		Back = "T6SET";
+	};
+	AtlasLoot_Data["T6HunterSurvival"] = {
+		{ 1, 0, "ability_hunter_camouflage", "=q6=#t6s2#", "=ec1=#m23#"};
+		{ 2, 154714, "", "=q4=Полный шлем ловчего", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154715, "", "=q4=Наплеч ловчего", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154716, "", "=q4=Нагрудный ловчего ловчего", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154717, "", "=q4=Поножи ловчего", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154718, "", "=q4=Перчатки ловчего", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154719, "", "=q4=Наручи ловчего", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154720, "", "=q4=Пояс ловчего", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154721, "", "=q4=Сапоги ловчего", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};		
+		Back = "T6SET";
+	};
+	AtlasLoot_Data["T6MageArcane"] = {
+		{ 1, 0, "spell_holy_magicalsentry", "=q6=#t6s3#", "=ec1=#m23#"};
+		{ 2, 154842, "", "=q4=Клобук хранителя знаний", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154843, "", "=q4=Мантия хранителя знаний", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154844, "", "=q4=Одеяния хранителя знаний", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154845, "", "=q4=Поножи хранителя знаний", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154846, "", "=q4=Перчатки хранителя знаний", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154847, "", "=q4=Наручи хранителя знаний", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154848, "", "=q4=Пояс хранителя знаний", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154849, "", "=q4=Сапоги хранителя знаний", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET";
+	};
+	AtlasLoot_Data["T6MageFire"] = {
+		{ 1, 0, "spell_fire_firebolt02", "=q6=#t6s3#", "=ec1=#m23#"};
+		{ 2, 154850, "", "=q4=Клобук повелителя пламени", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154851, "", "=q4=Мантия повелителя пламени", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154852, "", "=q4=Одеяния повелителя пламени", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154853, "", "=q4=Поножи повелителя пламени", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154854, "", "=q4=Перчатки повелителя пламени", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154855, "", "=q4=Наручи повелителя пламени", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154856, "", "=q4=Пояс повелителя пламени", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154857, "", "=q4=Сапоги повелителя пламени", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET";
+	};
+	AtlasLoot_Data["T6MageFrost"] = {
+		{ 1, 0, "spell_frost_frostbolt02", "=q6=#t6s3#", "=ec1=#m23#"};
+		{ 2, 154858, "", "=q4=Клобук черного льда", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154859, "", "=q4=Мантия черного льда", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154860, "", "=q4=Одеяния черного льда", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154861, "", "=q4=Поножи черного льда", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154862, "", "=q4=Перчатки черного льда", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154863, "", "=q4=Наручи черного льда", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154864, "", "=q4=Пояс черного льда", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154865, "", "=q4=Сапоги черного льда", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
 	AtlasLoot_Data["T6PaladinProtection"] = {
 		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t6s4_1#", "=ec1=#m23#"};
-		{ 2, 30987, "", "=q4=Lightbringer Faceguard", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 30998, "", "=q4=Lightbringer Shoulderguards", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 30991, "", "=q4=Lightbringer Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34433, "", "=q4=Lightbringer Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 30985, "", "=q4=Lightbringer Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34488, "", "=q4=Lightbringer Waistguard", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 30995, "", "=q4=Lightbringer Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34560, "", "=q4=Lightbringer Greaves", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 2, 154682, "", "=q4=Большой шлем Защитника", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154683, "", "=q4=Наплечные щитки Защитника", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154684, "", "=q4=Нагрудный доспех Защитника", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154685, "", "=q4=Набедренники Защитника", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154686, "", "=q4=Боевые рукавицы Защитника", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154687, "", "=q4=Нарукавники Защитника", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154688, "", "=q4=Воинский пояс Защитника", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154689, "", "=q4=Высокие ботинки Защитника", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-
 	AtlasLoot_Data["T6PaladinRetribution"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t6s4_2#", "=ec1=#m23#"};
-		{ 2, 30989, "", "=q4=Lightbringer War-Helm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 30997, "", "=q4=Lightbringer Shoulderbraces", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 30990, "", "=q4=Lightbringer Breastplate", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34431, "", "=q4=Lightbringer Bands", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 30982, "", "=q4=Lightbringer Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34485, "", "=q4=Lightbringer Girdle", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 30993, "", "=q4=Lightbringer Greaves", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34561, "", "=q4=Lightbringer Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 2, 154690, "", "=q4=Боевой шлем Инквизитора", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154691, "", "=q4=Наплечные браслеты Инквизитора", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154692, "", "=q4=Кираса Инквизитора", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154693, "", "=q4=Наголенники Инквизитора", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154694, "", "=q4=Рукавицы Инквизитора", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154695, "", "=q4=Поручи Инквизитора", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154696, "", "=q4=Ремень Инквизитора", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154697, "", "=q4=Сапоги Инквизитора", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-
-	 AtlasLoot_Data["T6PaladinHoly"] = {
+	AtlasLoot_Data["T6PaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t6s4_3#", "=ec1=#m23#"};
-		{ 2, 30988, "", "=q4=Lightbringer Greathelm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 30996, "", "=q4=Lightbringer Pauldrons", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 30992, "", "=q4=Lightbringer Chestpiece", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34432, "", "=q4=Lightbringer Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 30983, "", "=q4=Lightbringer Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34487, "", "=q4=Lightbringer Belt", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 30994, "", "=q4=Lightbringer Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34559, "", "=q4=Lightbringer Treads", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 2, 154674, "", "=q4=Большой шлем Светоносного", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154675, "", "=q4=Наплечье Светоносного", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154676, "", "=q4=Нагрудник Светоносного", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154677, "", "=q4=Поножи Светоносного", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154678, "", "=q4=Перчатки Светоносного", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154679, "", "=q4=Наручи Светоносного", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154680, "", "=q4=Пояс Светоносного", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154681, "", "=q4=Кованые сапоги Светоносного", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	 AtlasLoot_Data["T6PriestHoly"] = {
+	AtlasLoot_Data["T6PriestHoly"] = {		
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t6s5_1#", "=ec1=#m23#"};
-		{ 2, 31063, "", "=q4=Cowl of Absolution", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31069, "", "=q4=Mantle of Absolution", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31066, "", "=q4=Vestments of Absolution", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34435, "", "=q4=Cuffs of Absolution", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31060, "", "=q4=Gloves of Absolution", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34527, "", "=q4=Belt of Absolution", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31068, "", "=q4=Breeches of Absolution", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34562, "", "=q4=Boots of Absolution", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 2, 154754, "", "=q4=Клобук духовного целителя", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154755, "", "=q4=Мантия духовного целителя", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154756, "", "=q4=Одежды духовного целителя", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154757, "", "=q4=Брюки духовного целителя", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154758, "", "=q4=Перчатки духовного целителя", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154759, "", "=q4=Манжеты духовного целителя", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154760, "", "=q4=Пояс духовного целителя", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154761, "", "=q4=Сапоги духовного целителя", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-
+	AtlasLoot_Data["T6PriestDiscipline"] = {
+		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t6s5_1#", "=ec1=#m23#"};
+		{ 2, 154746, "", "=q4=Клобук Мудреца", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154747, "", "=q4=Мантия Мудреца", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154748, "", "=q4=Одежды Мудреца", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154749, "", "=q4=Брюки Мудреца", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154750, "", "=q4=Перчатки Мудреца", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154751, "", "=q4=Манжеты Мудреца", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154752, "", "=q4=Пояс Мудреца", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154753, "", "=q4=Сапоги Мудреца", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET";
+	};
 	AtlasLoot_Data["T6PriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t6s5_2#", "=ec1=#m23#"};
-		{ 2, 31064, "", "=q4=Hood of Absolution", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31070, "", "=q4=Shoulderpads of Absolution", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31065, "", "=q4=Shroud of Absolution", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34434, "", "=q4=Bracers of Absolution", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31061, "", "=q4=Handguards of Absolution", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34528, "", "=q4=Cord of Absolution", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31067, "", "=q4=Leggings of Absolution", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34563, "", "=q4=Treads of Absolution", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 2, 154762, "", "=q4=Капюшон пророка Черной Империи", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154763, "", "=q4=Наплечные пластины пророка Черной Империи", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154764, "", "=q4=Накидка пророка Черной Империи", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154765, "", "=q4=Поножи пророка Черной Империи", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154766, "", "=q4=Боевые рукавицы пророка Черной Империи", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154767, "", "=q4=Наручи пророка Черной Империи", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154768, "", "=q4=Шнурованный ремень пророка Черной Империи", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154769, "", "=q4=Ботфорты пророка Черной Империи", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-
-	AtlasLoot_Data["T6Rogue"] = {
-		{ 1, 0, "Ability_BackStab", "=q6=#t6s6#", "=ec1=#m23#"};
-		{ 2, 31027, "", "=q4=Slayer's Helm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31030, "", "=q4=Slayer's Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31028, "", "=q4=Slayer's Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34448, "", "=q4=Slayer's Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31026, "", "=q4=Slayer's Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34558, "", "=q4=Slayer's Belt", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31029, "", "=q4=Slayer's Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34575, "", "=q4=Slayer's Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+	AtlasLoot_Data["T6RogueAssassination"] = {
+		{ 1, 0, "ability_rogue_deadlybrew", "=q6=#t6s6#", "=ec1=#m23#"};
+		{ 2, 154722, "", "=q4=Шлем убийцы", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154723, "", "=q4=Наплечные пластины убийцы", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154724, "", "=q4=Нагрудный доспех убийцы", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154725, "", "=q4=Набедренники убийцы", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154726, "", "=q4=Боевые рукавицы убийцы", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154727, "", "=q4=Наручи убийцы", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154728, "", "=q4=Пояс убийцы", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154729, "", "=q4=Сапоги убийцы", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
-	};
-
+	};	
+	AtlasLoot_Data["T6RogueOutlaw"] = {
+		{ 1, 0, "ability_rogue_waylay", "=q6=#t6s6#", "=ec1=#m23#"};
+		{ 2, 154730, "", "=q4=Шлем головореза", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154731, "", "=q4=Наплечные пластины головореза", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154732, "", "=q4=Нагрудный доспех головореза", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154733, "", "=q4=Набедренники головореза", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154734, "", "=q4=Боевые рукавицы головореза", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154735, "", "=q4=Наручи головореза", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154736, "", "=q4=Пояс головореза", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154737, "", "=q4=Сапоги головореза", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET";
+	};	
+	AtlasLoot_Data["T6RogueSubtlety"] = {
+		{ 1, 0, "ability_stealth", "=q6=#t6s6#", "=ec1=#m23#"};
+		{ 2, 154738, "", "=q4=Шлем Смотрящего в ночь", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154739, "", "=q4=Наплечные пластины Смотрящего в ночь", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154740, "", "=q4=Нагрудный доспех Смотрящего в ночь", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154741, "", "=q4=Набедренники Смотрящего в ночь", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154742, "", "=q4=Боевые рукавицы Смотрящего в ночь", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154743, "", "=q4=Наручи Смотрящего в ночь", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154744, "", "=q4=Пояс Смотрящего в ночь", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154745, "", "=q4=Сапоги Смотрящего в ночь", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET";
+	};	
 	AtlasLoot_Data["T6ShamanEnhancement"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t6s7_1#", "=ec1=#m23#"};
-		{ 2, 31015, "", "=q4=Skyshatter Cover", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31024, "", "=q4=Skyshatter Pauldrons", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31018, "", "=q4=Skyshatter Tunic", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34439, "", "=q4=Skyshatter Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31011, "", "=q4=Skyshatter Grips", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34545, "", "=q4=Skyshatter Girdle", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31021, "", "=q4=Skyshatter Pants", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34567, "", "=q4=Skyshatter Greaves", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		Back = "T6SET";
+		{ 2, 154826, "", "=q4=Убор Архонта", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154827, "", "=q4=Наплечье Архонта", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154828, "", "=q4=Мундир Архонта", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154829, "", "=q4=Штаны Архонта", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154830, "", "=q4=Захваты Архонта", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154831, "", "=q4=Нарукавники Архонта", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154832, "", "=q4=Ремень Архонта", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154833, "", "=q4=Наголенники Архонта", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET2";
 	};
-
 	AtlasLoot_Data["T6ShamanRestoration"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t6s7_2#", "=ec1=#m23#"};
-		{ 2, 31012, "", "=q4=Skyshatter Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31022, "", "=q4=Skyshatter Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31016, "", "=q4=Skyshatter Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34438, "", "=q4=Skyshatter Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31007, "", "=q4=Skyshatter Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34543, "", "=q4=Skyshatter Belt", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31019, "", "=q4=Skyshatter Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34565, "", "=q4=Skyshatter Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		Back = "T6SET";
+		{ 2, 154834, "", "=q4=Полный шлем Знахаря", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154835, "", "=q4=Наплечные пластины Знахаря", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154836, "", "=q4=Нагрудный доспех Знахаря", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154837, "", "=q4=Поножи Знахаря", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154838, "", "=q4=Перчатки Знахаря", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154839, "", "=q4=Наручи Знахаря", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154840, "", "=q4=Пояс Знахаря", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154841, "", "=q4=Сапоги Знахаря", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET2";
 	};
-
 	AtlasLoot_Data["T6ShamanElemental"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t6s7_3#", "=ec1=#m23#"};
-		{ 2, 31014, "", "=q4=Skyshatter Headguard", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31023, "", "=q4=Skyshatter Mantle", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31017, "", "=q4=Skyshatter Breastplate", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34437, "", "=q4=Skyshatter Bands", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31008, "", "=q4=Skyshatter Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34542, "", "=q4=Skyshatter Cord", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31020, "", "=q4=Skyshatter Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34566, "", "=q4=Skyshatter Treads", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		Back = "T6SET";
+		{ 2, 154818, "", "=q4=Наголовник Небокрушителя", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154819, "", "=q4=Мантия Небокрушителя", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154820, "", "=q4=Кираса Небокрушителя", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154821, "", "=q4=Набедренники Небокрушителя", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154822, "", "=q4=Рукавицы Небокрушителя", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154823, "", "=q4=Поручи Небокрушителя", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154824, "", "=q4=Шнурованный ремень Небокрушителя", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154825, "", "=q4=Ботфорты Небокрушителя", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET2";
 	};
-
-	AtlasLoot_Data["T6Warlock"] = {
-		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t6s8#", "=ec1=#m23#"};
-		{ 2, 31051, "", "=q4=Hood of the Malefic", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 31054, "", "=q4=Mantle of the Malefic", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 31052, "", "=q4=Robe of the Malefic", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34436, "", "=q4=Bracers of the Malefic", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 31050, "", "=q4=Gloves of the Malefic", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34541, "", "=q4=Belt of the Malefic", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 31053, "", "=q4=Leggings of the Malefic", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34564, "", "=q4=Boots of the Malefic", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		Back = "T6SET";
+	AtlasLoot_Data["T6WarlockAffliction"] = {
+		{ 1, 0, "spell_shadow_deathcoil", "=q6=#t6s8#", "=ec1=#m23#"};
+		{ 2, 154866, "", "=q4=Капюшон сеятеля чумы", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154867, "", "=q4=Мантия сеятеля чумы", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154868, "", "=q4=Одеяние сеятеля чумы", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154869, "", "=q4=Поножи сеятеля чумы", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154870, "", "=q4=Перчатки сеятеля чумы", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154871, "", "=q4=Наручи сеятеля чумы", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154872, "", "=q4=Пояс сеятеля чумы", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154873, "", "=q4=Сапоги сеятеля чумы", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET2";
 	};
-
+	AtlasLoot_Data["T6WarlockDemonology"] = {
+		{ 1, 0, "spell_shadow_metamorphosis", "=q6=#t6s8#", "=ec1=#m23#"};
+		{ 2, 154874, "", "=q4=Капюшон архидемона", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154875, "", "=q4=Мантия архидемона", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154876, "", "=q4=Одеяние архидемона", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154877, "", "=q4=Поножи архидемона", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154878, "", "=q4=Перчатки архидемона", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154879, "", "=q4=Наручи архидемона", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154880, "", "=q4=Пояс архидемона", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154881, "", "=q4=Сапоги архидемона", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET2";
+	};
+	AtlasLoot_Data["T6WarlockDestruction"] = {
+		{ 1, 0, "spell_shadow_rainoffire", "=q6=#t6s8#", "=ec1=#m23#"};
+		{ 2, 154882, "", "=q4=Капюшон избранного Хаосом", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154883, "", "=q4=Мантия избранного Хаосом", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154884, "", "=q4=Одеяние избранного Хаосом", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154885, "", "=q4=Поножи избранного Хаосом", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154886, "", "=q4=Перчатки избранного Хаосом", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154887, "", "=q4=Наручи избранного Хаосом", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154888, "", "=q4=Пояс избранного Хаосом", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154889, "", "=q4=Сапоги избранного Хаосом", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET2";
+	};
 	AtlasLoot_Data["T6WarriorProtection"] = {
 		{ 1, 0, "INV_Shield_05", "=q6=#t6s9_1#", "=ec1=#m23#"};
-		{ 2, 30974, "", "=q4=Onslaught Greathelm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 30980, "", "=q4=Onslaught Shoulderguards", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 30976, "", "=q4=Onslaught Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34442, "", "=q4=Onslaught Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 30970, "", "=q4=Onslaught Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34547, "", "=q4=Onslaught Waistguard", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 30978, "", "=q4=Onslaught Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34568, "", "=q4=Onslaught Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 2, 154666, "", "=q4=Большой шлем чемпиона", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154667, "", "=q4=Наплечные щитки чемпиона", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154668, "", "=q4=Нагрудный доспех чемпиона", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154669, "", "=q4=Набедренники чемпиона", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154670, "", "=q4=Боевые рукавицы чемпиона", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154671, "", "=q4=Нарукавники чемпиона", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154672, "", "=q4=Воинский пояс чемпиона", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154673, "", "=q4=Сапоги чемпиона", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET2";
+	};
+	AtlasLoot_Data["T6WarriorFury"] = {		
+		{ 1, 0, "ability_warrior_innerrage", "=q6=#t6s9_2#", "=ec1=#m23#"};
+		{ 2, 154658, "", "=q4=Боевой шлем берсерка", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154659, "", "=q4=Наплечные лезвия берсерка", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154660, "", "=q4=Кираса берсерка", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154661, "", "=q4=Наголенники берсерка", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154662, "", "=q4=Рукавицы берсерка", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154663, "", "=q4=Наручи берсерка", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154664, "", "=q4=Тесьма берсерка", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154665, "", "=q4=Укрепленные ботфорты берсерка", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET2";
+	};
+	AtlasLoot_Data["T6WarriorArms"] = {
+		{ 1, 0, "ability_warrior_innerrage", "=q6=#t6s9_2#", "=ec1=#m23#"};
+		{ 2, 154650, "", "=q4=Боевой шлем мастера клинка", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154651, "", "=q4=Наплечные лезвия мастера клинка", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154652, "", "=q4=Кираса мастера клинка", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154653, "", "=q4=Наголенники мастера клинка", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154654, "", "=q4=Рукавицы мастера клинка", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154655, "", "=q4=Наручи мастера клинка", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154656, "", "=q4=Тесьма мастера клинка", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154657, "", "=q4=Кованые сапоги мастера клинка", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET2";
+	};
+	AtlasLoot_Data["T6DeathKnightBloodDPS"] = {
+		{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t6s9_2#", "=ec1=#m23#"};
+		{ 2, 154770, "", "=q4=Боевой шлем Потрошителя", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154771, "", "=q4=Наплечные пластины Потрошителя", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154772, "", "=q4=Нагрудный доспех Потрошителя", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154773, "", "=q4=Ножные латы Потрошителя", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154774, "", "=q4=Рукавицы Потрошителя", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154775, "", "=q4=Наручи Потрошителя", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154776, "", "=q4=Ремень Потрошителя", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154777, "", "=q4=Ботфорты Потрошителя", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-	AtlasLoot_Data["T6WarriorFury"] = {
-		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t6s9_2#", "=ec1=#m23#"};
-		{ 2, 30972, "", "=q4=Onslaught Battle-Helm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 3, 30979, "", "=q4=Onslaught Shoulderblades", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 4, 30975, "", "=q4=Onslaught Breastplate", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 5, 34441, "", "=q4=Onslaught Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 6, 30969, "", "=q4=Onslaught Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
-		{ 7, 34546, "", "=q4=Onslaught Belt", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
-		{ 8, 30977, "", "=q4=Onslaught Greaves", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
-		{ 9, 34569, "", "=q4=Onslaught Treads", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+	AtlasLoot_Data["T6DeathKnightFrostDPS"] = {
+		{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t6s9_2#", "=ec1=#m23#"};
+		{ 2, 154778, "", "=q4=Боевой шлем Жнеца", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154779, "", "=q4=Наплечные пластины Жнеца", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154780, "", "=q4=Нагрудный доспех Жнеца", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154781, "", "=q4=Ножные латы Жнеца", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154782, "", "=q4=Рукавицы Жнеца", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154783, "", "=q4=Наручи Жнеца", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154784, "", "=q4=Ремень Жнеца", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154785, "", "=q4=Ботфорты Жнеца", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T6SET";
 	};
-
+	AtlasLoot_Data["T6DeathKnightUnholyDPS"] = {
+		{ 1, 0, "spell_deathknight_unholypresence", "=q6=#t6s9_2#", "=ec1=#m23#"};
+		{ 2, 154786, "", "=q4=Боевой шлем властителя смерти", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154787, "", "=q4=Наплечные пластины властителя смерти", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154788, "", "=q4=Нагрудный доспех властителя смерти", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154789, "", "=q4=Ножные латы властителя смерти", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154790, "", "=q4=Рукавицы властителя смерти", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154791, "", "=q4=Наручи властителя смерти", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154792, "", "=q4=Ремень властителя смерти", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154793, "", "=q4=Ботфорты властителя смерти", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET";
+	};
+	AtlasLoot_Data["T6DeathKnightBloodTank"] = {
+		{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t6s9_2#", "=ec1=#m23#"};
+		{ 2, 154794, "", "=q4=Боевой шлем Кровопийцы", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154795, "", "=q4=Наплечные пластины Кровопийцы", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154796, "", "=q4=Нагрудный доспех Кровопийцы", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154797, "", "=q4=Ножные латы Кровопийцы", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154798, "", "=q4=Рукаsвицы Кровопийцы", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154799, "", "=q4=Наручи Кровопийцы", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154800, "", "=q4=Ремень Кровопийцы", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154801, "", "=q4=Ботфорты Кровопийцы", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET";
+	};
+	AtlasLoot_Data["T6DeathKnightFrostTank"] = {
+		{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t6s9_2#", "=ec1=#m23#"};
+		{ 2, 154802, "", "=q4=Боевой шлем арктического покорителя", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154803, "", "=q4=Наплечные пластины арктического покорителя", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154804, "", "=q4=Нагрудный доспех арктического покорителя", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154805, "", "=q4=Ножные латы арктического покорителя", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154806, "", "=q4=Рукавицы арктического покорителя", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154807, "", "=q4=Наручи арктического покорителя", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154808, "", "=q4=Ремень арктического покорителя", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154809, "", "=q4=Ботфорты арктического покорителя", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET";
+	};	
+	AtlasLoot_Data["T6DeathKnightUnholyTank"] = {
+		{ 1, 0, "spell_deathknight_unholypresence", "=q6=#t6s9_2#", "=ec1=#m23#"};
+		{ 2, 154810, "", "=q4=Боевой шлем костяного лорда", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 3, 154811, "", "=q4=Наплечные пластины костяного лорда", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 4, 154812, "", "=q4=Нагрудный доспех костяного лорда", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 5, 154813, "", "=q4=Ножные латы костяного лорда", "=ds="..BabbleBoss["Kalecgos"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 6, 154814, "", "=q4=Рукавицы костяного лорда", "=ds="..BabbleBoss["Azgalor"].." ("..BabbleZone["Hyjal Summit"]..")"};
+		{ 7, 154815, "", "=q4=Наручи костяного лорда", "=ds="..BabbleBoss["Brutallus"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		{ 8, 154816, "", "=q4=Ремень костяного лорда", "=ds="..BabbleBoss["The Illidari Council"].." ("..BabbleZone["Black Temple"]..")"};
+		{ 9, 154817, "", "=q4=Ботфорты костяного лорда", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
+		Back = "T6SET";
+	};
 		--------------------------------
 		--- 	T6 sets     end      ---
 		--------------------------------
@@ -5946,18 +6202,18 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 
 	AtlasLoot_Data["HardModeRelic"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#z31#", ""};
-		{ 2, 29390, "", "=q4=Everbloom Idol", "=ds=#s16#, #w14#", "150 #pvevalorpoints#", ""};
+		{ 2, 29390, "", "=q4=Everbloom Idol", "=ds=#s16#, #w14#", "115 #pvevalorpoints#", ""};
 		{ 3, 33508, "", "=q4=Idol of Budding Life", "=ds=#s16#, #w14#", "200 #pvevalorpoints#", ""};
 		{ 4, 33509, "", "=q4=Idol of Terror", "=ds=#s16#, #w14#", "200 #pvevalorpoints#", ""};
 		{ 5, 33510, "", "=q4=Idol of the Unseen Moon", "=ds=#s16#, #w14#", "200 #pvevalorpoints#", ""};
 		{ 7, 33506, "", "=q4=Skycall Totem", "=ds=#s16#, #w15#", "200 #pvevalorpoints#", ""};
 		{ 8, 33507, "", "=q4=Stonebreaker's Totem", "=ds=#s16#, #w15#", "200 #pvevalorpoints#", ""};
 		{ 9, 33505, "", "=q4=Totem of Living Water", "=ds=#s16#, #w15#", "200 #pvevalorpoints#", ""};
-		{ 10, 29389, "", "=q4=Totem of the Pulsing Earth", "=ds=#s16#, #w15#", "150 #pvevalorpoints#", ""};
+		{ 10, 29389, "", "=q4=Totem of the Pulsing Earth", "=ds=#s16#, #w15#", "115 #pvevalorpoints#", ""};
 		{ 17, 33503, "", "=q4=Libram of Divine Judgement", "=ds=#s16#, #w16#", "200 #pvevalorpoints#", ""};
 		{ 18, 33504, "", "=q4=Libram of Divine Purpose", "=ds=#s16#, #w16#", "200 #pvevalorpoints#", ""};
 		{ 19, 33502, "", "=q4=Libram of Mending", "=ds=#s16#, #w16#", "200 #pvevalorpoints#", ""};
-		{ 20, 29388, "", "=q4=Libram of Repentance", "=ds=#s16#, #w16#", "150 #pvevalorpoints#", ""};
+		{ 20, 29388, "", "=q4=Libram of Repentance", "=ds=#s16#, #w16#", "115 #pvevalorpoints#", ""};
 		Back = "70TOKENMENU";
 	};
 
@@ -5990,9 +6246,9 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 8, 29379, "", "=q4=Ring of Arathi Warlords", "=ds=#s13#", "250 #pvevalorpoints#", ""};
 		{ 9, 29367, "", "=q4=Ring of Cryptic Dreams", "=ds=#s13#", "250 #pvevalorpoints#", ""};
 		{ 10, 29384, "", "=q4=Ring of Unyielding Force", "=ds=#s13#", "250 #pvevalorpoints#", ""};
-		{ 13, 32227, "", "=q4=Crimson Spinel", "=ds=#e7#", "150 #pvevalorpoints#", ""};
-		{ 14, 32229, "", "=q4=Lionseye", "=ds=#e7#", "150 #pvevalorpoints#", ""};
-		{ 15, 32249, "", "=q4=Seaspray Emerald", "=ds=#e7#", "150 #pvevalorpoints#", ""};
+		{ 13, 32227, "", "=q4=Crimson Spinel", "=ds=#e7#", "115 #pvevalorpoints#", ""};
+		{ 14, 32229, "", "=q4=Lionseye", "=ds=#e7#", "115 #pvevalorpoints#", ""};
+		{ 15, 32249, "", "=q4=Seaspray Emerald", "=ds=#e7#", "115 #pvevalorpoints#", ""};
 		{ 16, 35326, "", "=q4=Battlemaster's Alacrity", "=ds=#s14#", "750 #pvevalorpoints#", ""};
 		{ 17, 34049, "", "=q4=Battlemaster's Audacity", "=ds=#s14#", "750 #pvevalorpoints#", ""};
 		{ 18, 34163, "", "=q4=Battlemaster's Cruelty", "=ds=#s14#", "750 #pvevalorpoints#", ""};
@@ -6003,9 +6259,9 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 29376, "", "=q4=Essence of the Martyr", "=ds=#s14#", "410 #pvevalorpoints#", ""};
 		{ 24, 29387, "", "=q4=Gnomeregan Auto-Blocker 600", "=ds=#s14#", "410 #pvevalorpoints#", ""};
 		{ 25, 29370, "", "=q4=Icon of the Silver Crescent", "=ds=#s14#", "410 #pvevalorpoints#", ""};
-		{ 28, 32228, "", "=q4=Empyrean Sapphire", "=ds=#e7#", "150 #pvevalorpoints#", ""};
-		{ 29, 32231, "", "=q4=Pyrestone", "=ds=#e7#", "150 #pvevalorpoints#", ""};
-		{ 30, 32230, "", "=q4=Shadowsong Amethyst", "=ds=#e7#", "150 #pvevalorpoints#", ""};
+		{ 28, 32228, "", "=q4=Empyrean Sapphire", "=ds=#e7#", "115 #pvevalorpoints#", ""};
+		{ 29, 32231, "", "=q4=Pyrestone", "=ds=#e7#", "115 #pvevalorpoints#", ""};
+		{ 30, 32230, "", "=q4=Shadowsong Amethyst", "=ds=#e7#", "115 #pvevalorpoints#", ""};
 		Next = "HardModeAccessories2";
 		Back = "70TOKENMENU";
 	};

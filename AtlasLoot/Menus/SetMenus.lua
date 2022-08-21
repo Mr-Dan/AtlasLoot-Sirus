@@ -9,6 +9,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 2, "EMBLEMOFHEROISMMENU", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 3, "EMBLEMOFVALORMENU", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 4, "EMBLEMOFCONQUESTMENU", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 5, "EMBLEMOFSUBJUGATIONMENU", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Subjugation Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 6, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 		{ 7, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
 		{ 8, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
@@ -32,8 +33,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 	
 		
-
-
 
 	AtlasLoot_Data["70TOKENMENU"] = {
 		{ 2, "HardModeCloth", "Spell_Holy_ChampionsBond", "=ds="..BabbleInventory["Cloth"], ""};
@@ -70,6 +69,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "SETMENU";
 	};
 
+	AtlasLoot_Data["EMBLEMOFSUBJUGATIONMENU"] = {
+		{ 2, 0, "INV_Box_01", "=q6=Уровень предметов: 277", ""};
+		{ 3, "EmblemofScorching", "inv_misc_frostemblem_01", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], ""};
+		Back = "SETMENU";
+	};
 	AtlasLoot_Data["EMBLEMOFVALORMENU"] = {
 		{ 2, 0, "INV_Box_01", "=q6=Уровень предметов: 232-245", ""};
 		{ 3, "EmblemofTriumph1_A", "spell_holy_summonchampion", "=ds="..BabbleInventory["Armor"], ""};
@@ -253,24 +257,46 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "SETMENU";
 	};
 	AtlasLoot_Data["T6SET"] = {
-		{ 2, "T6DruidBalance", "Spell_Nature_InsectSwarm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
-		{ 3, "T6DruidFeral", "Ability_Druid_Maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
-		{ 4, "T6DruidRestoration", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
-		{ 6, "T6Hunter", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
-		{ 8, "T6Mage", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-		{ 10, "T6PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-		{ 11, "T6PaladinProtection", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-		{ 12, "T6PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-		{ 14, "T6PriestHoly", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
-		{ 15, "T6PriestShadow", "Spell_Shadow_AntiShadow", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
-		{ 17, "T6Rogue", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-		{ 19, "T6ShamanElemental", "Spell_Nature_Lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
-		{ 20, "T6ShamanEnhancement", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
-		{ 21, "T6ShamanRestoration", "Spell_Nature_HealingWaveGreater", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
-		{ 23, "T6Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-		{ 25, "T6WarriorFury", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
-		{ 26, "T6WarriorProtection", "INV_Shield_05", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+		{ 1, "T6DeathKnightBloodDPS", "spell_deathknight_bloodpresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"].." "..AL["Blood"]};
+		{ 2, "T6DeathKnightFrostDPS", "spell_deathknight_frostpresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"].." "..AL["Frost"]};
+		{ 3, "T6DeathKnightUnholyDPS", "spell_deathknight_unholypresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"].." "..AL["Unholy"]};	
+		{ 4, "T6DeathKnightBloodTank", "spell_deathknight_bloodpresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"].." "..AL["Blood"]};
+		{ 5, "T6DeathKnightFrostTank", "spell_deathknight_frostpresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"].." "..AL["Frost"]};
+		{ 6, "T6DeathKnightUnholyTank", "spell_deathknight_unholypresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"].." "..AL["Unholy"]};	
+		{ 8, "T6DruidBalance", "Spell_Nature_InsectSwarm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+		{ 9, "T6DruidFeral", "Ability_Druid_Maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+		{ 10, "T6DruidGuardian", "Ability_Druid_Maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Tanking"].." "..AL["Guardian"]};
+		{ 11, "T6DruidRestoration", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};	
+		{ 13, "T6HunterBeastMastery", "ability_hunter_bestialdiscipline", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..AL["BeastMastery"]};
+		{ 14, "T6HunterMarksmanship", "ability_hunter_focusedaim", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..AL["Marksmanship"]};
+		{ 15, "T6HunterSurvival", "ability_hunter_camouflage", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..AL["Survival"]};		
+		{ 16, "T6MageArcane", "spell_holy_magicalsentry", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..AL["Arcane"]};
+		{ 17, "T6MageFire", "spell_fire_firebolt02", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..AL["Fire"]};
+		{ 18, "T6MageFrost", "spell_frost_frostbolt02", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..AL["Frost"]};	
+		{ 20, "T6PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+		{ 21, "T6PaladinProtection", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+		{ 22, "T6PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};	
+		{ 24, "T6PriestDiscipline", "spell_holy_powerwordshield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Discipline"]};
+		{ 25, "T6PriestHoly", "spell_holy_guardianspirit", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+		{ 26, "T6PriestShadow", "spell_shadow_shadowwordpain", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+		{ 28, "T6RogueAssassination", "ability_rogue_deadlybrew", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..AL["Assassination"]};
+		{ 29, "T6RogueOutlaw", "ability_rogue_waylay", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..AL["Outlaw"]};
+		{ 30, "T6RogueSubtlety", "ability_stealth", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..AL["Subtlety"]};
 		Back = "SETMENU";
+		Next = "T6SET2";
+	};
+	AtlasLoot_Data["T6SET2"] = {
+		{ 1, "T6ShamanElemental", "spell_nature_lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+		{ 2, "T6ShamanEnhancement", "spell_shaman_improvedstormstrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+		{ 3, "T6ShamanRestoration", "spell_nature_magicimmunity", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};	
+		{ 5, "T6WarlockAffliction", "spell_shadow_deathcoil", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..AL["Affliction"]};
+		{ 6, "T6WarlockDemonology", "spell_shadow_metamorphosis", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..AL["Demonology"]};
+		{ 7, "T6WarlockDestruction", "spell_shadow_rainoffire", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..AL["Destruction"]};
+		{ 16, "T6WarriorArms", "ability_warrior_savageblow", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Arms"]};
+		{ 17, "T6WarriorFury", "ability_warrior_innerrage", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 18, "T6WarriorProtection", "ability_warrior_defensivestance", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+		Back = "SETMENU";
+		Prev = "T6SET";
 	};
 	AtlasLoot_Data["T7T8SET"] = {
 		{ 2, "NaxxDeathKnightDPS", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
