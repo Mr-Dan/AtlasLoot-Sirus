@@ -40,7 +40,7 @@ local VERSION_MINOR = "11";
 local VERSION_BOSSES = "03";
 ATLASLOOT_VERSION = "|cffFFFFFF"..AtlasLootVersionsList[#AtlasLootVersionsList] .." AtlasLoot Sirus by Днюша|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
-ATLASLOOT_CURRENT_ATLAS = {"1.16.1", "1.16.0"};
+ATLASLOOT_CURRENT_ATLAS = {"1.16.3", "1.16.0"};
 ATLASLOOT_PREVIEW_ATLAS = {"1.17.0", "1.16.2"};
 
 ATLASLOOT_POSITION = AL["Position:"];
