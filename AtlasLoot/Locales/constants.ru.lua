@@ -1828,7 +1828,7 @@ if AL then
     AL["Setup"] = "Установки";
 
     -- Old Atlas Detected
-    AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "Обнаружено что Ваша версия Атласа не соответствует версии, под которую сделан Atlasloot (";
+    AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "Обнаружено что Ваша версия Атласа не соответствует версии, под которую cделан Atlasloot (";
     AL[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."] = ").  В зависимости от изменений может быть случайная ошибка но лучше всего посетите форум и убедитесь что у вас стоит последняя версия данного аддона.";
     AL["OK"] = "OK";
     AL["Incompatible Atlas Detected"] = "Обноружен несовместимый Атлас";

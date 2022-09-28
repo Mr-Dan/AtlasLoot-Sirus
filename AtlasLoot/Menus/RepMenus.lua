@@ -89,17 +89,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "REPMENU";
 	};
 	AtlasLoot_Data["REPMENU_Sirus_FAlliance"] = {
-			{ 2, "Seventh_Legion_x2", "achievement_zone_tolbarad", "=ds=Седьмой легион", "=q5=Тол'Гарод" };
+			{ 2, "Seventh_Legion", "achievement_zone_tolbarad", "=ds=Седьмой легион", "=q5=Тол'Гарод" };
 
 	Back = "REPMENU";
 	}
 	AtlasLoot_Data["REPMENU_Sirus_FHorde"] = {
-			{ 2, "Kor'kron_Battalion_x2", "achievement_zone_tolbarad", "=ds=Батальон Кор'крона", "=q5=Тол'Гарод"};
+			{ 2, "Kor'kron_Battalion", "achievement_zone_tolbarad", "=ds=Батальон Кор'крона", "=q5=Тол'Гарод"};
 
 	Back = "REPMENU";
 	}
 	AtlasLoot_Data["REPMENU_Sirus_FRenegade"] = {
-			{ 2, "Golden_Scorpid_x2", "achievement_zone_tolbarad", "=ds=Золотой Скорпид", "=q5=Тол'Гарод"};
+			{ 2, "Golden_Scorpid", "achievement_zone_tolbarad", "=ds=Золотой Скорпид", "=q5=Тол'Гарод"};
 
 	Back = "REPMENU";
 	}
