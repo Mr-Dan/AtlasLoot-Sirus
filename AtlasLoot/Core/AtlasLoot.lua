@@ -287,8 +287,8 @@ function AtlasLoot_OnVariablesLoaded()
 		end
 		--If not the expected Atlas version, nag the user once
 		if( AtlasLoot.db.profile.AtlasType == "Unknown" and AtlasLoot.db.profile.AtlasNaggedVersion ~= ATLAS_VERSION ) then
-            StaticPopup_Show ("ATLASLOOT_OLD_ATLAS");
-            AtlasLoot.db.profile.AtlasNaggedVersion = ATLAS_VERSION;
+            --StaticPopup_Show ("ATLASLOOT_OLD_ATLAS");
+            --AtlasLoot.db.profile.AtlasNaggedVersion = ATLAS_VERSION;
 		end
         if AtlasLoot.db.profile.AtlasType == "Preview" then
             AtlasLootBossButtons = AtlasLootNewBossButtons;
