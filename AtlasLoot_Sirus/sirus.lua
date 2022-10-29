@@ -4100,11 +4100,11 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 28, "s319717", "Spell_Holy_GreaterHeal", "=ds=ТГ - Воин - Урон - Героический бросок - Ранг 4"};
 		{ 29, "s320198", "Spell_Holy_GreaterHeal", "=ds=ТГ - Воин - Урон - Кровотечение - Ранг 1"};
 		{ 30, "s320087", "Spell_Holy_GreaterHeal", "=ds=ТГ - Воин - Урон - Кровотечение - Ранг 2"};
-		Prev = "Enchanting_Tol'Garod3";
-		Next = "Enchanting_Tol'Garod5";
+		Prev = "Enchanting_Tol'Garod4";
+		Next = "Enchanting_Tol'Garod6";
 	}
 	
-	AtlasLoot_Data["Enchanting_Tol'Garod5"] ={	
+	AtlasLoot_Data["Enchanting_Tol'Garod6"] ={	
 		{ 1, "s319973", "Spell_Holy_GreaterHeal", "=ds=ТГ - Воин - Урон - Кровотечение - Ранг 3"};
 		{ 2, "s319715", "Spell_Holy_GreaterHeal", "=ds=ТГ - Воин - Урон - Кровотечение - Ранг 4"};
 		{ 3, "s320183", "Spell_Holy_GreaterHeal", "=ds=ТГ - Воин - Танк - Сокрушительная волна - Ранг 1"};
@@ -4135,10 +4135,10 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 28, "s320102", "Spell_Holy_GreaterHeal", "=ds=ТГ - Скорость - Ранг 2"};
 		{ 29, "s319988", "Spell_Holy_GreaterHeal", "=ds=ТГ - Скорость - Ранг 3"};
 		{ 30, "s319730", "Spell_Holy_GreaterHeal", "=ds=ТГ - Скорость - Ранг 4"};
-		Prev = "Enchanting_Tol'Garod4";
-		Next = "Enchanting_Tol'Garod6";
+		Prev = "Enchanting_Tol'Garod5";
+		Next = "Enchanting_Tol'Garod7";
 	}
-	AtlasLoot_Data["Enchanting_Tol'Garod6"] ={	
+	AtlasLoot_Data["Enchanting_Tol'Garod7"] ={	
 		{ 1, "s320212", "Spell_Holy_GreaterHeal", "=ds=ТГ - Критическая сила - Ранг 1"};
 		{ 2, "s320101", "Spell_Holy_GreaterHeal", "=ds=ТГ - Критическая сила - Ранг 2"};
 		{ 3, "s319987", "Spell_Holy_GreaterHeal", "=ds=ТГ - Критическая сила - Ранг 3"};
@@ -4163,7 +4163,7 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 22, "s320074", "Spell_Holy_GreaterHeal", "=ds=ТГ - Броня - Ранг 2"};
 		{ 23, "s319960", "Spell_Holy_GreaterHeal", "=ds=ТГ - Броня - Ранг 3"};
 		{ 24, "s319702", "Spell_Holy_GreaterHeal", "=ds=ТГ - Броня - Ранг 4"};
-		Prev = "Enchanting_Tol'Garod5";
+		Prev = "Enchanting_Tol'Garod6";
 	}
 	AtlasLoot_Data["Zort"] ={	
 		{ 1, 97756, "", "=q4=Оковы погибающего сознания", "=ds=#s2#"};
