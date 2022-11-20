@@ -29,6 +29,7 @@ AtlasLootVersionsList[26] = "8.08.22"
 AtlasLootVersionsList[27] = "10.08.22"
 AtlasLootVersionsList[28] = "29.09.22"
 AtlasLootVersionsList[29] = "19.10.22"
+AtlasLootVersionsList[30] = "20.11.22"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -277,6 +278,12 @@ text:SetText(WHITE..
 "- Обновлен лут с Хиджала".."\n\n"..
 "- Обновлен ивент Тыквовина".."\n\n"..
 "- Добавлены новые пвп маунты".."\n\n"
+)
+elseif x == 30 then
+text:SetText(WHITE..
+"- Добавлен новый тринкет".."\n\n"..
+"- Добавлены новые брлюли".."\n\n"..
+"- Баг фиксы".."\n\n"
 )
 end
 end

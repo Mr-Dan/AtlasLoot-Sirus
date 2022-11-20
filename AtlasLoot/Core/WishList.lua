@@ -978,7 +978,7 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 			curtabname = tabname
 			curplayername = tab2
 			AtlasLootWishList_AddFrame:Show()
-			AtlasLottAddEditWishList:SetText(AL["Edit Wishlist"])
+			AtlasLootAddEditWishList:SetText(AL["Edit Wishlist"])
 		end)
 		ButtonEdi:SetScript("OnEnter", function()
 			GameTooltip:SetOwner(this, "ANCHOR_RIGHT")

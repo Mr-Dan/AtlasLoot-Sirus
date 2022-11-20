@@ -113,8 +113,10 @@ if AL then
 	AL["Off Hand"]="Левая рука";
 
 	AL["BlackDiamonds"] = "Черные бриллианты";
+	AL["BlackDiamondsOne"] = "C одной характеристикой";
+	AL["BlackDiamondsTwo"] = "C двумя характеристиками";
 	AL["BlackDiamonds2"] = "Алмаз Бездны";
-	AL["BlackDiamonds3"] = "Заряженный бриллиант";
+	AL["BlackDiamondsCharged"] = "Заряженный бриллиант";
 	AL["TrinketChests"] = "Сундуки с аксессуарами";
 	AL["BlackMarket"] = "Черный рынок";
 	AL["BMarketMounts"] = "Ездовые животные";

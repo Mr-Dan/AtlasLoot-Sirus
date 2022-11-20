@@ -22,9 +22,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 15, "SIRUSPETMENU", "inv_misc_petmoonkinne", "=ds="..AL["SIRUSPET"], ""};
 		--{ 24, "LordKrimor", "Ability_Ambush", "=ds="..AL["LordKrimor"], ""};
 		{ 17, "MillenniumRoulettex_x2", "inv_misc_coin_17", "=ds="..AL["MillenniumRoulette"], ""};
-		{ 18, "BlackDiamonds", "inv_legendary_chimeraoffear", "=ds="..AL["BlackDiamonds"], ""};
+		{ 18, "BlackDiamondsMenu", "inv_legendary_chimeraoffear", "=ds="..AL["BlackDiamonds"], ""};
 		{ 19, "BlackDiamonds2", "INV_Legendary_BreathofBlackPrince_AGI", "=ds="..AL["BlackDiamonds2"], ""};
-		{ 20, "BlackDiamonds3", "s_inv_empoweredbrilliant", "=ds="..AL["BlackDiamonds3"], ""};
+		{ 20, "BlackDiamondsChargedMenu", "s_inv_empoweredbrilliant", "=ds="..AL["BlackDiamondsCharged"], ""};
 		{ 21, "TrinketChests_x2", "Inv_misc_enggizmos_17", "=ds="..AL["TrinketChests"], ""};
 		{ 22, "BlackMarket", "Ability_racial_timeismoney", "=ds="..AL["BlackMarket"], ""};
 		{ 23, "Forgotten", "Ability_rogue_improvedrecuperate", "=ds="..AL["Forgotten"], ""};
@@ -327,7 +327,19 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, "Perfectindigo", "inv_misc_cutgemperfect2", "=ds="..AL["Perfectindigo"], ""};
 		{ 6, "Perfectemerald", "inv_misc_cutgemperfect5", "=ds="..AL["Perfectemerald"], ""};
 		{ 7, "Perfectburnt", "inv_misc_cutgemperfect", "=ds="..AL["Perfectburnt"], ""};
-
 		Back = "KATEGORIAMENU";
 	};
 	
+	AtlasLoot_Data["BlackDiamondsMenu"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 2, "BlackDiamondsOne", "inv_legendary_chimeraoffear", "=ds="..AL["BlackDiamondsOne"], ""};
+		{ 3, "BlackDiamondsTwo", "inv_legendary_chimeraoffear", "=ds="..AL["BlackDiamondsTwo"], ""};
+		Back = "KATEGORIAMENU";
+	};
+	
+	AtlasLoot_Data["BlackDiamondsChargedMenu"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 2, "BlackDiamondsChargedOne", "s_inv_empoweredbrilliant", "=ds="..AL["BlackDiamondsOne"], ""};
+		{ 3, "BlackDiamondsChargedTwo", "s_inv_empoweredbrilliant", "=ds="..AL["BlackDiamondsTwo"], ""};
+		Back = "KATEGORIAMENU";
+	};

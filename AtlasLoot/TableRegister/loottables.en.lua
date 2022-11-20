@@ -1726,9 +1726,20 @@ end
 	AtlasLoot_TableNames["MillenniumRouletteStat"] = { AL["MillenniumRouletteStat"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["MillenniumRouletteStatSession"] = { AL["MillenniumRouletteStatSession"], "AtlasLootSirus" };
 	
-	AtlasLoot_TableNames["BlackDiamonds"] = { AL["BlackDiamonds"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["BlackDiamonds2"] = { AL["BlackDiamonds2"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["BlackDiamonds3"] = { AL["BlackDiamonds3"], "AtlasLootSirus" };
+	-- Черные брюли
+	AtlasLoot_TableNames["BlackDiamondsMenu"] = { AL["BlackDiamonds"], "Menu" };
+	AtlasLoot_TableNames["BlackDiamondsOne"] = { AL["BlackDiamondsOne"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsTwo"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsTwo2"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsTwo3"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
+
+	AtlasLoot_TableNames["BlackDiamonds2"] = { AL["BlackDiamonds"], "AtlasLootSirus" };
+	-- Заряженный бриллиант 
+	AtlasLoot_TableNames["BlackDiamondsChargedMenu"] = { AL["BlackDiamondsCharged"], "Menu" };
+	AtlasLoot_TableNames["BlackDiamondsChargedOne"] = { AL["BlackDiamondsOne"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsChargedTwo"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsChargedTwo2"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsChargedTwo3"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
 	
 	-- Полироли
 	AtlasLoot_TableNames["pigment"] = { AL["pigment"], "Menu" };

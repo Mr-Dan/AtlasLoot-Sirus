@@ -218,9 +218,9 @@ function AtlasLootItem_OnEnter()
 										end
 									end
 							end
-							if (incollection == true or foundModel == true) then
-								AtlasLootTooltip:AddLine ("|cff6E86D6"..AL["Model in collection"]);
-							end
+							--if (incollection == true or foundModel == true) then
+								--AtlasLootTooltip:AddLine ("|cff6E86D6"..AL["Model in collection"]);
+							--end
 
 
                         if( priority ~= nil and priority ~= "" ) then
