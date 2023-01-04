@@ -1619,6 +1619,7 @@ end
 	AtlasLoot_TableNames["WintervielMenu"] = { AL["Feast of Winter Veil"], "Menu" };
 	AtlasLoot_TableNames["RabbiSnegman"] = { AL["Rabbi Snegman"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["RabbiSnegman1"] = { AL["Rabbi Snegman"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["RabbiSnegman2"] = { AL["Rabbi Snegman"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["FrozenSnowman'sLair"] = { AL["Frozen Snowman's Lair"], "AtlasLootWorldEvents" };
   --- Hallow's End
 	AtlasLoot_TableNames["Halloween1"] = { AL["Hallow's End"], "AtlasLootWorldEvents" };

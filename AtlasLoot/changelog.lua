@@ -30,6 +30,7 @@ AtlasLootVersionsList[27] = "10.08.22"
 AtlasLootVersionsList[28] = "29.09.22"
 AtlasLootVersionsList[29] = "19.10.22"
 AtlasLootVersionsList[30] = "20.11.22"
+AtlasLootVersionsList[31] = "04.01.23"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -283,6 +284,11 @@ elseif x == 30 then
 text:SetText(WHITE..
 "- Добавлен новый тринкет".."\n\n"..
 "- Добавлены новые брлюли".."\n\n"..
+"- Баг фиксы".."\n\n"
+)
+elseif x == 31 then
+text:SetText(WHITE..
+"- Обновлен лут с зимнего покрова".."\n\n"..
 "- Баг фиксы".."\n\n"
 )
 end
