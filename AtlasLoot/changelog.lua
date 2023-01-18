@@ -31,6 +31,7 @@ AtlasLootVersionsList[28] = "29.09.22"
 AtlasLootVersionsList[29] = "19.10.22"
 AtlasLootVersionsList[30] = "20.11.22"
 AtlasLootVersionsList[31] = "04.01.23"
+AtlasLootVersionsList[32] = "19.01.23"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -290,6 +291,14 @@ elseif x == 31 then
 text:SetText(WHITE..
 "- Обновлен лут с зимнего покрова".."\n\n"..
 "- Баг фиксы".."\n\n"
+)
+elseif x == 32 then
+text:SetText(WHITE..
+"- Добавлен А13".."\n\n"..
+"- Добавлен 264 лут для острова Кель'Данас".."\n\n"..
+"- Добавлен один прдемет в лут Анетерона".."\n\n"..
+"- Изменен предмет для Тень Арана".."\n\n"..
+"- Обновлены чары с Тол'Гарода".."\n\n"
 )
 end
 end

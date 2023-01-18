@@ -68,7 +68,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "REPMENU";
 	};
 	AtlasLoot_Data["SunOffensive"] = {
-			{ 2, "SunOffensive3_x2", "inv_shield_48", "=ds="..AL["BMarketEquip"]};
+			{ 2, "SunOffensive3", "inv_shield_48", "=ds="..AL["BMarketEquip"]};
 			{ 17, "SunOffensive1", "inv_shield_48", "=ds="..AL["BMarketOther"]};
 	Back = "REPMENU_BURNINGCRUSADE";
 	}

@@ -706,6 +706,7 @@ if AL then
 	AL["A Tribute to Immortality"] = "Дань бессмертию";
 	AL["Low Level"] = "Низкого уровня";
 	AL["High Level"] = "Высокого уровня";
+	AL["Weapons a13"] = "Оружие 13 PVP сезона";
 	AL["Weapons a12"] = "Оружие 12 PVP сезона";
 	AL["Weapons a11"] = "Оружие 11 PVP сезона";
 	AL["Weapons a10"] = "Оружие 10 PVP сезона";
@@ -1440,15 +1441,17 @@ if AL then
 	AL["arenaset10"] = "Экипировка 10 PVP сезона  ";
 	AL["arenaset11"] = "Экипировка 11 PVP сезона  ";
 	AL["arenaset12"] = "Экипировка 12 PVP сезона  ";
+	AL["arenaset13"] = "Экипировка 13 PVP сезона  ";
 
 	AL["arenaset05"] = "5 PVP сезона ";
 	AL["arenaset06"] = "6 PVP сезона ";
 	AL["arenaset07"] = "7 PVP сезона ";
 	AL["arenaset08"] = "8 PVP сезона ";
 	AL["arenaset09"] = "9 PVP сезона ";
-	AL["arenaset010"] = "10 PVP сезона ";
-	AL["arenaset011"] = "11 PVP сезона  ";
-	AL["arenaset012"] = "12 PVP сезона  ";
+	AL["arenaset010"] = "10 PVP сезона";
+	AL["arenaset011"] = "11 PVP сезона ";
+	AL["arenaset012"] = "12 PVP сезона ";
+	AL["arenaset013"] = "13 PVP сезона ";
     -- Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "Оружие свирепого гладиатора";  --unused
     AL["Deadly Gladiator\'s Weapons"] = "Оружие смертоносного гладиатора";  --unused

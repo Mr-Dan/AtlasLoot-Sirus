@@ -1022,6 +1022,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#arenaset10#", AL["arenaset10"]);
 	text = gsub(text, "#arenaset11#", AL["arenaset11"]);
 	text = gsub(text, "#arenaset12#", AL["arenaset12"]);
+	text = gsub(text, "#arenaset13#", AL["arenaset13"]);
     -- Crafting
     text = gsub(text, "#sr#", AL["Skill Required:"]);
 
