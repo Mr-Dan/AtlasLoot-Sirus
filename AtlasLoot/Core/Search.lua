@@ -536,7 +536,7 @@ if  NotFound == false and (text ~="" or CountType >0)then
 				local founditemMinLevel = false
 				local foundOtherSubType
 
-				if EquipType then
+				if EquipType and itemEquipLoc then
 						found = string.lower(itemEquipLoc) == text;
 					if  not found and ChestType then
 						text = string.lower("INVTYPE_ROBE")

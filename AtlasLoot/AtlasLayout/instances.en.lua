@@ -20,6 +20,10 @@ AtlasLootNewBossButtons = {
 		"";
 		"GrainOfSandOfLost";
         };
+    Zort = {
+        "";
+        "Zort";
+    };
   ---------------------
   -- WotLK Instances --
   ---------------------
@@ -1834,6 +1838,10 @@ AtlasLootBossButtons = {
 		"";
 		"GrainOfSandOfLost";
         };
+    Zort = {
+        "";
+        "Zort";
+    };
   ---------------------
   -- WotLK Instances --
   ---------------------
