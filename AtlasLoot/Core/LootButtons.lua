@@ -201,29 +201,12 @@ function AtlasLootItem_OnEnter()
 							end
 
 							-- Модель
-							local incollection = SIRUS_COLLECTION_COLLECTED_ITEM_APPEARANCES[this.itemID]
-							local foundModel = false
-							if (incollection~= true) then
-				                                if ITEM_MODIFIED_APPEARANCE_STORAGE then
-				                                    local foundSourceInfo = ITEM_MODIFIED_APPEARANCE_STORAGE[this.itemID]
-				                                    if (foundSourceInfo~= nil)  then
-				                                        local sourceInfo = ITEM_MODIFIED_APPEARANCE_STORAGE[this.itemID][1]
-				                                        local itemAppearanceInfo = ITEM_APPEARANCE_STORAGE[sourceInfo]
-				                                        for i=1, #itemAppearanceInfo[2] do
-				                                            if SIRUS_COLLECTION_COLLECTED_ITEM_APPEARANCES[itemAppearanceInfo[2][i]]then
-				                                                foundModel = true
-				                                            end
-				                                        end
-				                                        if(foundModel~= true) then
-				                                            AtlasLootTooltip:AddLine ("|cff6E86D6"..AL["Model not in collection"]);
-				                                        end
-				                                    end
-				                                end
-							end
-							--if (incollection == true or foundModel == true) then
-								--AtlasLootTooltip:AddLine ("|cff6E86D6"..AL["Model in collection"]);
-							--end
-
+							if(C_TransmogCollection.IsCollectedSource(this.itemID) ~= true) then
+								local categoryID, subCategoryID, _, isUsable, isKnown = GetItemModifiedAppearanceCategoryInfo(this.itemID, true);
+								if isUsable then
+									AtlasLootTooltip:AddLine ("|cff6E86D6"..AL["Model not in collection"]);
+								end
+				            end
 
                         if( priority ~= nil and priority ~= "" ) then
                             AtlasLootTooltip:AddLine(GREEN..AL["Priority:"].." "..priority, 1, 1, 0);

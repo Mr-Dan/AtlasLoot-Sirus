@@ -32,6 +32,7 @@ AtlasLootVersionsList[29] = "19.10.22"
 AtlasLootVersionsList[30] = "20.11.22"
 AtlasLootVersionsList[31] = "04.01.23"
 AtlasLootVersionsList[32] = "19.01.23"
+AtlasLootVersionsList[33] = "04.11.23"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -299,6 +300,12 @@ text:SetText(WHITE..
 "- Добавлен один прдемет в лут Анетерона".."\n\n"..
 "- Изменен предмет для Тень Арана".."\n\n"..
 "- Обновлены чары с Тол'Гарода".."\n\n"
+)
+elseif x == 33 then
+text:SetText(WHITE..
+"- Добавлены новые камни для ювилирного дела".."\n\n"..
+"- Добавлено новое зелье ".."\n\n"..
+"- Исправлено отображение моделей предметов из коллекции".."\n\n"
 )
 end
 end
