@@ -33,6 +33,7 @@ AtlasLootVersionsList[30] = "20.11.22"
 AtlasLootVersionsList[31] = "04.01.23"
 AtlasLootVersionsList[32] = "19.01.23"
 AtlasLootVersionsList[33] = "04.11.23"
+AtlasLootVersionsList[33] = "16.11.23"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -306,6 +307,10 @@ text:SetText(WHITE..
 "- Добавлены новые камни для ювилирного дела".."\n\n"..
 "- Добавлено новое зелье ".."\n\n"..
 "- Исправлено отображение моделей предметов из коллекции".."\n\n"
+)
+elseif x == 34 then
+text:SetText(WHITE..
+"- Временный фикс не кликабельности меню".."\n\n"
 )
 end
 end

@@ -153,6 +153,37 @@ StaticPopupDialogs["ATLASLOOT_OLD_ATLAS"] = {
   hideOnEscape = 1
 };
 
+local function UIDropDownMenu_ContainsMouse()
+	for i = 1, UIDROPDOWNMENU_MAXLEVELS do
+		local dropdown = _G["DropDownList"..i];
+		if dropdown:IsShown() and dropdown:IsMouseOver() then
+			return true;
+		end
+		
+	end
+	
+	for i = 1, 100 do
+		local dropdown = _G["Dewdrop20Button"..i];
+		if dropdown ~= null then
+			if dropdown:IsShown() and dropdown:IsMouseOver() then
+				return true;
+			end
+		else
+			return false
+		end
+	end
+	
+	
+	return false;
+end
+
+function UIDropDownMenu_HandleGlobalMouseEvent(button, event)
+	if event == "GLOBAL_MOUSE_DOWN" and (button == "LeftButton" or button == "RightButton") then
+		if not UIDropDownMenu_ContainsMouse() then
+			CloseDropDownMenus();
+		end
+	end
+end
 --[[
 AtlasLoot_OnEvent(event):
 event - Name of the event, passed from the API
