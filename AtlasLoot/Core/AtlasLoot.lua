@@ -680,7 +680,7 @@ This fuction is not normally called directly, it is usually invoked by AtlasLoot
 It is the workhorse of the mod and allows the loot tables to be displayed any way anywhere in any mod.
 ]]
 function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
-	--Set up local variables needed for C_Item.GetItemInfoCache, etc
+	--Set up local variables needed for C_Item.GetItemInfo, etc
 	local itemName, itemLink, itemQuality, itemLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture, itemColor;
 	local iconFrame, nameFrame, extraFrame, itemButton;
 	local text, extra;
@@ -787,14 +787,14 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 					isItem = true;
 				end
 				if isItem then
-					itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture = C_Item.GetItemInfoCache(dataSource[dataID][i][2]);
+					itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture = C_Item.GetItemInfo(dataSource[dataID][i][2]);
 					--If the client has the name of the item in cache, use that instead.
 					--This is poor man's localisation, English is replaced be whatever is needed
-					if(C_Item.GetItemInfoCache(dataSource[dataID][i][2])) then
+					if(C_Item.GetItemInfo(dataSource[dataID][i][2])) then
 						_, _, _, itemColor = GetItemQualityColor(itemQuality);
 						text = itemColor..itemName;
 					else
-						if(C_Item.GetItemInfoCache(dataSource[dataID][i][2])) then
+						if(C_Item.GetItemInfo(dataSource[dataID][i][2])) then
 							_, _, _, itemColor = GetItemQualityColor(itemQuality);
 							text = itemColor..itemName;
 						else
@@ -929,11 +929,11 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 
         --If the item is not in cache, querying the server may cause a disconnect
         --Show a red box around the item to indicate this to the user
-        --((dataSource[dataID][i][2] ~= 0) and (not C_Item.GetItemInfoCache(dataSource[dataID][i][2]))
+        --((dataSource[dataID][i][2] ~= 0) and (not C_Item.GetItemInfo(dataSource[dataID][i][2]))
         for i = 1, 30, 1 do
             itemID = getglobal("AtlasLootItem_"..i).itemID;
             if itemID and itemID ~= 0 and (string.sub(itemID, 1, 1) ~= "s") then
-                if C_Item.GetItemInfoCache(itemID) then
+                if C_Item.GetItemInfo(itemID) then
                     getglobal("AtlasLootItem_"..i.."_Unsafe"):Hide();
                 else
                     getglobal("AtlasLootItem_"..i.."_Unsafe"):Show();

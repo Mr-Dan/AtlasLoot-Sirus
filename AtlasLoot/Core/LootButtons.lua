@@ -68,7 +68,7 @@ function AtlasLootItem_OnEnter()
             --Lootlink tooltips
             if( AtlasLoot.db.profile.LootlinkTT ) then
                 --If we have seen the item, use the game tooltip to minimise same name item problems
-                if(C_Item.GetItemInfoCache(this.itemID) ~= nil) then
+                if(C_Item.GetItemInfo(this.itemID) ~= nil) then
                     getglobal(this:GetName().."_Unsafe"):Hide();
                     AtlasLootTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
                     AtlasLootTooltip:SetHyperlink("item:"..this.itemID..":0:0:0");
@@ -117,7 +117,7 @@ function AtlasLootItem_OnEnter()
                 end
             --Item Sync tooltips
             elseif( AtlasLoot.db.profile.ItemSyncTT ) then
-                if(C_Item.GetItemInfoCache(this.itemID) ~= nil) then
+                if(C_Item.GetItemInfo(this.itemID) ~= nil) then
                     getglobal(this:GetName().."_Unsafe"):Hide();
                 end
                 ItemSync:ButtonEnter();
@@ -140,7 +140,7 @@ function AtlasLootItem_OnEnter()
             --Default game tooltips
             else
                 if(this.itemID ~= nil) then
-                    if(C_Item.GetItemInfoCache(this.itemID) ~= nil) then
+                    if(C_Item.GetItemInfo(this.itemID) ~= nil) then
                         getglobal(this:GetName().."_Unsafe"):Hide();
                         AtlasLootTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
                         AtlasLootTooltip:SetHyperlink("item:"..this.itemID..":0:0:0");
@@ -156,7 +156,7 @@ function AtlasLootItem_OnEnter()
 						local status, err;
 						 --  Торговец цена
 							GameTooltip_ClearMoney(AtlasLootTooltip)
-							local _, _, _, _, _, _, _, _,_, _, itemSellPrice  = C_Item.GetItemInfoCache(this.itemID);
+							local _, _, _, _, _, _, _, _,_, _, itemSellPrice  = C_Item.GetItemInfo(this.itemID);
 							local vendorPrice	= 0;
 							vendorPrice	= itemSellPrice;
 							if (vendorPrice ~= 0 and err == nil) then
@@ -166,7 +166,7 @@ function AtlasLootItem_OnEnter()
 							end
 
 						-- Аддон Auctionator цена
-							local itemLink = select(2, C_Item.GetItemInfoCache(this.itemID))
+							local itemLink = select(2, C_Item.GetItemInfo(this.itemID))
 							local auctionPrice	= 0;
 							 status, err = pcall(function ()
 								Auctionator.Utilities.DBKeyFromLink(itemLink, function(dbKeys)
@@ -183,11 +183,11 @@ function AtlasLootItem_OnEnter()
 							 end);
 
 						  -- Аддон Auctionator	распыление
-							local _, itemLink, itemRarity, itemLevel, _, itemType, _, _,_, _, itemSellPrice  = C_Item.GetItemInfoCache(this.itemID);
+							local _, itemLink, itemRarity, itemLevel, _, itemType, _, _,_, _, itemSellPrice  = C_Item.GetItemInfo(this.itemID);
 							local dePrice= nil;
 							local disenchantStatus= nil;
 							status, err = pcall(function ()
-							local itemInfo = { C_Item.GetItemInfoCache(itemLink) };
+							local itemInfo = { C_Item.GetItemInfo(itemLink) };
 							  if (#itemInfo) ~= 0 then
 								local sellPrice = itemInfo[Auctionator.Constants.ITEM_INFO.SELL_PRICE]
 									disenchantStatus = Auctionator.Enchant.DisenchantStatus(itemInfo)
@@ -279,8 +279,8 @@ function AtlasLootItem_OnClick(arg1)
             isItem = true;
         end
     if isItem then
-        local iteminfo = C_Item.GetItemInfoCache(this.itemID);
-        local itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture = C_Item.GetItemInfoCache(this.itemID);
+        local iteminfo = C_Item.GetItemInfo(this.itemID);
+        local itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture = C_Item.GetItemInfo(this.itemID);
         --If shift-clicked, link in the chat window
         if(arg1=="RightButton" and not iteminfo and this.itemID ~= 0) then
             AtlasLootTooltip:SetHyperlink("item:"..this.itemID..":0:0:0:0:0:0:0");
@@ -350,7 +350,7 @@ function AtlasLootItem_ShowCompareItem()
    local item,link = nil,nil
    if this.spellitemID and this.spellitemID ~= "" and this.spellitemID ~= 0 then
       item = AtlasLootTooltip:GetSpell()
-      _,link = C_Item.GetItemInfoCache(this.spellitemID)
+      _,link = C_Item.GetItemInfo(this.spellitemID)
    else
       item,link = AtlasLootTooltip:GetItem();
    end

@@ -59,7 +59,7 @@ else
     for dataID, data in pairs(AtlasLoot_Data) do
         for _, v in ipairs(data) do
             if type(v[2]) == "number" and v[2] > 0 then
-                local itemName = C_Item.GetItemInfoCache(v[2]);
+                local itemName = C_Item.GetItemInfo(v[2]);
                 if not itemName then itemName = gsub(v[4], "=q%d=", "") end
                 local found;
                 if partial then
@@ -152,7 +152,7 @@ function AtlasLoot:SearchAtlas(Text)
 		for dataID, data in pairs(AtlasLoot_Data) do
 			for _, v in ipairs(data) do
 				if type(v[2]) == "number" and v[2] > 0 then
-					local itemName = C_Item.GetItemInfoCache(v[2]);
+					local itemName = C_Item.GetItemInfo(v[2]);
 					if not itemName then itemName = gsub(v[4], "=q%d=", "") end
 					local found;
 					if partial then
@@ -528,7 +528,7 @@ if  NotFound == false and (text ~="" or CountType >0)then
     for dataID, data in pairs(AtlasLoot_Data) do
         for _, v in ipairs(data) do
             if type(v[2]) == "number" and v[2] > 0 then
-                local itemName, _, _, itemLevel, itemMinLevel, itemType,itemSubType, _, itemEquipLoc, _, _ = C_Item.GetItemInfoCache(v[2]);
+                local itemName, _, _, itemLevel, itemMinLevel, itemType,itemSubType, _, itemEquipLoc, _, _ = C_Item.GetItemInfo(v[2]);
                 if not itemName then itemName = gsub(v[4], "=q%d=", "") end
                 local found;
 				local foundSubType
