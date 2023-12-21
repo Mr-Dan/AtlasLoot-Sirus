@@ -34,6 +34,7 @@ AtlasLootVersionsList[31] = "04.01.23"
 AtlasLootVersionsList[32] = "19.01.23"
 AtlasLootVersionsList[33] = "04.11.23"
 AtlasLootVersionsList[33] = "16.11.23"
+AtlasLootVersionsList[34] = "21.12.23"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -283,18 +284,18 @@ text:SetText(WHITE..
 "- Обновлен ивент Тыквовина".."\n\n"..
 "- Добавлены новые пвп маунты".."\n\n"
 )
-elseif x == 30 then
+elseif x == 29 then
 text:SetText(WHITE..
 "- Добавлен новый тринкет".."\n\n"..
 "- Добавлены новые брлюли".."\n\n"..
 "- Баг фиксы".."\n\n"
 )
-elseif x == 31 then
+elseif x == 30 then
 text:SetText(WHITE..
 "- Обновлен лут с зимнего покрова".."\n\n"..
 "- Баг фиксы".."\n\n"
 )
-elseif x == 32 then
+elseif x == 31 then
 text:SetText(WHITE..
 "- Добавлен А13".."\n\n"..
 "- Добавлен 264 лут для острова Кель'Данас".."\n\n"..
@@ -302,15 +303,19 @@ text:SetText(WHITE..
 "- Изменен предмет для Тень Арана".."\n\n"..
 "- Обновлены чары с Тол'Гарода".."\n\n"
 )
-elseif x == 33 then
+elseif x == 32 then
 text:SetText(WHITE..
 "- Добавлены новые камни для ювилирного дела".."\n\n"..
 "- Добавлено новое зелье ".."\n\n"..
 "- Исправлено отображение моделей предметов из коллекции".."\n\n"
 )
-elseif x == 34 then
+elseif x == 33 then
 text:SetText(WHITE..
 "- Временный фикс не кликабельности меню".."\n\n"
+)
+elseif x == 34 then
+text:SetText(WHITE..
+"- Черный храм - первый квартал".."\n\n"
 )
 end
 end
