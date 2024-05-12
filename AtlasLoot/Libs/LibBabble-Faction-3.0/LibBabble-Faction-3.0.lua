@@ -573,6 +573,7 @@ elseif GAME_LOCALE == "ruRU" then
 	["Lower City"] = "Нижний Город",
 	["Magram Clan Centaur"] = "Кентавры из племени Маграм",
 	Netherwing = "Крылья Пустоты",
+	Peppa = "Пеплоусты Карабора",
 	Neutral = "Равнодушие",
 	["Ogri'la"] = "Огри'ла",
 	Orgrimmar = "Оргриммар",
