@@ -2967,6 +2967,9 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 10, 29993, "", "=q4=Twinblade of the Phoenix", "=ds=#h2#, #w10#", "", "12%"};
 		{ 11, 29996, "", "=q4=Rod of the Sun King", "=ds=#h1#, #w6#", "", "15%"};
 		{ 12, 29988, "", "=q4=The Nexus Key", "=ds=#w9#", "", "14%"};
+
+		{ 14, 29905, "", "=q1=Kael's Vial Remnant", "=ds=#m3#", "", "37%"};
+
 		{ 16, 30236, "", "=q4=Chestguard of the Vanquished Champion", "=ds=#m22# #e15#", "", "69%"};
 		{ 17, 30237, "", "=q4=Chestguard of the Vanquished Defender", "=ds=#m22# #e15#", "", "68%"};
 		{ 18, 30238, "", "=q4=Chestguard of the Vanquished Hero", "=ds=#m22# #e15#", "", "66%"};
@@ -2976,7 +2979,8 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 22, 30017, "", "=q4=Telonicus's Pendant of Mayhem", "=q1=#m4#: =ds=#s2#"};
 		{ 23, 30007, "", "=q4=The Darkener's Grasp", "=q1=#m4#: =ds=#s2#"};
 		{ 24, 30015, "", "=q4=The Sun King's Talisman", "=q1=#m4#: =ds=#s2#"};
-		{ 25, 29905, "", "=q1=Kael's Vial Remnant", "=ds=#m3#", "", "37%"};
+		{ 25, 151574, "", "=q4=Разбитое сердце", "=q1=#m4#: =ds=#s2#"};
+		{ 26, 151573, "", "=q4=Оберег самопровозглашенного властителя", "=q1=#m4#: =ds=#s2#"};
 
 		{ 28, 32458, "", "=q4=Ashes of Al'ar", "=ds=#e12#", ""};
 		{ 29, 30183, "", "=q4=Nether Vortex", "=ds=#e8#", ""};
