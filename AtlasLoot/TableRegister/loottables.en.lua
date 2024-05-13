@@ -1995,6 +1995,9 @@ end
 		AtlasLoot_TableNames["Golden_Scorpid4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
 		AtlasLoot_TableNames["Golden_Scorpid5"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
 		AtlasLoot_TableNames["Golden_Scorpid6"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+
+		AtlasLoot_TableNames["Peppa"] = { BabbleFaction["Peppa"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Peppa2"] = { BabbleFaction["Peppa"], "AtlasLootSirus" };
 --------------
 --- Trades ---
 --------------

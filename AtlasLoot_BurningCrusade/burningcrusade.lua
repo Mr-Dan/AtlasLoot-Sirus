@@ -512,54 +512,51 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["BTGorefiend"] = {
-		{ 1, 32323, "", "=q4=Shadowmoon Destroyer's Drape", "=ds=#s4#", "", "17%"};
-		{ 2, 32329, "", "=q4=Cowl of Benevolence", "=ds=#s1#, #a1#", "", "17%"};
-		{ 3, 32327, "", "=q4=Robe of the Shadow Council", "=ds=#s5#, #a1#", "", "15%"};
-		{ 4, 32324, "", "=q4=Insidious Bands", "=ds=#s8#, #a2#", "", "17%"};
-		{ 5, 32328, "", "=q4=Botanist's Gloves of Growth", "=ds=#s9#, #a2#", "", "17%"};
-		{ 6, 32510, "", "=q4=Softstep Boots of Tracking", "=ds=#s12#, #a3#", "", "15%"};
-		{ 7, 32280, "", "=q4=Gauntlets of Enforcement", "=ds=#s9#, #a4#", "", "15%"};
-		{ 8, 32512, "", "=q4=Girdle of Lordaeron's Fallen", "=ds=#s10#, #a4#", "", "19%"};
-		{ 16, 32330, "", "=q4=Totem of Ancestral Guidance", "=ds=#s16#, #w15#", "", "13%"};
-		{ 17, 32348, "", "=q4=Soul Cleaver", "=ds=#h2#, #w1#", "", "19%"};
-		{ 18, 32326, "", "=q4=Twisted Blades of Zarak", "=ds=#w11#", "", "11%"};
-		{ 19, 32325, "", "=q4=Rifle of the Stoic Guardian", "=ds=#w5#", "", "14%"};
+		{ 1, 156245, "", "=q4=Blood-cursed Shoulderpads", "=ds=#s2#", "", "15%"};
+		{ 2, 156246, "", "=q4=Garments of Temperance", "=ds=#s8#, #a4#", "", "15%"};
+		{ 3, 156247, "", "=q4=Belt of Primal Majesty", "=ds=#s8#, #a4#", "", "14%"};
+		{ 4, 156248, "", "=q4=Vest of Mounting Assault", "=ds=#s8#, #a2#", "", "15%"};
+		{ 5, 156249, "", "=q4=Girdle of Mighty Resolve", "=ds=#s12#, #a2#", "", "8%"};
+		{ 6, 156250, "", "=q4=Girdle of Stability", "=ds=#s13#", "", "16%"};
+		{ 7, 156251, "", "=q4=Leggings of Divine Retribution", "=ds=#s13#", "", "14%"};
+		{ 8, 156252, "", "=q4=Leggings of Divine Retribution", "=ds=#s13#", "", "14%"};
+		{ 9, 156253, "", "=q4=Leggings of Divine Retribution", "=ds=#s5#, #a4#", "", "14%"};
+		{ 10, 156254, "", "=q4=Leggings of Divine Retribution", "=ds=#s14#", "", "14%"};
 		Prev = "BTAkama";
 		Next = "BTBloodboil";
 	};
 
 	AtlasLoot_Data["BTBloodboil"] = {
-		{ 1, 32337, "", "=q4=Shroud of Forgiveness", "=ds=#s4#", "", "16%"};
-		{ 2, 32338, "", "=q4=Blood-cursed Shoulderpads", "=ds=#s3#, #a1#", "", "15%"};
-		{ 3, 32340, "", "=q4=Garments of Temperance", "=ds=#s5#, #a1#", "", "15%"};
-		{ 4, 32339, "", "=q4=Belt of Primal Majesty", "=ds=#s10#, #a2#", "", "14%"};
-		{ 5, 32334, "", "=q4=Vest of Mounting Assault", "=ds=#s5#, #a3#", "", "15%"};
-		{ 6, 32342, "", "=q4=Girdle of Mighty Resolve", "=ds=#s10#, #a4#", "", "8%"};
-		{ 7, 32333, "", "=q4=Girdle of Stability", "=ds=#s10#, #a4#", "", "16%"};
-		{ 8, 32341, "", "=q4=Leggings of Divine Retribution", "=ds=#s11#, #a4#", "", "14%"};
-		{ 16, 32335, "", "=q4=Unstoppable Aggressor's Ring", "=ds=#s13#", "", "16%"};
-		{ 17, 32501, "", "=q4=Shadowmoon Insignia", "=ds=#s14#", "", "15%"};
-		{ 18, 32269, "", "=q4=Messenger of Fate", "=ds=#h1#, #w4#", "", "16%"};
-		{ 19, 32344, "", "=q4=Staff of Immaculate Recovery", "=ds=#w9#", "", "15%"};
-		{ 20, 32343, "", "=q4=Wand of Prismatic Focus", "=ds=#w12#", "", "14%"};
+		{ 1, 156234, "", "=q4=Gloves of Unfailing Faith", "=ds=#s2#", "", "17%"};
+		{ 2, 156235, "", "=q4=Elunite Empowered Bracers", "=ds=#s4#", "", "8%"};
+		{ 3, 156236, "", "=q4=Grips of Damnation", "=ds=#s4#", "", "16%"};
+		{ 4, 156237, "", "=q4=Naturewarden's Treads", "=ds=#s4#", "", "9%"};
+		{ 5, 156238, "", "=q4=The Wavemender's Mantle", "=ds=#s8#, #a4#", "", "17%"};
+		{ 6, 156239, "", "=q4=Boneweave Girdle", "=ds=#s8#, #a1#", "", "16%"};
+		{ 7, 156240, "", "=q4=Crown of Empowered Fate", "=ds=#s12#, #a4#", "", "16%"};
+		{ 8, 156241, "", "=q4=Dreadboots of the Legion", "=ds=#s12#, #a1#", "", "15%"};
+		{ 9, 156242, "", "=q4=Translucent Spellthread Necklace", "=ds=#s13#", "", "16%"};
+		{ 10, 156243, "", "=q4=Pendant of Titans", "=ds=#s14#", "", "15%"};
+		{ 11, 156244, "", "=q4=Pendant of Titans", "=ds=#s14#", "", "15%"};
+--{ 17, 32501, "", "=q4=Shadowmoon Insignia", "=ds=#s14#", "", "15%"};
+		--{ 18, 32269, "", "=q4=Messenger of Fate", "=ds=#h1#, #w4#", "", "16%"};
+		--{ 19, 32344, "", "=q4=Staff of Immaculate Recovery", "=ds=#w9#", "", "15%"};
+		--{ 20, 32343, "", "=q4=Wand of Prismatic Focus", "=ds=#w12#", "", "14%"};
 		Prev = "BTGorefiend";
 		Next = "BTEssencofSouls";
 	};
 
 	AtlasLoot_Data["BTEssencofSouls"] = {
-		{ 1, 32353, "", "=q4=Gloves of Unfailing Faith", "=ds=#s9#, #a1#", "", "17%"};
-		{ 2, 32351, "", "=q4=Elunite Empowered Bracers", "=ds=#s8#, #a2#", "", "8%"};
-		{ 3, 32347, "", "=q4=Grips of Damnation", "=ds=#s9#, #a2#", "", "16%"};
-		{ 4, 32352, "", "=q4=Naturewarden's Treads", "=ds=#s12#, #a2#", "", "9%"};
-		{ 5, 32517, "", "=q4=The Wavemender's Mantle", "=ds=#s3#, #a3#", "", "17%"};
-		{ 6, 32346, "", "=q4=Boneweave Girdle", "=ds=#s10#, #a3#", "", "16%"};
-		{ 7, 32354, "", "=q4=Crown of Empowered Fate", "=ds=#s1#, #a4#", "", "16%"};
-		{ 8, 32345, "", "=q4=Dreadboots of the Legion", "=ds=#s12#, #a4#", "", "15%"};
-		{ 16, 32349, "", "=q4=Translucent Spellthread Necklace", "=ds=#s2#", "", "16%"};
-		{ 17, 32362, "", "=q4=Pendant of Titans", "=ds=#s2#", "", "15%"};
-		{ 18, 32350, "", "=q4=Touch of Inspiration", "=ds=#s15#", "", "16%"};
-		{ 19, 32332, "", "=q4=Torch of the Damned", "=ds=#h2#, #w6#", "", "17%"};
-		{ 20, 32363, "", "=q4=Naaru-Blessed Life Rod", "=ds=#w12#", "", "14%"};
+		{ 1, 156224, "", "=q4=Shadowmoon Destroyer's Drape", "=ds=#s2#", "", "17%"};
+		{ 2, 156225, "", "=q4=Cowl of Benevolence", "=ds=#s12#, #a4#", "", "17%"};
+		{ 3, 156226, "", "=q4=Insidious Bands", "=ds=#s2#", "", "17%"}; --
+		{ 4, 156227, "", "=q4=Botanist's Gloves of Growth", "=ds=#s8#, #a4#", "", "17%"}; --
+		{ 5, 156228, "", "=q4=Softstep Boots of Tracking", "=ds=#s12#, #a2#", "", "15%"};
+		{ 6, 156229, "", "=q4=Gauntlets of Enforcement", "=ds=#s4#", "", "15%"};
+		{ 7, 156230, "", "=q4=Girdle of Lordaeron's Fallen", "=ds=#s12#, #a4#", "", "19%"};
+		{ 8, 156231, "", "=q4=Totem of Ancestral Guidance", "=ds=#s12#, #a4#", "", "13%"};
+		{ 9, 156232, "", "=q4=Soul Cleaver", "=ds=#s8#, #a2#", "", "19%"};
+		{ 10, 156233, "", "=q4=Twisted Blades of Zarak", "=ds=#s14#", "", "11%"};
 		Prev = "BTBloodboil";
 		Next = "BTShahraz";
 	};

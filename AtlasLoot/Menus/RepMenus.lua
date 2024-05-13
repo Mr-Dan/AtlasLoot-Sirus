@@ -90,16 +90,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 	AtlasLoot_Data["REPMENU_Sirus_FAlliance"] = {
 			{ 2, "Seventh_Legion", "achievement_zone_tolbarad", "=ds=Седьмой легион", "=q5=Тол'Гарод" };
+			{ 3, "Peppa", "ability_mount_whitedirewolf", "=ds=Пеплоусты Каробора", "=q5=Долина Призрачной Луны" };
 
 	Back = "REPMENU";
 	}
 	AtlasLoot_Data["REPMENU_Sirus_FHorde"] = {
 			{ 2, "Kor'kron_Battalion", "achievement_zone_tolbarad", "=ds=Батальон Кор'крона", "=q5=Тол'Гарод"};
-
+			{ 3, "Peppa", "ability_mount_whitedirewolf", "=ds=Пеплоусты Каробора", "=q5=Долина Призрачной Луны" };
 	Back = "REPMENU";
 	}
 	AtlasLoot_Data["REPMENU_Sirus_FRenegade"] = {
 			{ 2, "Golden_Scorpid", "achievement_zone_tolbarad", "=ds=Золотой Скорпид", "=q5=Тол'Гарод"};
-
+			{ 3, "Peppa", "ability_mount_whitedirewolf", "=ds=Пеплоусты Каробора", "=q5=Долина Призрачной Луны" };
 	Back = "REPMENU";
 	}
