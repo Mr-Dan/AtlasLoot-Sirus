@@ -1109,6 +1109,7 @@ function AtlasLoot_FixText(text)
 	text = gsub(text, "#EnchantedGem#", AL["EnchantedGem"]);--EnchantedGem
 	text = gsub(text, "#blackpigment#", AL["blackpigment"]);--Полироль
 	text = gsub(text, "#Tol'Garod#", "|TInterface\\Icons\\Achievement_Zone_TolBarad:15|t");--жетоны Тол'Гарод
+	text = gsub(text, "#Hist#", "|TInterface\\Icons\\inv_misc_azsharacoin:15|t");--жетоны историй
 	text = gsub(text, "#Coin of Ancestry#", "|TInterface\\Icons\\inv_misc_elvencoins:15|t");-- Монета Наследия
 	text = gsub(text, "#Elisandra's Loans#", "|TInterface\\Icons\\ability_racial_etherealconnection:15|t");--Кредиты дельцы Элисандра
 	text = gsub(text, "#MarbledSnow#", "|TInterface\\Icons\\s_marbled_snow:15|t");--Обрамленный снег

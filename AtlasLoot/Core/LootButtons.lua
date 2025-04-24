@@ -201,12 +201,6 @@ function AtlasLootItem_OnEnter()
 							end
 
 							-- Модель
-							if(C_TransmogCollection.IsCollectedSource(this.itemID) ~= true) then
-								local categoryID, subCategoryID, _, isUsable, isKnown = GetItemModifiedAppearanceCategoryInfo(this.itemID, true);
-								if isUsable then
-									AtlasLootTooltip:AddLine ("|cff6E86D6"..AL["Model not in collection"]);
-								end
-				            end
 
                         if( priority ~= nil and priority ~= "" ) then
                             AtlasLootTooltip:AddLine(GREEN..AL["Priority:"].." "..priority, 1, 1, 0);
