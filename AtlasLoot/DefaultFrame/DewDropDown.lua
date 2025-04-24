@@ -258,7 +258,12 @@ AtlasLoot_DewDropDown = {
 				{ AL["Bronze Sanctuary"], "BronzeSanctuary", "Submenu" },
 			},	
 			[2] = {
-				{ AL["Tol'Garod Prison"], "Tol'Garod Prison", "Submenu" },
+				[ AL["Tol'Garod Prison"]] = {
+				{ AL["Tol'Garod Prison5"], "Tol'Garod Prison5", "Submenu" },
+				{ AL["Tol'Garod Prison2"], "Tol'Garod Prison2", "Submenu" },
+				{ AL["Tol'Garod Prison3"], "Tol'Garod Prison3", "Submenu" },
+				{ AL["Tol'Garod Prison4"], "Tol'Garod Prison4", "Submenu" },
+				},
 			},	
 			[3] = {
 				{ AL["Zort"], "Zort", "Submenu" },
@@ -941,10 +946,29 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "Murozond" },
 		{ "", "GrainOfSandOfLost" },
 	},
-	["Tol'Garod Prison"] = {
-		{ "", "Gogonash_x2" },
-		{ "", "Xtrax Mind Absorber_x2" },
-		{ "", "Magic Eater_x2" },
+	["Tol'Garod Prison2"] = {
+		{ "", "Gogonash_258" },
+		{ "", "Xtrax Mind Absorber_258" },
+		{ "", "Magic Eater_258" },
+		{ "", "Enchanting_Tol'Garod" },
+		},
+	["Tol'Garod Prison3"] = {
+		{ "", "Gogonash_271" },
+		{ "", "Xtrax Mind Absorber_271" },
+		{ "", "Magic Eater_271" },
+		{ "", "Enchanting_Tol'Garod" },
+		},
+	["Tol'Garod Prison4"] = {
+		{ "", "Gogonash_284" },
+		{ "", "Xtrax Mind Absorber_284" },
+		{ "", "Magic Eater_284" },
+		{ "", "Enchanting_Tol'Garod" },
+		
+	},
+		["Tol'Garod Prison5"] = {
+		{ "", "Gogonash_245" },
+		{ "", "Xtrax Mind Absorber_245" },
+		{ "", "Magic Eater_245" },
 		{ "", "Enchanting_Tol'Garod" },
 		
 	},

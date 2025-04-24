@@ -272,6 +272,7 @@ lib:SetBaseTranslations {
 	["Zul'Drak"] = "Zul'Drak",
 	["Zul'Farrak"] = "Zul'Farrak",
 	["Zul'Gurub"] = "Zul'Gurub",
+	["TolGarod Prison"] = "Тол'Гародская тюрьма",
 }
 
 
@@ -1810,6 +1811,7 @@ elseif GAME_LOCALE == "ruRU" then
 	["Zul'Farrak"] = "Зул'Фаррак",
 	["Zul'Gurub"] = "Зул'Гуруб",
 	TolGarod ="Тол'Гарод",
+	["TolGarod Prison"] = "Тол'Гародская тюрьма",
 }
 elseif GAME_LOCALE == "zhCN" then
 	lib:SetCurrentTranslations {
@@ -2065,6 +2067,7 @@ elseif GAME_LOCALE == "zhCN" then
 	["Zul'Drak"] = "祖达克",
 	["Zul'Farrak"] = "祖尔法拉克",
 	["Zul'Gurub"] = "祖尔格拉布",
+	["TolGarod Prison"] = "Тол'Гародская тюрьма",
 }
 elseif GAME_LOCALE == "zhTW" then
 	lib:SetCurrentTranslations {
@@ -2320,6 +2323,7 @@ elseif GAME_LOCALE == "zhTW" then
 	["Zul'Drak"] = "祖爾德拉克",
 	["Zul'Farrak"] = "祖爾法拉克",
 	["Zul'Gurub"] = "祖爾格拉布",
+	["TolGarod Prison"] = "Тол'Гародская тюрьма",
 }
 
 else

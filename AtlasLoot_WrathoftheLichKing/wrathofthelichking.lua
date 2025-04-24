@@ -3636,6 +3636,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 7, 39716, "", "=q4=Shield of Assimilation", "=ds=#w8#", "", "24%"};
 		{ 8, 40265, "", "=q4=Arrowsong", "=ds=#w2#", "", "19%"};
 		{ 9, 40346, "", "=q4=Final Voyage", "=ds=#w3#", "", "1%"};
+		{ 10, 158802, "", "Разряженная серворука", "Одноручное, Дробящее", "", "1%"};
 		{ 16, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#", "", "57%"};
 		{ 17, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "", "58%"};
 		{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#", "", "76%"};
@@ -3904,6 +3905,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 3, 39395, "", "=q4=Thane's Tainted Greathelm", "=ds=#s1#, #a4#", "", "12%"};
 		{ 4, 39393, "", "=q4=Claymore of Ancient Power", "=ds=#h2#, #w10#", "", "12%"};
 		{ 5, 39394, "", "=q4=Charmed Cierge", "=ds=#w9#", "", "12%"};
+		{ 6, 158800, "", "Секира расколотой кости", "Одноручное, Топор", "", "12%"};
 		{ 16, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#e15#", "", "18%"};
 		{ 17, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "", "19%"};
 		{ 18, 40612, "", "=q4=Chestguard of the Lost Vanquisher", "=ds=#e15#", "", "25%"};
@@ -4021,6 +4023,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 3, 39258, "", "=q4=Legplates of Inescapable Death", "=ds=#s11#, #a4#", "", "10%"};
 		{ 4, 39257, "", "=q4=Loatheb's Shadow", "=ds=#s14#", "", "10%"};
 		{ 5, 39256, "", "=q4=Sulfur Stave", "=ds=#w9#", "", "10%"};
+		{ 6, 158801, "", "Конец мечтаний", "Одноручное, Дробящее", "", "10%"};
 		{ 16, 40622, "", "=q4=Spaulders of the Lost Conqueror", "=ds=#e15#", "", "29%"};
 		{ 17, 40623, "", "=q4=Spaulders of the Lost Protector", "=ds=#e15#", "", "30%"};
 		{ 18, 40624, "", "=q4=Spaulders of the Lost Vanquisher", "=ds=#e15#", "", "38%"};
@@ -4038,6 +4041,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 8, 40244, "", "=q4=The Impossible Dream", "=ds=#h3#, #w6#", "", "10%"};
 		{ 9, 40239, "", "=q4=The Hand of Nerub", "=ds=#h4#, #w13#", "", "19%"};
 		{ 10, 40245, "", "=q4=Fading Glow", "=ds=#w12#", "", "10%"};
+		{ 11, 158803, "", "Топор чумного крестьянина", "=ds=#w12#", "", "10%"};
 		{ 16, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#", "", "57%"};
 		{ 17, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "", "58%"};
 		{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#", "", "76%"};
@@ -4587,9 +4591,10 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 3, 45874, "", "=q4=Signet of Winter", "=ds=#s13#", "", "16%"};
 		{ 4, 45458, "", "=q4=Stormedge", "=ds=#h2#, #w1#", "", "17%"};
 		{ 5, 45872, "", "=q4=Avalanche", "=ds=#w2#", "", "22%"};
+		{ 6, 158809, "", "Укротитель протодракона", "Одноручное, Топор", "", "22%"};
 		{ 7, 45650, "", "=q4=Leggings of the Wayward Conqueror", "=ds=#e15#", "", "29%"};
 		{ 8, 45651, "", "=q4=Leggings of the Wayward Protector", "=ds=#e15#", "", "29%"};
-		{ 9, 45652, "", "=q4=Leggings of the Wayward Vanquisher", "=ds=#e15#", "", "34%"};
+		{ 10, 45652, "", "=q4=Leggings of the Wayward Vanquisher", "=ds=#e15#", "", "34%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 45888, "", "=q4=Bitter Cold Armguards", "=ds=#s8#, #a4#", "", "18%"};
 		{ 18, 45876, "", "=q4=Shiver", "=ds=#h1#, #w6#", "", "16%"};
@@ -4619,7 +4624,8 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 20, 45459, "", "=q4=Frigid Strength of Hodir", "=ds=#s2#", "", "13%"};
 		{ 21, 45612, "", "=q4=Constellus", "=ds=#h3#, #w6#", "", "11%"};
 		{ 22, 45457, "", "=q4=Staff of Endless Winter", "=ds=#w9#", "", "19%"};
-		{ 24, 45815, "", "=q1=Hodir's Sigil", "=ds=#m3#", "", "21%"};
+		{ 23, 104225, "", "Поглотитель Зимы", "Одноручное, Меч", "", "23%"};
+		{ 25, 45815, "", "=q1=Hodir's Sigil", "=ds=#m3#", "", "21%"};
 		Prev = "UlduarAuriaya25Man";
 		Next = "UlduarThorim25Man";
 	};
@@ -4639,7 +4645,8 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 19, 45931, "", "=q4=Mjolnir Runestone", "=ds=#s14#", "", "5%"};
 		{ 20, 45929, "", "=q4=Sif's Remembrance", "=ds=#s14#", "", "4%"};
 		{ 21, 45930, "", "=q4=Combatant's Bootblade", "=ds=#h1# #w4#", "", "5%"};
-		{ 23, 45784, "", "=q1=Thorim's Sigil", "=ds=#m3#", "", "5%"};
+		{ 22, 158808, "", "Сковыватель душ", "=ds=#h1# #w4#", "", "5%"};
+		{ 24, 45784, "", "=q1=Thorim's Sigil", "=ds=#m3#", "", "5%"};
 		Prev = "UlduarHodir";
 		Next = "UlduarFreya";
 	};
@@ -4740,9 +4747,10 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 6, 45491, "", "=q4=Waistguard of the Creator", "=ds=#s10#, #a2#", "", "17%"};
 		{ 7, 45490, "", "=q4=Pandora's Plea", "=ds=#s14#", "", "17%"};
 		{ 8, 45489, "", "=q4=Insanity's Grip", "=ds=#h3#, #w13#", "", "15%"};
-		{ 10, 45641, "", "=q4=Gauntlets of the Wayward Conqueror", "=ds=#e15#", "", "45%"};
-		{ 11, 45642, "", "=q4=Gauntlets of the Wayward Protector", "=ds=#e15#", "", "50%"};
-		{ 12, 45643, "", "=q4=Gauntlets of the Wayward Vanquisher", "=ds=#e15#", "", "68%"};
+		{ 9, 158811, "", "Опасный кузнечный молот", "=ds=#h3#, #w13#", "", "15%"};
+		{ 11, 45641, "", "=q4=Gauntlets of the Wayward Conqueror", "=ds=#e15#", "", "45%"};
+		{ 12, 45642, "", "=q4=Gauntlets of the Wayward Protector", "=ds=#e15#", "", "50%"};
+		{ 13, 45643, "", "=q4=Gauntlets of the Wayward Vanquisher", "=ds=#e15#", "", "68%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 45496, "", "=q4=Titanskin Cloak", "=ds=#s4#", "", "0.33%"};
 		{ 18, 45497, "", "=q4=Crown of Luminescence", "=ds=#s1#, #a1#"};
@@ -7395,7 +7403,8 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 18, 50341, "", "=q4=Unidentifiable Organ", "=ds=#s14#"};
 		{ 20, 51011, "", "=q4=Flesh-Carving Scalpel", "=ds=#h1#, #w4#"};
 		{ 21, 51010, "", "=q4=The Facelifter", "=ds=#h1#, #w10#"};
-		{ 23, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", "", ""};
+		{ 21, 158817, "", "Гнойник профессора", "Одноручное дробящее"};
+		{ 24, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", "", ""};
 		Prev = "ICCRotface";
 		Next = "ICCCouncil";
 	};
@@ -7565,6 +7574,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 3, 50360, "", "=q4=Phylactery of the Nameless Lich", "=ds=#s14#"};
 		{ 4, 50361, "", "=q4=Sindragosa's Flawless Fang", "=ds=#s14#"};
 		{ 5, 50423, "", "=q4=Sundial of Eternal Dusk", "=ds=#s15#"};
+		{ 6, 158818, "", "Последнее дыхание королевы", "Одноручное, Меч"};
 		{ 9, 51026, "", "=q1=Crystalline Essence of Sindragosa", "=ds=#m3#"};
 		{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
@@ -7884,7 +7894,8 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 18, 50344, "", "=q4=Unidentifiable Organ", "=ds=#s14#"};
 		{ 20, 51868, "", "=q4=Flesh-Carving Scalpel", "=ds=#h1#, #w4#"};
 		{ 21, 51869, "", "=q4=The Facelifter", "=ds=#h1#, #w10#"};
-		{ 23, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", "", ""};
+		{ 22, 158819, "", "Гнойник профессора", "Одноручное, Дробящее"};
+		{ 24, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", "", ""};
 		Prev = "ICCRotfaceHEROIC";
 		Next = "ICCCouncilHEROIC";
 	};
@@ -8061,6 +8072,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 3, 50365, "", "=q4=Phylactery of the Nameless Lich", "=ds=#s14#"};
 		{ 4, 50364, "", "=q4=Sindragosa's Flawless Fang", "=ds=#s14#"};
 		{ 5, 50635, "", "=q4=Sundial of Eternal Dusk", "=ds=#s15#"};
+		{ 6, 158820, "", "Последнее дыхание королевы", "Одноручное, Меч"};
 		{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
 		{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
 		{ 9, 51026, "", "=q1=Crystalline Essence of Sindragosa", "=ds=#m3#"};

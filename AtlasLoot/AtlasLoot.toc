@@ -1,7 +1,7 @@
 ﻿## Interface: 30300
 ## Title: AtlasLoot
 ## Notes: Shows the possible loot from the bosses
-## Author: Hegarol(Создатель аддона). Copperfield, Sanguinius,Mysterium(Адаптация под Sirus.su),Днюша(Адаптация под Sirus.su)
+## Author: Hegarol(Создатель аддона). Copperfield, Sanguinius,Mysterium(Адаптация под Sirus.su),Днюша(Адаптация под Sirus.su),Spread(Адаптация под Sirus.su)
 ## Version: 20.31
 ## X-eMail:
 ## X-Credits: Mysterium, за модификацию Аддона 
@@ -27,7 +27,7 @@
 ## SavedVariables: AtlasLootOptions, AtlasLootDB, AtlasLootWishList, AtlasLootFrameLock, AtlasLootFrameLockPos,AtlasLootNeedUprate
 ## SavedVariablesPerCharacter: AtlasLootCharDB, AtlasLootFilterDB
 ## OptionalDeps: Alphamap, LootLink, ItemSync, DewdropLib, FuBarPlugin-3.0, FuBar, Ace3, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-Inventory-3.0, LibBabble-Zone-3.0
-## X-Curse-Packaged-Version: 02.01.20 от Copperfield, Sanguinius,Mysterium,Днюша
+## X-Curse-Packaged-Version: 02.01.20 от Copperfield, Sanguinius,Mysterium,Днюша,Spread
 ## X-Curse-Project-Name: Atlasloot Enhanced
 ## X-Curse-Project-ID: atlasloot-enhanced
 ## X-Curse-Repository-ID: wow/atlasloot-enhanced/mainline

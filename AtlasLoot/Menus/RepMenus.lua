@@ -7,6 +7,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["REPMENU"] = {
 		{ 2, "REPMENU_ORIGINALWOW", "Achievement_Dungeon_BlackwingDescent_RAID_Nefarian.blp", "=ds="..AL["Factions - Original WoW"], ""};
 		{ 4, "REPMENU_Sirus_FHorde", "Achievement_General_RaidRepresentation.blp", "=ds="..AL["Factions - Sirus"], ""};
+		{ 6, "REPMENU_Sirus_History", "inv_misc_azsharacoin.blp", "=ds="..AL["Factions - Sirus"], ""};
 		{ 17, "REPMENU_BURNINGCRUSADE", "ability_demonhunter_eyeofleotheras.blp", "=ds="..AL["Factions - Burning Crusade"], ""};
 		{ 19, "REPMENU_WOTLK", "ExpansionIcon_WrathoftheLichKing.blp", "=ds="..AL["Factions - Wrath of the Lich King"], ""};
 
@@ -102,5 +103,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["REPMENU_Sirus_FRenegade"] = {
 			{ 2, "Golden_Scorpid", "achievement_zone_tolbarad", "=ds=Золотой Скорпид", "=q5=Тол'Гарод"};
 			{ 3, "Peppa", "ability_mount_whitedirewolf", "=ds=Пеплоусты Каробора", "=q5=Долина Призрачной Луны" };
+	Back = "REPMENU";
+	}
+		AtlasLoot_Data["REPMENU_Sirus_History"] = {
+			{ 2, "GoblinH", "inv_misc_tabard_kezan", "=ds=Гоблины", "=q5=Забо"};
+			{ 4, "NagaH", "inv_tabard_ankoan", "=ds=Наги", "=q5=Хаджир" };
+			{ 6, "VorgenH", "inv_misc_tabard_gilneas", "=ds=Воргены", "=q5=Мэри Оксворт" };
+			{ 8, "HelfH", "inv_tabard_a_91courtfarondis", "=ds=Высшие эльфы", "=q5=Заральлия Утренний Туман" };
+			{ 17, "PandH", "inv_misc_tournaments_tabard_orc", "=ds=Пандарены", "=q5=Ву Черное Брюхо/Безмятежный Лам" };
+			{ 19, "VulpH", "inv_tabard_vulpera", "=ds=Вульперы", "=q5=Вигори/Дасти" };
+			{ 21, "DraktH", "inv_tabard_dracthyr_b_02", "=ds=Драктиры", "=q5=Трелзоддорму/Изигос" };
 	Back = "REPMENU";
 	}
