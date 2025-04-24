@@ -212,26 +212,44 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["T4SET"] = {
-		{ 2, "T4DeathKnightDPS", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
-		{ 3, "T4DeathKnightTank", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
-		{ 5, "T4DruidBalance", "Spell_Nature_InsectSwarm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
-		{ 6, "T4DruidFeral", "Ability_Druid_Maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
-		{ 7, "T4DruidRestoration", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
-		{ 9, "T4Hunter", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
-		{ 11, "T4Mage", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-		{ 13, "T4PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-		{ 14, "T4PaladinProtection", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-		{ 15, "T4PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-		{ 17, "T4PriestHoly", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
-		{ 18, "T4PriestShadow", "Spell_Shadow_AntiShadow", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
-		{ 20, "T4Rogue", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-		{ 22, "T4ShamanElemental", "Spell_Nature_Lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
-		{ 23, "T4ShamanEnhancement", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
-		{ 24, "T4ShamanRestoration", "Spell_Nature_HealingWaveGreater", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
-		{ 26, "T4Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-		{ 28, "T4WarriorFury", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
-		{ 29, "T4WarriorProtection", "INV_Shield_05", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+		{ 2, "T4DeathKnightDPS", "Spell_Deathknight_UnholyPresence","ДК ДД - Нечестивость"};
+		{ 3, "T4DeathKnightDPSfrost", "Spell_Deathknight_FrostPresence", "ДК ДД - Фрост"};
+		{ 4, "T4DeathKnightDPSblood", "Spell_Deathknight_BloodPresence", "ДК ДД - Блад"};
+		{ 6, "T4DeathKnightTank", "Spell_Deathknight_FrostPresence", "ДК - Танкования"};
+		{ 8, "T4DruidBalance", "Spell_Nature_ForceOfNature", "Друид - Сова"};
+		{ 9, "T4DruidFeral", "Ability_Racial_BearForm", "Друид - Мишка"};
+		{ 10, "T4DruidFeralDD", "Ability_Druid_CatForm", "Друид - Кот"};
+		{ 11, "T4DruidRestoration", "Ability_Druid_TreeofLife", "Друид - Полено"};
+		{ 13, "T4Hunter", "Ability_Hunter_BeastTaming", "Хант - БМ"};
+		{ 14, "T4Huntermm", "Ability_Marksmanship", "Хант - ММ"};
+		{ 15, "T4Huntersu", "Ability_Hunter_SwiftStrike", "Хант - Сурв"};
+		{ 17, "T4Mage", "Spell_Holy_MagicalSentry", "Маг - Аркан"};
+		{ 18, "T4Magefier", "Spell_Fire_FireBolt02", "Маг - Фаер"};
+		{ 19, "T4Magefrost", "Spell_Frost_FrostBolt02", "Маг - Фрост"};
+		{ 21, "T4PaladinHoly", "Spell_Holy_HolyBolt", "Паладин - Свет"};
+		{ 22, "T4PaladinProtection", "Spell_Holy_DevotionAura", "Паладин - Защита"};
+		{ 23, "T4PaladinRetribution", "Spell_Holy_AuraOfLight", "Паладин - Воздаяние"};
+		{ 25, "T4PriestHolydz", "Spell_Holy_WordFortitude", "Жрец - Послушание"};
+		{ 26, "T4PriestHoly", "Spell_Holy_GuardianSpirit", "Жрец - Свет"};
+		{ 27, "T4PriestShadow", "Spell_Shadow_ShadowWordPain", "Жрец - Тьма"};
 		Back = "SETMENU";
+		Next = "T4SET2";
+	};
+		AtlasLoot_Data["T4SET2"] = {
+		{ 2, "T4Rogue", "Ability_Rogue_Eviscerate","Разбойник - Ликвидация"};
+		{ 3, "T4Roguekomb", "Ability_BackStab", "Разбойник - Бой"};
+		{ 4, "T4Rogueshd", "Ability_Stealth", "Разбойник - Скрытность"};
+		{ 6, "T4ShamanElemental", "Spell_Nature_Lightning", "Шаман - Стихии"};
+		{ 7, "T4ShamanEnhancement", "Spell_Nature_LightningShield", "Шаман - Совершенствование"};
+		{ 8, "T4ShamanRestoration", "Spell_Nature_MagicImmunity", "Шаман - Исцеление"};
+		{ 10, "T4Warlock", "Spell_Shadow_DeathCoil", "Лок - Колдовство"};
+		{ 11, "T4Warlockdeam", "Spell_Shadow_Metamorphosis", "Лок - Демонология"};
+		{ 12, "T4Warlockdestr", "Spell_Shadow_RainOfFire", "Лок - Разрушение"};
+		{ 17, "T4Warriorarm", "Ability_Rogue_Eviscerate", "Воин - Оружие"};
+		{ 18, "T4WarriorFury", "Ability_Warrior_InnerRage", "Воин - Неистовство"};
+		{ 19, "T4WarriorProtection", "INV_Shield_06", "Воин - Защита"};
+		Back = "SETMENU";
+		Prev = "T4SET";
 	};
 	
 	AtlasLoot_Data["T5SET"] = {

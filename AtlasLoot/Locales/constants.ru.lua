@@ -34,7 +34,7 @@ if AL then
     AL["Priority:"] = "Приоритет:";
     AL["Click boss name to view loot."] = "Кликните по имени босса для просмотра трофеев.модификации";
     AL["Various Locations"] = "Разное местонахождение";
-    AL["Minicredit"] = "|cffFFFFFFАдаптация Аддона для Sirus(Днюша).|r";
+    AL["Minicredit"] = "|cffFFFFFFАдаптация Аддона для Sirus(Spread).|r";
     AL["Toggle AL Panel"] = "AL Панель";
     AL["Back"] = "Назад";
     AL["Level 60"] = "Уровень 60";
@@ -474,6 +474,11 @@ if AL then
 	-- Zone
 	AL["Bronze Sanctuary"] = "Бронзовое Святилище";
 	AL["Tol'Garod Prison"] = "Тол'Гародская тюрьма";
+	AL["Tol'Garod Prison2"] = "258";
+	AL["Tol'Garod Prison3"] = "271";
+	AL["Tol'Garod Prison4"] = "284";
+	AL["Tol'Garod Prison5"] = "245";
+
 	-- Boss
 	AL["Murozond"] = "Мурозонд";
 	AL["Elonus"] = "Исказитель времени Элонус";

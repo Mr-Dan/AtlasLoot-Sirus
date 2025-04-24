@@ -66,6 +66,18 @@ end
 	AtlasLoot_TableNames["Gogonash_x4"] ={AL["Gogonash"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Xtrax Mind Absorber_x4"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Magic Eater_x4"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Gogonash_258"] ={AL["Gogonash"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Xtrax Mind Absorber_258"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater_258"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Gogonash_271"] ={AL["Gogonash"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Xtrax Mind Absorber_271"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater_271"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Gogonash_284"] ={AL["Gogonash"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Xtrax Mind Absorber_284"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater_284"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Gogonash_245"] ={AL["Gogonash"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Xtrax Mind Absorber_245"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater_245"] ={AL["Magic Eater"], "AtlasLootSirus" };
 	-- Bronze Sanctuary
 	AtlasLoot_TableNames["Murozond"] ={AL["Murozond"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Elonus"] ={AL["Elonus"], "AtlasLootSirus" };
@@ -1212,25 +1224,38 @@ end
 	AtlasLoot_TableNames["T3Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["T3Warrior"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootOriginalWoW" };
 	--- T4 
-	AtlasLoot_TableNames["T4DeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4DeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4DruidBalance"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4DruidFeral"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4DruidRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4Hunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4Mage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4PaladinHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4PaladinProtection"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4PaladinRetribution"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4PriestHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4PriestShadow"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4Rogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4ShamanElemental"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4ShamanEnhancement"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4ShamanRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4WarriorFury"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T4WarriorProtection"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DeathKnightDPS"] = { "ДК ДД - Нечестивость", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DeathKnightDPSfrost"] = { "ДК ДД - Фрост", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DeathKnightDPSblood"] = { "ДК ДД - Блад", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DeathKnightTank"] = { "ДК - Танкования", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DruidBalance"] = {"Друид - Сова", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DruidFeral"] = {"Друид - Мишка", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DruidFeralDD"] = {"Друид - Кот", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DruidRestoration"] = {"Друид - Полено", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Hunter"] = {"Хант - БМ", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Huntermm"] = {"Хант - ММ", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Huntersu"] = {"Хант - Сурв", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Mage"] = {"Маг - Аркан", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Magefier"] = {"Маг - Фаер", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Magefrost"] = {"Маг - Фрост", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4PaladinHoly"] = {"Паладин - Свет", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4PaladinProtection"] = {"Паладин - Защита", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4PaladinRetribution"] = {"Паладин - Воздаяние", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4PriestHolydz"] = {"Жрец - Послушание", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4PriestHoly"] = {"Жрец - Свет", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4PriestShadow"] = {"Жрец - Тьма", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Rogue"] = {"Разбойник - Ликвидация", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Roguekomb"] = {"Разбойник - Бой", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Rogueshd"] = {"Разбойник - Скрытность", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4ShamanElemental"] = {"Шаман - Стихии", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4ShamanEnhancement"] = {"Шаман - Совершенствование", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4ShamanRestoration"] = {"Шаман - Исцеление", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Warlock"] = {"Лок - Колдовство", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Warlockdeam"] = {"Лок - Демонология", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Warlockdestr"] = {"Лок - Разрушение", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4Warriorarm"] = {"Воин - Оружие", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4WarriorFury"] = {"Воин - Неистовство", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4WarriorProtection"] = {"Воин - Защита", "AtlasLootBurningCrusade" };
 	---T4
 	---T5
 	AtlasLoot_TableNames["T5DeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootBurningCrusade" };
@@ -1979,6 +2004,27 @@ end
 		AtlasLoot_TableNames["Kor'kron_Battalion4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
 		AtlasLoot_TableNames["Kor'kron_Battalion5"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
 		AtlasLoot_TableNames["Kor'kron_Battalion6"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		
+		AtlasLoot_TableNames["GoblinH"] = { "Картель тюремных вод", "AtlasLootSirus" };
+		AtlasLoot_TableNames["GoblinH1"] = { "Картель тюремных вод", "AtlasLootSirus" };
+		
+		AtlasLoot_TableNames["NagaH"] = { "Изгнанники Вайш'ира", "AtlasLootSirus" };
+		AtlasLoot_TableNames["NagaH1"] = { "Изгнанники Вайш'ира", "AtlasLootSirus" };
+		
+		AtlasLoot_TableNames["VorgenH"] = { "Гилнеас", "AtlasLootSirus" };
+		AtlasLoot_TableNames["VorgenH1"] = { "Гилнеас", "AtlasLootSirus" };
+		
+		AtlasLoot_TableNames["HelfH"] = { "Эльдранил", "AtlasLootSirus" };
+		AtlasLoot_TableNames["HelfH1"] = { "Эльдранил", "AtlasLootSirus" };
+		
+		AtlasLoot_TableNames["PandH"] = { "Орден Красного Журавля", "AtlasLootSirus" };
+		AtlasLoot_TableNames["PandH1"] = { "Орден Красного Журавля", "AtlasLootSirus" };
+		
+		AtlasLoot_TableNames["VulpH"] = { "Абимайские искатели", "AtlasLootSirus" };
+		AtlasLoot_TableNames["VulpH1"] = { "Абимайские искатели", "AtlasLootSirus" };
+		
+		AtlasLoot_TableNames["DraktH"] = { "Селый драктир", "AtlasLootSirus" };
+		AtlasLoot_TableNames["DraktH1"] = { "Смелый драктир", "AtlasLootSirus" };
 
 		AtlasLoot_TableNames["Seventh_Legion"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
 		AtlasLoot_TableNames["Seventh_Legion1"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
@@ -2350,6 +2396,7 @@ end
 	AtlasLoot_TableNames["T1T2T3SET"] = { AL["Tier 1/2/3 Sets"], "Menu" };
 	AtlasLoot_TableNames["T3SET"] = { AL["Tier 3 Sets"], "Menu" };
 	AtlasLoot_TableNames["T4SET"] = { AL["Tier 4 Sets"], "Menu" };	
+	AtlasLoot_TableNames["T4SET2"] = { AL["Tier 4 Sets"], "Menu" };	
 	AtlasLoot_TableNames["T5SET"] = { AL["Tier 5 Sets"], "Menu" };
 	AtlasLoot_TableNames["T6SET"] = { AL["Tier 6 Sets"], "Menu" };
 	AtlasLoot_TableNames["T6SET2"] = { AL["Tier 6 Sets"], "Menu" };
@@ -2363,6 +2410,7 @@ end
 	AtlasLoot_TableNames["REPMENU_Sirus_FRenegade"] = { AL["Factions - Sirus"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_Sirus_FAlliance"] = { AL["Factions - Sirus"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_Sirus_FHorde"] = { AL["Factions - Sirus"], "Menu" };
+	AtlasLoot_TableNames["REPMENU_Sirus_History"] = { "Истории", "Menu" };
 	AtlasLoot_TableNames["REPMENU_Sirus"] = { AL["Factions - Sirus"], "Menu" };
 
 	AtlasLoot_TableNames["REPMENU"] = { AL["Factions"], "Menu" };
