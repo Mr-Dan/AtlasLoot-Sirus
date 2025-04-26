@@ -34,7 +34,7 @@ if AL then
     AL["Priority:"] = "Приоритет:";
     AL["Click boss name to view loot."] = "Кликните по имени босса для просмотра трофеев.модификации";
     AL["Various Locations"] = "Разное местонахождение";
-    AL["Minicredit"] = "|cffFFFFFFАдаптация Аддона для Sirus(Spread).|r";
+    AL["Minicredit"] = "|cffFFFFFFАдаптация Аддона для Sirus(Днюша) Обновлено(Spread).|r";
     AL["Toggle AL Panel"] = "AL Панель";
     AL["Back"] = "Назад";
     AL["Level 60"] = "Уровень 60";
