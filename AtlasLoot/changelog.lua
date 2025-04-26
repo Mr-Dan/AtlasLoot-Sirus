@@ -35,7 +35,7 @@ AtlasLootVersionsList[32] = "19.01.23"
 AtlasLootVersionsList[33] = "04.11.23"
 AtlasLootVersionsList[33] = "16.11.23"
 AtlasLootVersionsList[34] = "21.12.23"
-AtlasLootVersionsList[35] = "24.04.25"
+AtlasLootVersionsList[35] = "26.04.25"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -318,6 +318,13 @@ elseif x == 34 then
 text:SetText(WHITE..
 "- Черный храм - первый квартал".."\n\n"
 )
+elseif x == 35 then
+text:SetText(WHITE..
+"- Добавлены товары за монеты историй прошлого".."\n\n"..
+"- Актуализирован лут с рейдов".."\n\n"..
+"- Актуализирован список т4".."\n\n"..
+"- ТТГ теперь разбит по гиру".."\n\n"
+)
 end
 end
 
@@ -326,7 +333,7 @@ AtlasLootChangelogText(#AtlasLootVersionsList)
 local chooseversion = AtlasLootVersionsList[#AtlasLootVersionsList]
 
 local dropDown = CreateFrame("FRAME", "ChangelogDropDown", AtlasLoot_ChangelogFrame, "UIDropDownMenuTemplate")
-dropDown:SetPoint("TOP", 10, -10)
+dropDown:SetPoint("TOP", 100, -10)
 UIDropDownMenu_SetWidth(dropDown, 80)
 UIDropDownMenu_SetText(dropDown, chooseversion)
 

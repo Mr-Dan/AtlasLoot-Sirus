@@ -2017,14 +2017,23 @@ end
 		AtlasLoot_TableNames["HelfH"] = { "Эльдранил", "AtlasLootSirus" };
 		AtlasLoot_TableNames["HelfH1"] = { "Эльдранил", "AtlasLootSirus" };
 		
-		AtlasLoot_TableNames["PandH"] = { "Орден Красного Журавля", "AtlasLootSirus" };
-		AtlasLoot_TableNames["PandH1"] = { "Орден Красного Журавля", "AtlasLootSirus" };
+		AtlasLoot_TableNames["PandHHor"] = { "Орден Красного Журавля", "AtlasLootSirus" };
+		AtlasLoot_TableNames["PandHHor1"] = { "Орден Красного Журавля", "AtlasLootSirus" };
 		
-		AtlasLoot_TableNames["VulpH"] = { "Абимайские искатели", "AtlasLootSirus" };
-		AtlasLoot_TableNames["VulpH1"] = { "Абимайские искатели", "AtlasLootSirus" };
+		AtlasLoot_TableNames["VulpHHor"] = { "Абимайские искатели", "AtlasLootSirus" };
+		AtlasLoot_TableNames["VulpHHor1"] = { "Абимайские искатели", "AtlasLootSirus" };
 		
-		AtlasLoot_TableNames["DraktH"] = { "Селый драктир", "AtlasLootSirus" };
-		AtlasLoot_TableNames["DraktH1"] = { "Смелый драктир", "AtlasLootSirus" };
+		AtlasLoot_TableNames["DraktHHor"] = { "Смелый драктир", "AtlasLootSirus" };
+		AtlasLoot_TableNames["DraktHHor1"] = { "Смелый драктир", "AtlasLootSirus" };
+		
+		AtlasLoot_TableNames["PandHAl"] = { "Орден Белого Тигра", "AtlasLootSirus" };
+		AtlasLoot_TableNames["PandHAl1"] = { "Орден Белого Тигра", "AtlasLootSirus" };
+		
+		AtlasLoot_TableNames["VulpHAl"] = { "Артель Барханного Ветра", "AtlasLootSirus" };
+		AtlasLoot_TableNames["VulpHAl1"] = { "Артель Барханного Ветра", "AtlasLootSirus" };
+		
+		AtlasLoot_TableNames["DraktHAl"] = { "Когти Андраккиса", "AtlasLootSirus" };
+		AtlasLoot_TableNames["DraktHAl1"] = { "Когти Андраккиса", "AtlasLootSirus" };
 
 		AtlasLoot_TableNames["Seventh_Legion"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
 		AtlasLoot_TableNames["Seventh_Legion1"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
