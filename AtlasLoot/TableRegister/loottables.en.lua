@@ -2493,5 +2493,17 @@ end
 	AtlasLoot_TableNames["EmptyTable"] = { AL["Select a Loot Table..."], "Menu" };
 	AtlasLoot_TableNames["EmptyInstance"] = { "AtlasLoot", "AtlasLootFallback" };
 	AtlasLoot_TableNames["AtlasLootFallback"] = { "AtlasLoot", "AtlasLootFallback" };
+  -- Daily
+    AtlasLoot_TableNames["DAILYMENU"] = { "Ежедневное", "Menu" };
+    AtlasLoot_TableNames["DailyMenu1"] = { "AtlasLoot", "Menu" };
+    AtlasLoot_TableNames["DAILYTOLG"] = { "AtlasLoot", "Menu" };
+    AtlasLoot_TableNames["DAILYKEL"] = { "AtlasLoot", "Menu" };
+    AtlasLoot_TableNames["DAILYHIS"] = { "AtlasLoot", "Menu" };
+    AtlasLoot_TableNames["Islas"] = { "AtlasLoot", "AtlasLootBurningCrusade" };
+    AtlasLoot_TableNames["Specs"] = { "AtlasLoot", "AtlasLootFallback" };
+    AtlasLoot_TableNames["SpecsDrop"] ={AL["SpecsDrop"], "AtlasLootSirus" };
+    AtlasLoot_TableNames["Keld"] ={AL["Keld"], "AtlasLootSirus" };
+    AtlasLoot_TableNames["Tolg"] ={AL["Tolg"], "AtlasLootSirus" };
+    AtlasLoot_TableNames["His"] ={AL["His"], "AtlasLootSirus" };
 
 	

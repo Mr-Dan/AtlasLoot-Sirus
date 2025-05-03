@@ -3685,7 +3685,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 26, 34872, "", "=q1=Formula: Void Shatter", "=ds=#p4# (375)"};
 		{ 27, 35500, "", "=q1=Formula: Enchant Chest - Defense", "=ds=#p4# (360)"};
 		Next = "SunOffensive2";
-		Back = "SunOffensive";
+		Back = "DAILYMENU";
 	};
 	AtlasLoot_Data["SunOffensive2"] = {
 		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
@@ -3708,7 +3708,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 24, 29193, "", "=q2=Arcanum of the Gladiator", "=ds=#s1# #e17#"};
 		Next = "SunOffensive4";
 		Prev = "SunOffensive1";
-		Back = "SunOffensive";
+		Back = "DAILYMENU";
 	};
 	AtlasLoot_Data["SunOffensive4"] = {
 		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
@@ -3730,7 +3730,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 19, 35754, "", "=q1=Recipe: Redeemer's Alchemist Stone", "=ds=#p1# (375)"};
 		{ 20, 35753, "", "=q1=Recipe: Sorcerer's Alchemist Stone", "=ds=#p1# (375)"};
 		Prev = "SunOffensive2";
-		Back = "SunOffensive";
+		Back = "DAILYMENU";
 	};
 	
 	AtlasLoot_Data["SunOffensive3"] = {
@@ -3763,7 +3763,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 28, 19879, "", "=q3=Крылатый ужас", "=ds=#h2#, #w9#", ""};
 		{ 30, 280010, "", "=q3=Первая печать Расколотого Солнца", "=ds=#e15#", ""};
 		Next = "SunOffensive6";
-		Back = "SunOffensive";
+		Back = "DAILYMENU";
 	};	
 	AtlasLoot_Data["SunOffensive6"] = {
 		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
@@ -3796,7 +3796,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 30, 50494, "", "=q3=Третья печать Расколотого Солнца", "=ds=#e15#", ""};
 		Next = "SunOffensive5";
 		Prev = "SunOffensive3";
-		Back = "SunOffensive";
+		Back = "DAILYMENU";
 	};
 	AtlasLoot_Data["SunOffensive5"] = {
 		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
@@ -3822,7 +3822,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 27, 280010, "", "=q3=Первая печать Расколотого Солнца", "=ds=#e15#", ""};
 		Next = "SunOffensive7";
 		Prev = "SunOffensive6";
-		Back = "SunOffensive";
+		Back = "DAILYMENU";
 	};
 	AtlasLoot_Data["SunOffensive7"] = {
 		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
@@ -3848,7 +3848,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 25, 50510, "", "=q3=лапмада танцующих углей", "=ds=#h4#", ""};
 		{ 27, 50494, "", "=q3=Третья печать Расколотого Солнца", "=ds=#e15#", ""};
 		Prev = "SunOffensive5";
-		Back = "SunOffensive";
+		Back = "DAILYMENU";
 	};
 		-----------------
 		--- Sporeggar ---

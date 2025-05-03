@@ -1,6 +1,7 @@
 ﻿local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
+local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 
 	
 	AtlasLoot_Data["PVPDruid"] = {
@@ -2804,7 +2805,217 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 29, 149172, "", "=q6=","=ds=#blackpigment#"};		
 		Back = "blackpigment";
 	};
+	AtlasLoot_Data["Islas"] = {
+		{ 24, "SunOffensive", "inv_shield_48", "=ds="..BabbleFaction["Shattered Sun Offensive"], "=q5="..BabbleZone["Isle of Quel'Danas"]};
+		};	
+	AtlasLoot_Data["Tolg"] = {
+		{ 24, "SunOffensive", "inv_shield_48", "=ds="..BabbleFaction["Shattered Sun Offensive"], "=q5="..BabbleZone["Isle of Quel'Danas"]};
+		};
+	AtlasLoot_Data["Keld"] = {
+		{ 24, "SunOffensive", "inv_shield_48", "=ds="..BabbleFaction["Shattered Sun Offensive"], "=q5="..BabbleZone["Isle of Quel'Danas"]};
+		};
+	AtlasLoot_Data["His"] = {
+		{ 24, "SunOffensive", "inv_shield_48", "=ds="..BabbleFaction["Shattered Sun Offensive"], "=q5="..BabbleZone["Isle of Quel'Danas"]};
+		};
+	AtlasLoot_Data["SunOffensive"] = {
+			{ 2, "SunOffensive3", "inv_shield_48", "=ds="..AL["BMarketEquip"]};
+			{ 17, "SunOffensive1", "inv_shield_48", "=ds="..AL["BMarketOther"]};
+	}
 	
+		AtlasLoot_Data["SunOffensive1"] = {
+		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r2#", ""};
+		{ 2, 35244, "", "=q1=Design: Bold Crimson Spinel", "=ds=#p12# (375)"};
+		{ 3, 35245, "", "=q1=Design: Bright Crimson Spinel", "=ds=#p12# (375)"};
+		{ 4, 35255, "", "=q1=Design: Brilliant Lionseye", "=ds=#p12# (375)"};
+		{ 5, 35246, "", "=q1=Design: Delicate Crimson Spinel", "=ds=#p12# (375)"};
+		{ 6, 35256, "", "=q1=Design: Gleaming Lionseye", "=ds=#p12# (375)"};
+		{ 7, 35262, "", "=q1=Design: Lustrous Empyrean Sapphire", "=ds=#p12# (375)"};
+		{ 8, 35248, "", "=q1=Design: Runed Crimson Spinel", "=ds=#p12# (375)"};
+		{ 9, 35260, "", "=q1=Design: Smooth Lionseye", "=ds=#p12# (375)"};
+		{ 10, 35263, "", "=q1=Design: Solid Empyrean Sapphire", "=ds=#p12# (375)"};
+		{ 11, 35264, "", "=q1=Design: Sparkling Empyrean Sapphire", "=ds=#p12# (375)"};
+		{ 12, 35249, "", "=q1=Design: Subtle Crimson Spinel", "=ds=#p12# (375)"};
+		{ 13, 35250, "", "=q1=Design: Teardrop Crimson Spinel", "=ds=#p12# (375)"};
+		{ 14, 35261, "", "=q1=Design: Thick Lionseye", "=ds=#p12# (375)"};
+		{ 15, 34780, "", "=q1=Naaru Ration", "=ds=#e3#"};
+		{ 16, 0, "INV_Misc_Statue_04", "=q6=#r3#", ""};
+		{ 17, 35238, "", "=q1=Design: Balanced Shadowsong Amethyst", "=ds=#p12# (375)"};
+		{ 18, 35251, "", "=q1=Design: Dazzling Seaspray Emerald", "=ds=#p12# (375)"};
+		{ 19, 35266, "", "=q1=Design: Glinting Pyrestone", "=ds=#p12# (375)"};
+		{ 20, 35239, "", "=q1=Design: Glowing Shadowsong Amethyst", "=ds=#p12# (375)"};
+		{ 21, 35240, "", "=q1=Design: Infused Shadowsong Amethyst", "=ds=#p12# (375)"};
+		{ 22, 35253, "", "=q1=Design: Jagged Seaspray Emerald", "=ds=#p12# (375)"};
+		{ 23, 35268, "", "=q1=Design: Luminous Pyrestone", "=ds=#p12# (375)"};
+		{ 24, 35269, "", "=q1=Design: Potent Pyrestone", "=ds=#p12# (375)"};
+		{ 25, 35254, "", "=q1=Design: Radiant Seaspray Emerald", "=ds=#p12# (375)"};
+		{ 26, 34872, "", "=q1=Formula: Void Shatter", "=ds=#p4# (375)"};
+		{ 27, 35500, "", "=q1=Formula: Enchant Chest - Defense", "=ds=#p4# (360)"};
+		Next = "SunOffensive2";
+		Back = "SunOffensive";
+	};
+	AtlasLoot_Data["SunOffensive2"] = {
+		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
+		{ 2, 35769, "", "=q4=Design: Forceful Seaspray Emerald", "=ds=#p12# (375)"};
+		{ 3, 35768, "", "=q4=Design: Quick Lionseye", "=ds=#p12# (375)"};
+		{ 4, 35767, "", "=q4=Design: Reckless Pyrestone", "=ds=#p12# (375)"};
+		{ 5, 35766, "", "=q4=Design: Steady Seaspray Emerald", "=ds=#p12# (375)"};
+		{ 6, 35252, "", "=q1=Design: Enduring Seaspray Emerald", "=ds=#p12# (375)"};
+		{ 7, 35697, "", "=q1=Design: Figurine - Crimson Serpent", "=ds=#p12# (375)"};
+		{ 8, 35695, "", "=q1=Design: Figurine - Empyrean Tortoise", "=ds=#p12# (375)"};
+		{ 9, 35696, "", "=q1=Design: Figurine - Khorium Boar", "=ds=#p12# (375)"};
+		{ 10, 35699, "", "=q1=Design: Figurine - Seaspray Albatross", "=ds=#p12# (375)"};
+		{ 17, 35698, "", "=q1=Design: Figurine - Shadowsong Panther", "=ds=#p12# (375)"};
+		{ 18, 35259, "", "=q1=Design: Rigid Lionseye", "=ds=#p12# (375)"};
+		{ 19, 35241, "", "=q1=Design: Royal Shadowsong Amethyst", "=ds=#p12# (375)"};
+		{ 20, 35271, "", "=q1=Design: Wicked Pyrestone", "=ds=#p12# (375)"};
+		{ 21, 35505, "", "=q1=Design: Ember Skyfire Diamond", "=ds=#p12# (370)"};
+		{ 22, 35502, "", "=q1=Design: Eternal Earthstorm Diamond", "=ds=#p12# (370)"};
+		{ 23, 35708, "", "=q1=Design: Regal Nightseye", "=ds=#p12# (350)"};
+		{ 24, 29193, "", "=q2=Arcanum of the Gladiator", "=ds=#s1# #e17#"};
+		Next = "SunOffensive4";
+		Prev = "SunOffensive1";
+		Back = "SunOffensive";
+	};
+	AtlasLoot_Data["SunOffensive4"] = {
+		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
+		{ 2, 35221, "", "=q1=Tabard of the Shattered Sun", "=ds=#s7#"};
+		{ 3, 35325, "", "=q3=Design: Forceful Talasite", "=ds=#p12# (350)"};
+		{ 4, 35322, "", "=q3=Design: Quick Dawnstone", "=ds=#p12# (350)"};
+		{ 5, 35323, "", "=q3=Design: Reckless Noble Topaz", "=ds=#p12# (350)"};
+		{ 6, 35247, "", "=q1=Design: Flashing Crimson Spinel", "=ds=#p12# (375)"};
+		{ 7, 35257, "", "=q1=Design: Great Lionseye", "=ds=#p12# (375)"};
+		{ 8, 35267, "", "=q1=Design: Inscribed Pyrestone", "=ds=#p12# (375)"};
+		{ 9, 35258, "", "=q1=Design: Mystic Lionseye", "=ds=#p12# (375)"};
+		{ 10, 37504, "", "=q1=Design: Purified Shadowsong Amethyst", "=ds=#p12# (375)"};
+		{ 11, 35242, "", "=q1=Design: Shifting Shadowsong Amethyst", "=ds=#p12# (375)"};
+		{ 12, 35243, "", "=q1=Design: Sovereign Shadowsong Amethyst", "=ds=#p12# (375)"};
+		{ 13, 35265, "", "=q1=Design: Stormy Empyrean Sapphire", "=ds=#p12# (375)"};
+		{ 14, 35270, "", "=q1=Design: Veiled Pyrestone", "=ds=#p12# (375)"};
+		{ 17, 35755, "", "=q1=Recipe: Assassin's Alchemist Stone", "=ds=#p1# (375)"};
+		{ 18, 35752, "", "=q1=Recipe: Guardian's Alchemist Stone", "=ds=#p1# (375)"};
+		{ 19, 35754, "", "=q1=Recipe: Redeemer's Alchemist Stone", "=ds=#p1# (375)"};
+		{ 20, 35753, "", "=q1=Recipe: Sorcerer's Alchemist Stone", "=ds=#p1# (375)"};
+		Prev = "SunOffensive2";
+		Back = "SunOffensive";
+	};
+	
+	AtlasLoot_Data["SunOffensive3"] = {
+		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
+		{ 2, 152270, "", "=q3=Bombardier's Blade", "=ds=#h1#, #w4#", ""};
+		{ 3, 152252, "", "=q3=Archmage's Guile", "=ds=#h3#, #w10#", ""};
+		{ 4, 152255, "", "=q3=Inuuro's Blade", "=ds=#h1#, #w10#", ""};
+		{ 5, 152251, "", "=q3=The Sunbreaker", "=ds=#h1#, #w10#", ""};
+		{ 6, 152254, "", "=q3=K'iru's Presage", "=ds=#h3#, #w6#", ""};
+		{ 7, 152253, "", "=q3=Seeker's Gavel", "=ds=#h3#, #w6#", ""};
+		{ 8, 152260, "", "=q3=Мясорезчик", "=ds=#w3#", ""};
+		{ 9, 152262, "", "=q3=Truestrike Crossbow", "=ds=#w3#", ""};
+		{ 10, 152256, "", "=q3=Legionfoe", "=ds=#h2#, #w1#", ""};
+		{ 11, 152259, "", "=q3=Пронзатель сердец", "=ds=#h2#, #w7#", ""};
+		{ 12, 152261, "", "=q3=Растущий посох", "=ds=#h2#, #w9#", ""};
+		{ 13, 152250, "", "=q3=Крылатый ужас", "=ds=#h2#, #w9#", ""};
+		{ 15, 155363, "", "=q3=Поводья Золотистого водного долгонога", "=ds=#e12#", "180 #ssunmark#"};
+		{ 16, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
+		{ 17, 34665, "", "=q3=Bombardier's Blade", "=ds=#h1#, #w4#", ""};
+		{ 18, 34667, "", "=q3=Archmage's Guile", "=ds=#h3#, #w10#", ""};
+		{ 19, 34672, "", "=q3=Inuuro's Blade", "=ds=#h1#, #w10#", ""};
+		{ 20, 34666, "", "=q3=The Sunbreaker", "=ds=#h1#, #w10#", ""};
+		{ 21, 34671, "", "=q3=K'iru's Presage", "=ds=#h3#, #w6#", ""};
+		{ 22, 34670, "", "=q3=Seeker's Gavel", "=ds=#h3#, #w6#", ""};
+		{ 23, 25799, "", "=q3=Мясорезчик", "=ds=#w3#", ""};
+		{ 24, 34674, "", "=q3=Truestrike Crossbow", "=ds=#w3#", ""};
+		{ 25, 34673, "", "=q3=Legionfoe", "=ds=#h2#, #w1#", ""};
+		{ 26, 22817, "", "=q3=Пронзатель сердец", "=ds=#h2#, #w7#", ""};
+		{ 27, 29748, "", "=q3=Растущий посох", "=ds=#h2#, #w9#", ""};
+		{ 28, 19879, "", "=q3=Крылатый ужас", "=ds=#h2#, #w9#", ""};
+		{ 30, 280010, "", "=q3=Первая печать Расколотого Солнца", "=ds=#e15#", ""};
+		Next = "SunOffensive6";
+		Back = "SunOffensive";
+	};	
+	AtlasLoot_Data["SunOffensive6"] = {
+		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
+		{ 2, 1, "", "=q3=Bombardier's Blade", "=ds=#h1#, #w4#", ""};
+		{ 3, 3, "", "=q3=Archmage's Guile", "=ds=#h3#, #w10#", ""};
+		{ 4, 6, "", "=q3=Inuuro's Blade", "=ds=#h1#, #w10#", ""};
+		{ 5, 2, "", "=q3=The Sunbreaker", "=ds=#h1#, #w10#", ""};
+		{ 6, 5, "", "=q3=K'iru's Presage", "=ds=#h3#, #w6#", ""};
+		{ 7, 4, "", "=q3=Seeker's Gavel", "=ds=#h3#, #w6#", ""};
+		{ 8, 23, "", "=q3=Мясорезчик", "=ds=#w3#", ""};
+		{ 9, 8, "", "=q3=Truestrike Crossbow", "=ds=#w3#", ""};
+		{ 10, 7, "", "=q3=Legionfoe", "=ds=#h2#, #w1#", ""};
+		{ 11, 22, "", "=q3=Пронзатель сердец", "=ds=#h2#, #w7#", ""};
+		{ 12, 24, "", "=q3=Растущий посох", "=ds=#h2#, #w9#", ""};
+		{ 13, 21, "", "=q3=Крылатый ужас", "=ds=#h2#, #w9#", ""};
+		{ 15, 280011, "", "=q3=Вторая печать Расколотого Солнца", "=ds=#e15#", ""};
+		{ 16, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
+		{ 17, 50496, "", "=q3=Bombardier's Blade", "=ds=#h1#, #w4#", ""};
+		{ 18, 50498, "", "=q3=Archmage's Guile", "=ds=#h3#, #w10#", ""};
+		{ 19, 50501, "", "=q3=Inuuro's Blade", "=ds=#h1#, #w10#", ""};
+		{ 20, 50497, "", "=q3=The Sunbreaker", "=ds=#h1#, #w10#", ""};
+		{ 21, 50500, "", "=q3=K'iru's Presage", "=ds=#h3#, #w6#", ""};
+		{ 22, 50499, "", "=q3=Seeker's Gavel", "=ds=#h3#, #w6#", ""};
+		{ 23, 50508, "", "=q3=Мясорезчик", "=ds=#w3#", ""};
+		{ 24, 50503, "", "=q3=Truestrike Crossbow", "=ds=#w3#", ""};
+		{ 25, 50502, "", "=q3=Legionfoe", "=ds=#h2#, #w1#", ""};
+		{ 26, 50507, "", "=q3=Пронзатель сердец", "=ds=#h2#, #w7#", ""};
+		{ 27, 50509, "", "=q3=Растущий посох", "=ds=#h2#, #w9#", ""};
+		{ 28, 50506, "", "=q3=Крылатый ужас", "=ds=#h2#, #w9#", ""};
+		{ 30, 50494, "", "=q3=Третья печать Расколотого Солнца", "=ds=#e15#", ""};
+		Next = "SunOffensive5";
+		Prev = "SunOffensive3";
+		Back = "SunOffensive";
+	};
+	AtlasLoot_Data["SunOffensive5"] = {
+		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
+		{ 2, 152265, "", "=q4=Shattered Sun Pendant of Acumen", "=ds=#s2#", ""};
+		{ 3, 152266, "", "=q4=Shattered Sun Pendant of Warrior Might", "=ds=#s2#", ""};
+		{ 4, 152267, "", "=q4=Shattered Sun Pendant of Resolve", "=ds=#s2#", ""};
+		{ 5, 152264, "", "=q4=Shattered Sun Pendant of Restoration", "=ds=#s2#", ""};
+		{ 6, 152268, "", "=q4=Shattered Sun Pendant of Ablutions", "=ds=#s2#", ""};
+		{ 7, 152269, "", "=q4=Shattered Sun Pendant of Might", "=ds=#s2#", ""};
+		{ 8, 152258, "", "=q4=Dawnforged Defender", "=ds=#h4#, #w8#", ""};
+		{ 9, 152257, "", "=q4=Sunward Crest", "=ds=#h4#, #w8#", ""};
+		{ 10, 152263, "", "=q3=лапмада танцующих углей", "=ds=#h4#", ""};
+		{ 16, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
+		{ 17, 34678, "", "=q4=Shattered Sun Pendant of Acumen", "=ds=#s2#", ""};
+		{ 18, 34679, "", "=q4=Shattered Sun Pendant of Warrior Might", "=ds=#s2#", ""};
+		{ 19, 34680, "", "=q4=Shattered Sun Pendant of Resolve", "=ds=#s2#", ""};
+		{ 20, 34677, "", "=q4=Shattered Sun Pendant of Restoration", "=ds=#s2#", ""};
+		{ 21, 55262, "", "=q4=Shattered Sun Pendant of Ablutions", "=ds=#s2#", ""};
+		{ 22, 300098, "", "=q4=Shattered Sun Pendant of Might", "=ds=#s2#", ""};
+		{ 23, 34676, "", "=q4=Dawnforged Defender", "=ds=#h4#, #w8#", ""};
+		{ 24, 34675, "", "=q4=Sunward Crest", "=ds=#h4#, #w8#", ""};
+		{ 25, 50480, "", "=q3=лапмада танцующих углей", "=ds=#h4#", ""};
+		{ 27, 280010, "", "=q3=Первая печать Расколотого Солнца", "=ds=#e15#", ""};
+		Next = "SunOffensive7";
+		Prev = "SunOffensive6";
+		Back = "SunOffensive";
+	};
+	AtlasLoot_Data["SunOffensive7"] = {
+		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
+		{ 2, 12, "", "=q4=Shattered Sun Pendant of Acumen", "=ds=#s2#", ""};
+		{ 3, 13, "", "=q4=Shattered Sun Pendant of Warrior Might", "=ds=#s2#", ""};
+		{ 4, 14, "", "=q4=Shattered Sun Pendant of Resolve", "=ds=#s2#", ""};
+		{ 5, 11, "", "=q4=Shattered Sun Pendant of Restoration", "=ds=#s2#", ""};
+		{ 6, 15, "", "=q4=Shattered Sun Pendant of Ablutions", "=ds=#s2#", ""};
+		{ 7, 16, "", "=q4=Shattered Sun Pendant of Might", "=ds=#s2#", ""};
+		{ 8, 10, "", "=q4=Dawnforged Defender", "=ds=#h4#, #w8#", ""};
+		{ 9, 9, "", "=q4=Sunward Crest", "=ds=#h4#, #w8#", ""};
+		{ 10, 50481, "", "=q3=лапмада танцующих углей", "=ds=#h4#", ""};
+		{ 12, 280011, "", "=q3=Вторая печать Расколотого Солнца", "=ds=#e15#", ""};
+		{ 16, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
+		{ 17, 50489, "", "=q4=Shattered Sun Pendant of Acumen", "=ds=#s2#", ""};
+		{ 18, 50491, "", "=q4=Shattered Sun Pendant of Warrior Might", "=ds=#s2#", ""};
+		{ 19, 50493, "", "=q4=Shattered Sun Pendant of Resolve", "=ds=#s2#", ""};
+		{ 20, 50488, "", "=q4=Shattered Sun Pendant of Restoration", "=ds=#s2#", ""};
+		{ 21, 50490, "", "=q4=Shattered Sun Pendant of Ablutions", "=ds=#s2#", ""};
+		{ 22, 50491, "", "=q4=Shattered Sun Pendant of Might", "=ds=#s2#", ""};
+		{ 23, 50505, "", "=q4=Dawnforged Defender", "=ds=#h4#, #w8#", ""};
+		{ 24, 50504, "", "=q4=Sunward Crest", "=ds=#h4#, #w8#", ""};
+		{ 25, 50510, "", "=q3=лапмада танцующих углей", "=ds=#h4#", ""};
+		{ 27, 50494, "", "=q3=Третья печать Расколотого Солнца", "=ds=#e15#", ""};
+		Prev = "SunOffensive5";
+		Back = "SunOffensive";
+	};
 		--------------------
 		--- Tol'Garod    ---
 		--------------------
@@ -2825,7 +3036,7 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 14, 154385, "", "=q4=Метка безликого", "=ds=180 #Tol'Garod#"};
 		{ 15, 154384, "", "=q4=Зелье ностальгии", "=ds=180 #Tol'Garod#"};
 		Next = "Kor'kron_Battalion1";	
-		Back = "REPMENU";	
+		Back = "DAILYMENU";	
 		
 		
 	};	
@@ -2853,7 +3064,7 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 21, 154470, "", "=q4=Символ случайных чар", "=ds=50 #Tol'Garod#"};
 		Next = "Kor'kron_Battalion2";
 		Prev = "Kor'kron_Battalion";		
-		Back = "REPMENU";	
+		Back = "DAILYMENU";	
 		
 		
 	};
@@ -2885,7 +3096,7 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 25, 153718, "", "=q4=Накидка ваятеля", "=ds=#s4# =q1="};
 		Next = "Kor'kron_Battalion3";	
 		Prev = "Kor'kron_Battalion1";	
-		Back = "REPMENU";	
+		Back = "DAILYMENU";	
 	};	
 	AtlasLoot_Data["Kor'kron_Battalion3"] = {
 		{ 1, 154393, "", "=q4=Акрий, бородовидный топор", "=ds=#h1# #w1# =q1="};
@@ -2920,7 +3131,7 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 30, 153665, "", "=q4=Лунный молот", "=ds=#h3#, #w6# =q1="};
 		Next = "Kor'kron_Battalion4";
 		Prev = "Kor'kron_Battalion2";	
-		Back = "REPMENU";	
+		Back = "DAILYMENU";	
 	};
 	AtlasLoot_Data["Kor'kron_Battalion4"] = {
 		{ 1, 153630, "", "=q4=Колотушка внутреннего Света", "=ds=#h2#, #w6# =q1="};
@@ -2945,7 +3156,7 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 26, 153669, "", "=q4=Пронзающий небеса","=ds=#w3# =q1="};			
 		Next = "Kor'kron_Battalion5";
 		Prev = "Kor'kron_Battalion3";	
-		Back = "REPMENU";	
+		Back = "DAILYMENU";	
 	};	
 	AtlasLoot_Data["Kor'kron_Battalion5"] = {
 		{ 1, 154408, "", "=q4=Расколотое солнце", "=ds=#s14# =q1="};
@@ -2980,7 +3191,7 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 30, 153744, "", "=q4=Железный оберег", "=ds=#s14# =q1="};
 		Next = "Kor'kron_Battalion6";
 		Prev = "Kor'kron_Battalion4";	
-		Back = "REPMENU";	
+		Back = "DAILYMENU";	
 	};	
 	AtlasLoot_Data["Kor'kron_Battalion6"] = {
 		{ 1, 153670, "", "=q4=Символ защитника", "=ds=#s13# =q1="};
@@ -3009,7 +3220,7 @@ AtlasLoot_Data["SIRUSLEGENDARYMENU"] = {
 		{ 24, 153688, "", "=q4=Символ хитреца","=ds=#s13# =q1="};
 		{ 25, 153693, "", "=q4=Символ хитреца", "=ds=#s13# =q1="};			
 		Prev = "Kor'kron_Battalion5";	
-		Back = "REPMENU";	
+		Back = "DAILYMENU";	
 	};
 
 AtlasLoot_Data["GoblinH"] = {
