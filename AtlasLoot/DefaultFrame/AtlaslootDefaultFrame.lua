@@ -405,6 +405,11 @@ function AtlasLoot_SetNewStyle(style)
 		"AtlasLootDefaultFrame_Preset2",
 		"AtlasLootDefaultFrame_Preset3",
 		"AtlasLootDefaultFrame_Preset4",
+		"AtlasLootDefaultFrame_Preset5",
+		"AtlasLootDefaultFrame_Preset6",
+		"AtlasLootDefaultFrame_Preset7",
+		"AtlasLootDefaultFrame_Preset8",
+		"AtlasLootDefaultFrame_Preset9",
 		"AtlasLootDefaultFrameSearchButton",
 		"AtlasLootDefaultFrameSearchClearButton",
 		"AtlasLootDefaultFrameLastResultButton",
@@ -447,11 +452,16 @@ function AtlasLoot_SetNewStyle(style)
 		AtlasLootDefaultFrame_Options:SetPushedTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
 		AtlasLootDefaultFrame_Options:SetHeight(24)
 
-		AtlasLootDefaultFrame_Preset1:SetWidth(130)
-		AtlasLootDefaultFrame_Preset2:SetWidth(130)
-		AtlasLootDefaultFrame_Preset3:SetWidth(130)
-		AtlasLootDefaultFrame_Preset4:SetWidth(130)
-		AtlasLootDefaultFrame_Preset1:SetPoint("LEFT", 32, 0)
+		AtlasLootDefaultFrame_Preset1:SetWidth(59)
+		AtlasLootDefaultFrame_Preset2:SetWidth(59)
+		AtlasLootDefaultFrame_Preset3:SetWidth(59)
+		AtlasLootDefaultFrame_Preset4:SetWidth(59)
+		AtlasLootDefaultFrame_Preset5:SetWidth(59)
+		AtlasLootDefaultFrame_Preset6:SetWidth(59)
+		AtlasLootDefaultFrame_Preset7:SetWidth(59)
+		AtlasLootDefaultFrame_Preset8:SetWidth(59)
+		AtlasLootDefaultFrame_Preset9:SetWidth(59)
+		AtlasLootDefaultFrame_Preset1:SetPoint("LEFT", 14, 0)
 
 		AtlasLootDefaultFrameWishListButton:SetWidth(115)
 		AtlasLootDefaultFrame_SubMenu:SetWidth(140)
@@ -501,11 +511,16 @@ function AtlasLoot_SetNewStyle(style)
 		AtlasLootDefaultFrame_Options:SetPushedTexture("Interface/Buttons/UI-Panel-Button-Down")
 		AtlasLootDefaultFrame_Options:SetHeight(20)
 
-		AtlasLootDefaultFrame_Preset1:SetWidth(130)
-		AtlasLootDefaultFrame_Preset2:SetWidth(130)
-		AtlasLootDefaultFrame_Preset3:SetWidth(130)
-		AtlasLootDefaultFrame_Preset4:SetWidth(130)
-		AtlasLootDefaultFrame_Preset1:SetPoint("LEFT", 32, 0)
+		AtlasLootDefaultFrame_Preset1:SetWidth(59)
+		AtlasLootDefaultFrame_Preset2:SetWidth(59)
+		AtlasLootDefaultFrame_Preset3:SetWidth(59)
+		AtlasLootDefaultFrame_Preset4:SetWidth(59)
+		AtlasLootDefaultFrame_Preset5:SetWidth(59)
+		AtlasLootDefaultFrame_Preset6:SetWidth(59)
+		AtlasLootDefaultFrame_Preset7:SetWidth(59)
+		AtlasLootDefaultFrame_Preset8:SetWidth(59)
+		AtlasLootDefaultFrame_Preset9:SetWidth(59)
+		AtlasLootDefaultFrame_Preset1:SetPoint("LEFT", 14, 0)
 
 		AtlasLootDefaultFrameWishListButton:SetWidth(115)
 		AtlasLootDefaultFrame_SubMenu:SetWidth(140)

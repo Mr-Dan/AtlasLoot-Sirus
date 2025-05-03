@@ -333,6 +333,196 @@
 			        </OnShow>
 				</Scripts>
             </Button>
+		    <Button name="$parent_Preset5" inherits="AtlasLootDefaultFrameButtonTemplate">
+                <Anchors>
+                    <Anchor point="LEFT" relativeTo="$parent_Preset4" relativePoint="RIGHT">
+                        <Offset>
+                            <AbsDimension x="5" y="0"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+                    <OnEnter>
+                        if this:IsEnabled() then
+                            GameTooltip:ClearLines();
+                            GameTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 5);
+                            GameTooltip:AddLine(AtlasLootCharDB["QuickLooks"][5][3]);
+                            GameTooltip:Show();
+                        end
+                    </OnEnter>
+                    <OnLeave>
+                        if(GameTooltip:IsVisible()) then
+                            GameTooltip:Hide();
+                        end
+                    </OnLeave>
+					<OnClick>
+                        if AtlasLoot_IsLootTableAvailable(AtlasLootCharDB["QuickLooks"][5][1]) then
+                            pFrame = { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" };
+                            AtlasLoot_ShowItemsFrame(AtlasLootCharDB["QuickLooks"][5][1], AtlasLootCharDB["QuickLooks"][5][2], AtlasLootCharDB["QuickLooks"][5][3], pFrame);
+                        end
+					</OnClick>
+                    <OnShow>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        this:SetText(AL["QuickLook"].." 5");
+				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                        if ((not AtlasLootCharDB["QuickLooks"][5]) or (not AtlasLootCharDB["QuickLooks"][5][1])) or (AtlasLootCharDB["QuickLooks"][5][1]==nil) then
+                            this:Disable();
+                        end
+			        </OnShow>
+				</Scripts>
+            </Button>
+			<Button name="$parent_Preset6" inherits="AtlasLootDefaultFrameButtonTemplate">
+                <Anchors>
+                    <Anchor point="LEFT" relativeTo="$parent_Preset5" relativePoint="RIGHT">
+                        <Offset>
+                            <AbsDimension x="5" y="0"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+                    <OnEnter>
+                        if this:IsEnabled() then
+                            GameTooltip:ClearLines();
+                            GameTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 5);
+                            GameTooltip:AddLine(AtlasLootCharDB["QuickLooks"][6][3]);
+                            GameTooltip:Show();
+                        end
+                    </OnEnter>
+                    <OnLeave>
+                        if(GameTooltip:IsVisible()) then
+                            GameTooltip:Hide();
+                        end
+                    </OnLeave>
+					<OnClick>
+                        if AtlasLoot_IsLootTableAvailable(AtlasLootCharDB["QuickLooks"][6][1]) then
+                            pFrame = { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" };
+                            AtlasLoot_ShowItemsFrame(AtlasLootCharDB["QuickLooks"][6][1], AtlasLootCharDB["QuickLooks"][6][2], AtlasLootCharDB["QuickLooks"][6][3], pFrame);
+                        end
+					</OnClick>
+                    <OnShow>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        this:SetText(AL["QuickLook"].." 6");
+				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                        if ((not AtlasLootCharDB["QuickLooks"][6]) or (not AtlasLootCharDB["QuickLooks"][6][1])) or (AtlasLootCharDB["QuickLooks"][6][1]==nil) then
+                            this:Disable();
+                        end
+			        </OnShow>
+				</Scripts>
+            </Button>
+			<Button name="$parent_Preset7" inherits="AtlasLootDefaultFrameButtonTemplate">
+                <Anchors>
+                    <Anchor point="LEFT" relativeTo="$parent_Preset6" relativePoint="RIGHT">
+                        <Offset>
+                            <AbsDimension x="5" y="0"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+                    <OnEnter>
+                        if this:IsEnabled() then
+                            GameTooltip:ClearLines();
+                            GameTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 5);
+                            GameTooltip:AddLine(AtlasLootCharDB["QuickLooks"][7][3]);
+                            GameTooltip:Show();
+                        end
+                    </OnEnter>
+                    <OnLeave>
+                        if(GameTooltip:IsVisible()) then
+                            GameTooltip:Hide();
+                        end
+                    </OnLeave>
+					<OnClick>
+                        if AtlasLoot_IsLootTableAvailable(AtlasLootCharDB["QuickLooks"][7][1]) then
+                            pFrame = { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" };
+                            AtlasLoot_ShowItemsFrame(AtlasLootCharDB["QuickLooks"][7][1], AtlasLootCharDB["QuickLooks"][7][2], AtlasLootCharDB["QuickLooks"][7][3], pFrame);
+                        end
+					</OnClick>
+                    <OnShow>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        this:SetText(AL["QuickLook"].." 7");
+				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                        if ((not AtlasLootCharDB["QuickLooks"][7]) or (not AtlasLootCharDB["QuickLooks"][7][1])) or (AtlasLootCharDB["QuickLooks"][7][1]==nil) then
+                            this:Disable();
+                        end
+			        </OnShow>
+				</Scripts>
+            </Button>
+			<Button name="$parent_Preset8" inherits="AtlasLootDefaultFrameButtonTemplate">
+                <Anchors>
+                    <Anchor point="LEFT" relativeTo="$parent_Preset7" relativePoint="RIGHT">
+                        <Offset>
+                            <AbsDimension x="5" y="0"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+                    <OnEnter>
+                        if this:IsEnabled() then
+                            GameTooltip:ClearLines();
+                            GameTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 5);
+                            GameTooltip:AddLine(AtlasLootCharDB["QuickLooks"][8][3]);
+                            GameTooltip:Show();
+                        end
+                    </OnEnter>
+                    <OnLeave>
+                        if(GameTooltip:IsVisible()) then
+                            GameTooltip:Hide();
+                        end
+                    </OnLeave>
+					<OnClick>
+                        if AtlasLoot_IsLootTableAvailable(AtlasLootCharDB["QuickLooks"][8][1]) then
+                            pFrame = { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" };
+                            AtlasLoot_ShowItemsFrame(AtlasLootCharDB["QuickLooks"][8][1], AtlasLootCharDB["QuickLooks"][8][2], AtlasLootCharDB["QuickLooks"][8][3], pFrame);
+                        end
+					</OnClick>
+                    <OnShow>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        this:SetText(AL["QuickLook"].." 8");
+				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                        if ((not AtlasLootCharDB["QuickLooks"][8]) or (not AtlasLootCharDB["QuickLooks"][8][1])) or (AtlasLootCharDB["QuickLooks"][8][1]==nil) then
+                            this:Disable();
+                        end
+			        </OnShow>
+				</Scripts>
+            </Button>
+			<Button name="$parent_Preset9" inherits="AtlasLootDefaultFrameButtonTemplate">
+                <Anchors>
+                    <Anchor point="LEFT" relativeTo="$parent_Preset8" relativePoint="RIGHT">
+                        <Offset>
+                            <AbsDimension x="5" y="0"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+                    <OnEnter>
+                        if this:IsEnabled() then
+                            GameTooltip:ClearLines();
+                            GameTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 5);
+                            GameTooltip:AddLine(AtlasLootCharDB["QuickLooks"][9][3]);
+                            GameTooltip:Show();
+                        end
+                    </OnEnter>
+                    <OnLeave>
+                        if(GameTooltip:IsVisible()) then
+                            GameTooltip:Hide();
+                        end
+                    </OnLeave>
+					<OnClick>
+                        if AtlasLoot_IsLootTableAvailable(AtlasLootCharDB["QuickLooks"][9][1]) then
+                            pFrame = { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" };
+                            AtlasLoot_ShowItemsFrame(AtlasLootCharDB["QuickLooks"][9][1], AtlasLootCharDB["QuickLooks"][9][2], AtlasLootCharDB["QuickLooks"][9][3], pFrame);
+                        end
+					</OnClick>
+                    <OnShow>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        this:SetText(AL["QuickLook"].." 9");
+				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                        if ((not AtlasLootCharDB["QuickLooks"][9]) or (not AtlasLootCharDB["QuickLooks"][9][1])) or (AtlasLootCharDB["QuickLooks"][9][1]==nil) then
+                            this:Disable();
+                        end
+			        </OnShow>
+				</Scripts>
+            </Button>
 			<EditBox name="AtlasLootDefaultFrameSearchBox" inherits="InputBoxTemplate" letters="100">
 				<Size>
 					<AbsDimension x="168" y="32" />

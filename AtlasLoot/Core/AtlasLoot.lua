@@ -38,7 +38,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "11";
 local VERSION_BOSSES = "03";
-ATLASLOOT_VERSION = "|cffFFFFFF"..AtlasLootVersionsList[#AtlasLootVersionsList] .." AtlasLoot Sirus by Spread|r";
+ATLASLOOT_VERSION = "|cffFFFFFF"..AtlasLootVersionsList[#AtlasLootVersionsList] .." AtlasLoot Sirus by Днюша, Up Spread|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_CURRENT_ATLAS = {"1.16.1", "1.16.0"};
 ATLASLOOT_PREVIEW_ATLAS = {"1.17.0", "1.16.2"};
@@ -1481,7 +1481,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 1",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 1",
 				"func", function()
-                    AtlasLootCharDB["QuickLooks"][1]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4]};
+                    AtlasLootCharDB["QuickLooks"][1]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1491,7 +1491,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 2",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 2",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][2]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4]};
+					AtlasLootCharDB["QuickLooks"][2]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1501,7 +1501,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 3",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 3",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][3]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4]};
+					AtlasLootCharDB["QuickLooks"][3]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1511,11 +1511,61 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 4",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 4",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][4]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4]};
+					AtlasLootCharDB["QuickLooks"][4]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
 			);
+			dewdrop:AddLine(
+				"text", AL["QuickLook"].." 5",
+				"tooltipTitle", AL["QuickLook"].." 5",
+				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 5",
+				"func", function()
+					AtlasLootCharDB["QuickLooks"][5]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+                    AtlasLoot_RefreshQuickLookButtons();
+                    dewdrop:Close(1);
+				end
+			);
+			dewdrop:AddLine(
+				"text", AL["QuickLook"].." 6",
+				"tooltipTitle", AL["QuickLook"].." 6",
+				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 6",
+				"func", function()
+					AtlasLootCharDB["QuickLooks"][6]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+                    AtlasLoot_RefreshQuickLookButtons();
+                    dewdrop:Close(1);
+				end
+			)
+			dewdrop:AddLine(
+				"text", AL["QuickLook"].." 7",
+				"tooltipTitle", AL["QuickLook"].." 7",
+				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 7",
+				"func", function()
+					AtlasLootCharDB["QuickLooks"][7]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+                    AtlasLoot_RefreshQuickLookButtons();
+                    dewdrop:Close(1);
+				end
+			)
+			dewdrop:AddLine(
+				"text", AL["QuickLook"].." 8",
+				"tooltipTitle", AL["QuickLook"].." 8",
+				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 8",
+				"func", function()
+					AtlasLootCharDB["QuickLooks"][8]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+                    AtlasLoot_RefreshQuickLookButtons();
+                    dewdrop:Close(1);
+				end
+			)
+			dewdrop:AddLine(
+				"text", AL["QuickLook"].." 9",
+				"tooltipTitle", AL["QuickLook"].." 9",
+				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 9",
+				"func", function()
+					AtlasLootCharDB["QuickLooks"][9]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+                    AtlasLoot_RefreshQuickLookButtons();
+                    dewdrop:Close(1);
+				end
+			)
 		end;
 		dewdrop:Open(button,
 			'point', function(parent)
@@ -1532,7 +1582,7 @@ Enables/disables the quicklook buttons depending on what is assigned
 ]]
 function AtlasLoot_RefreshQuickLookButtons()
     i=1;
-    while i<5 do
+    while i<10 do
         if ((not AtlasLootCharDB["QuickLooks"][i]) or (not AtlasLootCharDB["QuickLooks"][i][1])) or (AtlasLootCharDB["QuickLooks"][i][1]==nil) then
             getglobal("AtlasLootPanel_Preset"..i):Disable();
             getglobal("AtlasLootDefaultFrame_Preset"..i):Disable();

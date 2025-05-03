@@ -24,6 +24,10 @@ AtlasLootNewBossButtons = {
         "";
         "Zort";
     };
+	SpecsDrop = {
+        "";
+        "SpecsDrop";
+    };
   ---------------------
   -- WotLK Instances --
   ---------------------
@@ -1841,6 +1845,10 @@ AtlasLootBossButtons = {
     Zort = {
         "";
         "Zort";
+    };
+	SpecsDrop = {
+        "";
+        "SpecsDrop";
     };
   ---------------------
   -- WotLK Instances --
