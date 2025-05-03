@@ -273,13 +273,17 @@ if AL then
 	-- AtlasLoot Panel
 	AL["Collections"] = "Наборы";
     AL["Crafting"] = "Ремесло";
+	AL["DailyMenu"] = "Ежедневное";
+	AL["Keld"] = "Кель'Данас";
+	AL["Tolg"] = "Тол'Гарод";
+	AL["His"] = "Истории прошлого";
     AL["Factions"] = "Фракции";
     AL["Load Modules"] = "Загр. модулей";
     AL["Options"] = "Опции";
 	AL["PvP Rewards"] = "PvP награды";
 	AL["a9"] = "9 PVP сезон ";
 	AL["a10"] = "10 PVP сезон ";
-    AL["QuickLook"] = "Быстрый Осмотр";
+    AL["QuickLook"] = "Осмотр";
 	AL["World Events"] = "Мировые события";
 	AL["Kategoria"] = "Sirus";
 	AL["Kategoria_x2"] = "Sirus x2";
@@ -489,6 +493,9 @@ if AL then
 	AL["Magic Eater"] = "Пожиратель магии";
 	
 	AL["Zort"] = "Зорт";
+	
+	AL["Specs"] = "По Спекам";
+	AL["SpecsDrop"] = "По Спекам";
 
 	--Other
 

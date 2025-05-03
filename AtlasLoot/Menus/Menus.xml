@@ -5,4 +5,5 @@
     <Script file="WorldEventMenus.lua"/>
     <Script file="RepMenus.lua"/>
     <Script file="KategoriaMenus.lua"/>
+	<Script file="DailyMenus.lua"/>
 </Ui>

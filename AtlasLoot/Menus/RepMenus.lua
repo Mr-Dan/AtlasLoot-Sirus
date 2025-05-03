@@ -71,7 +71,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SunOffensive"] = {
 			{ 2, "SunOffensive3", "inv_shield_48", "=ds="..AL["BMarketEquip"]};
 			{ 17, "SunOffensive1", "inv_shield_48", "=ds="..AL["BMarketOther"]};
-	Back = "REPMENU_BURNINGCRUSADE";
+	Back = "DAILYMENU";
 	}
 
 	AtlasLoot_Data["REPMENU_WOTLK"] = {
@@ -116,5 +116,5 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			{ 21, "PandHAl", "inv_misc_tournaments_tabard_human", "=ds=Пандарены (Альянс)", "=q5=Безмятежный Лам" };
 			{ 23, "VulpHAl", "inv_tabard_vulpera", "=ds=Вульперы (Альянс)", "=q5=Дасти" };
 			{ 25, "DraktHAl", "inv_tabard_dracthyr_b_01", "=ds=Драктиры (Альянс)", "=q5=Изигос" };
-	Back = "REPMENU";
+	Back = "DAILYMENU";
 	}

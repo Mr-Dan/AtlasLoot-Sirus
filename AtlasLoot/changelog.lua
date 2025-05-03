@@ -36,6 +36,7 @@ AtlasLootVersionsList[33] = "04.11.23"
 AtlasLootVersionsList[33] = "16.11.23"
 AtlasLootVersionsList[34] = "21.12.23"
 AtlasLootVersionsList[35] = "26.04.25"
+AtlasLootVersionsList[36] = "03.05.25"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -324,6 +325,11 @@ text:SetText(WHITE..
 "- Актуализирован лут с рейдов".."\n\n"..
 "- Актуализирован список т4".."\n\n"..
 "- ТТГ теперь разбит по гиру".."\n\n"
+)
+elseif x == 36 then
+text:SetText(WHITE..
+"- Добавлена отдельная вкладка с островами".."\n\n"..
+"- Колличество кнопок быстрого осмотра увеличено до 9".."\n\n"
 )
 end
 end
