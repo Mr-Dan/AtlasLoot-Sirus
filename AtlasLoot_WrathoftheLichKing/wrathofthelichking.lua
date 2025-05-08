@@ -7492,7 +7492,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 1, 50182, "", "=q4=Blood Queen's Crimson Choker", "=ds=#s2#"};
 		{ 2, 50180, "", "=q4=Lana'thel's Chain of Flagellation", "=ds=#s2#"};
 		{ 3, 50354, "", "=q4=Bauble of True Blood", "=ds=#s14#"};
-		{ 4, 50178, "", "=q4=Bloodfall", "=ds=#w7#"};
+		{ 4, 104240, "", "Пучина отчаяния", "=ds=#w7#"};
 		{ 5, 50181, "", "=q4=Dying Light", "=ds=#w9#"};
 		{ 6, 50065, "", "=q4=Icecrown Glacial Wall", "=ds=#w8#"};
 		{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
@@ -7987,7 +7987,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 1, 50724, "", "=q4=Blood Queen's Crimson Choker", "=ds=#s2#"};
 		{ 2, 50728, "", "=q4=Lana'thel's Chain of Flagellation", "=ds=#s2#"};
 		{ 3, 50726, "", "=q4=Bauble of True Blood", "=ds=#s14#"};
-		{ 4, 50727, "", "=q4=Bloodfall", "=ds=#w7#"};
+		{ 4, 104239, "", "Пучина отчаяния", "=ds=#w7#"};
 		{ 5, 50725, "", "=q4=Dying Light", "=ds=#w9#"};
 		{ 6, 50729, "", "=q4=Icecrown Glacial Wall", "=ds=#w8#"};
 		{ 8, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
