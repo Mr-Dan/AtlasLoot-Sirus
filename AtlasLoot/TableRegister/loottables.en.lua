@@ -1258,25 +1258,40 @@ end
 	AtlasLoot_TableNames["T4WarriorProtection"] = {"Воин - Защита", "AtlasLootBurningCrusade" };
 	---T4
 	---T5
-	AtlasLoot_TableNames["T5DeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5DeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5DruidBalance"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5DruidFeral"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5DruidRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5Hunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5Mage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5PaladinHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5PaladinProtection"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5PaladinRetribution"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5PriestHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5PriestShadow"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5Rogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5ShamanElemental"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5ShamanEnhancement"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5ShamanRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5WarriorFury"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T5WarriorProtection"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DeathKnightDPS"] = { "ДК ДД - Нечестивость", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DeathKnightDPSfrost"] = { "ДК ДД - Фрост", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DeathKnightDPSblood"] = { "ДК ДД - Блад", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DeathKnightTank"] = { "ДК - Танк Нечестивость", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DeathKnightTankfrost"] = { "ДК - Танк Фрост", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DeathKnightTankblood"] = { "ДК - Танк Блад", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DruidBalance"] = {"Друид - Сова", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DruidFeral"] = {"Друид - Мишка", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DruidFeralDD"] = {"Друид - Кот", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DruidRestoration"] = {"Друид - Полено", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Hunter"] = {"Хант - БМ", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Huntermm"] = {"Хант - ММ", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Huntersu"] = {"Хант - Сурв", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Mage"] = {"Маг - Аркан", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Magefire"] = {"Маг - Фаер", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Magefrost"] = {"Маг - Фрост", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5PaladinHoly"] = {"Паладин - Свет", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5PaladinProtection"] = {"Паладин - Защита", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5PaladinRetribution"] = {"Паладин - Воздаяние", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5PriestHolydz"] = {"Жрец - Послушание", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5PriestHoly"] = {"Жрец - Свет", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5PriestShadow"] = {"Жрец - Тьма", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Rogue"] = {"Разбойник - Ликвидация", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Roguekomb"] = {"Разбойник - Бой", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Rogueshd"] = {"Разбойник - Скрытность", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5ShamanElemental"] = {"Шаман - Стихии", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5ShamanEnhancement"] = {"Шаман - Совершенствование", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5ShamanRestoration"] = {"Шаман - Исцеление", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Warlock"] = {"Лок - Колдовство", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Warlockdeam"] = {"Лок - Демонология", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5Warlockdestr"] = {"Лок - Разрушение", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5WarriorArms"] = {"Воин - Оружие", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5WarriorFury"] = {"Воин - Неистовство", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5WarriorProtection"] = {"Воин - Защита", "AtlasLootBurningCrusade" };
 	---T5 END
 	
 	---T6
@@ -2407,6 +2422,7 @@ end
 	AtlasLoot_TableNames["T4SET"] = { AL["Tier 4 Sets"], "Menu" };	
 	AtlasLoot_TableNames["T4SET2"] = { AL["Tier 4 Sets"], "Menu" };	
 	AtlasLoot_TableNames["T5SET"] = { AL["Tier 5 Sets"], "Menu" };
+	AtlasLoot_TableNames["T5SET2"] = { AL["Tier 5 Sets"], "Menu" };
 	AtlasLoot_TableNames["T6SET"] = { AL["Tier 6 Sets"], "Menu" };
 	AtlasLoot_TableNames["T6SET2"] = { AL["Tier 6 Sets"], "Menu" };
 	AtlasLoot_TableNames["T7T8SET"] = { AL["Tier 7/8 Sets"], "Menu" };

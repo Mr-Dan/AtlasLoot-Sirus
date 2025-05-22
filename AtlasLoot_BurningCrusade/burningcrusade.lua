@@ -1408,6 +1408,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 65086, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", "", "17%"};
 		{ 6, 70106, "", "=q4=Амулет Ткущего Ночь", "=ds=#s2#", "", ""};
 		{ 7, 71267, "", "=q4=Мантия желания", "=ds=#s4#", "", ""};
+		{ 7, 104241, "", "=q4=Покров Предателя", "=ds=#s4#", "", ""};
 		{ 16, 65013, "", "=q4=Maldo's Sword Cane", "=ds=#h1#, #w10#", "", ""};
 		{ 17, 71367, "", "=q4=Угольная печатка Тека", "=ds=#s13#",  "",  ""};
 		{ 19, 65140, "", "=q4=Essence of the Cyclone", "=ds=#s14#", "", "18%"};
@@ -1425,6 +1426,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 65116, "", "=q4=Treads of Liquid Ice", "=ds=#s12#, #a1#", "", "15%"};
 		{ 5, 69949, "", "=q4=Башмаки из земляных чешуек", "=ds=#s12#, #a3#", "", ""};
 		{ 6, 59118, "", "=q4=Электронная индуктивная катушка", "=ds=#s8#, #a4#", "", ""};
+		{ 6, 104242, "", "=q4=Печать верховного совета", "=ds=#s13#", "", ""};
 		{ 16, 65007, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", "", "15%"};
 		{ 17, 78437, "", "=q4=Моргенштерн холодных глубин", "=ds=#h1#,#w6#", "", ""};
 		{ 19, 65029, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", "", "15%"};
@@ -5533,25 +5535,52 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	};
 	AtlasLoot_Data["T5WarriorFury"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
-		{ 2, 30120, "", "=q4=Destroyer Battle-Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 3, 30122, "", "=q4=Destroyer Shoulderblades", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
-		{ 4, 30118, "", "=q4=Destroyer Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
-		{ 5, 30119, "", "=q4=Destroyer Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 6, 30121, "", "=q4=Destroyer Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 2, 158849, "", "=q4=Destroyer Battle-Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158847, "", "=q4=Destroyer Shoulderblades", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158845, "", "=q4=Destroyer Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158848, "", "=q4=Destroyer Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158846, "", "=q4=Destroyer Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 
 		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
-		{ 9, 151607, "", "=q4=Destroyer Battle-Helm", "=ds= #SealoftheTitans#"};
-		{ 10, 151609, "", "=q4=Destroyer Shoulderblades", "=ds= #SealoftheTitans#"};
-		{ 11, 151605, "", "=q4=Destroyer Breastplate", "=ds= #SealoftheTitans#"};
-		{ 12, 151606, "", "=q4=Destroyer Gauntlets", "=ds= #SealoftheTitans#"};
-		{ 13, 151608, "", "=q4=Destroyer Greaves", "=ds= #SealoftheTitans#"};
+		{ 9, 158865, "", "=q4=Destroyer Battle-Helm", "=ds= #SealoftheTitans#"};
+		{ 10, 158866, "", "=q4=Destroyer Shoulderblades", "=ds= #SealoftheTitans#"};
+		{ 11, 158869, "", "=q4=Destroyer Breastplate", "=ds= #SealoftheTitans#"};
+		{ 12, 158868, "", "=q4=Destroyer Gauntlets", "=ds= #SealoftheTitans#"};
+		{ 13, 158867, "", "=q4=Destroyer Greaves", "=ds= #SealoftheTitans#"};
 
 		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
-		{ 17,  103413, "", "=q4=Destroyer Battle-Helm", "=ds= #sealeternity#"};
-		{ 18, 103415, "", "=q4=Destroyer Shoulderblades", "=ds= #sealeternity#"};
-		{ 19, 103411, "", "=q4=Destroyer Breastplate", "=ds= #sealeternity#"};
-		{ 20, 103412, "", "=q4=Destroyer Gauntlets", "=ds= #sealeternity#"};
-		{ 21, 103414, "", "=q4=Destroyer Greaves", "=ds= #sealeternity#"};
+		{ 17, 158858, "", "=q4=Destroyer Battle-Helm", "=ds= #sealeternity#"};
+		{ 18, 158855, "", "=q4=Destroyer Shoulderblades", "=ds= #sealeternity#"};
+		{ 19, 158856, "", "=q4=Destroyer Breastplate", "=ds= #sealeternity#"};
+		{ 20, 158859, "", "=q4=Destroyer Gauntlets", "=ds= #sealeternity#"};
+		{ 21, 158857, "", "=q4=Destroyer Greaves", "=ds= #sealeternity#"};
+
+        { 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5WarriorArms"] = {
+		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
+		{ 2, 158844, "", "Боевой шлем Разрушителя", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158842, "", "Наплечные лезвия Разрушителя", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158840, "", "Кираса Разрушителя", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158843, "", "Наручные обмотки Разрушителя", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158841, "", "Поножи Разрушителя", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
+		{ 9, 158860, "", "Боевой шлем Разрушителя", "=ds= #SealoftheTitans#"};
+		{ 10, 158861, "", "Наплечные лезвия Разрушителя", "=ds= #SealoftheTitans#"};
+		{ 11, 158864, "", "Кираса Разрушителя", "=ds= #SealoftheTitans#"};
+		{ 12, 158863, "", "Наручные обмотки Разрушителя", "=ds= #SealoftheTitans#"};
+		{ 13, 158862, "", "Поножи Разрушителя", "=ds= #SealoftheTitans#"};
+
+		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
+		{ 17, 158853, "", "Боевой шлем Разрушителя", "=ds= #sealeternity#"};
+		{ 18, 158850, "", "Наплечные лезвия Разрушителя", "=ds= #sealeternity#"};
+		{ 19, 158851, "", "Кираса Разрушителя", "=ds= #sealeternity#"};
+		{ 20, 158854, "", "Наручные обмотки Разрушителя", "=ds= #sealeternity#"};
+		{ 21, 158852, "", "Поножи Разрушителя", "=ds= #sealeternity#"};
 
         { 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
@@ -5645,25 +5674,81 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	AtlasLoot_Data["T5Hunter"] = {
 
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
-		{ 2, 30141, "", "=q4=Rift Stalker Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 3, 30143, "", "=q4=Rift Stalker Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
-		{ 4, 30139, "", "=q4=Rift Stalker Hauberk", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
-		{ 5, 30140, "", "=q4=Rift Stalker Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 6, 30142, "", "=q4=Rift Stalker Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 2, 158874, "", "Головной убор Следопыта ущелий", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158870, "", "Мантия Следопыта ущелий", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158871, "", "Хауберк Следопыта ущелий", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158872, "", "Рукавицы Следопыта ущелий", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158873, "", "Поножи Следопыта ущелий", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
-		{ 9, 151627, "", "=q4=Rift Stalker Helm", "=ds=#SealoftheTitans#"};
-		{ 10, 151629, "", "=q4=Rift Stalker Mantle", "=ds=#SealoftheTitans#"};
-		{ 11, 151625, "", "=q4=Rift Stalker Hauberk", "=ds=#SealoftheTitans#"};
-		{ 12, 151626, "", "=q4=Rift Stalker Gauntlets", "=ds=#SealoftheTitans#"};
-		{ 13, 151628, "", "=q4=Rift Stalker Leggings", "=ds=#SealoftheTitans#"};
+		{ 9, 158900, "", "Головной убор Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 10, 158904, "", "Мантия Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 11, 158903, "", "Хауберк Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 12, 158901, "", "Рукавицы Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 13, 158902, "", "Поножи Следопыта ущелий", "=ds=#SealoftheTitans#"};
 
 		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
-		{ 17, 103433, "", "=q4=Rift Stalker Helm", "=ds=#sealeternity#"};
-		{ 18, 103435, "", "=q4=Rift Stalker Mantle", "=ds=#sealeternity#"};
-		{ 19, 103431, "", "=q4=Rift Stalker Hauberk", "=ds=#sealeternity#"};
-		{ 20, 103432, "", "=q4=Rift Stalker Gauntlets", "=ds=#sealeternity#"};
-		{ 21, 103434, "", "=q4=Rift Stalker Leggings", "=ds=#sealeternity#"};
+		{ 17, 158888, "", "Головной убор Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 18, 158885, "", "Мантия Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 19, 158886, "", "Хауберк Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 20, 158889, "", "Рукавицы Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 21, 158887, "", "Поножи Следопыта ущелий", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5Huntermm"] = {
+
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
+		{ 2, 158879, "", "Шлем Следопыта ущелий", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158875, "", "Оплечье Следопыта ущелий", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158876, "", "Кираса Следопыта ущелий", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158877, "", "Перчатки Следопыта ущелий", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158878, "", "Набедренники Следопыта ущелий", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
+		{ 9, 158905, "", "Шлем Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 10, 158909, "", "Оплечье Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 11, 158908, "", "Кираса Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 12, 158906, "", "Перчатки Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 13, 158907, "", "Набедренники Следопыта ущелий", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
+		{ 17, 158893, "", "Шлем Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 18, 158890, "", "Оплечье Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 19, 158891, "", "Кираса Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 20, 158894, "", "Перчатки Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 21, 158892, "", "Набедренники Следопыта ущелий", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5Huntersu"] = {
+
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
+		{ 2, 158884, "", "Наголовник Следопыта ущелий", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158880, "", "Наплечники Следопыта ущелий", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158881, "", "Нагрудник Следопыта ущелий", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158882, "", "Укрепленные перчатки Следопыта ущелий", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158883, "", "Плетеные поножи Следопыта ущелий", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
+		{ 9, 158910, "", "Наголовник Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 10, 158914, "", "Наплечники Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 11, 158913, "", "Нагрудник Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 12, 158911, "", "Укрепленные перчатки Следопыта ущелий", "=ds=#SealoftheTitans#"};
+		{ 13, 158912, "", "Плетеные поножи Следопыта ущелий", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t5s2#", "=ec1=#m22#"};
+		{ 17, 158898, "", "Наголовник Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 18, 158895, "", "Наплечники Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 19, 158896, "", "Нагрудник Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 20, 158899, "", "Укрепленные перчатки Следопыта ущелий", "=ds=#sealeternity#"};
+		{ 21, 158897, "", "Плетеные поножи Следопыта ущелий", "=ds=#sealeternity#"};
 
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
@@ -5673,25 +5758,81 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	AtlasLoot_Data["T5Rogue"] = {
 
 		{ 1, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
-		{ 2, 30146, "", "=q4=Deathmantle Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 3, 30149, "", "=q4=Deathmantle Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
-		{ 4, 30144, "", "=q4=Deathmantle Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
-		{ 5, 30145, "", "=q4=Deathmantle Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 6, 30148, "", "=q4=Deathmantle Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 2, 158919, "", "Наголовник мантии смерти", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158916, "", "Оплечье мантии смерти", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158917, "", "Нагрудник мантии смерти", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158918, "", "Перчатки мантии смерти", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158915, "", "Поножи мантии смерти", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 
 		{ 8, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
-		{ 9, 151632, "", "=q4=Deathmantle Helm", "=ds=#SealoftheTitans#"};
-		{ 10, 151634, "", "=q4=Deathmantle Shoulderpads", "=ds=#SealoftheTitans#"};
-		{ 11, 151630, "", "=q4=Deathmantle Chestguard", "=ds=#SealoftheTitans#"};
-		{ 12, 151631, "", "=q4=Deathmantle Handguards", "=ds=#SealoftheTitans#"};
-		{ 13, 151633, "", "=q4=Deathmantle Legguards", "=ds=#SealoftheTitans#"};
+		{ 9, 158945, "", "Наголовник мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 10, 158946, "", "Оплечье мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 11, 158947, "", "Нагрудник мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 12, 158949, "", "Перчатки мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 13, 158948, "", "Поножи мантии смерти", "=ds=#SealoftheTitans#"};
 
 		{ 16, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
-		{ 17, 103438, "", "=q4=Deathmantle Helm", "=ds=#sealeternity#"};
-		{ 18, 103440, "", "=q4=Deathmantle Shoulderpads", "=ds=#sealeternity#"};
-		{ 19, 103436, "", "=q4=Deathmantle Chestguard", "=ds=#sealeternity#"};
-		{ 20, 103437, "", "=q4=Deathmantle Handguards", "=ds=#sealeternity#"};
-		{ 21, 103439, "", "=q4=Deathmantle Legguards", "=ds=#sealeternity#"};
+		{ 17, 158933, "", "Наголовник мантии смерти", "=ds=#sealeternity#"};
+		{ 18, 158930, "", "Оплечье мантии смерти", "=ds=#sealeternity#"};
+		{ 19, 158931, "", "Нагрудник мантии смерти", "=ds=#sealeternity#"};
+		{ 20, 158934, "", "Перчатки мантии смерти", "=ds=#sealeternity#"};
+		{ 21, 158932, "", "Поножи мантии смерти", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};
+	AtlasLoot_Data["T5Rogueshd"] = {
+
+		{ 1, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
+		{ 2, 158929, "", "Маска мантии смерти", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158926, "", "Наплечники мантии смерти", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158927, "", "Кираса мантии смерти", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158928, "", "Рукавицы мантии смерти", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158925, "", "Наголенники мантии смерти", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
+		{ 9, 158955, "", "Маска мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 10, 158956, "", "Наплечники мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 11, 158957, "", "Кираса мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 12, 158959, "", "Рукавицы мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 13, 158958, "", "Наголенники мантии смерти", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
+		{ 17, 158943, "", "Маска мантии смерти", "=ds=#sealeternity#"};
+		{ 18, 158940, "", "Наплечники мантии смерти", "=ds=#sealeternity#"};
+		{ 19, 158941, "", "Кираса мантии смерти", "=ds=#sealeternity#"};
+		{ 20, 158944, "", "Рукавицы мантии смерти", "=ds=#sealeternity#"};
+		{ 21, 158942, "", "Наголенники мантии смерти", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5Roguekomb"] = {
+
+		{ 1, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
+		{ 2, 158924, "", "Шлем мантии смерти", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158921, "", "Наплечные пластины мантии смерти", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158922, "", "Нагрудный доспех мантии смерти", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158923, "", "Боевые рукавицы мантии смерти", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158920, "", "Набедренники мантии смерти", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
+		{ 9, 158950, "", "Шлем мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 10, 158951, "", "Наплечные пластины мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 11, 158952, "", "Нагрудный доспех мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 12, 158954, "", "Боевые рукавицы мантии смерти", "=ds=#SealoftheTitans#"};
+		{ 13, 158953, "", "Набедренники мантии смерти", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Ability_BackStab", "=q6=#t5s6#", "=ec1=#m22#"};
+		{ 17, 158938, "", "Шлем мантии смерти", "=ds=#sealeternity#"};
+		{ 18, 158935, "", "Наплечные пластины мантии смерти", "=ds=#sealeternity#"};
+		{ 19, 158936, "", "Нагрудный доспех мантии смерти", "=ds=#sealeternity#"};
+		{ 20, 158939, "", "Боевые рукавицы мантии смерти", "=ds=#sealeternity#"};
+		{ 21, 158937, "", "Набедренники мантии смерти", "=ds=#sealeternity#"};
 
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
@@ -5702,25 +5843,53 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	AtlasLoot_Data["T5PriestHoly"] = {
 
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t5s5_1#", "=ec1=#m22#"};
-		{ 2, 30152, "", "=q4=Cowl of the Avatar", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 3, 30154, "", "=q4=Mantle of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
-		{ 4, 30150, "", "=q4=Vestments of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
-		{ 5, 30151, "", "=q4=Gloves of the Avatar", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 6, 30153, "", "=q4=Breeches of the Avatar", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 2, 158969, "", "Ошейник Аватары", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158965, "", "Мантия Аватары", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158967, "", "Платье Аватары", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158968, "", "Нарукавники Аватары", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158966, "", "Кюлоты Аватары", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 
 		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#t5s5_1#", "=ec1=#m22#"};
-		{ 9,   151637, "", "=q4=Cowl of the Avatar", "=ds=#SealoftheTitans#"};
-		{ 10,  151639, "", "=q4=Mantle of the Avatar", "=ds=#SealoftheTitans#"};
-		{ 11,  151635, "", "=q4=Vestments of the Avatar", "=ds=#SealoftheTitans#"};
-		{ 12,  151636, "", "=q4=Gloves of the Avatar", "=ds=#SealoftheTitans#"};
-		{ 13,  151638, "", "=q4=Breeches of the Avatar", "=ds=#SealoftheTitans#"};
+		{ 9,   158985, "", "Ошейник Аватары", "=ds=#SealoftheTitans#"};
+		{ 10,  158989, "", "Мантия Аватары", "=ds=#SealoftheTitans#"};
+		{ 11,  158987, "", "Платье Аватары", "=ds=#SealoftheTitans#"};
+		{ 12,  158988, "", "Нарукавники Аватары", "=ds=#SealoftheTitans#"};
+		{ 13,  158986, "", "Кюлоты Аватары", "=ds=#SealoftheTitans#"};
 
 		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#t5s5_1#", "=ec1=#m22#"};
-		{ 17,   103443, "", "=q4=Cowl of the Avatar", "=ds=#sealeternity#"};
-		{ 18,  103445, "", "=q4=Mantle of the Avatar", "=ds=#sealeternity#"};
-		{ 19,  103441, "", "=q4=Vestments of the Avatar", "=ds=#sealeternity#"};
-		{ 20,  103442, "", "=q4=Gloves of the Avatar", "=ds=#sealeternity#"};
-		{ 21,  103444, "", "=q4=Breeches of the Avatar", "=ds=#sealeternity#"};
+		{ 17,   158977, "", "Ошейник Аватары", "=ds=#sealeternity#"};
+		{ 18,  158975, "", "Мантия Аватары", "=ds=#sealeternity#"};
+		{ 19,  158979, "", "Платье Аватары", "=ds=#sealeternity#"};
+		{ 20,  158978, "", "Нарукавники Аватары", "=ds=#sealeternity#"};
+		{ 21,  158976, "", "Кюлоты Аватары", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};
+	AtlasLoot_Data["T5PriestHolydz"] = {
+
+		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t5s5_1#", "=ec1=#m22#"};
+		{ 2, 158964, "", "Клобук Аватары", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158960, "", "Наплечники Аватары", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158962, "", "Одежды Аватары", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158963, "", "Перчатки Аватары", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158961, "", "Брюки Аватары", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#t5s5_1#", "=ec1=#m22#"};
+		{ 9,   158980, "", "Клобук Аватары", "=ds=#SealoftheTitans#"};
+		{ 10,  158984, "", "Наплечники Аватары", "=ds=#SealoftheTitans#"};
+		{ 11,  158982, "", "Одежды Аватары", "=ds=#SealoftheTitans#"};
+		{ 12,  158983, "", "Перчатки Аватары", "=ds=#SealoftheTitans#"};
+		{ 13,  158981, "", "Брюки Аватары", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#t5s5_1#", "=ec1=#m22#"};
+		{ 17,  158972, "", "Клобук Аватары", "=ds=#sealeternity#"};
+		{ 18,  158970, "", "Наплечники Аватары", "=ds=#sealeternity#"};
+		{ 19,  158974, "", "Одежды Аватары", "=ds=#sealeternity#"};
+		{ 20,  158973, "", "Перчатки Аватары", "=ds=#sealeternity#"};
+		{ 21,  158971, "", "Брюки Аватары", "=ds=#sealeternity#"};
 
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
@@ -5842,25 +6011,79 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	};
 		AtlasLoot_Data["T5Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
-		{ 2, 30206, "", "=q4=Cowl of Tirisfal", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 3, 30210, "", "=q4=Mantle of Tirisfal", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
-		{ 4, 30196, "", "=q4=Robes of Tirisfal", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
-		{ 5, 30205, "", "=q4=Gloves of Tirisfal", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 6, 30207, "", "=q4=Leggings of Tirisfal", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 2, 159084, "", "Тирисфальский клобук", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159081, "", "Тирисфальская мантия", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159080, "", "Тирисфальские одеяния", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159083, "", "Тирисфальские перчатки", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159082, "", "Тирисфальские поножи", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 
 		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
-		{ 9, 151662, "", "=q4=Cowl of Tirisfal", "=ds=#SealoftheTitans#"};
-		{ 10, 151664, "", "=q4=Mantle of Tirisfal", "=ds=#SealoftheTitans#"};
-		{ 11, 151660, "", "=q4=Robes of Tirisfal", "=ds=#SealoftheTitans#"};
-		{ 12, 151661, "", "=q4=Gloves of Tirisfal", "=ds=#SealoftheTitans#"};
-		{ 13, 151663, "", "=q4=Leggings of Tirisfal", "=ds=#SealoftheTitans#"};
+		{ 9, 159111, "", "Тирисфальский клобук", "=ds=#SealoftheTitans#"};
+		{ 10, 159113, "", "Тирисфальская мантия", "=ds=#SealoftheTitans#"};
+		{ 11, 159114, "", "Тирисфальские одеяния", "=ds=#SealoftheTitans#"};
+		{ 12, 159110, "", "Тирисфальские перчатки", "=ds=#SealoftheTitans#"};
+		{ 13, 159112, "", "Тирисфальские поножи", "=ds=#SealoftheTitans#"};
 
 		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
-		{ 17, 103468, "", "=q4=Cowl of Tirisfal", "=ds=#sealeternity#"};
-		{ 18, 103470, "", "=q4=Mantle of Tirisfal", "=ds=#sealeternity#"};
-		{ 19, 103466, "", "=q4=Robes of Tirisfal", "=ds=#sealeternity#"};
-		{ 20, 103467, "", "=q4=Gloves of Tirisfal", "=ds=#sealeternity#"};
-		{ 21, 103469, "", "=q4=Leggings of Tirisfal", "=ds=#sealeternity#"};
+		{ 17, 159099, "", "Тирисфальский клобук", "=ds=#sealeternity#"};
+		{ 18, 159095, "", "Тирисфальская мантия", "=ds=#sealeternity#"};
+		{ 19, 159098, "", "Тирисфальские одеяния", "=ds=#sealeternity#"};
+		{ 20, 159097, "", "Тирисфальские перчатки", "=ds=#sealeternity#"};
+		{ 21, 159096, "", "Тирисфальские поножи", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};
+	AtlasLoot_Data["T5Magefire"] = {
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
+		{ 2, 159089, "", "Тирисфальский наголовник", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159086, "", "Тирисфальское оплечье", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159085, "", "Тирисфальский нагрудник", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159088, "", "Тирисфальские обмотки", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159087, "", "Тирисфальские наголенники", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
+		{ 9, 159116, "", "Тирисфальский наголовник", "=ds=#SealoftheTitans#"};
+		{ 10, 159118, "", "Тирисфальское оплечье", "=ds=#SealoftheTitans#"};
+		{ 11, 159119, "", "Тирисфальский нагрудник", "=ds=#SealoftheTitans#"};
+		{ 12, 159115, "", "Тирисфальские обмотки", "=ds=#SealoftheTitans#"};
+		{ 13, 159117, "", "Тирисфальские наголенники", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
+		{ 17, 159104, "", "Тирисфальский наголовник", "=ds=#sealeternity#"};
+		{ 18, 159100, "", "Тирисфальское оплечье", "=ds=#sealeternity#"};
+		{ 19, 159103, "", "Тирисфальский нагрудник", "=ds=#sealeternity#"};
+		{ 20, 159102, "", "Тирисфальские обмотки", "=ds=#sealeternity#"};
+		{ 21, 159101, "", "Тирисфальские наголенники", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};
+	AtlasLoot_Data["T5Magefrost"] = {
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
+		{ 2, 159094, "", "Тирисфальское покрывало", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159091, "", "Тирисфальские наплечники", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159090, "", "Тирисфальские одежды", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159093, "", "Тирисфальские митенки", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159092, "", "Тирисфальские кюлоты", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
+		{ 9, 159121, "", "Тирисфальское покрывало", "=ds=#SealoftheTitans#"};
+		{ 10, 159123, "", "Тирисфальские наплечники", "=ds=#SealoftheTitans#"};
+		{ 11, 159124, "", "Тирисфальские одежды", "=ds=#SealoftheTitans#"};
+		{ 12, 159120, "", "Тирисфальские митенки", "=ds=#SealoftheTitans#"};
+		{ 13, 159122, "", "Тирисфальские кюлоты", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
+		{ 17, 159109, "", "Тирисфальское покрывало", "=ds=#sealeternity#"};
+		{ 18, 159105, "", "Тирисфальские наплечники", "=ds=#sealeternity#"};
+		{ 19, 159108, "", "Тирисфальские одежды", "=ds=#sealeternity#"};
+		{ 20, 159107, "", "Тирисфальские митенки", "=ds=#sealeternity#"};
+		{ 21, 159106, "", "Тирисфальские кюлоты", "=ds=#sealeternity#"};
 
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
@@ -5870,25 +6093,81 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	AtlasLoot_Data["T5Warlock"] = {
 
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
-		{ 2, 30212, "", "=q4=Hood of the Corruptor", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 3, 30215, "", "=q4=Mantle of the Corruptor", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
-		{ 4, 30214, "", "=q4=Robe of the Corruptor", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
-		{ 5, 30211, "", "=q4=Gloves of the Corruptor", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 6, 30213, "", "=q4=Leggings of the Corruptor", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 2, 159129, "", "Капюшон Осквернителя", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159125, "", "Наплечники Осквернителя", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159128, "", "Нагрудник Осквернителяя", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159127, "", "Перчатки Осквернителя", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159126, "", "Поножи Осквернителя", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 
 		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
-		{ 9,  151666, "", "=q4=Hood of the Corruptor", "=ds=#SealoftheTitans#"};
-		{ 10, 151669, "", "=q4=Mantle of the Corruptor", "=ds=#SealoftheTitans#"};
-		{ 11, 151668, "", "=q4=Robe of the Corruptor", "=ds=#SealoftheTitans#"};
-		{ 12, 151665, "", "=q4=Gloves of the Corruptor", "=ds=#SealoftheTitans#"};
-		{ 13, 151667, "", "=q4=Leggings of the Corruptor", "=ds=#SealoftheTitans#"};
+		{ 9,  159159, "", "Капюшон Осквернителя", "=ds=#SealoftheTitans#"};
+		{ 10, 159158, "", "Наплечники Осквернителя", "=ds=#SealoftheTitans#"};
+		{ 11, 159155, "", "Нагрудник Осквернителяя", "=ds=#SealoftheTitans#"};
+		{ 12, 159156, "", "Перчатки Осквернителя", "=ds=#SealoftheTitans#"};
+		{ 13, 159157, "", "Поножи Осквернителя", "=ds=#SealoftheTitans#"};
 
 		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
-		{ 17, 103472, "", "=q4=Hood of the Corruptor", "=ds=#sealeternity#"};
-		{ 18, 103475, "", "=q4=Mantle of the Corruptor", "=ds=#sealeternity#"};
-		{ 19, 103474, "", "=q4=Robe of the Corruptor", "=ds=#sealeternity#"};
-		{ 20, 103471, "", "=q4=Gloves of the Corruptor", "=ds=#sealeternity#"};
-		{ 21, 103473, "", "=q4=Leggings of the Corruptor", "=ds=#sealeternity#"};
+		{ 17, 159144, "", "Капюшон Осквернителя", "=ds=#sealeternity#"};
+		{ 18, 159140, "", "Наплечники Осквернителя", "=ds=#sealeternity#"};
+		{ 19, 159142, "", "Нагрудник Осквернителяя", "=ds=#sealeternity#"};
+		{ 20, 159143, "", "Перчатки Осквернителя", "=ds=#sealeternity#"};
+		{ 21, 159141, "", "Поножи Осквернителя", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5Warlockdeam"] = {
+
+		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
+		{ 2, 159134, "", "Клобук Осквернителя", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159130, "", "Оплечье Осквернителя", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159133, "", "Платье Осквернителяя", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159132, "", "Обмотки Осквернителя", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159131, "", "Кюлоты Осквернителя", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
+		{ 9,  159164, "", "Клобук Осквернителя", "=ds=#SealoftheTitans#"};
+		{ 10, 159163, "", "Оплечье Осквернителя", "=ds=#SealoftheTitans#"};
+		{ 11, 159160, "", "Платье Осквернителяя", "=ds=#SealoftheTitans#"};
+		{ 12, 159161, "", "Обмотки Осквернителя", "=ds=#SealoftheTitans#"};
+		{ 13, 159162, "", "Кюлоты Осквернителя", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
+		{ 17, 159149, "", "Клобук Осквернителя", "=ds=#sealeternity#"};
+		{ 18, 159145, "", "Оплечье Осквернителя", "=ds=#sealeternity#"};
+		{ 19, 159147, "", "Платье Осквернителяя", "=ds=#sealeternity#"};
+		{ 20, 159148, "", "Обмотки Осквернителя", "=ds=#sealeternity#"};
+		{ 21, 159146, "", "Кюлоты Осквернителя", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5Warlockdestr"] = {
+
+		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
+		{ 2, 159139, "", "Наголовник Осквернителя", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159135, "", "Мантия Осквернителя", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159138, "", "Одеяние Осквернителяя", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159137, "", "Митенки Осквернителя", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159136, "", "Набедренники Осквернителя", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
+		{ 9,  159169, "", "Наголовник Осквернителя", "=ds=#SealoftheTitans#"};
+		{ 10, 159168, "", "Мантия Осквернителя", "=ds=#SealoftheTitans#"};
+		{ 11, 159165, "", "Одеяние Осквернителяя", "=ds=#SealoftheTitans#"};
+		{ 12, 159166, "", "Митенки Осквернителя", "=ds=#SealoftheTitans#"};
+		{ 13, 159167, "", "Набедренники Осквернителя", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t5s8#", "=ec1=#m22#"};
+		{ 17, 159154, "", "Наголовник Осквернителя", "=ds=#sealeternity#"};
+		{ 18, 159150, "", "Мантия Осквернителя", "=ds=#sealeternity#"};
+		{ 19, 159152, "", "Одеяние Осквернителяя", "=ds=#sealeternity#"};
+		{ 20, 159153, "", "Митенки Осквернителя", "=ds=#sealeternity#"};
+		{ 21, 159151, "", "Набедренники Осквернителя", "=ds=#sealeternity#"};
 
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
@@ -5926,25 +6205,53 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	AtlasLoot_Data["T5DruidFeral"] = {
 
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t5s1_1#", "=ec1=#m22#"};
-		{ 2, 30228, "", "=q4=Nordrassil Headdress", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 3, 30230, "", "=q4=Nordrassil Feral-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
-		{ 4, 30222, "", "=q4=Nordrassil Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
-		{ 5, 30223, "", "=q4=Nordrassil Handgrips", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 6, 30229, "", "=q4=Nordrassil Feral-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 2, 159177, "", "Наголовник Нордрассила", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159179, "", "Грубые наплечники Нордрассила", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159175, "", "Кираса Нордрассила", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159176, "", "Боевые рукавицы Нордрассила", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159178, "", "Килт ярости Нордрассила", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 
 		{ 8, 0, "Ability_Druid_Maul", "=q6=#t5s1_1#", "=ec1=#m22#"};
-		{ 9, 151677, "", "=q4=Nordrassil Headdress", "=ds=#SealoftheTitans#"};
-		{ 10, 151679, "", "=q4=Nordrassil Feral-Mantle", "=ds=#SealoftheTitans#"};
-		{ 11, 151675, "", "=q4=Nordrassil Chestplate", "=ds=#SealoftheTitans#"};
-		{ 12, 151676, "", "=q4=Nordrassil Handgrips", "=ds=#SealoftheTitans#"};
-		{ 13, 151678, "", "=q4=Nordrassil Feral-Kilt", "=ds=#SealoftheTitans#"};
+		{ 9, 159197, "", "Наголовник Нордрассила", "=ds=#SealoftheTitans#"};
+		{ 10, 159199, "", "Грубые наплечники Нордрассила", "=ds=#SealoftheTitans#"};
+		{ 11, 159195, "", "Кираса Нордрассила", "=ds=#SealoftheTitans#"};
+		{ 12, 159196, "", "Боевые рукавицы Нордрассила", "=ds=#SealoftheTitans#"};
+		{ 13, 159198, "", "Килт ярости Нордрассила", "=ds=#SealoftheTitans#"};
 
 		{ 16, 0, "Ability_Druid_Maul", "=q6=#t5s1_1#", "=ec1=#m22#"};
-		{ 17, 103483, "", "=q4=Nordrassil Headdress", "=ds=#sealeternity#"};
-		{ 18, 103485, "", "=q4=Nordrassil Feral-Mantle", "=ds=#sealeternity#"};
-		{ 19, 103481, "", "=q4=Nordrassil Chestplate", "=ds=#sealeternity#"};
-		{ 20, 103482, "", "=q4=Nordrassil Handgrips", "=ds=#sealeternity#"};
-		{ 21, 103484, "", "=q4=Nordrassil Feral-Kilt", "=ds=#sealeternity#"};
+		{ 17, 159187, "", "Наголовник Нордрассила", "=ds=#sealeternity#"};
+		{ 18, 159189, "", "Грубые наплечники Нордрассила", "=ds=#sealeternity#"};
+		{ 19, 159185, "", "Кираса Нордрассила", "=ds=#sealeternity#"};
+		{ 20, 159186, "", "Боевые рукавицы Нордрассила", "=ds=#sealeternity#"};
+		{ 21, 159188, "", "Килт ярости Нордрассила", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5DruidFeralDD"] = {
+
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#t5s1_1#", "=ec1=#m22#"};
+		{ 2, 159172, "", "Головной убор Нордрассила", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159174, "", "Грубая мантия Нордрассила", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159170, "", "Бригантина Нордрассила", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159171, "", "Боевые перчатки Нордрассила", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159173, "", "Грубый килт Нордрассила", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Ability_Druid_Maul", "=q6=#t5s1_1#", "=ec1=#m22#"};
+		{ 9, 159192, "", "Головной убор Нордрассила", "=ds=#SealoftheTitans#"};
+		{ 10, 159194, "", "Грубая мантия Нордрассила", "=ds=#SealoftheTitans#"};
+		{ 11, 159190, "", "Бригантина Нордрассила", "=ds=#SealoftheTitans#"};
+		{ 12, 159191, "", "Боевые перчатки Нордрассила", "=ds=#SealoftheTitans#"};
+		{ 13, 159193, "", "Грубый килт Нордрассила", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Ability_Druid_Maul", "=q6=#t5s1_1#", "=ec1=#m22#"};
+		{ 17, 159182, "", "Головной убор Нордрассила", "=ds=#sealeternity#"};
+		{ 18, 159184, "", "Грубая мантия Нордрассила", "=ds=#sealeternity#"};
+		{ 19, 159180, "", "Бригантина Нордрассила", "=ds=#sealeternity#"};
+		{ 20, 159181, "", "Боевые перчатки Нордрассила", "=ds=#sealeternity#"};
+		{ 21, 159183, "", "Грубый килт Нордрассила", "=ds=#sealeternity#"};
 
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
@@ -5983,25 +6290,81 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	AtlasLoot_Data["T5DeathKnightDPS"] = {
 
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
-		{ 2, 81241, "", "=q4=Elementium Deathplate Helmet", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 3, 80867, "", "=q4=Elementium Deathplate Shoulderplates", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
-		{ 4, 80861, "", "=q4=Elementium Deathplate Battleplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
-		{ 5, 80927, "", "=q4=Elementium Deathplate Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 6, 82812, "", "=q4=Elementium Deathplate Legplates", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 2, 159000, "", "Элементиевый иссеченный наголовник смерти", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159002, "", "Элементиевые иссеченные наплечники смерти", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159001, "", "Элементиевая кираса смерти", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159003, "", "Элементиевые боевые перчатки смерти", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159004, "", "Элементиевые поножи смерти", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
-		{ 9, 151688, "", "=q4=Elementium Deathplate Helmet", "=ds=#SealoftheTitans#"};
-		{ 10, 151686, "", "=q4=Elementium Deathplate Shoulderplates", "=ds=#SealoftheTitans#"};
-		{ 11, 151685, "", "=q4=Elementium Deathplate Battleplate", "=ds=#SealoftheTitans#"};
-		{ 12, 151687, "", "=q4=Elementium Deathplate Gauntlets", "=ds=#SealoftheTitans#"};
-		{ 13, 151689, "", "=q4=Elementium Deathplate Legplates", "=ds=#SealoftheTitans#"};
+		{ 9, 159061, "", "Элементиевый иссеченный наголовник смерти", "=ds=#SealoftheTitans#"};
+		{ 10, 159063, "", "Элементиевые иссеченные наплечники смерти", "=ds=#SealoftheTitans#"};
+		{ 11, 159064, "", "Элементиевая кираса смерти", "=ds=#SealoftheTitans#"};
+		{ 12, 159062, "", "Элементиевые боевые перчатки смерти", "=ds=#SealoftheTitans#"};
+		{ 13, 159060, "", "Элементиевые поножи смерти", "=ds=#SealoftheTitans#"};
 
 		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
-		{ 17, 103494, "", "=q4=Elementium Deathplate Helmet", "=ds=#sealeternity#"};
-		{ 18, 103492, "", "=q4=Elementium Deathplate Shoulderplates", "=ds=#sealeternity#"};
-		{ 19, 103491, "", "=q4=Elementium Deathplate Battleplate", "=ds=#sealeternity#"};
-		{ 20, 103493, "", "=q4=Elementium Deathplate Gauntlets", "=ds=#sealeternity#"};
-		{ 21, 103495, "", "=q4=Elementium Deathplate Legplates", "=ds=#sealeternity#"};
+		{ 17, 159033, "", "Элементиевый иссеченный наголовник смерти", "=ds=#sealeternity#"};
+		{ 18, 159030, "", "Элементиевые иссеченные наплечники смерти", "=ds=#sealeternity#"};
+		{ 19, 159032, "", "Элементиевая кираса смерти", "=ds=#sealeternity#"};
+		{ 20, 159034, "", "Элементиевые боевые перчатки смерти", "=ds=#sealeternity#"};
+		{ 21, 159031, "", "Элементиевые поножи смерти", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5DeathKnightDPSfrost"] = {
+
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 2, 158995, "", "Элементиевый иссеченный шлем смерти", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158997, "", "Элементиевые боевые наплечники смерти", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158996, "", "Элементиевая бригантина смерти", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158998, "", "Элементиевые боевые рукавицы смерти", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158999, "", "лементиевые иссеченные боевые поножи смерти", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 9, 159056, "", "Элементиевый иссеченный шлем смерти", "=ds=#SealoftheTitans#"};
+		{ 10, 159058, "", "Элементиевые боевые наплечники смерти", "=ds=#SealoftheTitans#"};
+		{ 11, 159059, "", "Элементиевая бригантина смерти", "=ds=#SealoftheTitans#"};
+		{ 12, 159057, "", "Элементиевые боевые рукавицы смерти", "=ds=#SealoftheTitans#"};
+		{ 13, 159055, "", "Элементиевые иссеченные боевые поножи смерти", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 17, 159028, "", "Элементиевый иссеченный шлем смерти", "=ds=#sealeternity#"};
+		{ 18, 159025, "", "Элементиевые боевые наплечники смерти", "=ds=#sealeternity#"};
+		{ 19, 159027, "", "Элементиевая бригантина смерти", "=ds=#sealeternity#"};
+		{ 20, 159029, "", "Элементиевые боевые рукавицы смерти", "=ds=#sealeternity#"};
+		{ 21, 159026, "", "Элементиевые иссеченные боевые поножи смерти", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5DeathKnightDPSblood"] = {
+
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 2, 158990, "", "Элементиевый латный боевой шлем смерти", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 158992, "", "Элементиевые боевые наплечные пластины смерти", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 158991, "", "Элементиевая латная кираса смерти", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 158993, "", "Элементиевые латные боевые рукавицы смерти", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 158994, "", "Элементиевые боевые поножи смерти", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 9, 159051, "", "Элементиевый латный боевой шлем смерти", "=ds=#SealoftheTitans#"};
+		{ 10, 159053, "", "Элементиевые боевые наплечные пластины смерти", "=ds=#SealoftheTitans#"};
+		{ 11, 159054, "", "Элементиевая латная кираса смерти", "=ds=#SealoftheTitans#"};
+		{ 12, 159052, "", "Элементиевые латные боевые рукавицы смерти", "=ds=#SealoftheTitans#"};
+		{ 13, 159050, "", "Элементиевые боевые поножи смерти", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 17, 159023, "", "Элементиевый латный боевой шлем смерти", "=ds=#sealeternity#"};
+		{ 18, 159020, "", "Элементиевые боевые наплечные пластины смерти", "=ds=#sealeternity#"};
+		{ 19, 159022, "", "Элементиевая латная кираса смерти", "=ds=#sealeternity#"};
+		{ 20, 159024, "", "Элементиевые латные боевые рукавицы смерти", "=ds=#sealeternity#"};
+		{ 21, 159021, "", "Элементиевые боевые поножи смерти", "=ds=#sealeternity#"};
 
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
@@ -6011,26 +6374,84 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 	AtlasLoot_Data["T5DeathKnightTank"] = {
 
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
-		{ 2, 87612, "", "=q4=Elementium Deathplate Faceguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 3, 87494, "", "=q4=Elementium Deathplate Pauldrons", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
-		{ 4, 90600, "", "=q4=Elementium Deathplate Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
-		{ 5, 87601, "", "=q4=Elementium Deathplate Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 6, 87589, "", "=q4=Elementium Deathplate Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 2, 159019, "", "Элементиевый латный наголовник смерти", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159015, "", "Элементиевые закаленные наплечные пластины смерти", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159016, "", "Элементиевый доспех смерти", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159017, "", "Элементиевые латные укрепленные перчатки смертиs", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159018, "", "Элементиевые иссеченные ножные латы смерти", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 
 
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
-		{ 9,  151693, "", "=q4=Elementium Deathplate Faceguard", "=ds=#SealoftheTitans#"};
-		{ 10, 151690, "", "=q4=Elementium Deathplate Pauldrons", "=ds=#SealoftheTitans#"};
-		{ 11, 151694, "", "=q4=Elementium Deathplate Chestguard", "=ds=#SealoftheTitans#"};
-		{ 12, 151692, "", "=q4=Elementium Deathplate Handguards", "=ds=#SealoftheTitans#"};
-		{ 13, 151691, "", "=q4=Elementium Deathplate Legguards", "=ds=#SealoftheTitans#"};
+		{ 9,  159075, "", "Элементиевый латный наголовник смерти", "=ds=#SealoftheTitans#"};
+		{ 10, 159077, "", "Элементиевые закаленные наплечные пластины смерти", "=ds=#SealoftheTitans#"};
+		{ 11, 159076, "", "Элементиевый доспех смерти", "=ds=#SealoftheTitans#"};
+		{ 12, 159078, "", "Элементиевые латные укрепленные перчатки смерти", "=ds=#SealoftheTitans#"};
+		{ 13, 159079, "", "Элементиевые иссеченные ножные латы смерти", "=ds=#SealoftheTitans#"};
 
 		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
-		{ 17,  103499, "", "=q4=Elementium Deathplate Faceguard", "=ds=#sealeternity#"};
-		{ 18, 103496, "", "=q4=Elementium Deathplate Pauldrons", "=ds=#sealeternity#"};
-		{ 19, 103500, "", "=q4=Elementium Deathplate Chestguard", "=ds=#sealeternity#"};
-		{ 20, 103498, "", "=q4=Elementium Deathplate Handguards", "=ds=#sealeternity#"};
-		{ 21, 103497, "", "=q4=Elementium Deathplate Legguards", "=ds=#sealeternity#"};
+		{ 17,  159049, "", "Элементиевый латный наголовник смерти", "=ds=#sealeternity#"};
+		{ 18, 159045, "", "Элементиевые закаленные наплечные пластины смерти", "=ds=#sealeternity#"};
+		{ 19, 159046, "", "Элементиевый доспех смерти", "=ds=#sealeternity#"};
+		{ 20, 159048, "", "Элементиевые латные укрепленные перчатки смерти", "=ds=#sealeternity#"};
+		{ 21, 159047, "", "Элементиевые иссеченные ножные латы смерти", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5DeathKnightTankfrost"] = {
+
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 2, 159014, "", "Элементиевый латный закрытый наголовник смерти", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159010, "", "Элементиевые укрепленные наплечные пластины смерти", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159011, "", "Элементиевый латный доспех смерти", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159012, "", "Элементиевые латные рукавицы смерти", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159013, "", "Элементиевые ножные латы смерти", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 9,  159070, "", "Элементиевый латный закрытый наголовник смерти", "=ds=#SealoftheTitans#"};
+		{ 10, 159072, "", "Элементиевые укрепленные наплечные пластины смерти", "=ds=#SealoftheTitans#"};
+		{ 11, 159071, "", "Элементиевый латный доспех смерти", "=ds=#SealoftheTitans#"};
+		{ 12, 159073, "", "Элементиевые латные рукавицы смерти", "=ds=#SealoftheTitans#"};
+		{ 13, 159074, "", "Элементиевые ножные латы смерти", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 17,  159044, "", "Элементиевый латный закрытый наголовник смерти", "=ds=#sealeternity#"};
+		{ 18, 159040, "", "Элементиевые укрепленные наплечные пластины смерти", "=ds=#sealeternity#"};
+		{ 19, 159041, "", "Элементиевый латный доспех смерти", "=ds=#sealeternity#"};
+		{ 20, 159043, "", "Элементиевые латные рукавицы смерти", "=ds=#sealeternity#"};
+		{ 21, 159042, "", "Элементиевые ножные латы смерти", "=ds=#sealeternity#"};
+
+		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
+		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
+		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
+		Back = "T5SET";
+	};	
+	AtlasLoot_Data["T5DeathKnightTankblood"] = {
+
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 2, 159009, "", "Элементиевый латный закрытый шлем смерти", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 3, 159005, "", "Элементиевые латные наплечные пластины смерти", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
+		{ 4, 159006, "", "Элементиевый латный нагрудный доспех смерти", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
+		{ 5, 159007, "", "Элементиевые латные укрепленные рукавицы смерти", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+		{ 6, 159008, "", "Элементиевые латные ножные латы смерти", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
+
+
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 9,  151693, "", "Элементиевый латный закрытый шлем смерти", "=ds=#SealoftheTitans#"};
+		{ 10, 151690, "", "Элементиевые латные наплечные пластины смерти", "=ds=#SealoftheTitans#"};
+		{ 11, 151694, "", "Элементиевый латный нагрудный доспех смерти", "=ds=#SealoftheTitans#"};
+		{ 12, 151692, "", "Элементиевые латные укрепленные рукавицы смерти", "=ds=#SealoftheTitans#"};
+		{ 13, 151691, "", "Элементиевые латные ножные латы смерти", "=ds=#SealoftheTitans#"};
+
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 17,  159039, "", "Элементиевый латный закрытый шлем смерти", "=ds=#sealeternity#"};
+		{ 18, 159035, "", "Элементиевые латные наплечные пластины смерти", "=ds=#sealeternity#"};
+		{ 19, 159036, "", "Элементиевый латный нагрудный доспех смерти", "=ds=#sealeternity#"};
+		{ 20, 159038, "", "Элементиевые латные укрепленные рукавицы смерти", "=ds=#sealeternity#"};
+		{ 21, 159037, "", "Элементиевые латные ножные латы смерти", "=ds=#sealeternity#"};
 
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
