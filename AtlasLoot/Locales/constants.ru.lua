@@ -273,7 +273,9 @@ if AL then
 	-- AtlasLoot Panel
 	AL["Collections"] = "Наборы";
     AL["Crafting"] = "Ремесло";
-	AL["DailyMenu"] = "Ежедневное";
+	AL["DailyMenu"] = "По островам";
+	AL["DailyMenuMain"] = "Ежедневное";
+	AL["DailySpec"] = "По спекам";
 	AL["Keld"] = "Кель'Данас";
 	AL["Tolg"] = "Тол'Гарод";
 	AL["His"] = "Истории прошлого";

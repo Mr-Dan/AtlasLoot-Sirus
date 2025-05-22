@@ -271,7 +271,14 @@ AtlasLoot_DewDropDown = {
 		},
 	},
 	[8] = {
-		{ AL["DailyMenu"], "DAILYMENU", "Table" },
+		[ AL["DailyMenuMain"]] = {
+			[1] = {
+				{ AL["DailyMenu"], "DAILYMENU", "Table" },
+				},
+			[2] = {
+				{ AL["DailySpec"], "DAILYMENU", "Table" },
+			},
+		},
 	},
 	[9] = {
 		{ AL["Crafting"], "CRAFTINGMENU", "Table" },

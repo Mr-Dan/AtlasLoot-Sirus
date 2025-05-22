@@ -37,6 +37,7 @@ AtlasLootVersionsList[33] = "16.11.23"
 AtlasLootVersionsList[34] = "21.12.23"
 AtlasLootVersionsList[35] = "26.04.25"
 AtlasLootVersionsList[36] = "03.05.25"
+AtlasLootVersionsList[37] = "22.05.25"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -330,6 +331,10 @@ elseif x == 36 then
 text:SetText(WHITE..
 "- Добавлена отдельная вкладка с островами".."\n\n"..
 "- Колличество кнопок быстрого осмотра увеличено до 9".."\n\n"
+)
+elseif x == 37 then
+text:SetText(WHITE..
+"- Расщепленные т5".."\n\n"
 )
 end
 end
