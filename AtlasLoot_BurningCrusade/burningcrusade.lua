@@ -5531,7 +5531,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};
 	AtlasLoot_Data["T5WarriorFury"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
@@ -5558,7 +5558,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
         { 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};	
 	AtlasLoot_Data["T5WarriorArms"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
@@ -5585,7 +5585,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
         { 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};
 
 	AtlasLoot_Data["T5PaladinProtection"] = {
@@ -5781,7 +5781,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};
 	AtlasLoot_Data["T5Rogueshd"] = {
 
@@ -5809,7 +5809,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};	
 	AtlasLoot_Data["T5Roguekomb"] = {
 
@@ -5837,7 +5837,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};
 
 	AtlasLoot_Data["T5PriestHoly"] = {
@@ -5951,7 +5951,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};
 	AtlasLoot_Data["T5ShamanElemental"] = {
 
@@ -5979,7 +5979,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};
 	AtlasLoot_Data["T5ShamanEnhancement"] = {
 
@@ -6007,7 +6007,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};
 		AtlasLoot_Data["T5Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t5s3#", "=ec1=#m22#"};
@@ -6116,7 +6116,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};	
 	AtlasLoot_Data["T5Warlockdeam"] = {
 
@@ -6144,7 +6144,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};	
 	AtlasLoot_Data["T5Warlockdestr"] = {
 
@@ -6172,7 +6172,7 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 		{ 23, 0, "INV_Box_01", "=q6=Предмет", ""};
 		{ 24, 280006, "", "=q4=Печать Вечности", "=ds=#e15#"};
 		{ 25, 280009, "", "=q4=Печать Титанов", "=ds=#e15#"};
-		Back = "T5SET";
+		Back = "T5SET2";
 	};
 	AtlasLoot_Data["T5DruidRestoration"] = {
 
@@ -6440,11 +6440,11 @@ AtlasLoot_Data["KaraAttumenHEROIC"] = {
 
 
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
-		{ 9,  151693, "", "Элементиевый латный закрытый шлем смерти", "=ds=#SealoftheTitans#"};
-		{ 10, 151690, "", "Элементиевые латные наплечные пластины смерти", "=ds=#SealoftheTitans#"};
-		{ 11, 151694, "", "Элементиевый латный нагрудный доспех смерти", "=ds=#SealoftheTitans#"};
-		{ 12, 151692, "", "Элементиевые латные укрепленные рукавицы смерти", "=ds=#SealoftheTitans#"};
-		{ 13, 151691, "", "Элементиевые латные ножные латы смерти", "=ds=#SealoftheTitans#"};
+		{ 9,  159065, "", "Элементиевый латный закрытый шлем смерти", "=ds=#SealoftheTitans#"};
+		{ 10, 159067, "", "Элементиевые латные наплечные пластины смерти", "=ds=#SealoftheTitans#"};
+		{ 11, 159066, "", "Элементиевый латный нагрудный доспех смерти", "=ds=#SealoftheTitans#"};
+		{ 12, 159068, "", "Элементиевые латные укрепленные рукавицы смерти", "=ds=#SealoftheTitans#"};
+		{ 13, 159069, "", "Элементиевые латные ножные латы смерти", "=ds=#SealoftheTitans#"};
 
 		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 17,  159039, "", "Элементиевый латный закрытый шлем смерти", "=ds=#sealeternity#"};

@@ -288,7 +288,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 10, "T5Warlock", "Spell_Shadow_DeathCoil", "Лок - Колдовство"};
 		{ 11, "T5Warlockdeam", "Spell_Shadow_Metamorphosis", "Лок - Демонология"};
 		{ 12, "T5Warlockdestr", "Spell_Shadow_RainOfFire", "Лок - Разрушение"};
-		{ 17, "T5WarriorArmsй", "Ability_Rogue_Eviscerate", "Воин - Оружие"};
+		{ 17, "T5WarriorArms", "Ability_Rogue_Eviscerate", "Воин - Оружие"};
 		{ 18, "T5WarriorFury", "Ability_Warrior_InnerRage", "Воин - Неистовство"};
 		{ 19, "T5WarriorProtection", "INV_Shield_06", "Воин - Защита"};
 		Back = "SETMENU";
