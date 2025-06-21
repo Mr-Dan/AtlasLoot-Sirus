@@ -38,6 +38,7 @@ AtlasLootVersionsList[34] = "21.12.23"
 AtlasLootVersionsList[35] = "26.04.25"
 AtlasLootVersionsList[36] = "03.05.25"
 AtlasLootVersionsList[37] = "22.05.25"
+AtlasLootVersionsList[38] = "21.06.25"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -335,6 +336,10 @@ text:SetText(WHITE..
 elseif x == 37 then
 text:SetText(WHITE..
 "- Расщепленные т5".."\n\n"
+)
+elseif x == 38 then
+text:SetText(WHITE..
+"- Огненный Солнцеворот - все плащи".."\n\n"
 )
 end
 end

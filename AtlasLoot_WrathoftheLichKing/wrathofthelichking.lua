@@ -8178,7 +8178,7 @@ AtlasLoot_Data["VaultofArchavonElem125Man"] = {
 		{ 6, 53127, "", "=q4=Returning Footfalls", "=ds=#s12#, #a3#"};
 		{ 7, 53125, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#"};
 		{ 8, 53487, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#"};
-		{ 9, 53129, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#"};
+		{ 9, 104243, "", "=q4=Ботфорты утекающей жизни", "=ds=#s12#, #a4#"};
 		{ 16, 53132, "", "=q4=Penumbra Pendant", "=ds=#s2#"};
 		{ 17, 53490, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#"};
 		{ 18, 53133, "", "=q4=Signet of Twilight", "=ds=#s13#"};
