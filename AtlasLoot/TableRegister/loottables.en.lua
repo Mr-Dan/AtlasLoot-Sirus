@@ -1595,6 +1595,8 @@ end
   --- Midsummer Fire Festival
 	AtlasLoot_TableNames["MidsummerFestival"] = { AL["Midsummer Fire Festival"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["LordAhune"] = { AL["Lord Ahune"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["LordAhune1"] = { AL["Lord Ahune"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["LordAhune2"] = { AL["Lord Ahune"], "AtlasLootWorldEvents" };
   --- Noblegarden
 	AtlasLoot_TableNames["Noblegarden"] = { AL["Noblegarden"], "AtlasLootWorldEvents" };
   --- Pilgrim's Bounty
