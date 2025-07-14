@@ -1331,6 +1331,76 @@ end
 	AtlasLoot_TableNames["T6WarriorProtection"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootBurningCrusade" };
 	---T6 END
 	
+	--- T4DQ
+	AtlasLoot_TableNames["T4DQDeathKnightDPS"] = { "ДК ДД - Нечестивость", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQDeathKnightDPSfrost"] = { "ДК ДД - Фрост", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQDeathKnightDPSblood"] = { "ДК ДД - Блад", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQDeathKnightTank"] = { "ДК - Танк", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQDruidBalance"] = {"Друид - Сова", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQDruidFeral"] = {"Друид - Мишка", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQDruidFeralDD"] = {"Друид - Кот", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQDruidRestoration"] = {"Друид - Полено", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQHunter"] = {"Хант - БМ", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQHuntermm"] = {"Хант - ММ", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQHuntersu"] = {"Хант - Сурв", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQMage"] = {"Маг - Аркан", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQMagefier"] = {"Маг - Фаер", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQMagefrost"] = {"Маг - Фрост", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQPaladinHoly"] = {"Паладин - Свет", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQPaladinProtection"] = {"Паладин - Защита", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQPaladinRetribution"] = {"Паладин - Воздаяние", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQPriestHolydz"] = {"Жрец - Послушание", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQPriestHoly"] = {"Жрец - Свет", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQPriestShadow"] = {"Жрец - Тьма", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQRogue"] = {"Разбойник - Ликвидация", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQRoguekomb"] = {"Разбойник - Бой", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQRogueshd"] = {"Разбойник - Скрытность", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQShamanElemental"] = {"Шаман - Стихии", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQShamanEnhancement"] = {"Шаман - Совершенствование", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQShamanRestoration"] = {"Шаман - Исцеление", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQWarlock"] = {"Лок - Колдовство", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQWarlockdeam"] = {"Лок - Демонология", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQWarlockdestr"] = {"Лок - Разрушение", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQWarriorarm"] = {"Воин - Оружие", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQWarriorFury"] = {"Воин - Неистовство", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T4DQWarriorProtection"] = {"Воин - Защита", "AtlasLootBurningCrusade" };
+	---T4DQ END
+	
+	---T5DQ
+	AtlasLoot_TableNames["T5DQDeathKnightDPS"] = { "ДК ДД - Нечестивость", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQDeathKnightDPSfrost"] = { "ДК ДД - Фрост", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQDeathKnightDPSblood"] = { "ДК ДД - Блад", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQDeathKnightTank"] = { "ДК - Танк", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQDruidBalance"] = {"Друид - Сова", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQDruidFeral"] = {"Друид - Мишка", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQDruidFeralDD"] = {"Друид - Кот", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQDruidRestoration"] = {"Друид - Полено", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQHunter"] = {"Хант - БМ", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQHuntermm"] = {"Хант - ММ", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQHuntersu"] = {"Хант - Сурв", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQMage"] = {"Маг - Аркан", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQMagefire"] = {"Маг - Фаер", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQMagefrost"] = {"Маг - Фрост", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQPaladinHoly"] = {"Паладин - Свет", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQPaladinProtection"] = {"Паладин - Защита", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQPaladinRetribution"] = {"Паладин - Воздаяние", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQPriestHolydz"] = {"Жрец - Послушание", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQPriestHoly"] = {"Жрец - Свет", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQPriestShadow"] = {"Жрец - Тьма", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQRogue"] = {"Разбойник - Ликвидация", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQRoguekomb"] = {"Разбойник - Бой", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQRogueshd"] = {"Разбойник - Скрытность", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQShamanElemental"] = {"Шаман - Стихии", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQShamanEnhancement"] = {"Шаман - Совершенствование", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQShamanRestoration"] = {"Шаман - Исцеление", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQWarlock"] = {"Лок - Колдовство", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQWarlockdeam"] = {"Лок - Демонология", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQWarlockdestr"] = {"Лок - Разрушение", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQWarriorArms"] = {"Воин - Оружие", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQWarriorFury"] = {"Воин - Неистовство", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T5DQWarriorProtection"] = {"Воин - Защита", "AtlasLootBurningCrusade" };
+	---T5DQ END
+	
 	-- Badge of Justice Rewards
 	AtlasLoot_TableNames["HardModeCloth"] = { BabbleInventory["Cloth"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["HardModeLeather"] = { BabbleInventory["Leather"], "AtlasLootBurningCrusade" };
@@ -2519,7 +2589,7 @@ end
     AtlasLoot_TableNames["DAILYHIS"] = { "AtlasLoot", "Menu" };
     AtlasLoot_TableNames["Islas"] = { "AtlasLoot", "AtlasLootBurningCrusade" };
     AtlasLoot_TableNames["Specs"] = { "AtlasLoot", "AtlasLootFallback" };
-    AtlasLoot_TableNames["SpecsDrop"] ={AL["SpecsDrop"], "AtlasLootSirus" };
+    AtlasLoot_TableNames["SpecsDrop"] ={ "SpecsDrop", "AtlasLootSirus" };
     AtlasLoot_TableNames["Keld"] ={AL["Keld"], "AtlasLootSirus" };
     AtlasLoot_TableNames["Tolg"] ={AL["Tolg"], "AtlasLootSirus" };
     AtlasLoot_TableNames["His"] ={AL["His"], "AtlasLootSirus" };
