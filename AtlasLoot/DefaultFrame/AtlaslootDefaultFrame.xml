@@ -4,13 +4,13 @@
 	
 	<Button name="AtlasLootDefaultFrameButtonTemplate" inherits="OptionsButtonTemplate" virtual="true">
 		<Size>
-			<AbsDimension x="105" y="20"/>
+			<AbsDimension x="105" y="32"/>
 		</Size>
 	</Button>
 	
 	<Frame name="AtlasLootDefaultFrame" toplevel="true" enableMouse="true" hidden="true" parent="UIParent" enableKeyboard="true">
 		<Size>
-			<AbsDimension x="600" y="690"/>
+			<AbsDimension x="600" y="719"/>
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER"/>
@@ -166,7 +166,7 @@
 				<Anchors>
 					<Anchor point="BOTTOM" relativeTo="$parent" relativePoint="BOTTOM">
 						<Offset>
-							<AbsDimension x="0" y="90"/>
+							<AbsDimension x="0" y="117"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -210,13 +210,23 @@
                         end
 					</OnClick>
                     <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["QuickLook"].." 1");
-				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
-                        if ((not AtlasLootCharDB["QuickLooks"][1]) or (not AtlasLootCharDB["QuickLooks"][1][1])) or (AtlasLootCharDB["QuickLooks"][1][1]==nil) then
-                            this:Disable();
-                        end
-			        </OnShow>
+							this:ClearAllPoints();
+							this:SetPoint("BOTTOMLEFT", 14, 90);
+                            local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                            if AtlasLootCharDB["QuickLooks"][1] and AtlasLootCharDB["QuickLooks"][1][1] and AtlasLoot_TableNames and AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][1][1]] then
+                                local name = AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][1][1]][1];
+								if name and strlen(name) > 30 then
+									name = string.match(name, "^([^%s]+)");
+								end
+                                this:SetText(name);
+                            else
+                                this:SetText(AL["QuickLook"].." 1");
+                            end
+                            this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                            if ((not AtlasLootCharDB["QuickLooks"][1]) or (not AtlasLootCharDB["QuickLooks"][1][1])) or (AtlasLootCharDB["QuickLooks"][1][1]==nil) then
+                                this:Disable();
+                            end
+                        </OnShow>
 				</Scripts>
             </Button>
             <Button name="$parent_Preset2" inherits="AtlasLootDefaultFrameButtonTemplate">
@@ -248,13 +258,21 @@
                         end
 					</OnClick>
                     <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["QuickLook"].." 2");
-				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
-                        if ((not AtlasLootCharDB["QuickLooks"][2]) or (not AtlasLootCharDB["QuickLooks"][2][1])) or (AtlasLootCharDB["QuickLooks"][2][1]==nil) then
-                            this:Disable();
-                        end
-			        </OnShow>
+                            local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                            if AtlasLootCharDB["QuickLooks"][2] and AtlasLootCharDB["QuickLooks"][2][1] and AtlasLoot_TableNames and AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][2][1]] then
+                                local name = AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][2][1]][1];
+								if name and strlen(name) > 30 then
+									name = string.match(name, "^([^%s]+)");
+								end
+                                this:SetText(name);
+                            else
+                                this:SetText(AL["QuickLook"].." 2");
+                            end
+                            this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                            if ((not AtlasLootCharDB["QuickLooks"][2]) or (not AtlasLootCharDB["QuickLooks"][2][1])) or (AtlasLootCharDB["QuickLooks"][2][1]==nil) then
+                                this:Disable();
+                            end
+                        </OnShow>
 				</Scripts>
             </Button>
             <Button name="$parent_Preset3" inherits="AtlasLootDefaultFrameButtonTemplate">
@@ -286,13 +304,21 @@
                         end
 					</OnClick>
                     <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["QuickLook"].." 3");
-				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
-                        if ((not AtlasLootCharDB["QuickLooks"][3]) or (not AtlasLootCharDB["QuickLooks"][3][1])) or (AtlasLootCharDB["QuickLooks"][3][1]==nil) then
-                            this:Disable();
-                        end
-			        </OnShow>
+                            local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                            if AtlasLootCharDB["QuickLooks"][3] and AtlasLootCharDB["QuickLooks"][3][1] and AtlasLoot_TableNames and AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][3][1]] then
+                                local name = AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][3][1]][1];
+								if name and strlen(name) > 30 then
+									name = string.match(name, "^([^%s]+)");
+								end
+                                this:SetText(name);
+                            else
+                                this:SetText(AL["QuickLook"].." 3");
+                            end
+                            this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                            if ((not AtlasLootCharDB["QuickLooks"][3]) or (not AtlasLootCharDB["QuickLooks"][3][1])) or (AtlasLootCharDB["QuickLooks"][3][1]==nil) then
+                                this:Disable();
+                            end
+                        </OnShow>
 				</Scripts>
             </Button>
             <Button name="$parent_Preset4" inherits="AtlasLootDefaultFrameButtonTemplate">
@@ -324,13 +350,21 @@
                         end
 					</OnClick>
                     <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["QuickLook"].." 4");
-				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
-                        if ((not AtlasLootCharDB["QuickLooks"][4]) or (not AtlasLootCharDB["QuickLooks"][4][1])) or (AtlasLootCharDB["QuickLooks"][4][1]==nil) then
-                            this:Disable();
-                        end
-			        </OnShow>
+                            local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                            if AtlasLootCharDB["QuickLooks"][4] and AtlasLootCharDB["QuickLooks"][4][1] and AtlasLoot_TableNames and AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][4][1]] then
+                                local name = AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][4][1]][1];
+								if name and strlen(name) > 30 then
+									name = string.match(name, "^([^%s]+)");
+								end
+                                this:SetText(name);
+                            else
+                                this:SetText(AL["QuickLook"].." 4");
+                            end
+                            this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                            if ((not AtlasLootCharDB["QuickLooks"][4]) or (not AtlasLootCharDB["QuickLooks"][4][1])) or (AtlasLootCharDB["QuickLooks"][4][1]==nil) then
+                                this:Disable();
+                            end
+                        </OnShow>
 				</Scripts>
             </Button>
 		    <Button name="$parent_Preset5" inherits="AtlasLootDefaultFrameButtonTemplate">
@@ -362,20 +396,28 @@
                         end
 					</OnClick>
                     <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["QuickLook"].." 5");
-				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
-                        if ((not AtlasLootCharDB["QuickLooks"][5]) or (not AtlasLootCharDB["QuickLooks"][5][1])) or (AtlasLootCharDB["QuickLooks"][5][1]==nil) then
-                            this:Disable();
-                        end
-			        </OnShow>
+                            local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                            if AtlasLootCharDB["QuickLooks"][5] and AtlasLootCharDB["QuickLooks"][5][1] and AtlasLoot_TableNames and AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][5][1]] then
+                                local name = AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][5][1]][1];
+								if name and strlen(name) > 30 then
+									name = string.match(name, "^([^%s]+)");
+								end
+                                this:SetText(name);
+                            else
+                                this:SetText(AL["QuickLook"].." 5");
+                            end
+                            this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                            if ((not AtlasLootCharDB["QuickLooks"][5]) or (not AtlasLootCharDB["QuickLooks"][5][1])) or (AtlasLootCharDB["QuickLooks"][5][1]==nil) then
+                                this:Disable();
+                            end
+                        </OnShow>
 				</Scripts>
             </Button>
 			<Button name="$parent_Preset6" inherits="AtlasLootDefaultFrameButtonTemplate">
                 <Anchors>
-                    <Anchor point="LEFT" relativeTo="$parent_Preset5" relativePoint="RIGHT">
+                    <Anchor point="TOPLEFT" relativeTo="$parent_Preset1" relativePoint="BOTTOMLEFT">
                         <Offset>
-                            <AbsDimension x="5" y="0"/>
+                            <AbsDimension x="0" y="-5"/>
                         </Offset>
                     </Anchor>
                 </Anchors>
@@ -400,13 +442,21 @@
                         end
 					</OnClick>
                     <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["QuickLook"].." 6");
-				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
-                        if ((not AtlasLootCharDB["QuickLooks"][6]) or (not AtlasLootCharDB["QuickLooks"][6][1])) or (AtlasLootCharDB["QuickLooks"][6][1]==nil) then
-                            this:Disable();
-                        end
-			        </OnShow>
+                            local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                            if AtlasLootCharDB["QuickLooks"][6] and AtlasLootCharDB["QuickLooks"][6][1] and AtlasLoot_TableNames and AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][6][1]] then
+                                local name = AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][6][1]][1];
+								if name and strlen(name) > 30 then
+									name = string.match(name, "^([^%s]+)");
+								end
+                                this:SetText(name);
+                            else
+                                this:SetText(AL["QuickLook"].." 6");
+                            end
+                            this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                            if ((not AtlasLootCharDB["QuickLooks"][6]) or (not AtlasLootCharDB["QuickLooks"][6][1])) or (AtlasLootCharDB["QuickLooks"][6][1]==nil) then
+                                this:Disable();
+                            end
+                        </OnShow>
 				</Scripts>
             </Button>
 			<Button name="$parent_Preset7" inherits="AtlasLootDefaultFrameButtonTemplate">
@@ -438,13 +488,21 @@
                         end
 					</OnClick>
                     <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["QuickLook"].." 7");
-				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
-                        if ((not AtlasLootCharDB["QuickLooks"][7]) or (not AtlasLootCharDB["QuickLooks"][7][1])) or (AtlasLootCharDB["QuickLooks"][7][1]==nil) then
-                            this:Disable();
-                        end
-			        </OnShow>
+                            local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                            if AtlasLootCharDB["QuickLooks"][7] and AtlasLootCharDB["QuickLooks"][7][1] and AtlasLoot_TableNames and AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][7][1]] then
+                                local name = AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][7][1]][1];
+								if name and strlen(name) > 30 then
+									name = string.match(name, "^([^%s]+)");
+								end
+                                this:SetText(name);
+                            else
+                                this:SetText(AL["QuickLook"].." 7");
+                            end
+                            this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                            if ((not AtlasLootCharDB["QuickLooks"][7]) or (not AtlasLootCharDB["QuickLooks"][7][1])) or (AtlasLootCharDB["QuickLooks"][7][1]==nil) then
+                                this:Disable();
+                            end
+                        </OnShow>
 				</Scripts>
             </Button>
 			<Button name="$parent_Preset8" inherits="AtlasLootDefaultFrameButtonTemplate">
@@ -476,13 +534,21 @@
                         end
 					</OnClick>
                     <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["QuickLook"].." 8");
-				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
-                        if ((not AtlasLootCharDB["QuickLooks"][8]) or (not AtlasLootCharDB["QuickLooks"][8][1])) or (AtlasLootCharDB["QuickLooks"][8][1]==nil) then
-                            this:Disable();
-                        end
-			        </OnShow>
+                            local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                            if AtlasLootCharDB["QuickLooks"][8] and AtlasLootCharDB["QuickLooks"][8][1] and AtlasLoot_TableNames and AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][8][1]] then
+                                local name = AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][8][1]][1];
+								if name and strlen(name) > 30 then
+									name = string.match(name, "^([^%s]+)");
+								end
+                                this:SetText(name);
+                            else
+                                this:SetText(AL["QuickLook"].." 8");
+                            end
+                            this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                            if ((not AtlasLootCharDB["QuickLooks"][8]) or (not AtlasLootCharDB["QuickLooks"][8][1])) or (AtlasLootCharDB["QuickLooks"][8][1]==nil) then
+                                this:Disable();
+                            end
+                        </OnShow>
 				</Scripts>
             </Button>
 			<Button name="$parent_Preset9" inherits="AtlasLootDefaultFrameButtonTemplate">
@@ -514,13 +580,67 @@
                         end
 					</OnClick>
                     <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["QuickLook"].." 9");
-				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
-                        if ((not AtlasLootCharDB["QuickLooks"][9]) or (not AtlasLootCharDB["QuickLooks"][9][1])) or (AtlasLootCharDB["QuickLooks"][9][1]==nil) then
-                            this:Disable();
+                            local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                            if AtlasLootCharDB["QuickLooks"][9] and AtlasLootCharDB["QuickLooks"][9][1] and AtlasLoot_TableNames and AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][9][1]] then
+                                local name = AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][9][1]][1];
+								if name and strlen(name) > 30 then
+									name = string.match(name, "^([^%s]+)");
+								end
+                                this:SetText(name);
+                            else
+                                this:SetText(AL["QuickLook"].." 9");
+                            end
+                            this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                            if ((not AtlasLootCharDB["QuickLooks"][9]) or (not AtlasLootCharDB["QuickLooks"][9][1])) or (AtlasLootCharDB["QuickLooks"][9][1]==nil) then
+                                this:Disable();
+                            end
+                        </OnShow>
+				</Scripts>
+            </Button>
+						<Button name="$parent_Preset10" inherits="AtlasLootDefaultFrameButtonTemplate">
+                <Anchors>
+                    <Anchor point="LEFT" relativeTo="$parent_Preset9" relativePoint="RIGHT">
+                        <Offset>
+                            <AbsDimension x="5" y="0"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+                    <OnEnter>
+                        if this:IsEnabled() then
+                            GameTooltip:ClearLines();
+                            GameTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 5);
+                            GameTooltip:AddLine(AtlasLootCharDB["QuickLooks"][10][3]);
+                            GameTooltip:Show();
                         end
-			        </OnShow>
+                    </OnEnter>
+                    <OnLeave>
+                        if(GameTooltip:IsVisible()) then
+                            GameTooltip:Hide();
+                        end
+                    </OnLeave>
+					<OnClick>
+                        if AtlasLoot_IsLootTableAvailable(AtlasLootCharDB["QuickLooks"][10][1]) then
+                            pFrame = { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" };
+                            AtlasLoot_ShowItemsFrame(AtlasLootCharDB["QuickLooks"][10][1], AtlasLootCharDB["QuickLooks"][10][2], AtlasLootCharDB["QuickLooks"][10][3], pFrame);
+                        end
+					</OnClick>
+                    <OnShow>
+                            local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                            if AtlasLootCharDB["QuickLooks"][10] and AtlasLootCharDB["QuickLooks"][10][1] and AtlasLoot_TableNames and AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][10][1]] then
+                                local name = AtlasLoot_TableNames[AtlasLootCharDB["QuickLooks"][10][1]][1];
+								if name and strlen(name) > 30 then
+									name = string.match(name, "^([^%s]+)");
+								end
+                                this:SetText(name);
+                            else
+                                this:SetText(AL["QuickLook"].." 10");
+                            end
+                            this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+                            if ((not AtlasLootCharDB["QuickLooks"][10]) or (not AtlasLootCharDB["QuickLooks"][10][1])) or (AtlasLootCharDB["QuickLooks"][10][1]==nil) then
+                                this:Disable();
+                            end
+                        </OnShow>
 				</Scripts>
             </Button>
 			<EditBox name="AtlasLootDefaultFrameSearchBox" inherits="InputBoxTemplate" letters="100">

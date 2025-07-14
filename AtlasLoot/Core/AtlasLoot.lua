@@ -1481,7 +1481,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 1",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 1",
 				"func", function()
-                    AtlasLootCharDB["QuickLooks"][1]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+                    AtlasLootCharDB["QuickLooks"][1]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9], AtlasLootItemsFrame.refreshOri[10]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1491,7 +1491,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 2",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 2",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][2]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+					AtlasLootCharDB["QuickLooks"][2]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9], AtlasLootItemsFrame.refreshOri[10]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1501,7 +1501,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 3",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 3",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][3]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+					AtlasLootCharDB["QuickLooks"][3]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9], AtlasLootItemsFrame.refreshOri[10]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1511,7 +1511,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 4",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 4",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][4]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+					AtlasLootCharDB["QuickLooks"][4]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9], AtlasLootItemsFrame.refreshOri[10]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1521,7 +1521,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 5",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 5",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][5]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+					AtlasLootCharDB["QuickLooks"][5]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9], AtlasLootItemsFrame.refreshOri[10]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1531,7 +1531,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 6",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 6",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][6]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+					AtlasLootCharDB["QuickLooks"][6]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9], AtlasLootItemsFrame.refreshOri[10]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1541,7 +1541,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 7",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 7",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][7]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+					AtlasLootCharDB["QuickLooks"][7]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9], AtlasLootItemsFrame.refreshOri[10]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1551,7 +1551,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 8",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 8",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][8]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+					AtlasLootCharDB["QuickLooks"][8]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9], AtlasLootItemsFrame.refreshOri[10]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1561,7 +1561,17 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 9",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 9",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][9]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9]};
+					AtlasLootCharDB["QuickLooks"][9]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9], AtlasLootItemsFrame.refreshOri[10]};
+                    AtlasLoot_RefreshQuickLookButtons();
+                    dewdrop:Close(1);
+				end
+			)
+			dewdrop:AddLine(
+				"text", AL["QuickLook"].." 10",
+				"tooltipTitle", AL["QuickLook"].." 10",
+				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 10",
+				"func", function()
+					AtlasLootCharDB["QuickLooks"][10]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4], AtlasLootItemsFrame.refreshOri[5], AtlasLootItemsFrame.refreshOri[6], AtlasLootItemsFrame.refreshOri[7], AtlasLootItemsFrame.refreshOri[8], AtlasLootItemsFrame.refreshOri[9], AtlasLootItemsFrame.refreshOri[10]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end

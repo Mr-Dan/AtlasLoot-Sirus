@@ -9,6 +9,18 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, "SunOffensive1", "inv_shield_48","Кель'Данас", "=ds="..AL["BMarketOther"]};
 		{ 19, "REPMENU_Sirus_History", "inv_misc_azsharacoin", "Истории прошлого", "" };
 	};
+		AtlasLoot_Data["DailySpecT4"] = {
+		{ 2, "SunOffensive3", "inv_shield_48","Кель'Данас", "=ds="..AL["BMarketEquip"]};
+		{ 4, "Kor'kron_Battalion", "achievement_zone_tolbarad", "Тол'Гарод", "" };
+		{ 17, "SunOffensive1", "inv_shield_48","Кель'Данас", "=ds="..AL["BMarketOther"]};
+		{ 19, "REPMENU_Sirus_History", "inv_misc_azsharacoin", "Истории прошлого", "" };
+	};
+		AtlasLoot_Data["DailySpecT5"] = {
+		{ 2, "SunOffensive3", "inv_shield_48","Кель'Данас", "=ds="..AL["BMarketEquip"]};
+		{ 4, "Kor'kron_Battalion", "achievement_zone_tolbarad", "Тол'Гарод", "" };
+		{ 17, "SunOffensive1", "inv_shield_48","Кель'Данас", "=ds="..AL["BMarketOther"]};
+		{ 19, "REPMENU_Sirus_History", "inv_misc_azsharacoin", "Истории прошлого", "" };
+	};
 	
 	AtlasLoot_Data["EmptyTable"] = {
 	};

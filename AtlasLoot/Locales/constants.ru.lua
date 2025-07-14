@@ -275,6 +275,8 @@ if AL then
     AL["Crafting"] = "Ремесло";
 	AL["DailyMenu"] = "По островам";
 	AL["DailyMenuMain"] = "Ежедневное";
+	AL["DailySpecT4"] = "По спекам T4";
+	AL["DailySpecT5"] = "По спекам T5";
 	AL["DailySpec"] = "По спекам";
 	AL["Keld"] = "Кель'Данас";
 	AL["Tolg"] = "Тол'Гарод";
@@ -484,35 +486,85 @@ if AL then
 	AL["Tol'Garod Prison3"] = "271";
 	AL["Tol'Garod Prison4"] = "284";
 	AL["Tol'Garod Prison5"] = "245";
-
-	-- Boss
-	AL["Murozond"] = "Мурозонд";
-	AL["Elonus"] = "Исказитель времени Элонус";
-	AL["Imporus"] = "Импорус";
-	
 	AL["Gogonash"] = "Гогонаш";
-	AL["Xtrax Mind Absorber"] = "Поглотитель разума Ктракс";
+	AL["Xtrax Mind Absorber"] = "Ктракс";
 	AL["Magic Eater"] = "Пожиратель магии";
-	
+	AL["Murozond"] = "Мурозонд";
+	AL["Elonus"] = "Элонус";
+	AL["Imporus"] = "Импорус";
+	AL["GrainOfSandOfLost"] = "Награды за песчинки времени";
 	AL["Zort"] = "Зорт";
 	
-	AL["Specs"] = "По Спекам";
-	AL["SpecsDrop"] = "По Спекам";
-
-	--Other
-
-	AL["GrainOfSandOfLost"] = "Песчинка потерянного времени";
-	AL["Clappers"] = "Хлопушки";
-	AL["Animals"] = "Зверушки";
-	AL["Delicious buns"] = "Вкусные плюшки";
-	AL["Trial"] = "Испытание 25 уровень";
-    -- Minimap Button
-    AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
-    AL["|cffff0000Right-Click|r View Options"] = "|cffff0000ПКЛ|r Просмотр опций";
-    AL["|cffff0000Shift-Click|r View Options"] = "|cffff0000Shift-Клик|r Просмотр опций";
-    AL["|cffccccccLeft-Click + Drag|r Move Minimap Button"] = "|cffccccccЛКМ + Перетаскивание|r Перемещение кнопки у мини-карты";
-    AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffccccccПКМ + Перетаскивание|r Перемещение кнопки у мини-карты";
-
+	-- T4DQ
+	AL["T4DQDeathKnightDPS"] = "ДК - Нечестивость";
+	AL["T4DQDeathKnightDPSfrost"] = "ДК - Лед";
+	AL["T4DQDeathKnightDPSblood"] = "ДК - Кровь";
+    AL["T4DQDeathKnightTank"] = "ДК - Танк";
+	AL["T4DQDruidBalance"] = "Друид - Баланс";
+	AL["T4DQDruidFeral"] = "Друид - Сила зверя(кот)";
+	AL["T4DQDruidFeralDD"] = "Друид - Сила зверя(медведь)";
+	AL["T4DQDruidRestoration"] = "Друид - Исцеление";
+	AL["T4DQHunter"] = "Охотник - Повелитель зверей";
+	AL["T4DQHuntermm"] = "Охотник - Стрельба";
+	AL["T4DQHuntersu"] = "Охотник - Выживание";
+	AL["T4DQMage"] = "Маг - Тайная магия";
+	AL["T4DQMagefier"] = "Маг - Огонь";
+	AL["T4DQMagefrost"] = "Маг - Лед";
+	AL["T4DQPaladinHoly"] = "Паладин - Свет";
+	AL["T4DQPaladinProtection"] = "Паладин - Защита";
+	AL["T4DQPaladinRetribution"] = "Паладин - Воздаяние";
+    AL["T4DQPriestHolydz"] = "Жрец - Послушание";
+	AL["T4DQPriestHoly"] = "Жрец - Свет";
+    AL["T4DQPriestShadow"] = "Жрец - Тьма";
+	AL["T4DQRogue"] = "Разбойник - Ликвидация";
+	AL["T4DQRoguekomb"] = "Разбойник - Бой";
+	AL["T4DQRogueshd"] = "Разбойник - Скрытность";
+	AL["T4DQShamanElemental"] = "Шаман - Стихии";
+	AL["T4DQShamanEnhancement"] = "Шаман - Совершенствование";
+    AL["T4DQShamanRestoration"] = "Шаман - Исцеление";
+    AL["T4DQWarlock"] = "Чернокнижник - Колдовство";
+    AL["T4DQWarlockdeam"] = "Чернокнижник - Демонология";
+    AL["T4DQWarlockdestr"] = "Чернокнижник - Разрушение";
+    AL["T4DQWarriorarm"] = "Воин - Оружие";
+    AL["T4DQWarriorFury"] = "Воин - Неистовство";
+    AL["T4DQWarriorProtection"] = "Воин - Защита";
+	
+	-- T45DQ
+	AL["T5DQDeathKnightDPS"] = "ДК - Нечестивость";
+	AL["T5DQDeathKnightDPSfrost"] = "ДК - Лед";
+	AL["T5DQDeathKnightDPSblood"] = "ДК - Кровь";
+    AL["T5DQDeathKnightTank"] = "ДК - Танк(Нечестивость)";
+    AL["T5DQDeathKnightTankfrost"] = "ДК - Танк(Лед)";
+    AL["T5DQDeathKnightTankblood"] = "ДК - Танк(Кровь)";
+	AL["T5DQDruidBalance"] = "Друид - Баланс";
+	AL["T5DQDruidFeral"] = "Друид - Сила зверя(кот)";
+	AL["T5DQDruidFeralDD"] = "Друид - Сила зверя(медведь)";
+	AL["T5DQDruidRestoration"] = "Друид - Исцеление";
+	AL["T5DQHunter"] = "Охотник - Повелитель зверей";
+	AL["T5DQHuntermm"] = "Охотник - Стрельба";
+	AL["T5DQHuntersu"] = "Охотник - Выживание";
+	AL["T5DQMage"] = "Маг - Тайная магия";
+	AL["T5DQMagefier"] = "Маг - Огонь";
+	AL["T5DQMagefrost"] = "Маг - Лед";
+	AL["T5DQPaladinHoly"] = "Паладин - Свет";
+	AL["T5DQPaladinProtection"] = "Паладин - Защита";
+	AL["T5DQPaladinRetribution"] = "Паладин - Воздаяние";
+    AL["T5DQPriestHolydz"] = "Жрец - Послушание";
+	AL["T5DQPriestHoly"] = "Жрец - Свет";
+    AL["T5DQPriestShadow"] = "Жрец - Тьма";
+	AL["T5DQRogue"] = "Разбойник - Ликвидация";
+	AL["T5DQRoguekomb"] = "Разбойник - Бой";
+	AL["T5DQRogueshd"] = "Разбойник - Скрытность";
+	AL["T5DQShamanElemental"] = "Шаман - Стихии";
+	AL["T5DQShamanEnhancement"] = "Шаман - Совершенствование";
+    AL["T5DQShamanRestoration"] = "Шаман - Исцеление";
+    AL["T5DQWarlock"] = "Чернокнижник - Колдовство";
+    AL["T5DQWarlockdeam"] = "Чернокнижник - Демонология";
+    AL["T5DQWarlockdestr"] = "Чернокнижник - Разрушение";
+    AL["T5DQWarriorarm"] = "Воин - Оружие";
+    AL["T5DQWarriorFury"] = "Воин - Неистовство";
+    AL["T5DQWarriorProtection"] = "Воин - Защита";
+	
 	-- Filter
 	AL["Filter"] = "Фильтр";
     AL["Select All Loot"] = "Выбрать всю добычу";

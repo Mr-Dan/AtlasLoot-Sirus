@@ -410,6 +410,7 @@ function AtlasLoot_SetNewStyle(style)
 		"AtlasLootDefaultFrame_Preset7",
 		"AtlasLootDefaultFrame_Preset8",
 		"AtlasLootDefaultFrame_Preset9",
+		"AtlasLootDefaultFrame_Preset10",
 		"AtlasLootDefaultFrameSearchButton",
 		"AtlasLootDefaultFrameSearchClearButton",
 		"AtlasLootDefaultFrameLastResultButton",
@@ -452,15 +453,16 @@ function AtlasLoot_SetNewStyle(style)
 		AtlasLootDefaultFrame_Options:SetPushedTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
 		AtlasLootDefaultFrame_Options:SetHeight(24)
 
-		AtlasLootDefaultFrame_Preset1:SetWidth(59)
-		AtlasLootDefaultFrame_Preset2:SetWidth(59)
-		AtlasLootDefaultFrame_Preset3:SetWidth(59)
-		AtlasLootDefaultFrame_Preset4:SetWidth(59)
-		AtlasLootDefaultFrame_Preset5:SetWidth(59)
-		AtlasLootDefaultFrame_Preset6:SetWidth(59)
-		AtlasLootDefaultFrame_Preset7:SetWidth(59)
-		AtlasLootDefaultFrame_Preset8:SetWidth(59)
-		AtlasLootDefaultFrame_Preset9:SetWidth(59)
+		AtlasLootDefaultFrame_Preset1:SetWidth(111)
+		AtlasLootDefaultFrame_Preset2:SetWidth(111)
+		AtlasLootDefaultFrame_Preset3:SetWidth(111)
+		AtlasLootDefaultFrame_Preset4:SetWidth(111)
+		AtlasLootDefaultFrame_Preset5:SetWidth(111)
+		AtlasLootDefaultFrame_Preset6:SetWidth(111)
+		AtlasLootDefaultFrame_Preset7:SetWidth(111)
+		AtlasLootDefaultFrame_Preset8:SetWidth(111)
+		AtlasLootDefaultFrame_Preset9:SetWidth(111)
+		AtlasLootDefaultFrame_Preset10:SetWidth(111)
 		AtlasLootDefaultFrame_Preset1:SetPoint("LEFT", 14, 0)
 
 		AtlasLootDefaultFrameWishListButton:SetWidth(115)
@@ -474,11 +476,11 @@ function AtlasLoot_SetNewStyle(style)
 		   getglobal(path):SetHeight(24)
 		   local tex = getglobal(path):GetNormalTexture();
 		   tex:SetTexCoord(0, 0.6640625, 0, 0.8);
-		   tex:SetHeight(32)
+		   tex:SetHeight(24)
 
 		   local tex2 = getglobal(path):GetPushedTexture();
 		   tex2:SetTexCoord(0, 0.6640625, 0, 0.8);
-		   tex2:SetHeight(32)
+		   tex2:SetHeight(24)
 		end
 
 		for k,v in pairs(buttons) do
@@ -511,15 +513,16 @@ function AtlasLoot_SetNewStyle(style)
 		AtlasLootDefaultFrame_Options:SetPushedTexture("Interface/Buttons/UI-Panel-Button-Down")
 		AtlasLootDefaultFrame_Options:SetHeight(20)
 
-		AtlasLootDefaultFrame_Preset1:SetWidth(59)
-		AtlasLootDefaultFrame_Preset2:SetWidth(59)
-		AtlasLootDefaultFrame_Preset3:SetWidth(59)
-		AtlasLootDefaultFrame_Preset4:SetWidth(59)
-		AtlasLootDefaultFrame_Preset5:SetWidth(59)
-		AtlasLootDefaultFrame_Preset6:SetWidth(59)
-		AtlasLootDefaultFrame_Preset7:SetWidth(59)
-		AtlasLootDefaultFrame_Preset8:SetWidth(59)
-		AtlasLootDefaultFrame_Preset9:SetWidth(59)
+		AtlasLootDefaultFrame_Preset1:SetWidth(111)
+		AtlasLootDefaultFrame_Preset2:SetWidth(111)
+		AtlasLootDefaultFrame_Preset3:SetWidth(111)
+		AtlasLootDefaultFrame_Preset4:SetWidth(111)
+		AtlasLootDefaultFrame_Preset5:SetWidth(111)
+		AtlasLootDefaultFrame_Preset6:SetWidth(111)
+		AtlasLootDefaultFrame_Preset7:SetWidth(111)
+		AtlasLootDefaultFrame_Preset8:SetWidth(111)
+		AtlasLootDefaultFrame_Preset9:SetWidth(111)
+		AtlasLootDefaultFrame_Preset10:SetWidth(111)
 		AtlasLootDefaultFrame_Preset1:SetPoint("LEFT", 14, 0)
 
 		AtlasLootDefaultFrameWishListButton:SetWidth(115)
