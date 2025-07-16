@@ -18,6 +18,7 @@
 ## X-Curse-Project-Name: Atlasloot Enhanced
 ## X-Curse-Project-ID: atlasloot-enhanced
 ## X-Curse-Repository-ID: wow/atlasloot-enhanced/mainline
+## X-Sirus-Update: https://github.com/Mr-Dan/AtlasLoot-Sirus/tree/main/AtlasLoot_Sirus
 
 sirus.lua
 localization.lua
