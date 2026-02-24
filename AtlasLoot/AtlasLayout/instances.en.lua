@@ -24,6 +24,10 @@ AtlasLootNewBossButtons = {
         "";
         "Zort";
     };
+	EpochalWeapon = {
+        "";
+        "EpochalWeapon";
+    };
 	SpecsDrop = {
         "";
         "SpecsDrop";
@@ -1845,6 +1849,10 @@ AtlasLootBossButtons = {
     Zort = {
         "";
         "Zort";
+    };
+	EpochalWeapon = {
+        "";
+        "EpochalWeapon";
     };
 	SpecsDrop = {
         "";
