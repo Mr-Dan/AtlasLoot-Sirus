@@ -50,6 +50,267 @@ if not AtlasLoot_TableNames then
 end
 
 -----------------------
+--- Epochal mode ---
+-----------------------
+	-- EpochalWeapon
+	AtlasLoot_TableNames["EpochalWeapon200"] = { AL["EpochalWeapon200"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon203"] = { AL["EpochalWeapon203"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon206"] = { AL["EpochalWeapon206"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon209"] = { AL["EpochalWeapon209"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon213"] = { AL["EpochalWeapon213"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon216"] = { AL["EpochalWeapon216"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon219"] = { AL["EpochalWeapon219"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon222"] = { AL["EpochalWeapon222"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon226"] = { AL["EpochalWeapon226"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon229"] = { AL["EpochalWeapon229"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon232"] = { AL["EpochalWeapon232"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon236"] = { AL["EpochalWeapon236"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon239"] = { AL["EpochalWeapon239"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon242"] = { AL["EpochalWeapon242"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon245"] = { AL["EpochalWeapon245"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon247"] = { AL["EpochalWeapon247"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon249"] = { AL["EpochalWeapon249"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon251"] = { AL["EpochalWeapon251"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon253"] = { AL["EpochalWeapon253"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon256"] = { AL["EpochalWeapon256"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon258"] = { AL["EpochalWeapon258"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalWeapon260"] = { AL["EpochalWeapon260"], "AtlasLootSirus" };
+	
+	-- EpochalCloth
+	AtlasLoot_TableNames["EpochalCloth200"] = { AL["EpochalCloth200"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth203"] = { AL["EpochalCloth203"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth206"] = { AL["EpochalCloth206"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth209"] = { AL["EpochalCloth209"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth213"] = { AL["EpochalCloth213"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth216"] = { AL["EpochalCloth216"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth219"] = { AL["EpochalCloth219"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth222"] = { AL["EpochalCloth222"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth226"] = { AL["EpochalCloth226"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth229"] = { AL["EpochalCloth229"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth232"] = { AL["EpochalCloth232"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth236"] = { AL["EpochalCloth236"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth239"] = { AL["EpochalCloth239"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth242"] = { AL["EpochalCloth242"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth245"] = { AL["EpochalCloth245"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth247"] = { AL["EpochalCloth247"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth249"] = { AL["EpochalCloth249"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth251"] = { AL["EpochalCloth251"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth253"] = { AL["EpochalCloth253"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth256"] = { AL["EpochalCloth256"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth258"] = { AL["EpochalCloth258"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalCloth260"] = { AL["EpochalCloth260"], "AtlasLootSirus" };
+	
+	-- EpochalLeather
+	AtlasLoot_TableNames["EpochalLeather200"] = { AL["EpochalLeather200"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather200_2"] = { AL["EpochalLeather200_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather203"] = { AL["EpochalLeather203"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather203_2"] = { AL["EpochalLeather203_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather206"] = { AL["EpochalLeather206"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather206_2"] = { AL["EpochalLeather206_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather209"] = { AL["EpochalLeather209"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather209_2"] = { AL["EpochalLeather209_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather213"] = { AL["EpochalLeather213"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather213_2"] = { AL["EpochalLeather213_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather216"] = { AL["EpochalLeather216"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather216_2"] = { AL["EpochalLeather216_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather219"] = { AL["EpochalLeather219"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather219_2"] = { AL["EpochalLeather219_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather222"] = { AL["EpochalLeather222"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather222_2"] = { AL["EpochalLeather222_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather226"] = { AL["EpochalLeather226"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather226_2"] = { AL["EpochalLeather226_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather229"] = { AL["EpochalLeather229"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather229_2"] = { AL["EpochalLeather229_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather232"] = { AL["EpochalLeather232"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather232_2"] = { AL["EpochalLeather232_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather236"] = { AL["EpochalLeather236"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather236_2"] = { AL["EpochalLeather236_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather239"] = { AL["EpochalLeather239"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather239_2"] = { AL["EpochalLeather239_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather242"] = { AL["EpochalLeather242"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather242_2"] = { AL["EpochalLeather242_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather245"] = { AL["EpochalLeather245"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather245_2"] = { AL["EpochalLeather245_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather247"] = { AL["EpochalLeather247"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather247_2"] = { AL["EpochalLeather247_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather249"] = { AL["EpochalLeather249"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather249_2"] = { AL["EpochalLeather249_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather251"] = { AL["EpochalLeather251"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather251_2"] = { AL["EpochalLeather251_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather253"] = { AL["EpochalLeather253"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather253_2"] = { AL["EpochalLeather253_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather256"] = { AL["EpochalLeather256"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather256_2"] = { AL["EpochalLeather256_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather258"] = { AL["EpochalLeather258"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather258_2"] = { AL["EpochalLeather258_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather260"] = { AL["EpochalLeather260"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalLeather260_2"] = { AL["EpochalLeather260_2"], "AtlasLootSirus" };
+	
+	-- EpochalMail
+	AtlasLoot_TableNames["EpochalMail200"] = { AL["EpochalMail200"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail200_2"] = { AL["EpochalMail200_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail203"] = { AL["EpochalMail203"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail203_2"] = { AL["EpochalMail203_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail206"] = { AL["EpochalMail206"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail206_2"] = { AL["EpochalMail206_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail209"] = { AL["EpochalMail209"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail209_2"] = { AL["EpochalMail209_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail213"] = { AL["EpochalMail213"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail213_2"] = { AL["EpochalMail213_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail216"] = { AL["EpochalMail216"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail216_2"] = { AL["EpochalMail216_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail219"] = { AL["EpochalMail219"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail219_2"] = { AL["EpochalMail219_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail222"] = { AL["EpochalMail222"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail222_2"] = { AL["EpochalMail222_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail226"] = { AL["EpochalMail226"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail226_2"] = { AL["EpochalMail226_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail229"] = { AL["EpochalMail229"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail229_2"] = { AL["EpochalMail229_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail232"] = { AL["EpochalMail232"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail232_2"] = { AL["EpochalMail232_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail236"] = { AL["EpochalMail236"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail236_2"] = { AL["EpochalMail236_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail239"] = { AL["EpochalMail239"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail239_2"] = { AL["EpochalMail239_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail242"] = { AL["EpochalMail242"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail242_2"] = { AL["EpochalMail242_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail245"] = { AL["EpochalMail245"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail245_2"] = { AL["EpochalMail245_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail247"] = { AL["EpochalMail247"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail247_2"] = { AL["EpochalMail247_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail249"] = { AL["EpochalMail249"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail249_2"] = { AL["EpochalMail249_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail251"] = { AL["EpochalMail251"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail251_2"] = { AL["EpochalMail251_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail253"] = { AL["EpochalMail253"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail253_2"] = { AL["EpochalMail253_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail256"] = { AL["EpochalMail256"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail256_2"] = { AL["EpochalMail256_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail258"] = { AL["EpochalMail258"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail258_2"] = { AL["EpochalMail258_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail260"] = { AL["EpochalMail260"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalMail260_2"] = { AL["EpochalMail260_2"], "AtlasLootSirus" };
+	
+	-- EpochalPlait
+	AtlasLoot_TableNames["EpochalPlait200"] = { AL["EpochalPlait200"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait200_2"] = { AL["EpochalPlait200_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait203"] = { AL["EpochalPlait203"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait203_2"] = { AL["EpochalPlait203_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait206"] = { AL["EpochalPlait206"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait206_2"] = { AL["EpochalPlait206_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait209"] = { AL["EpochalPlait209"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait209_2"] = { AL["EpochalPlait209_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait213"] = { AL["EpochalPlait213"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait213_2"] = { AL["EpochalPlait213_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait216"] = { AL["EpochalPlait216"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait216_2"] = { AL["EpochalPlait216_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait219"] = { AL["EpochalPlait219"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait219_2"] = { AL["EpochalPlait219_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait222"] = { AL["EpochalPlait222"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait222_2"] = { AL["EpochalPlait222_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait226"] = { AL["EpochalPlait226"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait226_2"] = { AL["EpochalPlait226_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait229"] = { AL["EpochalPlait229"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait229_2"] = { AL["EpochalPlait229_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait232"] = { AL["EpochalPlait232"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait232_2"] = { AL["EpochalPlait232_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait236"] = { AL["EpochalPlait236"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait236_2"] = { AL["EpochalPlait236_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait239"] = { AL["EpochalPlait239"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait239_2"] = { AL["EpochalPlait239_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait242"] = { AL["EpochalPlait242"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait242_2"] = { AL["EpochalPlait242_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait245"] = { AL["EpochalPlait245"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait245_2"] = { AL["EpochalPlait245_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait247"] = { AL["EpochalPlait247"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait247_2"] = { AL["EpochalPlait247_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait249"] = { AL["EpochalPlait249"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait249_2"] = { AL["EpochalPlait249_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait251"] = { AL["EpochalPlait251"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait251_2"] = { AL["EpochalPlait251_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait253"] = { AL["EpochalPlait253"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait253_2"] = { AL["EpochalPlait253_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait256"] = { AL["EpochalPlait256"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait256_2"] = { AL["EpochalPlait256_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait258"] = { AL["EpochalPlait258"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait258_2"] = { AL["EpochalPlait258_2"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait260"] = { AL["EpochalPlait260"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalPlait260_2"] = { AL["EpochalPlait260_2"], "AtlasLootSirus" };
+	
+	-- EpochalСloak
+	AtlasLoot_TableNames["EpochalСloak200"] = { AL["EpochalСloak200"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak203"] = { AL["EpochalСloak203"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak206"] = { AL["EpochalСloak206"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak209"] = { AL["EpochalСloak209"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak213"] = { AL["EpochalСloak213"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak216"] = { AL["EpochalСloak216"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak219"] = { AL["EpochalСloak219"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak222"] = { AL["EpochalСloak222"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak226"] = { AL["EpochalСloak226"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak229"] = { AL["EpochalСloak229"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak232"] = { AL["EpochalСloak232"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak236"] = { AL["EpochalСloak236"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak239"] = { AL["EpochalСloak239"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak242"] = { AL["EpochalСloak242"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak245"] = { AL["EpochalСloak245"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak247"] = { AL["EpochalСloak247"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak249"] = { AL["EpochalСloak249"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak251"] = { AL["EpochalСloak251"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak253"] = { AL["EpochalСloak253"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak256"] = { AL["EpochalСloak256"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak258"] = { AL["EpochalСloak258"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalСloak260"] = { AL["EpochalСloak260"], "AtlasLootSirus" };
+	
+	-- EpochalNeck
+	AtlasLoot_TableNames["EpochalNeck200"] = { AL["EpochalNeck200"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck203"] = { AL["EpochalNeck203"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck206"] = { AL["EpochalNeck206"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck209"] = { AL["EpochalNeck209"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck213"] = { AL["EpochalNeck213"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck216"] = { AL["EpochalNeck216"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck219"] = { AL["EpochalNeck219"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck222"] = { AL["EpochalNeck222"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck226"] = { AL["EpochalNeck226"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck229"] = { AL["EpochalNeck229"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck232"] = { AL["EpochalNeck232"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck236"] = { AL["EpochalNeck236"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck239"] = { AL["EpochalNeck239"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck242"] = { AL["EpochalNeck242"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck245"] = { AL["EpochalNeck245"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck247"] = { AL["EpochalNeck247"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck249"] = { AL["EpochalNeck249"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck251"] = { AL["EpochalNeck251"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck253"] = { AL["EpochalNeck253"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck256"] = { AL["EpochalNeck256"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck258"] = { AL["EpochalNeck258"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalNeck260"] = { AL["EpochalNeck260"], "AtlasLootSirus" };
+	
+	-- EpochalRight
+	AtlasLoot_TableNames["EpochalRight200"] = { AL["EpochalRight200"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight203"] = { AL["EpochalRight203"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight206"] = { AL["EpochalRight206"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight209"] = { AL["EpochalRight209"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight213"] = { AL["EpochalRight213"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight216"] = { AL["EpochalRight216"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight219"] = { AL["EpochalRight219"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight222"] = { AL["EpochalRight222"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight226"] = { AL["EpochalRight226"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight229"] = { AL["EpochalRight229"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight232"] = { AL["EpochalRight232"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight236"] = { AL["EpochalRight236"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight239"] = { AL["EpochalRight239"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight242"] = { AL["EpochalRight242"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight245"] = { AL["EpochalRight245"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight247"] = { AL["EpochalRight247"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight249"] = { AL["EpochalRight249"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight251"] = { AL["EpochalRight251"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight253"] = { AL["EpochalRight253"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight256"] = { AL["EpochalRight256"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight258"] = { AL["EpochalRight258"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["EpochalRight260"] = { AL["EpochalRight260"], "AtlasLootSirus" };
+	
+-----------------------
 --- Sirus Instances ---
 -----------------------
 	
@@ -92,7 +353,9 @@ end
 	AtlasLoot_TableNames["GrainOfSandOfLost"] ={AL["GrainOfSandOfLost"], "AtlasLootSirus" };
 	
 	AtlasLoot_TableNames["Zort"] ={AL["Zort"], "AtlasLootSirus" };
-		
+	
+	AtlasLoot_TableNames["EpochalWeapon"] ={AL["EpochalWeapon"], "AtlasLootSirus" };
+
 -----------------------
 --- WotLK Instances ---
 -----------------------
@@ -2593,5 +2856,4 @@ end
     AtlasLoot_TableNames["Keld"] ={AL["Keld"], "AtlasLootSirus" };
     AtlasLoot_TableNames["Tolg"] ={AL["Tolg"], "AtlasLootSirus" };
     AtlasLoot_TableNames["His"] ={AL["His"], "AtlasLootSirus" };
-
 	

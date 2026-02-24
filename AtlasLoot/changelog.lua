@@ -40,6 +40,7 @@ AtlasLootVersionsList[36] = "03.05.25"
 AtlasLootVersionsList[37] = "22.05.25"
 AtlasLootVersionsList[38] = "21.06.25"
 AtlasLootVersionsList[39] = "14.07.25"
+AtlasLootVersionsList[40] = "22.02.26"
 
 local GREY = "|cff999999";
 local RED = "|cffff0000";
@@ -345,6 +346,10 @@ text:SetText(WHITE..
 elseif x == 39 then
 text:SetText(WHITE..
 "- На кнопках быстрого осмотра теперь написано название сохраненной таблицы".."\n\n"
+)
+elseif x == 40 then
+text:SetText(WHITE..
+"- Добавлен лут с Эпохальных подземелий".."\n\n"
 )
 end
 end
