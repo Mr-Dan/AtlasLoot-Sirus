@@ -1409,6 +1409,10 @@ if AL then
 	AL["Cracked Egg"] = true;
 	AL["Small Spice Bag"] = true;
 	AL["Handful of Candy"] = true;
+	AL["Clappers"] = true;
+	AL["Animals"] = true;
+	AL["Delicious buns"] = true;
+	AL["Trial"] = true;
 	AL["Lovely Dress Box"] = true;
 	AL["Dinner Suit Box"] = true;
 	AL["Bag of Heart Candies"] = true;

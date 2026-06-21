@@ -2081,6 +2081,10 @@ if AL then
     AL["Cracked Egg"] = "Треснутое яйцо";
 	AL["Small Spice Bag"] = "Маленький мешочек со специями";
 	AL["Handful of Candy"] = "Пригоршня конфет";
+	AL["Clappers"] = "Хлопушки";
+	AL["Animals"] = "Питомцы и транспорт";
+	AL["Delicious buns"] = "Полезные мелочи";
+	AL["Trial"] = "Испытание";
 	AL["Lovely Dress Box"] = "Коробка с красивым платьем";
 	AL["Dinner Suit Box"] = "Коробка с вечерним костюмом";
 	AL["Bag of Heart Candies"] = "Пакетик с леденцами-сердечками";
